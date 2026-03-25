@@ -990,18 +990,24 @@ function buildPrintSheetSVG() {
   rightY += 5;
   const rowH = 5;
 
-  svg += `<rect x="${contentL}" y="${rightY}" width="${contentW}" height="${rowH}" fill="none" stroke="#9ec5a0" stroke-width="0.3"/>`;
+  // Outer border for the whole readings box
+  const readingsH = rowH + (rowH + 2) * 2;
+  svg += `<rect x="${contentL}" y="${rightY}" width="${contentW}" height="${readingsH}" rx="1.5" fill="none" stroke="#b8c8d4" stroke-width="0.3"/>`;
+
+  // Header row
+  svg += `<line x1="${contentL}" y1="${rightY + rowH}" x2="${contentR}" y2="${rightY + rowH}" stroke="#b8c8d4" stroke-width="0.2"/>`;
   svg += `<text x="${contentL + contentW / 2}" y="${rightY + 3.5}" text-anchor="middle" font-size="2.2" fill="#9ec5a0" font-weight="bold">☆ よみかた ☆</text>`;
   rightY += rowH;
 
-  svg += `<rect x="${contentL}" y="${rightY}" width="${contentW}" height="${rowH + 2}" fill="none" stroke="#ccc" stroke-width="0.2"/>`;
-  svg += `<text x="${contentL + 2}" y="${rightY + 3}" font-size="1.8" fill="#888">くん</text>`;
-  svg += `<text x="${contentL + 12}" y="${rightY + 3}" font-size="2" fill="#333">${kunReadings.join("、") || "—"}</text>`;
+  // Kun row
+  svg += `<line x1="${contentL}" y1="${rightY + rowH + 2}" x2="${contentR}" y2="${rightY + rowH + 2}" stroke="#ddd" stroke-width="0.15"/>`;
+  svg += `<text x="${contentL + 3}" y="${rightY + 4}" font-size="1.8" fill="#9ec5a0" font-weight="bold">くん</text>`;
+  svg += `<text x="${contentL + 12}" y="${rightY + 4}" font-size="2" fill="#333">${kunReadings.join("、") || "—"}</text>`;
   rightY += rowH + 2;
 
-  svg += `<rect x="${contentL}" y="${rightY}" width="${contentW}" height="${rowH + 2}" fill="none" stroke="#ccc" stroke-width="0.2"/>`;
-  svg += `<text x="${contentL + 2}" y="${rightY + 3}" font-size="1.8" fill="#888">音</text>`;
-  svg += `<text x="${contentL + 12}" y="${rightY + 3}" font-size="2" fill="#333">${onReadings.join("、") || "—"}</text>`;
+  // On row
+  svg += `<text x="${contentL + 3}" y="${rightY + 4}" font-size="1.8" fill="#e8a0aa" font-weight="bold">音</text>`;
+  svg += `<text x="${contentL + 12}" y="${rightY + 4}" font-size="2" fill="#333">${onReadings.join("、") || "—"}</text>`;
   rightY += rowH + 2;
 
   // --- Kakijun (flows right after readings, left-to-right) ---
@@ -1039,10 +1045,10 @@ function buildPrintSheetSVG() {
     const cx = contentL + col * (kjCellSize + kjGap);
     const cy = rightY + row * (kjCellSize + labelSpace);
 
-    svg += `<rect x="${cx}" y="${cy}" width="${kjCellSize}" height="${kjCellSize}" fill="none" stroke="#ddd" stroke-width="0.2"/>`;
+    svg += `<rect x="${cx}" y="${cy}" width="${kjCellSize}" height="${kjCellSize}" rx="1.5" fill="#faf8f4" stroke="#d0d8dc" stroke-width="0.25"/>`;
     svg += crossGuide(cx, cy, kjCellSize);
     svg += stepPaths(cx + 0.5, cy + 0.5, kjCellSize - 1, i);
-    svg += `<text x="${cx + kjCellSize / 2}" y="${cy + kjCellSize + 3.5}" text-anchor="middle" font-size="2.5" fill="#7a7a7a">${i + 1}/${n}</text>`;
+    svg += `<text x="${cx + kjCellSize / 2}" y="${cy + kjCellSize + 3.5}" text-anchor="middle" font-size="2.2" fill="#7a7a7a">${i + 1}/${n}</text>`;
   }
 
   return `<!DOCTYPE html>
