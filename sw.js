@@ -1,4 +1,4 @@
-const CACHE_NAME = "kanji-app-v4";
+const CACHE_NAME = "kanji-app-v5";
 const APP_SHELL = ["/", "/index.html", "/style.css", "/app.js", "/manifest.json", "/icon.svg"];
 
 self.addEventListener("install", (e) => {
