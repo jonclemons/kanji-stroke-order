@@ -21,8 +21,8 @@ let currentKanji = "";
 let currentStrokes = [];
 let currentViewBox = "";
 let currentGrade = null;
+let currentKanjiInfo = null;
 
-// Cache for grade kanji lists and kanji info
 const gradeKanjiCache = {};
 const kanjiInfoCache = {};
 
@@ -84,28 +84,26 @@ function getViewBox(svgText) {
 }
 
 // --- Grade-appropriate word filtering ---
-// Only show words where ALL kanji in the word are from the same grade or lower.
-// This ensures kids only see words they can actually read.
+// Only show short, common words where ALL kanji are from the same grade or lower.
 
 async function getGradeAppropriateWords(kanji, words, targetGrade) {
-  if (!targetGrade) targetGrade = 6; // default: show all elementary
+  if (!targetGrade) targetGrade = 6;
 
-  // Build a set of all kanji up to the target grade
   const knownKanji = new Set();
   for (let g = 1; g <= targetGrade; g++) {
     const list = await fetchGradeKanji(g);
     list.forEach((k) => knownKanji.add(k));
   }
 
-  // Filter words: keep only those where every kanji in the word is in knownKanji
   const filtered = words.filter((w) => {
     if (!w.variants || !w.variants.length || !w.meanings || !w.meanings.length) return false;
     const written = w.variants[0].written;
     if (!written) return false;
-    // Check each character — if it's a kanji (not kana), it must be in knownKanji
+    // Keep short words only (1-3 characters) — age-appropriate
+    if (written.length > 3) return false;
+    // Every kanji must be known at this grade level
     for (const ch of written) {
       const code = ch.codePointAt(0);
-      // CJK Unified Ideographs range
       if (code >= 0x4e00 && code <= 0x9fff) {
         if (!knownKanji.has(ch)) return false;
       }
@@ -113,7 +111,18 @@ async function getGradeAppropriateWords(kanji, words, targetGrade) {
     return true;
   });
 
-  return filtered.slice(0, 12);
+  // Deduplicate by written form
+  const seen = new Set();
+  const unique = [];
+  for (const w of filtered) {
+    const written = w.variants[0].written;
+    if (!seen.has(written)) {
+      seen.add(written);
+      unique.push(w);
+    }
+  }
+
+  return unique.slice(0, 10);
 }
 
 // --- Rendering ---
@@ -132,9 +141,6 @@ function renderReadings(info) {
   }
   if (info.kun_readings && info.kun_readings.length > 0) {
     groups.push({ label: "訓読み（くんよみ）", values: info.kun_readings });
-  }
-  if (info.meanings && info.meanings.length > 0) {
-    groups.push({ label: "いみ", values: info.meanings });
   }
   if (info.grade) {
     const gradeLabel = info.grade <= 6
@@ -212,7 +218,8 @@ function createStepSVG(strokes, upToStep, size, viewBox) {
   return svg;
 }
 
-function createPrintStepSVG(strokes, upToStep, size, viewBox) {
+// Create SVG for print — with stroke number labels
+function createPrintStepSVG(strokes, upToStep, size, viewBox, showNumbers) {
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   svg.setAttribute("viewBox", viewBox);
   svg.setAttribute("width", size);
@@ -225,14 +232,53 @@ function createPrintStepSVG(strokes, upToStep, size, viewBox) {
     path.setAttribute("stroke-linecap", "round");
     path.setAttribute("stroke-linejoin", "round");
     if (i === upToStep) {
-      path.setAttribute("stroke", "#cc0000");
-      path.setAttribute("stroke-width", "4.5");
+      path.setAttribute("stroke", "#e94560");
+      path.setAttribute("stroke-width", "4");
     } else {
-      path.setAttribute("stroke", "#333");
-      path.setAttribute("stroke-width", "3.5");
+      path.setAttribute("stroke", "#999");
+      path.setAttribute("stroke-width", "3");
     }
     svg.appendChild(path);
+
+    // Add stroke number
+    if (showNumbers) {
+      const d = strokes[i].d;
+      const match = d.match(/^[Mm]\s*([\d.]+)[,\s]+([\d.]+)/);
+      if (match) {
+        const x = parseFloat(match[1]);
+        const y = parseFloat(match[2]);
+        const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        text.setAttribute("x", x + 2);
+        text.setAttribute("y", y - 2);
+        text.setAttribute("font-size", "8");
+        text.setAttribute("fill", "#e94560");
+        text.setAttribute("font-family", "sans-serif");
+        text.textContent = i + 1;
+        svg.appendChild(text);
+      }
+    }
   }
+
+  return svg;
+}
+
+// Full kanji SVG for print (all strokes, light gray for tracing guide)
+function createPrintGuideSVG(strokes, size, viewBox, color) {
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("viewBox", viewBox);
+  svg.setAttribute("width", size);
+  svg.setAttribute("height", size);
+
+  strokes.forEach((stroke) => {
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", stroke.d);
+    path.setAttribute("fill", "none");
+    path.setAttribute("stroke", color);
+    path.setAttribute("stroke-width", "3");
+    path.setAttribute("stroke-linecap", "round");
+    path.setAttribute("stroke-linejoin", "round");
+    svg.appendChild(path);
+  });
 
   return svg;
 }
@@ -362,53 +408,160 @@ function resetAnimation() {
   });
 }
 
-// --- Print ---
+// --- Print Practice Sheet (Japanese school style) ---
 
 function printPracticeSheet() {
-  const rows = parseInt(document.getElementById("practiceRows").value) || 6;
-  const cols = parseInt(document.getElementById("practiceCols").value) || 8;
-  const showGuide = document.getElementById("showGuide").checked;
-  const showStrokeRef = document.getElementById("showStrokeRef").checked;
-
   const existing = document.querySelector(".print-sheet");
   if (existing) existing.remove();
 
+  const info = currentKanjiInfo;
+  const gradeNum = info?.grade || currentGrade || "";
+  const strokeCount = info?.stroke_count || currentStrokes.length;
+  const onReadings = info?.on_readings || [];
+  const kunReadings = info?.kun_readings || [];
+
   const sheet = document.createElement("div");
   sheet.className = "print-sheet";
-  sheet.style.display = "none";
 
+  // --- Top header bar ---
   const header = document.createElement("div");
-  header.className = "print-header";
+  header.className = "ps-header";
   header.innerHTML = `
-    <div class="kanji-char">${currentKanji}</div>
-    <div class="info">かきじゅんれんしゅう — ${currentStrokes.length}画</div>
+    <div class="ps-grade-badge">${gradeNum}年生</div>
+    <div class="ps-title">
+      <span class="ps-title-main">漢字をおぼえよう</span>
+      <span class="ps-title-sub">漢字の練習</span>
+    </div>
+    <div class="ps-name-fields">
+      <span class="ps-name-field">年</span>
+      <span class="ps-name-field">組</span>
+      <span class="ps-name-field">名前</span>
+    </div>
   `;
   sheet.appendChild(header);
 
-  if (showStrokeRef) {
-    const ref = document.createElement("div");
-    ref.className = "print-stroke-ref";
-    const refSize = Math.min(50, Math.floor(600 / currentStrokes.length));
-    for (let i = 0; i < currentStrokes.length; i++) {
-      const svg = createPrintStepSVG(currentStrokes, i, refSize, currentViewBox);
-      ref.appendChild(svg);
-    }
-    sheet.appendChild(ref);
-  }
+  // --- Main content area ---
+  const main = document.createElement("div");
+  main.className = "ps-main";
 
-  const table = document.createElement("table");
-  for (let r = 0; r < rows; r++) {
+  // LEFT: Practice grid (3 cols × 5 rows of writing cells)
+  const leftSection = document.createElement("div");
+  leftSection.className = "ps-left";
+
+  // First row has the guide kanji in the first cell
+  const practiceGrid = document.createElement("table");
+  practiceGrid.className = "ps-practice-grid";
+  const practiceRows = 5;
+  const practiceCols = 3;
+  for (let r = 0; r < practiceRows; r++) {
     const tr = document.createElement("tr");
-    for (let c = 0; c < cols; c++) {
+    for (let c = 0; c < practiceCols; c++) {
       const td = document.createElement("td");
-      if (r === 0 && c === 0 && showGuide) {
-        td.innerHTML = `<span class="guide-kanji">${currentKanji}</span>`;
+      td.className = "ps-cell";
+      // First two cells get guide kanji (light gray)
+      if (r === 0 && c < 2) {
+        const guideSvg = createPrintGuideSVG(currentStrokes, "100%", currentViewBox, "#ccc");
+        guideSvg.setAttribute("width", "100%");
+        guideSvg.setAttribute("height", "100%");
+        guideSvg.style.position = "absolute";
+        guideSvg.style.top = "0";
+        guideSvg.style.left = "0";
+        td.appendChild(guideSvg);
       }
       tr.appendChild(td);
     }
-    table.appendChild(tr);
+    practiceGrid.appendChild(tr);
   }
-  sheet.appendChild(table);
+
+  const practiceLabel = document.createElement("div");
+  practiceLabel.className = "ps-vertical-label";
+  practiceLabel.textContent = "くり返し書いておぼえよう";
+
+  leftSection.appendChild(practiceGrid);
+  leftSection.appendChild(practiceLabel);
+
+  // CENTER: Stroke order step-by-step (3 large cells showing progressive strokes with numbers)
+  const centerSection = document.createElement("div");
+  centerSection.className = "ps-center";
+
+  const strokeStepGrid = document.createElement("table");
+  strokeStepGrid.className = "ps-stroke-steps";
+
+  // Show 3 stages of stroke building
+  const stepCount = currentStrokes.length;
+  const stageIndices = [];
+  if (stepCount <= 3) {
+    for (let i = 0; i < stepCount; i++) stageIndices.push(i);
+  } else {
+    // Show ~3 evenly spaced stages plus the final
+    const mid = Math.floor(stepCount / 2) - 1;
+    stageIndices.push(mid);
+    stageIndices.push(stepCount - 2);
+    stageIndices.push(stepCount - 1);
+  }
+
+  for (const idx of stageIndices) {
+    const tr = document.createElement("tr");
+    const td = document.createElement("td");
+    td.className = "ps-cell ps-stroke-cell";
+    const svg = createPrintStepSVG(currentStrokes, idx, "100%", currentViewBox, true);
+    svg.setAttribute("width", "100%");
+    svg.setAttribute("height", "100%");
+    svg.style.position = "absolute";
+    svg.style.top = "0";
+    svg.style.left = "0";
+    td.appendChild(svg);
+    tr.appendChild(td);
+    strokeStepGrid.appendChild(tr);
+  }
+
+  const strokeLabel = document.createElement("div");
+  strokeLabel.className = "ps-vertical-label";
+  strokeLabel.textContent = "書きじゅんに気をつけて書いてみよう";
+
+  centerSection.appendChild(strokeStepGrid);
+  centerSection.appendChild(strokeLabel);
+
+  // RIGHT: Large reference kanji with stroke numbers + info panel
+  const rightSection = document.createElement("div");
+  rightSection.className = "ps-right";
+
+  // Large kanji with all stroke numbers
+  const refBox = document.createElement("div");
+  refBox.className = "ps-ref-kanji";
+  const refSvg = createPrintStepSVG(currentStrokes, stepCount - 1, "100%", currentViewBox, true);
+  refSvg.setAttribute("width", "100%");
+  refSvg.setAttribute("height", "100%");
+  refBox.appendChild(refSvg);
+  rightSection.appendChild(refBox);
+
+  // Stroke count
+  const strokeInfo = document.createElement("div");
+  strokeInfo.className = "ps-stroke-count";
+  strokeInfo.textContent = `${strokeCount}画`;
+  rightSection.appendChild(strokeInfo);
+
+  // Readings table
+  const readingTable = document.createElement("table");
+  readingTable.className = "ps-reading-table";
+  readingTable.innerHTML = `
+    <tr><th colspan="2">読み方</th></tr>
+    <tr>
+      <td class="ps-reading-label">くん</td>
+      <td class="ps-reading-label">音</td>
+    </tr>
+    <tr>
+      <td class="ps-reading-value">${kunReadings.join("、") || "—"}</td>
+      <td class="ps-reading-value">${onReadings.join("、") || "—"}</td>
+    </tr>
+  `;
+  rightSection.appendChild(readingTable);
+
+  main.appendChild(leftSection);
+  main.appendChild(centerSection);
+  main.appendChild(rightSection);
+  sheet.appendChild(main);
+
   document.body.appendChild(sheet);
   window.print();
 }
@@ -472,13 +625,13 @@ async function lookup() {
       throw new Error("かきじゅんデータがみつかりません");
     }
 
-    // Determine the grade for word filtering
     const grade = kanjiInfo?.grade || currentGrade || 6;
     const filteredWords = await getGradeAppropriateWords(kanji, kanjiWords, grade);
 
     currentKanji = kanji;
     currentStrokes = strokes;
     currentViewBox = viewBox;
+    currentKanjiInfo = kanjiInfo;
 
     kanjiTitle.textContent = kanji;
     renderReadings(kanjiInfo);
@@ -486,6 +639,9 @@ async function lookup() {
     renderSteps(strokes, viewBox);
     setupAnimation(strokes, viewBox);
     resultsEl.classList.remove("hidden");
+
+    // Autoplay animation
+    setTimeout(() => playAnimation(), 300);
   } catch (err) {
     errorEl.textContent = err.message;
   } finally {

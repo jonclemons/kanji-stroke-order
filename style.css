@@ -312,98 +312,216 @@ button:hover {
   text-align: center;
 }
 
-/* Print styles */
+/* Print styles — Japanese school practice sheet */
 @media print {
-  body {
-    background: white;
-    color: black;
+  @page {
+    size: landscape;
+    margin: 8mm;
   }
 
-  .container, .input-section, .error,
-  .section, .animation-container, .animation-controls,
-  .practice-options, .readings, .words-list,
-  .grade-nav, .kanji-grid {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  .container {
     display: none !important;
   }
 
   .print-sheet {
     display: block !important;
-    page-break-inside: avoid;
+    width: 100%;
+    font-family: "Hiragino Kaku Gothic ProN", "Meiryo", "Yu Gothic", sans-serif;
   }
 
-  .print-sheet table {
+  /* --- Header bar --- */
+  .ps-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 8px;
+    border-bottom: 3px solid #f5a623;
+    padding-bottom: 6px;
+  }
+
+  .ps-grade-badge {
+    background: #f48fb1;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+
+  .ps-title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ps-title-main {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4caf50;
+  }
+
+  .ps-title-sub {
+    font-size: 0.8rem;
+    color: #666;
+  }
+
+  .ps-name-fields {
+    margin-left: auto;
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .ps-name-field {
+    border-bottom: 1px solid #333;
+    padding: 0 2rem 2px 0.3rem;
+  }
+
+  /* --- Main 3-column layout --- */
+  .ps-main {
+    display: flex;
+    gap: 8px;
+    height: calc(100vh - 60px);
+  }
+
+  .ps-left {
+    flex: 3;
+    display: flex;
+    gap: 4px;
+  }
+
+  .ps-center {
+    flex: 1;
+    display: flex;
+    gap: 4px;
+  }
+
+  .ps-right {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  /* --- Practice grid cells --- */
+  .ps-practice-grid,
+  .ps-stroke-steps {
     border-collapse: collapse;
     width: 100%;
+    height: 100%;
     table-layout: fixed;
   }
 
-  .print-sheet td {
-    border: 1px solid #ccc;
-    aspect-ratio: 1;
+  .ps-cell {
+    border: 1px solid #aaa;
     position: relative;
+    aspect-ratio: 1;
     padding: 0;
     vertical-align: middle;
     text-align: center;
   }
 
-  .print-sheet td::before,
-  .print-sheet td::after {
+  /* Cross guide lines in every cell */
+  .ps-cell::before,
+  .ps-cell::after {
     content: "";
     position: absolute;
-    background: #e0e0e0;
   }
 
-  .print-sheet td::before {
+  .ps-cell::before {
     top: 0;
     bottom: 0;
     left: 50%;
     width: 1px;
+    background: #d0e8ff;
   }
 
-  .print-sheet td::after {
+  .ps-cell::after {
     left: 0;
     right: 0;
     top: 50%;
     height: 1px;
+    background: #d0e8ff;
   }
 
-  .print-sheet .guide-kanji {
-    font-size: 2.5rem;
-    color: #ccc;
+  .ps-cell svg {
     position: relative;
     z-index: 1;
   }
 
-  .print-sheet svg {
+  .ps-stroke-cell svg {
     position: relative;
     z-index: 1;
   }
 
-  .print-header {
-    text-align: center;
-    margin-bottom: 0.75rem;
-    font-family: sans-serif;
-  }
-
-  .print-header .kanji-char {
-    font-size: 2.5rem;
-  }
-
-  .print-header .info {
-    font-size: 0.9rem;
-    color: #555;
-  }
-
-  .print-stroke-ref {
+  /* Vertical labels */
+  .ps-vertical-label {
+    writing-mode: vertical-rl;
+    font-size: 0.7rem;
+    color: #333;
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 0.5rem;
-    margin-bottom: 0.75rem;
-    flex-wrap: wrap;
+    padding: 0 2px;
+    white-space: nowrap;
   }
 
-  .print-stroke-ref svg {
-    border: 1px solid #ddd;
-    border-radius: 4px;
+  /* --- Right panel --- */
+  .ps-ref-kanji {
+    border: 3px solid #f48fb1;
+    border-radius: 8px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    position: relative;
+  }
+
+  .ps-ref-kanji svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ps-stroke-count {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .ps-reading-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.75rem;
+  }
+
+  .ps-reading-table th {
+    background: #4fc3f7;
+    color: white;
+    padding: 3px 6px;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .ps-reading-label {
+    background: #e3f2fd;
+    text-align: center;
+    padding: 2px 4px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+  }
+
+  .ps-reading-value {
+    text-align: center;
+    padding: 4px;
+    border: 1px solid #ccc;
+    color: #4fc3f7;
+    font-size: 0.8rem;
   }
 }
