@@ -490,6 +490,11 @@ button:hover {
   border-color: #e94560;
 }
 
+@keyframes trace-pulse {
+  0%, 100% { opacity: 1; r: 7; }
+  50% { opacity: 0.5; r: 9; }
+}
+
 .trace-message {
   margin-top: 0.5rem;
   font-size: 1.2rem;

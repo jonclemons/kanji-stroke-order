@@ -681,6 +681,63 @@ function buildTraceSVG() {
   svg.addEventListener("pointerleave", onTraceEnd);
 }
 
+function removeTraceHint() {
+  const old = traceSvgEl?.querySelector(".trace-hint");
+  if (old) old.remove();
+}
+
+function addTraceHint(path, index) {
+  removeTraceHint();
+  const startPt = path.getPointAtLength(0);
+  const dirPt = path.getPointAtLength(Math.min(12, path.getTotalLength()));
+  const angle = Math.atan2(dirPt.y - startPt.y, dirPt.x - startPt.x);
+
+  const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  g.setAttribute("class", "trace-hint");
+
+  // Pulsing circle at start
+  const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+  circle.setAttribute("cx", startPt.x);
+  circle.setAttribute("cy", startPt.y);
+  circle.setAttribute("r", "7");
+  circle.setAttribute("fill", "rgba(76, 175, 80, 0.3)");
+  circle.setAttribute("stroke", "#4caf50");
+  circle.setAttribute("stroke-width", "1.2");
+  g.appendChild(circle);
+
+  // Stroke number
+  const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+  text.setAttribute("x", startPt.x);
+  text.setAttribute("y", startPt.y + 3.5);
+  text.setAttribute("text-anchor", "middle");
+  text.setAttribute("font-size", "8");
+  text.setAttribute("fill", "#4caf50");
+  text.setAttribute("font-family", "sans-serif");
+  text.setAttribute("font-weight", "bold");
+  text.textContent = index + 1;
+  g.appendChild(text);
+
+  // Direction arrow
+  const arrowLen = 10;
+  const ax = startPt.x + Math.cos(angle) * 14;
+  const ay = startPt.y + Math.sin(angle) * 14;
+  const arrow = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+  const tipX = ax + Math.cos(angle) * arrowLen;
+  const tipY = ay + Math.sin(angle) * arrowLen;
+  const lx = ax + Math.cos(angle + 2.5) * 5;
+  const ly = ay + Math.sin(angle + 2.5) * 5;
+  const rx = ax + Math.cos(angle - 2.5) * 5;
+  const ry = ay + Math.sin(angle - 2.5) * 5;
+  arrow.setAttribute("points", `${tipX},${tipY} ${lx},${ly} ${rx},${ry}`);
+  arrow.setAttribute("fill", "#4caf50");
+  g.appendChild(arrow);
+
+  // Pulse animation via CSS
+  circle.style.animation = "trace-pulse 1s ease-in-out infinite";
+
+  traceSvgEl.appendChild(g);
+}
+
 function initTraceStroke(index) {
   if (index >= tracePaths.length) return;
   const path = tracePaths[index];
@@ -690,6 +747,7 @@ function initTraceStroke(index) {
   path.style.strokeDashoffset = len;
   path.style.transition = "none";
   traceProgress = 0;
+  addTraceHint(path, index);
 }
 
 function updateTraceCounter() {
@@ -733,6 +791,7 @@ function onTraceStart(e) {
   e.preventDefault();
   traceIsDrawing = true;
   traceCanvas.classList.remove("error");
+  removeTraceHint();
   onTraceMove(e);
 }
 
