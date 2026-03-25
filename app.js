@@ -603,14 +603,16 @@ let tracePaths = [];
 let traceIsDrawing = false;
 let traceSvgEl = null;
 
-const animationContainerEl = document.querySelector(".animation-container");
+const animationWrap = document.getElementById("animationWrap");
+const canvasTitle = document.getElementById("canvasTitle");
 
 function enterTraceMode() {
   if (!currentStrokes.length) return;
   stopAnimation();
   isTracing = true;
-  animationContainerEl.classList.add("hidden");
+  animationWrap.classList.add("hidden");
   traceArea.classList.remove("hidden");
+  canvasTitle.textContent = "なぞってみよう";
   traceMessage.classList.add("hidden");
   traceRetryBtn.classList.add("hidden");
   traceBtn.textContent = "▶";
@@ -621,7 +623,8 @@ function enterTraceMode() {
 function exitTraceMode() {
   isTracing = false;
   traceArea.classList.add("hidden");
-  animationContainerEl.classList.remove("hidden");
+  animationWrap.classList.remove("hidden");
+  canvasTitle.textContent = "アニメーション";
   traceBtn.textContent = "✏";
   traceBtn.title = "なぞる";
 }

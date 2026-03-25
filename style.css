@@ -438,6 +438,13 @@ button:hover {
   border-color: #e94560;
 }
 
+/* Canvas area: shared controls for animation + trace */
+.canvas-area {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
 /* Tracing mode */
 .trace-area {
   text-align: center;
