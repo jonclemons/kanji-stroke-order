@@ -660,7 +660,7 @@ async function lookup() {
   }
 
   lookupBtn.disabled = true;
-  lookupBtn.textContent = "よみこみちゅう...";
+  lookupBtn.textContent = "…";
 
   try {
     const [svgText, kanjiInfo, kanjiWords] = await Promise.all([
