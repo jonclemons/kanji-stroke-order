@@ -151,3 +151,193 @@ button:hover {
 #speedSlider {
   width: 100px;
 }
+
+/* Readings */
+.readings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.reading-group {
+  background: #16213e;
+  border-radius: 10px;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #333;
+}
+
+.reading-group .label {
+  font-size: 0.75rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.35rem;
+}
+
+.reading-group .values {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+.reading-group .values span {
+  margin-right: 0.5rem;
+}
+
+/* Common Words */
+.words-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.word-card {
+  background: #16213e;
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  border: 1px solid #333;
+  text-align: center;
+  min-width: 100px;
+}
+
+.word-card .word {
+  font-size: 1.3rem;
+  color: #e0e0e0;
+}
+
+.word-card .word-reading {
+  font-size: 0.85rem;
+  color: #e94560;
+  margin-top: 0.15rem;
+}
+
+.word-card .word-meaning {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 0.15rem;
+}
+
+/* Practice Sheet Options */
+.practice-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.practice-options label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.practice-options input[type="number"] {
+  width: 50px;
+  padding: 0.3rem;
+  background: #16213e;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+
+  .container, .input-section, .error,
+  .section, .animation-container, .animation-controls,
+  .practice-options, .readings, .words-list {
+    display: none !important;
+  }
+
+  .print-sheet {
+    display: block !important;
+    page-break-inside: avoid;
+  }
+
+  .print-sheet table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .print-sheet td {
+    border: 1px solid #ccc;
+    aspect-ratio: 1;
+    position: relative;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .print-sheet td::before,
+  .print-sheet td::after {
+    content: "";
+    position: absolute;
+    background: #e0e0e0;
+  }
+
+  /* Vertical center guide */
+  .print-sheet td::before {
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+  }
+
+  /* Horizontal center guide */
+  .print-sheet td::after {
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 1px;
+  }
+
+  .print-sheet .guide-kanji {
+    font-size: 2.5rem;
+    color: #ccc;
+    position: relative;
+    z-index: 1;
+  }
+
+  .print-sheet svg {
+    position: relative;
+    z-index: 1;
+  }
+
+  .print-header {
+    text-align: center;
+    margin-bottom: 0.75rem;
+    font-family: sans-serif;
+  }
+
+  .print-header .kanji-char {
+    font-size: 2.5rem;
+  }
+
+  .print-header .info {
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  .print-stroke-ref {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .print-stroke-ref svg {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+}

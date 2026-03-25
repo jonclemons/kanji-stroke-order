@@ -16,10 +16,22 @@
     <div id="error" class="error"></div>
     <div id="results" class="results hidden">
       <h2 id="kanjiTitle" class="kanji-title"></h2>
+
+      <div class="section">
+        <h3>Readings</h3>
+        <div id="readings" class="readings"></div>
+      </div>
+
+      <div class="section">
+        <h3>Common Words</h3>
+        <div id="words" class="words-list"></div>
+      </div>
+
       <div class="section">
         <h3>Step-by-Step Strokes</h3>
         <div id="steps" class="steps-grid"></div>
       </div>
+
       <div class="section">
         <h3>Animation</h3>
         <div class="animation-container">
@@ -32,6 +44,17 @@
               <input type="range" id="speedSlider" min="1" max="10" value="5">
             </label>
           </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Practice Sheet</h3>
+        <div class="practice-options">
+          <label>Rows: <input type="number" id="practiceRows" value="6" min="1" max="20"></label>
+          <label>Columns: <input type="number" id="practiceCols" value="8" min="1" max="16"></label>
+          <label><input type="checkbox" id="showGuide" checked> Show guide in first cell</label>
+          <label><input type="checkbox" id="showStrokeRef" checked> Include stroke order reference</label>
+          <button id="printBtn">Print Practice Sheet</button>
         </div>
       </div>
     </div>
