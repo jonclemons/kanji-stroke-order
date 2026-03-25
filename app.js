@@ -989,7 +989,7 @@ function buildPrintSheetSVG() {
 
   // Header
   svg += `<rect x="${tableX}" y="${rightY}" width="${tableW}" height="${rowH}" rx="1" fill="#9ec5a0"/>`;
-  svg += `<text x="${panelCenterX}" y="${rightY + 3.5}" text-anchor="middle" font-size="2.2" fill="white" font-weight="bold">読み方</text>`;
+  svg += `<text x="${panelCenterX}" y="${rightY + 3.5}" text-anchor="middle" font-size="2.2" fill="white" font-weight="bold">よみかた</text>`;
   rightY += rowH;
 
   // Kun row
@@ -1021,7 +1021,7 @@ function buildPrintSheetSVG() {
   const kjRightX = panelX + panelW - 2;
 
   // Kakijun label
-  svg += `<text x="${kjRightX - kjGridW / 2}" y="${kjTopY - 2}" text-anchor="middle" font-size="2.5" fill="#333" font-weight="bold">書きじゅん</text>`;
+  svg += `<text x="${kjRightX - kjGridW / 2}" y="${kjTopY - 2}" text-anchor="middle" font-size="2.5" fill="#333" font-weight="bold">かきじゅん</text>`;
 
   // Kakijun grid — top-down, right-to-left (tategaki)
   for (let i = 0; i < n; i++) {
