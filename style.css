@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", "Meiryo", system-ui, sans-serif;
   background: #1a1a2e;
   color: #e0e0e0;
   min-height: 100vh;
@@ -24,6 +24,79 @@ h1 {
   color: #e94560;
 }
 
+/* Grade navigation */
+.grade-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.grade-label {
+  color: #aaa;
+  font-size: 0.95rem;
+}
+
+.grade-btn {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.95rem;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background: #16213e;
+  color: #e0e0e0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.grade-btn:hover {
+  border-color: #e94560;
+  color: #e94560;
+}
+
+.grade-btn.active {
+  background: #e94560;
+  border-color: #e94560;
+  color: white;
+}
+
+/* Kanji grid for browsing by grade */
+.kanji-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #16213e;
+  border-radius: 12px;
+  border: 1px solid #333;
+}
+
+.kanji-grid-btn {
+  width: 42px;
+  height: 42px;
+  font-size: 1.3rem;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: #1a1a2e;
+  color: #e0e0e0;
+  cursor: pointer;
+  transition: all 0.15s;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kanji-grid-btn:hover {
+  background: #e94560;
+  border-color: #e94560;
+  color: white;
+}
+
+/* Input */
 .input-section {
   display: flex;
   justify-content: center;
@@ -34,7 +107,7 @@ h1 {
 #kanjiInput {
   font-size: 1.5rem;
   padding: 0.5rem 1rem;
-  width: 120px;
+  width: 160px;
   text-align: center;
   border: 2px solid #333;
   border-radius: 8px;
@@ -91,6 +164,37 @@ button:hover {
   padding-bottom: 0.5rem;
 }
 
+/* Readings */
+.readings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.reading-group {
+  background: #16213e;
+  border-radius: 10px;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #333;
+}
+
+.reading-group .label {
+  font-size: 0.75rem;
+  color: #888;
+  margin-bottom: 0.35rem;
+}
+
+.reading-group .values {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+.reading-group .values span {
+  margin-right: 0.5rem;
+}
+
+/* Steps */
 .steps-grid {
   display: flex;
   flex-wrap: wrap;
@@ -116,6 +220,35 @@ button:hover {
   display: block;
 }
 
+/* Words */
+.words-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.word-card {
+  background: #16213e;
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  border: 1px solid #333;
+  text-align: center;
+  min-width: 100px;
+}
+
+.word-card .word {
+  font-size: 1.3rem;
+  color: #e0e0e0;
+}
+
+.word-card .word-reading {
+  font-size: 0.85rem;
+  color: #e94560;
+  margin-top: 0.15rem;
+}
+
+/* Animation */
 .animation-container {
   display: flex;
   flex-direction: column;
@@ -152,73 +285,7 @@ button:hover {
   width: 100px;
 }
 
-/* Readings */
-.readings {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-}
-
-.reading-group {
-  background: #16213e;
-  border-radius: 10px;
-  padding: 0.75rem 1.25rem;
-  border: 1px solid #333;
-}
-
-.reading-group .label {
-  font-size: 0.75rem;
-  color: #888;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 0.35rem;
-}
-
-.reading-group .values {
-  font-size: 1.2rem;
-  color: #e0e0e0;
-}
-
-.reading-group .values span {
-  margin-right: 0.5rem;
-}
-
-/* Common Words */
-.words-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  justify-content: center;
-}
-
-.word-card {
-  background: #16213e;
-  border-radius: 10px;
-  padding: 0.6rem 1rem;
-  border: 1px solid #333;
-  text-align: center;
-  min-width: 100px;
-}
-
-.word-card .word {
-  font-size: 1.3rem;
-  color: #e0e0e0;
-}
-
-.word-card .word-reading {
-  font-size: 0.85rem;
-  color: #e94560;
-  margin-top: 0.15rem;
-}
-
-.word-card .word-meaning {
-  font-size: 0.8rem;
-  color: #888;
-  margin-top: 0.15rem;
-}
-
-/* Practice Sheet Options */
+/* Practice options */
 .practice-options {
   display: flex;
   flex-wrap: wrap;
@@ -254,7 +321,8 @@ button:hover {
 
   .container, .input-section, .error,
   .section, .animation-container, .animation-controls,
-  .practice-options, .readings, .words-list {
+  .practice-options, .readings, .words-list,
+  .grade-nav, .kanji-grid {
     display: none !important;
   }
 
@@ -285,7 +353,6 @@ button:hover {
     background: #e0e0e0;
   }
 
-  /* Vertical center guide */
   .print-sheet td::before {
     top: 0;
     bottom: 0;
@@ -293,7 +360,6 @@ button:hover {
     width: 1px;
   }
 
-  /* Horizontal center guide */
   .print-sheet td::after {
     left: 0;
     right: 0;

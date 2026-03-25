@@ -11,6 +11,8 @@ const playBtn = document.getElementById("playBtn");
 const resetBtn = document.getElementById("resetBtn");
 const speedSlider = document.getElementById("speedSlider");
 const printBtn = document.getElementById("printBtn");
+const kanjiGrid = document.getElementById("kanjiGrid");
+const gradeButtons = document.querySelectorAll(".grade-btn");
 
 let animationTimer = null;
 let isPlaying = false;
@@ -18,42 +20,52 @@ let currentStrokePaths = [];
 let currentKanji = "";
 let currentStrokes = [];
 let currentViewBox = "";
+let currentGrade = null;
 
-// Convert kanji character to its Unicode code point as 5-digit hex
+// Cache for grade kanji lists and kanji info
+const gradeKanjiCache = {};
+const kanjiInfoCache = {};
+
+// --- API ---
+
 function kanjiToHex(char) {
   return char.codePointAt(0).toString(16).padStart(5, "0");
 }
 
-// Fetch KanjiVG SVG data from GitHub
 async function fetchKanjiSVG(kanji) {
   const hex = kanjiToHex(kanji);
   const url = `https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/${hex}.svg`;
   const resp = await fetch(url);
-  if (!resp.ok) {
-    throw new Error(`Kanji "${kanji}" not found in KanjiVG database`);
-  }
+  if (!resp.ok) throw new Error(`「${kanji}」のデータがみつかりません`);
   return await resp.text();
 }
 
-// Fetch kanji info (readings, meanings) from kanjiapi.dev
 async function fetchKanjiInfo(kanji) {
+  if (kanjiInfoCache[kanji]) return kanjiInfoCache[kanji];
   const resp = await fetch(`https://kanjiapi.dev/v1/kanji/${encodeURIComponent(kanji)}`);
   if (!resp.ok) return null;
-  return await resp.json();
+  const data = await resp.json();
+  kanjiInfoCache[kanji] = data;
+  return data;
 }
 
-// Fetch common words for a kanji from kanjiapi.dev
 async function fetchKanjiWords(kanji) {
   const resp = await fetch(`https://kanjiapi.dev/v1/words/${encodeURIComponent(kanji)}`);
   if (!resp.ok) return [];
-  const words = await resp.json();
-  // Return up to 12 most common words, prefer shorter entries
-  return words
-    .filter((w) => w.variants && w.variants.length > 0 && w.meanings && w.meanings.length > 0)
-    .slice(0, 12);
+  return await resp.json();
 }
 
-// Parse SVG and extract individual stroke paths
+async function fetchGradeKanji(grade) {
+  if (gradeKanjiCache[grade]) return gradeKanjiCache[grade];
+  const resp = await fetch(`https://kanjiapi.dev/v1/kanji/grade-${grade}`);
+  if (!resp.ok) return [];
+  const data = await resp.json();
+  gradeKanjiCache[grade] = data;
+  return data;
+}
+
+// --- SVG parsing ---
+
 function parseStrokes(svgText) {
   const parser = new DOMParser();
   const doc = parser.parseFromString(svgText, "image/svg+xml");
@@ -64,7 +76,6 @@ function parseStrokes(svgText) {
   }));
 }
 
-// Get the viewBox from the original SVG
 function getViewBox(svgText) {
   const parser = new DOMParser();
   const doc = parser.parseFromString(svgText, "image/svg+xml");
@@ -72,33 +83,67 @@ function getViewBox(svgText) {
   return svg?.getAttribute("viewBox") || "0 0 109 109";
 }
 
-// Render readings section
+// --- Grade-appropriate word filtering ---
+// Only show words where ALL kanji in the word are from the same grade or lower.
+// This ensures kids only see words they can actually read.
+
+async function getGradeAppropriateWords(kanji, words, targetGrade) {
+  if (!targetGrade) targetGrade = 6; // default: show all elementary
+
+  // Build a set of all kanji up to the target grade
+  const knownKanji = new Set();
+  for (let g = 1; g <= targetGrade; g++) {
+    const list = await fetchGradeKanji(g);
+    list.forEach((k) => knownKanji.add(k));
+  }
+
+  // Filter words: keep only those where every kanji in the word is in knownKanji
+  const filtered = words.filter((w) => {
+    if (!w.variants || !w.variants.length || !w.meanings || !w.meanings.length) return false;
+    const written = w.variants[0].written;
+    if (!written) return false;
+    // Check each character — if it's a kanji (not kana), it must be in knownKanji
+    for (const ch of written) {
+      const code = ch.codePointAt(0);
+      // CJK Unified Ideographs range
+      if (code >= 0x4e00 && code <= 0x9fff) {
+        if (!knownKanji.has(ch)) return false;
+      }
+    }
+    return true;
+  });
+
+  return filtered.slice(0, 12);
+}
+
+// --- Rendering ---
+
 function renderReadings(info) {
   readingsEl.innerHTML = "";
   if (!info) {
-    readingsEl.innerHTML = '<span style="color:#888">Reading data unavailable</span>';
+    readingsEl.innerHTML = '<span style="color:#888">データなし</span>';
     return;
   }
 
   const groups = [];
 
   if (info.on_readings && info.on_readings.length > 0) {
-    groups.push({ label: "On'yomi", values: info.on_readings });
+    groups.push({ label: "音読み（おんよみ）", values: info.on_readings });
   }
   if (info.kun_readings && info.kun_readings.length > 0) {
-    groups.push({ label: "Kun'yomi", values: info.kun_readings });
+    groups.push({ label: "訓読み（くんよみ）", values: info.kun_readings });
   }
   if (info.meanings && info.meanings.length > 0) {
-    groups.push({ label: "Meaning", values: info.meanings });
+    groups.push({ label: "いみ", values: info.meanings });
   }
   if (info.grade) {
-    groups.push({ label: "Grade", values: [`Grade ${info.grade}`] });
-  }
-  if (info.jlpt) {
-    groups.push({ label: "JLPT", values: [`N${info.jlpt}`] });
+    const gradeLabel = info.grade <= 6
+      ? `${info.grade}年生`
+      : info.grade === 8 ? "中学校" : `${info.grade}`;
+    groups.push({ label: "学年", values: [gradeLabel] });
   }
   if (info.stroke_count) {
-    groups.push({ label: "Strokes", values: [`${info.stroke_count}`] });
+    groups.push({ label: "画数", values: [`${info.stroke_count}画`] });
   }
 
   groups.forEach((g) => {
@@ -112,29 +157,25 @@ function renderReadings(info) {
   });
 }
 
-// Render common words section
 function renderWords(words) {
   wordsEl.innerHTML = "";
   if (!words || words.length === 0) {
-    wordsEl.innerHTML = '<span style="color:#888">No word data available</span>';
+    wordsEl.innerHTML = '<span style="color:#888">ことばがみつかりません</span>';
     return;
   }
 
   words.forEach((w) => {
     const variant = w.variants[0];
-    const meaning = w.meanings[0].glosses.join(", ");
     const card = document.createElement("div");
     card.className = "word-card";
     card.innerHTML = `
       <div class="word">${variant.written || variant.pronounced}</div>
       ${variant.pronounced ? `<div class="word-reading">${variant.pronounced}</div>` : ""}
-      <div class="word-meaning">${meaning}</div>
     `;
     wordsEl.appendChild(card);
   });
 }
 
-// Create an SVG element showing strokes up to a given step
 function createStepSVG(strokes, upToStep, size, viewBox) {
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   svg.setAttribute("viewBox", viewBox);
@@ -147,7 +188,6 @@ function createStepSVG(strokes, upToStep, size, viewBox) {
     path.setAttribute("fill", "none");
     path.setAttribute("stroke-linecap", "round");
     path.setAttribute("stroke-linejoin", "round");
-
     if (i === upToStep) {
       path.setAttribute("stroke", "#e94560");
       path.setAttribute("stroke-width", "4.5");
@@ -172,7 +212,6 @@ function createStepSVG(strokes, upToStep, size, viewBox) {
   return svg;
 }
 
-// Create an SVG for print (black strokes on white)
 function createPrintStepSVG(strokes, upToStep, size, viewBox) {
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   svg.setAttribute("viewBox", viewBox);
@@ -185,7 +224,6 @@ function createPrintStepSVG(strokes, upToStep, size, viewBox) {
     path.setAttribute("fill", "none");
     path.setAttribute("stroke-linecap", "round");
     path.setAttribute("stroke-linejoin", "round");
-
     if (i === upToStep) {
       path.setAttribute("stroke", "#cc0000");
       path.setAttribute("stroke-width", "4.5");
@@ -199,7 +237,6 @@ function createPrintStepSVG(strokes, upToStep, size, viewBox) {
   return svg;
 }
 
-// Create animated SVG with stroke drawing effect
 function createAnimationSVG(strokes, viewBox) {
   const size = 250;
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
@@ -222,7 +259,6 @@ function createAnimationSVG(strokes, viewBox) {
   return svg;
 }
 
-// Render step-by-step stroke cards
 function renderSteps(strokes, viewBox) {
   stepsGrid.innerHTML = "";
   const stepSize = strokes.length > 12 ? 90 : 120;
@@ -230,7 +266,6 @@ function renderSteps(strokes, viewBox) {
   for (let i = 0; i < strokes.length; i++) {
     const card = document.createElement("div");
     card.className = "step-card";
-
     const svg = createStepSVG(strokes, i, stepSize, viewBox);
     card.appendChild(svg);
 
@@ -243,11 +278,11 @@ function renderSteps(strokes, viewBox) {
   }
 }
 
-// Animation logic
+// --- Animation ---
+
 function setupAnimation(strokes, viewBox) {
   stopAnimation();
   animationCanvas.innerHTML = "";
-
   const svg = createAnimationSVG(strokes, viewBox);
   animationCanvas.appendChild(svg);
   currentStrokePaths = Array.from(svg.querySelectorAll("path"));
@@ -256,10 +291,9 @@ function setupAnimation(strokes, viewBox) {
 function playAnimation() {
   if (isPlaying) return;
   isPlaying = true;
-  playBtn.textContent = "⏸ Pause";
+  playBtn.textContent = "⏸ いちじていし";
 
   let step = -1;
-
   for (let i = 0; i < currentStrokePaths.length; i++) {
     if (currentStrokePaths[i].style.opacity === "0") {
       step = i - 1;
@@ -278,13 +312,11 @@ function playAnimation() {
     if (step >= 0 && step < currentStrokePaths.length) {
       currentStrokePaths[step].setAttribute("stroke", "#556677");
     }
-
     step++;
     if (step >= currentStrokePaths.length) {
       stopAnimation();
       return;
     }
-
     const path = currentStrokePaths[step];
     path.style.opacity = "1";
     path.setAttribute("stroke", "#e94560");
@@ -294,7 +326,6 @@ function playAnimation() {
     path.style.strokeDasharray = length;
     path.style.strokeDashoffset = length;
     path.style.transition = `stroke-dashoffset ${getDrawDuration()}ms ease`;
-
     path.getBoundingClientRect();
     path.style.strokeDashoffset = "0";
 
@@ -302,7 +333,6 @@ function playAnimation() {
     const delay = speed * 150 + getDrawDuration();
     animationTimer = setTimeout(nextStep, delay);
   }
-
   nextStep();
 }
 
@@ -313,7 +343,7 @@ function getDrawDuration() {
 
 function stopAnimation() {
   isPlaying = false;
-  playBtn.textContent = "▶ Play";
+  playBtn.textContent = "▶ さいせい";
   if (animationTimer) {
     clearTimeout(animationTimer);
     animationTimer = null;
@@ -332,14 +362,14 @@ function resetAnimation() {
   });
 }
 
-// Print practice sheet
+// --- Print ---
+
 function printPracticeSheet() {
   const rows = parseInt(document.getElementById("practiceRows").value) || 6;
   const cols = parseInt(document.getElementById("practiceCols").value) || 8;
   const showGuide = document.getElementById("showGuide").checked;
   const showStrokeRef = document.getElementById("showStrokeRef").checked;
 
-  // Remove any existing print sheet
   const existing = document.querySelector(".print-sheet");
   if (existing) existing.remove();
 
@@ -347,16 +377,14 @@ function printPracticeSheet() {
   sheet.className = "print-sheet";
   sheet.style.display = "none";
 
-  // Header
   const header = document.createElement("div");
   header.className = "print-header";
   header.innerHTML = `
     <div class="kanji-char">${currentKanji}</div>
-    <div class="info">Stroke Order Practice — ${currentStrokes.length} strokes</div>
+    <div class="info">かきじゅんれんしゅう — ${currentStrokes.length}画</div>
   `;
   sheet.appendChild(header);
 
-  // Stroke order reference
   if (showStrokeRef) {
     const ref = document.createElement("div");
     ref.className = "print-stroke-ref";
@@ -368,13 +396,11 @@ function printPracticeSheet() {
     sheet.appendChild(ref);
   }
 
-  // Practice grid
   const table = document.createElement("table");
   for (let r = 0; r < rows; r++) {
     const tr = document.createElement("tr");
     for (let c = 0; c < cols; c++) {
       const td = document.createElement("td");
-      // First cell of first row gets the guide kanji
       if (r === 0 && c === 0 && showGuide) {
         td.innerHTML = `<span class="guide-kanji">${currentKanji}</span>`;
       }
@@ -383,32 +409,56 @@ function printPracticeSheet() {
     table.appendChild(tr);
   }
   sheet.appendChild(table);
-
   document.body.appendChild(sheet);
   window.print();
 }
 
-// Main lookup
+// --- Grade browsing ---
+
+async function loadGrade(grade) {
+  currentGrade = grade;
+  gradeButtons.forEach((btn) => {
+    btn.classList.toggle("active", parseInt(btn.dataset.grade) === grade);
+  });
+
+  kanjiGrid.innerHTML = '<span style="color:#888">よみこみちゅう...</span>';
+  kanjiGrid.classList.remove("hidden");
+
+  const kanjiList = await fetchGradeKanji(grade);
+
+  kanjiGrid.innerHTML = "";
+  kanjiList.forEach((k) => {
+    const btn = document.createElement("button");
+    btn.className = "kanji-grid-btn";
+    btn.textContent = k;
+    btn.addEventListener("click", () => {
+      kanjiInput.value = k;
+      lookup();
+    });
+    kanjiGrid.appendChild(btn);
+  });
+}
+
+// --- Main lookup ---
+
 async function lookup() {
   const kanji = kanjiInput.value.trim();
   errorEl.textContent = "";
   resultsEl.classList.add("hidden");
 
   if (!kanji) {
-    errorEl.textContent = "Please enter a kanji character.";
+    errorEl.textContent = "漢字をいれてね";
     return;
   }
-
   if (kanji.length > 1) {
-    errorEl.textContent = "Please enter only one kanji character.";
+    errorEl.textContent = "漢字を一つだけいれてね";
     return;
   }
 
   lookupBtn.disabled = true;
-  lookupBtn.textContent = "Loading...";
+  lookupBtn.textContent = "よみこみちゅう...";
 
   try {
-    // Fetch stroke data, readings, and words in parallel
     const [svgText, kanjiInfo, kanjiWords] = await Promise.all([
       fetchKanjiSVG(kanji),
       fetchKanjiInfo(kanji),
@@ -419,8 +469,12 @@ async function lookup() {
     const viewBox = getViewBox(svgText);
 
     if (strokes.length === 0) {
-      throw new Error("No stroke data found for this kanji.");
+      throw new Error("かきじゅんデータがみつかりません");
     }
+
+    // Determine the grade for word filtering
+    const grade = kanjiInfo?.grade || currentGrade || 6;
+    const filteredWords = await getGradeAppropriateWords(kanji, kanjiWords, grade);
 
     currentKanji = kanji;
     currentStrokes = strokes;
@@ -428,7 +482,7 @@ async function lookup() {
 
     kanjiTitle.textContent = kanji;
     renderReadings(kanjiInfo);
-    renderWords(kanjiWords);
+    renderWords(filteredWords);
     renderSteps(strokes, viewBox);
     setupAnimation(strokes, viewBox);
     resultsEl.classList.remove("hidden");
@@ -436,23 +490,25 @@ async function lookup() {
     errorEl.textContent = err.message;
   } finally {
     lookupBtn.disabled = false;
-    lookupBtn.textContent = "Show Strokes";
+    lookupBtn.textContent = "しらべる";
   }
 }
 
-// Event listeners
+// --- Event listeners ---
+
 lookupBtn.addEventListener("click", lookup);
 kanjiInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") lookup();
 });
 
 playBtn.addEventListener("click", () => {
-  if (isPlaying) {
-    stopAnimation();
-  } else {
-    playAnimation();
-  }
+  if (isPlaying) stopAnimation();
+  else playAnimation();
 });
 
 resetBtn.addEventListener("click", resetAnimation);
 printBtn.addEventListener("click", printPracticeSheet);
+
+gradeButtons.forEach((btn) => {
+  btn.addEventListener("click", () => loadGrade(parseInt(btn.dataset.grade)));
+});

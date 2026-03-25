@@ -1,46 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kanji Stroke Order</title>
+  <title>かんじれんしゅう</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>漢字 Stroke Order</h1>
+    <h1>かんじれんしゅう</h1>
+
+    <div class="grade-nav">
+      <span class="grade-label">学年：</span>
+      <button class="grade-btn" data-grade="1">1年生</button>
+      <button class="grade-btn" data-grade="2">2年生</button>
+      <button class="grade-btn" data-grade="3">3年生</button>
+      <button class="grade-btn" data-grade="4">4年生</button>
+      <button class="grade-btn" data-grade="5">5年生</button>
+      <button class="grade-btn" data-grade="6">6年生</button>
+    </div>
+
+    <div id="kanjiGrid" class="kanji-grid hidden"></div>
+
     <div class="input-section">
-      <input type="text" id="kanjiInput" placeholder="Enter a kanji (e.g. 漢)" maxlength="1">
-      <button id="lookupBtn">Show Strokes</button>
+      <input type="text" id="kanjiInput" placeholder="漢字をいれてね" maxlength="1">
+      <button id="lookupBtn">しらべる</button>
     </div>
     <div id="error" class="error"></div>
+
     <div id="results" class="results hidden">
       <h2 id="kanjiTitle" class="kanji-title"></h2>
 
       <div class="section">
-        <h3>Readings</h3>
+        <h3>よみかた</h3>
         <div id="readings" class="readings"></div>
       </div>
 
       <div class="section">
-        <h3>Common Words</h3>
+        <h3>この漢字をつかうことば</h3>
         <div id="words" class="words-list"></div>
       </div>
 
       <div class="section">
-        <h3>Step-by-Step Strokes</h3>
+        <h3>かきじゅん</h3>
         <div id="steps" class="steps-grid"></div>
       </div>
 
       <div class="section">
-        <h3>Animation</h3>
+        <h3>アニメーション</h3>
         <div class="animation-container">
           <div id="animationCanvas" class="animation-canvas"></div>
           <div class="animation-controls">
-            <button id="playBtn">▶ Play</button>
-            <button id="resetBtn">↺ Reset</button>
+            <button id="playBtn">▶ さいせい</button>
+            <button id="resetBtn">↺ もどす</button>
             <label>
-              Speed:
+              はやさ：
               <input type="range" id="speedSlider" min="1" max="10" value="5">
             </label>
           </div>
@@ -48,13 +62,13 @@
       </div>
 
       <div class="section">
-        <h3>Practice Sheet</h3>
+        <h3>れんしゅうシート</h3>
         <div class="practice-options">
-          <label>Rows: <input type="number" id="practiceRows" value="6" min="1" max="20"></label>
-          <label>Columns: <input type="number" id="practiceCols" value="8" min="1" max="16"></label>
-          <label><input type="checkbox" id="showGuide" checked> Show guide in first cell</label>
-          <label><input type="checkbox" id="showStrokeRef" checked> Include stroke order reference</label>
-          <button id="printBtn">Print Practice Sheet</button>
+          <label>たて： <input type="number" id="practiceRows" value="6" min="1" max="20"></label>
+          <label>よこ： <input type="number" id="practiceCols" value="8" min="1" max="16"></label>
+          <label><input type="checkbox" id="showGuide" checked> おてほん</label>
+          <label><input type="checkbox" id="showStrokeRef" checked> かきじゅん</label>
+          <button id="printBtn">いんさつ</button>
         </div>
       </div>
     </div>
