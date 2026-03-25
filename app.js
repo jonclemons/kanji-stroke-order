@@ -1012,13 +1012,14 @@ function buildPrintSheetSVG() {
 
   // --- Kakijun (flows right after readings, left-to-right) ---
   rightY += 4;
-  const kjGap = 2; // spacing between kakijun cells
   const kjAvailH = H - rightY - margin;
   const labelSpace = 5;
-  const kjCellSize = Math.min(
-    Math.floor((contentW - (kjMaxCols - 1) * kjGap) / kjMaxCols),
-    Math.floor(kjAvailH / kjMaxRows) - labelSpace
-  );
+  // Size cells so the grid fills contentW exactly
+  const kjCellSizeByW = (contentW - (kjMaxCols - 1) * 2) / kjMaxCols;
+  const kjCellSizeByH = (kjAvailH / kjMaxRows) - labelSpace;
+  const kjCellSize = Math.min(kjCellSizeByW, kjCellSizeByH);
+  // Recalculate gap to distribute any leftover space evenly
+  const kjGap = kjMaxCols > 1 ? (contentW - kjMaxCols * kjCellSize) / (kjMaxCols - 1) : 0;
 
   // Helper: full step SVG — previous (gray) + current (pink) + future (faint)
   function stepPaths(cx, cy, size, upToStep) {
