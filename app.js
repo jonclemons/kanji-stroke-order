@@ -933,13 +933,14 @@ function buildPrintSheetSVG() {
   const panelX = gridX + gridW + 4;
   const panelW = W - panelX - 2;
 
-  // Adaptive kakijun sizing
+  // Kakijun grid templates based on stroke count
+  // Each template defines max cols × rows, kakijun fills bottom-right of sheet
   const n = currentStrokes.length;
-  let kjRowCount, kjCellSize;
-  if (n <= 4)       { kjRowCount = 2; kjCellSize = 24; }
-  else if (n <= 8)  { kjRowCount = 4; kjCellSize = 20; }
-  else if (n <= 12) { kjRowCount = 4; kjCellSize = 16; }
-  else              { kjRowCount = 5; kjCellSize = 14; }
+  let kjMaxCols, kjMaxRows;
+  if (n <= 4)       { kjMaxCols = 2; kjMaxRows = 2; }
+  else if (n <= 9)  { kjMaxCols = 3; kjMaxRows = 3; }
+  else if (n <= 12) { kjMaxCols = 4; kjMaxRows = 3; }
+  else              { kjMaxCols = 5; kjMaxRows = 4; }
 
   let svg = "";
 
@@ -971,19 +972,31 @@ function buildPrintSheetSVG() {
   let textY = refY + refSize + 4;
   svg += `<text x="${panelX + panelW / 2}" y="${textY}" text-anchor="middle" font-size="3" fill="#333" font-weight="bold">${strokeCount}画</text>`;
 
-  // Kakijun label
-  textY += 6;
-  svg += `<text x="${panelX + panelW / 2}" y="${textY}" text-anchor="middle" font-size="2.5" fill="#333" font-weight="bold">書きじゅん</text>`;
-  textY += 3;
+  // Kakijun — anchored to bottom-right of sheet
+  // Calculate cell size to fill the available area
+  const kjAreaW = panelW;
+  const kjAreaH = H - textY - 8; // space below stroke count to bottom
+  const kjCellSize = Math.min(
+    Math.floor(kjAreaW / kjMaxCols),
+    Math.floor(kjAreaH / kjMaxRows)
+  );
+
+  // Kakijun label — above the grid, right-aligned
+  const kjGridW = kjMaxCols * kjCellSize;
+  const kjGridH = kjMaxRows * kjCellSize;
+  const kjBottomY = H - 2; // anchor to bottom
+  const kjTopY = kjBottomY - kjGridH;
+  const kjRightX = panelX + panelW;
+
+  svg += `<text x="${kjRightX - kjGridW / 2}" y="${kjTopY - 2}" text-anchor="middle" font-size="2.5" fill="#333" font-weight="bold">書きじゅん</text>`;
 
   // Kakijun grid — top-down, right-to-left (tategaki)
-  const kjStartX = panelX + panelW - 2;
-
   for (let i = 0; i < n; i++) {
-    const col = Math.floor(i / kjRowCount);
-    const row = i % kjRowCount;
-    const cx = kjStartX - (col + 1) * kjCellSize;
-    const cy = textY + row * kjCellSize;
+    const col = Math.floor(i / kjMaxRows);
+    const row = i % kjMaxRows;
+    // Right-to-left: col 0 is rightmost
+    const cx = kjRightX - (col + 1) * kjCellSize;
+    const cy = kjTopY + row * kjCellSize;
 
     svg += `<rect x="${cx}" y="${cy}" width="${kjCellSize}" height="${kjCellSize}" fill="none" stroke="#ddd" stroke-width="0.2"/>`;
     svg += crossGuide(cx, cy, kjCellSize);
