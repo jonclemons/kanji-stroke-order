@@ -9,7 +9,6 @@ const stepsGrid = document.getElementById("steps");
 const animationCanvas = document.getElementById("animationCanvas");
 const playBtn = document.getElementById("playBtn");
 const resetBtn = document.getElementById("resetBtn");
-const speedSlider = document.getElementById("speedSlider");
 const printBtn = document.getElementById("printBtn");
 const kanjiGrid = document.getElementById("kanjiGrid");
 const gradeButtons = document.querySelectorAll(".grade-btn");
@@ -321,7 +320,7 @@ function createPrintRefSVG(strokes, size, viewBox) {
 }
 
 function createAnimationSVG(strokes, viewBox) {
-  const size = 250;
+  const size = 180;
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   svg.setAttribute("viewBox", viewBox);
   svg.setAttribute("width", size);
@@ -344,7 +343,7 @@ function createAnimationSVG(strokes, viewBox) {
 
 function renderSteps(strokes, viewBox) {
   stepsGrid.innerHTML = "";
-  const stepSize = strokes.length > 12 ? 90 : 120;
+  const stepSize = strokes.length > 12 ? 55 : strokes.length > 6 ? 65 : 75;
 
   for (let i = 0; i < strokes.length; i++) {
     const card = document.createElement("div");
@@ -374,7 +373,7 @@ function setupAnimation(strokes, viewBox) {
 function playAnimation() {
   if (isPlaying) return;
   isPlaying = true;
-  playBtn.textContent = "⏸ いちじていし";
+  playBtn.textContent = "⏸";
 
   let step = -1;
   for (let i = 0; i < currentStrokePaths.length; i++) {
@@ -424,21 +423,19 @@ function playAnimation() {
     path.getBoundingClientRect();
     path.style.strokeDashoffset = "0";
 
-    const speed = 11 - speedSlider.value;
-    const delay = speed * 150 + getDrawDuration();
+    const delay = 150 + getDrawDuration();
     animationTimer = setTimeout(nextStep, delay);
   }
   nextStep();
 }
 
 function getDrawDuration() {
-  const speed = 11 - speedSlider.value;
-  return speed * 80 + 200;
+  return 280;
 }
 
 function stopAnimation() {
   isPlaying = false;
-  playBtn.textContent = "▶ さいせい";
+  playBtn.textContent = "▶";
   if (animationTimer) {
     clearTimeout(animationTimer);
     animationTimer = null;
