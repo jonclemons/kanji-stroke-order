@@ -283,6 +283,43 @@ function createPrintGuideSVG(strokes, size, viewBox, color) {
   return svg;
 }
 
+// Full kanji SVG for print reference — all strokes uniform color with stroke numbers
+function createPrintRefSVG(strokes, size, viewBox) {
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("viewBox", viewBox);
+  svg.setAttribute("width", size);
+  svg.setAttribute("height", size);
+
+  strokes.forEach((stroke, i) => {
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", stroke.d);
+    path.setAttribute("fill", "none");
+    path.setAttribute("stroke", "#333");
+    path.setAttribute("stroke-width", "3.5");
+    path.setAttribute("stroke-linecap", "round");
+    path.setAttribute("stroke-linejoin", "round");
+    svg.appendChild(path);
+
+    // Stroke number at the start of each stroke
+    const d = stroke.d;
+    const match = d.match(/^[Mm]\s*([\d.]+)[,\s]+([\d.]+)/);
+    if (match) {
+      const x = parseFloat(match[1]);
+      const y = parseFloat(match[2]);
+      const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+      text.setAttribute("x", x + 2);
+      text.setAttribute("y", y - 2);
+      text.setAttribute("font-size", "8");
+      text.setAttribute("fill", "#e94560");
+      text.setAttribute("font-family", "sans-serif");
+      text.textContent = i + 1;
+      svg.appendChild(text);
+    }
+  });
+
+  return svg;
+}
+
 function createAnimationSVG(strokes, viewBox) {
   const size = 250;
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
@@ -538,10 +575,10 @@ function printPracticeSheet() {
   const rightSection = document.createElement("div");
   rightSection.className = "ps-right";
 
-  // Large kanji with all stroke numbers
+  // Large kanji with all stroke numbers (no highlight)
   const refBox = document.createElement("div");
   refBox.className = "ps-ref-kanji";
-  const refSvg = createPrintStepSVG(currentStrokes, stepCount - 1, "100%", currentViewBox, true);
+  const refSvg = createPrintRefSVG(currentStrokes, "100%", currentViewBox);
   refSvg.setAttribute("width", "100%");
   refSvg.setAttribute("height", "100%");
   refBox.appendChild(refSvg);
@@ -576,6 +613,8 @@ function printPracticeSheet() {
 
   document.body.appendChild(sheet);
   window.print();
+  // Remove print sheet after printing to prevent layout issues
+  sheet.remove();
 }
 
 // --- Grade browsing ---
