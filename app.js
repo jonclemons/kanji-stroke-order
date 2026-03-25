@@ -903,8 +903,14 @@ function buildPrintSheetHTML() {
     allStepSvgs.push(svgToString(svg));
   }
 
-  // Kakijun cells laid out vertically: top→bottom, right→left (tategaki flow)
-  // We'll use a CSS grid with column-first flow
+  // Adaptive kakijun cell size based on stroke count
+  const n = currentStrokes.length;
+  let kjRows, kjSize;
+  if (n <= 4)       { kjRows = 2; kjSize = 55; }
+  else if (n <= 8)  { kjRows = 2; kjSize = 48; }
+  else if (n <= 12) { kjRows = 3; kjSize = 40; }
+  else              { kjRows = 4; kjSize = 34; }
+
   const kakijunCells = allStepSvgs.map((svg, i) =>
     `<div class="ps-kakijun-cell"><div class="ps-kakijun-inner">${svg}</div><div class="ps-kakijun-num">${i + 1}</div></div>`
   ).join("");
@@ -1011,8 +1017,8 @@ function buildPrintSheetHTML() {
   .ps-kakijun-grid {
     display: grid;
     grid-auto-flow: column;
-    grid-template-rows: repeat(4, 48px);
-    grid-auto-columns: 48px;
+    grid-template-rows: repeat(${kjRows}, ${kjSize}px);
+    grid-auto-columns: ${kjSize}px;
     gap: 2px;
     direction: rtl;
     justify-content: center;
@@ -1023,7 +1029,7 @@ function buildPrintSheetHTML() {
     direction: ltr;
     border: 1px solid #ddd;
     position: relative;
-    width: 48px; height: 48px;
+    width: ${kjSize}px; height: ${kjSize}px;
   }
   .ps-kakijun-inner {
     position: absolute; top: 0; left: 0; width: 100%; height: 100%;
