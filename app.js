@@ -157,14 +157,14 @@ function addCrossGuide(svg, viewBox, color) {
   vLine.setAttribute("x1", cx); vLine.setAttribute("y1", y);
   vLine.setAttribute("x2", cx); vLine.setAttribute("y2", y + h);
   vLine.setAttribute("stroke", color);
-  vLine.setAttribute("stroke-width", "0.5");
+  vLine.setAttribute("stroke-width", "0.8");
   vLine.setAttribute("stroke-dasharray", "3 3");
 
   const hLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
   hLine.setAttribute("x1", x); hLine.setAttribute("y1", cy);
   hLine.setAttribute("x2", x + w); hLine.setAttribute("y2", cy);
   hLine.setAttribute("stroke", color);
-  hLine.setAttribute("stroke-width", "0.5");
+  hLine.setAttribute("stroke-width", "0.8");
   hLine.setAttribute("stroke-dasharray", "3 3");
 
   svg.appendChild(vLine);
@@ -275,7 +275,7 @@ function createStepSVG(strokes, upToStep, size, viewBox) {
   svg.setAttribute("viewBox", viewBox);
   svg.setAttribute("width", size);
   svg.setAttribute("height", size);
-  addCrossGuide(svg, viewBox, "#2a3a4a");
+  addCrossGuide(svg, viewBox, "#445566");
 
   for (let i = 0; i <= upToStep; i++) {
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -457,7 +457,7 @@ function createAnimationSVG(strokes, viewBox) {
   svg.setAttribute("viewBox", viewBox);
   svg.setAttribute("width", size);
   svg.setAttribute("height", size);
-  addCrossGuide(svg, viewBox, "#2a3a4a");
+  addCrossGuide(svg, viewBox, "#445566");
 
   strokes.forEach((stroke) => {
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
