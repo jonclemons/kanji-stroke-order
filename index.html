@@ -69,26 +69,20 @@
           <!-- Right: stroke order + animation stacked -->
           <div class="results-right">
             <div class="section">
-              <h3 id="canvasTitle">アニメーション</h3>
-              <div class="canvas-area">
-                <div class="canvas-swap">
-                  <div id="animationWrap" class="animation-container">
-                    <div id="animationCanvas" class="animation-canvas"></div>
-                  </div>
-                  <div id="traceArea" class="trace-area hidden">
-                    <div id="traceCanvas" class="trace-canvas"></div>
-                    <div class="trace-info">
-                      <span id="traceCounter" class="trace-counter"></span>
-                      <button id="traceRetryBtn" class="trace-retry-btn hidden">もういちど</button>
-                    </div>
-                    <div id="traceMessage" class="trace-message hidden"></div>
-                  </div>
+              <div class="mode-header">
+                <h3 id="canvasTitle">アニメーション</h3>
+                <button id="modeToggleBtn" class="mode-toggle-btn" title="モードきりかえ">✏ なぞる</button>
+              </div>
+              <div id="animationWrap">
+                <div id="animationCanvas" class="animation-canvas"></div>
+              </div>
+              <div id="traceArea" class="hidden">
+                <div id="traceCanvas" class="trace-canvas"></div>
+                <div class="trace-info">
+                  <span id="traceCounter" class="trace-counter"></span>
+                  <button id="traceRetryBtn" class="trace-retry-btn hidden">もういちど</button>
                 </div>
-                <div class="animation-controls">
-                  <button id="playBtn" class="anim-btn" title="さいせい">⏸</button>
-                  <button id="resetBtn" class="anim-btn" title="もどす">↺</button>
-                  <button id="traceBtn" class="anim-btn" title="なぞる">✏</button>
-                </div>
+                <div id="traceMessage" class="trace-message hidden"></div>
               </div>
             </div>
 

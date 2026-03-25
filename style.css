@@ -430,37 +430,30 @@ button:hover {
   display: block;
 }
 
-.animation-controls {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
 
-.anim-btn {
-  width: 32px;
-  height: 32px;
-  padding: 0;
-  font-size: 1rem;
-  border-radius: 50%;
+/* Mode header with toggle */
+.mode-header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.mode-toggle-btn {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.8rem;
+  border-radius: 6px;
   background: #e8f0f5;
   border: 1px solid #b8c8d4;
   color: #4a4a4a;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 
-.anim-btn:hover {
+.mode-toggle-btn:hover {
   background: #9ec5a0;
   border-color: #9ec5a0;
   color: white;
-}
-
-/* Canvas area: shared controls for animation + trace */
-.canvas-area {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
 }
 
 /* Tracing mode */

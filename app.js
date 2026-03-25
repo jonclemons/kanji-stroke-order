@@ -7,9 +7,8 @@ const readingsEl = document.getElementById("readings");
 const wordsEl = document.getElementById("words");
 const stepsGrid = document.getElementById("steps");
 const animationCanvas = document.getElementById("animationCanvas");
-const playBtn = document.getElementById("playBtn");
-const resetBtn = document.getElementById("resetBtn");
 const printBtn = document.getElementById("printBtn");
+const modeToggleBtn = document.getElementById("modeToggleBtn");
 const kanjiGrid = document.getElementById("kanjiGrid");
 const gradeButtons = document.querySelectorAll(".grade-btn");
 
@@ -506,7 +505,7 @@ function setupAnimation(strokes, viewBox) {
 function playAnimation() {
   if (isPlaying) return;
   isPlaying = true;
-  playBtn.textContent = "⏸";
+  // animation playing
 
   let step = -1;
   for (let i = 0; i < currentStrokePaths.length; i++) {
@@ -568,7 +567,7 @@ function getDrawDuration() {
 
 function stopAnimation() {
   isPlaying = false;
-  playBtn.textContent = "▶";
+  // animation stopped
   if (animationTimer) {
     clearTimeout(animationTimer);
     animationTimer = null;
@@ -594,7 +593,7 @@ const traceCanvas = document.getElementById("traceCanvas");
 const traceCounter = document.getElementById("traceCounter");
 const traceRetryBtn = document.getElementById("traceRetryBtn");
 const traceMessage = document.getElementById("traceMessage");
-const traceBtn = document.getElementById("traceBtn");
+// traceBtn removed — using modeToggleBtn instead
 
 let isTracing = false;
 let traceStrokeIndex = 0;
@@ -610,23 +609,29 @@ function enterTraceMode() {
   if (!currentStrokes.length) return;
   stopAnimation();
   isTracing = true;
-  animationWrap.classList.add("hidden");
+  animationWrap.style.display = "none";
+  traceArea.style.display = "";
   traceArea.classList.remove("hidden");
   canvasTitle.textContent = "なぞってみよう";
   traceMessage.classList.add("hidden");
   traceRetryBtn.classList.add("hidden");
-  traceBtn.textContent = "▶";
-  traceBtn.title = "アニメーション";
+  modeToggleBtn.textContent = "▶ アニメーション";
   buildTraceSVG();
 }
 
 function exitTraceMode() {
   isTracing = false;
+  traceArea.style.display = "none";
   traceArea.classList.add("hidden");
+  animationWrap.style.display = "";
   animationWrap.classList.remove("hidden");
   canvasTitle.textContent = "アニメーション";
-  traceBtn.textContent = "✏";
-  traceBtn.title = "なぞる";
+  modeToggleBtn.textContent = "✏ なぞる";
+  // Restart looping animation
+  if (currentStrokes.length) {
+    setupAnimation(currentStrokes, currentViewBox);
+    playAnimation();
+  }
 }
 
 function buildTraceSVG() {
@@ -793,44 +798,56 @@ function findNearestProgress(path, point, currentProgress) {
   return { distance: Math.sqrt(bestDist), length: bestLen };
 }
 
+let traceStarted = false; // has the user touched near the start of the current stroke?
+
 function onTraceStart(e) {
   if (traceStrokeIndex >= tracePaths.length) return;
   e.preventDefault();
   traceIsDrawing = true;
   traceCanvas.classList.remove("error");
-  removeTraceHint();
-  onTraceMove(e);
+
+  // Check if finger is near the start of the stroke
+  const point = svgPoint(traceSvgEl, e.clientX, e.clientY);
+  const path = tracePaths[traceStrokeIndex];
+  const startPt = path.getPointAtLength(0);
+  const dx = point.x - startPt.x;
+  const dy = point.y - startPt.y;
+  const distToStart = Math.sqrt(dx * dx + dy * dy);
+
+  if (distToStart < 22) {
+    traceStarted = true;
+    removeTraceHint();
+    onTraceMove(e);
+  }
 }
 
 function onTraceMove(e) {
-  if (!traceIsDrawing || traceStrokeIndex >= tracePaths.length) return;
+  if (!traceIsDrawing || !traceStarted || traceStrokeIndex >= tracePaths.length) return;
   e.preventDefault();
 
   const point = svgPoint(traceSvgEl, e.clientX, e.clientY);
   const path = tracePaths[traceStrokeIndex];
   const totalLen = path.getTotalLength();
-  const TOLERANCE = 18; // SVG units (~25px on screen)
+  const TOLERANCE = 18;
 
   const result = findNearestProgress(path, point, traceProgress);
 
   if (result.distance < TOLERANCE && result.length >= traceProgress) {
-    // Valid: advance progress
     traceProgress = result.length;
     path.style.strokeDashoffset = totalLen - traceProgress;
     traceCanvas.classList.remove("error");
 
-    // Check if stroke is complete (>90%)
     if (traceProgress / totalLen >= 0.9) {
       completeTraceStroke();
     }
   } else if (result.distance >= TOLERANCE) {
-    // Too far from path
     traceCanvas.classList.add("error");
   }
 }
 
 function onTraceEnd(e) {
   traceIsDrawing = false;
+  traceStarted = false;
 }
 
 function completeTraceStroke() {
@@ -862,8 +879,8 @@ function retryTrace() {
   buildTraceSVG();
 }
 
-if (traceBtn) {
-  traceBtn.addEventListener("click", () => {
+if (modeToggleBtn) {
+  modeToggleBtn.addEventListener("click", () => {
     if (isTracing) exitTraceMode();
     else enterTraceMode();
   });
@@ -1274,12 +1291,6 @@ kanjiInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") lookup();
 });
 
-playBtn.addEventListener("click", () => {
-  if (isPlaying) stopAnimation();
-  else playAnimation();
-});
-
-resetBtn.addEventListener("click", resetAnimation);
 printBtn.addEventListener("click", printPracticeSheet);
 
 gradeButtons.forEach((btn) => {
