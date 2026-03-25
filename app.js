@@ -875,64 +875,147 @@ if (traceRetryBtn) {
 
 // --- Print Practice Sheet (Japanese school style) ---
 
-function buildPrintSheetHTML() {
+function buildPrintSheetSVG() {
   const info = currentKanjiInfo;
   const gradeNum = info?.grade || currentGrade || "";
   const strokeCount = info?.stroke_count || currentStrokes.length;
   const onReadings = info?.on_readings || [];
   const kunReadings = info?.kun_readings || [];
+  const vb = currentViewBox || "0 0 109 109";
 
-  function svgToString(svgEl) {
-    return new XMLSerializer().serializeToString(svgEl);
+  // Helper: embed kanji strokes as paths, scaled into a cell at (cx, cy, size)
+  // KanjiVG viewBox is "0 0 109 109", so scale = size/109
+  function strokePaths(cx, cy, size, color, strokeW, upTo) {
+    const s = size / 109;
+    let paths = "";
+    const end = upTo !== undefined ? upTo + 1 : currentStrokes.length;
+    for (let i = 0; i < end; i++) {
+      const c = (upTo !== undefined && i === upTo) ? "#e8a0aa" : color;
+      const w = (upTo !== undefined && i === upTo) ? strokeW * 1.1 : strokeW;
+      paths += `<path d="${currentStrokes[i].d}" fill="none" stroke="${c}" stroke-width="${w / s}" stroke-linecap="round" stroke-linejoin="round" transform="translate(${cx},${cy}) scale(${s})"/>`;
+    }
+    return paths;
   }
 
-  // Reference SVG — no stroke numbers, just the kanji with cross guide
-  const refSvg = createPrintGuideSVG(currentStrokes, "100%", currentViewBox, "#333");
-  refSvg.setAttribute("width", "100%");
-  refSvg.setAttribute("height", "100%");
-
-  // ALL stroke steps (every single stroke, not just 3 stages)
-  const allStepSvgs = [];
-  for (let i = 0; i < currentStrokes.length; i++) {
-    const svg = createPrintStepSVG(currentStrokes, i, "100%", currentViewBox, true);
-    svg.setAttribute("width", "100%");
-    svg.setAttribute("height", "100%");
-    svg.style.position = "absolute";
-    svg.style.top = "0";
-    svg.style.left = "0";
-    allStepSvgs.push(svgToString(svg));
+  // Helper: dashed cross guide inside a cell
+  function crossGuide(cx, cy, size) {
+    const half = size / 2;
+    return `<line x1="${cx + half}" y1="${cy}" x2="${cx + half}" y2="${cy + size}" stroke="#d0c8c8" stroke-width="0.2" stroke-dasharray="1 1"/>` +
+           `<line x1="${cx}" y1="${cy + half}" x2="${cx + size}" y2="${cy + half}" stroke="#d0c8c8" stroke-width="0.2" stroke-dasharray="1 1"/>`;
   }
 
-  // Adaptive kakijun cell size based on stroke count
+  // Layout constants (mm)
+  const W = 281, H = 194;
+  const headerH = 12;
+  const gridX = 2, gridY = headerH + 2;
+  const cellSize = 33;
+  const cols = 3, rows = 5;
+  const gridW = cols * cellSize;
+  const labelX = gridX + gridW + 2;
+  const panelX = labelX + 6;
+  const panelW = W - panelX - 2;
+
+  // Adaptive kakijun sizing
   const n = currentStrokes.length;
-  let kjRows, kjSize;
-  if (n <= 4)       { kjRows = 2; kjSize = 55; }
-  else if (n <= 8)  { kjRows = 2; kjSize = 48; }
-  else if (n <= 12) { kjRows = 3; kjSize = 40; }
-  else              { kjRows = 4; kjSize = 34; }
+  let kjRows, kjCellSize;
+  if (n <= 4)       { kjRows = 2; kjCellSize = 22; }
+  else if (n <= 8)  { kjRows = 2; kjCellSize = 18; }
+  else if (n <= 12) { kjRows = 3; kjCellSize = 14; }
+  else              { kjRows = 4; kjCellSize = 12; }
 
-  const kakijunCells = allStepSvgs.map((svg, i) =>
-    `<div class="ps-kakijun-cell"><div class="ps-kakijun-inner">${svg}</div><div class="ps-kakijun-num">${i + 1}</div></div>`
-  ).join("");
+  let svg = "";
 
-  // Practice grid rows — all cells get cross guides via CSS ::before/::after
-  let practiceRows = "";
-  for (let r = 0; r < 5; r++) {
-    let cells = "";
-    for (let c = 0; c < 3; c++) {
+  // --- Header ---
+  // Grade badge
+  svg += `<rect x="0" y="0" width="18" height="8" rx="2" fill="#e8a0aa"/>`;
+  svg += `<text x="9" y="5.8" text-anchor="middle" font-size="3.5" fill="white" font-weight="bold">${gradeNum}年生</text>`;
+  // Title
+  svg += `<text x="21" y="4.5" font-size="3.5" fill="#9ec5a0" font-weight="bold">漢字をおぼえよう</text>`;
+  svg += `<text x="21" y="8.5" font-size="2.5" fill="#888">漢字の練習</text>`;
+  // Header line
+  svg += `<line x1="0" y1="${headerH}" x2="${W}" y2="${headerH}" stroke="#e8d88c" stroke-width="0.8"/>`;
+  // Name fields
+  svg += `<text x="${W - 75}" y="7" font-size="2.8" fill="#333">年</text>`;
+  svg += `<line x1="${W - 72}" y1="8" x2="${W - 58}" y2="8" stroke="#333" stroke-width="0.2"/>`;
+  svg += `<text x="${W - 55}" y="7" font-size="2.8" fill="#333">組</text>`;
+  svg += `<line x1="${W - 52}" y1="8" x2="${W - 38}" y2="8" stroke="#333" stroke-width="0.2"/>`;
+  svg += `<text x="${W - 35}" y="7" font-size="2.8" fill="#333">名前</text>`;
+  svg += `<line x1="${W - 29}" y1="8" x2="${W - 2}" y2="8" stroke="#333" stroke-width="0.2"/>`;
+
+  // --- Practice Grid ---
+  for (let r = 0; r < rows; r++) {
+    for (let c = 0; c < cols; c++) {
+      const cx = gridX + c * cellSize;
+      const cy = gridY + r * cellSize;
+      // Cell border
+      svg += `<rect x="${cx}" y="${cy}" width="${cellSize}" height="${cellSize}" fill="none" stroke="#aaa" stroke-width="0.3"/>`;
+      // Cross guide
+      svg += crossGuide(cx, cy, cellSize);
+      // Guide kanji in first 2 cells
       if (r === 0 && c < 2) {
-        const g = createPrintGuideSVG(currentStrokes, "100%", currentViewBox, "#ccc");
-        g.setAttribute("width", "100%");
-        g.setAttribute("height", "100%");
-        g.style.position = "absolute";
-        g.style.top = "0";
-        g.style.left = "0";
-        cells += `<td class="ps-cell">${svgToString(g)}</td>`;
-      } else {
-        cells += `<td class="ps-cell"></td>`;
+        svg += strokePaths(cx + 1, cy + 1, cellSize - 2, "#ccc", 0.8);
       }
     }
-    practiceRows += `<tr>${cells}</tr>`;
+  }
+
+  // Vertical label
+  const labelY = gridY + (rows * cellSize) / 2;
+  svg += `<text x="${labelX + 2}" y="${labelY}" font-size="2.2" fill="#333" writing-mode="tb" text-anchor="middle">くり返し書いておぼえよう</text>`;
+
+  // --- Right Panel ---
+  const refSize = 35;
+  const refX = panelX + (panelW - refSize) / 2;
+  const refY = gridY;
+
+  // Reference kanji box
+  svg += `<rect x="${refX}" y="${refY}" width="${refSize}" height="${refSize}" rx="2" fill="none" stroke="#e8a0aa" stroke-width="0.8"/>`;
+  svg += crossGuide(refX, refY, refSize);
+  svg += strokePaths(refX + 1, refY + 1, refSize - 2, "#333", 0.9);
+
+  // Stroke count
+  let textY = refY + refSize + 4;
+  svg += `<text x="${panelX + panelW / 2}" y="${textY}" text-anchor="middle" font-size="2.8" fill="#333" font-weight="bold">${strokeCount}画</text>`;
+
+  // Readings
+  textY += 5;
+  svg += `<text x="${panelX + panelW / 2}" y="${textY}" text-anchor="middle" font-size="2.2" fill="#9ec5a0" font-weight="bold">読み方</text>`;
+  textY += 4;
+  if (kunReadings.length > 0) {
+    svg += `<text x="${panelX + 2}" y="${textY}" font-size="2" fill="#666">くん:</text>`;
+    svg += `<text x="${panelX + 12}" y="${textY}" font-size="2" fill="#333">${kunReadings.join("、")}</text>`;
+    textY += 3.5;
+  }
+  if (onReadings.length > 0) {
+    svg += `<text x="${panelX + 2}" y="${textY}" font-size="2" fill="#666">音:</text>`;
+    svg += `<text x="${panelX + 12}" y="${textY}" font-size="2" fill="#333">${onReadings.join("、")}</text>`;
+    textY += 3.5;
+  }
+
+  // Kakijun
+  textY += 3;
+  svg += `<text x="${panelX + panelW / 2}" y="${textY}" text-anchor="middle" font-size="2.2" fill="#333" font-weight="bold">書きじゅん</text>`;
+  textY += 3;
+
+  // Kakijun grid — right-to-left, top-to-bottom
+  const kjCols = Math.ceil(n / kjRows);
+  const kjGridW = kjCols * kjCellSize;
+  const kjStartX = panelX + panelW - 2; // right-aligned start
+
+  for (let i = 0; i < n; i++) {
+    const col = Math.floor(i / kjRows);
+    const row = i % kjRows;
+    // Right-to-left: first column is rightmost
+    const cx = kjStartX - (col + 1) * kjCellSize;
+    const cy = textY + row * kjCellSize;
+
+    // Cell border
+    svg += `<rect x="${cx}" y="${cy}" width="${kjCellSize}" height="${kjCellSize}" fill="none" stroke="#ddd" stroke-width="0.2"/>`;
+    // Cross guide
+    svg += crossGuide(cx, cy, kjCellSize);
+    // Strokes up to this step
+    svg += strokePaths(cx + 0.5, cy + 0.5, kjCellSize - 1, "#a0b0bc", 0.6, i);
+    // Step number
+    svg += `<text x="${cx + kjCellSize - 1}" y="${cy + kjCellSize - 0.5}" text-anchor="end" font-size="1.5" fill="#999">${i + 1}</text>`;
   }
 
   return `<!DOCTYPE html>
@@ -942,151 +1025,22 @@ function buildPrintSheetHTML() {
 <title>漢字の練習 — ${currentKanji}</title>
 <style>
   @page { size: landscape; margin: 8mm; }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: "Hiragino Kaku Gothic ProN", "Meiryo", "Yu Gothic", sans-serif; }
-
-  .ps-header {
-    display: flex; align-items: center; gap: 1rem;
-    margin-bottom: 8px; border-bottom: 3px solid #e8d88c; padding-bottom: 6px;
-  }
-  .ps-grade-badge {
-    background: #e8a0aa; color: white; font-size: 1.1rem; font-weight: bold;
-    padding: 4px 12px; border-radius: 6px; white-space: nowrap;
-  }
-  .ps-title { display: flex; flex-direction: column; }
-  .ps-title-main { font-size: 1rem; font-weight: bold; color: #9ec5a0; }
-  .ps-title-sub { font-size: 0.8rem; color: #666; }
-  .ps-name-fields { margin-left: auto; display: flex; gap: 0.5rem; font-size: 0.9rem; }
-  .ps-name-field { border-bottom: 1px solid #333; padding: 0 2rem 2px 0.3rem; }
-
-  .ps-main {
-    display: flex; gap: 8px;
-    height: calc(100vh - 50px);
-    overflow: hidden;
-  }
-  .ps-left { display: flex; gap: 4px; align-items: flex-start; }
-  .ps-right { width: 280px; min-width: 280px; display: flex; flex-direction: column; gap: 4px; overflow: hidden; }
-
-  .ps-practice-grid {
-    border-collapse: collapse; table-layout: fixed;
-  }
-  .ps-cell {
-    border: 1px solid #aaa; position: relative;
-    padding: 0; vertical-align: top; text-align: center;
-    width: 90px; height: 90px;
-  }
-  .ps-cell::before, .ps-cell::after {
-    content: ""; position: absolute; z-index: 0;
-  }
-  .ps-cell::before {
-    top: 0; bottom: 0; left: 50%; width: 0;
-    border-left: 1px dashed #d0c8c8;
-  }
-  .ps-cell::after {
-    left: 0; right: 0; top: 50%; height: 0;
-    border-top: 1px dashed #d0c8c8;
-  }
-  .ps-cell svg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
-
-  .ps-vertical-label {
-    writing-mode: vertical-rl; font-size: 0.7rem; color: #333;
-    display: flex; align-items: center; justify-content: center;
-    padding: 0 2px; white-space: nowrap;
-  }
-
-  /* Right panel: reference kanji + readings + kakijun */
-  .ps-ref-kanji {
-    border: 3px solid #e8a0aa; border-radius: 8px;
-    width: 100px; height: 100px;
-    display: flex; align-items: center; justify-content: center;
-    padding: 4px; position: relative; margin: 0 auto;
-  }
-  .ps-ref-kanji svg { width: 100%; height: 100%; }
-  .ps-stroke-count { text-align: center; font-size: 0.8rem; font-weight: bold; color: #333; margin: 2px 0; }
-
-  .ps-reading-table { border-collapse: collapse; width: 100%; font-size: 0.65rem; }
-  .ps-reading-table th { background: #9ec5a0; color: white; padding: 2px 4px; text-align: center; font-size: 0.7rem; }
-  .ps-reading-label { background: #e8f0f5; text-align: center; padding: 1px 3px; font-weight: bold; border: 1px solid #ccc; }
-  .ps-reading-value { text-align: center; padding: 2px; border: 1px solid #ccc; color: #6a9a6e; font-size: 0.7rem; }
-
-  /* Kakijun grid: vertical flow top→bottom, right→left */
-  .ps-kakijun-label {
-    font-size: 0.7rem; color: #333; font-weight: bold;
-    margin: 2px 0; text-align: center;
-  }
-  .ps-kakijun-grid {
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-rows: repeat(${kjRows}, ${kjSize}px);
-    grid-auto-columns: ${kjSize}px;
-    gap: 2px;
-    direction: rtl;
-    justify-content: center;
-    flex: 1;
-    overflow: hidden;
-  }
-  .ps-kakijun-cell {
-    direction: ltr;
-    border: 1px solid #ddd;
-    position: relative;
-    width: ${kjSize}px; height: ${kjSize}px;
-  }
-  .ps-kakijun-inner {
-    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-  }
-  .ps-kakijun-inner svg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-  .ps-kakijun-num {
-    position: absolute; bottom: 0; right: 2px;
-    font-size: 0.45rem; color: #999;
-  }
+  * { margin: 0; padding: 0; }
+  body { display: flex; justify-content: center; align-items: center; height: 100vh; }
+  svg { width: 100%; height: auto; max-height: 100vh; }
 </style>
 </head>
 <body>
-  <div class="ps-header">
-    <div class="ps-grade-badge">${gradeNum}年生</div>
-    <div class="ps-title">
-      <span class="ps-title-main">漢字をおぼえよう</span>
-      <span class="ps-title-sub">漢字の練習</span>
-    </div>
-    <div class="ps-name-fields">
-      <span class="ps-name-field">年</span>
-      <span class="ps-name-field">組</span>
-      <span class="ps-name-field">名前</span>
-    </div>
-  </div>
-
-  <div class="ps-main">
-    <div class="ps-left">
-      <table class="ps-practice-grid">${practiceRows}</table>
-      <div class="ps-vertical-label">くり返し書いておぼえよう</div>
-    </div>
-
-    <div class="ps-right">
-      <div class="ps-ref-kanji">${svgToString(refSvg)}</div>
-      <div class="ps-stroke-count">${strokeCount}画</div>
-      <table class="ps-reading-table">
-        <tr><th colspan="2">読み方</th></tr>
-        <tr>
-          <td class="ps-reading-label">くん</td>
-          <td class="ps-reading-label">音</td>
-        </tr>
-        <tr>
-          <td class="ps-reading-value">${kunReadings.join("、") || "—"}</td>
-          <td class="ps-reading-value">${onReadings.join("、") || "—"}</td>
-        </tr>
-      </table>
-      <div class="ps-kakijun-label">書きじゅん</div>
-      <div class="ps-kakijun-grid">${kakijunCells}</div>
-    </div>
-  </div>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" font-family="'Hiragino Kaku Gothic ProN','Meiryo','Yu Gothic',sans-serif">
+${svg}
+</svg>
 <script>window.onload = () => { window.print(); };</script>
 </body>
 </html>`;
 }
 
 function printPracticeSheet() {
-  const html = buildPrintSheetHTML();
+  const html = buildPrintSheetSVG();
   const printWindow = window.open("", "_blank");
   printWindow.document.write(html);
   printWindow.document.close();
