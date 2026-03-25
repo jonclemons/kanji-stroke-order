@@ -110,6 +110,12 @@ h1 {
   color: white;
 }
 
+.kanji-grid-btn.active {
+  background: #e94560;
+  border-color: #e94560;
+  color: white;
+}
+
 /* Input */
 .input-section {
   display: flex;

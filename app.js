@@ -721,6 +721,10 @@ async function lookup() {
     currentKanjiInfo = kanjiInfo;
 
     kanjiTitle.textContent = kanji;
+    // Highlight active kanji in grid
+    kanjiGrid.querySelectorAll(".kanji-grid-btn").forEach((btn) => {
+      btn.classList.toggle("active", btn.textContent === kanji);
+    });
     renderReadings(kanjiInfo);
     renderWords(filteredWords);
     renderSteps(strokes, viewBox);
