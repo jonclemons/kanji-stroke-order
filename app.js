@@ -796,12 +796,16 @@ function retryTrace() {
   buildTraceSVG();
 }
 
-traceBtn.addEventListener("click", () => {
-  if (isTracing) exitTraceMode();
-  else enterTraceMode();
-});
+if (traceBtn) {
+  traceBtn.addEventListener("click", () => {
+    if (isTracing) exitTraceMode();
+    else enterTraceMode();
+  });
+}
 
-traceRetryBtn.addEventListener("click", retryTrace);
+if (traceRetryBtn) {
+  traceRetryBtn.addEventListener("click", retryTrace);
+}
 
 // --- Print Practice Sheet (Japanese school style) ---
 

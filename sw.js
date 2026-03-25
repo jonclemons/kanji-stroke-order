@@ -1,4 +1,4 @@
-const CACHE_NAME = "kanji-app-v1";
+const CACHE_NAME = "kanji-app-v2";
 const APP_SHELL = ["/", "/index.html", "/style.css", "/app.js", "/manifest.json", "/icon.svg"];
 
 self.addEventListener("install", (e) => {
@@ -20,8 +20,8 @@ self.addEventListener("activate", (e) => {
 self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
 
-  // Only cache-first for same-origin app shell requests
-  if (url.origin === location.origin) {
+  // Only cache-first for same-origin GET requests
+  if (url.origin === location.origin && e.request.method === "GET") {
     e.respondWith(
       caches.match(e.request).then((cached) => {
         // Serve from cache, update in background
