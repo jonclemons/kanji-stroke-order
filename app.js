@@ -275,7 +275,7 @@ function createStepSVG(strokes, upToStep, size, viewBox) {
   svg.setAttribute("viewBox", viewBox);
   svg.setAttribute("width", size);
   svg.setAttribute("height", size);
-  addCrossGuide(svg, viewBox, "#445566");
+  addCrossGuide(svg, viewBox, "#c0d0dc");
 
   for (let i = 0; i <= upToStep; i++) {
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -284,10 +284,10 @@ function createStepSVG(strokes, upToStep, size, viewBox) {
     path.setAttribute("stroke-linecap", "round");
     path.setAttribute("stroke-linejoin", "round");
     if (i === upToStep) {
-      path.setAttribute("stroke", "#e94560");
+      path.setAttribute("stroke", "#e8a0aa");
       path.setAttribute("stroke-width", "4.5");
     } else {
-      path.setAttribute("stroke", "#556677");
+      path.setAttribute("stroke", "#a0b0bc");
       path.setAttribute("stroke-width", "3.5");
     }
     svg.appendChild(path);
@@ -297,7 +297,7 @@ function createStepSVG(strokes, upToStep, size, viewBox) {
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
     path.setAttribute("d", strokes[i].d);
     path.setAttribute("fill", "none");
-    path.setAttribute("stroke", "#2a3a4a");
+    path.setAttribute("stroke", "#d0dce6");
     path.setAttribute("stroke-width", "2.5");
     path.setAttribute("stroke-linecap", "round");
     path.setAttribute("stroke-linejoin", "round");
@@ -356,7 +356,7 @@ function addStrokeNumbers(svg, strokes, count) {
     circle.setAttribute("cy", y);
     circle.setAttribute("r", radius);
     circle.setAttribute("fill", "white");
-    circle.setAttribute("stroke", "#e94560");
+    circle.setAttribute("stroke", "#e8a0aa");
     circle.setAttribute("stroke-width", "0.8");
     svg.appendChild(circle);
 
@@ -366,7 +366,7 @@ function addStrokeNumbers(svg, strokes, count) {
     text.setAttribute("y", y + 3);
     text.setAttribute("text-anchor", "middle");
     text.setAttribute("font-size", "7");
-    text.setAttribute("fill", "#e94560");
+    text.setAttribute("fill", "#e8a0aa");
     text.setAttribute("font-family", "sans-serif");
     text.setAttribute("font-weight", "bold");
     text.textContent = i + 1;
@@ -389,7 +389,7 @@ function createPrintStepSVG(strokes, upToStep, size, viewBox, showNumbers) {
     path.setAttribute("stroke-linecap", "round");
     path.setAttribute("stroke-linejoin", "round");
     if (i === upToStep) {
-      path.setAttribute("stroke", "#e94560");
+      path.setAttribute("stroke", "#e8a0aa");
       path.setAttribute("stroke-width", "4");
     } else {
       path.setAttribute("stroke", "#999");
@@ -457,13 +457,13 @@ function createAnimationSVG(strokes, viewBox) {
   svg.setAttribute("viewBox", viewBox);
   svg.setAttribute("width", size);
   svg.setAttribute("height", size);
-  addCrossGuide(svg, viewBox, "#445566");
+  addCrossGuide(svg, viewBox, "#c0d0dc");
 
   strokes.forEach((stroke) => {
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
     path.setAttribute("d", stroke.d);
     path.setAttribute("fill", "none");
-    path.setAttribute("stroke", "#556677");
+    path.setAttribute("stroke", "#a0b0bc");
     path.setAttribute("stroke-width", "3.5");
     path.setAttribute("stroke-linecap", "round");
     path.setAttribute("stroke-linejoin", "round");
@@ -518,14 +518,14 @@ function playAnimation() {
   if (step === -1) {
     currentStrokePaths.forEach((p) => {
       p.style.opacity = "0";
-      p.setAttribute("stroke", "#556677");
+      p.setAttribute("stroke", "#a0b0bc");
     });
     step = -1;
   }
 
   function nextStep() {
     if (step >= 0 && step < currentStrokePaths.length) {
-      currentStrokePaths[step].setAttribute("stroke", "#556677");
+      currentStrokePaths[step].setAttribute("stroke", "#a0b0bc");
     }
     step++;
     if (step >= currentStrokePaths.length) {
@@ -536,7 +536,7 @@ function playAnimation() {
           p.style.transition = "none";
           p.style.strokeDashoffset = "0";
           p.style.strokeDasharray = "none";
-          p.setAttribute("stroke", "#556677");
+          p.setAttribute("stroke", "#a0b0bc");
           p.setAttribute("stroke-width", "3.5");
         });
         step = -1;
@@ -546,7 +546,7 @@ function playAnimation() {
     }
     const path = currentStrokePaths[step];
     path.style.opacity = "1";
-    path.setAttribute("stroke", "#e94560");
+    path.setAttribute("stroke", "#e8a0aa");
     path.setAttribute("stroke-width", "4.5");
 
     const length = path.getTotalLength();
@@ -582,7 +582,7 @@ function resetAnimation() {
     p.style.transition = "none";
     p.style.strokeDashoffset = "0";
     p.style.strokeDasharray = "none";
-    p.setAttribute("stroke", "#556677");
+    p.setAttribute("stroke", "#a0b0bc");
     p.setAttribute("stroke-width", "3.5");
   });
 }
@@ -636,14 +636,14 @@ function buildTraceSVG() {
   svg.setAttribute("viewBox", currentViewBox);
   svg.setAttribute("width", size);
   svg.setAttribute("height", size);
-  addCrossGuide(svg, currentViewBox, "#2a3a4a");
+  addCrossGuide(svg, currentViewBox, "#c0d0dc");
 
   // Draw all strokes as faint guide
   currentStrokes.forEach((stroke) => {
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
     path.setAttribute("d", stroke.d);
     path.setAttribute("fill", "none");
-    path.setAttribute("stroke", "#2a3a4a");
+    path.setAttribute("stroke", "#d0dce6");
     path.setAttribute("stroke-width", "3.5");
     path.setAttribute("stroke-linecap", "round");
     path.setAttribute("stroke-linejoin", "round");
@@ -661,11 +661,11 @@ function buildTraceSVG() {
     path.setAttribute("stroke-width", "4");
     if (i === 0) {
       // First stroke: show as dashed outline to trace
-      path.setAttribute("stroke", "#e94560");
+      path.setAttribute("stroke", "#e8a0aa");
       const len = 0; // will set after append
       path.style.opacity = "1";
     } else {
-      path.setAttribute("stroke", "#e94560");
+      path.setAttribute("stroke", "#e8a0aa");
       path.style.opacity = "0";
     }
     svg.appendChild(path);
@@ -708,7 +708,7 @@ function addTraceHint(path, index) {
   circle.setAttribute("cy", startPt.y);
   circle.setAttribute("r", "7");
   circle.setAttribute("fill", "rgba(76, 175, 80, 0.3)");
-  circle.setAttribute("stroke", "#4caf50");
+  circle.setAttribute("stroke", "#7aaa7e");
   circle.setAttribute("stroke-width", "1.2");
   g.appendChild(circle);
 
@@ -718,7 +718,7 @@ function addTraceHint(path, index) {
   text.setAttribute("y", startPt.y + 3.5);
   text.setAttribute("text-anchor", "middle");
   text.setAttribute("font-size", "8");
-  text.setAttribute("fill", "#4caf50");
+  text.setAttribute("fill", "#7aaa7e");
   text.setAttribute("font-family", "sans-serif");
   text.setAttribute("font-weight", "bold");
   text.textContent = index + 1;
@@ -736,7 +736,7 @@ function addTraceHint(path, index) {
   const rx = ax + Math.cos(angle - 2.5) * 5;
   const ry = ay + Math.sin(angle - 2.5) * 5;
   arrow.setAttribute("points", `${tipX},${tipY} ${lx},${ly} ${rx},${ry}`);
-  arrow.setAttribute("fill", "#4caf50");
+  arrow.setAttribute("fill", "#7aaa7e");
   g.appendChild(arrow);
 
   // Pulse animation via CSS
@@ -843,7 +843,7 @@ function completeTraceStroke() {
 
   if (traceStrokeIndex >= tracePaths.length) {
     // All done!
-    traceMessage.textContent = "よくできました！";
+    traceMessage.textContent = "イエーイ！";
     traceMessage.classList.remove("hidden");
     traceRetryBtn.classList.remove("hidden");
     traceCounter.textContent = "";
@@ -941,14 +941,14 @@ function buildPrintSheetHTML() {
 
   .ps-header {
     display: flex; align-items: center; gap: 1rem;
-    margin-bottom: 8px; border-bottom: 3px solid #f5a623; padding-bottom: 6px;
+    margin-bottom: 8px; border-bottom: 3px solid #e8d88c; padding-bottom: 6px;
   }
   .ps-grade-badge {
-    background: #f48fb1; color: white; font-size: 1.1rem; font-weight: bold;
+    background: #e8a0aa; color: white; font-size: 1.1rem; font-weight: bold;
     padding: 4px 12px; border-radius: 6px; white-space: nowrap;
   }
   .ps-title { display: flex; flex-direction: column; }
-  .ps-title-main { font-size: 1rem; font-weight: bold; color: #4caf50; }
+  .ps-title-main { font-size: 1rem; font-weight: bold; color: #9ec5a0; }
   .ps-title-sub { font-size: 0.8rem; color: #666; }
   .ps-name-fields { margin-left: auto; display: flex; gap: 0.5rem; font-size: 0.9rem; }
   .ps-name-field { border-bottom: 1px solid #333; padding: 0 2rem 2px 0.3rem; }
@@ -977,7 +977,7 @@ function buildPrintSheetHTML() {
 
   /* Right panel: reference kanji + readings + kakijun */
   .ps-ref-kanji {
-    border: 3px solid #f48fb1; border-radius: 8px;
+    border: 3px solid #e8a0aa; border-radius: 8px;
     width: 100%; max-width: 120px; aspect-ratio: 1;
     display: flex; align-items: center; justify-content: center;
     padding: 6px; position: relative; margin: 0 auto;
@@ -986,9 +986,9 @@ function buildPrintSheetHTML() {
   .ps-stroke-count { text-align: center; font-size: 0.9rem; font-weight: bold; color: #333; }
 
   .ps-reading-table { border-collapse: collapse; width: 100%; font-size: 0.7rem; }
-  .ps-reading-table th { background: #4fc3f7; color: white; padding: 2px 4px; text-align: center; font-size: 0.75rem; }
+  .ps-reading-table th { background: #9ec5a0; color: white; padding: 2px 4px; text-align: center; font-size: 0.75rem; }
   .ps-reading-label { background: #e3f2fd; text-align: center; padding: 2px 4px; font-weight: bold; border: 1px solid #ccc; }
-  .ps-reading-value { text-align: center; padding: 3px; border: 1px solid #ccc; color: #4fc3f7; font-size: 0.75rem; }
+  .ps-reading-value { text-align: center; padding: 3px; border: 1px solid #ccc; color: #9ec5a0; font-size: 0.75rem; }
 
   /* Kakijun grid: vertical flow top→bottom, right→left */
   .ps-kakijun-label {

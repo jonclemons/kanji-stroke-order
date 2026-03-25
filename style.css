@@ -1,3 +1,18 @@
+/*
+ * Color palette — ゆるキャラ stationery aesthetic
+ * --bg:        #d4e4ed  powder blue background
+ * --bg-light:  #e8f0f5  lighter panel bg
+ * --card:      #f5f0e8  cream/off-white cards
+ * --sidebar:   #c8dce8  slightly deeper blue sidebar
+ * --mint:      #9ec5a0  dusty mint green (primary)
+ * --pink:      #e8a0aa  blush pink (accent)
+ * --yellow:    #e8d88c  pale butter yellow
+ * --text:      #3a3a3a  dark text
+ * --text-sub:  #7a7a7a  subdued text
+ * --border:    #b8c8d4  soft border
+ * --outline:   #4a4a4a  black linework anchor
+ */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +21,8 @@
 
 body {
   font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", "Meiryo", system-ui, sans-serif;
-  background: #1a1a2e;
-  color: #e0e0e0;
+  background: #d4e4ed;
+  color: #3a3a3a;
   min-height: 100vh;
 }
 
@@ -20,8 +35,8 @@ body {
 .sidebar {
   width: 320px;
   min-width: 320px;
-  background: #16213e;
-  border-right: 1px solid #333;
+  background: #c8dce8;
+  border-right: 1px solid #b8c8d4;
   padding: 1rem;
   overflow-y: auto;
   max-height: 100vh;
@@ -41,7 +56,7 @@ h1 {
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #e94560;
+  color: #9ec5a0;
 }
 
 /* Grade navigation */
@@ -57,27 +72,27 @@ h1 {
 .grade-btn {
   padding: 0.3rem 0.6rem;
   font-size: 0.85rem;
-  border: 2px solid #333;
+  border: 2px solid #b8c8d4;
   border-radius: 6px;
-  background: #1a1a2e;
-  color: #e0e0e0;
+  background: #e8f0f5;
+  color: #3a3a3a;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .grade-btn:hover {
-  border-color: #e94560;
-  color: #e94560;
+  border-color: #9ec5a0;
+  color: #6a9a6e;
 }
 
 .grade-btn.active {
-  background: #e94560;
-  border-color: #e94560;
+  background: #9ec5a0;
+  border-color: #9ec5a0;
   color: white;
 }
 
 .grade-btn.downloaded::after {
-  content: " ✓";
+  content: " \2713";
   font-size: 0.7rem;
 }
 
@@ -94,16 +109,16 @@ h1 {
   padding: 0.3rem 0.7rem;
   font-size: 0.8rem;
   border-radius: 6px;
-  background: #16213e;
-  border: 1px solid #4caf50;
-  color: #4caf50;
+  background: #e8f0f5;
+  border: 1px solid #9ec5a0;
+  color: #6a9a6e;
   cursor: pointer;
   transition: all 0.2s;
   white-space: nowrap;
 }
 
 .download-btn:hover {
-  background: #4caf50;
+  background: #9ec5a0;
   color: white;
 }
 
@@ -113,14 +128,14 @@ h1 {
 }
 
 .download-btn.downloaded {
-  border-color: #4caf50;
-  color: #4caf50;
-  background: rgba(76, 175, 80, 0.1);
+  border-color: #9ec5a0;
+  color: #6a9a6e;
+  background: rgba(158, 197, 160, 0.15);
 }
 
 .download-status {
   font-size: 0.75rem;
-  color: #888;
+  color: #7a7a7a;
 }
 
 /* Kanji grid for browsing by grade */
@@ -131,19 +146,19 @@ h1 {
   justify-content: center;
   margin-bottom: 1rem;
   padding: 0.5rem;
-  background: #1a1a2e;
+  background: #e8f0f5;
   border-radius: 8px;
-  border: 1px solid #333;
+  border: 1px solid #b8c8d4;
 }
 
 .kanji-grid-btn {
   width: 36px;
   height: 36px;
   font-size: 1.1rem;
-  border: 1px solid #333;
+  border: 1px solid #b8c8d4;
   border-radius: 4px;
-  background: #16213e;
-  color: #e0e0e0;
+  background: #f5f0e8;
+  color: #3a3a3a;
   cursor: pointer;
   transition: all 0.15s;
   padding: 0;
@@ -153,14 +168,14 @@ h1 {
 }
 
 .kanji-grid-btn:hover {
-  background: #e94560;
-  border-color: #e94560;
+  background: #e8a0aa;
+  border-color: #e8a0aa;
   color: white;
 }
 
 .kanji-grid-btn.active {
-  background: #e94560;
-  border-color: #e94560;
+  background: #e8a0aa;
+  border-color: #e8a0aa;
   color: white;
 }
 
@@ -192,8 +207,8 @@ h1 {
 .spinner {
   width: 30vmin;
   height: 30vmin;
-  border: 10px solid #333;
-  border-top-color: #e94560;
+  border: 10px solid #b8c8d4;
+  border-top-color: #9ec5a0;
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
 }
@@ -208,7 +223,7 @@ h1 {
   align-items: center;
   justify-content: center;
   height: 60vh;
-  color: #556;
+  color: #7a7a7a;
   font-size: 1.2rem;
 }
 
@@ -217,15 +232,15 @@ h1 {
   padding: 0.4rem 0.5rem;
   width: 60px;
   text-align: center;
-  border: 2px solid #333;
+  border: 2px solid #b8c8d4;
   border-radius: 8px;
-  background: #16213e;
-  color: #e0e0e0;
+  background: #f5f0e8;
+  color: #3a3a3a;
   outline: none;
 }
 
 #kanjiInput:focus {
-  border-color: #e94560;
+  border-color: #9ec5a0;
 }
 
 button {
@@ -233,19 +248,19 @@ button {
   font-size: 1rem;
   border: none;
   border-radius: 8px;
-  background: #e94560;
+  background: #e8a0aa;
   color: white;
   cursor: pointer;
   transition: background 0.2s;
 }
 
 button:hover {
-  background: #c73652;
+  background: #d88a94;
 }
 
 .error {
   text-align: center;
-  color: #e94560;
+  color: #d47a84;
   margin-bottom: 1rem;
   min-height: 1.2em;
 }
@@ -258,6 +273,7 @@ button:hover {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
+  color: #4a4a4a;
 }
 
 .section {
@@ -267,8 +283,8 @@ button:hover {
 .section h3 {
   font-size: 1rem;
   margin-bottom: 0.5rem;
-  color: #aaa;
-  border-bottom: 1px solid #333;
+  color: #7a7a7a;
+  border-bottom: 1px solid #b8c8d4;
   padding-bottom: 0.3rem;
 }
 
@@ -307,7 +323,7 @@ button:hover {
     max-height: none;
     position: relative;
     border-right: none;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #b8c8d4;
   }
 }
 
@@ -320,21 +336,21 @@ button:hover {
 }
 
 .reading-group {
-  background: #16213e;
+  background: #f5f0e8;
   border-radius: 8px;
   padding: 0.4rem 0.8rem;
-  border: 1px solid #333;
+  border: 1px solid #b8c8d4;
 }
 
 .reading-group .label {
   font-size: 0.65rem;
-  color: #888;
+  color: #7a7a7a;
   margin-bottom: 0.2rem;
 }
 
 .reading-group .values {
   font-size: 1rem;
-  color: #e0e0e0;
+  color: #3a3a3a;
 }
 
 .reading-group .values span {
@@ -350,16 +366,16 @@ button:hover {
 }
 
 .step-card {
-  background: #16213e;
+  background: #f5f0e8;
   border-radius: 6px;
   padding: 0.25rem;
   text-align: center;
-  border: 1px solid #333;
+  border: 1px solid #b8c8d4;
 }
 
 .step-card .step-label {
   font-size: 0.6rem;
-  color: #888;
+  color: #7a7a7a;
   margin-top: 0.1rem;
 }
 
@@ -376,22 +392,22 @@ button:hover {
 }
 
 .word-card {
-  background: #16213e;
+  background: #f5f0e8;
   border-radius: 8px;
   padding: 0.35rem 0.7rem;
-  border: 1px solid #333;
+  border: 1px solid #b8c8d4;
   text-align: center;
   min-width: 70px;
 }
 
 .word-card .word {
   font-size: 1.1rem;
-  color: #e0e0e0;
+  color: #3a3a3a;
 }
 
 .word-card .word-reading {
   font-size: 0.85rem;
-  color: #e94560;
+  color: #e8a0aa;
   margin-top: 0.15rem;
 }
 
@@ -404,9 +420,9 @@ button:hover {
 }
 
 .animation-canvas {
-  background: #16213e;
+  background: #f5f0e8;
   border-radius: 8px;
-  border: 1px solid #333;
+  border: 1px solid #b8c8d4;
   padding: 0.5rem;
 }
 
@@ -429,13 +445,15 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #333;
-  border: 1px solid #444;
+  background: #e8f0f5;
+  border: 1px solid #b8c8d4;
+  color: #4a4a4a;
 }
 
 .anim-btn:hover {
-  background: #e94560;
-  border-color: #e94560;
+  background: #9ec5a0;
+  border-color: #9ec5a0;
+  color: white;
 }
 
 /* Canvas area: shared controls for animation + trace */
@@ -452,9 +470,9 @@ button:hover {
 }
 
 .trace-canvas {
-  background: #16213e;
+  background: #f5f0e8;
   border-radius: 8px;
-  border: 2px solid #333;
+  border: 2px solid #b8c8d4;
   padding: 0.5rem;
   display: inline-block;
   touch-action: none;
@@ -467,7 +485,7 @@ button:hover {
 }
 
 .trace-canvas.error {
-  border-color: #e94560;
+  border-color: #e8a0aa;
   transition: border-color 0.15s;
 }
 
@@ -481,20 +499,21 @@ button:hover {
 
 .trace-counter {
   font-size: 0.9rem;
-  color: #888;
+  color: #7a7a7a;
 }
 
 .trace-retry-btn {
   padding: 0.3rem 0.8rem;
   font-size: 0.8rem;
   border-radius: 6px;
-  background: #333;
-  border: 1px solid #444;
+  background: #e8f0f5;
+  border: 1px solid #b8c8d4;
 }
 
 .trace-retry-btn:hover {
-  background: #e94560;
-  border-color: #e94560;
+  background: #9ec5a0;
+  border-color: #9ec5a0;
+  color: white;
 }
 
 @keyframes trace-pulse {
@@ -505,7 +524,7 @@ button:hover {
 .trace-message {
   margin-top: 0.5rem;
   font-size: 1.2rem;
-  color: #4caf50;
+  color: #9ec5a0;
   font-weight: bold;
 }
 
@@ -523,16 +542,16 @@ button:hover {
   align-items: center;
   gap: 0.4rem;
   font-size: 0.9rem;
-  color: #aaa;
+  color: #7a7a7a;
 }
 
 .practice-options input[type="number"] {
   width: 50px;
   padding: 0.3rem;
-  background: #16213e;
-  border: 1px solid #333;
+  background: #f5f0e8;
+  border: 1px solid #b8c8d4;
   border-radius: 6px;
-  color: #e0e0e0;
+  color: #3a3a3a;
   text-align: center;
 }
 
@@ -564,12 +583,12 @@ button:hover {
     align-items: center;
     gap: 1rem;
     margin-bottom: 8px;
-    border-bottom: 3px solid #f5a623;
+    border-bottom: 3px solid #e8d88c;
     padding-bottom: 6px;
   }
 
   .ps-grade-badge {
-    background: #f48fb1;
+    background: #e8a0aa;
     color: white;
     font-size: 1.1rem;
     font-weight: bold;
@@ -586,7 +605,7 @@ button:hover {
   .ps-title-main {
     font-size: 1rem;
     font-weight: bold;
-    color: #4caf50;
+    color: #9ec5a0;
   }
 
   .ps-title-sub {
@@ -697,7 +716,7 @@ button:hover {
 
   /* --- Right panel --- */
   .ps-ref-kanji {
-    border: 3px solid #f48fb1;
+    border: 3px solid #e8a0aa;
     border-radius: 8px;
     aspect-ratio: 1;
     display: flex;
@@ -726,7 +745,7 @@ button:hover {
   }
 
   .ps-reading-table th {
-    background: #4fc3f7;
+    background: #9ec5a0;
     color: white;
     padding: 3px 6px;
     text-align: center;
@@ -734,7 +753,7 @@ button:hover {
   }
 
   .ps-reading-label {
-    background: #e3f2fd;
+    background: #e8f0f5;
     text-align: center;
     padding: 2px 4px;
     font-weight: bold;
@@ -745,7 +764,7 @@ button:hover {
     text-align: center;
     padding: 4px;
     border: 1px solid #ccc;
-    color: #4fc3f7;
+    color: #6a9a6e;
     font-size: 0.8rem;
   }
 }

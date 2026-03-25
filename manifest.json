@@ -3,8 +3,8 @@
   "short_name": "漢字",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#1a1a2e",
-  "theme_color": "#1a1a2e",
+  "background_color": "#d4e4ed",
+  "theme_color": "#d4e4ed",
   "icons": [
     {
       "src": "icon.svg",
