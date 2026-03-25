@@ -146,6 +146,31 @@ function getViewBox(svgText) {
   return svg?.getAttribute("viewBox") || "0 0 109 109";
 }
 
+// --- Cross guide (四つの部屋) ---
+
+function addCrossGuide(svg, viewBox, color) {
+  const parts = viewBox.split(/\s+/).map(Number);
+  const x = parts[0], y = parts[1], w = parts[2], h = parts[3];
+  const cx = x + w / 2, cy = y + h / 2;
+
+  const vLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
+  vLine.setAttribute("x1", cx); vLine.setAttribute("y1", y);
+  vLine.setAttribute("x2", cx); vLine.setAttribute("y2", y + h);
+  vLine.setAttribute("stroke", color);
+  vLine.setAttribute("stroke-width", "0.5");
+  vLine.setAttribute("stroke-dasharray", "3 3");
+
+  const hLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
+  hLine.setAttribute("x1", x); hLine.setAttribute("y1", cy);
+  hLine.setAttribute("x2", x + w); hLine.setAttribute("y2", cy);
+  hLine.setAttribute("stroke", color);
+  hLine.setAttribute("stroke-width", "0.5");
+  hLine.setAttribute("stroke-dasharray", "3 3");
+
+  svg.appendChild(vLine);
+  svg.appendChild(hLine);
+}
+
 // --- Grade-appropriate word filtering ---
 // Only show short, common words where ALL kanji are from the same grade or lower.
 
@@ -250,6 +275,7 @@ function createStepSVG(strokes, upToStep, size, viewBox) {
   svg.setAttribute("viewBox", viewBox);
   svg.setAttribute("width", size);
   svg.setAttribute("height", size);
+  addCrossGuide(svg, viewBox, "#2a3a4a");
 
   for (let i = 0; i <= upToStep; i++) {
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -354,6 +380,7 @@ function createPrintStepSVG(strokes, upToStep, size, viewBox, showNumbers) {
   svg.setAttribute("viewBox", viewBox);
   svg.setAttribute("width", size);
   svg.setAttribute("height", size);
+  addCrossGuide(svg, viewBox, "#d0e8ff");
 
   for (let i = 0; i <= upToStep; i++) {
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -384,6 +411,7 @@ function createPrintGuideSVG(strokes, size, viewBox, color) {
   svg.setAttribute("viewBox", viewBox);
   svg.setAttribute("width", size);
   svg.setAttribute("height", size);
+  addCrossGuide(svg, viewBox, "#d0e8ff");
 
   strokes.forEach((stroke) => {
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -405,6 +433,7 @@ function createPrintRefSVG(strokes, size, viewBox) {
   svg.setAttribute("viewBox", viewBox);
   svg.setAttribute("width", size);
   svg.setAttribute("height", size);
+  addCrossGuide(svg, viewBox, "#d0e8ff");
 
   strokes.forEach((stroke) => {
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -428,6 +457,7 @@ function createAnimationSVG(strokes, viewBox) {
   svg.setAttribute("viewBox", viewBox);
   svg.setAttribute("width", size);
   svg.setAttribute("height", size);
+  addCrossGuide(svg, viewBox, "#2a3a4a");
 
   strokes.forEach((stroke) => {
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
