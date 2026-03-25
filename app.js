@@ -901,6 +901,8 @@ if (traceRetryBtn) {
 function buildPrintSheetSVG() {
   const info = currentKanjiInfo;
   const strokeCount = info?.stroke_count || currentStrokes.length;
+  const onReadings = info?.on_readings || [];
+  const kunReadings = info?.kun_readings || [];
 
   // Helper: embed kanji strokes scaled into a cell at (cx, cy, size)
   function strokePaths(cx, cy, size, color, strokeW, upTo) {
@@ -966,21 +968,44 @@ function buildPrintSheetSVG() {
     }
   }
 
-  // --- RIGHT: Reference kanji (top) ---
-  const refSize = Math.min(panelW * 0.7, 45);
+  // --- RIGHT: Reference kanji (top, large) ---
+  const refSize = Math.min(panelW - 8, 65);
   const refX = panelCenterX - refSize / 2;
   const refY = margin + 2;
 
-  svg += `<rect x="${refX}" y="${refY}" width="${refSize}" height="${refSize}" rx="2" fill="none" stroke="#e8a0aa" stroke-width="0.8"/>`;
+  svg += `<rect x="${refX}" y="${refY}" width="${refSize}" height="${refSize}" rx="3" fill="none" stroke="#e8a0aa" stroke-width="1"/>`;
   svg += crossGuide(refX, refY, refSize);
-  svg += strokePaths(refX + 1, refY + 1, refSize - 2, "#333", 0.9);
+  svg += strokePaths(refX + 1.5, refY + 1.5, refSize - 3, "#333", 1.0);
 
   // Stroke count
-  const strokeLabelY = refY + refSize + 5;
-  svg += `<text x="${panelCenterX}" y="${strokeLabelY}" text-anchor="middle" font-size="3" fill="#333" font-weight="bold">${strokeCount}画</text>`;
+  let rightY = refY + refSize + 5;
+  svg += `<text x="${panelCenterX}" y="${rightY}" text-anchor="middle" font-size="3.5" fill="#333" font-weight="bold">${strokeCount}画</text>`;
+
+  // --- Readings table ---
+  rightY += 5;
+  const tableX = panelX + 4;
+  const tableW = panelW - 8;
+  const rowH = 5;
+
+  // Header
+  svg += `<rect x="${tableX}" y="${rightY}" width="${tableW}" height="${rowH}" rx="1" fill="#9ec5a0"/>`;
+  svg += `<text x="${panelCenterX}" y="${rightY + 3.5}" text-anchor="middle" font-size="2.2" fill="white" font-weight="bold">読み方</text>`;
+  rightY += rowH;
+
+  // Kun row
+  svg += `<rect x="${tableX}" y="${rightY}" width="${tableW}" height="${rowH + 2}" fill="none" stroke="#ccc" stroke-width="0.2"/>`;
+  svg += `<text x="${tableX + 2}" y="${rightY + 3}" font-size="1.8" fill="#888">くん</text>`;
+  svg += `<text x="${tableX + 12}" y="${rightY + 3}" font-size="2" fill="#333">${kunReadings.join("、") || "—"}</text>`;
+  rightY += rowH + 2;
+
+  // On row
+  svg += `<rect x="${tableX}" y="${rightY}" width="${tableW}" height="${rowH + 2}" fill="none" stroke="#ccc" stroke-width="0.2"/>`;
+  svg += `<text x="${tableX + 2}" y="${rightY + 3}" font-size="1.8" fill="#888">音</text>`;
+  svg += `<text x="${tableX + 12}" y="${rightY + 3}" font-size="2" fill="#333">${onReadings.join("、") || "—"}</text>`;
+  rightY += rowH + 2;
 
   // --- RIGHT: Kakijun (bottom portion) ---
-  const kjAreaTop = strokeLabelY + 8;
+  const kjAreaTop = rightY + 4;
   const kjAreaH = H - kjAreaTop - margin;
   const kjAreaW = panelW - 4;
   const kjCellSize = Math.min(
