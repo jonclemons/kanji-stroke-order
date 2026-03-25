@@ -587,6 +587,222 @@ function resetAnimation() {
   });
 }
 
+// --- Interactive Stroke Tracing (なぞってみよう) ---
+
+const traceArea = document.getElementById("traceArea");
+const traceCanvas = document.getElementById("traceCanvas");
+const traceCounter = document.getElementById("traceCounter");
+const traceRetryBtn = document.getElementById("traceRetryBtn");
+const traceMessage = document.getElementById("traceMessage");
+const traceBtn = document.getElementById("traceBtn");
+
+let isTracing = false;
+let traceStrokeIndex = 0;
+let traceProgress = 0;
+let tracePaths = [];
+let traceIsDrawing = false;
+let traceSvgEl = null;
+
+function enterTraceMode() {
+  if (!currentStrokes.length) return;
+  stopAnimation();
+  isTracing = true;
+  traceArea.classList.remove("hidden");
+  traceMessage.classList.add("hidden");
+  traceRetryBtn.classList.add("hidden");
+  traceBtn.textContent = "▶";
+  traceBtn.title = "アニメーション";
+  buildTraceSVG();
+}
+
+function exitTraceMode() {
+  isTracing = false;
+  traceArea.classList.add("hidden");
+  traceBtn.textContent = "✏";
+  traceBtn.title = "なぞる";
+}
+
+function buildTraceSVG() {
+  traceCanvas.innerHTML = "";
+  const size = 240;
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("viewBox", currentViewBox);
+  svg.setAttribute("width", size);
+  svg.setAttribute("height", size);
+  addCrossGuide(svg, currentViewBox, "#2a3a4a");
+
+  // Draw all strokes as faint guide
+  currentStrokes.forEach((stroke) => {
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", stroke.d);
+    path.setAttribute("fill", "none");
+    path.setAttribute("stroke", "#2a3a4a");
+    path.setAttribute("stroke-width", "3.5");
+    path.setAttribute("stroke-linecap", "round");
+    path.setAttribute("stroke-linejoin", "round");
+    svg.appendChild(path);
+  });
+
+  // Draw interactive stroke paths (initially hidden, revealed as user traces)
+  tracePaths = [];
+  currentStrokes.forEach((stroke, i) => {
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", stroke.d);
+    path.setAttribute("fill", "none");
+    path.setAttribute("stroke-linecap", "round");
+    path.setAttribute("stroke-linejoin", "round");
+    path.setAttribute("stroke-width", "4");
+    if (i === 0) {
+      // First stroke: show as dashed outline to trace
+      path.setAttribute("stroke", "#e94560");
+      const len = 0; // will set after append
+      path.style.opacity = "1";
+    } else {
+      path.setAttribute("stroke", "#e94560");
+      path.style.opacity = "0";
+    }
+    svg.appendChild(path);
+    tracePaths.push(path);
+  });
+
+  traceCanvas.appendChild(svg);
+  traceSvgEl = svg;
+
+  // Initialize first stroke
+  traceStrokeIndex = 0;
+  traceProgress = 0;
+  initTraceStroke(0);
+  updateTraceCounter();
+
+  // Add pointer events
+  svg.addEventListener("pointerdown", onTraceStart);
+  svg.addEventListener("pointermove", onTraceMove);
+  svg.addEventListener("pointerup", onTraceEnd);
+  svg.addEventListener("pointerleave", onTraceEnd);
+}
+
+function initTraceStroke(index) {
+  if (index >= tracePaths.length) return;
+  const path = tracePaths[index];
+  path.style.opacity = "1";
+  const len = path.getTotalLength();
+  path.style.strokeDasharray = len;
+  path.style.strokeDashoffset = len;
+  path.style.transition = "none";
+  traceProgress = 0;
+}
+
+function updateTraceCounter() {
+  traceCounter.textContent = `${traceStrokeIndex + 1}/${currentStrokes.length}画め`;
+}
+
+function svgPoint(svg, clientX, clientY) {
+  const ctm = svg.getScreenCTM();
+  if (!ctm) return { x: 0, y: 0 };
+  const inv = ctm.inverse();
+  return {
+    x: inv.a * clientX + inv.c * clientY + inv.e,
+    y: inv.b * clientX + inv.d * clientY + inv.f,
+  };
+}
+
+function findNearestProgress(path, point, currentProgress) {
+  const totalLen = path.getTotalLength();
+  const searchStart = Math.max(0, currentProgress - 5);
+  const searchEnd = Math.min(totalLen, currentProgress + 30);
+  let bestDist = Infinity;
+  let bestLen = currentProgress;
+  const step = 1.5;
+
+  for (let len = searchStart; len <= searchEnd; len += step) {
+    const p = path.getPointAtLength(len);
+    const dx = p.x - point.x;
+    const dy = p.y - point.y;
+    const dist = dx * dx + dy * dy;
+    if (dist < bestDist) {
+      bestDist = dist;
+      bestLen = len;
+    }
+  }
+
+  return { distance: Math.sqrt(bestDist), length: bestLen };
+}
+
+function onTraceStart(e) {
+  if (traceStrokeIndex >= tracePaths.length) return;
+  e.preventDefault();
+  traceIsDrawing = true;
+  traceCanvas.classList.remove("error");
+  onTraceMove(e);
+}
+
+function onTraceMove(e) {
+  if (!traceIsDrawing || traceStrokeIndex >= tracePaths.length) return;
+  e.preventDefault();
+
+  const point = svgPoint(traceSvgEl, e.clientX, e.clientY);
+  const path = tracePaths[traceStrokeIndex];
+  const totalLen = path.getTotalLength();
+  const TOLERANCE = 18; // SVG units (~25px on screen)
+
+  const result = findNearestProgress(path, point, traceProgress);
+
+  if (result.distance < TOLERANCE && result.length >= traceProgress) {
+    // Valid: advance progress
+    traceProgress = result.length;
+    path.style.strokeDashoffset = totalLen - traceProgress;
+    traceCanvas.classList.remove("error");
+
+    // Check if stroke is complete (>90%)
+    if (traceProgress / totalLen >= 0.9) {
+      completeTraceStroke();
+    }
+  } else if (result.distance >= TOLERANCE) {
+    // Too far from path
+    traceCanvas.classList.add("error");
+  }
+}
+
+function onTraceEnd(e) {
+  traceIsDrawing = false;
+}
+
+function completeTraceStroke() {
+  const path = tracePaths[traceStrokeIndex];
+  path.style.transition = "stroke-dashoffset 0.15s ease";
+  path.style.strokeDashoffset = "0";
+
+  traceStrokeIndex++;
+  traceProgress = 0;
+
+  if (traceStrokeIndex >= tracePaths.length) {
+    // All done!
+    traceMessage.textContent = "よくできました！";
+    traceMessage.classList.remove("hidden");
+    traceRetryBtn.classList.remove("hidden");
+    traceCounter.textContent = "";
+  } else {
+    // Next stroke
+    setTimeout(() => {
+      initTraceStroke(traceStrokeIndex);
+      updateTraceCounter();
+    }, 200);
+  }
+}
+
+function retryTrace() {
+  traceMessage.classList.add("hidden");
+  traceRetryBtn.classList.add("hidden");
+  buildTraceSVG();
+}
+
+traceBtn.addEventListener("click", () => {
+  if (isTracing) exitTraceMode();
+  else enterTraceMode();
+});
+
+traceRetryBtn.addEventListener("click", retryTrace);
+
 // --- Print Practice Sheet (Japanese school style) ---
 
 function buildPrintSheetHTML() {
@@ -596,42 +812,34 @@ function buildPrintSheetHTML() {
   const onReadings = info?.on_readings || [];
   const kunReadings = info?.kun_readings || [];
 
-  // Build SVG strings for embedding
   function svgToString(svgEl) {
     return new XMLSerializer().serializeToString(svgEl);
   }
 
-  // Guide SVGs for first two practice cells
-  const guideSvg1 = svgToString(createPrintGuideSVG(currentStrokes, "100%", currentViewBox, "#ccc"));
+  // Reference SVG — no stroke numbers, just the kanji with cross guide
+  const refSvg = createPrintGuideSVG(currentStrokes, "100%", currentViewBox, "#333");
+  refSvg.setAttribute("width", "100%");
+  refSvg.setAttribute("height", "100%");
 
-  // Stroke step SVGs
-  const stepCount = currentStrokes.length;
-  const stageIndices = [];
-  if (stepCount <= 3) {
-    for (let i = 0; i < stepCount; i++) stageIndices.push(i);
-  } else {
-    const mid = Math.floor(stepCount / 2) - 1;
-    stageIndices.push(mid);
-    stageIndices.push(stepCount - 2);
-    stageIndices.push(stepCount - 1);
-  }
-
-  const stepCells = stageIndices.map((idx) => {
-    const svg = createPrintStepSVG(currentStrokes, idx, "100%", currentViewBox, true);
+  // ALL stroke steps (every single stroke, not just 3 stages)
+  const allStepSvgs = [];
+  for (let i = 0; i < currentStrokes.length; i++) {
+    const svg = createPrintStepSVG(currentStrokes, i, "100%", currentViewBox, true);
     svg.setAttribute("width", "100%");
     svg.setAttribute("height", "100%");
     svg.style.position = "absolute";
     svg.style.top = "0";
     svg.style.left = "0";
-    return `<tr><td class="ps-cell ps-stroke-cell">${svgToString(svg)}</td></tr>`;
-  }).join("");
+    allStepSvgs.push(svgToString(svg));
+  }
 
-  // Reference SVG
-  const refSvg = createPrintRefSVG(currentStrokes, "100%", currentViewBox);
-  refSvg.setAttribute("width", "100%");
-  refSvg.setAttribute("height", "100%");
+  // Kakijun cells laid out vertically: top→bottom, right→left (tategaki flow)
+  // We'll use a CSS grid with column-first flow
+  const kakijunCells = allStepSvgs.map((svg, i) =>
+    `<div class="ps-kakijun-cell"><div class="ps-kakijun-inner">${svg}</div><div class="ps-kakijun-num">${i + 1}</div></div>`
+  ).join("");
 
-  // Practice grid rows
+  // Practice grid rows — all cells get cross guides via CSS ::before/::after
   let practiceRows = "";
   for (let r = 0; r < 5; r++) {
     let cells = "";
@@ -677,10 +885,9 @@ function buildPrintSheetHTML() {
 
   .ps-main { display: flex; gap: 8px; height: calc(100vh - 60px); }
   .ps-left { flex: 3; display: flex; gap: 4px; }
-  .ps-center { flex: 1; display: flex; gap: 4px; }
-  .ps-right { flex: 1.2; display: flex; flex-direction: column; gap: 6px; }
+  .ps-right { flex: 2; display: flex; flex-direction: column; gap: 6px; }
 
-  .ps-practice-grid, .ps-stroke-steps {
+  .ps-practice-grid {
     border-collapse: collapse; width: 100%; height: 100%; table-layout: fixed;
   }
   .ps-cell {
@@ -691,7 +898,6 @@ function buildPrintSheetHTML() {
   .ps-cell::before { top: 0; bottom: 0; left: 50%; width: 1px; background: #d0e8ff; }
   .ps-cell::after { left: 0; right: 0; top: 50%; height: 1px; background: #d0e8ff; }
   .ps-cell svg { position: relative; z-index: 1; }
-  .ps-stroke-cell svg { position: relative; z-index: 1; }
 
   .ps-vertical-label {
     writing-mode: vertical-rl; font-size: 0.7rem; color: #333;
@@ -699,18 +905,50 @@ function buildPrintSheetHTML() {
     padding: 0 2px; white-space: nowrap;
   }
 
+  /* Right panel: reference kanji + readings + kakijun */
   .ps-ref-kanji {
-    border: 3px solid #f48fb1; border-radius: 8px; aspect-ratio: 1;
+    border: 3px solid #f48fb1; border-radius: 8px;
+    width: 100%; max-width: 120px; aspect-ratio: 1;
     display: flex; align-items: center; justify-content: center;
-    padding: 6px; position: relative;
+    padding: 6px; position: relative; margin: 0 auto;
   }
   .ps-ref-kanji svg { width: 100%; height: 100%; }
-  .ps-stroke-count { text-align: center; font-size: 1rem; font-weight: bold; color: #333; }
+  .ps-stroke-count { text-align: center; font-size: 0.9rem; font-weight: bold; color: #333; }
 
-  .ps-reading-table { border-collapse: collapse; width: 100%; font-size: 0.75rem; }
-  .ps-reading-table th { background: #4fc3f7; color: white; padding: 3px 6px; text-align: center; font-size: 0.8rem; }
+  .ps-reading-table { border-collapse: collapse; width: 100%; font-size: 0.7rem; }
+  .ps-reading-table th { background: #4fc3f7; color: white; padding: 2px 4px; text-align: center; font-size: 0.75rem; }
   .ps-reading-label { background: #e3f2fd; text-align: center; padding: 2px 4px; font-weight: bold; border: 1px solid #ccc; }
-  .ps-reading-value { text-align: center; padding: 4px; border: 1px solid #ccc; color: #4fc3f7; font-size: 0.8rem; }
+  .ps-reading-value { text-align: center; padding: 3px; border: 1px solid #ccc; color: #4fc3f7; font-size: 0.75rem; }
+
+  /* Kakijun grid: vertical flow top→bottom, right→left */
+  .ps-kakijun-label {
+    font-size: 0.75rem; color: #333; font-weight: bold;
+    margin: 4px 0 2px; text-align: center;
+  }
+  .ps-kakijun-grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(auto-fill, minmax(40px, 1fr));
+    gap: 2px;
+    direction: rtl;
+    flex: 1;
+    align-content: start;
+  }
+  .ps-kakijun-cell {
+    direction: ltr;
+    border: 1px solid #ddd;
+    position: relative;
+    aspect-ratio: 1;
+    width: 100%;
+  }
+  .ps-kakijun-inner {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  }
+  .ps-kakijun-inner svg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+  .ps-kakijun-num {
+    position: absolute; bottom: 1px; right: 2px;
+    font-size: 0.5rem; color: #999;
+  }
 </style>
 </head>
 <body>
@@ -733,11 +971,6 @@ function buildPrintSheetHTML() {
       <div class="ps-vertical-label">くり返し書いておぼえよう</div>
     </div>
 
-    <div class="ps-center">
-      <table class="ps-stroke-steps">${stepCells}</table>
-      <div class="ps-vertical-label">書きじゅんに気をつけて書いてみよう</div>
-    </div>
-
     <div class="ps-right">
       <div class="ps-ref-kanji">${svgToString(refSvg)}</div>
       <div class="ps-stroke-count">${strokeCount}画</div>
@@ -752,6 +985,8 @@ function buildPrintSheetHTML() {
           <td class="ps-reading-value">${onReadings.join("、") || "—"}</td>
         </tr>
       </table>
+      <div class="ps-kakijun-label">書きじゅん</div>
+      <div class="ps-kakijun-grid">${kakijunCells}</div>
     </div>
   </div>
 
