@@ -378,6 +378,7 @@ button:hover {
   border-radius: 8px;
   border: 1px solid #b8c8d4;
   padding: 0.5rem;
+  display: inline-block;
 }
 
 .animation-canvas svg {

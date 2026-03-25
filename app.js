@@ -1216,7 +1216,11 @@ async function lookup() {
     renderReadings(kanjiInfo);
     renderWords(filteredWords);
     renderSteps(strokes, viewBox);
+    // Reset to animation mode if in trace
+    if (isTracing) exitTraceMode();
     setupAnimation(strokes, viewBox);
+    animationWrap.style.display = "";
+    traceArea.style.display = "none";
     resultsEl.classList.remove("hidden");
     const emptyState = document.getElementById("emptyState");
     if (emptyState) emptyState.classList.add("hidden");
