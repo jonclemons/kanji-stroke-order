@@ -968,9 +968,14 @@ function buildPrintSheetSVG() {
     }
   }
 
+  // Consistent left/right edges for the entire right panel
+  const contentL = panelX + 4;
+  const contentR = panelX + panelW - 4;
+  const contentW = contentR - contentL;
+
   // --- RIGHT: Reference kanji (top, large) ---
-  const refSize = Math.min(panelW - 8, 65);
-  const refX = panelCenterX - refSize / 2;
+  const refSize = Math.min(contentW, 60);
+  const refX = contentL + (contentW - refSize) / 2;
   const refY = margin + 2;
 
   svg += `<rect x="${refX}" y="${refY}" width="${refSize}" height="${refSize}" rx="3" fill="none" stroke="#e8a0aa" stroke-width="1"/>`;
@@ -979,74 +984,60 @@ function buildPrintSheetSVG() {
 
   // Stroke count
   let rightY = refY + refSize + 5;
-  svg += `<text x="${panelCenterX}" y="${rightY}" text-anchor="middle" font-size="3.5" fill="#333" font-weight="bold">${strokeCount}画</text>`;
+  svg += `<text x="${contentL + contentW / 2}" y="${rightY}" text-anchor="middle" font-size="3.5" fill="#333" font-weight="bold">${strokeCount}画</text>`;
 
-  // --- Readings table ---
+  // --- Readings table (aligned to contentL/contentR) ---
   rightY += 5;
-  const tableX = panelX + 4;
-  const tableW = panelW - 8;
   const rowH = 5;
 
-  // Header — hollow with stars
-  svg += `<rect x="${tableX}" y="${rightY}" width="${tableW}" height="${rowH}" fill="none" stroke="#9ec5a0" stroke-width="0.3"/>`;
-  svg += `<text x="${panelCenterX}" y="${rightY + 3.5}" text-anchor="middle" font-size="2.2" fill="#9ec5a0" font-weight="bold">☆ よみかた ☆</text>`;
+  svg += `<rect x="${contentL}" y="${rightY}" width="${contentW}" height="${rowH}" fill="none" stroke="#9ec5a0" stroke-width="0.3"/>`;
+  svg += `<text x="${contentL + contentW / 2}" y="${rightY + 3.5}" text-anchor="middle" font-size="2.2" fill="#9ec5a0" font-weight="bold">☆ よみかた ☆</text>`;
   rightY += rowH;
 
-  // Kun row
-  svg += `<rect x="${tableX}" y="${rightY}" width="${tableW}" height="${rowH + 2}" fill="none" stroke="#ccc" stroke-width="0.2"/>`;
-  svg += `<text x="${tableX + 2}" y="${rightY + 3}" font-size="1.8" fill="#888">くん</text>`;
-  svg += `<text x="${tableX + 12}" y="${rightY + 3}" font-size="2" fill="#333">${kunReadings.join("、") || "—"}</text>`;
+  svg += `<rect x="${contentL}" y="${rightY}" width="${contentW}" height="${rowH + 2}" fill="none" stroke="#ccc" stroke-width="0.2"/>`;
+  svg += `<text x="${contentL + 2}" y="${rightY + 3}" font-size="1.8" fill="#888">くん</text>`;
+  svg += `<text x="${contentL + 12}" y="${rightY + 3}" font-size="2" fill="#333">${kunReadings.join("、") || "—"}</text>`;
   rightY += rowH + 2;
 
-  // On row
-  svg += `<rect x="${tableX}" y="${rightY}" width="${tableW}" height="${rowH + 2}" fill="none" stroke="#ccc" stroke-width="0.2"/>`;
-  svg += `<text x="${tableX + 2}" y="${rightY + 3}" font-size="1.8" fill="#888">音</text>`;
-  svg += `<text x="${tableX + 12}" y="${rightY + 3}" font-size="2" fill="#333">${onReadings.join("、") || "—"}</text>`;
+  svg += `<rect x="${contentL}" y="${rightY}" width="${contentW}" height="${rowH + 2}" fill="none" stroke="#ccc" stroke-width="0.2"/>`;
+  svg += `<text x="${contentL + 2}" y="${rightY + 3}" font-size="1.8" fill="#888">音</text>`;
+  svg += `<text x="${contentL + 12}" y="${rightY + 3}" font-size="2" fill="#333">${onReadings.join("、") || "—"}</text>`;
   rightY += rowH + 2;
 
-  // --- RIGHT: Kakijun (bottom portion) ---
-  const kjAreaTop = rightY + 4;
-  const kjAreaH = H - kjAreaTop - margin;
-  const kjAreaW = panelW - 4;
-  const labelSpace = 5; // space below each cell for the "1/2" label
+  // --- Kakijun (flows right after readings, left-to-right) ---
+  rightY += 4;
+  const kjGap = 2; // spacing between kakijun cells
+  const kjAvailH = H - rightY - margin;
+  const labelSpace = 5;
   const kjCellSize = Math.min(
-    Math.floor(kjAreaW / kjMaxCols),
-    Math.floor(kjAreaH / kjMaxRows) - labelSpace
+    Math.floor((contentW - (kjMaxCols - 1) * kjGap) / kjMaxCols),
+    Math.floor(kjAvailH / kjMaxRows) - labelSpace
   );
 
-  // Anchor kakijun to bottom-right of panel
-  const kjGridH = kjMaxRows * (kjCellSize + labelSpace);
-  const kjGridW = kjMaxCols * kjCellSize;
-  const kjBottomY = H - margin;
-  const kjTopY = kjBottomY - kjGridH;
-  const kjRightX = panelX + panelW - 2;
-
-
-  // Helper: full step SVG like the webapp — previous (gray) + current (pink) + future (faint)
+  // Helper: full step SVG — previous (gray) + current (pink) + future (faint)
   function stepPaths(cx, cy, size, upToStep) {
     const s = size / 109;
     let paths = "";
     for (let i = 0; i < currentStrokes.length; i++) {
       let color, w;
       if (i < upToStep) {
-        color = "#a0b0bc"; w = 0.6;  // previous: gray
+        color = "#a0b0bc"; w = 0.6;
       } else if (i === upToStep) {
-        color = "#e8a0aa"; w = 0.7;  // current: pink
+        color = "#e8a0aa"; w = 0.7;
       } else {
-        color = "#d0dce6"; w = 0.45; // future: very faint
+        color = "#d0dce6"; w = 0.45;
       }
       paths += `<path d="${currentStrokes[i].d}" fill="none" stroke="${color}" stroke-width="${w / s}" stroke-linecap="round" stroke-linejoin="round" transform="translate(${cx},${cy}) scale(${s})"/>`;
     }
     return paths;
   }
 
-  // Kakijun grid — left-to-right, top-to-down (matches main webapp view)
-  const kjLeftX = panelX + 2;
+  // Kakijun grid — left-to-right, top-to-down
   for (let i = 0; i < n; i++) {
     const col = i % kjMaxCols;
     const row = Math.floor(i / kjMaxCols);
-    const cx = kjLeftX + col * kjCellSize;
-    const cy = kjTopY + row * (kjCellSize + labelSpace);
+    const cx = contentL + col * (kjCellSize + kjGap);
+    const cy = rightY + row * (kjCellSize + labelSpace);
 
     svg += `<rect x="${cx}" y="${cy}" width="${kjCellSize}" height="${kjCellSize}" fill="none" stroke="#ddd" stroke-width="0.2"/>`;
     svg += crossGuide(cx, cy, kjCellSize);
