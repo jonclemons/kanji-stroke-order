@@ -360,7 +360,19 @@ function playAnimation() {
     }
     step++;
     if (step >= currentStrokePaths.length) {
-      stopAnimation();
+      // Loop: reset all strokes and restart after a pause
+      animationTimer = setTimeout(() => {
+        currentStrokePaths.forEach((p) => {
+          p.style.opacity = "0";
+          p.style.transition = "none";
+          p.style.strokeDashoffset = "0";
+          p.style.strokeDasharray = "none";
+          p.setAttribute("stroke", "#556677");
+          p.setAttribute("stroke-width", "3.5");
+        });
+        step = -1;
+        animationTimer = setTimeout(nextStep, 300);
+      }, 1000);
       return;
     }
     const path = currentStrokePaths[step];
