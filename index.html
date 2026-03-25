@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanji Stroke Order</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>漢字 Stroke Order</h1>
+    <div class="input-section">
+      <input type="text" id="kanjiInput" placeholder="Enter a kanji (e.g. 漢)" maxlength="1">
+      <button id="lookupBtn">Show Strokes</button>
+    </div>
+    <div id="error" class="error"></div>
+    <div id="results" class="results hidden">
+      <h2 id="kanjiTitle" class="kanji-title"></h2>
+      <div class="section">
+        <h3>Step-by-Step Strokes</h3>
+        <div id="steps" class="steps-grid"></div>
+      </div>
+      <div class="section">
+        <h3>Animation</h3>
+        <div class="animation-container">
+          <div id="animationCanvas" class="animation-canvas"></div>
+          <div class="animation-controls">
+            <button id="playBtn">▶ Play</button>
+            <button id="resetBtn">↺ Reset</button>
+            <label>
+              Speed:
+              <input type="range" id="speedSlider" min="1" max="10" value="5">
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
