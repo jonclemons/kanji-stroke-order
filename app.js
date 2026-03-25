@@ -1008,13 +1008,14 @@ function buildPrintSheetSVG() {
   const kjAreaTop = rightY + 4;
   const kjAreaH = H - kjAreaTop - margin;
   const kjAreaW = panelW - 4;
+  const labelSpace = 5; // space below each cell for the "1/2" label
   const kjCellSize = Math.min(
     Math.floor(kjAreaW / kjMaxCols),
-    Math.floor(kjAreaH / kjMaxRows)
+    Math.floor(kjAreaH / kjMaxRows) - labelSpace
   );
 
   // Anchor kakijun to bottom-right of panel
-  const kjGridH = kjMaxRows * kjCellSize;
+  const kjGridH = kjMaxRows * (kjCellSize + labelSpace);
   const kjGridW = kjMaxCols * kjCellSize;
   const kjBottomY = H - margin;
   const kjTopY = kjBottomY - kjGridH;
@@ -1023,17 +1024,35 @@ function buildPrintSheetSVG() {
   // Kakijun label
   svg += `<text x="${kjRightX - kjGridW / 2}" y="${kjTopY - 2}" text-anchor="middle" font-size="2.5" fill="#333" font-weight="bold">かきじゅん</text>`;
 
+  // Helper: full step SVG like the webapp — previous (gray) + current (pink) + future (faint)
+  function stepPaths(cx, cy, size, upToStep) {
+    const s = size / 109;
+    let paths = "";
+    for (let i = 0; i < currentStrokes.length; i++) {
+      let color, w;
+      if (i < upToStep) {
+        color = "#a0b0bc"; w = 0.6;  // previous: gray
+      } else if (i === upToStep) {
+        color = "#e8a0aa"; w = 0.7;  // current: pink
+      } else {
+        color = "#d0dce6"; w = 0.45; // future: very faint
+      }
+      paths += `<path d="${currentStrokes[i].d}" fill="none" stroke="${color}" stroke-width="${w / s}" stroke-linecap="round" stroke-linejoin="round" transform="translate(${cx},${cy}) scale(${s})"/>`;
+    }
+    return paths;
+  }
+
   // Kakijun grid — top-down, right-to-left (tategaki)
   for (let i = 0; i < n; i++) {
     const col = Math.floor(i / kjMaxRows);
     const row = i % kjMaxRows;
     const cx = kjRightX - (col + 1) * kjCellSize;
-    const cy = kjTopY + row * kjCellSize;
+    const cy = kjTopY + row * (kjCellSize + labelSpace);
 
     svg += `<rect x="${cx}" y="${cy}" width="${kjCellSize}" height="${kjCellSize}" fill="none" stroke="#ddd" stroke-width="0.2"/>`;
     svg += crossGuide(cx, cy, kjCellSize);
-    svg += strokePaths(cx + 0.5, cy + 0.5, kjCellSize - 1, "#a0b0bc", 0.6, i);
-    svg += `<text x="${cx + kjCellSize - 1}" y="${cy + kjCellSize - 0.5}" text-anchor="end" font-size="1.5" fill="#999">${i + 1}</text>`;
+    svg += stepPaths(cx + 0.5, cy + 0.5, kjCellSize - 1, i);
+    svg += `<text x="${cx + kjCellSize / 2}" y="${cy + kjCellSize + 3.5}" text-anchor="middle" font-size="2.5" fill="#7a7a7a">${i + 1}/${n}</text>`;
   }
 
   return `<!DOCTYPE html>
