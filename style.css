@@ -431,10 +431,6 @@ button:hover {
   }
 
   .app-layout {
-    display: block !important;
-  }
-
-  .sidebar, .main-content {
     display: none !important;
   }
 

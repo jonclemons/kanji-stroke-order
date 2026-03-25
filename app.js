@@ -559,23 +559,132 @@ function resetAnimation() {
 
 // --- Print Practice Sheet (Japanese school style) ---
 
-function printPracticeSheet() {
-  const existing = document.querySelector(".print-sheet");
-  if (existing) existing.remove();
-
+function buildPrintSheetHTML() {
   const info = currentKanjiInfo;
   const gradeNum = info?.grade || currentGrade || "";
   const strokeCount = info?.stroke_count || currentStrokes.length;
   const onReadings = info?.on_readings || [];
   const kunReadings = info?.kun_readings || [];
 
-  const sheet = document.createElement("div");
-  sheet.className = "print-sheet";
+  // Build SVG strings for embedding
+  function svgToString(svgEl) {
+    return new XMLSerializer().serializeToString(svgEl);
+  }
 
-  // --- Top header bar ---
-  const header = document.createElement("div");
-  header.className = "ps-header";
-  header.innerHTML = `
+  // Guide SVGs for first two practice cells
+  const guideSvg1 = svgToString(createPrintGuideSVG(currentStrokes, "100%", currentViewBox, "#ccc"));
+
+  // Stroke step SVGs
+  const stepCount = currentStrokes.length;
+  const stageIndices = [];
+  if (stepCount <= 3) {
+    for (let i = 0; i < stepCount; i++) stageIndices.push(i);
+  } else {
+    const mid = Math.floor(stepCount / 2) - 1;
+    stageIndices.push(mid);
+    stageIndices.push(stepCount - 2);
+    stageIndices.push(stepCount - 1);
+  }
+
+  const stepCells = stageIndices.map((idx) => {
+    const svg = createPrintStepSVG(currentStrokes, idx, "100%", currentViewBox, true);
+    svg.setAttribute("width", "100%");
+    svg.setAttribute("height", "100%");
+    svg.style.position = "absolute";
+    svg.style.top = "0";
+    svg.style.left = "0";
+    return `<tr><td class="ps-cell ps-stroke-cell">${svgToString(svg)}</td></tr>`;
+  }).join("");
+
+  // Reference SVG
+  const refSvg = createPrintRefSVG(currentStrokes, "100%", currentViewBox);
+  refSvg.setAttribute("width", "100%");
+  refSvg.setAttribute("height", "100%");
+
+  // Practice grid rows
+  let practiceRows = "";
+  for (let r = 0; r < 5; r++) {
+    let cells = "";
+    for (let c = 0; c < 3; c++) {
+      if (r === 0 && c < 2) {
+        const g = createPrintGuideSVG(currentStrokes, "100%", currentViewBox, "#ccc");
+        g.setAttribute("width", "100%");
+        g.setAttribute("height", "100%");
+        g.style.position = "absolute";
+        g.style.top = "0";
+        g.style.left = "0";
+        cells += `<td class="ps-cell">${svgToString(g)}</td>`;
+      } else {
+        cells += `<td class="ps-cell"></td>`;
+      }
+    }
+    practiceRows += `<tr>${cells}</tr>`;
+  }
+
+  return `<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>漢字の練習 — ${currentKanji}</title>
+<style>
+  @page { size: landscape; margin: 8mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "Hiragino Kaku Gothic ProN", "Meiryo", "Yu Gothic", sans-serif; }
+
+  .ps-header {
+    display: flex; align-items: center; gap: 1rem;
+    margin-bottom: 8px; border-bottom: 3px solid #f5a623; padding-bottom: 6px;
+  }
+  .ps-grade-badge {
+    background: #f48fb1; color: white; font-size: 1.1rem; font-weight: bold;
+    padding: 4px 12px; border-radius: 6px; white-space: nowrap;
+  }
+  .ps-title { display: flex; flex-direction: column; }
+  .ps-title-main { font-size: 1rem; font-weight: bold; color: #4caf50; }
+  .ps-title-sub { font-size: 0.8rem; color: #666; }
+  .ps-name-fields { margin-left: auto; display: flex; gap: 0.5rem; font-size: 0.9rem; }
+  .ps-name-field { border-bottom: 1px solid #333; padding: 0 2rem 2px 0.3rem; }
+
+  .ps-main { display: flex; gap: 8px; height: calc(100vh - 60px); }
+  .ps-left { flex: 3; display: flex; gap: 4px; }
+  .ps-center { flex: 1; display: flex; gap: 4px; }
+  .ps-right { flex: 1.2; display: flex; flex-direction: column; gap: 6px; }
+
+  .ps-practice-grid, .ps-stroke-steps {
+    border-collapse: collapse; width: 100%; height: 100%; table-layout: fixed;
+  }
+  .ps-cell {
+    border: 1px solid #aaa; position: relative; aspect-ratio: 1;
+    padding: 0; vertical-align: middle; text-align: center;
+  }
+  .ps-cell::before, .ps-cell::after { content: ""; position: absolute; }
+  .ps-cell::before { top: 0; bottom: 0; left: 50%; width: 1px; background: #d0e8ff; }
+  .ps-cell::after { left: 0; right: 0; top: 50%; height: 1px; background: #d0e8ff; }
+  .ps-cell svg { position: relative; z-index: 1; }
+  .ps-stroke-cell svg { position: relative; z-index: 1; }
+
+  .ps-vertical-label {
+    writing-mode: vertical-rl; font-size: 0.7rem; color: #333;
+    display: flex; align-items: center; justify-content: center;
+    padding: 0 2px; white-space: nowrap;
+  }
+
+  .ps-ref-kanji {
+    border: 3px solid #f48fb1; border-radius: 8px; aspect-ratio: 1;
+    display: flex; align-items: center; justify-content: center;
+    padding: 6px; position: relative;
+  }
+  .ps-ref-kanji svg { width: 100%; height: 100%; }
+  .ps-stroke-count { text-align: center; font-size: 1rem; font-weight: bold; color: #333; }
+
+  .ps-reading-table { border-collapse: collapse; width: 100%; font-size: 0.75rem; }
+  .ps-reading-table th { background: #4fc3f7; color: white; padding: 3px 6px; text-align: center; font-size: 0.8rem; }
+  .ps-reading-label { background: #e3f2fd; text-align: center; padding: 2px 4px; font-weight: bold; border: 1px solid #ccc; }
+  .ps-reading-value { text-align: center; padding: 4px; border: 1px solid #ccc; color: #4fc3f7; font-size: 0.8rem; }
+</style>
+</head>
+<body>
+  <div class="ps-header">
     <div class="ps-grade-badge">${gradeNum}年生</div>
     <div class="ps-title">
       <span class="ps-title-main">漢字をおぼえよう</span>
@@ -586,135 +695,46 @@ function printPracticeSheet() {
       <span class="ps-name-field">組</span>
       <span class="ps-name-field">名前</span>
     </div>
-  `;
-  sheet.appendChild(header);
+  </div>
 
-  // --- Main content area ---
-  const main = document.createElement("div");
-  main.className = "ps-main";
+  <div class="ps-main">
+    <div class="ps-left">
+      <table class="ps-practice-grid">${practiceRows}</table>
+      <div class="ps-vertical-label">くり返し書いておぼえよう</div>
+    </div>
 
-  // LEFT: Practice grid (3 cols × 5 rows of writing cells)
-  const leftSection = document.createElement("div");
-  leftSection.className = "ps-left";
+    <div class="ps-center">
+      <table class="ps-stroke-steps">${stepCells}</table>
+      <div class="ps-vertical-label">書きじゅんに気をつけて書いてみよう</div>
+    </div>
 
-  // First row has the guide kanji in the first cell
-  const practiceGrid = document.createElement("table");
-  practiceGrid.className = "ps-practice-grid";
-  const practiceRows = 5;
-  const practiceCols = 3;
-  for (let r = 0; r < practiceRows; r++) {
-    const tr = document.createElement("tr");
-    for (let c = 0; c < practiceCols; c++) {
-      const td = document.createElement("td");
-      td.className = "ps-cell";
-      // First two cells get guide kanji (light gray)
-      if (r === 0 && c < 2) {
-        const guideSvg = createPrintGuideSVG(currentStrokes, "100%", currentViewBox, "#ccc");
-        guideSvg.setAttribute("width", "100%");
-        guideSvg.setAttribute("height", "100%");
-        guideSvg.style.position = "absolute";
-        guideSvg.style.top = "0";
-        guideSvg.style.left = "0";
-        td.appendChild(guideSvg);
-      }
-      tr.appendChild(td);
-    }
-    practiceGrid.appendChild(tr);
-  }
+    <div class="ps-right">
+      <div class="ps-ref-kanji">${svgToString(refSvg)}</div>
+      <div class="ps-stroke-count">${strokeCount}画</div>
+      <table class="ps-reading-table">
+        <tr><th colspan="2">読み方</th></tr>
+        <tr>
+          <td class="ps-reading-label">くん</td>
+          <td class="ps-reading-label">音</td>
+        </tr>
+        <tr>
+          <td class="ps-reading-value">${kunReadings.join("、") || "—"}</td>
+          <td class="ps-reading-value">${onReadings.join("、") || "—"}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
 
-  const practiceLabel = document.createElement("div");
-  practiceLabel.className = "ps-vertical-label";
-  practiceLabel.textContent = "くり返し書いておぼえよう";
+<script>window.onload = () => { window.print(); };</script>
+</body>
+</html>`;
+}
 
-  leftSection.appendChild(practiceGrid);
-  leftSection.appendChild(practiceLabel);
-
-  // CENTER: Stroke order step-by-step (3 large cells showing progressive strokes with numbers)
-  const centerSection = document.createElement("div");
-  centerSection.className = "ps-center";
-
-  const strokeStepGrid = document.createElement("table");
-  strokeStepGrid.className = "ps-stroke-steps";
-
-  // Show 3 stages of stroke building
-  const stepCount = currentStrokes.length;
-  const stageIndices = [];
-  if (stepCount <= 3) {
-    for (let i = 0; i < stepCount; i++) stageIndices.push(i);
-  } else {
-    // Show ~3 evenly spaced stages plus the final
-    const mid = Math.floor(stepCount / 2) - 1;
-    stageIndices.push(mid);
-    stageIndices.push(stepCount - 2);
-    stageIndices.push(stepCount - 1);
-  }
-
-  for (const idx of stageIndices) {
-    const tr = document.createElement("tr");
-    const td = document.createElement("td");
-    td.className = "ps-cell ps-stroke-cell";
-    const svg = createPrintStepSVG(currentStrokes, idx, "100%", currentViewBox, true);
-    svg.setAttribute("width", "100%");
-    svg.setAttribute("height", "100%");
-    svg.style.position = "absolute";
-    svg.style.top = "0";
-    svg.style.left = "0";
-    td.appendChild(svg);
-    tr.appendChild(td);
-    strokeStepGrid.appendChild(tr);
-  }
-
-  const strokeLabel = document.createElement("div");
-  strokeLabel.className = "ps-vertical-label";
-  strokeLabel.textContent = "書きじゅんに気をつけて書いてみよう";
-
-  centerSection.appendChild(strokeStepGrid);
-  centerSection.appendChild(strokeLabel);
-
-  // RIGHT: Large reference kanji with stroke numbers + info panel
-  const rightSection = document.createElement("div");
-  rightSection.className = "ps-right";
-
-  // Large kanji with all stroke numbers (no highlight)
-  const refBox = document.createElement("div");
-  refBox.className = "ps-ref-kanji";
-  const refSvg = createPrintRefSVG(currentStrokes, "100%", currentViewBox);
-  refSvg.setAttribute("width", "100%");
-  refSvg.setAttribute("height", "100%");
-  refBox.appendChild(refSvg);
-  rightSection.appendChild(refBox);
-
-  // Stroke count
-  const strokeInfo = document.createElement("div");
-  strokeInfo.className = "ps-stroke-count";
-  strokeInfo.textContent = `${strokeCount}画`;
-  rightSection.appendChild(strokeInfo);
-
-  // Readings table
-  const readingTable = document.createElement("table");
-  readingTable.className = "ps-reading-table";
-  readingTable.innerHTML = `
-    <tr><th colspan="2">読み方</th></tr>
-    <tr>
-      <td class="ps-reading-label">くん</td>
-      <td class="ps-reading-label">音</td>
-    </tr>
-    <tr>
-      <td class="ps-reading-value">${kunReadings.join("、") || "—"}</td>
-      <td class="ps-reading-value">${onReadings.join("、") || "—"}</td>
-    </tr>
-  `;
-  rightSection.appendChild(readingTable);
-
-  main.appendChild(leftSection);
-  main.appendChild(centerSection);
-  main.appendChild(rightSection);
-  sheet.appendChild(main);
-
-  document.body.appendChild(sheet);
-  window.print();
-  // Remove print sheet after printing to prevent layout issues
-  sheet.remove();
+function printPracticeSheet() {
+  const html = buildPrintSheetHTML();
+  const printWindow = window.open("", "_blank");
+  printWindow.document.write(html);
+  printWindow.document.close();
 }
 
 // --- Prefetching ---
