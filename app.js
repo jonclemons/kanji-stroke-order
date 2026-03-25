@@ -698,6 +698,25 @@ async function lookup() {
   lookupBtn.disabled = true;
   lookupBtn.textContent = "…";
 
+  // Immediately highlight in grid
+  kanjiGrid.querySelectorAll(".kanji-grid-btn").forEach((btn) => {
+    btn.classList.toggle("active", btn.textContent === kanji);
+  });
+
+  // Show spinner
+  const emptyState = document.getElementById("emptyState");
+  if (emptyState) emptyState.classList.add("hidden");
+  resultsEl.classList.add("hidden");
+  let spinner = document.getElementById("loadingSpinner");
+  if (!spinner) {
+    spinner = document.createElement("div");
+    spinner.id = "loadingSpinner";
+    spinner.className = "loading-spinner";
+    spinner.innerHTML = '<div class="spinner"></div>';
+    document.querySelector(".main-content").appendChild(spinner);
+  }
+  spinner.classList.remove("hidden");
+
   try {
     const [svgText, kanjiInfo, kanjiWords] = await Promise.all([
       fetchKanjiSVG(kanji),
@@ -721,10 +740,6 @@ async function lookup() {
     currentKanjiInfo = kanjiInfo;
 
     kanjiTitle.textContent = kanji;
-    // Highlight active kanji in grid
-    kanjiGrid.querySelectorAll(".kanji-grid-btn").forEach((btn) => {
-      btn.classList.toggle("active", btn.textContent === kanji);
-    });
     renderReadings(kanjiInfo);
     renderWords(filteredWords);
     renderSteps(strokes, viewBox);
@@ -740,6 +755,8 @@ async function lookup() {
   } finally {
     lookupBtn.disabled = false;
     lookupBtn.textContent = "しらべる";
+    const spinner = document.getElementById("loadingSpinner");
+    if (spinner) spinner.classList.add("hidden");
   }
 }
 
