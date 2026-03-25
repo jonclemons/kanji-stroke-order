@@ -24,6 +24,48 @@ let currentKanjiInfo = null;
 
 const gradeKanjiCache = {};
 const kanjiInfoCache = {};
+const svgCache = {};
+const wordsCache = {};
+
+// --- IndexedDB persistent cache ---
+
+const DB_NAME = "kanji-cache";
+const DB_VERSION = 1;
+const DB_STORES = ["svg", "info", "words", "grades"];
+
+function openCacheDB() {
+  return new Promise((resolve, reject) => {
+    const req = indexedDB.open(DB_NAME, DB_VERSION);
+    req.onupgradeneeded = () => {
+      const db = req.result;
+      DB_STORES.forEach((name) => {
+        if (!db.objectStoreNames.contains(name)) db.createObjectStore(name);
+      });
+    };
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+
+async function idbGet(storeName, key) {
+  try {
+    const db = await openCacheDB();
+    return new Promise((resolve) => {
+      const tx = db.transaction(storeName, "readonly");
+      const req = tx.objectStore(storeName).get(key);
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = () => resolve(undefined);
+    });
+  } catch { return undefined; }
+}
+
+async function idbSet(storeName, key, value) {
+  try {
+    const db = await openCacheDB();
+    const tx = db.transaction(storeName, "readwrite");
+    tx.objectStore(storeName).put(value, key);
+  } catch { /* silent */ }
+}
 
 // --- API ---
 
@@ -32,34 +74,56 @@ function kanjiToHex(char) {
 }
 
 async function fetchKanjiSVG(kanji) {
+  if (svgCache[kanji]) return svgCache[kanji];
+  const cached = await idbGet("svg", kanji);
+  if (cached) { svgCache[kanji] = cached; return cached; }
+
   const hex = kanjiToHex(kanji);
   const url = `https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/${hex}.svg`;
   const resp = await fetch(url);
   if (!resp.ok) throw new Error(`「${kanji}」のデータがみつかりません`);
-  return await resp.text();
+  const data = await resp.text();
+  svgCache[kanji] = data;
+  idbSet("svg", kanji, data);
+  return data;
 }
 
 async function fetchKanjiInfo(kanji) {
   if (kanjiInfoCache[kanji]) return kanjiInfoCache[kanji];
+  const cached = await idbGet("info", kanji);
+  if (cached) { kanjiInfoCache[kanji] = cached; return cached; }
+
   const resp = await fetch(`https://kanjiapi.dev/v1/kanji/${encodeURIComponent(kanji)}`);
   if (!resp.ok) return null;
   const data = await resp.json();
   kanjiInfoCache[kanji] = data;
+  idbSet("info", kanji, data);
   return data;
 }
 
 async function fetchKanjiWords(kanji) {
+  if (wordsCache[kanji]) return wordsCache[kanji];
+  const cached = await idbGet("words", kanji);
+  if (cached) { wordsCache[kanji] = cached; return cached; }
+
   const resp = await fetch(`https://kanjiapi.dev/v1/words/${encodeURIComponent(kanji)}`);
   if (!resp.ok) return [];
-  return await resp.json();
+  const data = await resp.json();
+  wordsCache[kanji] = data;
+  idbSet("words", kanji, data);
+  return data;
 }
 
 async function fetchGradeKanji(grade) {
   if (gradeKanjiCache[grade]) return gradeKanjiCache[grade];
+  const cached = await idbGet("grades", grade);
+  if (cached) { gradeKanjiCache[grade] = cached; return cached; }
+
   const resp = await fetch(`https://kanjiapi.dev/v1/kanji/grade-${grade}`);
   if (!resp.ok) return [];
   const data = await resp.json();
   gradeKanjiCache[grade] = data;
+  idbSet("grades", grade, data);
   return data;
 }
 
@@ -653,6 +717,40 @@ function printPracticeSheet() {
   sheet.remove();
 }
 
+// --- Prefetching ---
+
+function prefetchGradeInfo(kanjiList) {
+  // Prefetch kanji info for all kanji in the grade during idle time
+  let idx = 0;
+  function next() {
+    if (idx >= kanjiList.length) return;
+    const batch = kanjiList.slice(idx, idx + 5);
+    idx += 5;
+    batch.forEach((k) => fetchKanjiInfo(k));
+    if ("requestIdleCallback" in window) {
+      requestIdleCallback(next);
+    } else {
+      setTimeout(next, 200);
+    }
+  }
+  if ("requestIdleCallback" in window) {
+    requestIdleCallback(next);
+  } else {
+    setTimeout(next, 200);
+  }
+}
+
+function prefetchNeighbors(kanji, kanjiList) {
+  // Prefetch SVG + words for adjacent kanji in the grid
+  const idx = kanjiList.indexOf(kanji);
+  if (idx === -1) return;
+  const neighbors = [kanjiList[idx - 1], kanjiList[idx + 1]].filter(Boolean);
+  neighbors.forEach((k) => {
+    fetchKanjiSVG(k);
+    fetchKanjiWords(k);
+  });
+}
+
 // --- Grade browsing ---
 
 async function loadGrade(grade) {
@@ -677,6 +775,9 @@ async function loadGrade(grade) {
     });
     kanjiGrid.appendChild(btn);
   });
+
+  // Prefetch info for all kanji in this grade during idle time
+  prefetchGradeInfo(kanjiList);
 }
 
 // --- Main lookup ---
@@ -747,6 +848,11 @@ async function lookup() {
     resultsEl.classList.remove("hidden");
     const emptyState = document.getElementById("emptyState");
     if (emptyState) emptyState.classList.add("hidden");
+
+    // Prefetch neighbors in the grade grid
+    if (currentGrade && gradeKanjiCache[currentGrade]) {
+      prefetchNeighbors(kanji, gradeKanjiCache[currentGrade]);
+    }
 
     // Autoplay animation
     setTimeout(() => playAnimation(), 300);
