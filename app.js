@@ -922,19 +922,27 @@ function buildPrintSheetSVG() {
            `<line x1="${cx}" y1="${cy + half}" x2="${cx + size}" y2="${cy + half}" stroke="#d0c8c8" stroke-width="0.2" stroke-dasharray="1 1"/>`;
   }
 
-  // Layout constants (mm) — A4 landscape
+  // Layout: invisible sixths grid — A4 landscape
   const W = 281, H = 194;
-  const cols = 5, rows = 5;
-  const cellSize = Math.floor(H / rows); // ~38mm square cells
-  const gridX = 2, gridY = 2;
-  const gridW = cols * cellSize;
+  const sixthW = W / 6; // ~46.8mm per sixth
+  const margin = 2;
 
-  // Right panel starts after grid
-  const panelX = gridX + gridW + 4;
-  const panelW = W - panelX - 2;
+  // LEFT 4/6: Writing practice grid
+  const leftW = sixthW * 4;
+  const practiceCols = 5, practiceRows = 5;
+  const cellSize = Math.min(
+    Math.floor((leftW - margin * 2) / practiceCols),
+    Math.floor((H - margin * 2) / practiceRows)
+  );
+  const gridX = margin;
+  const gridY = margin + Math.floor((H - margin * 2 - practiceRows * cellSize) / 2); // vertically center
 
-  // Kakijun grid templates based on stroke count
-  // Each template defines max cols × rows, kakijun fills bottom-right of sheet
+  // RIGHT 2/6: Reference kanji + kakijun
+  const panelX = sixthW * 4;
+  const panelW = sixthW * 2;
+  const panelCenterX = panelX + panelW / 2;
+
+  // Kakijun grid templates
   const n = currentStrokes.length;
   let kjMaxCols, kjMaxRows;
   if (n <= 4)       { kjMaxCols = 2; kjMaxRows = 2; }
@@ -944,57 +952,56 @@ function buildPrintSheetSVG() {
 
   let svg = "";
 
-  // --- 5×5 Practice Grid ---
-  for (let r = 0; r < rows; r++) {
-    for (let c = 0; c < cols; c++) {
+  // --- LEFT: 5×5 Practice Grid ---
+  for (let r = 0; r < practiceRows; r++) {
+    for (let c = 0; c < practiceCols; c++) {
       const cx = gridX + c * cellSize;
       const cy = gridY + r * cellSize;
       svg += `<rect x="${cx}" y="${cy}" width="${cellSize}" height="${cellSize}" fill="none" stroke="#aaa" stroke-width="0.3"/>`;
       svg += crossGuide(cx, cy, cellSize);
-      // Guide kanji in top-right 2 cells (tategaki: top-down, right-to-left)
-      if (c === cols - 1 && r < 2) {
+      // Guide kanji in top-right 2 cells (tategaki)
+      if (c === practiceCols - 1 && r < 2) {
         svg += strokePaths(cx + 1, cy + 1, cellSize - 2, "#ccc", 0.8);
       }
     }
   }
 
-  // --- Right Panel ---
-  // Reference kanji
-  const refSize = 38;
-  const refX = panelX + (panelW - refSize) / 2;
-  const refY = gridY;
+  // --- RIGHT: Reference kanji (top) ---
+  const refSize = Math.min(panelW * 0.7, 45);
+  const refX = panelCenterX - refSize / 2;
+  const refY = margin + 2;
 
   svg += `<rect x="${refX}" y="${refY}" width="${refSize}" height="${refSize}" rx="2" fill="none" stroke="#e8a0aa" stroke-width="0.8"/>`;
   svg += crossGuide(refX, refY, refSize);
   svg += strokePaths(refX + 1, refY + 1, refSize - 2, "#333", 0.9);
 
   // Stroke count
-  let textY = refY + refSize + 4;
-  svg += `<text x="${panelX + panelW / 2}" y="${textY}" text-anchor="middle" font-size="3" fill="#333" font-weight="bold">${strokeCount}画</text>`;
+  const strokeLabelY = refY + refSize + 5;
+  svg += `<text x="${panelCenterX}" y="${strokeLabelY}" text-anchor="middle" font-size="3" fill="#333" font-weight="bold">${strokeCount}画</text>`;
 
-  // Kakijun — anchored to bottom-right of sheet
-  // Calculate cell size to fill the available area
-  const kjAreaW = panelW;
-  const kjAreaH = H - textY - 8; // space below stroke count to bottom
+  // --- RIGHT: Kakijun (bottom portion) ---
+  const kjAreaTop = strokeLabelY + 8;
+  const kjAreaH = H - kjAreaTop - margin;
+  const kjAreaW = panelW - 4;
   const kjCellSize = Math.min(
     Math.floor(kjAreaW / kjMaxCols),
     Math.floor(kjAreaH / kjMaxRows)
   );
 
-  // Kakijun label — above the grid, right-aligned
-  const kjGridW = kjMaxCols * kjCellSize;
+  // Anchor kakijun to bottom-right of panel
   const kjGridH = kjMaxRows * kjCellSize;
-  const kjBottomY = H - 2; // anchor to bottom
+  const kjGridW = kjMaxCols * kjCellSize;
+  const kjBottomY = H - margin;
   const kjTopY = kjBottomY - kjGridH;
-  const kjRightX = panelX + panelW;
+  const kjRightX = panelX + panelW - 2;
 
+  // Kakijun label
   svg += `<text x="${kjRightX - kjGridW / 2}" y="${kjTopY - 2}" text-anchor="middle" font-size="2.5" fill="#333" font-weight="bold">書きじゅん</text>`;
 
   // Kakijun grid — top-down, right-to-left (tategaki)
   for (let i = 0; i < n; i++) {
     const col = Math.floor(i / kjMaxRows);
     const row = i % kjMaxRows;
-    // Right-to-left: col 0 is rightmost
     const cx = kjRightX - (col + 1) * kjCellSize;
     const cy = kjTopY + row * kjCellSize;
 
