@@ -208,6 +208,26 @@ button:hover {
   min-width: 0;
 }
 
+/* On narrow screens, stack columns and move sidebar to top */
+@media (max-width: 768px) {
+  .app-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    min-width: 100%;
+    max-height: none;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid #333;
+  }
+
+  .results-columns {
+    flex-direction: column;
+  }
+}
+
 /* Readings */
 .readings {
   display: flex;
