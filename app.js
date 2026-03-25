@@ -900,14 +900,9 @@ if (traceRetryBtn) {
 
 function buildPrintSheetSVG() {
   const info = currentKanjiInfo;
-  const gradeNum = info?.grade || currentGrade || "";
   const strokeCount = info?.stroke_count || currentStrokes.length;
-  const onReadings = info?.on_readings || [];
-  const kunReadings = info?.kun_readings || [];
-  const vb = currentViewBox || "0 0 109 109";
 
-  // Helper: embed kanji strokes as paths, scaled into a cell at (cx, cy, size)
-  // KanjiVG viewBox is "0 0 109 109", so scale = size/109
+  // Helper: embed kanji strokes scaled into a cell at (cx, cy, size)
   function strokePaths(cx, cy, size, color, strokeW, upTo) {
     const s = size / 109;
     let paths = "";
@@ -927,117 +922,72 @@ function buildPrintSheetSVG() {
            `<line x1="${cx}" y1="${cy + half}" x2="${cx + size}" y2="${cy + half}" stroke="#d0c8c8" stroke-width="0.2" stroke-dasharray="1 1"/>`;
   }
 
-  // Layout constants (mm)
+  // Layout constants (mm) — A4 landscape
   const W = 281, H = 194;
-  const headerH = 12;
-  const gridX = 2, gridY = headerH + 2;
-  const cellSize = 33;
-  const cols = 3, rows = 5;
+  const cols = 5, rows = 5;
+  const cellSize = Math.floor(H / rows); // ~38mm square cells
+  const gridX = 2, gridY = 2;
   const gridW = cols * cellSize;
-  const labelX = gridX + gridW + 2;
-  const panelX = labelX + 6;
+
+  // Right panel starts after grid
+  const panelX = gridX + gridW + 4;
   const panelW = W - panelX - 2;
 
   // Adaptive kakijun sizing
   const n = currentStrokes.length;
-  let kjRows, kjCellSize;
-  if (n <= 4)       { kjRows = 2; kjCellSize = 22; }
-  else if (n <= 8)  { kjRows = 2; kjCellSize = 18; }
-  else if (n <= 12) { kjRows = 3; kjCellSize = 14; }
-  else              { kjRows = 4; kjCellSize = 12; }
+  let kjRowCount, kjCellSize;
+  if (n <= 4)       { kjRowCount = 2; kjCellSize = 24; }
+  else if (n <= 8)  { kjRowCount = 4; kjCellSize = 20; }
+  else if (n <= 12) { kjRowCount = 4; kjCellSize = 16; }
+  else              { kjRowCount = 5; kjCellSize = 14; }
 
   let svg = "";
 
-  // --- Header ---
-  // Grade badge
-  svg += `<rect x="0" y="0" width="18" height="8" rx="2" fill="#e8a0aa"/>`;
-  svg += `<text x="9" y="5.8" text-anchor="middle" font-size="3.5" fill="white" font-weight="bold">${gradeNum}年生</text>`;
-  // Title
-  svg += `<text x="21" y="4.5" font-size="3.5" fill="#9ec5a0" font-weight="bold">漢字をおぼえよう</text>`;
-  svg += `<text x="21" y="8.5" font-size="2.5" fill="#888">漢字の練習</text>`;
-  // Header line
-  svg += `<line x1="0" y1="${headerH}" x2="${W}" y2="${headerH}" stroke="#e8d88c" stroke-width="0.8"/>`;
-  // Name fields
-  svg += `<text x="${W - 75}" y="7" font-size="2.8" fill="#333">年</text>`;
-  svg += `<line x1="${W - 72}" y1="8" x2="${W - 58}" y2="8" stroke="#333" stroke-width="0.2"/>`;
-  svg += `<text x="${W - 55}" y="7" font-size="2.8" fill="#333">組</text>`;
-  svg += `<line x1="${W - 52}" y1="8" x2="${W - 38}" y2="8" stroke="#333" stroke-width="0.2"/>`;
-  svg += `<text x="${W - 35}" y="7" font-size="2.8" fill="#333">名前</text>`;
-  svg += `<line x1="${W - 29}" y1="8" x2="${W - 2}" y2="8" stroke="#333" stroke-width="0.2"/>`;
-
-  // --- Practice Grid ---
+  // --- 5×5 Practice Grid ---
   for (let r = 0; r < rows; r++) {
     for (let c = 0; c < cols; c++) {
       const cx = gridX + c * cellSize;
       const cy = gridY + r * cellSize;
-      // Cell border
       svg += `<rect x="${cx}" y="${cy}" width="${cellSize}" height="${cellSize}" fill="none" stroke="#aaa" stroke-width="0.3"/>`;
-      // Cross guide
       svg += crossGuide(cx, cy, cellSize);
-      // Guide kanji in first 2 cells
-      if (r === 0 && c < 2) {
+      // Guide kanji in top-right 2 cells (tategaki: top-down, right-to-left)
+      if (c === cols - 1 && r < 2) {
         svg += strokePaths(cx + 1, cy + 1, cellSize - 2, "#ccc", 0.8);
       }
     }
   }
 
-  // Vertical label
-  const labelY = gridY + (rows * cellSize) / 2;
-  svg += `<text x="${labelX + 2}" y="${labelY}" font-size="2.2" fill="#333" writing-mode="tb" text-anchor="middle">くり返し書いておぼえよう</text>`;
-
   // --- Right Panel ---
-  const refSize = 35;
+  // Reference kanji
+  const refSize = 38;
   const refX = panelX + (panelW - refSize) / 2;
   const refY = gridY;
 
-  // Reference kanji box
   svg += `<rect x="${refX}" y="${refY}" width="${refSize}" height="${refSize}" rx="2" fill="none" stroke="#e8a0aa" stroke-width="0.8"/>`;
   svg += crossGuide(refX, refY, refSize);
   svg += strokePaths(refX + 1, refY + 1, refSize - 2, "#333", 0.9);
 
   // Stroke count
   let textY = refY + refSize + 4;
-  svg += `<text x="${panelX + panelW / 2}" y="${textY}" text-anchor="middle" font-size="2.8" fill="#333" font-weight="bold">${strokeCount}画</text>`;
+  svg += `<text x="${panelX + panelW / 2}" y="${textY}" text-anchor="middle" font-size="3" fill="#333" font-weight="bold">${strokeCount}画</text>`;
 
-  // Readings
-  textY += 5;
-  svg += `<text x="${panelX + panelW / 2}" y="${textY}" text-anchor="middle" font-size="2.2" fill="#9ec5a0" font-weight="bold">読み方</text>`;
-  textY += 4;
-  if (kunReadings.length > 0) {
-    svg += `<text x="${panelX + 2}" y="${textY}" font-size="2" fill="#666">くん:</text>`;
-    svg += `<text x="${panelX + 12}" y="${textY}" font-size="2" fill="#333">${kunReadings.join("、")}</text>`;
-    textY += 3.5;
-  }
-  if (onReadings.length > 0) {
-    svg += `<text x="${panelX + 2}" y="${textY}" font-size="2" fill="#666">音:</text>`;
-    svg += `<text x="${panelX + 12}" y="${textY}" font-size="2" fill="#333">${onReadings.join("、")}</text>`;
-    textY += 3.5;
-  }
-
-  // Kakijun
-  textY += 3;
-  svg += `<text x="${panelX + panelW / 2}" y="${textY}" text-anchor="middle" font-size="2.2" fill="#333" font-weight="bold">書きじゅん</text>`;
+  // Kakijun label
+  textY += 6;
+  svg += `<text x="${panelX + panelW / 2}" y="${textY}" text-anchor="middle" font-size="2.5" fill="#333" font-weight="bold">書きじゅん</text>`;
   textY += 3;
 
-  // Kakijun grid — right-to-left, top-to-bottom
-  const kjCols = Math.ceil(n / kjRows);
-  const kjGridW = kjCols * kjCellSize;
-  const kjStartX = panelX + panelW - 2; // right-aligned start
+  // Kakijun grid — top-down, right-to-left (tategaki)
+  const kjStartX = panelX + panelW - 2;
 
   for (let i = 0; i < n; i++) {
-    const col = Math.floor(i / kjRows);
-    const row = i % kjRows;
-    // Right-to-left: first column is rightmost
+    const col = Math.floor(i / kjRowCount);
+    const row = i % kjRowCount;
     const cx = kjStartX - (col + 1) * kjCellSize;
     const cy = textY + row * kjCellSize;
 
-    // Cell border
     svg += `<rect x="${cx}" y="${cy}" width="${kjCellSize}" height="${kjCellSize}" fill="none" stroke="#ddd" stroke-width="0.2"/>`;
-    // Cross guide
     svg += crossGuide(cx, cy, kjCellSize);
-    // Strokes up to this step
     svg += strokePaths(cx + 0.5, cy + 0.5, kjCellSize - 1, "#a0b0bc", 0.6, i);
-    // Step number
     svg += `<text x="${cx + kjCellSize - 1}" y="${cy + kjCellSize - 0.5}" text-anchor="end" font-size="1.5" fill="#999">${i + 1}</text>`;
   }
 
