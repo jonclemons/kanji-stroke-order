@@ -265,7 +265,30 @@ button:hover {
   }
 }
 
-/* On narrow screens, also move sidebar to top */
+/* Grid toggle button */
+.grid-toggle {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 0.85rem;
+  background: #e8f0f5;
+  border: 1px solid #b8c8d4;
+  border-radius: 6px;
+  color: #4a4a4a;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s;
+}
+
+.grid-toggle:hover {
+  background: #d4e4ed;
+}
+
+.grid-toggle.open {
+  border-radius: 6px 6px 0 0;
+  margin-bottom: 0;
+}
+
+/* On narrow screens, move sidebar to top and auto-collapse grid */
 @media (max-width: 768px) {
   .app-layout {
     flex-direction: column;
@@ -278,6 +301,10 @@ button:hover {
     position: relative;
     border-right: none;
     border-bottom: 1px solid #b8c8d4;
+  }
+
+  .kanji-grid.collapsed {
+    display: none !important;
   }
 }
 

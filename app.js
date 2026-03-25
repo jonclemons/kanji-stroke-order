@@ -1046,7 +1046,7 @@ function buildPrintSheetSVG() {
     const cx = contentL + col * (kjCellSize + kjGap);
     const cy = rightY + row * (kjCellSize + labelSpace);
 
-    svg += `<rect x="${cx}" y="${cy}" width="${kjCellSize}" height="${kjCellSize}" rx="1.5" fill="#faf8f4" stroke="#d0d8dc" stroke-width="0.25"/>`;
+    svg += `<rect x="${cx}" y="${cy}" width="${kjCellSize}" height="${kjCellSize}" rx="1.5" fill="none" stroke="#d0d8dc" stroke-width="0.25"/>`;
     svg += crossGuide(cx, cy, kjCellSize);
     svg += stepPaths(cx + 0.5, cy + 0.5, kjCellSize - 1, i);
     svg += `<text x="${cx + kjCellSize / 2}" y="${cy + kjCellSize + 3.5}" text-anchor="middle" font-size="2.2" fill="#7a7a7a">${i + 1}/${n}</text>`;
@@ -1141,6 +1141,9 @@ async function loadGrade(grade) {
 
   kanjiGrid.innerHTML = '<span style="color:#888">よみこみちゅう...</span>';
   kanjiGrid.classList.remove("hidden");
+  kanjiGrid.classList.remove("collapsed");
+  showGridToggle();
+  if (isMobile()) expandGrid();
 
   const kanjiList = await fetchGradeKanji(grade);
 
@@ -1152,6 +1155,7 @@ async function loadGrade(grade) {
     btn.addEventListener("click", () => {
       kanjiInput.value = k;
       lookup();
+      collapseGrid();
     });
     kanjiGrid.appendChild(btn);
   });
@@ -1265,3 +1269,34 @@ printBtn.addEventListener("click", printPracticeSheet);
 gradeButtons.forEach((btn) => {
   btn.addEventListener("click", () => loadGrade(parseInt(btn.dataset.grade)));
 });
+
+// --- Mobile grid toggle ---
+const gridToggle = document.getElementById("gridToggle");
+const isMobile = () => window.innerWidth <= 768;
+
+function showGridToggle() {
+  gridToggle.classList.remove("hidden");
+}
+
+function collapseGrid() {
+  if (isMobile()) {
+    kanjiGrid.classList.add("collapsed");
+    gridToggle.textContent = "▼ 漢字をえらぶ";
+    gridToggle.classList.remove("open");
+  }
+}
+
+function expandGrid() {
+  kanjiGrid.classList.remove("collapsed");
+  gridToggle.textContent = "▲ とじる";
+  gridToggle.classList.add("open");
+}
+
+gridToggle.addEventListener("click", () => {
+  if (kanjiGrid.classList.contains("collapsed")) {
+    expandGrid();
+  } else {
+    collapseGrid();
+  }
+});
+
