@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a1a2e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon.svg">
   <title>かんじれんしゅう</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -25,6 +30,11 @@
         <button class="grade-btn" data-grade="4">4年生</button>
         <button class="grade-btn" data-grade="5">5年生</button>
         <button class="grade-btn" data-grade="6">6年生</button>
+      </div>
+
+      <div id="offlineBar" class="offline-bar hidden">
+        <button id="downloadGradeBtn" class="download-btn">⬇ オフラインでつかう</button>
+        <span id="downloadStatus" class="download-status"></span>
       </div>
 
       <div id="kanjiGrid" class="kanji-grid hidden"></div>
@@ -83,5 +93,10 @@
     </main>
   </div>
   <script src="app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js");
+    }
+  </script>
 </body>
 </html>

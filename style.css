@@ -76,6 +76,53 @@ h1 {
   color: white;
 }
 
+.grade-btn.downloaded::after {
+  content: " ✓";
+  font-size: 0.7rem;
+}
+
+/* Offline download bar */
+.offline-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.download-btn {
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  background: #16213e;
+  border: 1px solid #4caf50;
+  color: #4caf50;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.download-btn:hover {
+  background: #4caf50;
+  color: white;
+}
+
+.download-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.download-btn.downloaded {
+  border-color: #4caf50;
+  color: #4caf50;
+  background: rgba(76, 175, 80, 0.1);
+}
+
+.download-status {
+  font-size: 0.75rem;
+  color: #888;
+}
+
 /* Kanji grid for browsing by grade */
 .kanji-grid {
   display: flex;
@@ -127,7 +174,7 @@ h1 {
 
 #lookupBtn {
   white-space: nowrap;
-  width: 80px;
+  flex: 1;
 }
 
 /* Loading spinner */
@@ -168,7 +215,7 @@ h1 {
 #kanjiInput {
   font-size: 1.3rem;
   padding: 0.4rem 0.5rem;
-  width: 120px;
+  width: 60px;
   text-align: center;
   border: 2px solid #333;
   border-radius: 8px;
