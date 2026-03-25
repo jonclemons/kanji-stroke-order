@@ -15,25 +15,27 @@
   <div class="app-layout">
     <!-- Left sidebar: grade nav + kanji grid + input -->
     <aside class="sidebar">
-      <h1>かんじれんしゅう</h1>
+      <button id="sidebarToggle" class="sidebar-toggle hidden">▼ 漢字をえらぶ</button>
+      <div id="sidebarContent" class="sidebar-content">
+        <h1>かんじれんしゅう</h1>
 
-      <div class="input-section">
-        <input type="text" id="kanjiInput" placeholder="漢字" maxlength="1">
-        <button id="lookupBtn">しらべる</button>
+        <div class="input-section">
+          <input type="text" id="kanjiInput" placeholder="漢字" maxlength="1">
+          <button id="lookupBtn">しらべる</button>
+        </div>
+        <div id="error" class="error"></div>
+
+        <div class="grade-nav">
+          <button class="grade-btn" data-grade="1">1年生</button>
+          <button class="grade-btn" data-grade="2">2年生</button>
+          <button class="grade-btn" data-grade="3">3年生</button>
+          <button class="grade-btn" data-grade="4">4年生</button>
+          <button class="grade-btn" data-grade="5">5年生</button>
+          <button class="grade-btn" data-grade="6">6年生</button>
+        </div>
+
+        <div id="kanjiGrid" class="kanji-grid hidden"></div>
       </div>
-      <div id="error" class="error"></div>
-
-      <div class="grade-nav">
-        <button class="grade-btn" data-grade="1">1年生</button>
-        <button class="grade-btn" data-grade="2">2年生</button>
-        <button class="grade-btn" data-grade="3">3年生</button>
-        <button class="grade-btn" data-grade="4">4年生</button>
-        <button class="grade-btn" data-grade="5">5年生</button>
-        <button class="grade-btn" data-grade="6">6年生</button>
-      </div>
-
-      <button id="gridToggle" class="grid-toggle hidden">▼ 漢字をえらぶ</button>
-      <div id="kanjiGrid" class="kanji-grid hidden"></div>
     </aside>
 
     <!-- Main content: kanji details -->

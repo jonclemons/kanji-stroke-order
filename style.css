@@ -265,30 +265,24 @@ button:hover {
   }
 }
 
-/* Grid toggle button */
-.grid-toggle {
+/* Sidebar toggle (mobile) */
+.sidebar-toggle {
   width: 100%;
-  padding: 0.4rem;
-  font-size: 0.85rem;
+  padding: 0.5rem;
+  font-size: 0.9rem;
   background: #e8f0f5;
   border: 1px solid #b8c8d4;
   border-radius: 6px;
   color: #4a4a4a;
   cursor: pointer;
-  margin-bottom: 0.5rem;
   transition: all 0.2s;
 }
 
-.grid-toggle:hover {
+.sidebar-toggle:hover {
   background: #d4e4ed;
 }
 
-.grid-toggle.open {
-  border-radius: 6px 6px 0 0;
-  margin-bottom: 0;
-}
-
-/* On narrow screens, move sidebar to top and auto-collapse grid */
+/* On narrow screens, move sidebar to top and auto-collapse */
 @media (max-width: 768px) {
   .app-layout {
     flex-direction: column;
@@ -303,7 +297,7 @@ button:hover {
     border-bottom: 1px solid #b8c8d4;
   }
 
-  .kanji-grid.collapsed {
+  .sidebar-content.collapsed {
     display: none !important;
   }
 }

@@ -818,7 +818,7 @@ function onTraceStart(e) {
   const dy = point.y - startPt.y;
   const distToStart = Math.sqrt(dx * dx + dy * dy);
 
-  if (distToStart < 22) {
+  if (distToStart < 15) {
     traceStarted = true;
     traceMoveCount = 0;
     removeTraceHint();
@@ -1143,9 +1143,7 @@ async function loadGrade(grade) {
 
   kanjiGrid.innerHTML = '<span style="color:#888">よみこみちゅう...</span>';
   kanjiGrid.classList.remove("hidden");
-  kanjiGrid.classList.remove("collapsed");
-  showGridToggle();
-  if (isMobile()) expandGrid();
+  expandSidebar();
 
   const kanjiList = await fetchGradeKanji(grade);
 
@@ -1157,7 +1155,7 @@ async function loadGrade(grade) {
     btn.addEventListener("click", () => {
       kanjiInput.value = k;
       lookup();
-      collapseGrid();
+      collapseSidebar();
     });
     kanjiGrid.appendChild(btn);
   });
@@ -1272,33 +1270,29 @@ gradeButtons.forEach((btn) => {
   btn.addEventListener("click", () => loadGrade(parseInt(btn.dataset.grade)));
 });
 
-// --- Mobile grid toggle ---
-const gridToggle = document.getElementById("gridToggle");
+// --- Mobile sidebar toggle ---
+const sidebarToggle = document.getElementById("sidebarToggle");
+const sidebarContent = document.getElementById("sidebarContent");
 const isMobile = () => window.innerWidth <= 768;
 
-function showGridToggle() {
-  gridToggle.classList.remove("hidden");
-}
-
-function collapseGrid() {
+function collapseSidebar() {
   if (isMobile()) {
-    kanjiGrid.classList.add("collapsed");
-    gridToggle.textContent = "▼ 漢字をえらぶ";
-    gridToggle.classList.remove("open");
+    sidebarContent.classList.add("collapsed");
+    sidebarToggle.classList.remove("hidden");
+    sidebarToggle.textContent = "▼ 漢字をえらぶ";
   }
 }
 
-function expandGrid() {
-  kanjiGrid.classList.remove("collapsed");
-  gridToggle.textContent = "▲ とじる";
-  gridToggle.classList.add("open");
+function expandSidebar() {
+  sidebarContent.classList.remove("collapsed");
+  sidebarToggle.textContent = "▲ とじる";
 }
 
-gridToggle.addEventListener("click", () => {
-  if (kanjiGrid.classList.contains("collapsed")) {
-    expandGrid();
+sidebarToggle.addEventListener("click", () => {
+  if (sidebarContent.classList.contains("collapsed")) {
+    expandSidebar();
   } else {
-    collapseGrid();
+    collapseSidebar();
   }
 });
 
