@@ -690,6 +690,8 @@ async function lookup() {
     renderSteps(strokes, viewBox);
     setupAnimation(strokes, viewBox);
     resultsEl.classList.remove("hidden");
+    const emptyState = document.getElementById("emptyState");
+    if (emptyState) emptyState.classList.add("hidden");
 
     // Autoplay animation
     setTimeout(() => playAnimation(), 300);
