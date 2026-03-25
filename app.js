@@ -780,8 +780,8 @@ let traceMoveCount = 0; // track number of moves in current stroke
 
 function findNearestProgress(path, point, currentProgress) {
   const totalLen = path.getTotalLength();
-  // Scale search window to stroke length — never jump more than 15% ahead
-  const maxJump = Math.max(8, totalLen * 0.15);
+  // Scale search window to stroke length — never jump more than 10% ahead
+  const maxJump = Math.max(5, totalLen * 0.10);
   const searchStart = Math.max(0, currentProgress - 5);
   const searchEnd = Math.min(totalLen, currentProgress + maxJump);
   let bestDist = Infinity;
@@ -843,7 +843,9 @@ function onTraceMove(e) {
     traceCanvas.classList.remove("error");
 
     // Require at least 3 move events before auto-completing (prevents instant skip on short strokes)
-    if (traceProgress / totalLen >= 0.9 && traceMoveCount >= 3) {
+    // Require 90% progress, at least 6 move events, and finger must be past 50% of path
+    // This prevents short strokes from auto-completing on first touch
+    if (traceProgress / totalLen >= 0.9 && traceMoveCount >= 6 && traceProgress > totalLen * 0.5) {
       completeTraceStroke();
     }
   } else if (result.distance >= TOLERANCE) {
