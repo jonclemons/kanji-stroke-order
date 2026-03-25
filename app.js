@@ -1105,72 +1105,20 @@ function prefetchNeighbors(kanji, kanjiList) {
 
 // --- Offline grade download ---
 
-const offlineBar = document.getElementById("offlineBar");
-const downloadGradeBtn = document.getElementById("downloadGradeBtn");
-const downloadStatus = document.getElementById("downloadStatus");
-
-async function isGradeDownloaded(grade) {
-  const meta = await idbGet("meta", `grade-${grade}`);
-  return !!meta;
-}
-
-async function markGradeDownloaded(grade, count) {
-  await idbSet("meta", `grade-${grade}`, { grade, count, downloadedAt: Date.now() });
-}
-
-async function updateGradeButtonMarks() {
-  for (const btn of gradeButtons) {
-    const grade = parseInt(btn.dataset.grade);
-    const downloaded = await isGradeDownloaded(grade);
-    btn.classList.toggle("downloaded", downloaded);
-  }
-}
-
-async function downloadGradeForOffline(grade) {
-  downloadGradeBtn.disabled = true;
-  downloadStatus.textContent = "じゅんびちゅう...";
+// Silent background download when a grade is accessed
+async function downloadGradeSilently(grade) {
+  const already = await idbGet("meta", `grade-${grade}`);
+  if (already) return;
 
   const kanjiList = await fetchGradeKanji(grade);
-  const total = kanjiList.length;
-  let done = 0;
-
-  // Process in batches of 5
   for (let i = 0; i < kanjiList.length; i += 5) {
     const batch = kanjiList.slice(i, i + 5);
-    await Promise.all(batch.map(async (k) => {
-      await Promise.all([fetchKanjiSVG(k), fetchKanjiInfo(k), fetchKanjiWords(k)]);
-      done++;
-      downloadStatus.textContent = `${done}/${total} ダウンロードちゅう...`;
-    }));
+    await Promise.all(batch.map((k) =>
+      Promise.all([fetchKanjiSVG(k), fetchKanjiInfo(k), fetchKanjiWords(k)])
+    ));
   }
-
-  await markGradeDownloaded(grade, total);
-  downloadGradeBtn.disabled = false;
-  downloadGradeBtn.textContent = "✓ オフラインOK";
-  downloadGradeBtn.classList.add("downloaded");
-  downloadStatus.textContent = "";
-  updateGradeButtonMarks();
+  await idbSet("meta", `grade-${grade}`, { grade, count: kanjiList.length, downloadedAt: Date.now() });
 }
-
-async function updateOfflineBar(grade) {
-  offlineBar.classList.remove("hidden");
-  const downloaded = await isGradeDownloaded(grade);
-  if (downloaded) {
-    downloadGradeBtn.textContent = "✓ オフラインOK";
-    downloadGradeBtn.classList.add("downloaded");
-  } else {
-    downloadGradeBtn.textContent = "⬇ オフラインでつかう";
-    downloadGradeBtn.classList.remove("downloaded");
-  }
-  downloadStatus.textContent = "";
-}
-
-downloadGradeBtn.addEventListener("click", () => {
-  if (currentGrade) downloadGradeForOffline(currentGrade);
-});
-
-// Mark downloaded grades on load
-updateGradeButtonMarks();
 
 // --- Grade browsing ---
 
@@ -1200,8 +1148,8 @@ async function loadGrade(grade) {
   // Prefetch info for all kanji in this grade during idle time
   prefetchGradeInfo(kanjiList);
 
-  // Update offline download bar
-  updateOfflineBar(grade);
+  // Silently download all data for this grade in background
+  downloadGradeSilently(grade);
 }
 
 // --- Main lookup ---
