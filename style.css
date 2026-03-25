@@ -319,9 +319,9 @@ button:hover {
 /* Animation */
 .animation-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .animation-canvas {
@@ -337,10 +337,8 @@ button:hover {
 
 .animation-controls {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   gap: 0.3rem;
-  margin-top: 0.3rem;
 }
 
 .anim-btn {

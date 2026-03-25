@@ -217,6 +217,73 @@ function createStepSVG(strokes, upToStep, size, viewBox) {
   return svg;
 }
 
+// Add circled stroke numbers to an SVG, with collision avoidance
+function addStrokeNumbers(svg, strokes, count) {
+  const positions = [];
+  const radius = 5;
+  const minDist = 11; // minimum distance between number centers
+
+  for (let i = 0; i < count; i++) {
+    const d = strokes[i].d;
+    const match = d.match(/^[Mm]\s*([\d.]+)[,\s]+([\d.]+)/);
+    if (!match) continue;
+
+    let x = parseFloat(match[1]);
+    let y = parseFloat(match[2]);
+
+    // Offset to place number slightly above-right of stroke start
+    x += 4;
+    y -= 4;
+
+    // Push away from any existing number positions
+    for (let attempt = 0; attempt < 8; attempt++) {
+      let collision = false;
+      for (const pos of positions) {
+        const dx = x - pos.x;
+        const dy = y - pos.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < minDist) {
+          // Push in a spiral direction based on attempt
+          const angle = (attempt * Math.PI) / 4;
+          x = pos.x + Math.cos(angle) * minDist;
+          y = pos.y + Math.sin(angle) * minDist;
+          collision = true;
+          break;
+        }
+      }
+      if (!collision) break;
+    }
+
+    // Clamp within viewBox
+    x = Math.max(radius + 1, Math.min(108 - radius, x));
+    y = Math.max(radius + 1, Math.min(108 - radius, y));
+
+    positions.push({ x, y });
+
+    // White circle background
+    const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    circle.setAttribute("cx", x);
+    circle.setAttribute("cy", y);
+    circle.setAttribute("r", radius);
+    circle.setAttribute("fill", "white");
+    circle.setAttribute("stroke", "#e94560");
+    circle.setAttribute("stroke-width", "0.8");
+    svg.appendChild(circle);
+
+    // Number text
+    const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    text.setAttribute("x", x);
+    text.setAttribute("y", y + 3);
+    text.setAttribute("text-anchor", "middle");
+    text.setAttribute("font-size", "7");
+    text.setAttribute("fill", "#e94560");
+    text.setAttribute("font-family", "sans-serif");
+    text.setAttribute("font-weight", "bold");
+    text.textContent = i + 1;
+    svg.appendChild(text);
+  }
+}
+
 // Create SVG for print — with stroke number labels
 function createPrintStepSVG(strokes, upToStep, size, viewBox, showNumbers) {
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
@@ -238,24 +305,10 @@ function createPrintStepSVG(strokes, upToStep, size, viewBox, showNumbers) {
       path.setAttribute("stroke-width", "3");
     }
     svg.appendChild(path);
+  }
 
-    // Add stroke number
-    if (showNumbers) {
-      const d = strokes[i].d;
-      const match = d.match(/^[Mm]\s*([\d.]+)[,\s]+([\d.]+)/);
-      if (match) {
-        const x = parseFloat(match[1]);
-        const y = parseFloat(match[2]);
-        const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-        text.setAttribute("x", x + 2);
-        text.setAttribute("y", y - 2);
-        text.setAttribute("font-size", "8");
-        text.setAttribute("fill", "#e94560");
-        text.setAttribute("font-family", "sans-serif");
-        text.textContent = i + 1;
-        svg.appendChild(text);
-      }
-    }
+  if (showNumbers) {
+    addStrokeNumbers(svg, strokes, upToStep + 1);
   }
 
   return svg;
@@ -289,7 +342,7 @@ function createPrintRefSVG(strokes, size, viewBox) {
   svg.setAttribute("width", size);
   svg.setAttribute("height", size);
 
-  strokes.forEach((stroke, i) => {
+  strokes.forEach((stroke) => {
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
     path.setAttribute("d", stroke.d);
     path.setAttribute("fill", "none");
@@ -298,23 +351,9 @@ function createPrintRefSVG(strokes, size, viewBox) {
     path.setAttribute("stroke-linecap", "round");
     path.setAttribute("stroke-linejoin", "round");
     svg.appendChild(path);
-
-    // Stroke number at the start of each stroke
-    const d = stroke.d;
-    const match = d.match(/^[Mm]\s*([\d.]+)[,\s]+([\d.]+)/);
-    if (match) {
-      const x = parseFloat(match[1]);
-      const y = parseFloat(match[2]);
-      const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-      text.setAttribute("x", x + 2);
-      text.setAttribute("y", y - 2);
-      text.setAttribute("font-size", "8");
-      text.setAttribute("fill", "#e94560");
-      text.setAttribute("font-family", "sans-serif");
-      text.textContent = i + 1;
-      svg.appendChild(text);
-    }
   });
+
+  addStrokeNumbers(svg, strokes, strokes.length);
 
   return svg;
 }
