@@ -75,8 +75,18 @@
                 <div class="animation-controls">
                   <button id="playBtn" class="anim-btn" title="さいせい">⏸</button>
                   <button id="resetBtn" class="anim-btn" title="もどす">↺</button>
+                  <button id="traceBtn" class="anim-btn" title="なぞる">✏</button>
                 </div>
               </div>
+            </div>
+
+            <div id="traceArea" class="trace-area hidden">
+              <div id="traceCanvas" class="trace-canvas"></div>
+              <div class="trace-info">
+                <span id="traceCounter" class="trace-counter"></span>
+                <button id="traceRetryBtn" class="trace-retry-btn hidden">もういちど</button>
+              </div>
+              <div id="traceMessage" class="trace-message hidden"></div>
             </div>
 
             <div class="section">

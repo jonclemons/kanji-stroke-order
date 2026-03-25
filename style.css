@@ -438,6 +438,65 @@ button:hover {
   border-color: #e94560;
 }
 
+/* Tracing mode */
+.trace-area {
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.trace-canvas {
+  background: #16213e;
+  border-radius: 8px;
+  border: 2px solid #333;
+  padding: 0.5rem;
+  display: inline-block;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.trace-canvas svg {
+  display: block;
+}
+
+.trace-canvas.error {
+  border-color: #e94560;
+  transition: border-color 0.15s;
+}
+
+.trace-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.trace-counter {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.trace-retry-btn {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  background: #333;
+  border: 1px solid #444;
+}
+
+.trace-retry-btn:hover {
+  background: #e94560;
+  border-color: #e94560;
+}
+
+.trace-message {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #4caf50;
+  font-weight: bold;
+}
+
 /* Practice options */
 .practice-options {
   display: flex;
