@@ -953,21 +953,34 @@ function buildPrintSheetHTML() {
   .ps-name-fields { margin-left: auto; display: flex; gap: 0.5rem; font-size: 0.9rem; }
   .ps-name-field { border-bottom: 1px solid #333; padding: 0 2rem 2px 0.3rem; }
 
-  .ps-main { display: flex; gap: 8px; height: calc(100vh - 60px); }
-  .ps-left { flex: 3; display: flex; gap: 4px; }
-  .ps-right { flex: 2; display: flex; flex-direction: column; gap: 6px; }
+  .ps-main {
+    display: flex; gap: 8px;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+  }
+  .ps-left { display: flex; gap: 4px; align-items: flex-start; }
+  .ps-right { width: 280px; min-width: 280px; display: flex; flex-direction: column; gap: 4px; overflow: hidden; }
 
   .ps-practice-grid {
-    border-collapse: collapse; width: 100%; height: 100%; table-layout: fixed;
+    border-collapse: collapse; table-layout: fixed;
   }
   .ps-cell {
-    border: 1px solid #aaa; position: relative; aspect-ratio: 1;
-    padding: 0; vertical-align: middle; text-align: center;
+    border: 1px solid #aaa; position: relative;
+    padding: 0; vertical-align: top; text-align: center;
+    width: 90px; height: 90px;
   }
-  .ps-cell::before, .ps-cell::after { content: ""; position: absolute; }
-  .ps-cell::before { top: 0; bottom: 0; left: 50%; width: 1px; background: #d0e8ff; }
-  .ps-cell::after { left: 0; right: 0; top: 50%; height: 1px; background: #d0e8ff; }
-  .ps-cell svg { position: relative; z-index: 1; }
+  .ps-cell::before, .ps-cell::after {
+    content: ""; position: absolute; z-index: 0;
+  }
+  .ps-cell::before {
+    top: 0; bottom: 0; left: 50%; width: 0;
+    border-left: 1px dashed #d0c8c8;
+  }
+  .ps-cell::after {
+    left: 0; right: 0; top: 50%; height: 0;
+    border-top: 1px dashed #d0c8c8;
+  }
+  .ps-cell svg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
 
   .ps-vertical-label {
     writing-mode: vertical-rl; font-size: 0.7rem; color: #333;
@@ -978,46 +991,47 @@ function buildPrintSheetHTML() {
   /* Right panel: reference kanji + readings + kakijun */
   .ps-ref-kanji {
     border: 3px solid #e8a0aa; border-radius: 8px;
-    width: 100%; max-width: 120px; aspect-ratio: 1;
+    width: 100px; height: 100px;
     display: flex; align-items: center; justify-content: center;
-    padding: 6px; position: relative; margin: 0 auto;
+    padding: 4px; position: relative; margin: 0 auto;
   }
   .ps-ref-kanji svg { width: 100%; height: 100%; }
-  .ps-stroke-count { text-align: center; font-size: 0.9rem; font-weight: bold; color: #333; }
+  .ps-stroke-count { text-align: center; font-size: 0.8rem; font-weight: bold; color: #333; margin: 2px 0; }
 
-  .ps-reading-table { border-collapse: collapse; width: 100%; font-size: 0.7rem; }
-  .ps-reading-table th { background: #9ec5a0; color: white; padding: 2px 4px; text-align: center; font-size: 0.75rem; }
-  .ps-reading-label { background: #e3f2fd; text-align: center; padding: 2px 4px; font-weight: bold; border: 1px solid #ccc; }
-  .ps-reading-value { text-align: center; padding: 3px; border: 1px solid #ccc; color: #9ec5a0; font-size: 0.75rem; }
+  .ps-reading-table { border-collapse: collapse; width: 100%; font-size: 0.65rem; }
+  .ps-reading-table th { background: #9ec5a0; color: white; padding: 2px 4px; text-align: center; font-size: 0.7rem; }
+  .ps-reading-label { background: #e8f0f5; text-align: center; padding: 1px 3px; font-weight: bold; border: 1px solid #ccc; }
+  .ps-reading-value { text-align: center; padding: 2px; border: 1px solid #ccc; color: #6a9a6e; font-size: 0.7rem; }
 
   /* Kakijun grid: vertical flow top→bottom, right→left */
   .ps-kakijun-label {
-    font-size: 0.75rem; color: #333; font-weight: bold;
-    margin: 4px 0 2px; text-align: center;
+    font-size: 0.7rem; color: #333; font-weight: bold;
+    margin: 2px 0; text-align: center;
   }
   .ps-kakijun-grid {
     display: grid;
     grid-auto-flow: column;
-    grid-template-rows: repeat(auto-fill, minmax(40px, 1fr));
+    grid-template-rows: repeat(4, 48px);
+    grid-auto-columns: 48px;
     gap: 2px;
     direction: rtl;
+    justify-content: center;
     flex: 1;
-    align-content: start;
+    overflow: hidden;
   }
   .ps-kakijun-cell {
     direction: ltr;
     border: 1px solid #ddd;
     position: relative;
-    aspect-ratio: 1;
-    width: 100%;
+    width: 48px; height: 48px;
   }
   .ps-kakijun-inner {
     position: absolute; top: 0; left: 0; width: 100%; height: 100%;
   }
   .ps-kakijun-inner svg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
   .ps-kakijun-num {
-    position: absolute; bottom: 1px; right: 2px;
-    font-size: 0.5rem; color: #999;
+    position: absolute; bottom: 0; right: 2px;
+    font-size: 0.45rem; color: #999;
   }
 </style>
 </head>
