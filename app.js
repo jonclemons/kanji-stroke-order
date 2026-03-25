@@ -776,10 +776,14 @@ function svgPoint(svg, clientX, clientY) {
   };
 }
 
+let traceMoveCount = 0; // track number of moves in current stroke
+
 function findNearestProgress(path, point, currentProgress) {
   const totalLen = path.getTotalLength();
+  // Scale search window to stroke length — never jump more than 15% ahead
+  const maxJump = Math.max(8, totalLen * 0.15);
   const searchStart = Math.max(0, currentProgress - 5);
-  const searchEnd = Math.min(totalLen, currentProgress + 30);
+  const searchEnd = Math.min(totalLen, currentProgress + maxJump);
   let bestDist = Infinity;
   let bestLen = currentProgress;
   const step = 1.5;
@@ -816,8 +820,8 @@ function onTraceStart(e) {
 
   if (distToStart < 22) {
     traceStarted = true;
+    traceMoveCount = 0;
     removeTraceHint();
-    onTraceMove(e);
   }
 }
 
@@ -834,10 +838,12 @@ function onTraceMove(e) {
 
   if (result.distance < TOLERANCE && result.length >= traceProgress) {
     traceProgress = result.length;
+    traceMoveCount++;
     path.style.strokeDashoffset = totalLen - traceProgress;
     traceCanvas.classList.remove("error");
 
-    if (traceProgress / totalLen >= 0.9) {
+    // Require at least 3 move events before auto-completing (prevents instant skip on short strokes)
+    if (traceProgress / totalLen >= 0.9 && traceMoveCount >= 3) {
       completeTraceStroke();
     }
   } else if (result.distance >= TOLERANCE) {
