@@ -987,9 +987,9 @@ function buildPrintSheetSVG() {
   const tableW = panelW - 8;
   const rowH = 5;
 
-  // Header
-  svg += `<rect x="${tableX}" y="${rightY}" width="${tableW}" height="${rowH}" rx="1" fill="#9ec5a0"/>`;
-  svg += `<text x="${panelCenterX}" y="${rightY + 3.5}" text-anchor="middle" font-size="2.2" fill="white" font-weight="bold">よみかた</text>`;
+  // Header — hollow with stars
+  svg += `<rect x="${tableX}" y="${rightY}" width="${tableW}" height="${rowH}" fill="none" stroke="#9ec5a0" stroke-width="0.3"/>`;
+  svg += `<text x="${panelCenterX}" y="${rightY + 3.5}" text-anchor="middle" font-size="2.2" fill="#9ec5a0" font-weight="bold">☆ よみかた ☆</text>`;
   rightY += rowH;
 
   // Kun row
