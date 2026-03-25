@@ -61,12 +61,12 @@ h1 {
 
 /* Grade navigation */
 .grade-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-auto-flow: column;
   gap: 0.4rem;
   margin-bottom: 1rem;
-  flex-wrap: wrap;
 }
 
 .grade-btn {
