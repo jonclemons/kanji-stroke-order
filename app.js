@@ -1021,8 +1021,6 @@ function buildPrintSheetSVG() {
   const kjTopY = kjBottomY - kjGridH;
   const kjRightX = panelX + panelW - 2;
 
-  // Kakijun label
-  svg += `<text x="${kjRightX - kjGridW / 2}" y="${kjTopY - 2}" text-anchor="middle" font-size="2.5" fill="#333" font-weight="bold">かきじゅん</text>`;
 
   // Helper: full step SVG like the webapp — previous (gray) + current (pink) + future (faint)
   function stepPaths(cx, cy, size, upToStep) {
@@ -1042,11 +1040,12 @@ function buildPrintSheetSVG() {
     return paths;
   }
 
-  // Kakijun grid — top-down, right-to-left (tategaki)
+  // Kakijun grid — left-to-right, top-to-down (matches main webapp view)
+  const kjLeftX = panelX + 2;
   for (let i = 0; i < n; i++) {
-    const col = Math.floor(i / kjMaxRows);
-    const row = i % kjMaxRows;
-    const cx = kjRightX - (col + 1) * kjCellSize;
+    const col = i % kjMaxCols;
+    const row = Math.floor(i / kjMaxCols);
+    const cx = kjLeftX + col * kjCellSize;
     const cy = kjTopY + row * (kjCellSize + labelSpace);
 
     svg += `<rect x="${cx}" y="${cy}" width="${kjCellSize}" height="${kjCellSize}" fill="none" stroke="#ddd" stroke-width="0.2"/>`;
