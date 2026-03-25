@@ -33,44 +33,50 @@
     <!-- Main content: kanji details -->
     <main class="main-content">
       <div id="results" class="results hidden">
-        <h2 id="kanjiTitle" class="kanji-title"></h2>
+        <div class="results-columns">
+          <!-- Left: info, words, print -->
+          <div class="results-left">
+            <h2 id="kanjiTitle" class="kanji-title"></h2>
 
-        <div class="section">
-          <h3>よみかた</h3>
-          <div id="readings" class="readings"></div>
-        </div>
+            <div class="section">
+              <h3>よみかた</h3>
+              <div id="readings" class="readings"></div>
+            </div>
 
-        <div class="section">
-          <h3>この漢字をつかうことば</h3>
-          <div id="words" class="words-list"></div>
-        </div>
+            <div class="section">
+              <h3>この漢字をつかうことば</h3>
+              <div id="words" class="words-list"></div>
+            </div>
 
-        <div class="stroke-animation-row">
-          <div class="section">
-            <h3>かきじゅん</h3>
-            <div id="steps" class="steps-grid"></div>
-          </div>
-
-          <div class="section">
-            <h3>アニメーション</h3>
-            <div class="animation-container">
-              <div id="animationCanvas" class="animation-canvas"></div>
-              <div class="animation-controls">
-                <button id="playBtn">▶ さいせい</button>
-                <button id="resetBtn">↺ もどす</button>
-                <label>
-                  はやさ：
-                  <input type="range" id="speedSlider" min="1" max="10" value="5">
-                </label>
+            <div class="section">
+              <h3>れんしゅうシート</h3>
+              <div class="practice-options">
+                <button id="printBtn">いんさつ</button>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="section">
-          <h3>れんしゅうシート</h3>
-          <div class="practice-options">
-            <button id="printBtn">いんさつ</button>
+          <!-- Right: stroke order + animation stacked -->
+          <div class="results-right">
+            <div class="section">
+              <h3>アニメーション</h3>
+              <div class="animation-container">
+                <div id="animationCanvas" class="animation-canvas"></div>
+                <div class="animation-controls">
+                  <button id="playBtn">▶ さいせい</button>
+                  <button id="resetBtn">↺ もどす</button>
+                  <label>
+                    はやさ：
+                    <input type="range" id="speedSlider" min="1" max="10" value="5">
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="section">
+              <h3>かきじゅん</h3>
+              <div id="steps" class="steps-grid"></div>
+            </div>
           </div>
         </div>
       </div>

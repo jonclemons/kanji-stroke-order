@@ -192,16 +192,20 @@ button:hover {
   padding-bottom: 0.4rem;
 }
 
-/* Two-column layout for stroke order + animation */
-.stroke-animation-row {
+/* Two-column results layout: info left, strokes right */
+.results-columns {
   display: flex;
   gap: 2rem;
-  align-items: flex-start;
 }
 
-.stroke-animation-row .section {
+.results-left {
   flex: 1;
   min-width: 0;
+}
+
+.results-right {
+  width: 280px;
+  min-width: 280px;
 }
 
 /* Readings */
