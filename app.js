@@ -452,7 +452,7 @@ function createPrintRefSVG(strokes, size, viewBox) {
 }
 
 function createAnimationSVG(strokes, viewBox) {
-  const size = 180;
+  const size = 240;
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   svg.setAttribute("viewBox", viewBox);
   svg.setAttribute("width", size);
@@ -603,10 +603,13 @@ let tracePaths = [];
 let traceIsDrawing = false;
 let traceSvgEl = null;
 
+const animationContainerEl = document.querySelector(".animation-container");
+
 function enterTraceMode() {
   if (!currentStrokes.length) return;
   stopAnimation();
   isTracing = true;
+  animationContainerEl.classList.add("hidden");
   traceArea.classList.remove("hidden");
   traceMessage.classList.add("hidden");
   traceRetryBtn.classList.add("hidden");
@@ -618,6 +621,7 @@ function enterTraceMode() {
 function exitTraceMode() {
   isTracing = false;
   traceArea.classList.add("hidden");
+  animationContainerEl.classList.remove("hidden");
   traceBtn.textContent = "✏";
   traceBtn.title = "なぞる";
 }
