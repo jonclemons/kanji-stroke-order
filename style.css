@@ -34,6 +34,7 @@ body {
   padding: 1rem 1.5rem;
   overflow-y: auto;
   max-height: 100vh;
+  position: relative;
 }
 
 h1 {
@@ -134,13 +135,17 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 60vh;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .spinner {
-  width: 200px;
-  height: 200px;
-  border: 8px solid #333;
+  width: 30vmin;
+  height: 30vmin;
+  border: 10px solid #333;
   border-top-color: #e94560;
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
