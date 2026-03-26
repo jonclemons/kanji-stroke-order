@@ -414,7 +414,7 @@ button:hover {
 
 .mode-toggle-btn {
   display: block;
-  width: 100%;
+  width: calc(240px + 1rem + 2px);
   padding: 0.35rem 0.6rem;
   font-size: 0.8rem;
   border-radius: 6px;
