@@ -1177,6 +1177,7 @@ async function downloadGradeSilently(grade) {
 
 async function loadGrade(grade) {
   currentGrade = grade;
+  updateHash();
   gradeButtons.forEach((btn) => {
     btn.classList.toggle("active", parseInt(btn.dataset.grade) === grade);
   });
@@ -1268,6 +1269,7 @@ async function lookup() {
     currentStrokeNumbers = strokeNumbers;
     currentViewBox = viewBox;
     currentKanjiInfo = kanjiInfo;
+    updateHash();
 
     kanjiTitle.textContent = kanji;
     renderReadings(kanjiInfo);
@@ -1337,4 +1339,36 @@ sidebarToggle.addEventListener("click", () => {
     collapseSidebar();
   }
 });
+
+// --- Hash routing ---
+function updateHash() {
+  const parts = [];
+  if (currentGrade) parts.push(`grade/${currentGrade}`);
+  if (currentKanji) parts.push(currentKanji);
+  window.location.hash = parts.join("/");
+}
+
+function loadFromHash() {
+  const hash = window.location.hash.slice(1); // remove #
+  if (!hash) return;
+
+  const gradeMatch = hash.match(/grade\/(\d+)/);
+  const kanjiMatch = hash.replace(/grade\/\d+\/?/, "");
+
+  if (gradeMatch) {
+    const grade = parseInt(gradeMatch[1]);
+    loadGrade(grade).then(() => {
+      if (kanjiMatch) {
+        kanjiInput.value = kanjiMatch;
+        lookup();
+      }
+    });
+  } else if (kanjiMatch) {
+    kanjiInput.value = kanjiMatch;
+    lookup();
+  }
+}
+
+window.addEventListener("hashchange", loadFromHash);
+loadFromHash();
 
