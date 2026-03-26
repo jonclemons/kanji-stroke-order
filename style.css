@@ -410,10 +410,15 @@ button:hover {
 /* Mode header with toggle */
 .mode-header {
   margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+#animationWrap {
+  text-align: center;
 }
 
 .mode-toggle-btn {
-  display: block;
+  display: inline-block;
   width: calc(240px + 1rem + 2px);
   padding: 0.35rem 0.6rem;
   font-size: 0.8rem;
