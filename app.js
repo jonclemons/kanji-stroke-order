@@ -984,33 +984,61 @@ function buildPrintSheetSVG() {
   svg += crossGuide(refX, refY, refSize);
   svg += strokePaths(refX + 1.5, refY + 1.5, refSize - 3, "#333", 1.0);
 
-  // Stroke count
+  // Stroke count (hiragana)
   let rightY = refY + refSize + 5;
-  svg += `<text x="${contentL + contentW / 2}" y="${rightY}" text-anchor="middle" font-size="3.5" fill="#333" font-weight="bold">${strokeCount}画</text>`;
+  svg += `<text x="${contentL + contentW / 2}" y="${rightY}" text-anchor="middle" font-size="3.5" fill="#333" font-weight="bold">${strokeCount}かく</text>`;
 
-  // --- Readings table (aligned to contentL/contentR) ---
-  rightY += 5;
-  const rowH = 5;
+  // --- Vertical yomikata table (2 columns: くん / おん) ---
+  rightY += 4;
+  const headerH = 5;
+  const colHeaderH = 5;
+  const readingsBodyH = 45; // fixed height for readings area
+  const totalReadingsH = headerH + colHeaderH + readingsBodyH;
+  const colW = contentW / 2;
+  const midX = contentL + colW;
 
-  // Outer border for the whole readings box
-  const readingsH = rowH + (rowH + 2) * 2;
-  svg += `<rect x="${contentL}" y="${rightY}" width="${contentW}" height="${readingsH}" rx="1.5" fill="none" stroke="#b8c8d4" stroke-width="0.3"/>`;
+  // Outer border
+  svg += `<rect x="${contentL}" y="${rightY}" width="${contentW}" height="${totalReadingsH}" rx="2" fill="none" stroke="#9ec5a0" stroke-width="0.4"/>`;
 
-  // Header row
-  svg += `<line x1="${contentL}" y1="${rightY + rowH}" x2="${contentR}" y2="${rightY + rowH}" stroke="#b8c8d4" stroke-width="0.2"/>`;
-  svg += `<text x="${contentL + contentW / 2}" y="${rightY + 3.5}" text-anchor="middle" font-size="2.2" fill="#9ec5a0" font-weight="bold">☆ よみかた ☆</text>`;
-  rightY += rowH;
+  // Header: よみかた
+  svg += `<rect x="${contentL}" y="${rightY}" width="${contentW}" height="${headerH}" rx="2" fill="none"/>`;
+  svg += `<text x="${contentL + contentW / 2}" y="${rightY + 3.5}" text-anchor="middle" font-size="2.2" fill="#9ec5a0" font-weight="bold">よみかた</text>`;
+  svg += `<line x1="${contentL}" y1="${rightY + headerH}" x2="${contentR}" y2="${rightY + headerH}" stroke="#9ec5a0" stroke-width="0.3"/>`;
 
-  // Kun row
-  svg += `<line x1="${contentL}" y1="${rightY + rowH + 2}" x2="${contentR}" y2="${rightY + rowH + 2}" stroke="#ddd" stroke-width="0.15"/>`;
-  svg += `<text x="${contentL + 3}" y="${rightY + 4}" font-size="1.8" fill="#9ec5a0" font-weight="bold">くん</text>`;
-  svg += `<text x="${contentL + 12}" y="${rightY + 4}" font-size="2" fill="#333">${kunReadings.join("、") || "—"}</text>`;
-  rightY += rowH + 2;
+  // Column headers: くん | おん
+  const colHeaderY = rightY + headerH;
+  svg += `<rect x="${contentL}" y="${colHeaderY}" width="${colW}" height="${colHeaderH}" fill="#e8f4e8"/>`;
+  svg += `<rect x="${midX}" y="${colHeaderY}" width="${colW}" height="${colHeaderH}" fill="#e8f4e8"/>`;
+  svg += `<text x="${contentL + colW / 2}" y="${colHeaderY + 3.5}" text-anchor="middle" font-size="2" fill="#333" font-weight="bold">くん</text>`;
+  svg += `<text x="${midX + colW / 2}" y="${colHeaderY + 3.5}" text-anchor="middle" font-size="2" fill="#333" font-weight="bold">おん</text>`;
+  svg += `<line x1="${contentL}" y1="${colHeaderY + colHeaderH}" x2="${contentR}" y2="${colHeaderY + colHeaderH}" stroke="#9ec5a0" stroke-width="0.2"/>`;
+  // Vertical divider
+  svg += `<line x1="${midX}" y1="${colHeaderY}" x2="${midX}" y2="${rightY + totalReadingsH}" stroke="#9ec5a0" stroke-width="0.2"/>`;
 
-  // On row
-  svg += `<text x="${contentL + 3}" y="${rightY + 4}" font-size="1.8" fill="#e8a0aa" font-weight="bold">音</text>`;
-  svg += `<text x="${contentL + 12}" y="${rightY + 4}" font-size="2" fill="#333">${onReadings.join("、") || "—"}</text>`;
-  rightY += rowH + 2;
+  // Readings body — vertical text, right-to-left within each column
+  const bodyY = colHeaderY + colHeaderH + 2;
+  const charH = 3.5; // height per character in vertical text
+
+  // Kun readings (left column) — each reading is a vertical column, right-to-left
+  const kunSpacing = 5;
+  for (let r = 0; r < kunReadings.length; r++) {
+    const reading = kunReadings[r];
+    const rx = contentL + colW - 3 - r * kunSpacing; // right-to-left
+    for (let c = 0; c < reading.length; c++) {
+      svg += `<text x="${rx}" y="${bodyY + c * charH}" font-size="2.5" fill="#333" text-anchor="middle">${reading[c]}</text>`;
+    }
+  }
+
+  // On readings (right column) — same layout
+  for (let r = 0; r < onReadings.length; r++) {
+    const reading = onReadings[r];
+    const rx = midX + colW - 3 - r * kunSpacing;
+    for (let c = 0; c < reading.length; c++) {
+      svg += `<text x="${rx}" y="${bodyY + c * charH}" font-size="2.5" fill="#333" text-anchor="middle">${reading[c]}</text>`;
+    }
+  }
+
+  rightY += totalReadingsH;
 
   // --- Kakijun (flows right after readings, left-to-right) ---
   rightY += 4;
