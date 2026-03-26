@@ -1023,12 +1023,11 @@ function buildPrintSheetSVG() {
 
   // Column headers: くん | おん
   const colHeaderY = rightY + headerH;
-  svg += `<rect x="${contentL}" y="${colHeaderY}" width="${colW}" height="${colHeaderH}" fill="#e8f4e8"/>`;
-  svg += `<rect x="${midX}" y="${colHeaderY}" width="${colW}" height="${colHeaderH}" fill="#e8f4e8"/>`;
-  svg += `<text x="${contentL + colW / 2}" y="${colHeaderY + 4}" text-anchor="middle" font-size="2.5" fill="#333" font-weight="bold">くん</text>`;
-  svg += `<text x="${midX + colW / 2}" y="${colHeaderY + 4}" text-anchor="middle" font-size="2.5" fill="#333" font-weight="bold">おん</text>`;
-  svg += `<line x1="${contentL}" y1="${colHeaderY + colHeaderH}" x2="${contentR}" y2="${colHeaderY + colHeaderH}" stroke="#9ec5a0" stroke-width="0.2"/>`;
-  svg += `<line x1="${midX}" y1="${colHeaderY}" x2="${midX}" y2="${rightY + totalReadingsH}" stroke="#9ec5a0" stroke-width="0.2"/>`;
+  svg += `<rect x="${contentL}" y="${colHeaderY}" width="${colW}" height="${colHeaderH}" fill="none" stroke="#9ec5a0" stroke-width="0.3"/>`;
+  svg += `<rect x="${midX}" y="${colHeaderY}" width="${colW}" height="${colHeaderH}" fill="none" stroke="#9ec5a0" stroke-width="0.3"/>`;
+  svg += `<text x="${contentL + colW / 2}" y="${colHeaderY + 4}" text-anchor="middle" font-size="2.5" fill="#9ec5a0" font-weight="bold">くん</text>`;
+  svg += `<text x="${midX + colW / 2}" y="${colHeaderY + 4}" text-anchor="middle" font-size="2.5" fill="#9ec5a0" font-weight="bold">おん</text>`;
+  svg += `<line x1="${midX}" y1="${colHeaderY + colHeaderH}" x2="${midX}" y2="${rightY + totalReadingsH}" stroke="#9ec5a0" stroke-width="0.2"/>`;
 
   // Readings body — vertical text, right-to-left within each column
   const bodyY = colHeaderY + colHeaderH + 5; // top padding
