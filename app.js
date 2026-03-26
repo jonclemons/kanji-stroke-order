@@ -810,7 +810,13 @@ function onTraceStart(e) {
   traceIsDrawing = true;
   traceCanvas.classList.remove("error");
 
-  // Check if finger is near the start of the stroke
+  // If already made progress on this stroke, allow continuing from where we left off
+  if (traceProgress > 0) {
+    traceStarted = true;
+    return;
+  }
+
+  // Fresh stroke: check if finger is near the start point
   const point = svgPoint(traceSvgEl, e.clientX, e.clientY);
   const path = tracePaths[traceStrokeIndex];
   const startPt = path.getPointAtLength(0);
@@ -855,7 +861,7 @@ function onTraceMove(e) {
 
 function onTraceEnd(e) {
   traceIsDrawing = false;
-  traceStarted = false;
+  // Don't reset traceStarted — allow resuming mid-stroke after lifting finger
 }
 
 function completeTraceStroke() {
