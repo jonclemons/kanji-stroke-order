@@ -17,6 +17,7 @@ let isPlaying = false;
 let currentStrokePaths = [];
 let currentKanji = "";
 let currentStrokes = [];
+let currentStrokeNumbers = [];
 let currentViewBox = "";
 let currentGrade = null;
 let currentKanjiInfo = null;
@@ -128,9 +129,13 @@ async function fetchGradeKanji(grade) {
 
 // --- SVG parsing ---
 
-function parseStrokes(svgText) {
+function parseSVG(svgText) {
   const parser = new DOMParser();
-  const doc = parser.parseFromString(svgText, "image/svg+xml");
+  return parser.parseFromString(svgText, "image/svg+xml");
+}
+
+function parseStrokes(svgText) {
+  const doc = parseSVG(svgText);
   const paths = doc.querySelectorAll("path");
   return Array.from(paths).map((p) => ({
     d: p.getAttribute("d"),
@@ -138,9 +143,26 @@ function parseStrokes(svgText) {
   }));
 }
 
+function parseStrokeNumbers(svgText) {
+  const doc = parseSVG(svgText);
+  // KanjiVG stores stroke numbers in a group with id like "kvg:StrokeNumbers_XXXXX"
+  const numGroup = doc.querySelector('[id^="kvg:StrokeNumbers"]');
+  if (!numGroup) return [];
+  const texts = numGroup.querySelectorAll("text");
+  return Array.from(texts).map((t) => {
+    const transform = t.getAttribute("transform") || "";
+    // Parse "matrix(1 0 0 1 x y)" to extract x, y
+    const match = transform.match(/matrix\([^)]*\s+([\d.]+)\s+([\d.]+)\)/);
+    return {
+      num: t.textContent,
+      x: match ? parseFloat(match[1]) : 0,
+      y: match ? parseFloat(match[2]) : 0,
+    };
+  });
+}
+
 function getViewBox(svgText) {
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(svgText, "image/svg+xml");
+  const doc = parseSVG(svgText);
   const svg = doc.querySelector("svg");
   return svg?.getAttribute("viewBox") || "0 0 109 109";
 }
@@ -307,68 +329,34 @@ function createStepSVG(strokes, upToStep, size, viewBox) {
 }
 
 // Add circled stroke numbers to an SVG, with collision avoidance
-function addStrokeNumbers(svg, strokes, count) {
-  const positions = [];
-  const radius = 5;
-  const minDist = 11; // minimum distance between number centers
+// Add stroke numbers using KanjiVG's hand-curated positions
+function addStrokeNumbers(svg, count) {
+  for (let i = 0; i < count && i < currentStrokeNumbers.length; i++) {
+    const sn = currentStrokeNumbers[i];
+    const x = sn.x;
+    const y = sn.y;
 
-  for (let i = 0; i < count; i++) {
-    const d = strokes[i].d;
-    const match = d.match(/^[Mm]\s*([\d.]+)[,\s]+([\d.]+)/);
-    if (!match) continue;
-
-    let x = parseFloat(match[1]);
-    let y = parseFloat(match[2]);
-
-    // Offset to place number slightly above-right of stroke start
-    x += 4;
-    y -= 4;
-
-    // Push away from any existing number positions
-    for (let attempt = 0; attempt < 8; attempt++) {
-      let collision = false;
-      for (const pos of positions) {
-        const dx = x - pos.x;
-        const dy = y - pos.y;
-        const dist = Math.sqrt(dx * dx + dy * dy);
-        if (dist < minDist) {
-          // Push in a spiral direction based on attempt
-          const angle = (attempt * Math.PI) / 4;
-          x = pos.x + Math.cos(angle) * minDist;
-          y = pos.y + Math.sin(angle) * minDist;
-          collision = true;
-          break;
-        }
-      }
-      if (!collision) break;
-    }
-
-    // Clamp within viewBox
-    x = Math.max(radius + 1, Math.min(108 - radius, x));
-    y = Math.max(radius + 1, Math.min(108 - radius, y));
-
-    positions.push({ x, y });
-
-    // White circle background
+    // Small circle background
     const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
     circle.setAttribute("cx", x);
-    circle.setAttribute("cy", y);
-    circle.setAttribute("r", radius);
+    circle.setAttribute("cy", y - 2);
+    circle.setAttribute("r", "5");
     circle.setAttribute("fill", "white");
     circle.setAttribute("stroke", "#e8a0aa");
-    circle.setAttribute("stroke-width", "0.8");
+    circle.setAttribute("stroke-width", "0.6");
+    circle.setAttribute("opacity", "0.9");
     svg.appendChild(circle);
 
     // Number text
     const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
     text.setAttribute("x", x);
-    text.setAttribute("y", y + 3);
+    text.setAttribute("y", y + 1);
     text.setAttribute("text-anchor", "middle");
     text.setAttribute("font-size", "7");
     text.setAttribute("fill", "#e8a0aa");
     text.setAttribute("font-family", "sans-serif");
     text.setAttribute("font-weight", "bold");
-    text.textContent = i + 1;
+    text.textContent = sn.num;
     svg.appendChild(text);
   }
 }
@@ -398,7 +386,7 @@ function createPrintStepSVG(strokes, upToStep, size, viewBox, showNumbers) {
   }
 
   if (showNumbers) {
-    addStrokeNumbers(svg, strokes, upToStep + 1);
+    addStrokeNumbers(svg, upToStep + 1);
   }
 
   return svg;
@@ -445,7 +433,7 @@ function createPrintRefSVG(strokes, size, viewBox) {
     svg.appendChild(path);
   });
 
-  addStrokeNumbers(svg, strokes, strokes.length);
+  addStrokeNumbers(svg, strokes.length);
 
   return svg;
 }
@@ -925,6 +913,21 @@ function buildPrintSheetSVG() {
     return paths;
   }
 
+  // Helper: add KanjiVG stroke numbers to SVG template
+  function strokeNumbersSVG(cx, cy, size, count) {
+    const s = size / 109;
+    let nums = "";
+    for (let i = 0; i < count && i < currentStrokeNumbers.length; i++) {
+      const sn = currentStrokeNumbers[i];
+      const nx = cx + sn.x * s;
+      const ny = cy + sn.y * s;
+      const r = 1.5 * s * 109 / size; // scale radius relative to cell
+      nums += `<circle cx="${nx}" cy="${ny - 0.5}" r="${Math.max(1.2, r)}" fill="white" stroke="#e8a0aa" stroke-width="0.15" opacity="0.9"/>`;
+      nums += `<text x="${nx}" y="${ny + 0.3}" text-anchor="middle" font-size="${Math.max(1.5, 2 * s * 109 / size)}" fill="#e8a0aa" font-weight="bold">${sn.num}</text>`;
+    }
+    return nums;
+  }
+
   // Helper: dashed cross guide inside a cell
   function crossGuide(cx, cy, size) {
     const half = size / 2;
@@ -989,6 +992,7 @@ function buildPrintSheetSVG() {
   svg += `<rect x="${refX}" y="${refY}" width="${refSize}" height="${refSize}" rx="3" fill="none" stroke="#e8a0aa" stroke-width="1"/>`;
   svg += crossGuide(refX, refY, refSize);
   svg += strokePaths(refX + 1.5, refY + 1.5, refSize - 3, "#333", 1.0);
+  svg += strokeNumbersSVG(refX + 1.5, refY + 1.5, refSize - 3, currentStrokes.length);
 
   // Stroke count (hiragana)
   let rightY = refY + refSize + 5;
@@ -1250,6 +1254,7 @@ async function lookup() {
     ]);
 
     const strokes = parseStrokes(svgText);
+    const strokeNumbers = parseStrokeNumbers(svgText);
     const viewBox = getViewBox(svgText);
 
     if (strokes.length === 0) {
@@ -1261,6 +1266,7 @@ async function lookup() {
 
     currentKanji = kanji;
     currentStrokes = strokes;
+    currentStrokeNumbers = strokeNumbers;
     currentViewBox = viewBox;
     currentKanjiInfo = kanjiInfo;
 
