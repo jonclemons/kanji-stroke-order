@@ -1,0 +1,7 @@
+name = "kanji-sheets-api"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[[r2_buckets]]
+binding = "SHEETS"
+bucket_name = "kanji-sheets"
