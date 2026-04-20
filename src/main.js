@@ -1,5 +1,4 @@
-import { render } from "preact";
-import App from "./App.jsx";
+import appShell from "./app-shell.js";
 import "../app.js";
 
 async function setupServiceWorker() {
@@ -25,7 +24,7 @@ async function setupServiceWorker() {
   await registration.update();
 }
 
-render(<App />, document.getElementById("app"));
+document.getElementById("app").innerHTML = appShell;
 
 requestAnimationFrame(() => {
   window.initLegacyApp?.();

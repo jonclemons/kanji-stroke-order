@@ -1,5 +1,14 @@
-const CACHE_NAME = "kanji-app-v11";
-const APP_SHELL = ["/", "/index.html", "/style.css", "/app.js", "/manifest.json", "/icon.svg"];
+const CACHE_NAME = "kanji-app-v12";
+const APP_SHELL = [
+  "/",
+  "/index.html",
+  "/style.css",
+  "/app.js",
+  "/src/main.js",
+  "/src/app-shell.js",
+  "/manifest.json",
+  "/icon.svg",
+];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
