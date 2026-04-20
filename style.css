@@ -695,19 +695,6 @@ button:hover {
   color: #6c7c88;
 }
 
-.print-view-actions {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  padding: 0.35rem 0 0.2rem;
-  background: linear-gradient(180deg, rgba(212, 228, 237, 0.98), rgba(212, 228, 237, 0.9));
-}
-
 .print-view-sheet-wrap {
   display: flex;
   justify-content: center;
@@ -978,7 +965,6 @@ button:hover {
   body.is-print-preview #dataInfoView,
   body.is-print-preview #emptyState,
   body.is-print-preview .print-view-note,
-  body.is-print-preview .print-view-actions,
   body.is-print-preview #loadingSpinner {
     display: none !important;
   }

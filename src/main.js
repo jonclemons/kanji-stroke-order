@@ -1,3 +1,4 @@
+import { APP_VERSION } from "./version.js";
 import appShell from "./app-shell.js";
 import "../app.js";
 
@@ -18,7 +19,18 @@ async function setupServiceWorker() {
     return;
   }
 
-  const registration = await navigator.serviceWorker.register("/sw.js", {
+  const hadController = Boolean(navigator.serviceWorker.controller);
+  let hasReloadedForServiceWorkerUpdate = false;
+
+  if (hadController) {
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if (hasReloadedForServiceWorkerUpdate) return;
+      hasReloadedForServiceWorkerUpdate = true;
+      window.location.reload();
+    });
+  }
+
+  const registration = await navigator.serviceWorker.register(`/sw.js?v=${encodeURIComponent(APP_VERSION)}`, {
     updateViaCache: "none",
   });
   await registration.update();

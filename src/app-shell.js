@@ -82,10 +82,6 @@ const appShell = `
 
         <div id="printView" class="print-view hidden">
           <p class="print-view-note">プレビューを みてから したの いんさつを おしてね</p>
-          <div class="print-view-actions">
-            <button id="printBackInlineBtn" class="app-footer-btn is-secondary" type="button">かんじにもどる</button>
-            <button id="printNowInlineBtn" class="app-footer-btn is-accent" type="button">いんさつする</button>
-          </div>
           <div class="print-view-sheet-wrap">
             <div id="printPreviewSheet" class="print-preview-sheet"></div>
           </div>

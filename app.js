@@ -1,3 +1,5 @@
+import { APP_VERSION, DATA_VERSION, SW_CACHE_PREFIX } from "./src/version.js";
+
 window.initLegacyApp = function initLegacyApp() {
 if (window.__kanjiAppInitialized) return;
 window.__kanjiAppInitialized = true;
@@ -11,8 +13,6 @@ const aboutViewEl = document.getElementById("aboutView");
 const privacyViewEl = document.getElementById("privacyView");
 const termsViewEl = document.getElementById("termsView");
 const printPreviewSheetEl = document.getElementById("printPreviewSheet");
-const printBackInlineBtn = document.getElementById("printBackInlineBtn");
-const printNowInlineBtn = document.getElementById("printNowInlineBtn");
 const readingsEl = document.getElementById("readings");
 const wordsEl = document.getElementById("words");
 const stepsGrid = document.getElementById("steps");
@@ -60,7 +60,8 @@ const gradeWarmPromises = {};
 const gradeDownloadState = {};
 const GRADE_YEARS = [1, 2, 3, 4, 5, 6];
 const KANJI_PRELOAD_CONCURRENCY = 3;
-const LOCAL_DATA_VERSION = "v1";
+const LOCAL_DATA_VERSION = DATA_VERSION;
+const CACHE_STATE_KEY = "cache-state";
 
 let kanjiPreloadQueue = [];
 let activeKanjiPreloads = 0;
@@ -109,8 +110,53 @@ async function idbSet(storeName, key, value) {
   } catch { /* silent */ }
 }
 
+async function idbClearStores(storeNames) {
+  const db = await openCacheDB();
+  await new Promise((resolve, reject) => {
+    const tx = db.transaction(storeNames, "readwrite");
+    storeNames.forEach((storeName) => tx.objectStore(storeName).clear());
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+    tx.onabort = () => reject(tx.error);
+  });
+}
+
 function hasCacheEntry(cache, key) {
   return Object.prototype.hasOwnProperty.call(cache, key);
+}
+
+async function clearServiceWorkerCaches() {
+  if (!("caches" in window)) return;
+
+  const currentCacheName = `${SW_CACHE_PREFIX}-${APP_VERSION}`;
+  const cacheKeys = await caches.keys();
+  await Promise.all(
+    cacheKeys
+      .filter((cacheKey) => cacheKey.startsWith(SW_CACHE_PREFIX) && cacheKey !== currentCacheName)
+      .map((cacheKey) => caches.delete(cacheKey))
+  );
+}
+
+async function syncPersistentCacheVersion() {
+  const cacheState = await idbGet("meta", CACHE_STATE_KEY);
+  const appVersionChanged = cacheState?.appVersion !== APP_VERSION;
+  const dataVersionChanged = cacheState?.dataVersion !== DATA_VERSION;
+
+  if (appVersionChanged || dataVersionChanged) {
+    await clearServiceWorkerCaches();
+  }
+
+  if (dataVersionChanged) {
+    await idbClearStores(DB_STORES);
+  }
+
+  if (appVersionChanged || dataVersionChanged) {
+    await idbSet("meta", CACHE_STATE_KEY, {
+      appVersion: APP_VERSION,
+      dataVersion: DATA_VERSION,
+      updatedAt: Date.now(),
+    });
+  }
 }
 
 function runWhenIdle(callback) {
@@ -1926,14 +1972,6 @@ kanjiInput.addEventListener("keydown", (e) => {
 });
 
 printBtn.addEventListener("click", openPrintPreview);
-if (printBackInlineBtn) {
-  printBackInlineBtn.addEventListener("click", () => {
-    showDetailView({ updateRoute: true });
-  });
-}
-if (printNowInlineBtn) {
-  printNowInlineBtn.addEventListener("click", printCurrentSheet);
-}
 
 gradeButtons.forEach((btn) => {
   btn.addEventListener("click", () => {
@@ -2065,7 +2103,18 @@ async function loadFromHash() {
 }
 
 window.addEventListener("hashchange", loadFromHash);
-syncAppShell();
-startGradeListWarmupInYearOrder();
-loadFromHash();
+
+async function initializeApp() {
+  try {
+    await syncPersistentCacheVersion();
+  } catch (error) {
+    console.warn("Cache version sync failed, continuing with existing data", error);
+  }
+
+  syncAppShell();
+  startGradeListWarmupInYearOrder();
+  await loadFromHash();
+}
+
+void initializeApp();
 };
