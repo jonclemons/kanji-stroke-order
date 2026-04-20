@@ -9,50 +9,44 @@ Reduce kanji lookup latency by mirroring the elementary-school dataset to our ow
 - Sample kanji: `交`
 - Sample grade list: `2年生`
 - Measurement script: `scripts/measure-latency.mjs`
-- Runs per endpoint: `3`
+- Runs per endpoint: `5`
+- Measured on: `2026-04-20`
+- Current deployed commit: `0d0fef3`
 - Endpoints measured:
   - kanji info
   - kanji words
   - stroke SVG
   - grade 2 list
 
-## Before
+## Upstream Baseline
 
-Measured against the live third-party endpoints with `MEASURE_MODE=upstream bun run measure:latency`.
+Measured against the live third-party endpoints with `MEASURE_RUNS=5 MEASURE_MODE=upstream bun run measure:latency`.
 
 | Endpoint | Avg | Min | Max | Notes |
 | --- | ---: | ---: | ---: | --- |
-| `kanji_info` | `368.3 ms` | `83.2 ms` | `646.5 ms` | Small JSON payload from `kanjiapi.dev` |
-| `kanji_words` | `567.4 ms` | `99.9 ms` | `1230.4 ms` | Largest and most variable request |
-| `kanjivg_svg` | `125.5 ms` | `45.9 ms` | `274.4 ms` | SVG from `raw.githubusercontent.com` |
-| `grade_2_list` | `357.1 ms` | `319.5 ms` | `429.3 ms` | Grade list from `kanjiapi.dev` |
+| `kanji_info` | `143.0 ms` | `65.8 ms` | `437.7 ms` | Small JSON payload from `kanjiapi.dev` |
+| `kanji_words` | `613.6 ms` | `85.2 ms` | `1322.4 ms` | Largest and most variable request |
+| `kanjivg_svg` | `88.1 ms` | `46.1 ms` | `249.3 ms` | SVG from `raw.githubusercontent.com` |
+| `grade_2_list` | `116.9 ms` | `58.6 ms` | `327.6 ms` | Grade list from `kanjiapi.dev` |
 
-## After
+## Live Pages Mirror
 
-Measured against the local mirrored same-origin files with `MEASURE_MODE=local bun run measure:latency`.
+Measured against the deployed Cloudflare Pages mirror with `MEASURE_RUNS=5 MEASURE_MODE=local MEASURE_LOCAL_BASE=https://kanji-stroke-order.pages.dev bun run measure:latency`.
 
-| Endpoint | Avg | Min | Max | Improvement vs before avg |
+| Endpoint | Avg | Min | Max | Vs upstream avg |
 | --- | ---: | ---: | ---: | ---: |
-| `kanji_info` | `2.5 ms` | `1.1 ms` | `4.2 ms` | about `147.3x` faster |
-| `kanji_words` | `1.9 ms` | `1.5 ms` | `2.2 ms` | about `298.6x` faster |
-| `kanjivg_svg` | `2.0 ms` | `1.4 ms` | `2.8 ms` | about `62.8x` faster |
-| `grade_2_list` | `1.4 ms` | `1.0 ms` | `2.0 ms` | about `255.1x` faster |
-
-## Browser Check
-
-- Checked the live production app in a real Chromium session with Playwright against `https://kanji-stroke-order.pages.dev/#grade/2/%E4%BA%A4`.
-- The current production app did not restore the `交` detail view directly from that hash URL and instead landed on `#grade/2`, so the browser check used: open page -> reload -> click `交`.
-- Browser network inspection confirmed the production app is still making live requests to:
-  - `https://kanjiapi.dev/v1/kanji/grade-2`
-  - `https://kanjiapi.dev/v1/kanji/%E4%BA%A4`
-  - `https://kanjiapi.dev/v1/words/%E4%BA%A4`
-  - `https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04ea4.svg`
+| `kanji_info` | `135.4 ms` | `62.7 ms` | `404.6 ms` | about `1.1x` faster |
+| `kanji_words` | `175.9 ms` | `100.7 ms` | `404.4 ms` | about `3.5x` faster |
+| `kanjivg_svg` | `130.4 ms` | `63.8 ms` | `349.2 ms` | about `1.5x` slower |
+| `grade_2_list` | `126.3 ms` | `61.7 ms` | `348.2 ms` | about `1.1x` slower |
 
 ## Notes
 
 - The words endpoint is the biggest latency problem.
-- Variability is also a problem: the same upstream endpoint ranged from `83.2 ms` to `646.5 ms` for `kanji_info`, and from `99.9 ms` to `1230.4 ms` for `kanji_words`, across just three runs.
-- Local CPU work in the app was previously measured as negligible compared with network fetch time.
+- Variability is still a problem upstream: `kanji_words` ranged from `85.2 ms` to `1322.4 ms` across just five runs.
+- The live Cloudflare Pages mirror now serves the mirrored files from same-origin paths like `/data/v1/info/04ea4.json` and `/data/v1/words/04ea4.json`.
+- In this curl-based test, each sample opens a fresh HTTPS request, so it does not benefit from browser connection reuse, HTTP/2 multiplexing, IndexedDB, or warm in-app caches.
+- That means the live Pages numbers above are a conservative measurement of production performance; real in-browser app flows should benefit more than these raw curl numbers suggest, especially after the first request.
 - The mirror build completed successfully for all `1006` elementary-school kanji.
 - The local mirror currently produced `3030` mirrored files under `public/data/v1`.
 - The app now prefers same-origin mirrored files and only falls back upstream if a mirrored file is missing.
