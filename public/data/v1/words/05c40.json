@@ -1,0 +1,5455 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(Japanese) Monopoly Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんばいきょく",
+        "written": "専売局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(Japanese) Postal Savings Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "ちょきんきょく",
+        "written": "貯金局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(Japanese) Tax Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "しゅぜいきょく",
+        "written": "主税局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(computer) slave station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こきょく",
+        "written": "子局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(local) finance bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいむきょく",
+        "written": "財務局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(playing a) game (of go, shogi, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf08"
+        ],
+        "pronounced": "たいきょく",
+        "written": "対局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(radio) terminal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんきょく",
+        "written": "端局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(satellite) earth station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいせいちきゅうきょく",
+        "written": "衛星地球局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(telephone) area code (non-local)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しがいきょくばん",
+        "written": "市外局番"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しがいきょくばん",
+        "written": "市街局番"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(telephone) exchange"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかんきょく",
+        "written": "交換局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Administrative Evaluation Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうせいひょうかきょく",
+        "written": "行政評価局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Board of Inland Revenue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないこくぜいしゅうにゅうきょく",
+        "written": "内国税収入局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Branch Forest Office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいりんしきょく",
+        "written": "営林支局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Bureau of Shrine Affairs (1900-1940)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんじゃきょく",
+        "written": "神社局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Cabinet Legislation Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "ないかくほうせいきょく",
+        "written": "内閣法制局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Cabinet Legislation Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "ほうせいきょく",
+        "written": "法制局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Certificate Authority"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にんしょうきょく",
+        "written": "認証局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chief Administration for Intelligence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんぼうほんぶじょうほうそうきょく",
+        "written": "参謀本部情報総局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Civil Affairs Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みんじきょく",
+        "written": "民事局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Defense Intelligence Agency (USA)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アメリカこくぼうじょうほうきょく",
+        "written": "アメリカ国防情報局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Civil Aviation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みんかんこうくうきょく",
+        "written": "民間航空局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Director-General of the Cabinet Legislation Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないかくほうせいきょくちょうかん",
+        "written": "内閣法制局長官"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "District Land Transport Bureau (i.e. motor traffic agency)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りくうんきょく",
+        "written": "陸運局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "District Legal Affairs Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちほうほうむきょく",
+        "written": "地方法務局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "District Transport Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちほううんゆきょく",
+        "written": "地方運輸局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Economic Research Service"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいざいちょうさきょく",
+        "written": "経済調査局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "General Affairs Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "そうむきょく",
+        "written": "総務局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Home Ministry Police Affairs Bureau (1876-1947)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいほきょく",
+        "written": "警保局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Home Ministry Police Affairs Bureau (1876-1947)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないむしょうけいほきょく",
+        "written": "内務省警保局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "International Finance Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいきんゆうきょく",
+        "written": "国際金融局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Pharmacopeia"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくほう",
+        "written": "局方"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Pharmacopeia"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんやっきょくほう",
+        "written": "日本薬局方"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Pharmacopoeia"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっきょく",
+        "written": "日局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese vellum"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくし",
+        "written": "局紙"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Land Transport Office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りくうんしきょく",
+        "written": "陸運支局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Machinery and Information Industries Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかいじょうほうさんぎょうきょく",
+        "written": "機械情報産業局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Manpower Administration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こようそうきょく",
+        "written": "雇用総局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Maritime Transport Office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいうんしきょく",
+        "written": "海運支局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of the Environment - Global Environment Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんきょうしょうちきゅうかんきょうきょく",
+        "written": "環境省地球環境局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Bureau of Standards"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかくきじゅんきょく",
+        "written": "規格基準局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Highway Traffic Safety Administration (USA)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうろこうつうあんぜんきょく",
+        "written": "道路交通安全局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Pharmaceutical and Food Safety Bureau (formerly Pharmaceutical and Medical Safety Bureau)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやくあんぜんきょく",
+        "written": "医薬安全局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Physical Education Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいいくきょく",
+        "written": "体育局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Politburo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうさんとうせいじきょく",
+        "written": "共産党政治局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Port and Harbor Authority"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "こうわんきょく",
+        "written": "港湾局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Postal Bureau (within the Ministry of Posts and Telecommunications)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうむきょく",
+        "written": "郵務局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Postal Life Insurance Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんいほけんきょく",
+        "written": "簡易保険局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Prefectural Labour Standards Office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とどうふけんろうどうきじゅんきょく",
+        "written": "都道府県労働基準局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Public Security Investigation Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうあんちょうさきょく",
+        "written": "公安調査局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Regional Civil Aviation Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちほうこうくうきょく",
+        "written": "地方航空局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Regional Taxation Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちほうこくぜいきょく",
+        "written": "地方国税局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Science and International Affairs Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がくじゅつこくさいきょく",
+        "written": "学術国際局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Shikoku Branch Administrative Inspection Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しこくぎょうせいかんさつしきょく",
+        "written": "四国行政監察支局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Statistics Canada (Canadian federal department issuing statistics related to Canada)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "カナダとうけいきょく",
+        "written": "カナダ統計局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Supreme Court Secretariat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいこうさいじむそうきょく",
+        "written": "最高裁事務総局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "TV announcer (in the full-time employ of a single broadcaster)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくアナ",
+        "written": "局アナ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Taikyoku shogi (variant of shogi)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいきょくしょうぎ",
+        "written": "大局将棋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Tokyo Regional Taxation Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうきょうこくぜいきょく",
+        "written": "東京国税局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Toll Area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうちゅうきょくくいき",
+        "written": "集中局区域"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Toll Center"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうちゅうきょく",
+        "written": "集中局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Transportation Security Administration (TSA)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うんゆほあんきょく",
+        "written": "運輸保安局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "US Pharmacopeial Convention"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べいこくやっきょくほうきょうかい",
+        "written": "米国薬局方協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United Nations Secretariat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいれんごうじむきょく",
+        "written": "国際連合事務局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United Nations Secretariat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくれんじむきょく",
+        "written": "国連事務局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "administration bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんりきょく",
+        "written": "管理局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "amateur radio station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アマチュアむせんきょく",
+        "written": "アマチュア無線局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "authority (person)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうきょくしゃ",
+        "written": "当局者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "base station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きちきょく",
+        "written": "基地局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "booster station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ブースターきょく",
+        "written": "ブースター局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "branch office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "しきょく",
+        "written": "支局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "budget bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "しゅけいきょく",
+        "written": "主計局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bureau in a ministry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "ないきょく",
+        "written": "内局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "circumstances"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じきょく",
+        "written": "事局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "closing (of a broadcasting station, post office, bureau, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいきょく",
+        "written": "閉局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "coil"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とぐろ",
+        "written": "塒"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とぐろ",
+        "written": "蜷局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "combined station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふくごうきょく",
+        "written": "複合局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "coming to a post office, broadcasting station, etc."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "らいきょく",
+        "written": "来局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commercial broadcasting station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みんぽうきょく",
+        "written": "民放局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "community pharmacy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちいきやっきょく",
+        "written": "地域薬局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "construction bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんせつきょく",
+        "written": "建設局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "control station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいぎょきょく",
+        "written": "制御局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crisis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ききょく",
+        "written": "危局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "customs office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいきょく",
+        "written": "関税局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "data station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "データきょく",
+        "written": "データ局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "difficult situation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "なんきょく",
+        "written": "難局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug included in the Japanese Pharmacopoeia"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくほうひん",
+        "written": "局方品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dual attachment station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にじゅうせつぞくきょく",
+        "written": "二重接続局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "earth station (for a satellite)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちきゅうきょく",
+        "written": "地球局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "external bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "がいきょく",
+        "written": "外局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "famous game (of go, shogi, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めいきょく",
+        "written": "名局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "federal authorities"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れんぽうとうきょく",
+        "written": "連邦当局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "financial authorities"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんゆうとうきょく",
+        "written": "金融当局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general sub-prefectural office (Hokkaido)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうごうしんこうきょく",
+        "written": "総合振興局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in view of the present situation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じきょくがら",
+        "written": "時局柄"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "land terminal equipment (of a submarine cable)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りくじょうたんきょくそうち",
+        "written": "陸上端局装置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local address administration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくしょアドレスかんり",
+        "written": "局所アドレス管理"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local broadcast station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちほうきょく",
+        "written": "地方局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local crosstalk"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくないクロストーク",
+        "written": "局内クロストーク"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local entity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくしょようそ",
+        "written": "局所要素"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local level"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくしょレベル",
+        "written": "局所レベル"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local linear programming"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくしょせんけいけいかくほう",
+        "written": "局所線形計画法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local modelling transformation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくしょモデリングへんかん",
+        "written": "局所モデリング変換"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local name"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくしょめい",
+        "written": "局所名"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local star system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくぶこうせいけい",
+        "written": "局部恒星系"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local test methods"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくしょてきしけんほう",
+        "written": "局所的試験法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local variable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくしょへんすう",
+        "written": "局所変数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local wind"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくちふう",
+        "written": "局地風"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "master station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅきょく",
+        "written": "主局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "military authorities"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぐんとうきょく",
+        "written": "軍当局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "military authority"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぐんじとうきょくしゃ",
+        "written": "軍事当局者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mobile terminal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いどうきょく",
+        "written": "移動局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "monitor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんしきょく",
+        "written": "監視局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "national tourist board"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいふかんこうきょく",
+        "written": "政府観光局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "neighbor notification"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りんせつきょくつうち",
+        "written": "隣接局通知"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "neutralism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくがいちゅうりつしゅぎ",
+        "written": "局外中立主義"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "neutrality"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくがいちゅうりつ",
+        "written": "局外中立"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "office code"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくコード",
+        "written": "局コード"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "office data"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくデータ",
+        "written": "局データ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "official bulletin"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくほう",
+        "written": "局報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "officials in charge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "じむとうきょく",
+        "written": "事務当局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one part"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いちきょくぶ",
+        "written": "一局部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outsider"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくがいしゃ",
+        "written": "局外者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "partial denture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくぶしょうぎし",
+        "written": "局部床義歯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "passive station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅどうきょく",
+        "written": "受動局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacopeia"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やっきょくほう",
+        "written": "薬局方"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やっきょくほう",
+        "written": "薬局法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacy right outside a doctor's office or hospital"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もんぜんやっきょく",
+        "written": "門前薬局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "physical delivery office address components"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶつりてきはいたつゆうびんきょくアドレスこうせいようそ",
+        "written": "物理的配達郵便局アドレス構成要素"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "physical delivery office name"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶつりてきはいたつゆうびんきょくめい",
+        "written": "物理的配達郵便局名"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "physical delivery office number"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶつりてきはいたつゆうびんきょくばんごう",
+        "written": "物理的配達郵便局番号"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "player (of go, shogi, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいきょくしゃ",
+        "written": "対局者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "political situation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "せいきょく",
+        "written": "政局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "port authorities"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうわんとうきょく",
+        "written": "港湾当局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "post office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えきていきょく",
+        "written": "駅逓局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "post office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "ゆうびんきょく",
+        "written": "郵便局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "primary station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いちじきょく",
+        "written": "一次局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prosecutor's office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "けんじきょく",
+        "written": "検事局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prostitute of the lowest class (Edo period)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つぼねじょろう",
+        "written": "局女郎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "radio station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むせんきょく",
+        "written": "無線局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "radio station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ラジオきょく",
+        "written": "ラジオ局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "receiving post office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゃくしんきょく",
+        "written": "着信局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regional enteritis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんきょくせいちょうえん",
+        "written": "限局性腸炎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regional forestry office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "えいりんきょく",
+        "written": "営林局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regional legal affairs bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうむきょく",
+        "written": "法務局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "replayed game after a draw (in shogi)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さしなおしきょく",
+        "written": "指し直し局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "round that ends with nobody winning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りゅうきょく",
+        "written": "流局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "secondary station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にじきょく",
+        "written": "二次局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "secondary station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にじきょく",
+        "written": "２次局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "secondary station status"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にじきょくじょうたい",
+        "written": "二次局状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "secretariat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "しょききょく",
+        "written": "書記局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "secretariat-general"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "じむそうきょく",
+        "written": "事務総局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "selling office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふりだしきょく",
+        "written": "振出局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sending office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はっしんきょく",
+        "written": "発信局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "senior female worker who supervises junior employees in a domineering fashion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おつぼね",
+        "written": "お局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "senior female worker who supervises junior employees in a domineering fashion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おつぼねさま",
+        "written": "おつぼね様"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おつぼねさま",
+        "written": "お局さま"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おつぼねさま",
+        "written": "お局様"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おつぼねさま",
+        "written": "御局様"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "signalling office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんごうきょく",
+        "written": "信号局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "signalling office code"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんごうきょくコード",
+        "written": "信号局コード"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "simple post office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんいゆうびんきょく",
+        "written": "簡易郵便局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "single attachment station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんいつせつぞくきょく",
+        "written": "単一接続局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "slave station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうきょく",
+        "written": "従局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "space agency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うちゅうきょく",
+        "written": "宇宙局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special post office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくていゆうびんきょく",
+        "written": "特定郵便局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state-run television station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくえいテレビきょく",
+        "written": "国営テレビ局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "telegraph office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんしんきょく",
+        "written": "電信局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "telegraph office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんぽうきょく",
+        "written": "電報局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "telephone company"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんわきょく",
+        "written": "電話局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "telephone exchange number"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41",
+          "spec2"
+        ],
+        "pronounced": "きょくばん",
+        "written": "局番"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "television station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "テレビきょく",
+        "written": "テレビ局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "text local coordinate system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "テキストきょくしょざひょうけい",
+        "written": "テキスト局所座標系"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the outside"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくがい",
+        "written": "局外"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to uncoil itself"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とぐろをほどく",
+        "written": "とぐろを解く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とぐろをほどく",
+        "written": "塒を解く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とぐろをほどく",
+        "written": "蜷局を解く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tributary station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうぞくきょく",
+        "written": "従属局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unlicensed radio station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふほうむせんきょく",
+        "written": "不法無線局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "virtual (switching) office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かそうきょく",
+        "written": "仮想局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "virtual (switching) office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かそうてきこうかんきょく",
+        "written": "仮想的交換局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "within an office (bureau, branch, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくない",
+        "written": "局内"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "world developments"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいきょく",
+        "written": "世局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(computer) sub-node",
+          "sub-station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まごきょく",
+        "written": "孫局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Australian Bureau of Statistics",
+          "ABS"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごうしゅうとうけいきょく",
+        "written": "豪州統計局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Cabinet Intelligence Bureau (1940-1945)",
+          "Cabinet Information Board"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないかくじょうほうきょく",
+        "written": "内閣情報局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Canadian Security Intelligence Service",
+          "CSIS"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "カナダあんぜんじょうほうきょく",
+        "written": "カナダ安全情報局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Central Intelligence Agency (US)",
+          "CIA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうおうじょうほうきょく",
+        "written": "中央情報局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Central Intelligence Agency (US)",
+          "CIA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アメリカちゅうおうじょうほうきょく",
+        "written": "アメリカ中央情報局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "China National Space Administration",
+          "CNSA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうごくこっかこうてんきょく",
+        "written": "中国国家航天局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Defense Intelligence Agency",
+          "DIA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくぼうじょうほうきょく",
+        "written": "国防情報局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Drug Enforcement Administration (US)",
+          "DEA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくとりしまりきょく",
+        "written": "麻薬取締局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Federal Aviation Administration",
+          "FAA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べいれんぽうこうくうきょく",
+        "written": "米連邦航空局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Federal Aviation Administration",
+          "FAA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れんぽうこうくうかんりきょく",
+        "written": "連邦航空管理局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Federal Bureau of Investigation (US)",
+          "FBI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れんぽうそうさきょく",
+        "written": "連邦捜査局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Federal Bureau of Investigation (USA)",
+          "FBI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アメリカれんぽうそうさきょく",
+        "written": "アメリカ連邦捜査局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Food and Drug Administration (US)",
+          "FDA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくひんいやくひんきょく",
+        "written": "食品医薬品局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Immigration Bureau",
+          "Immigration Office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "にゅうこくかんりきょく",
+        "written": "入国管理局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Aeronautics and Space Administration",
+          "NASA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくううちゅうきょく",
+        "written": "航空宇宙局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Aeronautics and Space Administration",
+          "NASA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べいこうくううちゅうきょく",
+        "written": "米航空宇宙局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Aeronautics and Space Administration (USA)",
+          "NASA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アメリカこうくううちゅうきょく",
+        "written": "アメリカ航空宇宙局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Oceanic and Atmospheric Administration",
+          "NOAA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいようたいききょく",
+        "written": "海洋大気局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Security Agency (of the United States)",
+          "NSA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こっかあんぜんほしょうきょく",
+        "written": "国家安全保障局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Printing Bureau",
+          "Bureau of Printing and Engraving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いんさつきょく",
+        "written": "印刷局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "SMT",
+          "Station Management"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくかんり",
+        "written": "局管理"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "State Environmental Protection Administration",
+          "SEPA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こっかかんきょうほごそうきょく",
+        "written": "国家環境保護総局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United Nations Department of Global Communications",
+          "UNDGC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいれんごうこうほうきょく",
+        "written": "国際連合広報局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "badger game",
+          "scheme in which a man and woman trick another man into a compromising situation for blackmail"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つつもたせ",
+        "written": "美人局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "branch office",
+          "local office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんきょく",
+        "written": "分局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "breakthrough in the situation",
+          "break in the deadlocked situation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくめんだかい",
+        "written": "局面打開"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "broadcasting station",
+          "broadcaster"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうそうきょく",
+        "written": "放送局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bureau",
+          "office building"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくしゃ",
+        "written": "局舎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bureau director",
+          "office chief"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "きょくちょう",
+        "written": "局長"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "call sign (e.g. of radio station)",
+          "station name"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくめい",
+        "written": "局名"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "clerk",
+          "(bureau, post-office) staff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "きょくいん",
+        "written": "局員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commercial broadcaster",
+          "commercial radio or TV station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みんかんほうそうきょく",
+        "written": "民間放送局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "complex regional pain syndrome",
+          "CRPS"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふくごうせいきょくしょとうつうしょうこうぐん",
+        "written": "複合性局所疼痛症候群"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "counter collection with advice",
+          "PD PR"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つうちつききょくどめ",
+        "written": "通知付き局留め"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "de-facto embassy",
+          "liaison office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れんらくじむきょく",
+        "written": "連絡事務局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "end office",
+          "terminating office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうちゃくきょく",
+        "written": "終着局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general situation",
+          "whole aspect"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんきょく",
+        "written": "全局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "having an eye to the big picture",
+          "being aware of the general situation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゃくがんたいきょく",
+        "written": "着眼大局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "head office",
+          "general office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうきょく",
+        "written": "総局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "immigration office",
+          "immigration bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いみんきょく",
+        "written": "移民局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in the end",
+          "at the end of the day"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けっきょくのところ",
+        "written": "結局のところ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "けっきょくのところ",
+        "written": "結局の所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "internal department",
+          "department within an organization"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないぶぶきょく",
+        "written": "内部部局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "investigating authorities",
+          "law enforcement authority"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうさとうきょく",
+        "written": "捜査当局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "labor standards bureau",
+          "labour standards bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "ろうどうきじゅんきょく",
+        "written": "労働基準局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local TV station",
+          "local radio station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ローカルきょく",
+        "written": "ローカル局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local anesthesia",
+          "local anaesthesia"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくしょますい",
+        "written": "局所麻酔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local basis",
+          "localized basis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくざいきてい",
+        "written": "局在基底"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local density approximation",
+          "LDA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくしょみつどきんじ",
+        "written": "局所密度近似"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local jump",
+          "local branch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくしょぶんき",
+        "written": "局所分岐"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local telephone exchange number",
+          "local exchange prefix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しないきょくばん",
+        "written": "市内局番"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "localization",
+          "existing only in a certain area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくざい",
+        "written": "局在"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "localized",
+          "circumscribed"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんきょくせい",
+        "written": "限局性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "localized (pain, rainfall, etc.)",
+          "local"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくぶてき",
+        "written": "局部的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "localized ileitis",
+          "regional ileitis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんきょくせいかいちょうえん",
+        "written": "限局性回腸炎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "managing editor",
+          "chief editor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へんしゅうきょくちょう",
+        "written": "編集局長"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medical office (esp. in a hospital)",
+          "doctor's office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "いきょく",
+        "written": "医局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "meteorological office",
+          "weather bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きしょうきょく",
+        "written": "気象局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mint bureau",
+          "mint"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30",
+          "spec2"
+        ],
+        "pronounced": "ぞうへいきょく",
+        "written": "造幣局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "neighboring office",
+          "adjoining office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りんせつきょく",
+        "written": "隣接局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "news bureau",
+          "press bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうどうきょく",
+        "written": "報道局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-local jump",
+          "non-local branch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひきょくしょぶんき",
+        "written": "非局所分岐"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "office setup",
+          "office establishment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくげん",
+        "written": "局建"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "opening (of a broadcasting station, post office, bureau, etc.)",
+          "establishment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "かいきょく",
+        "written": "開局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "politburo",
+          "political bureau (of a communist party)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいじきょく",
+        "written": "政治局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "public relations department",
+          "information bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうほうきょく",
+        "written": "広報局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regular post office",
+          "ordinary post office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふつうゆうびんきょく",
+        "written": "普通郵便局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "relay station",
+          "translator station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf45"
+        ],
+        "pronounced": "ちゅうけいきょく",
+        "written": "中継局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "restriction",
+          "localization"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんきょく",
+        "written": "限局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "revenue office",
+          "taxation bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "こくぜいきょく",
+        "written": "国税局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "secretariat",
+          "executive office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "じむきょく",
+        "written": "事務局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sending office",
+          "transmitting office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はっきょく",
+        "written": "発局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of the war",
+          "war situation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "せんきょく",
+        "written": "戦局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sudden reversal in the tide of events",
+          "the situation taking a new turn"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくめんいってん",
+        "written": "局面一転"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to deal with a situation",
+          "to take charge of an affair"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくにあたる",
+        "written": "局に当たる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "traffic bureau",
+          "transportation bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうつうきょく",
+        "written": "交通局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trunk",
+          "inter-office line"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくかんかいせん",
+        "written": "局間回線"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tuning in (to a TV channel or radio station)",
+          "channel selection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんきょく",
+        "written": "選局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "waterworks bureau",
+          "water department"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいどうきょく",
+        "written": "水道局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(national) tourist bureau",
+          "tourist board",
+          "tourist office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんこうきょく",
+        "written": "観光局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Statistics Bureau of Japan",
+          "SBJ",
+          "Statistics Bureau, Ministry of Internal Affairs and Communications"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうむしょうとうけいきょく",
+        "written": "総務省統計局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "World Organisation for Animal Health",
+          "Office International des Epizooties",
+          "OIE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいじゅうえきじむきょく",
+        "written": "国際獣疫事務局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "broad (view, perspective, etc.)",
+          "wide",
+          "large"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいきょくてき",
+        "written": "大局的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "broad view",
+          "big picture",
+          "wide perspective"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいきょくかん",
+        "written": "大局観"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "central broadcasting station",
+          "central radio station",
+          "central television station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうおうほうそうきょく",
+        "written": "中央放送局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dispensary",
+          "dispensing pharmacy",
+          "pharmacist's office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうざいやっきょく",
+        "written": "調剤薬局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "editorial office",
+          "editorial department",
+          "editorial board"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へんしゅうきょく",
+        "written": "編集局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general delivery",
+          "counter collection",
+          "poste restante"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44",
+          "spec2"
+        ],
+        "pronounced": "きょくどめ",
+        "written": "局留め"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "head of a branch",
+          "branch office manager",
+          "bureau chief"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきょくちょう",
+        "written": "支局長"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hygiene bureau",
+          "health bureau",
+          "board of health"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいせいきょく",
+        "written": "衛生局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "key station",
+          "flagship station",
+          "leading station of a broadcasting network"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "キーきょく",
+        "written": "キー局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "law enforcement authority",
+          "police authorities",
+          "the police"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいさつとうきょく",
+        "written": "警察当局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "limit",
+          "localize",
+          "localise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくげん",
+        "written": "局限"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "locality",
+          "local area",
+          "limited area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "きょくち",
+        "written": "局地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "relevant authorities",
+          "competent authorities",
+          "authorities concerned"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんけいとうきょく",
+        "written": "関係当局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "research bureau",
+          "research service",
+          "research council"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうさきょく",
+        "written": "調査局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "situation",
+          "state of things",
+          "current affairs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26",
+          "spec2"
+        ],
+        "pronounced": "じきょく",
+        "written": "時局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "supervisory bureau",
+          "supervisory authority",
+          "board of control"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんとくきょく",
+        "written": "監督局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "telephone switching station",
+          "telephone exchange",
+          "central office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんわこうかんきょく",
+        "written": "電話交換局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "department",
+          "bureau",
+          "section",
+          "part"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "ぶきょく",
+        "written": "部局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local",
+          "localized",
+          "partial",
+          "topical (application)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくしょてき",
+        "written": "局所的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local (rain, distribution, outbreak, etc.)",
+          "localized",
+          "regional",
+          "isolated"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくちてき",
+        "written": "局地的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local anesthesia",
+          "local anaesthesia",
+          "local anaesthetic",
+          "local anesthetic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくぶますい",
+        "written": "局部麻酔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "new phase",
+          "new aspect",
+          "new stage",
+          "new situation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんきょくめん",
+        "written": "新局面"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "secretary-general",
+          "director-general",
+          "executive director",
+          "executive secretary"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じむきょくちょう",
+        "written": "事務局長"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mail clerk",
+          "post-office clerk",
+          "post-office worker",
+          "postal employee",
+          "postal worker"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうびんきょくいん",
+        "written": "郵便局員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Cabinet Intelligence Bureau (1940-1945)"
+        ]
+      },
+      {
+        "glosses": [
+          "intelligence agency",
+          "intelligence bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうほうきょく",
+        "written": "情報局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "arrangement (of shogi pieces on the board)"
+        ]
+      },
+      {
+        "glosses": [
+          "composition",
+          "make-up"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふきょく",
+        "written": "布局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "court lady with her own private chamber or office"
+        ]
+      },
+      {
+        "glosses": [
+          "low-class prostitute (Edo period)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おつぼね",
+        "written": "御局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "end of a game of go, shogi, etc."
+        ]
+      },
+      {
+        "glosses": [
+          "end",
+          "close",
+          "conclusion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "しゅうきょく",
+        "written": "終局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "go or shogi board"
+        ]
+      },
+      {
+        "glosses": [
+          "position of a game of go or shogi"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ききょく",
+        "written": "棊局"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ききょく",
+        "written": "棋局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "limited war"
+        ]
+      },
+      {
+        "glosses": [
+          "local war"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくちせんそう",
+        "written": "局地戦争"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "master station"
+        ]
+      },
+      {
+        "glosses": [
+          "key station (broadcasting)",
+          "flagship station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おやきょく",
+        "written": "親局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "overall situation of a game"
+        ]
+      },
+      {
+        "glosses": [
+          "general situation",
+          "whole situation",
+          "larger picture",
+          "main point"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "たいきょく",
+        "written": "大局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "same bureau (office, department, broadcasting station, channel, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "the said bureau (office, department, broadcasting station, channel, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "どうきょく",
+        "written": "同局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "subprefectural office (in Hokkaido)"
+        ]
+      },
+      {
+        "glosses": [
+          "promotion bureau",
+          "development office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんこうきょく",
+        "written": "振興局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "this office"
+        ]
+      },
+      {
+        "glosses": [
+          "authorities",
+          "relevant authorities",
+          "authorities concerned"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "とうきょく",
+        "written": "当局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to coil itself (e.g. a snake)"
+        ]
+      },
+      {
+        "glosses": [
+          "to loaf around"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とぐろをまく",
+        "written": "とぐろを巻く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とぐろをまく",
+        "written": "塒を巻く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とぐろをまく",
+        "written": "蜷局を巻く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "catastrophe",
+          "cataclysm"
+        ]
+      },
+      {
+        "glosses": [
+          "collapse (of a relationship)",
+          "breakup",
+          "split (friends, lovers, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "はきょく",
+        "written": "破局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hospital pharmacy",
+          "dispensary"
+        ]
+      },
+      {
+        "glosses": [
+          "pharmacy",
+          "drugstore",
+          "chemist's (shop)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "やっきょく",
+        "written": "薬局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "position in a game",
+          "state of the game"
+        ]
+      },
+      {
+        "glosses": [
+          "situation",
+          "stage",
+          "phase",
+          "aspect"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "きょくめん",
+        "written": "局面"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "another broadcaster",
+          "another station",
+          "another channel"
+        ]
+      },
+      {
+        "glosses": [
+          "another office",
+          "another bureau",
+          "another department"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たきょく",
+        "written": "他局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "affected part (of the body)"
+        ]
+      },
+      {
+        "glosses": [
+          "part",
+          "section"
+        ]
+      },
+      {
+        "glosses": [
+          "private parts",
+          "genitals"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "きょくぶ",
+        "written": "局部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "end of a game of go, shogi, etc."
+        ]
+      },
+      {
+        "glosses": [
+          "conclusion",
+          "end"
+        ]
+      },
+      {
+        "glosses": [
+          "after all",
+          "in the end",
+          "ultimately",
+          "eventually"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "けっきょく",
+        "written": "結局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "main office"
+        ]
+      },
+      {
+        "glosses": [
+          "this game (of go, shogi, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "this office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "ほんきょく",
+        "written": "本局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one board (go, shogi, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "one game (of go, shogi, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "one office (of a broadcasting station, post office, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "いっきょく",
+        "written": "一局"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "いっきょく",
+        "written": "１局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "game (of go, shogi, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "affair",
+          "situation"
+        ]
+      },
+      {
+        "glosses": [
+          "bureau",
+          "department"
+        ]
+      },
+      {
+        "glosses": [
+          "office (e.g. post, telephone)",
+          "broadcasting station (e.g. television, radio)",
+          "channel",
+          "exchange"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "きょく",
+        "written": "局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "room for a very low class prostitute"
+        ]
+      },
+      {
+        "glosses": [
+          "separate room in a palace (esp. for a lady; Heian period)"
+        ]
+      },
+      {
+        "glosses": [
+          "very low class prostitute"
+        ]
+      },
+      {
+        "glosses": [
+          "court lady (Heian period)",
+          "lady-in-waiting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つぼね",
+        "written": "局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local (e.g. anesthesia)",
+          "topical"
+        ]
+      },
+      {
+        "glosses": [
+          "part",
+          "section"
+        ]
+      },
+      {
+        "glosses": [
+          "part of the body",
+          "affected part (of the body)"
+        ]
+      },
+      {
+        "glosses": [
+          "private parts",
+          "genitals"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "きょくしょ",
+        "written": "局所"
+      }
+    ]
+  }
+]

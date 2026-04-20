@@ -1,0 +1,2555 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(a) one-act play"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひとまくもの",
+        "written": "一幕物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(projection) screen"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいしゃまく",
+        "written": "映写幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "10 year career in the highest division is enough for anyone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくうちじゅうねん",
+        "written": "幕内十年"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "30 highest ranked makushita wrestlers"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくしたじょうい",
+        "written": "幕下上位"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Air Staff Office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうばくりょうかんぶ",
+        "written": "航空幕僚監部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ashikaga shogunate (i.e. the Muromachi shogunate, 1336-1573)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あしかがばくふ",
+        "written": "足利幕府"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Edo shogunate (1603-1867)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えどばくふ",
+        "written": "江戸幕府"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ground Staff Office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りくじょうばくりょうかんぶ",
+        "written": "陸上幕僚監部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese subtitles"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんごじまく",
+        "written": "日本語字幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Joint Staff College"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうごうばくりょうがっこう",
+        "written": "統合幕僚学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Joint Staff Council"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうばくかいぎ",
+        "written": "統幕会議"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Joint Staff Council"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "とうごうばくりょうかいぎ",
+        "written": "統合幕僚会議"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Joint Staff Office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうごうばくりょうかんぶ",
+        "written": "統合幕僚監部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kamakura shogunate (1185-1333)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かまくらばくふ",
+        "written": "鎌倉幕府"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Maritime Staff Office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいじょうばくりょうかんぶ",
+        "written": "海上幕僚監部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Muromachi shogunate (1336-1573)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むろまちばくふ",
+        "written": "室町幕府"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Tokugawa shogunate (i.e. the Edo shogunate, 1603-1867)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくがわばくふ",
+        "written": "徳川幕府"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adherence to the shogunate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さばく",
+        "written": "佐幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "advancing to the first grade"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "にゅうまく",
+        "written": "入幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "agreement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうちのまく",
+        "written": "承知の幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attacking the shogunate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうばく",
+        "written": "討幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "backdrop"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はいけいまく",
+        "written": "背景幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "black and white striped curtain (used at funeral service)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くじらまく",
+        "written": "鯨幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "blackout curtain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あんまく",
+        "written": "暗幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "box lunch (containing rice and 10-15 small portions of fish, meat, and vegetables)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくのうちべんとう",
+        "written": "幕の内弁当"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bullet hell (genre of shoot 'em ups)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だんまくシューティング",
+        "written": "弾幕シューティング"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "camp enclosure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "じんまく",
+        "written": "陣幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chief of staff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばくりょうちょう",
+        "written": "幕僚長"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "coloured curtains hanging from the eaves of a Buddhist temple"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶつまく",
+        "written": "仏幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "curtain with horizontal stripes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だんまく",
+        "written": "段幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "curtains hung (from trees or poles) during a flower-viewing party"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はなのまく",
+        "written": "花の幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "curtains hung (from trees or poles) during a flower-viewing party"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はなみまく",
+        "written": "花見幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drop curtain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さげまく",
+        "written": "下げ幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "entrance curtain (in noh)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あげまく",
+        "written": "揚げ幕"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あげまく",
+        "written": "揚幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "entrance curtain (noh)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きりまく",
+        "written": "切り幕"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きりまく",
+        "written": "切幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "feudal system of the shogunate and domains"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばくはんたいせい",
+        "written": "幕藩体制"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "first act (play, ballet, opera, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいいちまくめ",
+        "written": "第一幕目"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general staff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっぱんばくりょう",
+        "written": "一般幕僚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general staff headquarters"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうばく",
+        "written": "統幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "horizontal banner"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "おうだんまく",
+        "written": "横断幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "imperial-shogunal (e.g. relations, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうばく",
+        "written": "朝幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inside information"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うちまくばなし",
+        "written": "内幕話"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kabuki curtain, usu. of three coloured panels"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうしきまく",
+        "written": "定式幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lowest ranked wrestler in makuuchi division"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくじり",
+        "written": "幕尻"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "middle act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "なかまく",
+        "written": "中幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "movement to overthrow the shogunate (mid-19th century)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうばくうんどう",
+        "written": "倒幕運動"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "opening-game pitcher"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいまくとうしゅ",
+        "written": "開幕投手"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outer curtain (in a military encampment)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とまく",
+        "written": "外幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "overthrow of the shogunate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうばく",
+        "written": "倒幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "purple curtain on the hanging roof above the ring"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みずひきまく",
+        "written": "水引幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rank-and-file wrestlers in the highest division"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "ひらまく",
+        "written": "平幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "referee officiating at bouts of rank-and-file wrestlers in the highest division"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくうちかく",
+        "written": "幕内格"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "referee officiating the third highest division"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくしたかく",
+        "written": "幕下格"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reverence for the emperor and the overthrow of the shogunate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そんのうとうばく",
+        "written": "尊王討幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sheet lightning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくでん",
+        "written": "幕電"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shogunate army"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばくぐん",
+        "written": "幕軍"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shogunate official"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばくり",
+        "written": "幕吏"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "smokescreen"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "えんまく",
+        "written": "煙幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special seats and standing-only space in the galley for people who only intend to see one act of a kabuki play"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひとまくみせき",
+        "written": "一幕見席"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special staff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくべつばくりょう",
+        "written": "特別幕僚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "subtitled (of a movie, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じまくつき",
+        "written": "字幕付き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "subtitled version (of a movie)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じまくばん",
+        "written": "字幕版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "supporters of the shogun"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さばくは",
+        "written": "佐幕派"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tentmaker"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんまくせいぞうにん",
+        "written": "天幕製造人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tentmaker"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんまくづくり",
+        "written": "天幕造り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the shogunate (administration)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばくせい",
+        "written": "幕政"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "three-act play"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんまくもの",
+        "written": "三幕物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "three-act structure (in screenwriting: setup, confrontation, resolution)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんまくこうせい",
+        "written": "三幕構成"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be promoted to makuuchi (of a juryo-division wrestler)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくにあがる",
+        "written": "幕に上がる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to come to a close (end)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいまくとなる",
+        "written": "閉幕となる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to start (e.g. a scene, a war, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくをきっておとす",
+        "written": "幕を切って落とす"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tournament win in the highest division"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくうちさいこうゆうしょう",
+        "written": "幕内最高優勝"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unveiling (a statue, monument, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょまく",
+        "written": "除幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unveiling ceremony"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "じょまくしき",
+        "written": "除幕式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "very successful amateur wrestler, allowed to start professional career in makushita division"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくしたつけだし",
+        "written": "幕下付け出し"
+      },
+      {
+        "priorities": [],
+        "pronounced": "まくしたつけだし",
+        "written": "幕下付出し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wrestler newly promoted to makuuchi division"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんにゅうまく",
+        "written": "新入幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wrestler re-promoted to makuuchi division"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいにゅうまく",
+        "written": "再入幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "camp",
+          "barracks"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばくしゃ",
+        "written": "幕舎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "camp",
+          "camping"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばくえい",
+        "written": "幕営"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "curtain",
+          "drapery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まんまく",
+        "written": "幔幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "curtain pillar",
+          "curtain stake"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくぐし",
+        "written": "幕串"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "curtain-raiser",
+          "prologue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf39",
+          "spec2"
+        ],
+        "pronounced": "じょまく",
+        "written": "序幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "draw curtain",
+          "stage curtain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひきまく",
+        "written": "引き幕"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひきまく",
+        "written": "引幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "end",
+          "close"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "しゅうまく",
+        "written": "終幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hanjeungmak",
+          "Korean dome-shaped sauna"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんじゅんまく",
+        "written": "汗蒸幕"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ハンジュマク",
+        "written": "汗蒸幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intermission (between acts)",
+          "interlude"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくま",
+        "written": "幕間"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "まくあい",
+        "written": "幕あい"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "まくあい",
+        "written": "幕間"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "it is none of one's business",
+          "it is not one's place to say (do) something"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でるまくではない",
+        "written": "出る幕ではない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "makuuchi",
+          "top division (of professional sumo)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "まくうち",
+        "written": "幕内"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "opening game",
+          "(season) opener"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいまくせん",
+        "written": "開幕戦"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "screening panel (desk, etc.)",
+          "modesty board"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくいた",
+        "written": "幕板"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shogunate retainer",
+          "shogunate vassal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばくしん",
+        "written": "幕臣"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "staff",
+          "staff officer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "ばくりょう",
+        "written": "幕僚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "subtitles",
+          "captioning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じまくスーパー",
+        "written": "字幕スーパー"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "subtitles",
+          "captioning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "じまく",
+        "written": "字幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "surtitle",
+          "supertitle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうぶじまく",
+        "written": "上部字幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the old feudal government",
+          "shogunate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうばく",
+        "written": "旧幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the shogunate period",
+          "the days of the shogunate regime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうばくじだい",
+        "written": "旧幕時代"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "third highest division",
+          "wrestlers of the third highest division"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "まくした",
+        "written": "幕下"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to bring to an end",
+          "to close the curtain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくにする",
+        "written": "幕にする"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to come to an end",
+          "to close the curtain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくになる",
+        "written": "幕になる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to lower the curtain",
+          "to come to an end"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくがおりる",
+        "written": "幕が下りる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Bakumatsu period",
+          "closing days of the Tokugawa shogunate",
+          "end of the Edo period"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "ばくまつ",
+        "written": "幕末"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "blackout curtain",
+          "lampshade",
+          "shade"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃこうまく",
+        "written": "遮光幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "curtain",
+          "field staff headquarters",
+          "secret meeting place"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いばく",
+        "written": "帷幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hanging banner",
+          "hanging screen",
+          "curtain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "たれまく",
+        "written": "垂れ幕"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "たれまく",
+        "written": "垂幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "threatening attitude",
+          "menacing look",
+          "angry look"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんまく",
+        "written": "剣幕"
+      },
+      {
+        "priorities": [],
+        "pronounced": "けんまく",
+        "written": "権幕"
+      },
+      {
+        "priorities": [],
+        "pronounced": "けんまく",
+        "written": "見幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to throw up a smoke screen",
+          "to put up a false front",
+          "to purposely mislead"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えんまくをはる",
+        "written": "煙幕を張る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to begin grandly",
+          "to start with a bang",
+          "to make a spectacular beginning",
+          "to throw open the curtains"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくがきっておとされる",
+        "written": "幕が切って落とされる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "without a break",
+          "without stopping",
+          "incessantly",
+          "ceaselessly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のべつまくなし",
+        "written": "のべつ幕なし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "のべつまくなし",
+        "written": "のべつ幕無し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(projection) screen"
+        ]
+      },
+      {
+        "glosses": [
+          "the silver screen",
+          "the film world",
+          "movies"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "ぎんまく",
+        "written": "銀幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "black curtain"
+        ]
+      },
+      {
+        "glosses": [
+          "wirepuller",
+          "mastermind",
+          "backroom manipulator",
+          "éminence grise",
+          "power broker"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf23"
+        ],
+        "pronounced": "くろまく",
+        "written": "黒幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "curtain with a family crest"
+        ]
+      },
+      {
+        "glosses": [
+          "fully raising the curtain when an actor enters or exits (noh)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんまく",
+        "written": "本幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "decorative curtain hung from the ceiling"
+        ]
+      },
+      {
+        "glosses": [
+          "tent",
+          "pavilion",
+          "marquee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "てんまく",
+        "written": "天幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "falling of the curtain"
+        ]
+      },
+      {
+        "glosses": [
+          "(coming to an) end",
+          "close"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "へいまく",
+        "written": "閉幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inner curtain (in a military encampment)"
+        ]
+      },
+      {
+        "glosses": [
+          "lowdown",
+          "inside information",
+          "hidden circumstances",
+          "inside facts",
+          "inner workings",
+          "undisclosed circumstances"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "ないまく",
+        "written": "内幕"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "うちまく",
+        "written": "内幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one act (play, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "scene",
+          "event"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "ひとまく",
+        "written": "一幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "person who opens and closes the curtains (in a theatre)"
+        ]
+      },
+      {
+        "glosses": [
+          "putting an end to",
+          "bringing to a close"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくひき",
+        "written": "幕引き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "place where a curtain is hung"
+        ]
+      },
+      {
+        "glosses": [
+          "curtain",
+          "hanging",
+          "bunting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうばく",
+        "written": "帳幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "raising the curtain"
+        ]
+      },
+      {
+        "glosses": [
+          "opening (of an event)",
+          "start",
+          "beginning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "かいまく",
+        "written": "開幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to draw closed the curtain (of a theatre, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "to come to an end",
+          "to finish"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくをひく",
+        "written": "幕を引く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to end (e.g. a play, an episode, an event, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "to start (e.g. a scene, a war, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくをきる",
+        "written": "幕を切る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to lower the curtain (at the end of a play)"
+        ]
+      },
+      {
+        "glosses": [
+          "to come to an end",
+          "to finish"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくをとじる",
+        "written": "幕を閉じる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to lower the curtain (at the end of a play)"
+        ]
+      },
+      {
+        "glosses": [
+          "to come to an end",
+          "to finish"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくをおろす",
+        "written": "幕をおろす"
+      },
+      {
+        "priorities": [],
+        "pronounced": "まくをおろす",
+        "written": "幕を下ろす"
+      },
+      {
+        "priorities": [],
+        "pronounced": "まくをおろす",
+        "written": "幕を降ろす"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fall of the curtain",
+          "end of an act"
+        ]
+      },
+      {
+        "glosses": [
+          "end",
+          "ending",
+          "close"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf23"
+        ],
+        "pronounced": "まくぎれ",
+        "written": "幕切れ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rise of the curtain",
+          "opening of a play"
+        ]
+      },
+      {
+        "glosses": [
+          "beginning (e.g. of an era)",
+          "start",
+          "opening (of a tournament, festival, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "まくあけ",
+        "written": "幕明け"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "まくあけ",
+        "written": "幕開け"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rise of the curtain",
+          "opening of a play"
+        ]
+      },
+      {
+        "glosses": [
+          "beginning (e.g. of an era)",
+          "start",
+          "opening (of a tournament, festival, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくあき",
+        "written": "幕明き"
+      },
+      {
+        "priorities": [],
+        "pronounced": "まくあき",
+        "written": "幕開"
+      },
+      {
+        "priorities": [],
+        "pronounced": "まくあき",
+        "written": "幕開き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to start (of an event, campaign, etc.)",
+          "to begin"
+        ]
+      },
+      {
+        "glosses": [
+          "the curtain opens (for the start of a play, act, etc.)",
+          "the curtain rises",
+          "to start (of a play)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくがあく",
+        "written": "幕があく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "まくがあく",
+        "written": "幕が開く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(artillery) barrage"
+        ]
+      },
+      {
+        "glosses": [
+          "barrage of scrolling comments (overlaid on an online video)"
+        ]
+      },
+      {
+        "glosses": [
+          "bullet hell",
+          "curtain fire",
+          "screen-filling barrage of (usu. slow-moving) enemy bullets"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だんまく",
+        "written": "弾幕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "box lunch (containing rice and 10-15 small portions of fish, meat, and vegetables)"
+        ]
+      },
+      {
+        "glosses": [
+          "intermission (between acts)",
+          "interlude"
+        ]
+      },
+      {
+        "glosses": [
+          "makunouchi",
+          "makuuchi",
+          "top division (of professional sumo)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "まくのうち",
+        "written": "幕の内"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shogun's headquarters"
+        ]
+      },
+      {
+        "glosses": [
+          "Imperial Guards office",
+          "residence of the Imperial Guards commander"
+        ]
+      },
+      {
+        "glosses": [
+          "shogunate",
+          "bakufu"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "ばくふ",
+        "written": "幕府"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Makuya (Original Gospel Movement of Japan)"
+        ]
+      },
+      {
+        "glosses": [
+          "small curtain-enclosed area (off a stage)"
+        ]
+      },
+      {
+        "glosses": [
+          "tabernacle"
+        ]
+      },
+      {
+        "glosses": [
+          "tent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まくや",
+        "written": "幕屋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "act (in a play)"
+        ]
+      },
+      {
+        "glosses": [
+          "curtain"
+        ]
+      },
+      {
+        "glosses": [
+          "end",
+          "close"
+        ]
+      },
+      {
+        "glosses": [
+          "falling of the curtain",
+          "end (of a scene)"
+        ]
+      },
+      {
+        "glosses": [
+          "makuuchi",
+          "top division"
+        ]
+      },
+      {
+        "glosses": [
+          "case",
+          "occasion",
+          "role (to play)",
+          "part",
+          "place"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "まく",
+        "written": "幕"
+      }
+    ]
+  }
+]

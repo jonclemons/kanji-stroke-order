@@ -1,0 +1,5326 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(cell) migration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうそう",
+        "written": "遊走"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(idle pursuit of) pleasure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつゆう",
+        "written": "佚遊"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつゆう",
+        "written": "逸遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(licensed) red light district"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "ゆうかく",
+        "written": "遊廓"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "ゆうかく",
+        "written": "遊郭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Azuma-asobi (ancient Japanese dance suite that originated in eastern Japan)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あずまあそび",
+        "written": "東遊"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あずまあそび",
+        "written": "東遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "I beg your pardon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごめんあそばせ",
+        "written": "ご免あそばせ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ごめんあそばせ",
+        "written": "ご免遊ばせ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ごめんあそばせ",
+        "written": "御免あそばせ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Innocents Abroad (novel by Mark Twain)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あかげっとがいゆうき",
+        "written": "赤毛布外遊記"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Association of Play Therapy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんゆうぎりょうほうがっかい",
+        "written": "日本遊戯療法学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Yu-Gi-Oh! (manga series and media franchise)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぎおう",
+        "written": "遊戯王"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a tour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんゆう",
+        "written": "巡遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "absent overseas"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいゆうちゅう",
+        "written": "外遊中"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aeroplankton"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くうちゅうふゆうせいぶつ",
+        "written": "空中浮遊生物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "amusement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうらく",
+        "written": "遊楽"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "amusement facility"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうきょうしせつ",
+        "written": "遊興施設"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "amusement park"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "ゆうえんち",
+        "written": "遊園地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "artistic accomplishments"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうげい",
+        "written": "遊芸"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "being entertained by a geisha"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げいしゃあそび",
+        "written": "芸者遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "being entertained by a maiko (geisha apprentice)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まいこあそび",
+        "written": "舞妓遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "breechblock (of a gun)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうてい",
+        "written": "遊底"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "brothel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうじょや",
+        "written": "遊女屋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chasing after men"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おとこあそび",
+        "written": "男遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "child's play"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こどもあそび",
+        "written": "こども遊び"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こどもあそび",
+        "written": "子ども遊び"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こどもあそび",
+        "written": "子供遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chivalrous person"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうきょう",
+        "written": "游侠"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆうきょう",
+        "written": "遊侠"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commando unit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうげきたい",
+        "written": "遊撃隊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "debauched person"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうとうじ",
+        "written": "遊蕩児"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "desire for money for one's enjoyment (as an alleged motive for theft, fraud, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそぶかねほしさ",
+        "written": "遊ぶ金欲しさ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "downstream migration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかかいゆう",
+        "written": "降河回遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "enjoying oneself on a river (e.g. boating, swimming, fishing)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かわあそび",
+        "written": "川遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "entertainment expenses"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうきょうひ",
+        "written": "遊興費"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "entertainment tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうきょうぜい",
+        "written": "遊興税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excursion boat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいゆうせん",
+        "written": "回遊船"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excursion ticket"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうゆうきっぷ",
+        "written": "周遊切符"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excursion ticket"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうゆうけん",
+        "written": "周遊券"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fish swimming about in water"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぎょ",
+        "written": "游魚"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆうぎょ",
+        "written": "遊魚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flotation (mineral processing method)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふゆうせんこう",
+        "written": "浮遊選鉱"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flotation method (mineral processing)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふゆうせんこうほう",
+        "written": "浮遊選鉱法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flyleaf"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびがみ",
+        "written": "遊び紙"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "foreign travel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "がいゆう",
+        "written": "外遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "former visit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうゆう",
+        "written": "曽遊"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そうゆう",
+        "written": "曾遊"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぞうゆう",
+        "written": "曽遊"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぞうゆう",
+        "written": "曾遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "free acid"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうりさん",
+        "written": "遊離酸"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "free radical"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうりき",
+        "written": "遊離基"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "garden party"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "えんゆうかい",
+        "written": "園遊会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gathering shellfish, crabs, etc. on the seashore"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いそあそび",
+        "written": "磯あそび"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いそあそび",
+        "written": "磯遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "genetic drift"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いでんてきふゆう",
+        "written": "遺伝的浮遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "going on a pleasure jaunt"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ものみゆさん",
+        "written": "物見遊山"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "half in fun"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびはんぶん",
+        "written": "遊び半分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hunting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうりょう",
+        "written": "遊猟"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "idle land"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうきゅうち",
+        "written": "遊休地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "idle pulley"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびぐるま",
+        "written": "遊び車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "idle time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうきゅうじかん",
+        "written": "遊休時間"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "illicit sexual relationship"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふじゅんいせいこうゆう",
+        "written": "不純異性交遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in-store video game installation (for customer trials)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゆうだい",
+        "written": "試遊台"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indolence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうだ",
+        "written": "遊惰"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inner planet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないゆうせい",
+        "written": "内遊星"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "irregular forces"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうげきたいいん",
+        "written": "遊撃隊員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "language used in red-light districts during the Edo period"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうりご",
+        "written": "遊里語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "living in idleness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうしょく",
+        "written": "遊食"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "making things out of dirt (for fun)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つちあそび",
+        "written": "土遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "merrymaking without paying"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むせんゆうきょう",
+        "written": "無銭遊興"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "music playing in imperial court"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょゆう",
+        "written": "御遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nationwide election campaign"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんこくゆうぜい",
+        "written": "全国遊説"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nekton"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうえいせいぶつ",
+        "written": "遊泳生物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nekton"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうえいどうぶつ",
+        "written": "遊泳動物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nomad"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぼくみん",
+        "written": "遊牧民"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nomadism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "ゆうぼく",
+        "written": "遊牧"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outing to the fields and mountains"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のゆさん",
+        "written": "野遊山"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pilgrim"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぎょうしゃ",
+        "written": "遊行者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "planet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうせい",
+        "written": "遊星"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "plankton"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふゆうせいぶつ",
+        "written": "浮遊生物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "play therapy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぎりょうほう",
+        "written": "遊戯療法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playful"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぎてき",
+        "written": "遊戯的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playground"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "あそびば",
+        "written": "遊び場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing and dancing event at a preschool, kindergarten, etc."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おゆうぎかい",
+        "written": "お遊戯会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing in the sand"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すなあそび",
+        "written": "砂遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing in the sea"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うみあそび",
+        "written": "海遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing in the snow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆきあそび",
+        "written": "雪遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing karuta"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "カルタあそび",
+        "written": "かるた遊び"
+      },
+      {
+        "priorities": [],
+        "pronounced": "カルタあそび",
+        "written": "カルタ遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing outside"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そとあそび",
+        "written": "外遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing with balls (e.g. football, playing catch, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ボールあそび",
+        "written": "ボール遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing with dolls displayed on the Girl's Festival"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひなあそび",
+        "written": "雛遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playmate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびなかま",
+        "written": "遊び仲間"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "polite language used by women"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそばせことば",
+        "written": "あそばせ言葉"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそばせことば",
+        "written": "遊ばせ言葉"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "promenade deck"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうほかんぱん",
+        "written": "遊歩甲板"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆうほこうはん",
+        "written": "遊歩甲板"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prostitute"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうくん",
+        "written": "遊君"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prostitute"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびめ",
+        "written": "あそび女"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびめ",
+        "written": "遊び女"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reaction of free radicals"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうりきはんのう",
+        "written": "遊離基反応"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reciting or composing poetry while walking about"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぎん",
+        "written": "遊吟"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "red light district"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうり",
+        "written": "遊里"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "resort"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうらんち",
+        "written": "遊覧地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "revisit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいゆう",
+        "written": "再遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ritual performance (usually around New Year) to pray for a successful rice harvest in the coming year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たあそび",
+        "written": "田遊"
+      },
+      {
+        "priorities": [],
+        "pronounced": "たあそび",
+        "written": "田遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rooftop amusement park"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おくじょうゆうえんち",
+        "written": "屋上遊園地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "roving reporter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぐんきしゃ",
+        "written": "遊軍記者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal migration (of fish, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつかいゆう",
+        "written": "季節回遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seesaw (game)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "シーソーあそび",
+        "written": "シーソー遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "self-indulgent pleasure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうとう",
+        "written": "遊蕩"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sex game"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいゆうぎ",
+        "written": "性遊戯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sex play"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ももいろゆうぎ",
+        "written": "桃色遊戯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shimmering of hot air"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いとゆう",
+        "written": "糸遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shortstop error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうしつ",
+        "written": "遊失"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sightseeing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "ゆうらん",
+        "written": "遊覧"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sightseeing flight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうらんひこう",
+        "written": "遊覧飛行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "slot machine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいどうしきゆうぎき",
+        "written": "回胴式遊技機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "song and dance performed as an offering to the gods"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かみあそび",
+        "written": "神遊"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かみあそび",
+        "written": "神遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "space walk"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うちゅうゆうえい",
+        "written": "宇宙遊泳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "spawning migration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんらんかいゆう",
+        "written": "産卵回遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "study hard and play hard"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よくまなびよくあそべ",
+        "written": "よく学びよく遊べ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stumping (electioneering) tour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぜいりょこう",
+        "written": "遊説旅行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "style of garden that features a path around a pond"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちせんかいゆうしき",
+        "written": "池泉回遊式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "suspended solids"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふゆうぶっしつ",
+        "written": "浮遊物質"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "swimmer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうえいしゃ",
+        "written": "遊泳者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to frolic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびたわむれる",
+        "written": "遊びたわむれる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびたわむれる",
+        "written": "遊び戯れる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to idle away one's time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびくらす",
+        "written": "遊び暮す"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびくらす",
+        "written": "遊び暮らす"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to play in a group"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むれあそぶ",
+        "written": "群れ遊ぶ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to play outside (out of doors)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おもてであそぶ",
+        "written": "表で遊ぶ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to spend all of one's time in idle amusement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびほうける",
+        "written": "遊びほうける"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびほうける",
+        "written": "遊び呆ける"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびほうける",
+        "written": "遊び惚ける"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうれき",
+        "written": "遊歴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "touring"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れきゆう",
+        "written": "歴遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "toy gun"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぎじゅう",
+        "written": "遊戯銃"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trifling with love"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れんあいゆうぎ",
+        "written": "恋愛遊戯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unused facilities or equipment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうきゅうしせつ",
+        "written": "遊休施設"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vernier"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうしゃく",
+        "written": "遊尺"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vernier"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうひょう",
+        "written": "遊標"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "らいゆう",
+        "written": "来遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wandering cell"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうそうさいぼう",
+        "written": "遊走細胞"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wandering ghost"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふゆうれい",
+        "written": "浮遊霊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wandering prostitute"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうこうじょふ",
+        "written": "遊行女婦"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "word game"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんごゆうぎ",
+        "written": "言語遊戯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "zoospore"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうそうし",
+        "written": "遊走子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(private) geisha entertainment",
+          "being entertained by one or more geisha (in a tea house or traditional Japanese restaurant)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざしきあそび",
+        "written": "座敷遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(private) geisha entertainment",
+          "being entertained by one or more geisha (in a tea house or traditional Japanese restaurant)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おざしきあそび",
+        "written": "お座敷遊び"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おざしきあそび",
+        "written": "御座敷遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Pachinko Pachislot Security Information Organization",
+          "PSIO"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぎさんぎょうふせいたいさくじょうほうきこう",
+        "written": "遊技産業不正対策情報機構"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "action rhymes",
+          "song sung (by children) as part of a game"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびうた",
+        "written": "遊び歌"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "being absorbed in self-indulgent pleasures",
+          "giving oneself up to debauchery and dissipation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうとうざんまい",
+        "written": "遊蕩三昧"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "between short and second",
+          "middle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にゆうかん",
+        "written": "二遊間"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "boating",
+          "sailing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふなあそび",
+        "written": "舟遊び"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふなあそび",
+        "written": "船遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "campaign stop",
+          "stop on a speaking tour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぜいさき",
+        "written": "遊説先"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chasing after women",
+          "womanizing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おんなあそび",
+        "written": "女遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "children's playground",
+          "amusement park for children"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうゆうえんち",
+        "written": "児童遊園地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cruising",
+          "patrolling"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうよく",
+        "written": "遊弋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "demo version (of a video game)",
+          "trial version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゆうばん",
+        "written": "試遊版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "diversion",
+          "pastime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てすさび",
+        "written": "手遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drinking party hall",
+          "banquet seat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えんゆう",
+        "written": "宴遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excursion (for pleasure)",
+          "trip"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいゆう",
+        "written": "清遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excursion boat",
+          "pleasure boat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆさんぶね",
+        "written": "遊山船"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "filled pause (e.g. um, er)",
+          "filler word"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびことば",
+        "written": "遊び言葉"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flotation",
+          "flotation method"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふゆうほう",
+        "written": "浮遊法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "free fatty acid",
+          "unesterified fatty acid"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうりしぼうさん",
+        "written": "遊離脂肪酸"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "games",
+          "pastimes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "ゆうぎ",
+        "written": "遊技"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guerrilla warfare",
+          "unconventional warfare"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうげきせん",
+        "written": "遊撃戦"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "harlots' kabuki",
+          "prostitutes' kabuki"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうじょかぶき",
+        "written": "遊女歌舞伎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "idle funds",
+          "idle capital"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうし",
+        "written": "遊資"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "idle funds",
+          "idle money"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびがね",
+        "written": "遊び金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "idle money",
+          "idle capital"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうきん",
+        "written": "遊金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "idler",
+          "the unemployed"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうみん",
+        "written": "遊民"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indoor game",
+          "indoor pastime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しつないゆうぎ",
+        "written": "室内遊戯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "libertine",
+          "man of pleasure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうやろう",
+        "written": "遊冶郎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "loop (on a watch strap)",
+          "keeper"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうかん",
+        "written": "遊環"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "macrophage migration inhibitory factor",
+          "MMIF"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "マクロファージゆうそうそしいんし",
+        "written": "マクロファージ遊走阻止因子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "merrymaking (esp. wine and women)",
+          "pleasures"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "ゆうきょう",
+        "written": "遊興"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "migratory fish",
+          "straddling fish stocks"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいゆうぎょ",
+        "written": "回游魚"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かいゆうぎょ",
+        "written": "回遊魚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ne-no-hi-no-asobi",
+          "collecting herbs and pulling out young pine trees by the roots (annual event held on the first day of the Rat of the New Year)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねのひのあそび",
+        "written": "子の日の遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nightlife",
+          "night amusements"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "よあそび",
+        "written": "夜遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outing (e.g. flower watching, hunting, picking wildflowers)",
+          "excursion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やゆう",
+        "written": "野遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pilgrimage",
+          "travelling around (by a monk)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆぎょう",
+        "written": "遊行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "planetary gear",
+          "epicyclic gear"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうせいはぐるまそうち",
+        "written": "遊星歯車装置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "planetary gear",
+          "planetary wheel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうせいはぐるま",
+        "written": "遊星歯車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "play equipment",
+          "playground equipment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぐ",
+        "written": "遊具"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playful age",
+          "heyday of youth"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびざかり",
+        "written": "遊び盛り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playground",
+          "children's park"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうゆうえん",
+        "written": "児童遊園"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playground (for children)",
+          "park"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうえん",
+        "written": "遊園"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing in the mud",
+          "playing with mud"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どろあそび",
+        "written": "泥遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing in the mud",
+          "playing with mud"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どろんこあそび",
+        "written": "泥んこ遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing in the water (sea, lake, river, etc.)",
+          "playing with water"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "みずあそび",
+        "written": "水遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playmate",
+          "playfellow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47",
+          "spec2"
+        ],
+        "pronounced": "あそびあいて",
+        "written": "遊び相手"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "plaything",
+          "toy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびどうぐ",
+        "written": "遊び道具"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playtime",
+          "recess"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびじかん",
+        "written": "遊び時間"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pleasure trip",
+          "tour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まんゆう",
+        "written": "漫遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pleopod",
+          "swimmeret"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうえいし",
+        "written": "遊泳肢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "promenade",
+          "esplanade"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうほどう",
+        "written": "遊歩道"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prostitute",
+          "harlot"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "ゆうじょ",
+        "written": "遊女"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reserve corps",
+          "flying squadron"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぐん",
+        "written": "遊軍"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shortstop",
+          "short"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "ゆうげきしゅ",
+        "written": "遊撃手"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sightseer",
+          "tourist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まんゆうきゃく",
+        "written": "漫遊客"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sightseer",
+          "tourist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうらんきゃく",
+        "written": "遊覧客"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sleepwalker",
+          "somnambulist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むゆうびょうしゃ",
+        "written": "夢遊病者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sleepwalking",
+          "somnambulism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいみんじゆうこうしょう",
+        "written": "睡眠時遊行症"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sport fishing boat",
+          "sport fisher"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぎょせん",
+        "written": "遊漁船"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "straggling hair",
+          "loose hairs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびげ",
+        "written": "遊び毛"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stroll garden with a central pond",
+          "large garden best enjoyed by walking around it"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいゆうしきていえん",
+        "written": "回遊式庭園"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "suspended particles",
+          "floating matter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふゆうぶつ",
+        "written": "浮遊物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "swinging log",
+          "horizontal bar"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうどうえんぼく",
+        "written": "遊動円木"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "test-playing (of a video game before release or purchase)",
+          "playing a demo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゆう",
+        "written": "試遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the hole (between third and short)",
+          "area between the third baseman and shortstop"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんゆうかん",
+        "written": "三遊間"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to copulate (animals)",
+          "to mate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つるむ",
+        "written": "交尾む"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つるむ",
+        "written": "孳尾む"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つるむ",
+        "written": "遊牝む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to play around",
+          "to gallivant about"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびまわる",
+        "written": "遊びまわる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびまわる",
+        "written": "遊び回る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびまわる",
+        "written": "遊び廻る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to tire of playing",
+          "to become tired after playing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびつかれる",
+        "written": "遊び疲れる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tour around the country",
+          "travelling to various provinces"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょこくまんゆう",
+        "written": "諸国漫遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "troubadour",
+          "minstrel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "ぎんゆうしじん",
+        "written": "吟遊詩人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vernier",
+          "device with a vernier scale"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうひょうしゃく",
+        "written": "遊標尺"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visitor",
+          "tourist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "らいゆうしゃ",
+        "written": "来遊者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "walk",
+          "promenade"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "ゆうほ",
+        "written": "遊歩"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "westward trip",
+          "trip to the West"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいゆう",
+        "written": "西遊"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "さいゆう",
+        "written": "西遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(circular) tour",
+          "round trip",
+          "excursion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf39",
+          "spec2"
+        ],
+        "pronounced": "しゅうゆう",
+        "written": "周遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "amusement center (centre)",
+          "game arcade",
+          "gambling hall"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぎじょう",
+        "written": "遊戯場"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆうぎじょう",
+        "written": "遊技場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anti-flood pond",
+          "retarding basin",
+          "manmade pond used to prevent flooding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうすいち",
+        "written": "遊水地"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆうすいち",
+        "written": "遊水池"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "divertimento",
+          "divertissement",
+          "cassation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゆうきょく",
+        "written": "嬉遊曲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "election tour",
+          "election campaign",
+          "stumping"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "ゆうぜい",
+        "written": "遊説"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excursion",
+          "outing",
+          "picnic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "ゆさん",
+        "written": "遊山"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "extravagant spree",
+          "wild merrymaking",
+          "living it up"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごうゆう",
+        "written": "豪遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "game of make-believe",
+          "child's play",
+          "pretend play"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごっこあそび",
+        "written": "ごっこ遊び"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ごっこあそび",
+        "written": "ごっご遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how to get along in the world",
+          "how to get on in life",
+          "how to swim"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうえいじゅつ",
+        "written": "遊泳術"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "idle",
+          "unused",
+          "fallow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25",
+          "spec2"
+        ],
+        "pronounced": "ゆうきゅう",
+        "written": "遊休"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "iridescence",
+          "play of color",
+          "opalescence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうしょくこうか",
+        "written": "遊色効果"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "living a life of leisure with dignity",
+          "living quietly and comfortably free from worldly cares",
+          "otium cum dignitate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "ゆうゆうじてき",
+        "written": "優游自適"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "ゆうゆうじてき",
+        "written": "優遊自適"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "ゆうゆうじてき",
+        "written": "悠々自適"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "ゆうゆうじてき",
+        "written": "悠悠自適"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nomadic tribe",
+          "nomadic people",
+          "nomadic race"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぼくみんぞく",
+        "written": "遊牧民族"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outing",
+          "picnic",
+          "excursion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のあそび",
+        "written": "野遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playmate",
+          "companion",
+          "friend to play with"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびともだち",
+        "written": "遊び友達"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prank",
+          "evil pleasures",
+          "gambling"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わるあそび",
+        "written": "悪遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shooting grounds",
+          "hunting grounds",
+          "hunting field"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうりょうち",
+        "written": "遊猟地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sleepwalking",
+          "somnambulism",
+          "noctambulism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むちゅうゆうこうしょう",
+        "written": "夢中遊行症"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sleepwalking",
+          "somnambulism",
+          "noctambulism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むゆうびょう",
+        "written": "夢遊病"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "someone without a fixed occupation",
+          "man of leisure",
+          "playboy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうじん",
+        "written": "遊人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "spending extravagantly (esp. in the red light districts)",
+          "extravagant spending spree",
+          "spending money in royal style"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいじんあそび",
+        "written": "大尽遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "studying abroad",
+          "travelling to study",
+          "traveling to study"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "ゆうがく",
+        "written": "遊学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to come and stay",
+          "to drop in",
+          "to visit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびにくる",
+        "written": "遊びにくる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびにくる",
+        "written": "遊びに来る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to go on a trip",
+          "to go out to play",
+          "to go and visit (a friend)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびにいく",
+        "written": "遊びにいく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびにいく",
+        "written": "遊びに行く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to hum (a tune)",
+          "to sing to oneself",
+          "to croon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "くちずさむ",
+        "written": "口ずさむ"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "くちずさむ",
+        "written": "口吟む"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "くちずさむ",
+        "written": "口遊む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to walk about",
+          "to go out (here and there)",
+          "to gad about"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびあるく",
+        "written": "遊び歩く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unused agricultural land",
+          "abandoned crop fields",
+          "farmland lying fallow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうきゅうのうち",
+        "written": "遊休農地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wanderer",
+          "traveller",
+          "traveler"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうし",
+        "written": "游子"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆうし",
+        "written": "遊子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "word game",
+          "wordplay",
+          "playing with words"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ことばあそび",
+        "written": "ことば遊び"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ことばあそび",
+        "written": "言葉あそび"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ことばあそび",
+        "written": "言葉遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "amusement",
+          "diversion (to pass time)",
+          "pastime",
+          "recreation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すさび",
+        "written": "荒び"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すさび",
+        "written": "進び"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すさび",
+        "written": "遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "amusement",
+          "pleasure",
+          "recreation",
+          "leisure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごゆう",
+        "written": "娯遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "friendship",
+          "companionship",
+          "fraternity",
+          "comradeship"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "こうゆう",
+        "written": "交游"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "こうゆう",
+        "written": "交遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "game",
+          "pastime",
+          "recreation",
+          "diversion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびごと",
+        "written": "遊び事"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paint sniffing",
+          "thinner sniffing",
+          "glue sniffing",
+          "glue huffing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "シンナーあそび",
+        "written": "シンナー遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "play facility",
+          "fairground attraction",
+          "playground facility",
+          "amusement facility"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぎしせつ",
+        "written": "遊戯施設"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing by oneself",
+          "playing alone",
+          "entertaining oneself",
+          "game played by oneself (e.g. solitaire)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひとりあそび",
+        "written": "ひとり遊び"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひとりあそび",
+        "written": "一人遊び"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひとりあそび",
+        "written": "独り遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pleasure boat",
+          "sightseeing boat",
+          "tour boat",
+          "excursion boat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうらんせん",
+        "written": "遊覧船"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sightseer",
+          "playboy",
+          "loafer",
+          "slacker",
+          "frequenter of red-light districts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうかく",
+        "written": "遊客"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "elegant and refined man"
+        ]
+      },
+      {
+        "glosses": [
+          "wanderer",
+          "drifter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうし",
+        "written": "游士"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆうし",
+        "written": "遊士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "former visit"
+        ]
+      },
+      {
+        "glosses": [
+          "friend one used to play with",
+          "old friend"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうゆう",
+        "written": "旧遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "getting on in the world"
+        ]
+      },
+      {
+        "glosses": [
+          "swimming",
+          "bathing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26"
+        ],
+        "pronounced": "ゆうえい",
+        "written": "游泳"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf26"
+        ],
+        "pronounced": "ゆうえい",
+        "written": "遊泳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gossamer"
+        ]
+      },
+      {
+        "glosses": [
+          "heat haze",
+          "shimmer of hot air"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそぶいと",
+        "written": "遊糸"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆうし",
+        "written": "遊糸"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "having fun in groups"
+        ]
+      },
+      {
+        "glosses": [
+          "swimming in groups",
+          "shoaling",
+          "forming a shoal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぐんゆう",
+        "written": "群游"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぐんゆう",
+        "written": "群遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "imaginativeness"
+        ]
+      },
+      {
+        "glosses": [
+          "playfulness",
+          "playful mood"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびごころ",
+        "written": "あそび心"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびごころ",
+        "written": "遊びごころ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびごころ",
+        "written": "遊び心"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびごころ",
+        "written": "遊心"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびゴコロ",
+        "written": "遊びゴコロ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "play and dance (at a kindergarten or elementary school)"
+        ]
+      },
+      {
+        "glosses": [
+          "play",
+          "playing",
+          "game"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26",
+          "spec2"
+        ],
+        "pronounced": "ゆうぎ",
+        "written": "遊戯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "schooling behavior (in fish)"
+        ]
+      },
+      {
+        "glosses": [
+          "navigability",
+          "accessibility",
+          "ease of getting around"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいゆうせい",
+        "written": "回遊性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal migration (of fish, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "excursion",
+          "round trip"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "かいゆう",
+        "written": "回游"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "かいゆう",
+        "written": "回遊"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "かいゆう",
+        "written": "洄游"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to play (a flute, etc.) for fun"
+        ]
+      },
+      {
+        "glosses": [
+          "to blow fiercely",
+          "to rage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふきすさぶ",
+        "written": "吹きすさぶ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふきすさぶ",
+        "written": "吹き荒ぶ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふきすさぶ",
+        "written": "吹き遊ぶ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wandering (about)"
+        ]
+      },
+      {
+        "glosses": [
+          "floating",
+          "drifting",
+          "suspension"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "ふゆう",
+        "written": "浮游"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "ふゆう",
+        "written": "浮遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "airborne (e.g. bacteria)",
+          "aero-"
+        ]
+      },
+      {
+        "glosses": [
+          "levitation",
+          "floating on air"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くうちゅうふゆう",
+        "written": "空中浮遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excursion spot",
+          "getaway"
+        ]
+      },
+      {
+        "glosses": [
+          "red-light district",
+          "brothel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆさんじょ",
+        "written": "遊山所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pleasure seeker",
+          "playful person"
+        ]
+      },
+      {
+        "glosses": [
+          "playful",
+          "sportive",
+          "pleasure-seeking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびずき",
+        "written": "遊び好き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "separation",
+          "isolation"
+        ]
+      },
+      {
+        "glosses": [
+          "extrication",
+          "release",
+          "isolation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "ゆうり",
+        "written": "遊離"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shortstop",
+          "short"
+        ]
+      },
+      {
+        "glosses": [
+          "raid",
+          "military attack by a mobile unit",
+          "hit-and-run attack",
+          "search-and-kill mission",
+          "search-and-destroy mission",
+          "military action without a predetermined target",
+          "attacking the enemy or assisting allies as the opportunity arises"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "ゆうげき",
+        "written": "游撃"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "ゆうげき",
+        "written": "遊撃"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wandering",
+          "walking aimlessly"
+        ]
+      },
+      {
+        "glosses": [
+          "gadding around",
+          "gallivanting",
+          "tour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうこう",
+        "written": "遊行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to leave idle",
+          "to not make use of",
+          "to let go to waste"
+        ]
+      },
+      {
+        "glosses": [
+          "to let (someone) play",
+          "to keep (someone) amused",
+          "to entertain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそばせる",
+        "written": "遊ばせる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(professional) gambler"
+        ]
+      },
+      {
+        "glosses": [
+          "person without a steady job",
+          "idler",
+          "freeloader"
+        ]
+      },
+      {
+        "glosses": [
+          "playboy",
+          "libertine",
+          "profligate",
+          "debauchee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびにん",
+        "written": "遊び人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "activity using hand-gestures (esp. playing games or singing songs)"
+        ]
+      },
+      {
+        "glosses": [
+          "gambling"
+        ]
+      },
+      {
+        "glosses": [
+          "plaything",
+          "playing (with a toy)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てあそび",
+        "written": "手遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing with fire"
+        ]
+      },
+      {
+        "glosses": [
+          "doing something dangerous",
+          "playing with fire"
+        ]
+      },
+      {
+        "glosses": [
+          "playing around (with someone)",
+          "flirting",
+          "having an affair"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "ひあそび",
+        "written": "火あそび"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "ひあそび",
+        "written": "火遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "leisurewear",
+          "leisure clothes"
+        ]
+      },
+      {
+        "glosses": [
+          "sports coat",
+          "sportswear"
+        ]
+      },
+      {
+        "glosses": [
+          "(children's) play clothes",
+          "playsuit",
+          "rompers"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あそびぎ",
+        "written": "遊び着"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あそびぎ",
+        "written": "遊着"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to intensify (of wind, rain, etc.)",
+          "to become more severe"
+        ]
+      },
+      {
+        "glosses": [
+          "to become rough (of art, craft, etc.)",
+          "to lose refinement",
+          "to deteriorate (of skill)"
+        ]
+      },
+      {
+        "glosses": [
+          "to grow wild",
+          "to run to waste",
+          "to become degenerate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すさむ",
+        "written": "荒む"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すさむ",
+        "written": "進む"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すさむ",
+        "written": "遊む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Alakazam the Great (1960 animated film)"
+        ]
+      },
+      {
+        "glosses": [
+          "Journey to the West (classic of Chinese literature)"
+        ]
+      },
+      {
+        "glosses": [
+          "Saiyūki (2006 TV series)"
+        ]
+      },
+      {
+        "glosses": [
+          "Monkey (1978-1980 TV series)",
+          "Monkey Magic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいゆうき",
+        "written": "西遊記"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せいゆうき",
+        "written": "西遊記"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to appreciate"
+        ]
+      },
+      {
+        "glosses": [
+          "to do with something as one pleases"
+        ]
+      },
+      {
+        "glosses": [
+          "to play with (a toy, one's hair, etc.)",
+          "to fiddle with"
+        ]
+      },
+      {
+        "glosses": [
+          "to toy with (one's emotions, etc.)",
+          "to trifle with"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もてあそぶ",
+        "written": "もて遊ぶ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "もてあそぶ",
+        "written": "弄ぶ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "もてあそぶ",
+        "written": "玩ぶ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "もてあそぶ",
+        "written": "翫ぶ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to do"
+        ]
+      },
+      {
+        "glosses": [
+          "to do"
+        ]
+      },
+      {
+        "glosses": [
+          "to leave idle",
+          "to not make use of",
+          "to let go to waste"
+        ]
+      },
+      {
+        "glosses": [
+          "to let (someone) play",
+          "to keep (someone) amused",
+          "to entertain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "あそばす",
+        "written": "遊ばす"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to intensify (of wind, rain, etc.)",
+          "to become more severe"
+        ]
+      },
+      {
+        "glosses": [
+          "to become rough (of art, craft, etc.)",
+          "to lose refinement",
+          "to deteriorate (of skill)"
+        ]
+      },
+      {
+        "glosses": [
+          "to do as one pleases",
+          "to amuse oneself",
+          "to play around"
+        ]
+      },
+      {
+        "glosses": [
+          "to grow wild",
+          "to run to waste",
+          "to become degenerate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すさぶ",
+        "written": "荒ぶ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すさぶ",
+        "written": "進ぶ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すさぶ",
+        "written": "遊ぶ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flyleaf"
+        ]
+      },
+      {
+        "glosses": [
+          "play (in a mechanism, e.g. a steering wheel)"
+        ]
+      },
+      {
+        "glosses": [
+          "flexibility (in a performance, art, etc.)",
+          "freedom"
+        ]
+      },
+      {
+        "glosses": [
+          "play",
+          "playing",
+          "game"
+        ]
+      },
+      {
+        "glosses": [
+          "pleasure",
+          "amusement",
+          "pastime",
+          "recreation",
+          "diversion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "あそび",
+        "written": "遊び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to give oneself up (to gambling, drinking, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "to go to (for pleasure or for study)"
+        ]
+      },
+      {
+        "glosses": [
+          "to intentionally throw a ball to lower the batter's concentration"
+        ]
+      },
+      {
+        "glosses": [
+          "to mess about (with alcohol, gambling, philandery, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "to meet up (with friends)",
+          "to hang out"
+        ]
+      },
+      {
+        "glosses": [
+          "to tease (someone)",
+          "to play (with)"
+        ]
+      },
+      {
+        "glosses": [
+          "to be idle",
+          "to do nothing",
+          "to be unused"
+        ]
+      },
+      {
+        "glosses": [
+          "to play (games, sports)",
+          "to enjoy oneself",
+          "to have a good time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あすぶ",
+        "written": "遊ぶ"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "あそぶ",
+        "written": "遊ぶ"
+      }
+    ]
+  }
+]

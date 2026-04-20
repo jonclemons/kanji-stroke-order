@@ -1,0 +1,801 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a friend today may turn against you tomorrow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きのうのともはきょうのてき",
+        "written": "昨日の友は今日の敵"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "complete reversal of values or ways of thinking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくひこんぜ",
+        "written": "昨非今是"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "day before yesterday"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おとつい",
+        "written": "一昨日"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "おととい",
+        "written": "一昨日"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf40"
+        ],
+        "pronounced": "いっさくじつ",
+        "written": "一昨日"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "early yesterday morning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくぎょう",
+        "written": "昨暁"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last night"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf43"
+        ],
+        "pronounced": "さくばん",
+        "written": "昨晩"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last week"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくしゅう",
+        "written": "昨週"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last winter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "さくとう",
+        "written": "昨冬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "さくねん",
+        "written": "昨年"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "night before last"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっさくばん",
+        "written": "一昨晩"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "night before last"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっさくや",
+        "written": "一昨夜"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one previous"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "いっさく",
+        "written": "一昨"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "previous year (fiscal, academic, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "さくねんど",
+        "written": "昨年度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "since last year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "さくねんらい",
+        "written": "昨年来"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "summer of last year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくねんなつ",
+        "written": "昨年夏"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "two nights before last"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっさくさくや",
+        "written": "一昨々夜"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いっさくさくや",
+        "written": "一昨昨夜"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "year before last"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "おととし",
+        "written": "おと年"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "おととし",
+        "written": "一昨年"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "いっさくねん",
+        "written": "一昨年"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yesterday"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "きのう",
+        "written": "昨日"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "さくじつ",
+        "written": "昨日"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yesterday morning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくちょう",
+        "written": "昨朝"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yesterday's paper"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくし",
+        "written": "昨紙"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "autumn of last year",
+          "fall of last year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "さくしゅう",
+        "written": "昨秋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "don't you ever come here again!",
+          "come here the day before yesterday"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おとといきやがれ",
+        "written": "おととい来やがれ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おとといきやがれ",
+        "written": "一昨日来やがれ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last (year)",
+          "yesterday"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さく",
+        "written": "昨"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last period",
+          "previous period"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくき",
+        "written": "昨期"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さっき",
+        "written": "昨期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last season (e.g. in sports)",
+          "equivalent season last year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくき",
+        "written": "昨季"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さっき",
+        "written": "昨季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last spring",
+          "the spring of last year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "さくしゅん",
+        "written": "昨春"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last summer",
+          "summer of last year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくか",
+        "written": "昨夏"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さっか",
+        "written": "昨夏"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nowadays",
+          "recently"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくこん",
+        "written": "昨今"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "さっこん",
+        "written": "昨今"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "right on the heels of yesterday",
+          "only yesterday"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きのうのきょう",
+        "written": "昨日の今日"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "three (days, years, etc.) ago",
+          "two ... before last"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっさくさく",
+        "written": "一昨々"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いっさくさく",
+        "written": "一昨昨"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "two days before yesterday",
+          "three days back (ago)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっさくさくじつ",
+        "written": "一昨々日"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いっさくさくじつ",
+        "written": "一昨昨日"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さきおとつい",
+        "written": "一昨々日"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さきおとつい",
+        "written": "一昨昨日"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さきおととい",
+        "written": "一昨々日"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さきおととい",
+        "written": "一昨昨日"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "two years before last (year)",
+          "three years back (ago)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっさくさくねん",
+        "written": "一昨々年"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いっさくさくねん",
+        "written": "一昨昨年"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さいととし",
+        "written": "一昨々年"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さいととし",
+        "written": "一昨昨年"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さおととし",
+        "written": "一昨々年"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さおととし",
+        "written": "一昨昨年"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さきおととし",
+        "written": "一昨々年"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さきおととし",
+        "written": "一昨昨年"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yesterday evening",
+          "last night"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくゆう",
+        "written": "昨夕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "complete reversal of values or ways of thinking (over time)",
+          "What appeared wrong in the past now appears right",
+          "realizing and regretting the past errors of one's ways"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こんぜさくひ",
+        "written": "今是昨非"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "only recently",
+          "just recently",
+          "only yesterday"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きのうやきょう",
+        "written": "昨日や今日"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "evening"
+        ]
+      },
+      {
+        "glosses": [
+          "last night",
+          "yesterday evening"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆんべ",
+        "written": "昨夜"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "ゆうべ",
+        "written": "夕べ"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "ゆうべ",
+        "written": "昨夜"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "さくや",
+        "written": "昨夜"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yesterday and today"
+        ]
+      },
+      {
+        "glosses": [
+          "only recently",
+          "just recently",
+          "only yesterday"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きのうきょう",
+        "written": "昨日今日"
+      }
+    ]
+  }
+]

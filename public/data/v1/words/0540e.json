@@ -1,0 +1,464 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Grand Empress Dowager"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいこうたいごう",
+        "written": "太皇太后"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Grand Empress Dowager, the Empress Dowager and the Empress Consort"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんこう",
+        "written": "三后"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Grand Empress Dowager, the Empress Dowager and the Empress Consort"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんこうごう",
+        "written": "三皇后"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Her Majesty the Empress (of Japan)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうごうへいか",
+        "written": "皇后陛下"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Her Majesty the Queen"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうこうへいか",
+        "written": "王后陛下"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Their Majesties, the Emperor and Empress"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんのうこうごうりょうへいか",
+        "written": "天皇皇后両陛下"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "duty ends only in death"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たおれてのちやむ",
+        "written": "倒れて後やむ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "たおれてのちやむ",
+        "written": "斃れて后已む"
+      },
+      {
+        "priorities": [],
+        "pronounced": "たおれてのちやむ",
+        "written": "斃れて後已む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "empress dowager"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぼこう",
+        "written": "母后"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "queen"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうこう",
+        "written": "王后"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "queen of heaven"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんこう",
+        "written": "天后"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "women's pavilion (of the inner Heian palace)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きさいまち",
+        "written": "后町"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きさきまち",
+        "written": "后町"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(Japanese) empress",
+          "queen"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "こうごう",
+        "written": "皇后"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Empress Dowager",
+          "Queen Mother"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうたいこう",
+        "written": "皇太后"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "こうたいごう",
+        "written": "皇太后"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "afternoon",
+          "p.m."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "ごご",
+        "written": "午后"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "ごご",
+        "written": "午後"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "empress",
+          "queen"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうひ",
+        "written": "后妃"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こうひ",
+        "written": "皇妃"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "empress",
+          "queen"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きさい",
+        "written": "后"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "きさき",
+        "written": "后"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "きさき",
+        "written": "妃"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "empress dowager",
+          "queen mother"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいこう",
+        "written": "太后"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "retired empress",
+          "ex-empress",
+          "former empress",
+          "empress emerita"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうこうごう",
+        "written": "上皇后"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "retired empress",
+          "ex-empress",
+          "former empress",
+          "empress emerita"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうこうごうへいか",
+        "written": "上皇后陛下"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "empress"
+        ]
+      },
+      {
+        "glosses": [
+          "empress's residence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうごうぐう",
+        "written": "皇后宮"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "empress",
+          "queen"
+        ]
+      },
+      {
+        "glosses": [
+          "empress's palace",
+          "queen's palace"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうぐう",
+        "written": "后宮"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "after one's death"
+        ]
+      },
+      {
+        "glosses": [
+          "descendant"
+        ]
+      },
+      {
+        "glosses": [
+          "future"
+        ]
+      },
+      {
+        "glosses": [
+          "later",
+          "afterwards"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "のち",
+        "written": "后"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "のち",
+        "written": "後"
+      }
+    ]
+  }
+]

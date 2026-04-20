@@ -1,0 +1,745 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(exercising) the right to command"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきけん",
+        "written": "指揮権"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chain of command"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきけいとう",
+        "written": "指揮系統"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chain of command"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきめいれいけいとう",
+        "written": "指揮命令系統"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "command post"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきじょ",
+        "written": "指揮所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "command post exercise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきじょえんしゅう",
+        "written": "指揮所演習"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fixation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふきはつせいか",
+        "written": "不揮発性化"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-volatility"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふきはつせい",
+        "written": "不揮発性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nonvolatile memory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふきはつせいメモリ",
+        "written": "不揮発性メモリ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nonvolatile memory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふきはつせいメモリー",
+        "written": "不揮発性メモリー"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nonvolatile storage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふきはつせいきおくそうち",
+        "written": "不揮発性記憶装置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regular (permanent) conductor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうにんしきしゃ",
+        "written": "常任指揮者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "supreme commander"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうしきかん",
+        "written": "総指揮官"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trial management (e.g. by the court)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そしょうしき",
+        "written": "訴訟指揮"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "volatile memory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きはつせいメモリー",
+        "written": "揮発性メモリー"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "volatile storage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きはつせいきおくそうち",
+        "written": "揮発性記憶装置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "volatile substance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きはつぶっしつ",
+        "written": "揮発物質"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "volatility"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きはつせい",
+        "written": "揮発性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "volatility"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きはつど",
+        "written": "揮発度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "writing or painting fee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きごうりょう",
+        "written": "揮毫料"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conductor's stick",
+          "conductor's baton"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "しきぼう",
+        "written": "指揮棒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fire chief's car",
+          "command vehicle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきしゃ",
+        "written": "指揮車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gasoline tax",
+          "gasoline excise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きはつゆぜい",
+        "written": "揮発油税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nonvolatile component",
+          "nonvolatile constituent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふきはつせいぶん",
+        "written": "不揮発成分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "show one's real ability",
+          "illustration of the distinctive character of (something)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんりょうはっき",
+        "written": "本領発揮"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "supreme command",
+          "direction over all"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "そうしき",
+        "written": "総指揮"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taking command of a corps in a battle",
+          "command exercised by the leader of a group"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんとうしき",
+        "written": "陣頭指揮"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to drive a quill (pen)",
+          "to wield the writing brush"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふでをふるう",
+        "written": "筆を揮う"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to take command",
+          "to give direction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきをとる",
+        "written": "指揮をとる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しきをとる",
+        "written": "指揮を取る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しきをとる",
+        "written": "指揮を執る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "volatile component",
+          "volatile constituent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きはつせいぶん",
+        "written": "揮発成分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "volatilization",
+          "volatilisation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36",
+          "spec2"
+        ],
+        "pronounced": "きはつ",
+        "written": "揮発"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commander",
+          "commanding officer",
+          "CO"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきかん",
+        "written": "指揮官"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vaporization",
+          "volatilization",
+          "sublimation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きさん",
+        "written": "揮散"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "writing (esp. commissioned calligraphy)",
+          "drawing",
+          "painting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "きごう",
+        "written": "揮毫"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gasoline",
+          "petrol",
+          "petroleum",
+          "benzine",
+          "volatile oil"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "きはつゆ",
+        "written": "揮発油"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "show (of power, ability, etc.)",
+          "exhibition",
+          "demonstration",
+          "display",
+          "manifestation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "はっき",
+        "written": "発揮"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to display one's real ability",
+          "to show one's real ability",
+          "to show one's stuff",
+          "to show oneself at one's best",
+          "to really shine",
+          "to come into one's own",
+          "to find one's feet (legs)",
+          "to hit (strike) one's stride"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんりょうをはっき",
+        "written": "本領を発揮"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(musical) conductor"
+        ]
+      },
+      {
+        "glosses": [
+          "commander",
+          "leader",
+          "director"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "しきしゃ",
+        "written": "指揮者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conducting (an orchestra, choir, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "command",
+          "direction",
+          "supervision"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "しき",
+        "written": "指揮"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "しき",
+        "written": "指麾"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to flourish",
+          "to prosper",
+          "to thrive"
+        ]
+      },
+      {
+        "glosses": [
+          "to swing",
+          "to wield (physically)",
+          "to exert"
+        ]
+      },
+      {
+        "glosses": [
+          "to exercise (e.g. power, ability)",
+          "to exhibit",
+          "to display",
+          "to wield (metaphorically)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふるう",
+        "written": "振う"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふるう",
+        "written": "振るう"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふるう",
+        "written": "揮う"
+      }
+    ]
+  }
+]

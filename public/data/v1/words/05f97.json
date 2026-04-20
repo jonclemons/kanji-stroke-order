@@ -1,0 +1,6438 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Bank Equity Purchasing Corporation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎんこうかぶしきしゅとくきこう",
+        "written": "銀行株式取得機構"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Income Tax Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくぜいほう",
+        "written": "所得税法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Special Income Tax for Reconstruction (of areas affected by the 2011 Tōhoku earthquake and tsunami)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふっこうとくべつしょとくぜい",
+        "written": "復興特別所得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "able to change"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かわりうる",
+        "written": "かわり得る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かわりうる",
+        "written": "変わりうる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かわりうる",
+        "written": "変わり得る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かわりえる",
+        "written": "かわり得る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かわりえる",
+        "written": "変わりえる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かわりえる",
+        "written": "変わり得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquired characteristics (as opposed to inherited)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくとくけいしつ",
+        "written": "獲得形質"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquired immunity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくとくめんえき",
+        "written": "獲得免疫"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquirer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅとくしゃ",
+        "written": "取得者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquisition by occupancy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんせんしゅとく",
+        "written": "先占取得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquisition of a qualification"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しかくしゅとく",
+        "written": "資格取得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquisition of foreign currency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいかかくとく",
+        "written": "外貨獲得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aggregate votes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくひょうそうすう",
+        "written": "得票総数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antenna gain factor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アンテナりとくりつ",
+        "written": "アンテナ利得率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "appreciating fully (e.g. work of art)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みとく",
+        "written": "味得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attaining salvation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくどう",
+        "written": "得道"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "automobile acquisition tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうしゃしゅとくぜい",
+        "written": "自動車取得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "calamity, good fortune, success and failure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かふくとくそう",
+        "written": "禍福得喪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "capital gain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しほんりとく",
+        "written": "資本利得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "capital gains"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうとしょとく",
+        "written": "譲渡所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "corporate income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうじんしょとく",
+        "written": "法人所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "corporate income tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうじんしょとくぜい",
+        "written": "法人所得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "data acquisition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "データしゅとく",
+        "written": "データ取得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "delegate count"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくとくだいぎいんすう",
+        "written": "獲得代議員数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "discretionary income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいりょうしょとく",
+        "written": "裁量所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "domestic source income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくないげんせんしょとく",
+        "written": "国内源泉所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "double gain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうとく",
+        "written": "両得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dramatic pose"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おおみえ",
+        "written": "大見え"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おおみえ",
+        "written": "大見得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "earned income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうよしょとく",
+        "written": "給与所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "earned income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんろうしょとく",
+        "written": "勤労所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "even a fool may sometimes come up with a good idea"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんりょいっとく",
+        "written": "千慮一得"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せんりょのいっとく",
+        "written": "千慮一得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "even a fool may sometimes give good counsel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぐしゃいっとく",
+        "written": "愚者一得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "even a fool may sometimes give good counsel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひゃくりょいっとく",
+        "written": "百慮一得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "even fools can give good counsel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぐしゃもせんりょにいっとく",
+        "written": "愚者も千慮に一得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excessive profit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふとうりとく",
+        "written": "不当利得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "family income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せたいしょとく",
+        "written": "世帯所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "farm income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうかしょとく",
+        "written": "農家所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "finder (of lost property)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうとくしゃ",
+        "written": "拾得者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "first runs scored"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんしゅとくてん",
+        "written": "先取得点"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fluctuating income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へんどうしょとく",
+        "written": "変動所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "found article"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうとくぶつ",
+        "written": "拾得物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gain of tempo (shogi, othello)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てどく",
+        "written": "手得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "good bargain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいどくひん",
+        "written": "買い得品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "high score"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうとくてん",
+        "written": "高得点"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "high-gain antenna"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうりとくアンテナ",
+        "written": "高利得アンテナ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "high-income earner"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうしょとくしゃ",
+        "written": "高所得者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "highest-ranking priestess (in Ryukyuan religion)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きこえおおぎみ",
+        "written": "聞得大君"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hooray!"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えたり",
+        "written": "得たり"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "if you run after two hares you will catch neither"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にとをおうものはいっとをもえず",
+        "written": "二兎を追う者は一兎をも得ず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "imputed income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きぞくしょとく",
+        "written": "帰属所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income distribution"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくぶんぱい",
+        "written": "所得分配"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income divide"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくかくさ",
+        "written": "所得格差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income earner"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくしゃ",
+        "written": "所得者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income effect"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくこうか",
+        "written": "所得効果"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income elasticity of demand"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅようのしょとくだんりょくせい",
+        "written": "需要の所得弾力性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income from real estate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふどうさんしょとく",
+        "written": "不動産所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income level"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくすいじゅん",
+        "written": "所得水準"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income redistribution"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくさいぶんぱい",
+        "written": "所得再分配"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "しょとくぜい",
+        "written": "所得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income tax withheld at the source"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんせんしょとくぜい",
+        "written": "源泉所得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "incomes policy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくせいさく",
+        "written": "所得政策"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "instantaneous acquisition model"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅんじかくとくモデル",
+        "written": "瞬時獲得モデル"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "knowing look"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こころえがお",
+        "written": "心得顔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "language acquisition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんごかくとく",
+        "written": "言語獲得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "look of triumph"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ところえがお",
+        "written": "所得顔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "loss of a low-ranked wrestler in the extra eighth bout in the tournament"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まけどく",
+        "written": "負け得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "low income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていしょとく",
+        "written": "低所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "low-gain antenna"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていりとくアンテナ",
+        "written": "低利得アンテナ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "low-income earner"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていしょとくしゃ",
+        "written": "低所得者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "middle-income country"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしょとくこく",
+        "written": "中所得国"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "minimum number of votes required to elect a candidate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうていとくひょうすう",
+        "written": "法定得票数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "miscellaneous (sundry) incomes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざつしょとく",
+        "written": "雑所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "national disposable income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくみんかしょぶんしょとく",
+        "written": "国民可処分所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "national income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくみんしょとく",
+        "written": "国民所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nominal national income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めいもくこくみんしょとく",
+        "written": "名目国民所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "not able to change"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かわりえない",
+        "written": "変わりえない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かわりえない",
+        "written": "変わり得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "number of votes obtained (polled)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくひょうすう",
+        "written": "得票数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "occasional income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いちじしょとく",
+        "written": "一時所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one's birthright"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいとくけん",
+        "written": "生得権"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one's weak point"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "ふとくい",
+        "written": "不得意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "percentage of votes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくひょうりつ",
+        "written": "得票率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "perfectly fitting phrase"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いいえてみょう",
+        "written": "言いえて妙"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いいえてみょう",
+        "written": "言い得て妙"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "permanent income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうじょうしょとく",
+        "written": "恒常所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "permanent income hypothesis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうじょうしょとくかせつ",
+        "written": "恒常所得仮説"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "personal income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こじんしょとく",
+        "written": "個人所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "personal income tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こじんしょとくぜい",
+        "written": "個人所得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "persuasion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "せっとく",
+        "written": "説得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "processing gain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょりりとく",
+        "written": "処理利得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "profiting by escaping (from punishment, payment, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にげとく",
+        "written": "逃げ得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "real estate acquisition tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふどうさんしゅとくぜい",
+        "written": "不動産取得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "real income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じっしつしょとく",
+        "written": "実質所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "real national income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じっしつこくみんしょとく",
+        "written": "実質国民所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "salaried employee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうよしょとくしゃ",
+        "written": "給与所得者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "scoreless (game or competition)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "むとくてん",
+        "written": "無得点"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "scorer (goals, runs, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくてんしゃ",
+        "written": "得点者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "scoring position"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくてんけん",
+        "written": "得点圏"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "specialty school graduate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくぎょうし",
+        "written": "得業士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax-free income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めんぜいしょとく",
+        "written": "免税所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxable income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かぜいしょとく",
+        "written": "課税所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the early bird gets the worm"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はやおきはさんもんのとく",
+        "written": "早起きは三文の得"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はやおきはさんもんのとく",
+        "written": "早起きは三文の徳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the pain of not getting what one seeks"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぐふとくく",
+        "written": "求不得苦"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the unobtainable (that which cannot be known)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふかとく",
+        "written": "不可得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "there is no hope"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばんやむをえず",
+        "written": "万止むを得ず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "timely"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ときをえた",
+        "written": "時を得た"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to acquire knowledge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しりえる",
+        "written": "知り得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to approve of"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わがいをえる",
+        "written": "我が意を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be conceivable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんがえうる",
+        "written": "考えうる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かんがえうる",
+        "written": "考え得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be possible to occur"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おこりうる",
+        "written": "起こりうる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おこりうる",
+        "written": "起こり得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be to the point"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようをえる",
+        "written": "要を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to gain experience"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいけんをえる",
+        "written": "経験を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to have a narrow escape from death"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうしにいっしょうをえる",
+        "written": "九死に一生を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to hit the mark"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいこくをえる",
+        "written": "正鵠を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to make a profit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "とくする",
+        "written": "得する"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "top scorer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくてんおう",
+        "written": "得点王"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "transfer income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いてんしょとく",
+        "written": "移転所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "triumphant look"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくいがお",
+        "written": "得意顔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "triumphant look"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えたりがお",
+        "written": "得たり顔"
+      },
+      {
+        "priorities": [],
+        "pronounced": "えたりがお",
+        "written": "得顔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unbelievable (extent)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ありえないほど",
+        "written": "あり得ないほど"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ありえないほど",
+        "written": "あり得ない程"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ありえないほど",
+        "written": "有り得ない程"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unforgettable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わすれえぬ",
+        "written": "忘れえぬ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わすれえぬ",
+        "written": "忘れ得ぬ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vested interests"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きとくけんえき",
+        "written": "既得権益"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vested rights"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "きとくけん",
+        "written": "既得権"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "weaselsnout (Lagotis glauca)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うるっぷそう",
+        "written": "得撫草"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ウルップそう",
+        "written": "ウルップ草"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ウルップソウ",
+        "written": "ウルップ草"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ウルップソウ",
+        "written": "得撫草"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "win of a low-ranked wrestler in the extra eighth bout in the tournament"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かちどく",
+        "written": "勝ち得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wrestler's favourite (favorite) grip on the belt"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくいよつ",
+        "written": "得意四つ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "AGC",
+          "automatic gain control"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうりとくせいぎょ",
+        "written": "自動利得制御"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Gini coefficient",
+          "Gini's coefficient"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくふびょうどうどけいすう",
+        "written": "所得不平等度係数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquired idea (as opposed to innate)",
+          "acquired ideas"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうとくかんねん",
+        "written": "習得観念"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquisition",
+          "possession"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "かくとく",
+        "written": "獲得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquisition of nationality",
+          "naturalization"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくせきしゅとく",
+        "written": "国籍取得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquisition or forfeiture",
+          "acquisition (question of whether or not something is acquired)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくそう",
+        "written": "得喪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquisitive prescription",
+          "positive prescription"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅとくじこう",
+        "written": "取得時効"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "advanced standing (in school or college)",
+          "credit for prior studies"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きとくたんい",
+        "written": "既得単位"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "advantages and disadvantages",
+          "plus and minuses"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "とくしつ",
+        "written": "得失"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "advantages and disadvantages",
+          "pros and cons"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りがいとくしつ",
+        "written": "利害得失"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "annual income",
+          "annual earnings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねんかんしょとく",
+        "written": "年間所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "as (much) as possible",
+          "as (far) as possible"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "できうるかぎり",
+        "written": "できうる限り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "できうるかぎり",
+        "written": "出来うる限り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "できうるかぎり",
+        "written": "出来得る限り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bargain",
+          "good buy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "かいどく",
+        "written": "買い得"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "かいどく",
+        "written": "買得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "becoming a monk",
+          "entering priesthood"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "とくど",
+        "written": "得度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "being very good at",
+          "strongest point"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくいちゅうのとくい",
+        "written": "得意中の得意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "beyond one's comprehension",
+          "beyond one's grasp"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いをえない",
+        "written": "意を得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cannot be helped",
+          "unavoidable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やもうえない",
+        "written": "やもう得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cannot be helped",
+          "unavoidable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi2",
+          "spec1"
+        ],
+        "pronounced": "やむをえない",
+        "written": "やむを得ない"
+      },
+      {
+        "priorities": [
+          "ichi2",
+          "spec1"
+        ],
+        "pronounced": "やむをえない",
+        "written": "已むを得ない"
+      },
+      {
+        "priorities": [
+          "ichi2",
+          "spec1"
+        ],
+        "pronounced": "やむをえない",
+        "written": "止むを得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "capital gains tax",
+          "CGT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しほんりとくぜい",
+        "written": "資本利得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "comprehension",
+          "knowledge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちとく",
+        "written": "知得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cost of acquisition",
+          "acquisition cost"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅとくげんか",
+        "written": "取得原価"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "coursework completed without degree",
+          "withdrawal from a course having completed the coursework"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんいしゅとくたいがく",
+        "written": "単位取得退学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "customer",
+          "client"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくいば",
+        "written": "得意場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "emoluments",
+          "additional profits"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よとく",
+        "written": "余得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "even (of a trade)",
+          "no advantage and no disadvantage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そんとくなし",
+        "written": "損得なし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そんとくなし",
+        "written": "損得無し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "finding (lost property)",
+          "picking up"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf39"
+        ],
+        "pronounced": "しゅうとく",
+        "written": "拾得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "forced to use",
+          "forced into a position"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つかわざるをえず",
+        "written": "使わざるを得ず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "forced to use",
+          "forced into a position"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つかわざるをえない",
+        "written": "使わざるを得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "forte",
+          "strong point"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えて",
+        "written": "得手"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gain",
+          "profit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とりどく",
+        "written": "取り得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gaining some and losing some",
+          "(something having its) advantages and disadvantages"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっとくいっしつ",
+        "written": "一得一失"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "goal difference",
+          "goal differential"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくしつてんさ",
+        "written": "得失点差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gross national income",
+          "GNI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくみんそうしょとく",
+        "written": "国民総所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guide to office routine",
+          "guide to the performance of official duties"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しつむこころえ",
+        "written": "執務心得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hard to get",
+          "hard to come by"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "えがたい",
+        "written": "得がたい"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "えがたい",
+        "written": "得難い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hard to understand",
+          "hard to accept"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こころえがたい",
+        "written": "心得がたい"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こころえがたい",
+        "written": "心得難い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "having consent (e.g. to do something)",
+          "having (someone's) assent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なっとくずく",
+        "written": "納得ずく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なっとくずく",
+        "written": "納得尽く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なっとくづく",
+        "written": "納得づく"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "having thought for neither gain nor greed",
+          "only wanting to do something (thinking about nothing else)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よくもとくもない",
+        "written": "欲も得もない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "if necessary",
+          "when unavoidable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばんやむをえなければ",
+        "written": "万已むを得なければ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばんやむをえなければ",
+        "written": "万止むを得なければ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "imprudent fellow",
+          "misguided fellow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふこころえもの",
+        "written": "不心得者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income",
+          "earnings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "しょとく",
+        "written": "所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income amount",
+          "gross income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくきんがく",
+        "written": "所得金額"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income certificate",
+          "certificate of earnings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくしょうめいしょ",
+        "written": "所得証明書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income concealment",
+          "(income) tax evasion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくかくし",
+        "written": "所得隠し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income tax cut",
+          "income tax reduction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくぜいげんぜい",
+        "written": "所得税減税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "innate idea",
+          "innate ideas"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいとくかんねん",
+        "written": "生得観念"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interest income",
+          "income from interest"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りししょとく",
+        "written": "利子所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "killing two birds with one stone",
+          "serving two ends"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっきょりょうとく",
+        "written": "一挙両得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "large income earner",
+          "people in the higher income brackets"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうがくしょとくしゃ",
+        "written": "高額所得者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "learning",
+          "acquisition (of a skill, knowledge, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "しゅうとく",
+        "written": "修得"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "しゅうとく",
+        "written": "習得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "loss and gain",
+          "advantage and disadvantage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "そんとく",
+        "written": "損得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "low income group",
+          "low income class"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていしょとくそう",
+        "written": "低所得層"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "money-saving feeling",
+          "bargain feeling"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おとくかん",
+        "written": "お得感"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おとくかん",
+        "written": "御得感"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nature",
+          "character"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えたい",
+        "written": "得体"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negative income tax",
+          "NIT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふのしょとくぜい",
+        "written": "負の所得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "not letting oneself puffed up by one's success",
+          "maintaining a serene state of mind when one has achieved a great success"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくいたんぜん",
+        "written": "得意淡然"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nothing ventured, nothing gained",
+          "you will not get the tiger cub without entering the tiger's den"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こけつにいらずんばこしをえず",
+        "written": "虎穴に入らずんば虎子を得ず"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こけつにいらずんばこじをえず",
+        "written": "虎穴に入らずんば虎児を得ず"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こけつにいらずんばこじをえず",
+        "written": "虎穴に入らずんば虎子を得ず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "number of votes polled",
+          "poll votes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "とくひょう",
+        "written": "得票"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one advantage",
+          "merit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっとく",
+        "written": "一得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one's field of expertise",
+          "one's strong area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくいぶんや",
+        "written": "得意分野"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pension replacement rate",
+          "income substitution rate (of the public pension)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくだいたいりつ",
+        "written": "所得代替率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "persuasiveness",
+          "skilled in the art of persuasion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっとくじょうず",
+        "written": "説得上手"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "proud",
+          "elated"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくいげ",
+        "written": "得意げ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とくいげ",
+        "written": "得意気"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regular customer",
+          "patron"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうとくい",
+        "written": "定得意"
+      },
+      {
+        "priorities": [],
+        "pronounced": "じょうとくい",
+        "written": "常得意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regular customer",
+          "valued client"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おとくいさん",
+        "written": "お得意さん"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regular customer",
+          "valued client"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おとくいさま",
+        "written": "お得意さま"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おとくいさま",
+        "written": "お得意様"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おとくいさま",
+        "written": "御得意様"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "score board",
+          "scoring board"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくてんばん",
+        "written": "得点板"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "self-willed",
+          "(doing or saying things) to suit one's own convenience"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えてかって",
+        "written": "得手勝手"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "selfishness",
+          "self-interest"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よくとく",
+        "written": "欲得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "signature move (assoc. with a martial artist, wrestler, etc.)",
+          "finishing move"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくいわざ",
+        "written": "得意技"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "someone who is in their element",
+          "fish that has found water"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みずをえたうお",
+        "written": "水を得た魚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "support for medical treatment for those on low income",
+          "Medicaid"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていしょとくしゃいりょうふじょ",
+        "written": "低所得者医療扶助"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to acquire a position",
+          "to hold an appointment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちいをえる",
+        "written": "地位を得る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちいをえる",
+        "written": "地位を獲る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be able to do",
+          "to be capable of doing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なしうる",
+        "written": "なし得る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なしうる",
+        "written": "成しうる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なしうる",
+        "written": "成し得る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なしえる",
+        "written": "なし得る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なしえる",
+        "written": "成しえる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なしえる",
+        "written": "成し得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be brief and to the point",
+          "to be succinct"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんにしてようをえる",
+        "written": "簡にして要を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be in order",
+          "to be right"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうをえる",
+        "written": "当を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be just about right",
+          "to be quite appropriate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よろしきをえる",
+        "written": "宜しきを得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be skillful (skilful)",
+          "to be clever"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みょうをえる",
+        "written": "妙を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be to the point",
+          "to be pertinent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まとをえる",
+        "written": "的を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to become famous",
+          "to gain fame"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めいせいをえる",
+        "written": "名声を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to do (a person) good",
+          "to bring profit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくになる",
+        "written": "得になる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to employ the right person",
+          "to choose someone with the right qualities"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひとをえる",
+        "written": "人を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to end without incident",
+          "to not turn into something serious"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ことなきをえる",
+        "written": "ことなきを得る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ことなきをえる",
+        "written": "こと無きを得る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ことなきをえる",
+        "written": "事なきを得る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ことなきをえる",
+        "written": "事無きを得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to gain the understanding (of)",
+          "to obtain consent (from)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りかいをえる",
+        "written": "理解を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to get more than one requests",
+          "to beg for water and receive wine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうをこいてさけをうる",
+        "written": "漿を乞いて酒を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to hoist one's sail when the wind is fair",
+          "to get one's time to shine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えてにほをあげる",
+        "written": "得手に帆を揚げる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to seem (very) proud",
+          "to be inflated with pride"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくいがる",
+        "written": "得意がる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to understand the essence",
+          "to catch the main points"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つぼをこころえる",
+        "written": "つぼを心得る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つぼをこころえる",
+        "written": "壺を心得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to withstand",
+          "to be able to endure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たえうる",
+        "written": "耐えうる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "たえうる",
+        "written": "耐え得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "total income",
+          "gross earnings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうしょとく",
+        "written": "総所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "triumphant air",
+          "smugness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくいまんめん",
+        "written": "得意満面"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "triumphantly",
+          "proudly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "トクトク",
+        "written": "得々"
+      },
+      {
+        "priorities": [],
+        "pronounced": "トクトク",
+        "written": "得得"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "とくとく",
+        "written": "得々"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "とくとく",
+        "written": "得得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unable to...",
+          "cannot ..."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えない",
+        "written": "得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vested",
+          "already acquired"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きとく",
+        "written": "既得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "weak point",
+          "unskillfulness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf43"
+        ],
+        "pronounced": "ふえて",
+        "written": "不得手"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "you must lose a fly to catch a trout",
+          "sometimes the best gain is to lose"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そんしてとくとる",
+        "written": "損して得とる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そんしてとくとる",
+        "written": "損して得取る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "you must lose a fly to catch a trout",
+          "sometimes the best gain is to lose"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そんしてとくとれ",
+        "written": "損して得とれ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そんしてとくとれ",
+        "written": "損して得取れ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquiring",
+          "obtaining",
+          "receiving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "しゅうとく",
+        "written": "収得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bargain",
+          "good buy",
+          "budget"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "おかいどく",
+        "written": "お買い得"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "おかいどく",
+        "written": "お買い徳"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "おかいどく",
+        "written": "お買得"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "おかいどく",
+        "written": "お買徳"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "おかいどく",
+        "written": "御買い得"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "おかいどく",
+        "written": "御買得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bargain",
+          "good-value",
+          "economical"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おとく",
+        "written": "お得"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おとく",
+        "written": "お徳"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おとく",
+        "written": "御得"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おとく",
+        "written": "御徳"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おトク",
+        "written": "お得"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おトク",
+        "written": "お徳"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おトク",
+        "written": "御得"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おトク",
+        "written": "御徳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "can do",
+          "may do",
+          "be capable of doing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しうる",
+        "written": "し得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cannot help (laughing, feeling sympathy, etc.)",
+          "cannot hold back (tears, anger, etc.)",
+          "cannot suppress"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんじえない",
+        "written": "禁じえない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きんじえない",
+        "written": "禁じ得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "carrying out mercenary deeds",
+          "having a mercenary attitude",
+          "calculating"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よくとくずく",
+        "written": "欲得ずく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "よくとくずく",
+        "written": "欲得尽"
+      },
+      {
+        "priorities": [],
+        "pronounced": "よくとくずく",
+        "written": "欲得尽く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "よくとくづく",
+        "written": "欲得づく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "よくとくづく",
+        "written": "欲得尽"
+      },
+      {
+        "priorities": [],
+        "pronounced": "よくとくづく",
+        "written": "欲得尽く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "disposable income",
+          "disposable personal income",
+          "DPI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かしょぶんしょとく",
+        "written": "可処分所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "frequent customer",
+          "good customer",
+          "client"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくいきゃく",
+        "written": "得意客"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "getting what one wants by complaining or grumbling",
+          "profiting by holding out or taking a hard line",
+          "getting more by raising a ruckus"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごねどく",
+        "written": "ごね得"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゴネどく",
+        "written": "ゴネ得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "good customer",
+          "prime customer",
+          "valued clientele"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうとくい",
+        "written": "上得意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "good policy",
+          "wise policy",
+          "best plan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "とくさく",
+        "written": "得策"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "impossible",
+          "unthinkable",
+          "unimaginable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ありうべからざる",
+        "written": "あり得べからざる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ありうべからざる",
+        "written": "有り得べからざる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income-based levy",
+          "per income levy",
+          "taxation on income basis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくわり",
+        "written": "所得割"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しょとくわり",
+        "written": "所得割り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "never being satisfied with what one gets, and always wanting more",
+          "giving someone an inch and having them take a mile",
+          "taking Gansu only to want Sichuan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろうをえてしょくをのぞむ",
+        "written": "隴を得て蜀を望む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "persuasiveness",
+          "powers of persuasion",
+          "cogency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "せっとくりょく",
+        "written": "説得力"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "possible",
+          "probable",
+          "likely"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ありうべき",
+        "written": "あり得べき"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ありうべき",
+        "written": "有り得べき"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "profit-and-loss arithmetic",
+          "calculating profit and loss",
+          "mercenary point of view"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そんとくかんじょう",
+        "written": "損得勘定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "readily",
+          "very eagerly",
+          "without moment's hesitation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えたりかしこしと",
+        "written": "得たり賢しと"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "readily",
+          "very eagerly",
+          "without moment's hesitation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えたりやおうと",
+        "written": "得たりや応と"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "satisfactory",
+          "convincing",
+          "acceptable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なっとくのいく",
+        "written": "納得のいく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なっとくのいく",
+        "written": "納得の行く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "satisfied face",
+          "face of someone who is satisfied (with an explanation, etc.)",
+          "look of understanding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なっとくがお",
+        "written": "納得顔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "strong and weak points",
+          "likes and dislikes",
+          "strengths and weaknesses"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えてふえて",
+        "written": "得手不得手"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax deduction",
+          "deduction from taxable income",
+          "income exemptions and deductions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくこうじょ",
+        "written": "所得控除"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to accept (e.g. an explanation)",
+          "to be satisfied (with)",
+          "to assent (to)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なっとくがいく",
+        "written": "納得がいく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なっとくがいく",
+        "written": "納得が行く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be to the point",
+          "to hit the mark",
+          "to be relevant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようりょうをえる",
+        "written": "要領を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be well-timed",
+          "to be timely",
+          "to be opportune"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じぎをえる",
+        "written": "時宜を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to fully understand and agree",
+          "to be convinced",
+          "to be fully satisfied (with an explanation)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくしんがいく",
+        "written": "得心がいく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とくしんがいく",
+        "written": "得心が行く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to get a break",
+          "to be timely",
+          "to obtain a favorable opportunity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ときをえる",
+        "written": "時を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to get benefit from",
+          "to profit from",
+          "to gain benefit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うるところがある",
+        "written": "得るところがある"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うるところがある",
+        "written": "得る所が有る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to receive a favorable reputation",
+          "to get good reviews",
+          "to meet with a favorable reception"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうひょうをえる",
+        "written": "好評を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unearned income",
+          "investment income",
+          "passive income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふろうしょとく",
+        "written": "不労所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unique",
+          "peculiar",
+          "special"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっしゅどくとく",
+        "written": "一種独得"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いっしゅどくとく",
+        "written": "一種独特"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unwise plan",
+          "bad policy",
+          "inexpediency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふとくさく",
+        "written": "不得策"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "usucaption",
+          "acquisitive prescription",
+          "positive prescription"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じこうしゅとく",
+        "written": "時効取得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "very improbable",
+          "vanishingly unlikely",
+          "only with a miracle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まずありえない",
+        "written": "まずあり得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(feeling of) satisfaction (with an explanation, decision, arrangement, etc.)",
+          "understanding (e.g. of the public)",
+          "acceptance",
+          "agreement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なっとくかん",
+        "written": "納得感"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(regular) customer",
+          "client",
+          "patron",
+          "clientele"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "とくいさき",
+        "written": "得意先"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excellent",
+          "very good",
+          "exultant",
+          "elated"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいとくい",
+        "written": "大得意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gain",
+          "profit",
+          "benefit",
+          "amplification"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26"
+        ],
+        "pronounced": "りとく",
+        "written": "利得"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf26"
+        ],
+        "pronounced": "りとく",
+        "written": "利徳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "imprudence",
+          "misbehavior",
+          "misbehaviour",
+          "misunderstanding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こころえちがい",
+        "written": "心得違い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indescribable",
+          "exquisite",
+          "inexpressible",
+          "indefinable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えもいわれず",
+        "written": "えも言われず"
+      },
+      {
+        "priorities": [],
+        "pronounced": "えもいわれず",
+        "written": "得も言われず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indescribable",
+          "exquisite",
+          "inexpressible",
+          "indefinable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えもいわれぬ",
+        "written": "えも言われぬ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "えもいわれぬ",
+        "written": "得も言われぬ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "innate",
+          "inherent",
+          "natural",
+          "inborn"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいとくてき",
+        "written": "生得的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "often (happens)",
+          "tend to",
+          "be apt to",
+          "be likely to"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えてして",
+        "written": "得てして"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paying for one's mistakes",
+          "getting one's just deserts",
+          "suffering the consequences (of one's own actions)",
+          "reap what you sow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf39"
+        ],
+        "pronounced": "じごうじとく",
+        "written": "自業自得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "perquisite",
+          "perk",
+          "side benefit",
+          "emoluments"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくとく",
+        "written": "役得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "possible",
+          "conceivable",
+          "likely",
+          "probable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ありうる",
+        "written": "あり得る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ありうる",
+        "written": "有りうる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ありうる",
+        "written": "有り得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to achieve",
+          "to win",
+          "to gain",
+          "to attain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "かちえる",
+        "written": "勝ち得る"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "かちえる",
+        "written": "勝得る"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "かちえる",
+        "written": "贏ち得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be possible",
+          "to be conceivable",
+          "to be likely",
+          "to be probable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ありう",
+        "written": "有り得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be possible",
+          "to be conceivable",
+          "to be likely",
+          "to be probable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ありえる",
+        "written": "あり得る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ありえる",
+        "written": "有りえる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ありえる",
+        "written": "有り得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to benefit",
+          "to profit",
+          "to gain",
+          "to reap rewards"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくをする",
+        "written": "得をする"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to gain nothing",
+          "to be of no benefit",
+          "to be no use",
+          "to be unprofitable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんのとくにもならない",
+        "written": "何の得にもならない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vague",
+          "ambiguous",
+          "noncommittal",
+          "off-point"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふとくようりょう",
+        "written": "不得要領"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "you've hit the nail on the head",
+          "that's just what I thought",
+          "that's exactly like I feel",
+          "that's exactly what I think, too"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わがいをえたり",
+        "written": "わが意を得たり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わがいをえたり",
+        "written": "我が意を得たり"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cannot avoid doing",
+          "cannot help but (do)",
+          "is compelled to do",
+          "(feel) obliged to (do)",
+          "has to do"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せざるえない",
+        "written": "せざる得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cannot avoid doing",
+          "cannot help but (do)",
+          "is compelled to do",
+          "(feel) obliged to (do)",
+          "has to do"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せざるをえない",
+        "written": "せざるを得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cannot avoid doing",
+          "cannot help but (do)",
+          "is compelled to do",
+          "(feel) obliged to (do)",
+          "has to do"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やらざるをえない",
+        "written": "やらざるを得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "consenting to",
+          "agreeing to",
+          "understanding",
+          "being convinced of",
+          "being satisfied"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくしん",
+        "written": "得心"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mastery",
+          "learning through experience",
+          "realization",
+          "realisation",
+          "comprehension"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "たいとく",
+        "written": "体得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "obtaining (a qualification, right, object, etc.)",
+          "acquisition (of land, property, etc.)",
+          "gaining possession (of)",
+          "getting",
+          "purchase"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "しゅとく",
+        "written": "取得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "strange",
+          "unfamiliar",
+          "mysterious",
+          "suspicious",
+          "of an unknown nature"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えたいのしれない",
+        "written": "得体の知れない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unavoidably",
+          "inevitably",
+          "necessarily",
+          "reluctantly",
+          "against one's will"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やむえず",
+        "written": "やむ得ず"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やむえず",
+        "written": "已む得ず"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やむえず",
+        "written": "止む得ず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unavoidably",
+          "inevitably",
+          "necessarily",
+          "reluctantly",
+          "against one's will"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やむをえず",
+        "written": "やむを得ず"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やむをえず",
+        "written": "已むを得ず"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やむをえず",
+        "written": "止むを得ず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "have to",
+          "have no choice but to",
+          "cannot help (doing)",
+          "be compelled to",
+          "be obliged to",
+          "be forced to"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざるえない",
+        "written": "ざる得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "have to",
+          "have no choice but to",
+          "cannot help (doing)",
+          "be compelled to",
+          "be obliged to",
+          "be forced to"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざるをえない",
+        "written": "ざるを得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "have to",
+          "have no choice but to",
+          "cannot help (doing)",
+          "be compelled to",
+          "be obliged to",
+          "be forced to"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざるをえぬ",
+        "written": "ざるを得ぬ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "scoring",
+          "score",
+          "points made",
+          "marks obtained",
+          "goals",
+          "runs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "とくてん",
+        "written": "得点"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "understanding",
+          "comprehension",
+          "grasp",
+          "perception",
+          "appreciation",
+          "mastery (of an art or skill)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "えとく",
+        "written": "会得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indiscretion",
+          "imprudence",
+          "rudeness",
+          "misbehavior",
+          "misconduct",
+          "misdeed",
+          "immorality"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "ふこころえ",
+        "written": "不心得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "worth",
+          "merit",
+          "value",
+          "good point",
+          "strong point",
+          "redeeming feature",
+          "saving grace"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "とりえ",
+        "written": "取りえ"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "とりえ",
+        "written": "取り得"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "とりえ",
+        "written": "取り柄"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "とりえ",
+        "written": "取得"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "とりえ",
+        "written": "取柄"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(hand) weapon"
+        ]
+      },
+      {
+        "glosses": [
+          "one's forte",
+          "one's special skill",
+          "weapon one is skilled in using"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えもの",
+        "written": "得物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "economical"
+        ]
+      },
+      {
+        "glosses": [
+          "economy size",
+          "family size (esp. of packaged food)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくよう",
+        "written": "得用"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とくよう",
+        "written": "徳用"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "having no income"
+        ]
+      },
+      {
+        "glosses": [
+          "state of nonattachment",
+          "lack of attachment",
+          "not seeking anything"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むしょとく",
+        "written": "無所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "impossible"
+        ]
+      },
+      {
+        "glosses": [
+          "unthinkable",
+          "ridiculous",
+          "absurd"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "ありえない",
+        "written": "あり得ない"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "ありえない",
+        "written": "有り得ない"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "ありえない",
+        "written": "有得ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "not knowing the true nature"
+        ]
+      },
+      {
+        "glosses": [
+          "strange",
+          "unfamiliar",
+          "mysterious",
+          "suspicious"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えたいがしれない",
+        "written": "得体が知れない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one's nature or personality"
+        ]
+      },
+      {
+        "glosses": [
+          "inherent",
+          "innate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうとく",
+        "written": "生得"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せいとく",
+        "written": "生得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rebirth in paradise, entering nirvana"
+        ]
+      },
+      {
+        "glosses": [
+          "profit",
+          "advantage",
+          "benefit",
+          "gain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "とく",
+        "written": "得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "theft"
+        ]
+      },
+      {
+        "glosses": [
+          "understanding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうとく",
+        "written": "領得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be possible"
+        ]
+      },
+      {
+        "glosses": [
+          "to get",
+          "to acquire",
+          "to obtain",
+          "to procure",
+          "to earn",
+          "to win",
+          "to gain",
+          "to secure",
+          "to attain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "う",
+        "written": "得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to strike a pose (for dramatic effect)"
+        ]
+      },
+      {
+        "glosses": [
+          "to declare confidently",
+          "to declare proudly",
+          "to declare dramatically"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おおみえきる",
+        "written": "大見え切る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おおみえきる",
+        "written": "大見得きる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おおみえきる",
+        "written": "大見得切る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to strike a pose (for dramatic effect)"
+        ]
+      },
+      {
+        "glosses": [
+          "to declare confidently",
+          "to declare proudly",
+          "to declare dramatically"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おおみえをきる",
+        "written": "大見えを切る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おおみえをきる",
+        "written": "大見得をきる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おおみえをきる",
+        "written": "大見得を切る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to turn out as one thought"
+        ]
+      },
+      {
+        "glosses": [
+          "to get (e.g. the gist of something)",
+          "to understand"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いをえる",
+        "written": "意を得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "understood only by oneself"
+        ]
+      },
+      {
+        "glosses": [
+          "peculiarity",
+          "uniqueness",
+          "characteristic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "ichi2",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "どくとく",
+        "written": "独得"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "ichi2",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "どくとく",
+        "written": "独特"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pose",
+          "posture"
+        ]
+      },
+      {
+        "glosses": [
+          "show",
+          "display",
+          "pretensions",
+          "appearances",
+          "ostentation",
+          "vanity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "みえ",
+        "written": "見え"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "みえ",
+        "written": "見得"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "みえ",
+        "written": "見栄"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be able to ...",
+          "can ..."
+        ]
+      },
+      {
+        "glosses": [
+          "to get",
+          "to acquire",
+          "to obtain",
+          "to procure",
+          "to earn",
+          "to win",
+          "to gain",
+          "to secure",
+          "to attain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "うる",
+        "written": "得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to strike a pose (in kabuki)",
+          "to assume a posture"
+        ]
+      },
+      {
+        "glosses": [
+          "to make a proud gesture",
+          "to put on an air of confidence",
+          "to speak boastfully"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みえをきる",
+        "written": "見えを切る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "みえをきる",
+        "written": "見得を切る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "consent",
+          "agreement",
+          "acceptance"
+        ]
+      },
+      {
+        "glosses": [
+          "understanding",
+          "satisfaction (e.g. with an explanation)",
+          "being convinced"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "なっとく",
+        "written": "納得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "who benefits (from that)?",
+          "who cares?",
+          "who would want that?",
+          "who is it meant to appeal to?"
+        ]
+      },
+      {
+        "glosses": [
+          "pointless",
+          "of benefit to no one",
+          "of interest to no one",
+          "appealing to no one",
+          "extremely niche"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だれとく",
+        "written": "誰得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "being paid back for one's deeds"
+        ]
+      },
+      {
+        "glosses": [
+          "understanding (on one's own)",
+          "realizing (through one's own ability)"
+        ]
+      },
+      {
+        "glosses": [
+          "self-satisfaction",
+          "self-complacency",
+          "complacency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じとく",
+        "written": "自得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "earnings from land tax (feudal Japan)"
+        ]
+      },
+      {
+        "glosses": [
+          "(one's) share",
+          "portion"
+        ]
+      },
+      {
+        "glosses": [
+          "profit",
+          "gains",
+          "returns"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくぶん",
+        "written": "得分"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とくぶん",
+        "written": "徳分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "obtaining (something) unexpectedly"
+        ]
+      },
+      {
+        "glosses": [
+          "one's faith being transmitted to a deity and one's wish then being granted"
+        ]
+      },
+      {
+        "glosses": [
+          "(profound) realization",
+          "awareness",
+          "appreciation",
+          "becoming (spiritually) awakened (to)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんとく",
+        "written": "感得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to (understand and) accept (a responsibility)"
+        ]
+      },
+      {
+        "glosses": [
+          "to have a knowledge of (a skill, art, etc.)",
+          "to have a command of",
+          "to know (how to do)"
+        ]
+      },
+      {
+        "glosses": [
+          "to know",
+          "to understand",
+          "to be aware of",
+          "to regard as",
+          "to take for"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "こころえる",
+        "written": "心得る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "deputy",
+          "acting"
+        ]
+      },
+      {
+        "glosses": [
+          "knowledge",
+          "understanding"
+        ]
+      },
+      {
+        "glosses": [
+          "rules",
+          "regulations",
+          "guideline",
+          "directions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf23"
+        ],
+        "pronounced": "こころえ",
+        "written": "心得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one's strong point",
+          "one's forte",
+          "one's specialty"
+        ]
+      },
+      {
+        "glosses": [
+          "regular customer",
+          "regular client",
+          "patron"
+        ]
+      },
+      {
+        "glosses": [
+          "satisfaction",
+          "pride",
+          "triumph",
+          "elation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "とくい",
+        "written": "得意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interview"
+        ]
+      },
+      {
+        "glosses": [
+          "meeting"
+        ]
+      },
+      {
+        "glosses": [
+          "trial for a servant"
+        ]
+      },
+      {
+        "glosses": [
+          "stage debut",
+          "first appearance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めみえ",
+        "written": "目見え"
+      },
+      {
+        "priorities": [],
+        "pronounced": "めみえ",
+        "written": "目見得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be able to ..., can ..."
+        ]
+      },
+      {
+        "glosses": [
+          "to receive something undesirable (e.g. a punishment)",
+          "to get (ill)"
+        ]
+      },
+      {
+        "glosses": [
+          "to understand",
+          "to comprehend"
+        ]
+      },
+      {
+        "glosses": [
+          "to get",
+          "to earn",
+          "to acquire",
+          "to procure",
+          "to gain",
+          "to secure",
+          "to attain",
+          "to obtain",
+          "to win"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "える",
+        "written": "得る"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "える",
+        "written": "獲る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "audience (with a lord, dignitary, etc.)",
+          "interview"
+        ]
+      },
+      {
+        "glosses": [
+          "audience with a shogun (granted to a vassal; Edo period)",
+          "right to have an audience with a shogun"
+        ]
+      },
+      {
+        "glosses": [
+          "trial service (of a servant)",
+          "probation"
+        ]
+      },
+      {
+        "glosses": [
+          "first (public) appearance",
+          "debut",
+          "coming out (on the market)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おめみえ",
+        "written": "お目見え"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おめみえ",
+        "written": "お目見得"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おめみえ",
+        "written": "御目見"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おめみえ",
+        "written": "御目見得"
+      }
+    ]
+  }
+]

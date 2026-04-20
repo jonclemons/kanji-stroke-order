@@ -1,0 +1,4807 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(in) a state of rest"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいしじょうたい",
+        "written": "静止状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(quality of) signal reception"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅしんじょうたい",
+        "written": "受信状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(the condition of) one's health"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんこうじょうたい",
+        "written": "健康状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(the state of) weightlessness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むじゅうりょくじょうたい",
+        "written": "無重力状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Establishment of Tropical Marine Ecological Research"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねったいかいようせいたいけんきゅうしんこうざいだん",
+        "written": "熱帯海洋生態研究振興財団"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Society of Metabolism and Clinical Nutrition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんびょうたいえいようがっかい",
+        "written": "日本病態栄養学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Society for the Study of Xenobiotics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんやくぶつどうたいがっかい",
+        "written": "日本薬物動態学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Ecology and Environment (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいたいかんきょうぶ",
+        "written": "生態環境部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abnormal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へんたいてき",
+        "written": "変態的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abnormal mentality"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へんたいしんり",
+        "written": "変態心理"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abnormal psychology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へんたいしんりがく",
+        "written": "変態心理学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abusive language"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf40"
+        ],
+        "pronounced": "あくたい",
+        "written": "悪体"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf40"
+        ],
+        "pronounced": "あくたい",
+        "written": "悪態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "active"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうさじょうたい",
+        "written": "動作状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "active state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうこうじょうたい",
+        "written": "有効状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "active voice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうどうたい",
+        "written": "能動態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "allomorph"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いけいたい",
+        "written": "異形態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anomalous condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いじょうじょうたい",
+        "written": "異常状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attack preparedness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうげきたいせい",
+        "written": "攻撃態勢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attitude and demeanor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいどものごし",
+        "written": "態度物腰"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "channel status word"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "チャネルじょうたいご",
+        "written": "チャネル状態語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "comatose state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こんすいじょうたい",
+        "written": "こん睡状態"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こんすいじょうたい",
+        "written": "昏睡状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "command state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "コマンドまちじょうたい",
+        "written": "コマンド待ち状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conservation ecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほぜんせいたいがく",
+        "written": "保全生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "coquetry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうたい",
+        "written": "嬌態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "coquetry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びたい",
+        "written": "媚態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "credit standing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんようじょうたい",
+        "written": "信用状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "critical condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きとくじょうたい",
+        "written": "危篤状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "critical state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りんかいじょうたい",
+        "written": "臨界状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "declaration of a state of emergency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひじょうじたいせんげん",
+        "written": "非常事態宣言"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "declaration of a state of emergency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "きんきゅうじたいせんげん",
+        "written": "緊急事態宣言"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "declaration of ending a state of war"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんそうじょうたいしゅうけつせんげん",
+        "written": "戦争状態終結宣言"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "demographic statistics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんこうどうたいとうけい",
+        "written": "人口動態統計"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "demographic survey"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんこうどうたいちょうさ",
+        "written": "人口動態調査"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dynamic analysis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうたいぶんせき",
+        "written": "動態分析"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dynamic or vital or current statistics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうたいとうけい",
+        "written": "動態統計"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dynamic verb"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうたいどうし",
+        "written": "動態動詞"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ecological"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいたいてき",
+        "written": "生態的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ecological anthropology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいたいじんるいがく",
+        "written": "生態人類学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "せいたいがく",
+        "written": "生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ecosystem"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "せいたいけい",
+        "written": "生態系"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ecotype"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいたいけい",
+        "written": "生態型"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "embodiment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じっしけいたい",
+        "written": "実施形態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "emergency government"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひじょうじたいせいふ",
+        "written": "非常事態政府"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "endless variety"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんしばんたい",
+        "written": "千姿万態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "equation of state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうたいほうていしき",
+        "written": "状態方程式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error condition (in calculators)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりじょうたい",
+        "written": "誤り状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error condition (in calculators)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "エラーじょうたい",
+        "written": "エラー状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error state list"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "エラーじょうたいリスト",
+        "written": "エラー状態リスト"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "essential hypertension"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんたいせいこうけつあつ",
+        "written": "本態性高血圧"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "essential tremor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんたいせいしんせん",
+        "written": "本態性振戦"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "exception condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れいがいじょうたい",
+        "written": "例外状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excited state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れいきじょうたい",
+        "written": "励起状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "extreme situation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくげんじょうたい",
+        "written": "極限状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "final state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうじょうたい",
+        "written": "終状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "financial condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいせいじょうたい",
+        "written": "財政状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "finite-state grammar"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうげんじょうたいぶんぽう",
+        "written": "有限状態文法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "forest ecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんりんせいたいがく",
+        "written": "森林生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "great diversity of form"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんたいばんよう",
+        "written": "千態万様"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ground state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きていじょうたい",
+        "written": "基底状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hemodynamics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けっこうどうたい",
+        "written": "血行動態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hibernation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうしじょうたい",
+        "written": "休止状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "human ecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にんげんせいたいがく",
+        "written": "人間生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "i-o status"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にゅうしゅつりょくじょうたい",
+        "written": "入出力状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ideology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんねんけいたい",
+        "written": "観念形態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "initial state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しじょうたい",
+        "written": "始状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "initial state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょきじょうたい",
+        "written": "初期状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "internal state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないぶじょうたい",
+        "written": "内部状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lake ecosystem"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こしょうせいたいけい",
+        "written": "湖沼生態系"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "landscape ecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいかんせいたいがく",
+        "written": "景観生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lawlessness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むほうじょうたい",
+        "written": "無法状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "light source state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうげんじょうたい",
+        "written": "光源状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "link state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "リンクじょうたい",
+        "written": "リンク状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "manic state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうじょうたい",
+        "written": "躁状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "marine ecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいようせいたいがく",
+        "written": "海洋生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "market saturation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しじょうのほうわじょうたい",
+        "written": "市場の飽和状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mathematical morphology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すうりけいたいがく",
+        "written": "数理形態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "molecular ecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんしせいたいがく",
+        "written": "分子生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "morpheme"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいたいそ",
+        "written": "形態素"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "morphemic word"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいたいそご",
+        "written": "形態素語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "morphofunctional"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいたいきのうてき",
+        "written": "形態機能的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "morphofunctional modifications"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいたいきのうてきへんか",
+        "written": "形態・機能的変化"
+      },
+      {
+        "priorities": [],
+        "pronounced": "けいたいきのうてきへんか",
+        "written": "形態機能的変化"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "morphogenesis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいたいけいせい",
+        "written": "形態形成"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "morphological analysis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいたいそかいせき",
+        "written": "形態素解析"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "morphological analyzer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいたいそかいせきき",
+        "written": "形態素解析器"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "morphology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいたいがく",
+        "written": "形態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "morphology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいたいろん",
+        "written": "形態論"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "morphophoneme"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいたいおんそ",
+        "written": "形態音素"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "network topology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ネットワークせつぞくけいたい",
+        "written": "ネットワーク接続形態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "new normal (state of new economic or financial conditions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんじょうたい",
+        "written": "新常態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "normal state (condition)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "じょうたい",
+        "written": "常態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "normalization (of a social problem, of a situation, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうたいか",
+        "written": "常態化"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "old state of affairs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "きゅうたい",
+        "written": "旧態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one's mental state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんてきじょうたい",
+        "written": "心的状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "online state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "オンラインじょうたい",
+        "written": "オンライン状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "packet mode terminal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "パケットけいたいたんまつ",
+        "written": "パケット形態端末"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paleoecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こせいたいがく",
+        "written": "古生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "passive voice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅどうたい",
+        "written": "受動態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pathophysiology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びょうたいせいりがく",
+        "written": "病態生理学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacokinetics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつどうたい",
+        "written": "薬物動態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacokinetics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつどうたいがく",
+        "written": "薬物動態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "plant ecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくぶつせいたいがく",
+        "written": "植物生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pointer associated"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しじじょうたい",
+        "written": "指示状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "polymorphism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たたいせい",
+        "written": "多態性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "population ecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こたいぐんせいたいがく",
+        "written": "個体群生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "power disconnected (state)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんげんせつだんじょうたい",
+        "written": "電源切断状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "preservation of machinery or vehicles for display purposes (i.e. no longer operational)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいたいほぞん",
+        "written": "静態保存"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "preservation of obsolete machinery in a functional condition (e.g. train engines)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうたいほぞん",
+        "written": "動態保存"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ready-to-commit state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "コミットじゅんびかんりょうじょうたい",
+        "written": "コミット準備完了状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reduced power state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていしょうひでんりょくじょうたい",
+        "written": "低消費電力状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sanitary conditions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいせいじょうたい",
+        "written": "衛生状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "saturation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうわじょうたい",
+        "written": "飽和状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "secondary station status"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にじきょくじょうたい",
+        "written": "二次局状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "security measures"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいびたいせい",
+        "written": "警備態勢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sexual perversion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へんたいせい",
+        "written": "変態性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "significant condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆういじょうたい",
+        "written": "有意状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "social form"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃかいけいたい",
+        "written": "社会形態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sperm morphology (ratio)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいしせいじょうけいたいりつ",
+        "written": "精子正常形態率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "standstill"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あしぶみじょうたい",
+        "written": "足踏み状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state information"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうたいじょうほう",
+        "written": "状態情報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state machine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうたいマシン",
+        "written": "状態マシン"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of (mental) confusion (agitation)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくらんじょうたい",
+        "written": "錯乱状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of confusion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こんらんじょうたい",
+        "written": "混乱状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of dependence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いぞんじょうたい",
+        "written": "依存状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of emergency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひじょうじたい",
+        "written": "非常事態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of national emergency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こっかひじょうじたい",
+        "written": "国家非常事態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of rebellion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうらんじょうたい",
+        "written": "騒乱状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of tension"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんちょうじょうたい",
+        "written": "緊張状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of war"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんそうじょうたい",
+        "written": "戦争状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state space"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうたいくうかん",
+        "written": "状態空間"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state space"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうたいへんすう",
+        "written": "状態変数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "static population"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんこうせいたい",
+        "written": "人口静態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "static statistics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいたいそうけい",
+        "written": "静態総計"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "status keyword"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうたいみだしご",
+        "written": "状態見出し語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "steady state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていじょうじょうたい",
+        "written": "定常状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "structure state list"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうぞうたいじょうたいリスト",
+        "written": "構造体状態リスト"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "switch-status condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "スイッチじょうたいじょうけん",
+        "written": "スイッチ状態条件"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the three phases of matter: solid, liquid and gas"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんたい",
+        "written": "三態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "threat to national existence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そんりつききじたい",
+        "written": "存立危機事態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "topology state element"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "トポロジじょうたいようそ",
+        "written": "トポロジ状態要素"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "traversal state list"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうさじょうたいリスト",
+        "written": "走査状態リスト"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unknown state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みちじょうたい",
+        "written": "未知状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "urban ecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "としせいたいがく",
+        "written": "都市生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "valence state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かでんしじょうたい",
+        "written": "価電子状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "various phases"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひゃくたい",
+        "written": "百態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vegetative state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくぶつじょうたい",
+        "written": "植物状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visually correct"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てきせいひょうじじょうたい",
+        "written": "適正表示状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wait state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ウェイトじょうたい",
+        "written": "ウェイト状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "waiting state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まちじょうたい",
+        "written": "待ち状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wakefulness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくせいじょうたい",
+        "written": "覚醒状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "war preparation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りんせんたいせい",
+        "written": "臨戦態勢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "workstation state list"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ワークステーションじょうたいリスト",
+        "written": "ワークステーション状態リスト"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(contemporary) customs and behavior",
+          "the picture of people's life in the contemporary world"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せたいにんじょう",
+        "written": "世態人情"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(state of) house arrest",
+          "(state of) confinement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんきんじょうたい",
+        "written": "軟禁状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "DSB",
+          "Device Status Byte"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうちじょうたいバイト",
+        "written": "装置状態バイト"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Public Health Emergency of International Concern (formal WHO declaration)",
+          "PHEIC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいてきにけねんされるこうしゅうえいせいじょうのきんきゅうじたい",
+        "written": "国際的に懸念される公衆衛生上の緊急事態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Rip van Winkle feeling",
+          "feeling that everything has changed once one comes back to one's hometown"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うらしまたろうじょうたい",
+        "written": "浦島太郎状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abnormal sexuality",
+          "sexual perversion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へんたいせいよく",
+        "written": "変態性欲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "actual working conditions",
+          "field conditions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じつかどうじょうたい",
+        "written": "実稼働状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alert status",
+          "emergency alert"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいかいたいせい",
+        "written": "警戒態勢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "an endless variety of forms",
+          "multifariousness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんたいばんじょう",
+        "written": "千態万状"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anarchy",
+          "state of anarchy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むせいふじょうたい",
+        "written": "無政府状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "autecology",
+          "autoecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こせいたいがく",
+        "written": "個生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "basic state",
+          "basic status"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きほんじょうたい",
+        "written": "基本状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "befuddled (bewildered, confused) state",
+          "stupor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こんめいじょうたい",
+        "written": "昏迷状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "behavioral ecology",
+          "behavioural ecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうどうせいたいがく",
+        "written": "行動生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "being bunched up together",
+          "being crowded together"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だんごじょうたい",
+        "written": "団子状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "blank slate",
+          "tabula rasa"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はくしじょうたい",
+        "written": "白紙状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "blocked state",
+          "closed state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいそくじょうたい",
+        "written": "閉塞状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "changes in demographics",
+          "movements in population characteristics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんこうどうたい",
+        "written": "人口動態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "class action lawsuit",
+          "class action"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふくざつそしょうけいたい",
+        "written": "複雑訴訟形態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "complete metamorphosis",
+          "holometabolism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜんへんたい",
+        "written": "完全変態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "condition",
+          "state of preservation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほぞんじょうたい",
+        "written": "保存状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "congested state (of a network)",
+          "congestion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふくそうじょうたい",
+        "written": "輻輳状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "connection configuration",
+          "topology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せつぞくけいたい",
+        "written": "接続形態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "current situation",
+          "current conditions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんざいじょうたい",
+        "written": "現在状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "depressive state (e.g. of manic depression)",
+          "depressive condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うつじょうたい",
+        "written": "うつ状態"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うつじょうたい",
+        "written": "欝状態"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うつじょうたい",
+        "written": "鬱状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "disgraceful behavior",
+          "disgraceful behaviour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうたい",
+        "written": "狂態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drunkenness",
+          "intoxication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいたい",
+        "written": "酔態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dynamis",
+          "dunamis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かのうたい",
+        "written": "可能態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "employment system",
+          "employment pattern"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こようけいたい",
+        "written": "雇用形態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "empty state",
+          "nil state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くうじょうたい",
+        "written": "空状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excited condition",
+          "excited state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうふんじょうたい",
+        "written": "興奮状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "finite-state machine",
+          "FSM"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうげんじょうたいきかい",
+        "written": "有限状態機械"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "foolishness",
+          "silliness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちたい",
+        "written": "痴態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "form of transport",
+          "mode of transport"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆそうけいたい",
+        "written": "輸送形態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "former appearance",
+          "original form"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こたい",
+        "written": "古態"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こたい",
+        "written": "故態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "idle state",
+          "idle conditions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アイドルじょうたい",
+        "written": "アイドル状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "incomplete metamorphosis",
+          "hemimetabolism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふかんぜんへんたい",
+        "written": "不完全変態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "looking satisfied",
+          "looking very pleased"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まんえつのてい",
+        "written": "満悦の体"
+      },
+      {
+        "priorities": [],
+        "pronounced": "まんえつのてい",
+        "written": "満悦の態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mimicry",
+          "impersonation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいたいもしゃ",
+        "written": "形態模写"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "movement",
+          "dynamic state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "どうたい",
+        "written": "動態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "natural state",
+          "natural condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しぜんじょうたい",
+        "written": "自然状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "patient's condition",
+          "pathology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf40"
+        ],
+        "pronounced": "びょうたい",
+        "written": "病態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "phase transformation",
+          "phase transition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうへんたい",
+        "written": "相変態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "practical configuration",
+          "practical form"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うんようけいたい",
+        "written": "運用形態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "precancerous state",
+          "premalignant state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんがんじょうたい",
+        "written": "前癌状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "program status word",
+          "PSW"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "プログラムじょうたいご",
+        "written": "プログラム状態語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "readiness to cooperate",
+          "framework for cooperation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうりょくたいせい",
+        "written": "協力態勢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "remaining unchanged (from the old state of things)",
+          "none the better for the change (if at all)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうたいいぜん",
+        "written": "旧態依然"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "scenic beauty of mountains and streams",
+          "fresh and clear beauty of nature's splendor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんようすいたい",
+        "written": "山容水態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "selection condition",
+          "selection conditions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんたくじょうたい",
+        "written": "選択状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "serious condition",
+          "critical condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "じゅうたい",
+        "written": "重体"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "じゅうたい",
+        "written": "重態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state change",
+          "state transition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうたいせんい",
+        "written": "状態遷移"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state diagram",
+          "state transition diagram"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうたいせんいず",
+        "written": "状態遷移図"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of drunkenness",
+          "(in a) fuddle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でいすいじょうたい",
+        "written": "泥酔状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of mind",
+          "(one's) mental state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんりじょうたい",
+        "written": "心理状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "static",
+          "stationary"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいたい",
+        "written": "静態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "steady state",
+          "stable state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あんていじょうたい",
+        "written": "安定状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "synecology",
+          "community ecology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぐんしゅうせいたいがく",
+        "written": "群集生態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the way one waits on customers",
+          "service attitude"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっきゃくたいど",
+        "written": "接客態度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trance",
+          "an altered state of consciousness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へんせいいしきじょうたい",
+        "written": "変性意識状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "various forms",
+          "various circumstances"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんじょうばんたい",
+        "written": "千状万態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "weakened condition",
+          "state of decline"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいたい",
+        "written": "衰態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "worst",
+          "worst-case (scenario)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいあくのじたい",
+        "written": "最悪の事態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "apathy",
+          "lethargic state",
+          "state of lassitude"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むきりょくじょうたい",
+        "written": "無気力状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "combat readiness",
+          "battle readiness",
+          "fighting trim"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんとうたいせい",
+        "written": "戦闘態勢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "condition",
+          "state (of health)",
+          "appearance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようたい",
+        "written": "容体"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ようたい",
+        "written": "容態"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ようたい",
+        "written": "容躰"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ようたい",
+        "written": "容體"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ようたい",
+        "written": "様体"
+      },
+      {
+        "priorities": [
+          "ichi2",
+          "news2",
+          "nf16"
+        ],
+        "pronounced": "ようだい",
+        "written": "容体"
+      },
+      {
+        "priorities": [
+          "ichi2",
+          "news2",
+          "nf16"
+        ],
+        "pronounced": "ようだい",
+        "written": "容態"
+      },
+      {
+        "priorities": [
+          "ichi2",
+          "news2",
+          "nf16"
+        ],
+        "pronounced": "ようだい",
+        "written": "容躰"
+      },
+      {
+        "priorities": [
+          "ichi2",
+          "news2",
+          "nf16"
+        ],
+        "pronounced": "ようだい",
+        "written": "容體"
+      },
+      {
+        "priorities": [
+          "ichi2",
+          "news2",
+          "nf16"
+        ],
+        "pronounced": "ようだい",
+        "written": "様体"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "consumer confidence index",
+          "CCI",
+          "consumer attitude index"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうひしゃたいどしすう",
+        "written": "消費者態度指数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crease resistance",
+          "wrinkle resistance",
+          "shape retention"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいたいあんてい",
+        "written": "形態安定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fact-finding investigation",
+          "investigation into actual conditions",
+          "fact-finding survey"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf08"
+        ],
+        "pronounced": "じったいちょうさ",
+        "written": "実態調査"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "figure",
+          "form",
+          "style"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "したい",
+        "written": "姿体"
+      },
+      {
+        "priorities": [],
+        "pronounced": "したい",
+        "written": "姿態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "form",
+          "situation",
+          "condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようたい",
+        "written": "様態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "high alert",
+          "a state of high alert",
+          "on alert"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんかいたいせい",
+        "written": "厳戒態勢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mental condition",
+          "state of mind",
+          "mentality"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいしんじょうたい",
+        "written": "精神状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mimicry",
+          "mimesis",
+          "camouflage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎたい",
+        "written": "擬態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "moribund state",
+          "near-death",
+          "barely alive condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひんしじょうたい",
+        "written": "瀕死状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "morphophonology",
+          "morphophonemics",
+          "morphonology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいたいおんいんろん",
+        "written": "形態音韻論"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "on purpose",
+          "deliberately",
+          "intentionally"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "わざと",
+        "written": "態と"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "phenomime",
+          "mimetic word",
+          "word that mimics an action, condition, or manner that does not make a sound (e.g. \"damp\", \"calmly\")"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎたいご",
+        "written": "擬態語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "situation",
+          "(present) state of affairs",
+          "circumstances"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "じたい",
+        "written": "事体"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "じたい",
+        "written": "事態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of emergency",
+          "emergency",
+          "crisis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんきゅうじたい",
+        "written": "緊急事態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of society",
+          "social conditions",
+          "order of the world"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいたい",
+        "written": "世態"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せたい",
+        "written": "世態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stative verb",
+          "state verb",
+          "non-progressive verb"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうたいどうし",
+        "written": "状態動詞"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "strange",
+          "curious",
+          "odd"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きたい",
+        "written": "奇体"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きたい",
+        "written": "奇態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to use abusive language",
+          "to curse",
+          "to call someone names"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あくたいをつく",
+        "written": "悪態をつく"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "true state",
+          "actual condition",
+          "reality"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "じったい",
+        "written": "実態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unstable state",
+          "metastable state",
+          "quasistable state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふあんていじょうたい",
+        "written": "不安定状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "way of living",
+          "manner of living",
+          "lifestyle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいかつたいど",
+        "written": "生活態度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "arrogant",
+          "impudent",
+          "haughty",
+          "boastful"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいどがおおきい",
+        "written": "態度が大きい"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attitude",
+          "posture",
+          "preparedness",
+          "readiness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "たいせい",
+        "written": "態勢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "being in abstraction",
+          "being dazed",
+          "being absentminded",
+          "stargazing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうしんじょうたい",
+        "written": "放心状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chaotic state",
+          "turmoil",
+          "disarray",
+          "labyrinth"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こんめいじょうたい",
+        "written": "混迷状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "disgraceful behavior",
+          "disgraceful behaviour",
+          "shameful conduct",
+          "shameful sight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36",
+          "spec2"
+        ],
+        "pronounced": "しゅうたい",
+        "written": "醜体"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf36",
+          "spec2"
+        ],
+        "pronounced": "しゅうたい",
+        "written": "醜態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "economic conditions",
+          "economic situation",
+          "financial situation",
+          "financial circumstances"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいざいじょうたい",
+        "written": "経済状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state",
+          "condition",
+          "situation",
+          "terms"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいよう",
+        "written": "体様"
+      },
+      {
+        "priorities": [],
+        "pronounced": "たいよう",
+        "written": "態様"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of lethargy",
+          "absolute bewilderment",
+          "daze",
+          "mental numbness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょだつじょうたい",
+        "written": "虚脱状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state of reduced activity",
+          "lull",
+          "state of abeyance",
+          "stable condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうこうじょうたい",
+        "written": "小康状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to take an attitude",
+          "to take a stance",
+          "to commit oneself",
+          "to assume a position"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいどをとる",
+        "written": "態度をとる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "たいどをとる",
+        "written": "態度を取る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unnatural",
+          "affected",
+          "studied",
+          "forced"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わざとらしい",
+        "written": "態とらしい"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "appearance",
+          "air",
+          "condition",
+          "state",
+          "form"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てい",
+        "written": "体"
+      },
+      {
+        "priorities": [],
+        "pronounced": "てい",
+        "written": "態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "deadlock",
+          "standstill",
+          "stalemate",
+          "impasse",
+          "standoff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうちゃくじょうたい",
+        "written": "こう着状態"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こうちゃくじょうたい",
+        "written": "膠着状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "standstill",
+          "deadlock",
+          "stalemate",
+          "doldrums",
+          "stagnant conditions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていとんじょうたい",
+        "written": "停頓状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state",
+          "condition",
+          "situation",
+          "appearance",
+          "circumstances"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "じょうたい",
+        "written": "情態"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "じょうたい",
+        "written": "状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "blunder",
+          "fault",
+          "error",
+          "mistake",
+          "failure",
+          "disgrace"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "しったい",
+        "written": "失体"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "しったい",
+        "written": "失態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "style",
+          "way",
+          "shape",
+          "form",
+          "appearance",
+          "state"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なり",
+        "written": "形"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なり",
+        "written": "態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "business conditions"
+        ]
+      },
+      {
+        "glosses": [
+          "business category",
+          "line of business"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうたい",
+        "written": "業態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "morph"
+        ]
+      },
+      {
+        "glosses": [
+          "form",
+          "shape",
+          "figure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "けいたい",
+        "written": "形体"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "けいたい",
+        "written": "形態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "senile dementia"
+        ]
+      },
+      {
+        "glosses": [
+          "state of ecstasy",
+          "state of rapture",
+          "trance",
+          "reverie"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうこつじょうたい",
+        "written": "恍惚状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "voice"
+        ]
+      },
+      {
+        "glosses": [
+          "condition",
+          "figure",
+          "appearance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf13"
+        ],
+        "pronounced": "たい",
+        "written": "態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ecology",
+          "life and habits (of an animal)"
+        ]
+      },
+      {
+        "glosses": [
+          "mode of life",
+          "way of living"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "せいたい",
+        "written": "生態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intentionally",
+          "deliberately",
+          "on purpose"
+        ]
+      },
+      {
+        "glosses": [
+          "expressly",
+          "especially",
+          "specially",
+          "taking the trouble (to do)",
+          "going to the trouble of (doing)",
+          "going out of one's way (to do)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "わざわざ",
+        "written": "態々"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "わざわざ",
+        "written": "態態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attitude (towards an issue, etc.)",
+          "position",
+          "stance",
+          "stand"
+        ]
+      },
+      {
+        "glosses": [
+          "attitude",
+          "manner",
+          "behaviour",
+          "demeanour",
+          "bearing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "たいど",
+        "written": "態度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "phase change"
+        ]
+      },
+      {
+        "glosses": [
+          "state change"
+        ]
+      },
+      {
+        "glosses": [
+          "transformation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうたいへんか",
+        "written": "状態変化"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "-ways",
+          "-wards"
+        ]
+      },
+      {
+        "glosses": [
+          "in the act of ...",
+          "just as one is ..."
+        ]
+      },
+      {
+        "glosses": [
+          "manner of ...",
+          "way of ..."
+        ]
+      },
+      {
+        "glosses": [
+          "mess",
+          "sorry state",
+          "plight",
+          "sad sight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざま",
+        "written": "態"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ざま",
+        "written": "様"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abnormality"
+        ]
+      },
+      {
+        "glosses": [
+          "metamorphosis"
+        ]
+      },
+      {
+        "glosses": [
+          "transformation"
+        ]
+      },
+      {
+        "glosses": [
+          "sexual perversion",
+          "pervert"
+        ]
+      },
+      {
+        "glosses": [
+          "transformation",
+          "transition",
+          "modification"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41",
+          "spec2"
+        ],
+        "pronounced": "へんたい",
+        "written": "変態"
+      }
+    ]
+  }
+]

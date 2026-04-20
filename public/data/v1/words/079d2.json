@@ -1,0 +1,532 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a moment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すんびょう",
+        "written": "寸秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "countdown"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "びょうよみ",
+        "written": "秒読み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "every second"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "まいびょう",
+        "written": "毎秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "femtosecond"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "フェムトびょう",
+        "written": "フェムト秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "five-second rule"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごびょうルール",
+        "written": "５秒ルール"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "leap second"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うるうびょう",
+        "written": "うるう秒"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うるうびょう",
+        "written": "閏秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "microsecond"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "マイクロびょう",
+        "written": "マイクロ秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "millisecond"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ミリびょう",
+        "written": "ミリ秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "moment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふんびょう",
+        "written": "分秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one second"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いちびょう",
+        "written": "一秒"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いちびょう",
+        "written": "１秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "picosecond"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ピコびょう",
+        "written": "ピコ秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "second hand (of clock)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びょうしん",
+        "written": "秒針"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "several seconds"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すうびょう",
+        "written": "数秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stop watch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びょうどけい",
+        "written": "秒時計"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "watt-second"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ワットびょう",
+        "written": "ワット秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "within seconds"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すうびょういない",
+        "written": "数秒以内"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "zeptosecond"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゼプトびょう",
+        "written": "ゼプト秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "femtosecond chemistry",
+          "femtochemistry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "フェムトびょうかがく",
+        "written": "フェムト秒化学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rapid progress",
+          "minute-by-minute progress"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びょうしんふんほ",
+        "written": "秒進分歩"
+      },
+      {
+        "priorities": [],
+        "pronounced": "びょうしんふんぽ",
+        "written": "秒進分歩"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "split second",
+          "instant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "コンマびょう",
+        "written": "コンマ秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to have no time to lose",
+          "to fight with every minute and every second"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふんびょうをあらそう",
+        "written": "分秒を争う"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "winning in a flash",
+          "instant defeat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びょうさつ",
+        "written": "秒殺"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "arc second",
+          "arcsecond",
+          "second of arc"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びょうかく",
+        "written": "秒角"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "decays per second",
+          "disintegrations per second",
+          "dps"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいへんまいびょう",
+        "written": "壊変毎秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nanosecond",
+          "billionth of a second",
+          "ns"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ナノびょう",
+        "written": "ナノ秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in an instant",
+          "in a flash",
+          "right away",
+          "immediately"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びょうで",
+        "written": "秒で"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "arc second"
+        ]
+      },
+      {
+        "glosses": [
+          "second (unit of time)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "びょう",
+        "written": "秒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "three seconds rule (basketball)"
+        ]
+      },
+      {
+        "glosses": [
+          "three-second rule (food hygiene myth)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんびょうルール",
+        "written": "三秒ルール"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さんびょうルール",
+        "written": "３秒ルール"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "speed per second",
+          "velocity per second"
+        ]
+      },
+      {
+        "glosses": [
+          "instant",
+          "moment",
+          "a few seconds"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf23"
+        ],
+        "pronounced": "びょうそく",
+        "written": "秒速"
+      }
+    ]
+  }
+]

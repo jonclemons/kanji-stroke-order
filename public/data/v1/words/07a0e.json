@@ -1,0 +1,6206 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(Japanese) Tax Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "しゅぜいきょく",
+        "written": "主税局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) tax evasion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だつぜいはん",
+        "written": "脱税犯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Act on General Rules for National Taxes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくぜいつうそくほう",
+        "written": "国税通則法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Act on Special Measures Concerning Taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そぜいとくべつそちほう",
+        "written": "租税特別措置法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Act on Temporary Measures concerning Customs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいざんていそちほう",
+        "written": "関税暫定措置法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Board of Inland Revenue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないこくぜいしゅうにゅうきょく",
+        "written": "内国税収入局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Certified Public Tax Accountant Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいりしほう",
+        "written": "税理士法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Consumption Tax Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうひぜいほう",
+        "written": "消費税法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Corporation Tax Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうじんぜいほう",
+        "written": "法人税法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Customs Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいほう",
+        "written": "関税法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Customs Tariff Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいていりつほう",
+        "written": "関税定率法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Income Tax Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくぜいほう",
+        "written": "所得税法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Inheritance Tax Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうぞくぜいほう",
+        "written": "相続税法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Federation of Certified Tax Accountant's Association"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんぜいりしかいれんごうかい",
+        "written": "日本税理士会連合会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Liquor Tax Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅぜいほう",
+        "written": "酒税法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Local Tax Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちほうぜいほう",
+        "written": "地方税法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Tax Collection Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくぜいちょうしゅうほう",
+        "written": "国税徴収法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Tax College"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいむだいがっこう",
+        "written": "税務大学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Tax Violations Control Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくぜいはんそくとりしまりほう",
+        "written": "国税犯則取締法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "PC tax reduction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "パソコンげんぜい",
+        "written": "パソコン減税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Regional Taxation Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちほうこくぜいきょく",
+        "written": "地方国税局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Registration and License Tax Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくめんきょぜいほう",
+        "written": "登録免許税法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Special Income Tax for Reconstruction (of areas affected by the 2011 Tōhoku earthquake and tsunami)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふっこうとくべつしょとくぜい",
+        "written": "復興特別所得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Stamp Tax Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いんしぜいほう",
+        "written": "印紙税法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Tax Payment Association"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうぜいきょうかい",
+        "written": "納税協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Tobin tax (on cross-border currency trading)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "トービンぜい",
+        "written": "トービン税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Tokyo Regional Taxation Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうきょうこくぜいきょく",
+        "written": "東京国税局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Tokyo metropolitan residents' tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とみんぜい",
+        "written": "都民税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Zeikan Training Institute"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいかんけんしゅうじょ",
+        "written": "税関研修所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Zeimu Training Institute"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいむけんしゅうじょ",
+        "written": "税務研修所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a tax in kind"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶつのうぜい",
+        "written": "物納税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "additional tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ついちょうかぜい",
+        "written": "追徴課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "additional tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふかぜい",
+        "written": "付加税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "additional tax charged for not filing one's return on time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むしんこくかさんぜい",
+        "written": "無申告加算税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "admission tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にゅうじょうぜい",
+        "written": "入場税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "amount of tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "ぜいがく",
+        "written": "税額"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "amount of tax due"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうぜいがく",
+        "written": "納税額"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "annual tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねんぜい",
+        "written": "年税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anti-dumping duties"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ダンピングかんぜい",
+        "written": "ダンピング関税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "automobile acquisition tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうしゃしゅとくぜい",
+        "written": "自動車取得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "automobile weight tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうしゃじゅうりょうぜい",
+        "written": "自動車重量税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aviation fuel tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうきねんりょうぜい",
+        "written": "航空機燃料税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bonded area (i.e. customs)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほぜいちいき",
+        "written": "保税地域"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bonded warehouse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほぜいそうこ",
+        "written": "保税倉庫"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "brewery tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅぞうぜい",
+        "written": "酒造税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "brewing tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぞうこくぜい",
+        "written": "造石税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "business tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいぎょうぜい",
+        "written": "営業税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "business tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じぎょうぜい",
+        "written": "事業税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "carbon tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんそぜい",
+        "written": "炭素税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chief customs inspector"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいかんちょう",
+        "written": "税関長"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "circulation tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りゅうつうぜい",
+        "written": "流通税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "city planning tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "としけいかくぜい",
+        "written": "都市計画税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "city tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しぜい",
+        "written": "市税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conduit taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうかんかぜい",
+        "written": "導管課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "congestion charge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうたいぜい",
+        "written": "渋滞税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "consumption tax (incl. sales tax, VAT, excise duty, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "しょうひぜい",
+        "written": "消費税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "corporate income tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうじんしょとくぜい",
+        "written": "法人所得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "corporate taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうじんかぜい",
+        "written": "法人課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "countervailing duty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうさいかんぜい",
+        "written": "相殺関税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "customs bond"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほぜい",
+        "written": "保税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "customs declaration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいかんしんこくしょ",
+        "written": "税関申告書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "customs declaration (form)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいかんこくちしょ",
+        "written": "税関告知書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "customs inspection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいかんけんさ",
+        "written": "税関検査"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "customs office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいきょく",
+        "written": "関税局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "customs officer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいかんり",
+        "written": "税関吏"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "customs procedures (at the airport, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいかんてつづき",
+        "written": "税関手続"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぜいかんてつづき",
+        "written": "税関手続き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "customs tariff schedules of Japan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じっこうかんぜいりつひょう",
+        "written": "実行関税率表"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "customs union"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいどうめい",
+        "written": "関税同盟"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "direct tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょくぜい",
+        "written": "直税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "direct tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "ちょくせつぜい",
+        "written": "直接税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "document duty stamp"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんしょいんしぜい",
+        "written": "文書印紙税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "double duty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にじゅうぜい",
+        "written": "二重税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "double taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にじゅうかぜい",
+        "written": "二重課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dual corporate tax system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいけいひょうじゅんかぜい",
+        "written": "外形標準課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "duty-free articles"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めんぜいひん",
+        "written": "免税品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "duty-free goods"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むぜいひん",
+        "written": "無税品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "duty-free list"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めんぜいひょう",
+        "written": "免税表"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "duty-free store"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めんぜいてん",
+        "written": "免税店"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "effective tax rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じっこうぜいりつ",
+        "written": "実効税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "electronic tax filing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんしのうぜいしんこく",
+        "written": "電子納税申告"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "entertainment tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうきょうぜい",
+        "written": "遊興税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "equalization tax (interest, commercial values, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいこうぜい",
+        "written": "平衡税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excessive taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうかかぜい",
+        "written": "超過課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "exchange tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とりひきじょぜい",
+        "written": "取引所税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excise tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくないしょうひぜい",
+        "written": "国内消費税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "export duties"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆしゅつぜい",
+        "written": "輸出税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flexible tariff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんしゅくぜいりつ",
+        "written": "伸縮税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "foreign tax amount reduction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいこくぜいがくこうじょ",
+        "written": "外国税額控除"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fuel tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねんりょうぜい",
+        "written": "燃料税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general bonded zone (esp. in trade with China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうごうほぜいく",
+        "written": "総合保税区"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general consumption tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっぱんしょうひぜい",
+        "written": "一般消費税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general tariff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっぱんぜいりつ",
+        "written": "一般税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "heavy additional tax(ation)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "じゅうかさんぜい",
+        "written": "重加算税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "heavy taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かぜい",
+        "written": "苛税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "heavy taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくぜい",
+        "written": "酷税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "heavy taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "じゅうぜい",
+        "written": "重税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "house tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かおくぜい",
+        "written": "家屋税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "import duties"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆにゅうぜい",
+        "written": "輸入税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "import duty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆにゅうかんぜい",
+        "written": "輸入関税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "including consumption tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうひぜいこみ",
+        "written": "消費税込み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "しょとくぜい",
+        "written": "所得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income tax return"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうぜいしんこく",
+        "written": "納税申告"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income tax withheld at the source"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんせんしょとくぜい",
+        "written": "源泉所得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indirect tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "かんせつぜい",
+        "written": "間接税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inheritance tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いさんそうぞくぜい",
+        "written": "遺産相続税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "irrational tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あくぜい",
+        "written": "悪税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "items of taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "ぜいもく",
+        "written": "税目"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "land tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちぜい",
+        "written": "地税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "land taxation system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とちぜいせい",
+        "written": "土地税制"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "light vehicle tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいじどうしゃぜい",
+        "written": "軽自動車税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local consumption tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちほうしょうひぜい",
+        "written": "地方消費税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "metropolitan tax (of Tokyo)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とぜい",
+        "written": "都税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mining tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうぎょうぜい",
+        "written": "鉱業税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "miscellaneous taxes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざつぜい",
+        "written": "雑税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "multiple tax rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふくすうぜいりつ",
+        "written": "複数税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "municipal tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しちょうそんぜい",
+        "written": "市町村税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "municipal tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しみんぜい",
+        "written": "市民税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "municipal tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "じゅうみんぜい",
+        "written": "住民税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "national tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "こくぜい",
+        "written": "国税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "net taxable amount (after deduction of health insurance, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かざいたいしょうがく",
+        "written": "課税対象額"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "new tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんぜい",
+        "written": "新税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-resident taxpayer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひじゅうみんのうぜいしゃ",
+        "written": "非住民納税者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "occupational tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいぎょうめんきょぜい",
+        "written": "営業免許税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "party tax deliberation committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうぜいちょう",
+        "written": "党税調"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "payment of taxes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf08"
+        ],
+        "pronounced": "のうぜい",
+        "written": "納税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "penalty tax for understatement (of income)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かしょうしんこくかさんぜい",
+        "written": "過少申告加算税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "personal income tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こじんしょとくぜい",
+        "written": "個人所得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "poll tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にんとうぜい",
+        "written": "人頭税"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "じんとうぜい",
+        "written": "人頭税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "port dues (fees)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にゅうこうぜい",
+        "written": "入港税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "postage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぜい",
+        "written": "郵税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prefectural residents' tax (in Kyoto or Osaka)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふみんぜい",
+        "written": "府民税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prefectural tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんぜい",
+        "written": "県税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prefectural tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふけんぜい",
+        "written": "府県税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prefectural tax (of Hokkaido)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうぜい",
+        "written": "道税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prepayment of income taxes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よていのうぜい",
+        "written": "予定納税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pretax loss"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいびきせんそんしつ",
+        "written": "税引き前損失"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pretax profit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいびきせんしゅうえき",
+        "written": "税引き前収益"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "price without tax included"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいべつかかく",
+        "written": "税別価格"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "processing tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かこうぜい",
+        "written": "加工税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "progressive tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいしんぜい",
+        "written": "累進税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "progressive tax rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいしんぜいりつ",
+        "written": "累進税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "property tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいさんぜい",
+        "written": "財産税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "proportional tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひれいぜい",
+        "written": "比例税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "proportional tax rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひれいぜいりつ",
+        "written": "比例税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "protective duty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほごぜい",
+        "written": "保護税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "protective tariff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほごかんぜい",
+        "written": "保護関税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "protective tariff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほごかんぜいりつ",
+        "written": "保護関税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "public facilities tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうどうしせつぜい",
+        "written": "共同施設税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "real estate acquisition tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふどうさんしゅとくぜい",
+        "written": "不動産取得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reciprocal tariff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごけいかんぜい",
+        "written": "互恵関税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reconstruction tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふっこうぜい",
+        "written": "復興税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reduced tax rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいげんぜいりつ",
+        "written": "軽減税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registration and license tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくめんきょぜい",
+        "written": "登録免許税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registration tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくぜい",
+        "written": "登録税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regressive tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎゃくしんぜい",
+        "written": "逆進税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regressive taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいげんぜい",
+        "written": "累減税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "resident taxpayer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうみんのうぜいしゃ",
+        "written": "住民納税者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "retaliatory tariff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうふくかんぜい",
+        "written": "報復関税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "revenue neutrality"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいせいちゅうりつ",
+        "written": "税制中立"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "revenue officer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうぜいかん",
+        "written": "収税官"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "revenue tariff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいせいかんぜい",
+        "written": "財政関税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "revenue tariff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうにゅうかんぜい",
+        "written": "収入関税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "royalty (on book)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26",
+          "spec2"
+        ],
+        "pronounced": "いんぜい",
+        "written": "印税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sales tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うりあげぜい",
+        "written": "売り上げ税"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うりあげぜい",
+        "written": "売上税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "salt tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えんぜい",
+        "written": "塩税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "self-assessed tax payment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんこくのうぜい",
+        "written": "申告納税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "separate taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんりかぜい",
+        "written": "分離課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sin tax (excise, etc. on certain goods deemed harmful to society and individuals)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あくぎょうぜい",
+        "written": "悪行税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "single-rate tariff (system)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっぽんだてぜいりつ",
+        "written": "一本建て税率"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いっぽんだてぜいりつ",
+        "written": "一本建税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sole proprietorship tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こじんじぎょうぜい",
+        "written": "個人事業税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special land‐holding tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくべつとちほゆうぜい",
+        "written": "特別土地保有税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special ward tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくべつくみんぜい",
+        "written": "特別区民税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stamp duty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いんしぜい",
+        "written": "印紙税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "state tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうぜい",
+        "written": "州税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tariff autonomy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいじしゅけん",
+        "written": "関税自主権"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tariff avoidance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいかいひ",
+        "written": "関税回避"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tariff barrier"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいしょうへき",
+        "written": "関税障壁"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tariff binding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいじょうきょ",
+        "written": "関税譲許"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tariff quota system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいわりあてせい",
+        "written": "関税割当制"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tariff rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいりつ",
+        "written": "関税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜい",
+        "written": "税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax allocated to local governments"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちほうこうふぜい",
+        "written": "地方交付税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax allotment (to local government)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんよぜい",
+        "written": "分与税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax and service charge included"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいサこみ",
+        "written": "税サ込"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぜいサこみ",
+        "written": "税サ込み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax avoidance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そぜいかいひ",
+        "written": "租税回避"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax break"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいせいゆうぐうそち",
+        "written": "税制優遇措置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax burden"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいふたん",
+        "written": "税負担"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax burden"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そぜいふたん",
+        "written": "租税負担"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax collector"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうぜいにん",
+        "written": "収税人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax collector"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうぜいり",
+        "written": "収税吏"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax collector"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうぜいり",
+        "written": "徴税吏"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax declaration certificate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かぜいしょうめいしょ",
+        "written": "課税証明書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax deduction on housing loans"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうたくローンげんぜい",
+        "written": "住宅ローン減税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax evasion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "だつぜい",
+        "written": "脱税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax exemption"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かぜいこうじょ",
+        "written": "課税控除"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax exemption limit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めんぜいてん",
+        "written": "免税点"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax haven"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいきんひなんじょ",
+        "written": "税金避難所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax haven"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいきんひなんち",
+        "written": "税金避難地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax haven"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そぜいかいひち",
+        "written": "租税回避地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax haven"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そぜいひなんち",
+        "written": "租税避難地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax increase"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "ぞうぜい",
+        "written": "増税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax increase proposal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぞうぜいあん",
+        "written": "増税案"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax leakage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かぜいもれ",
+        "written": "課税漏れ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax liability"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうぜいぎむ",
+        "written": "納税義務"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax notice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうぜいつうちしょ",
+        "written": "納税通知書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "ぜいむしょ",
+        "written": "税務署"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax on aggregate income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうごうかぜい",
+        "written": "総合課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax on goods and personal possessions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶつぜい",
+        "written": "物税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax payment under protest"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かりのうぜい",
+        "written": "仮納税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax penalty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ついちょうぜい",
+        "written": "追徴税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かぜいりつ",
+        "written": "課税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax reduction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "げんぜい",
+        "written": "減税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax reform"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいせいかいかく",
+        "written": "税制改革"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax refund"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぷぜい",
+        "written": "還付税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax refund"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいきんかんぷ",
+        "written": "税金還付"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax relief"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいしはらいめんじょ",
+        "written": "税支払い免除"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax return"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいきんしんこく",
+        "written": "税金申告"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax revenue shortfall"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいしゅうふそく",
+        "written": "税収不足"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいせいど",
+        "written": "税制度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "ぜいせい",
+        "written": "税制"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax withholding at the source"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんせんかぜい",
+        "written": "源泉課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax-bearing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんぜい",
+        "written": "担税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax-collection office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうぜいしょ",
+        "written": "収税所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax-free income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めんぜいしょとく",
+        "written": "免税所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "ゆうぜい",
+        "written": "有税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxable amount"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かぜいかがく",
+        "written": "課税価額"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxable goods"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうぜいひん",
+        "written": "有税品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxable income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かぜいしょとく",
+        "written": "課税所得"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふぜい",
+        "written": "賦税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "かぜい",
+        "written": "課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxation business"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "ぜいむ",
+        "written": "税務"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxation law"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "ぜいほう",
+        "written": "税法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxpayer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうぜいぎむしゃ",
+        "written": "納税義務者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxpayer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうぜいしゃ",
+        "written": "納税者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxpayer identification number (in the US, Germany, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうぜいしゃばんごう",
+        "written": "納税者番号"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tithe"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうぶんのいちぜい",
+        "written": "十分の一税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pay a tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいをおさめる",
+        "written": "税を納める"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to place a tax on"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいきんをかける",
+        "written": "税金をかける"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぜいきんをかける",
+        "written": "税金を掛ける"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tonnage dues"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "トンぜい",
+        "written": "トン税"
+      },
+      {
+        "priorities": [],
+        "pronounced": "トンぜい",
+        "written": "噸税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "top taxpayer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たがくのうぜいしゃ",
+        "written": "多額納税者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "transfer of tax revenue sources (e.g. to local governments)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいげんいじょう",
+        "written": "税源移譲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "turnover tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うりあげだかぜい",
+        "written": "売上高税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unitary tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がっさんかぜい",
+        "written": "合算課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "urban prefectural tax (of Osaka or Kyoto)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "ふぜい",
+        "written": "府税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ward tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くみんぜい",
+        "written": "区民税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(high) tariff protection",
+          "tariff jumping"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかんぜいか",
+        "written": "高関税化"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "General Agreement on Tariffs and Trade (abolished in 1995)",
+          "GATT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいとぼうえきにかんするいっぱんきょうてい",
+        "written": "関税と貿易に関する一般協定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "General Agreement on Tariffs and Trade (abolished in 1995)",
+          "GATT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜいぼうえきいっぱんきょうてい",
+        "written": "関税貿易一般協定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nippon Individual Savings Account",
+          "NISA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうがくとうしひかぜいせいど",
+        "written": "少額投資非課税制度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Pigovian tax",
+          "Pigouvian tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ピグーぜい",
+        "written": "ピグー税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Resources Super Profits Tax",
+          "RSPT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しげんちょうかりじゅんぜい",
+        "written": "資源超過利潤税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "World Customs Organization",
+          "WCO"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せかいぜいかんきこう",
+        "written": "世界税関機構"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a tax official",
+          "a revenue officer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいむかん",
+        "written": "税務官"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ad valorem duty",
+          "ad valorem tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうかぜい",
+        "written": "従価税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "airport-imposed taxes",
+          "airport tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くうこうぜい",
+        "written": "空港税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alien tax",
+          "landing tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にゅうこくぜい",
+        "written": "入国税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "amount of tax withheld",
+          "withholding tax amount"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんせんちょうしゅうぜいがく",
+        "written": "源泉徴収税額"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "automobile tax",
+          "vehicle tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうしゃぜい",
+        "written": "自動車税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "base of taxation",
+          "tax basis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かぜいひょうじゅん",
+        "written": "課税標準"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bath tax",
+          "hot spring tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にゅうとうぜい",
+        "written": "入湯税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "capital gains tax",
+          "CGT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しほんりとくぜい",
+        "written": "資本利得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "capital gains tax",
+          "capital gain taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "キャピタルゲインかぜい",
+        "written": "キャピタルゲイン課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certified tax accountant exam (examination)",
+          "tax accountant exam (examination)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいりししけん",
+        "written": "税理士試験"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "common external tariff",
+          "CET"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいがいきょうつうかんぜい",
+        "written": "対外共通関税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "comprehensive bonded area",
+          "general bonded area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうごうほぜいちいき",
+        "written": "総合保税地域"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "consolidated taxation system",
+          "consolidated tax payment system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れんけつのうぜいせいど",
+        "written": "連結納税制度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "corporation tax",
+          "corporate tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうじんぜい",
+        "written": "法人税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "customs",
+          "customs house"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "ぜいかん",
+        "written": "税関"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "deferred tax",
+          "deferred taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くりのべぜいきん",
+        "written": "繰延税金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "deferred tax asset",
+          "DTA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くりのべぜいきんしさん",
+        "written": "繰延税金資産"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "diesel oil delivery tax",
+          "light oil delivery tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいゆひきとりぜい",
+        "written": "軽油引取税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "differential duties",
+          "selective taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さべつかんぜい",
+        "written": "差別関税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "duty-free",
+          "tax-free"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26",
+          "spec2"
+        ],
+        "pronounced": "むぜい",
+        "written": "無税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "earmarked tax",
+          "special-purpose tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もくてきぜい",
+        "written": "目的税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "eat-in tax evasion",
+          "paying less consumption tax by buying take-out food, then eating it in the store"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "イートインだつぜい",
+        "written": "イートイン脱税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "environmental tax",
+          "green tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんきょうぜい",
+        "written": "環境税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excise",
+          "excise tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶっぴんぜい",
+        "written": "物品税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flat tax",
+          "uniform taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いちりつかぜい",
+        "written": "一律課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gasoline tax",
+          "gasoline excise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きはつゆぜい",
+        "written": "揮発油税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general preferential duties",
+          "general preferential taxes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっぱんとっけいかんぜい",
+        "written": "一般特恵関税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gift tax",
+          "donation tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぞうよぜい",
+        "written": "贈与税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "golf course utilization tax",
+          "golf tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゴルフじょうりようぜい",
+        "written": "ゴルフ場利用税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "harbor duties",
+          "harbour duties"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうわんぜい",
+        "written": "港湾税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hometown tax",
+          "system in which taxpayers can choose to divert part of their residential tax to a specified local government"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふるさとのうぜい",
+        "written": "ふるさと納税"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふるさとのうぜい",
+        "written": "故郷納税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "incidence of taxation",
+          "tax incidence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そぜいのきちゃく",
+        "written": "租税の帰着"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income before taxes",
+          "gross income"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいびきまえとうきりえき",
+        "written": "税引前当期利益"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income tax cut",
+          "income tax reduction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとくぜいげんぜい",
+        "written": "所得税減税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "income tax return certificate",
+          "tax return certificate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうぜいしんこくしょ",
+        "written": "納税申告書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "increased tax revenue",
+          "tax increases"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいしゅうぞう",
+        "written": "税収増"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inheritance tax",
+          "death duty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "そうぞくぜい",
+        "written": "相続税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inheritance tax",
+          "estate duty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いさんぜい",
+        "written": "遺産税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interest equalization tax",
+          "interest equalisation tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんりへいこうぜい",
+        "written": "金利平衡税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interest equalization tax",
+          "interest equalisation tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りしへいこうぜい",
+        "written": "利子平衡税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "large tax increase",
+          "tax hike"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいぞうぜい",
+        "written": "大増税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "liquified petroleum gas tax",
+          "natural gas tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきゆガスぜい",
+        "written": "石油ガス税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "liquor tax",
+          "tax on alcohol"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "しゅぜい",
+        "written": "酒税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local tax",
+          "council tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "ちほうぜい",
+        "written": "地方税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negative income tax",
+          "NIT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふのしょとくぜい",
+        "written": "負の所得税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-tariff barrier",
+          "NTB"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひかんぜいしょうへき",
+        "written": "非関税障壁"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "optimal taxation",
+          "optimum taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいてきかぜい",
+        "written": "最適課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "petroleum tax",
+          "oil tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきゆぜい",
+        "written": "石油税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing card tax",
+          "tax on playing cards, mahjong sets, domino sets, etc. (abolished in 1989)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こっぱいぜい",
+        "written": "骨牌税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "playing card tax",
+          "tax on playing cards, mahjong sets, domino sets, etc. (abolished in 1989)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "トランプるいぜい",
+        "written": "トランプ類税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prefectural tax",
+          "prefectural residents' tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんみんぜい",
+        "written": "県民税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "preferential tariff",
+          "preferential duty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "とっけいかんぜい",
+        "written": "特恵関税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "price of fame",
+          "penalty of greatness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうめいぜい",
+        "written": "有名税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "price without taxes added",
+          "price before tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいぬきかかく",
+        "written": "税抜き価格"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぜいぬきかかく",
+        "written": "税抜価格"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "profits tax",
+          "proportion of consumption tax retained by manufacturers or retailers"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えきぜい",
+        "written": "益税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "progressive taxation",
+          "graduated taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいしんかぜい",
+        "written": "累進課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "property tax",
+          "estate tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しさんぜい",
+        "written": "資産税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "revenue office",
+          "taxation bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "こくぜいきょく",
+        "written": "国税局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shifting of tax",
+          "tax shifting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そぜいてんか",
+        "written": "租税転嫁"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax",
+          "duty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "ぜいきん",
+        "written": "税金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax arrears",
+          "failure to pay tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいきんたいのう",
+        "written": "税金滞納"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax collection",
+          "taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうぜい",
+        "written": "収税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax collection",
+          "taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27",
+          "spec2"
+        ],
+        "pronounced": "ちょうぜい",
+        "written": "徴税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax collector",
+          "tax official"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいり",
+        "written": "税吏"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax credit",
+          "tax exemption"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいがくこうじょ",
+        "written": "税額控除"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax excluded",
+          "excluding tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいぬき",
+        "written": "税抜"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぜいぬき",
+        "written": "税抜き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax exemption",
+          "duty exemption"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "めんぜい",
+        "written": "免税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax identification number",
+          "TIN"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうぜいしゃしょうめいばんごう",
+        "written": "納税者証明番号"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax parasite (e.g. public servant, politician, welfare recipient)",
+          "tax thief"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいきんどろぼう",
+        "written": "税金ドロボー"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぜいきんどろぼう",
+        "written": "税金泥棒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax payment certification",
+          "certificate of tax payment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうぜいしょうめいしょ",
+        "written": "納税証明書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax planning",
+          "tax reduction strategy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいきんたいさく",
+        "written": "税金対策"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax reform",
+          "tax revision"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいせいかいせい",
+        "written": "税制改正"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax revenue",
+          "tax revenues"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいしゅうにゅう",
+        "written": "税収入"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax treaty",
+          "bilateral tax agreement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そぜいじょうやく",
+        "written": "租税条約"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax yields",
+          "revenue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "ぜいしゅう",
+        "written": "税収"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax-bearing capacity",
+          "ability to pay taxes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんぜいりょく",
+        "written": "担税力"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax-free article",
+          "non-taxable goods"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひかぜいひん",
+        "written": "非課税品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax-free ratio",
+          "tax free percentage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めんぜいりつ",
+        "written": "免税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax-saving measure",
+          "tax-reduction strategy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せつぜいたいさく",
+        "written": "節税対策"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxation office serving a specific area",
+          "competent tax office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょかつぜいむしょ",
+        "written": "所轄税務署"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxes",
+          "taxation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "そぜい",
+        "written": "租税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tobacco tax",
+          "cigarette tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "タバコぜい",
+        "written": "たばこ税"
+      },
+      {
+        "priorities": [],
+        "pronounced": "タバコぜい",
+        "written": "タバコ税"
+      },
+      {
+        "priorities": [],
+        "pronounced": "タバコぜい",
+        "written": "煙草税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "value-added tax",
+          "VAT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふかかちぜい",
+        "written": "付加価値税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accommodation tax",
+          "bed tax",
+          "transient occupancy tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくぜい",
+        "written": "宿泊税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "after (deduction of) tax",
+          "after-tax (income or profits)",
+          "excluding tax (of a price)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいひき",
+        "written": "税引き"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "ぜいびき",
+        "written": "税引き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "consumption tax rate",
+          "sales tax rate",
+          "VAT rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうひぜいりつ",
+        "written": "消費税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excluding tax (of a price)",
+          "not including tax",
+          "before tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいべつ",
+        "written": "税別"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "including tax (of a price)",
+          "pretax (income or profits)",
+          "before tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "ぜいこみ",
+        "written": "税込"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "ぜいこみ",
+        "written": "税込み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "penalty tax",
+          "tax penalty",
+          "additional tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かさんぜい",
+        "written": "加算税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "post-tax price",
+          "price including tax",
+          "tax-included price"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいこみかかく",
+        "written": "税込価格"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "real estate tax",
+          "fixed assets tax",
+          "property tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こていしさんぜい",
+        "written": "固定資産税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "specific duty (taxation)",
+          "specific tariff",
+          "specific tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうりょうぜい",
+        "written": "従量税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tariff (import tax)",
+          "duty",
+          "customs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "かんぜい",
+        "written": "関税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax counsellor",
+          "tax counselor",
+          "licensed tax accountant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "ぜいりし",
+        "written": "税理士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax cut policy",
+          "tax reduction policy",
+          "tax-abatement policy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんぜいせいさく",
+        "written": "減税政策"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax inquiry",
+          "tax enquiry",
+          "tax investigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいむちょうさ",
+        "written": "税務調査"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax reduction",
+          "tax avoidance",
+          "tax planning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せつぜい",
+        "written": "節税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax source",
+          "source of taxation revenue",
+          "taxable item"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "ぜいげん",
+        "written": "税源"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax-exempt",
+          "tax-free",
+          "tax-exempted"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひかぜい",
+        "written": "非課税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taxes in arrears",
+          "delinquent tax",
+          "overdue tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えんたいぜい",
+        "written": "延滞税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "toll",
+          "transit fee",
+          "transit duty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つうこうぜい",
+        "written": "通行税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wealth tax",
+          "capital tax",
+          "equity tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふゆうぜい",
+        "written": "富裕税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax system research commission",
+          "tax system research council",
+          "select committee on the taxation system",
+          "tax commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいせいちょうさかい",
+        "written": "税制調査会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax system research commission",
+          "tax system research council",
+          "select committee on the taxation system",
+          "tax commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜいちょう",
+        "written": "税調"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Tax Agency (Japan)"
+        ]
+      },
+      {
+        "glosses": [
+          "national taxation agency (e.g. IRS)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "こくぜいちょう",
+        "written": "国税庁"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "departure tax"
+        ]
+      },
+      {
+        "glosses": [
+          "expatriation tax",
+          "emigration tax",
+          "exit tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっこくぜい",
+        "written": "出国税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tariff"
+        ]
+      },
+      {
+        "glosses": [
+          "tax rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "ぜいりつ",
+        "written": "税率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax added to a price"
+        ]
+      },
+      {
+        "glosses": [
+          "tax-exclusive pricing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そとぜい",
+        "written": "外税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax included in a price"
+        ]
+      },
+      {
+        "glosses": [
+          "tax-inclusive pricing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うちぜい",
+        "written": "内税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "heavy tax"
+        ]
+      },
+      {
+        "glosses": [
+          "taxpayers' hard-earned money"
+        ]
+      },
+      {
+        "glosses": [
+          "conscription",
+          "compulsory military service"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "けつぜい",
+        "written": "血税"
+      }
+    ]
+  }
+]

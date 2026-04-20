@@ -1,0 +1,936 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Direct Selling Association"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんほうもんはんばいきょうかい",
+        "written": "日本訪問販売協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "door-to-door selling"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうもんはんばい",
+        "written": "訪問販売"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "foreign visitor to Japan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうにちがいきゃく",
+        "written": "訪日外客"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "foreign visitor to Japan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうにちがいこくじんりょこうしゃ",
+        "written": "訪日外国人旅行者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "home-visit care worker"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうもんかいごいん",
+        "written": "訪問介護員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "joy-bringing spirit from the divine realms"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "らいほうじん",
+        "written": "来訪神"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "official visit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうしきほうもん",
+        "written": "公式訪問"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outreach program"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうもんしえん",
+        "written": "訪問支援"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to visit (someone) in hospital"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びょういんをおとずれる",
+        "written": "病院を訪れる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit to China"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "ほうちゅう",
+        "written": "訪中"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit to Japan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "ほうにち",
+        "written": "訪日"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit to North Korea"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうちょう",
+        "written": "訪朝"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit to Russia"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうろ",
+        "written": "訪露"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit to South Korea"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうかん",
+        "written": "訪韓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit to Taiwan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうたい",
+        "written": "訪台"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit to the Philippines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうひ",
+        "written": "訪比"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit to the United Kingdom"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうえい",
+        "written": "訪英"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit to the United States"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "ほうべい",
+        "written": "訪米"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visitor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "ほうもんしゃ",
+        "written": "訪問者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "call",
+          "visit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "ほうもん",
+        "written": "訪問"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "caller",
+          "visitor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうもんきゃく",
+        "written": "訪問客"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "company visit",
+          "visit to a prospective employer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいしゃほうもん",
+        "written": "会社訪問"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "courtesy call",
+          "courtesy visit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうけいほうもん",
+        "written": "表敬訪問"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "destination",
+          "place where one is visiting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうもんさき",
+        "written": "訪問先"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "door-to-door visit",
+          "door-to-door canvassing (canvasing)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "こべつほうもん",
+        "written": "戸別訪問"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "going to visit (someone)",
+          "calling on"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうほう",
+        "written": "往訪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "home nursing",
+          "home care"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうもんかんご",
+        "written": "訪問看護"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "home-visit care",
+          "home nursing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうもんかいご",
+        "written": "訪問介護"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mutual visitation",
+          "reciprocal visits"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうごほうもん",
+        "written": "相互訪問"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "research visit",
+          "visit to collect data (esp. historical, folklore, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいほう",
+        "written": "採訪"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さいぼう",
+        "written": "採訪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "revisit rate (e.g. for a website)",
+          "visitor retention rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいほうもんりつ",
+        "written": "再訪問率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "revisiting",
+          "visiting again"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "さいほう",
+        "written": "再訪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "round of calls",
+          "tour of visitation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "れきほう",
+        "written": "歴訪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "semi-formal kimono for women",
+          "visiting (gala) dress"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうもんぎ",
+        "written": "訪問着"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stop (on a trip)",
+          "destination"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうもんち",
+        "written": "訪問地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit",
+          "visiting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とぶらい",
+        "written": "訪い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit (from someone)",
+          "call"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf23"
+        ],
+        "pronounced": "らいほう",
+        "written": "来訪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit to Europe",
+          "visiting Europe"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "ほうおう",
+        "written": "訪欧"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit to Myanmar",
+          "visit to Burma"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうめん",
+        "written": "訪緬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visitor",
+          "caller"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "らいほうしゃ",
+        "written": "来訪者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visitor",
+          "guest"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうかく",
+        "written": "訪客"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ほうきゃく",
+        "written": "訪客"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "home healthcare nurse",
+          "visiting nurse",
+          "day nurse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうもんナース",
+        "written": "訪問ナース"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "home visitation (esp. a teacher visiting a student's home)",
+          "home visit",
+          "house call"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かていほうもん",
+        "written": "家庭訪問"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "searching",
+          "hunting for news story",
+          "journalist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41",
+          "spec2"
+        ],
+        "pronounced": "たんぼう",
+        "written": "探訪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to visit",
+          "to call on",
+          "to pay a visit to"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "たずねる",
+        "written": "訪ねる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to make a noise"
+        ]
+      },
+      {
+        "glosses": [
+          "to visit",
+          "to call on"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おとなう",
+        "written": "訪う"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to visit",
+          "to call on"
+        ]
+      },
+      {
+        "glosses": [
+          "to arrive (of a season, situation, etc.)",
+          "to come",
+          "to appear"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "おとずれる",
+        "written": "訪れる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visit",
+          "call"
+        ]
+      },
+      {
+        "glosses": [
+          "news",
+          "tidings",
+          "word"
+        ]
+      },
+      {
+        "glosses": [
+          "arrival (e.g. of spring)",
+          "advent",
+          "coming",
+          "appearance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "おとずれ",
+        "written": "訪れ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to ask",
+          "to inquire"
+        ]
+      },
+      {
+        "glosses": [
+          "to care about",
+          "to regard as important"
+        ]
+      },
+      {
+        "glosses": [
+          "to call into question",
+          "to doubt",
+          "to question"
+        ]
+      },
+      {
+        "glosses": [
+          "to blame (someone) for",
+          "to accuse of",
+          "to pursue (question of responsibility)",
+          "to charge with"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "とう",
+        "written": "問う"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "とう",
+        "written": "訪う"
+      }
+    ]
+  }
+]

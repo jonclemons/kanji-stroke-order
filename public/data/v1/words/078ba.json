@@ -1,0 +1,3308 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(data) authentication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "データかくにん",
+        "written": "データ確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(proof of) confirmation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくにんしょう",
+        "written": "確認証"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Bayesian probability"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ベイズかくりつ",
+        "written": "ベイズ確率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Fisher's exact test"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "フィッシャーのちょくせつかくりつけんてい",
+        "written": "フィッシャーの直接確率検定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accuracy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいかくせい",
+        "written": "正確性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accuracy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいかくど",
+        "written": "正確度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "age verification"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねんかく",
+        "written": "年確"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "age verification"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねんれいかくにん",
+        "written": "年齢確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "application for building confirmation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんちくかくにんしんせい",
+        "written": "建築確認申請"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bandwidth guarantee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいいきかくほ",
+        "written": "帯域確保"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "buffer (full) error (i.e. space cannot be reserved as it is full)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "バッファかくほしっぱい",
+        "written": "バッファ確保失敗"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "candidates (in an election) who have won or are projected to be elected"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうせんとうかく",
+        "written": "当選当確"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certain victory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かちかく",
+        "written": "勝ち確"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certainty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくじつせい",
+        "written": "確実性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certainty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくじつど",
+        "written": "確実度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "checking (e.g. result of calculation)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たしかめざん",
+        "written": "確かめ算"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conditional probability"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうけんつきかくりつ",
+        "written": "条件付き確率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "confirmation e-mail"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくにんメール",
+        "written": "確認メール"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "confirmation required"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようかくにん",
+        "written": "要確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "confirmation that a ballot box contains no ballots before voting commences (performed by the first voter at each polling station)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れいひょうかくにん",
+        "written": "零票確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cryptid (animal whose existence is unsubstantiated, e.g. the yeti)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みかくにんせいぶつ",
+        "written": "未確認生物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cryptid (animal whose existence is unsubstantiated, e.g. the yeti)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みかくにんどうぶつ",
+        "written": "未確認動物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "defined contribution pension plan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていきょしゅつねんきん",
+        "written": "確定拠出年金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "defined-benefit pension"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていきゅうふがたねんきん",
+        "written": "確定給付型年金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "defined-contribution pension"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていきょしゅつがたねんきん",
+        "written": "確定拠出型年金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "definite answer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくとう",
+        "written": "確答"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "degree of accuracy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf39"
+        ],
+        "pronounced": "かくど",
+        "written": "確度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "deterministic process"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていてきかてい",
+        "written": "確定的過程"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dialogue establishment indication outstanding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ダイアログかくりつしじみかんりょう",
+        "written": "ダイアログ確立指示未完了"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dialogue establishment request outstanding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ダイアログかくりつようきゅうみかんりょう",
+        "written": "ダイアログ確立要求未完了"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "established (certain) fact"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たしかなじじつ",
+        "written": "確かな事実"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "established theory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくせつ",
+        "written": "確説"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fact-checking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じじつかくにん",
+        "written": "事実確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "failure to observe safety regulations"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あんぜんふかくにん",
+        "written": "安全不確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "final decision"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていさいばん",
+        "written": "確定裁判"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "final sentence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていはんけつ",
+        "written": "確定判決"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fixed date"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていひづけ",
+        "written": "確定日付"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fixed interest-bearing securities"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていりつきしょうけん",
+        "written": "確定利付き証券"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かくていりつきしょうけん",
+        "written": "確定利付証券"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "high probability"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかくりつ",
+        "written": "高確率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "identity verification"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんにんかくにん",
+        "written": "本人確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inconclusive (verdict)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふかくていはんてい",
+        "written": "不確定判定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "joint probability"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けつごうかくりつ",
+        "written": "結合確率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "learn from reliable sources"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくぶん",
+        "written": "確聞"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "letter of intent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いしかくにんしょ",
+        "written": "意思確認書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "machine-validation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかいかくにん",
+        "written": "機械確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "marginal probability"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうへんかくりつ",
+        "written": "周辺確率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "marginal probability distribution"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうへんかくりつぶんぷ",
+        "written": "周辺確率分布"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mutual assured destruction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうごかくしょうはかい",
+        "written": "相互確証破壊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "partitioning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょういきかくほ",
+        "written": "領域確保"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paternity test"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じっぷかくていけんさ",
+        "written": "実父確定検査"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pinpoint bombing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいかくばくげき",
+        "written": "正確爆撃"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pointing and calling (occupational safety method)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆびさしかくにん",
+        "written": "指さし確認"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆびさしかくにん",
+        "written": "指差し確認"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆびさしかくにん",
+        "written": "指差確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "portal film (e.g. in radiotherapy)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくにんしゃしん",
+        "written": "確認写真"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "posterior probability"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じごかくりつ",
+        "written": "事後確率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "power of finality (of a legal decision, e.g. when a case is dismissed with prejudice)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていりょく",
+        "written": "確定力"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prior probability"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じぜんかくりつ",
+        "written": "事前確率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prior probability distribution"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じぜんかくりつぶんぷ",
+        "written": "事前確率分布"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "probability amplitude (quantum mechanics)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつしんぷく",
+        "written": "確率振幅"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "probability density"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつみつど",
+        "written": "確率密度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "probability density function"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつみつどかんすう",
+        "written": "確率密度関数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "probability distribution"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつぶんぷ",
+        "written": "確率分布"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "probability theory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつりろん",
+        "written": "確率理論"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "probability theory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつろん",
+        "written": "確率論"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "random error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつごさ",
+        "written": "確率誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "random field"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつば",
+        "written": "確率場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "random sample"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつひょうほん",
+        "written": "確率標本"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reliable source"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たしかなすじ",
+        "written": "確かな筋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "response confirmation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうとうかくにん",
+        "written": "応答確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sale confirmation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うりわたしかくにんしょ",
+        "written": "売渡確認書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "securement of resources"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しげんかくほ",
+        "written": "資源確保"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "securing financial resources"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいげんかくほ",
+        "written": "財源確保"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "simple pleasure (in life)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうかっこう",
+        "written": "小確幸"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stable disc (in Othello)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていせき",
+        "written": "確定石"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stochastic differential equation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつびぶんほうていしき",
+        "written": "確率微分方程式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stochastic integral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつせきぶん",
+        "written": "確率積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stochastic model"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつモデル",
+        "written": "確率モデル"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stochastic process"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつかてい",
+        "written": "確率過程"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to make sure of the truth"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんぎをたしかめる",
+        "written": "真偽を確かめる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "transition probability"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんいかくりつ",
+        "written": "遷移確率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "uncertainty principle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふかくていせいげんり",
+        "written": "不確定性原理"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unconfirmed information"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みかくにんじょうほう",
+        "written": "未確認情報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unmatched (unparalleled) accuracy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいかくむひ",
+        "written": "正確無比"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "validation (test)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だとうせいかくにんしけん",
+        "written": "妥当性確認試験"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "validation test"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくにんしけん",
+        "written": "確認試験"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "after checking",
+          "after verification"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくにんのうえ",
+        "written": "確認の上"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ascertainment",
+          "certain knowledge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくち",
+        "written": "確知"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "assertion",
+          "confirmation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくげん",
+        "written": "確言"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "booking confirmation",
+          "reservation confirmation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よやくかくにん",
+        "written": "予約確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "building certification",
+          "building confirmation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんちくかくにん",
+        "written": "建築確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certain",
+          "definite"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かく",
+        "written": "確"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certain",
+          "definite"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくとした",
+        "written": "確とした"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certain evidence",
+          "definite evidence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "かくたるしょうこ",
+        "written": "確たる証拠"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chance of precipitation",
+          "chance of rain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうすいかくりつ",
+        "written": "降水確率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "clarification",
+          "definition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めいかくか",
+        "written": "明確化"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conditional random field",
+          "CRF"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうけんつきかくりつば",
+        "written": "条件付き確率場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "confirm your distance",
+          "keep your distance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃかんかくにん",
+        "written": "車間確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "confirmation bias",
+          "confirmatory bias"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくしょうバイアス",
+        "written": "確証バイアス"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "confirmation of consent",
+          "confirming someone's wishes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いしかくにん",
+        "written": "意思確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "confirmation of someone's safety",
+          "ascertainment of someone's safety"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あんぴかくにん",
+        "written": "安否確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "connectivity test",
+          "connection check"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そつうかくにん",
+        "written": "疎通確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal condemned to death",
+          "convict on death row"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていしけいしゅう",
+        "written": "確定死刑囚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal condemned to death",
+          "convict on death row"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しけいかくていしゃ",
+        "written": "死刑確定者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "definite",
+          "positive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくぜん",
+        "written": "確然"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "definite report",
+          "confirmed data"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "かくほう",
+        "written": "確報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "discord",
+          "antagonism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "かくしつ",
+        "written": "確執"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "don't do anything rash!",
+          "keep composed!"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おきをたしかに",
+        "written": "お気を確かに"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "establishment",
+          "settlement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "かくりつ",
+        "written": "確立"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "firm promise",
+          "definite promise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "かくやく",
+        "written": "確約"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fixed interest-bearing bond",
+          "fixed interest securities"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていりつきさい",
+        "written": "確定利付き債"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かくていりつきさい",
+        "written": "確定利付債"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guarantee of safety",
+          "ensuring safety"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あんぜんかくほ",
+        "written": "安全確保"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guilty verdict",
+          "guilty as charged"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうざいかくてい",
+        "written": "有罪確定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "identity document",
+          "identification document"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんにんかくにんしょるい",
+        "written": "本人確認書類"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in one's senses",
+          "sane"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きはたしか",
+        "written": "気は確か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "individual-type defined contribution pension plan",
+          "iDeCo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こじんがたかくていきょしゅつねんきん",
+        "written": "個人型確定拠出年金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "most probable number",
+          "MPN"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいかくすう",
+        "written": "最確数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "probable",
+          "likely"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たしからしい",
+        "written": "確からしい"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reconfirmation",
+          "double check"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいどかくにん",
+        "written": "再度確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regarding as a sure thing",
+          "seeing as a certainty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくじつし",
+        "written": "確実視"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "safety confirmation",
+          "confirming (something) is safe"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あんぜんかくにん",
+        "written": "安全確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stochastic",
+          "probabilistic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつてき",
+        "written": "確率的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stochastic variable",
+          "random variable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくへん",
+        "written": "確変"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stochastic variable",
+          "random variable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつへんすう",
+        "written": "確率変数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stochastic wave",
+          "probability wave"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつは",
+        "written": "確率波"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "surely",
+          "certainly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たしかに",
+        "written": "慥かに"
+      },
+      {
+        "priorities": [],
+        "pronounced": "たしかに",
+        "written": "確かに"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "uncertain",
+          "indefinite"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf34"
+        ],
+        "pronounced": "ふかくてい",
+        "written": "不確定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unconfirmed",
+          "unidentified"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みかくにん",
+        "written": "未確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unidentified flying object",
+          "UFO"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みかくにんひこうぶったい",
+        "written": "未確認飛行物体"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "being projected to win",
+          "being certain to be elected",
+          "being sure of being elected"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうせんかくじつ",
+        "written": "当選確実"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certain",
+          "sure",
+          "definite"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たしけし",
+        "written": "確けし"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certain diagnosis",
+          "clear diagnosis",
+          "definitive diagnosis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくしん",
+        "written": "確診"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "confirmation",
+          "certification",
+          "ascertainment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "たしかめ",
+        "written": "確かめ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conviction",
+          "belief",
+          "confidence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "かくしん",
+        "written": "確信"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "definitive number",
+          "confirmed number",
+          "final figures"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていち",
+        "written": "確定値"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "final income tax return",
+          "final declaration",
+          "final report"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていしんこく",
+        "written": "確定申告"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "firm",
+          "unshakeable",
+          "resolute"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17",
+          "nf22"
+        ],
+        "pronounced": "かっこ",
+        "written": "確乎"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf17",
+          "nf22"
+        ],
+        "pronounced": "かっこ",
+        "written": "確固"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fixed content",
+          "settled matter",
+          "done deal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていじこう",
+        "written": "確定事項"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "identification",
+          "background check",
+          "identity confirmation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みもとかくにん",
+        "written": "身元確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "person of firm character",
+          "stable person",
+          "gutsy person"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しっかりもの",
+        "written": "しっかり者"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しっかりもの",
+        "written": "確り者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "probability",
+          "likelihood",
+          "chances"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たしからしさ",
+        "written": "確からしさ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "probability",
+          "likelihood",
+          "chances"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "かくりつ",
+        "written": "確率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "projected to win",
+          "sure to be elected",
+          "home free"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "とうかく",
+        "written": "当確"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reaffirmation",
+          "reconfirmation",
+          "revalidation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "さいかくにん",
+        "written": "再確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "strict adherence",
+          "sticking to",
+          "steadfast defence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくしゅ",
+        "written": "確守"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be precise",
+          "to be accurate",
+          "strictly speaking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいかくにいうと",
+        "written": "正確にいうと"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せいかくにいうと",
+        "written": "正確に言うと"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be precise",
+          "to be accurate",
+          "strictly speaking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいかくにいえば",
+        "written": "正確にいえば"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せいかくにいえば",
+        "written": "正確に言えば"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "uncertainty",
+          "inaccuracy",
+          "incorrectness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "ふせいかく",
+        "written": "不正確"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "written confirmation",
+          "confirmation document",
+          "confirmation note"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくにんしょ",
+        "written": "確認書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accurate",
+          "correct",
+          "precise",
+          "exact"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "せいかく",
+        "written": "正確"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "apprehension (of a crime suspect)",
+          "capture",
+          "detainment",
+          "arrest"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みがらかくほ",
+        "written": "身柄確保"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certain",
+          "definite",
+          "clear",
+          "credible"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくたる",
+        "written": "確たる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "clear",
+          "precise",
+          "definite",
+          "distinct"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "めいかく",
+        "written": "明確"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conclusive evidence",
+          "positive proof",
+          "definite proof",
+          "confirmation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "かくしょう",
+        "written": "確証"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "decision",
+          "settlement",
+          "confirmation",
+          "establishment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "かくてい",
+        "written": "確定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "detailed and accurate",
+          "exhaustive and precise",
+          "meticulous",
+          "finely detailed"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいかく",
+        "written": "精確"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "determined",
+          "steadfast",
+          "unswerving",
+          "unshakable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かっこふばつ",
+        "written": "確乎不抜"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かっこふばつ",
+        "written": "確固不抜"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pull yourself together",
+          "get a grip",
+          "get a hold of yourself",
+          "come on"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しっかりしろ",
+        "written": "確りしろ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "uncertain",
+          "unreliable",
+          "inauthentic",
+          "insecure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "ふかくじつ",
+        "written": "不確実"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "uncertainty",
+          "indeterminacy",
+          "unreliability",
+          "unauthenticity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふかくじつせい",
+        "written": "不確実性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unreliable",
+          "uncertain",
+          "indefinite",
+          "unclear"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "ふたしか",
+        "written": "不確か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "variables",
+          "uncertain elements",
+          "uncertainties",
+          "imponderables"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふかくていようそ",
+        "written": "不確定要素"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "verifier",
+          "identifier",
+          "confirmor",
+          "confirming party"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくにんしゃ",
+        "written": "確認者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "definite",
+          "certain",
+          "decided",
+          "fixed",
+          "settled"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくていてき",
+        "written": "確定的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inaccurate",
+          "indistinct",
+          "imprecise",
+          "unclear",
+          "indecisive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふめいかく",
+        "written": "不明確"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to brace oneself",
+          "to keep one's spirits up",
+          "to keep one's composure",
+          "to pull oneself together",
+          "to stay strong"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きをたしかにもつ",
+        "written": "気を確かにもつ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きをたしかにもつ",
+        "written": "気を確かに持つ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to make sure",
+          "to check",
+          "to ascertain",
+          "to confirm",
+          "to verify"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "たしかめる",
+        "written": "慥かめる"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "たしかめる",
+        "written": "確かめる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to strengthen",
+          "to beef up",
+          "to put on a firm basis",
+          "to ensure",
+          "to secure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たしかなものにする",
+        "written": "確かなものにする"
+      },
+      {
+        "priorities": [],
+        "pronounced": "たしかなものにする",
+        "written": "確かな物にする"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accurate",
+          "precise",
+          "exact",
+          "appropriate",
+          "apt",
+          "right"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "てっかく",
+        "written": "的確"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "てっかく",
+        "written": "適確"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "てきかく",
+        "written": "的確"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "てきかく",
+        "written": "適確"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unshakeable (e.g. belief)",
+          "invincible",
+          "steadfastness",
+          "firmness",
+          "unwavering (e.g. support)",
+          "absolutely secure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かっこふどう",
+        "written": "確乎不動"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かっこふどう",
+        "written": "確固不動"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "confirmation",
+          "verification",
+          "validation",
+          "review",
+          "check",
+          "affirmation",
+          "identification"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "かくにん",
+        "written": "確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unconfirmed",
+          "indeterminate",
+          "undetermined",
+          "uncertain",
+          "undecided",
+          "unsettled",
+          "pending"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みかくてい",
+        "written": "未確定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certain",
+          "sure",
+          "definite",
+          "reliable",
+          "sound",
+          "solid",
+          "safe",
+          "secure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "かくじつ",
+        "written": "確実"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime of conscience"
+        ]
+      },
+      {
+        "glosses": [
+          "premeditated crime",
+          "act carried out while knowing that it should not be"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくしんはん",
+        "written": "確信犯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "belay",
+          "belaying"
+        ]
+      },
+      {
+        "glosses": [
+          "securing",
+          "obtaining",
+          "ensuring",
+          "guarantee",
+          "maintaining"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "かくほ",
+        "written": "確保"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certainly",
+          "for sure"
+        ]
+      },
+      {
+        "glosses": [
+          "firmly",
+          "tightly"
+        ]
+      },
+      {
+        "glosses": [
+          "distinctly",
+          "clearly",
+          "exactly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しかと",
+        "written": "確と"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しかと",
+        "written": "聢と"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しっかと",
+        "written": "確と"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しっかと",
+        "written": "聢と"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "If I'm not mistaken",
+          "If I remember correctly",
+          "If I remember rightly"
+        ]
+      },
+      {
+        "glosses": [
+          "sure",
+          "certain",
+          "positive",
+          "definite"
+        ]
+      },
+      {
+        "glosses": [
+          "reliable",
+          "trustworthy",
+          "safe",
+          "sound",
+          "firm",
+          "accurate",
+          "correct",
+          "exact"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "たしか",
+        "written": "慥か"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "たしか",
+        "written": "確"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "たしか",
+        "written": "確か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tightly (holding on)",
+          "firmly",
+          "securely"
+        ]
+      },
+      {
+        "glosses": [
+          "strongly (built)",
+          "solidly",
+          "sturdily",
+          "steadily"
+        ]
+      },
+      {
+        "glosses": [
+          "properly",
+          "well",
+          "sufficiently",
+          "hard (working, etc.)",
+          "fully",
+          "completely"
+        ]
+      },
+      {
+        "glosses": [
+          "reliably",
+          "dependably",
+          "levelheadedly",
+          "shrewdly",
+          "wisely",
+          "cleverly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "しっかり",
+        "written": "確り"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "しっかり",
+        "written": "聢り"
+      }
+    ]
+  }
+]

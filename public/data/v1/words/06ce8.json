@@ -1,0 +1,4527 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(beware of) merging traffic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごうりゅうちゅうい",
+        "written": "合流注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(paying) a great deal of attention (to)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec2"
+        ],
+        "pronounced": "だいちゅうもく",
+        "written": "大注目"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "annotated edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしゃくしょ",
+        "written": "注釈書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "annotation style"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうきようしき",
+        "written": "注記様式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "annotation text relative"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうきテキスト",
+        "written": "注記テキスト"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "annotator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうかいしゃ",
+        "written": "注解者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "applying an extended meaning to a kanji"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんちゅう",
+        "written": "転注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "as ordered"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんどおり",
+        "written": "注文通り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attention deficit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういけっかん",
+        "written": "注意欠陥"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attentiveness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういりょく",
+        "written": "注意力"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "blanket order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっかつはっちゅう",
+        "written": "一括発注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "buy order (e.g. shares)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいちゅうもん",
+        "written": "買い注文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cannot be taken (order)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんふか",
+        "written": "注文不可"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "capital injection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しほんちゅうにゅう",
+        "written": "資本注入"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cash infusion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんきんちゅうにゅう",
+        "written": "現金注入"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cash injection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきんちゅうにゅう",
+        "written": "資金注入"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "comment declaration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしゃくせんげん",
+        "written": "注釈宣言"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "comment line"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうきぎょう",
+        "written": "注記行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "comment-entry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうきこう",
+        "written": "注記項"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commentaries of the ancients"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こちゅう",
+        "written": "古注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こちゅう",
+        "written": "古註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "concentration (of one's attention)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういしゅうちゅう",
+        "written": "注意集中"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "container of fresh water for replenishing the kettle and rinsing bowls (tea ceremony)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みずつぎ",
+        "written": "水注ぎ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "custom software"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくちゅうソフトウェア",
+        "written": "特注ソフトウェア"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "custom-made clothing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんふく",
+        "written": "注文服"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "decorating shrines and gates with shimenawa ropes for the New Year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しめかざり",
+        "written": "しめ飾り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しめかざり",
+        "written": "七五三飾"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しめかざり",
+        "written": "標飾り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しめかざり",
+        "written": "注連飾"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しめかざり",
+        "written": "注連飾り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dispensing burette"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんちゅうき",
+        "written": "分注器"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "douche"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あっちゅう",
+        "written": "圧注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "duty of care"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういぎむ",
+        "written": "注意義務"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "endnote"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうちゅう",
+        "written": "後注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "footnote"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゃくちゅう",
+        "written": "脚注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きゃくちゅう",
+        "written": "脚註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "handling warning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "とりあつかいちゅうい",
+        "written": "取り扱い注意"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "とりあつかいちゅうい",
+        "written": "取扱注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "headnote"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうちゅう",
+        "written": "頭注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とうちゅう",
+        "written": "頭註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hot stock"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもくかぶ",
+        "written": "注目株"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hypodermic injection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひかちゅうしゃ",
+        "written": "皮下注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hypodermic needle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしゃばり",
+        "written": "注射針"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "injection of Ringer's solution"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "リンゲルちゅうしゃ",
+        "written": "リンゲル注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "injection scar (e.g. injected drugs)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしゃこん",
+        "written": "注射痕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intramuscular injection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんちゅう",
+        "written": "筋注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intramuscular injection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんにくちゅうしゃ",
+        "written": "筋肉注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intramuscular injection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんにくないちゅうしゃ",
+        "written": "筋肉内注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intravenous drip infusion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんてきちゅうしゃ",
+        "written": "点滴注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intravenous injection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうみゃくちゅうしゃ",
+        "written": "静脈注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ion implantation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "イオンちゅうにゅう",
+        "written": "イオン注入"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lethal injection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちしちゅうしゃ",
+        "written": "致死注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "limit order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さしねちゅうもん",
+        "written": "指し値注文"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さしねちゅうもん",
+        "written": "指値注文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "oilcan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あぶらさし",
+        "written": "油さし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あぶらさし",
+        "written": "油差し"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あぶらさし",
+        "written": "油注し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "order completion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんかんりょう",
+        "written": "注文完了"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "order number"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんばんごう",
+        "written": "注文番号"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ordered goods"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんひん",
+        "written": "注文品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parallel annotation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいこうちゅうき",
+        "written": "並行注記"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "processed meat injected with a beef tallow mixture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎゅうしちゅうにゅうかこうにく",
+        "written": "牛脂注入加工肉"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "processed meat injected with a beef tallow mixture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎゅうしちゅうにゅうにく",
+        "written": "牛脂注入肉"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "purchase order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうにゅうちゅうもん",
+        "written": "購入注文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "receiving orders (for goods, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅはっちゅう",
+        "written": "受発注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recipient of an order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんさき",
+        "written": "注文先"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "repeat order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいちゅう",
+        "written": "再注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rope used to cordon off consecrated areas or as a talisman against evil"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しめなわ",
+        "written": "しめ縄"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しめなわ",
+        "written": "七五三縄"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しめなわ",
+        "written": "標縄"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しめなわ",
+        "written": "注連縄"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "self-annotation of one's writings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じちゅう",
+        "written": "自注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "じちゅう",
+        "written": "自註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sell order (e.g. shares)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うりちゅうもん",
+        "written": "売り注文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "serum injection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けっせいちゅうしゃ",
+        "written": "血清注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "showering (arrows) upon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うちゅう",
+        "written": "雨注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "smog alert"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかがくスモッグちゅういほう",
+        "written": "光化学スモッグ注意報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "spout"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そそぎぐち",
+        "written": "注ぎ口"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そそぎぐち",
+        "written": "注口"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つぎくち",
+        "written": "注ぎ口"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つぎくち",
+        "written": "注口"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つぎぐち",
+        "written": "注ぎ口"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つぎぐち",
+        "written": "注口"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "standing order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいぞくはっちゅう",
+        "written": "継続発注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "storm warning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おおあめちゅういほう",
+        "written": "大雨注意報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "supplementary note"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほちゅう",
+        "written": "補注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ほちゅう",
+        "written": "補註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "teaching by rote"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうにゅうきょういく",
+        "written": "注入教育"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "telephone order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんわちゅうもん",
+        "written": "電話注文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the original notes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんちゅう",
+        "written": "原注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "げんちゅう",
+        "written": "原註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to apply eyedrops"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めぐすりをさす",
+        "written": "目薬を差す"
+      },
+      {
+        "priorities": [],
+        "pronounced": "めぐすりをさす",
+        "written": "目薬を注す"
+      },
+      {
+        "priorities": [],
+        "pronounced": "めぐすりをさす",
+        "written": "目薬を点す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to attract attention"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういをひく",
+        "written": "注意をひく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅういをひく",
+        "written": "注意を引く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅういをひく",
+        "written": "注意を惹く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be flushed bright red (with anger or embarrassment)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まんめんしゅをそそぐ",
+        "written": "満面朱を注ぐ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be off one's guard"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういをおこたる",
+        "written": "注意を怠る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to call a person's attention (to)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういをうながす",
+        "written": "注意を促す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to concentrate one's effort (on something)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちからをそそぐ",
+        "written": "力を注ぐ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to distract one's attention"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういをそらす",
+        "written": "注意をそらす"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅういをそらす",
+        "written": "注意を逸らす"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to flush bright red (e.g. of someone's face)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅをそそぐ",
+        "written": "朱をそそぐ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しゅをそそぐ",
+        "written": "朱を注ぐ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to inject with a syringe"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしゃをうつ",
+        "written": "注射をうつ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしゃをうつ",
+        "written": "注射を打つ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to order (someone to do something)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんをつける",
+        "written": "注文をつける"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんをつける",
+        "written": "注文を付ける"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pay attention"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういをそそぐ",
+        "written": "注意を注ぐ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pay attention (to)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういをはらう",
+        "written": "注意を払う"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pour into"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そそぎいれる",
+        "written": "注ぎいれる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そそぎいれる",
+        "written": "注ぎ入れる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pour out"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そそぎだす",
+        "written": "注ぎ出す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tsunami advisory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つなみちゅういほう",
+        "written": "津波注意報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "variorum"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しっちゅう",
+        "written": "集注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しゅうちゅう",
+        "written": "集注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しゅうちゅう",
+        "written": "集註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "various information recorded in the almanac (as regards astronomy, astrology, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れきちゅう",
+        "written": "暦注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "warning label"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういひょうじ",
+        "written": "注意表示"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Bopomofo",
+          "Chinese transliteration system now used mainly in Taiwan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういんじぼ",
+        "written": "注音字母"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅうおんじぼ",
+        "written": "注音字母"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Fragile",
+          "Handle With Care"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "われものちゅうい",
+        "written": "割れ物注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "High Court (of Kamakura)",
+          "Board of Inquiry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もんじゅうしょ",
+        "written": "問注所"
+      },
+      {
+        "priorities": [],
+        "pronounced": "もんちゅうじょ",
+        "written": "問注所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Watch out for bears",
+          "Beware of bears"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くましゅつぼつちゅうい",
+        "written": "くま出没注意"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くましゅつぼつちゅうい",
+        "written": "クマ出没注意"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くましゅつぼつちゅうい",
+        "written": "熊出没注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "additional order",
+          "adding to an existing order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ついかちゅうもん",
+        "written": "追加注文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anesthetic injection",
+          "anaesthetic injection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ますいちゅうしゃ",
+        "written": "麻酔注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "annotation",
+          "comment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふちゅう",
+        "written": "付注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふちゅう",
+        "written": "付註"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふちゅう",
+        "written": "附注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふちゅう",
+        "written": "附註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "annotation",
+          "explanatory note"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうぶん",
+        "written": "注文"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅうぶん",
+        "written": "註文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "annotator",
+          "commentator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしゃくしゃ",
+        "written": "注釈者"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしゃくしゃ",
+        "written": "註釈者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "article specially made to order",
+          "made-to-measure (custom-made) article"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくちゅうひん",
+        "written": "特注品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attention deficit disorder",
+          "ADD"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういけっかんしょうがい",
+        "written": "注意欠陥障害"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attention deficit hyperactivity disorder",
+          "ADHD"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういけっかんたどうせいしょうがい",
+        "written": "注意欠陥多動性障害"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attention deficit hyperactivity disorder",
+          "ADHD"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういけつじょたどうせいしょうがい",
+        "written": "注意欠如多動性障害"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attention deficit-hyperactivity disorder",
+          "ADHD"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういりょくふそくかつどうかたしょう",
+        "written": "注意力不足活動過多症"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attention-deficit disorder",
+          "ADD"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういりょくけつじょしょうがい",
+        "written": "注意力欠如障害"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "being in the center of attention again",
+          "coming back into the limelight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいちゅうもく",
+        "written": "再注目"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bout that goes according to a wrestler's strategy",
+          "match that goes according to one's plan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんずもう",
+        "written": "注文相撲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "build-to-order manufacturing",
+          "BTO"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅちゅうせいさん",
+        "written": "受注生産"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "centre of attention",
+          "center of attention"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもくのまと",
+        "written": "注目の的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "collation editing",
+          "proofreading and annotation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうちゅう",
+        "written": "校注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こうちゅう",
+        "written": "校註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commentary",
+          "notes and comments"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうちゅう",
+        "written": "評注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "custom food order (e.g. at a hotel)",
+          "special food order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べっちゅうりょうり",
+        "written": "別注料理"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "custom-built home",
+          "built-to-order house"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんじゅうたく",
+        "written": "注文住宅"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "date of order",
+          "purchase date"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんび",
+        "written": "注文日"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "degree of attention",
+          "profile"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもくど",
+        "written": "注目度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "detailed commentary",
+          "copious notes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうちゅう",
+        "written": "詳注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しょうちゅう",
+        "written": "詳註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "devoting (oneself) to",
+          "concentrating (one's efforts) on"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "けいちゅう",
+        "written": "傾注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dispensing (e.g. reagent from a pipette)",
+          "dispensation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんちゅう",
+        "written": "分注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flu shot",
+          "injection for influenza immunization"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りゅうかんのよぼうちゅうしゃ",
+        "written": "流感の予防注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "important point",
+          "point to make note of"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういてん",
+        "written": "注意点"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "information",
+          "making a report (to a superior)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしん",
+        "written": "注進"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "injection (liquid)",
+          "parenteral solution"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしゃえき",
+        "written": "注射液"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intravenous injection",
+          "IV"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうちゅう",
+        "written": "静注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "keep the distance",
+          "beware of the car in front of you"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ついとつちゅうい",
+        "written": "追突注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "large order",
+          "bulk order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいりょうちゅうもん",
+        "written": "大量注文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "marginal notes",
+          "glosses"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よはくちゅう",
+        "written": "余白注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "market order",
+          "order without limit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なりゆきちゅうもん",
+        "written": "成り行き注文"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なりゆきちゅうもん",
+        "written": "成行き注文"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なりゆきちゅうもん",
+        "written": "成行注文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "method of ordering",
+          "procedures for ordering"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんほうほう",
+        "written": "注文方法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "multi-needle injection (of the BCG vaccine)",
+          "stamp injection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんこちゅうしゃ",
+        "written": "はんこ注射"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はんこちゅうしゃ",
+        "written": "ハンコ注射"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はんこちゅうしゃ",
+        "written": "判子注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "not watching where one is driving",
+          "not keeping one's eyes on the road"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんぽうふちゅうい",
+        "written": "前方不注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "notes",
+          "instructions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういがき",
+        "written": "注意書"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅういがき",
+        "written": "注意書き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "oiling",
+          "lubrication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうゆ",
+        "written": "注油"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "optimal order quantity",
+          "optimum purchasing lot size"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいてきはっちゅうりょう",
+        "written": "最適発注量"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "order",
+          "request"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごちゅうもん",
+        "written": "ご注文"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ごちゅうもん",
+        "written": "御注文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "order history",
+          "purchase history"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんりれき",
+        "written": "注文履歴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "order slip",
+          "order form"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんでんぴょう",
+        "written": "注文伝票"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "order to buy or sell",
+          "buy-sell order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばいばいちゅうもん",
+        "written": "売買注文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "order volume",
+          "orders received"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅちゅうがく",
+        "written": "受注額"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "order-taking",
+          "salesperson"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんとり",
+        "written": "注文取り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "personal notes (on a text, etc.)",
+          "one's annotation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しちゅう",
+        "written": "私注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "please be careful",
+          "please take care"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごちゅういください",
+        "written": "ご注意ください"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ごちゅういください",
+        "written": "ご注意下さい"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ごちゅういください",
+        "written": "御注意ください"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ごちゅういください",
+        "written": "御注意下さい"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pouring",
+          "injection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "ちゅうにゅう",
+        "written": "注入"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pre-order",
+          "advance order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "よやくちゅうもん",
+        "written": "予約注文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "refilling (a liquid)",
+          "topping up"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つぎたし",
+        "written": "注ぎ足し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "repeat order",
+          "reorder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいちゅうもん",
+        "written": "再注文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reprimand",
+          "stern warning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんじゅうちゅうい",
+        "written": "厳重注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special order",
+          "custom order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べっちゅう",
+        "written": "別注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "storm warning",
+          "strong wind warning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうふうちゅういほう",
+        "written": "強風注意報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tips",
+          "pointers"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょちゅうい",
+        "written": "諸注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to attract attention",
+          "to come into the limelight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもくをあびる",
+        "written": "注目を浴びる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be noteworthy",
+          "to be worthy of attention"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもくにあたいする",
+        "written": "注目に値する"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to concentrate one's attention",
+          "to be engrossed in"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういをしゅうちゅうする",
+        "written": "注意を集中する"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to make a splash",
+          "to draw attention"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもくをひく",
+        "written": "注目を引く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to put one's heart and soul (into)",
+          "to completely devote oneself (to)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんけつをそそぐ",
+        "written": "心血を注ぐ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to rain incessantly",
+          "to downpour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "ふりそそぐ",
+        "written": "降りそそぐ"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "ふりそそぐ",
+        "written": "降り注ぐ"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "ふりそそぐ",
+        "written": "降注ぐ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to top up (drinks, water, rice, etc.)",
+          "to replenish"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つぎたす",
+        "written": "つぎ足す"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つぎたす",
+        "written": "注ぎ足す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to watch intently",
+          "to stare"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しせんをそそぐ",
+        "written": "視線を注ぐ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "variant of interest (of SARS-CoV-2)",
+          "VOI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもくすべきへんいかぶ",
+        "written": "注目すべき変異株"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "warning (e.g. for a storm)",
+          "advisory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "ちゅういほう",
+        "written": "注意報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "warning message",
+          "warning label"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういもんごん",
+        "written": "注意文言"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "watch your step",
+          "slippery floor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんとうちゅうい",
+        "written": "転倒注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "written order",
+          "order form"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんしょ",
+        "written": "注文書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(detailed) commentary",
+          "notes",
+          "comments"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうそ",
+        "written": "注疎"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅうそ",
+        "written": "注疏"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅうそ",
+        "written": "註疎"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅうそ",
+        "written": "註疏"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Bopomofo",
+          "Zhuyin fuhao",
+          "Chinese transliteration system now used mainly in Taiwan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういんふごう",
+        "written": "注音符号"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅうおんふごう",
+        "written": "注音符号"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "annotation",
+          "commentary",
+          "explanatory note"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうき",
+        "written": "注記"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅうき",
+        "written": "註記"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "annotation",
+          "explanatory note",
+          "comment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "ちゅう",
+        "written": "注"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "ちゅう",
+        "written": "註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "demanding",
+          "difficult",
+          "strict"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんがおおい",
+        "written": "注文が多い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "demanding",
+          "difficult",
+          "strict"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんのおおい",
+        "written": "注文の多い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "failing to receive an order",
+          "losing a sales opportunity",
+          "closed lost"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しっちゅう",
+        "written": "失注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gazing steadily at",
+          "observing (a person) closely",
+          "maintain a watch over"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "ちゅうし",
+        "written": "注視"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gloss",
+          "explanatory notes",
+          "annotation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうかい",
+        "written": "注解"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅうかい",
+        "written": "註解"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inattention",
+          "distraction",
+          "mind-wandering"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういさんまん",
+        "written": "注意散漫"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inattention",
+          "distraction",
+          "mind-wandering"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういりょくさんまん",
+        "written": "注意力散漫"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "injection",
+          "jab",
+          "shot"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "ちゅうしゃ",
+        "written": "注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intravenous drip infusion",
+          "intravenous drip",
+          "drip infusion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんてきじょうちゅう",
+        "written": "点滴静注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intravenous drip infusion",
+          "intravenous drip",
+          "drip infusion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんてきじょうみゃくちゅうしゃ",
+        "written": "点滴静脈注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "made-to-order production",
+          "job order production",
+          "production to order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんせいさん",
+        "written": "注文生産"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "marginal notes",
+          "side notes",
+          "gloss"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぼうちゅう",
+        "written": "傍注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぼうちゅう",
+        "written": "傍註"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぼうちゅう",
+        "written": "旁註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "need for caution",
+          "need for care",
+          "requiring special attention"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "ようちゅうい",
+        "written": "要注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "notice",
+          "attention",
+          "observation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "ちゅうもく",
+        "written": "注目"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "order acceptance rate",
+          "win rate",
+          "percentage of sales deals won"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅちゅうりつ",
+        "written": "受注率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "orderer",
+          "purchaser",
+          "customer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもんしゃ",
+        "written": "注文者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "orderer",
+          "purchaser",
+          "customer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はっちゅうしゃ",
+        "written": "発注者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ordering (materials)",
+          "placing an order",
+          "order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "はっちゅう",
+        "written": "発注"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "はっちゅう",
+        "written": "発註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outsourcing",
+          "contracting out",
+          "ordering with an outside supplier"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "がいちゅう",
+        "written": "外注"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "がいちゅう",
+        "written": "外註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pouring water",
+          "flooding",
+          "douche"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうすい",
+        "written": "注水"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "purchase order",
+          "order note",
+          "order in writing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はっちゅうしょ",
+        "written": "発注書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seller",
+          "vendor",
+          "party receiving or accepting an order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅちゅうしゃ",
+        "written": "受注者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special order",
+          "custom order",
+          "bespoke (goods)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくべつちゅうもん",
+        "written": "特別注文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special order (goods)",
+          "custom (made)",
+          "bespoke"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "とくちゅう",
+        "written": "特注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "syringe",
+          "hypodermic needle",
+          "injector"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしゃき",
+        "written": "注射器"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to add fuel to the fire",
+          "to make things worse",
+          "to stir things up"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひにあぶらをそそぐ",
+        "written": "火に油をそそぐ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひにあぶらをそそぐ",
+        "written": "火に油を注ぐ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to alert",
+          "to get one's attention",
+          "to draw one's attention"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういをかんきする",
+        "written": "注意を喚起する"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pour (into a vessel)",
+          "to fill (a cup, bowl, etc.) with",
+          "to dish out (food or drink)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "つぐ",
+        "written": "注ぐ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "viewer discretion advised",
+          "not safe for work",
+          "NSFW"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えつらんちゅうい",
+        "written": "閲覧注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accepting an order",
+          "receiving an order",
+          "orders received",
+          "closed won"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "じゅちゅう",
+        "written": "受注"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "じゅちゅう",
+        "written": "受註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attentive",
+          "cautious",
+          "careful",
+          "watchful"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "ちゅういぶかい",
+        "written": "注意深い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "call for attention",
+          "alert",
+          "heads-up",
+          "reminder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういかんき",
+        "written": "注意喚起"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "carelessness",
+          "inattention",
+          "thoughtlessness",
+          "negligence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "ふちゅうい",
+        "written": "不注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "directions",
+          "advisory",
+          "notice",
+          "warning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういしょ",
+        "written": "注意書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "due diligence",
+          "due care",
+          "reasonable diligence",
+          "reasonable care"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうとうなちゅうい",
+        "written": "相当な注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "marked person (by the police, etc.)",
+          "person to be watched",
+          "person considered dangerous",
+          "person on a watchlist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういじんぶつ",
+        "written": "注意人物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "notes",
+          "comment",
+          "remark",
+          "annotation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そちゅう",
+        "written": "疏注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そちゅう",
+        "written": "疏註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "notes",
+          "comment",
+          "remark",
+          "annotation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf29",
+          "spec2"
+        ],
+        "pronounced": "ちゅうしゃく",
+        "written": "注釈"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf29",
+          "spec2"
+        ],
+        "pronounced": "ちゅうしゃく",
+        "written": "註釈"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "person requiring special attention",
+          "person to be wary of",
+          "person under (police) surveillance",
+          "dangerous person"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようちゅういじんぶつ",
+        "written": "要注意人物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pouring one's energy into",
+          "focusing one's efforts on",
+          "concentrating on",
+          "committing oneself to"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうりょく",
+        "written": "注力"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to gather (attract, receive) attention",
+          "to have a high profile",
+          "to gain prominence",
+          "to become popular"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもくをあつめる",
+        "written": "注目を集める"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "warichū",
+          "explanatory notes inserted between lines",
+          "interlinear notes",
+          "typesetting of parenthetical comments into two half-sized columns of text"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わりちゅう",
+        "written": "割り注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わりちゅう",
+        "written": "割注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attentively",
+          "cautiously",
+          "carefully",
+          "watchfully",
+          "with caution"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういぶかく",
+        "written": "注意深く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "immunization",
+          "immunisation",
+          "shots",
+          "inoculation",
+          "preventive injection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よぼうちゅうしゃ",
+        "written": "予防注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "things to note",
+          "matters that require attention",
+          "important points",
+          "considerations",
+          "precautions",
+          "suggestions",
+          "warnings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅういじこう",
+        "written": "注意事項"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to invest in",
+          "to sink money into",
+          "to put into",
+          "to lay out (funds)",
+          "to inject",
+          "to impregnate",
+          "to infuse",
+          "to instill",
+          "to implant",
+          "to imbue",
+          "to focus (attention, efforts)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "つぎこむ",
+        "written": "つぎ込む"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "つぎこむ",
+        "written": "注ぎこむ"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "つぎこむ",
+        "written": "注ぎ込む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "annotation in small type"
+        ]
+      },
+      {
+        "glosses": [
+          "detailed annotation",
+          "full annotation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいちゅう",
+        "written": "細注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さいちゅう",
+        "written": "細註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "camphor injection (commonly used as a cardiotonic drug in Japan until the end of the 1950s)"
+        ]
+      },
+      {
+        "glosses": [
+          "shot in the arm",
+          "stimulus",
+          "impetus"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "カンフルちゅうしゃ",
+        "written": "カンフル注射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "container of fresh water for replenishing the kettle and rinsing bowls (tea ceremony)"
+        ]
+      },
+      {
+        "glosses": [
+          "vessel for replenishing inkstone water"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいちゅう",
+        "written": "水注"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "order (for an item)"
+        ]
+      },
+      {
+        "glosses": [
+          "request",
+          "demand",
+          "condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "ちゅうもん",
+        "written": "注文"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "ちゅうもん",
+        "written": "註文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rope used to cordon off consecrated areas or as a talisman against evil"
+        ]
+      },
+      {
+        "glosses": [
+          "cordoning off",
+          "cordoning-off sign"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しめ",
+        "written": "七五三"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しめ",
+        "written": "標"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しめ",
+        "written": "注連"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to annotate"
+        ]
+      },
+      {
+        "glosses": [
+          "to write down"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうする",
+        "written": "注する"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゅうする",
+        "written": "註する"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pour in (liquids)"
+        ]
+      },
+      {
+        "glosses": [
+          "to pour in (money)",
+          "to pump in (investment)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "そそぎこむ",
+        "written": "そそぎ込む"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "そそぎこむ",
+        "written": "注ぎこむ"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "そそぎこむ",
+        "written": "注ぎ込む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translator's notes"
+        ]
+      },
+      {
+        "glosses": [
+          "translation and annotation",
+          "translation with notes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくちゅう",
+        "written": "訳注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やくちゅう",
+        "written": "訳註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pour oil on (something)",
+          "to anoint with oil"
+        ]
+      },
+      {
+        "glosses": [
+          "to turn up",
+          "to add fuel (e.g. to a dispute)",
+          "to rev up",
+          "to encourage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あぶらをそそぐ",
+        "written": "油をそそぐ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あぶらをそそぐ",
+        "written": "油を注ぐ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pour water (into)",
+          "to dilute with water"
+        ]
+      },
+      {
+        "glosses": [
+          "to hinder",
+          "to hamper",
+          "to throw cold water on",
+          "to put a damper on",
+          "to estrange (people)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みずをさす",
+        "written": "水をさす"
+      },
+      {
+        "priorities": [],
+        "pronounced": "みずをさす",
+        "written": "水を刺す"
+      },
+      {
+        "priorities": [],
+        "pronounced": "みずをさす",
+        "written": "水を差す"
+      },
+      {
+        "priorities": [],
+        "pronounced": "みずをさす",
+        "written": "水を注す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to light (a fire)",
+          "to burn"
+        ]
+      },
+      {
+        "glosses": [
+          "to pour",
+          "to add (liquid)",
+          "to serve (drinks)"
+        ]
+      },
+      {
+        "glosses": [
+          "to put on (lipstick, etc.)",
+          "to apply",
+          "to colour",
+          "to dye"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "さす",
+        "written": "注す"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "さす",
+        "written": "点す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "advice",
+          "warning",
+          "caution"
+        ]
+      },
+      {
+        "glosses": [
+          "attention",
+          "notice",
+          "heed"
+        ]
+      },
+      {
+        "glosses": [
+          "care",
+          "caution",
+          "precaution"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごちゅうい",
+        "written": "ご注意"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ごちゅうい",
+        "written": "御注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "admonishment",
+          "reprimand",
+          "telling-off"
+        ]
+      },
+      {
+        "glosses": [
+          "attention",
+          "notice",
+          "heed"
+        ]
+      },
+      {
+        "glosses": [
+          "advice",
+          "warning",
+          "caution",
+          "reminder"
+        ]
+      },
+      {
+        "glosses": [
+          "care",
+          "caution",
+          "precaution",
+          "looking out (for)",
+          "watching out (for)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "ちゅうい",
+        "written": "注意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pour (into)"
+        ]
+      },
+      {
+        "glosses": [
+          "to shed (tears)"
+        ]
+      },
+      {
+        "glosses": [
+          "to fall (of rain, snow)",
+          "to pour down"
+        ]
+      },
+      {
+        "glosses": [
+          "to concentrate one's energy (strength, attention, etc.) on",
+          "to devote to",
+          "to fix (one's eyes) on"
+        ]
+      },
+      {
+        "glosses": [
+          "to flow into (e.g. of a river)",
+          "to run into",
+          "to drain into"
+        ]
+      },
+      {
+        "glosses": [
+          "to sprinkle on (from above)",
+          "to water (e.g. plants)",
+          "to pour onto",
+          "to spray"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "そそぐ",
+        "written": "注ぐ"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "そそぐ",
+        "written": "漑ぐ"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "そそぐ",
+        "written": "潅ぐ"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "そそぐ",
+        "written": "濺ぐ"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "そそぐ",
+        "written": "灌ぐ"
+      }
+    ]
+  }
+]

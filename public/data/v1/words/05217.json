@@ -1,0 +1,5816 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(orthodontic) braces"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しれつきょうせいき",
+        "written": "歯列矯正器"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "A Plan for Remodeling the Japanese Archipelago (1972 LDP policy proposal)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんれっとうかいぞうろん",
+        "written": "日本列島改造論"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Cauchy sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "コーシーれつ",
+        "written": "コーシー列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Fibonacci series"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "フィボネッチすうれつ",
+        "written": "フィボネッチ数列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Galerina fasciculata (poisonous mushroom)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "これらたけ",
+        "written": "虎列剌茸"
+      },
+      {
+        "priorities": [],
+        "pronounced": "コレラタケ",
+        "written": "虎列剌茸"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Great Britain (island)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいブリテン",
+        "written": "大ブリテン"
+      },
+      {
+        "priorities": [],
+        "pronounced": "だいブリテン",
+        "written": "大不列顚"
+      },
+      {
+        "priorities": [],
+        "pronounced": "だいブリテン",
+        "written": "大不列顛"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Israel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "gai1"
+        ],
+        "pronounced": "イスラエル",
+        "written": "以色列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Jacobian"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんすうぎょうれつしき",
+        "written": "関数行列式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kings I (book of the Bible)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつおうきじょう",
+        "written": "列王記上"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kings II (book of the Bible)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつおうきか",
+        "written": "列王記下"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kurile Islands"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "ちしまれっとう",
+        "written": "千島列島"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ryukyu Islands"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りゅうきゅうれっとう",
+        "written": "琉球列島"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United States Military Government of the Ryukyu Islands (1945-1950)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りゅうきゅうれっとうべいこくぐんせいふ",
+        "written": "琉球列島米国軍政府"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "affiliate company"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいれつがいしゃ",
+        "written": "系列会社"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "allocatable array"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わりつけはいれつ",
+        "written": "割付け配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alphabetic string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうじれつ",
+        "written": "欧字列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "amino acid sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アミノさんはいれつ",
+        "written": "アミノ酸配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "array"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どういれつ",
+        "written": "同位列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "array element"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はいれつようそ",
+        "written": "配列要素"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "array name"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はいれつめい",
+        "written": "配列名"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "array partitioning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はいれつぶんかつ",
+        "written": "配列分割"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "array pointer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はいれつポインタ",
+        "written": "配列ポインタ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "array section"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶぶんはいれつ",
+        "written": "部分配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "array-valued"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はいれつち",
+        "written": "配列値"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "associative array"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れんそうはいれつ",
+        "written": "連想配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "assumed-size array"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おおきさひきつぎはいれつ",
+        "written": "大きさ引継ぎ配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "augmented matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくだいぎょうれつ",
+        "written": "拡大行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "base sequence (e.g. of DNA)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えんきはいれつ",
+        "written": "塩基配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "battle formation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんれつ",
+        "written": "陣列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "beater (on a hunt)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せこ",
+        "written": "列卒"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せこ",
+        "written": "勢子"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せご",
+        "written": "列卒"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せご",
+        "written": "勢子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "beatification"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっぷく",
+        "written": "列福"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "biographical style"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつでんたい",
+        "written": "列伝体"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bitstring type"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ビットれつがた",
+        "written": "ビット列型"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "blank sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くうはくれつ",
+        "written": "空白列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "block matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ブロックぎょうれつ",
+        "written": "ブロック行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "calling sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よびだしれつ",
+        "written": "呼出し列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cell array"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "セルはいれつ",
+        "written": "セル配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうげれつ",
+        "written": "上下列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "character sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もじじゅんれつ",
+        "written": "文字順列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "character string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もじれつ",
+        "written": "文字列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "character string type"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もじれつがた",
+        "written": "文字列型"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cholera"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "gai1",
+          "ichi1"
+        ],
+        "pronounced": "コレラ",
+        "written": "虎列剌"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "clipped pel array"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きりとりがそはいれつ",
+        "written": "切取り画素配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "coefficient matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいすうぎょうれつ",
+        "written": "係数行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "column heading"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつみだし",
+        "written": "列見出し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "column number"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつばんごう",
+        "written": "列番号"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "column vector"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつベクトル",
+        "written": "列ベクトル"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "column width"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつはば",
+        "written": "列幅"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "column-major (e.g. vector)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつゆうせん",
+        "written": "列優先"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commuter train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つうきんれっしゃ",
+        "written": "通勤列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "contextual sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんみゃくれつ",
+        "written": "文脈列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "costume parade"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かそうぎょうれつ",
+        "written": "仮装行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "covariance matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうぶんさんぎょうれつ",
+        "written": "共分散行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "daimyo's procession"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいみょうぎょうれつ",
+        "written": "大名行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "decay chain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうかいけいれつ",
+        "written": "崩壊系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "delimiter string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くぎりしもじれつ",
+        "written": "区切り子文字列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dental arch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しれつきゅう",
+        "written": "歯列弓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "design matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいかくぎょうれつ",
+        "written": "計画行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "determinant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうれつしき",
+        "written": "行列式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "diagonal matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいかくぎょうれつ",
+        "written": "対角行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "display box (for products)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんれつばこ",
+        "written": "陳列箱"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "display case"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんれつだな",
+        "written": "陳列棚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "display window"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんれつまど",
+        "written": "陳列窓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dummy array"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かりはいれつ",
+        "written": "仮配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "elementary matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きほんぎょうれつ",
+        "written": "基本行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "enumerative classification system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっきょぶんるいたいけい",
+        "written": "列挙分類体系"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "equivalent reference string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうかさんしょうれつ",
+        "written": "等価参照列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "event queue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じしょうまちぎょうれつ",
+        "written": "事象待ち行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "explicit-shape array"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいじょうめいじはいれつ",
+        "written": "形状明示配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "express train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうこうれっしゃ",
+        "written": "急行列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fifth column"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいごれつ",
+        "written": "第五列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "filing off (in a parade)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんれつ",
+        "written": "分列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flag procession"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はたぎょうれつ",
+        "written": "旗行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "freight train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かもつれっしゃ",
+        "written": "貨物列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "front row"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "さいぜんれつ",
+        "written": "最前列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "front row"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "ぜんれつ",
+        "written": "前列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "funeral procession"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうのれつ",
+        "written": "葬の列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "funeral procession"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36",
+          "spec2"
+        ],
+        "pronounced": "そうれつ",
+        "written": "葬列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "graphic character string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ずけいもじれつ",
+        "written": "図形文字列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gun deck (ship)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうれつかんぱん",
+        "written": "砲列甲板"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "harmonic progression"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうわすうれつ",
+        "written": "調和数列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "high speed serial interface"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうそくちょくれつインターフェイス",
+        "written": "高速直列インターフェイス"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "homologous series"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうぞくれつ",
+        "written": "同族列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "infinite sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むげんすうれつ",
+        "written": "無限数列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "international train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいれっしゃ",
+        "written": "国際列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intron"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいざいはいれつ",
+        "written": "介在配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inverse matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎゃくぎょうれつ",
+        "written": "逆行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "island arc (like the Aleutian Islands)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かさいれっとう",
+        "written": "花綵列島"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kanji \"fire\" radical at bottom (radical 86)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっか",
+        "written": "列火"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "keiretsu subsidiary"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいれつこがいしゃ",
+        "written": "系列子会社"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lantern procession"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうちんぎょうれつ",
+        "written": "提灯行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいごれっしゃ",
+        "written": "最後列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last train (of the day)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうれっしゃ",
+        "written": "終列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "length of a character string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もじれつのながさ",
+        "written": "文字列の長さ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "limited express train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくべつきゅうこうれっしゃ",
+        "written": "特別急行列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "limited express train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とっきゅうれっしゃ",
+        "written": "特急列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "line of battle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "せんれつ",
+        "written": "戦列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "linear binary sequence generator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんけいにげんけいれつせいせいき",
+        "written": "線形二元系列生成機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lined up in a row"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろれつ",
+        "written": "臚列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くかんれっしゃ",
+        "written": "区間列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "long-distance train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうきょりれっしゃ",
+        "written": "長距離列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lower triangular matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "したさんかくぎょうれつ",
+        "written": "下三角行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "magic square (matrix)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まほうじんぎょうれつ",
+        "written": "魔方陣行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "many daimyo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっこう",
+        "written": "列侯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "many feudal domains"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっぱん",
+        "written": "列藩"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "many-one array section"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうふくぶぶんはいれつ",
+        "written": "重複部分配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "marching in file"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんれつこうしん",
+        "written": "分列行進"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "massively parallel computer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうへいれつけいさんき",
+        "written": "超並列計算機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "matrix element"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうれつようそ",
+        "written": "行列要素"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "matrix notation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうれつきほう",
+        "written": "行列記法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "matrix operation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうれつえんざん",
+        "written": "行列演算"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "matrix representation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうれつひょうげん",
+        "written": "行列表現"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "may the presiders over warriors be my vanguard (nine-character charm chanted to ward off evil)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りんぴょうとうしゃかいじんれつざいぜん",
+        "written": "臨兵闘者皆陣列在前"
+      },
+      {
+        "priorities": [],
+        "pronounced": "りんぴょうとうしゃかいじんれつざいぜん",
+        "written": "臨兵闘者皆陣烈在前"
+      },
+      {
+        "priorities": [],
+        "pronounced": "りんぴょうとうしゃかいじんれつざいぜん",
+        "written": "臨兵闘者皆陣裂在前"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "military review"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんれつしき",
+        "written": "分列式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "minor (determinant)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうぎょうれつしき",
+        "written": "小行列式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "monotonically decreasing sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんちょうげんしょうすうれつ",
+        "written": "単調減少数列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "monotonically increasing sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんちょうぞうかすうれつ",
+        "written": "単調増加数列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "motorcade"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃれつ",
+        "written": "車列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "multidimensional array"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たじげんはいれつ",
+        "written": "多次元配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "neptunium series"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ネプツニウムけいれつ",
+        "written": "ネプツニウム系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "night train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やこうれっしゃ",
+        "written": "夜行列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "normal matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいきぎょうれつ",
+        "written": "正規行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "null character string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ヌルもじれつ",
+        "written": "ヌル文字列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "null string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くうれつ",
+        "written": "空列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "null string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ナルもじれつ",
+        "written": "ナル文字列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "octet-string type"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "オクテットれつがた",
+        "written": "オクテット列型"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "order of battle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんとうじょれつ",
+        "written": "戦闘序列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "orthogonal sequences"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょっこうけいれつ",
+        "written": "直交系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "orthostichy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょくれつはいち",
+        "written": "直列配置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "output queue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅつりょくまちぎょうれつ",
+        "written": "出力待ち行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paradigm"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんれつ",
+        "written": "範列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paradigmatic relation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいれつかんけい",
+        "written": "系列関係"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paradigmatic relation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんれつかんけい",
+        "written": "範列関係"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parallel adder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいれつかさんき",
+        "written": "並列加算器"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parallel addition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいれつかさん",
+        "written": "並列加算"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parallel circuit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいれつかいろ",
+        "written": "並列回路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parallel execution"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいれつじっこう",
+        "written": "並列実行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parallel run"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいれつうんてん",
+        "written": "並列運転"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parallel transfer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいれつてんそう",
+        "written": "並列転送"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parallel transmission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいれつでんそう",
+        "written": "並列伝送"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parallelization"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいれつか",
+        "written": "並列化"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parastichy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃれつ",
+        "written": "斜列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "passenger train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょかくれっしゃ",
+        "written": "旅客列車"
+      },
+      {
+        "priorities": [],
+        "pronounced": "りょきゃくれっしゃ",
+        "written": "旅客列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pel array"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がそはいれつ",
+        "written": "画素配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "phased-array radar"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いそうはいれつレーダー",
+        "written": "位相配列レーダー"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "phonotactics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おんそはいれつろん",
+        "written": "音素配列論"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "planting in a row (trees, flowers, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっしょく",
+        "written": "列植"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "polymarker"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "マーカれつ",
+        "written": "マーカ列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "polymarker bundle table"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "マーカれつたばひょう",
+        "written": "マーカ列束表"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pseudo-random number sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎじらんすうれつ",
+        "written": "擬似乱数列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pseudorandom sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんじランダムけいれつ",
+        "written": "近似ランダム系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pulse stream (train, string)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "パルスれつ",
+        "written": "パルス列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "queue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まちぎょうれつ",
+        "written": "待ち行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "queue name"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まちぎょうれつめい",
+        "written": "待ち行列名"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "queue-driven"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まちぎょうれつほうしき",
+        "written": "待ち行列方式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "queueing theory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まちぎょうれつりろん",
+        "written": "待ち行列理論"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quoted (character) string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いんようもじれつ",
+        "written": "引用文字列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "radioactive decay series"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうしゃせいほうかいけいれつ",
+        "written": "放射性崩壊系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "random number sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "らんすうれつ",
+        "written": "乱数列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rapid-transit train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいそくれっしゃ",
+        "written": "快速列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regular matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいそくぎょうれつ",
+        "written": "正則行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "restaurant with long lines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうれつてん",
+        "written": "行列店"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rotation matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいてんぎょうれつ",
+        "written": "回転行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "row of teeth"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しれつ",
+        "written": "歯列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "row pitch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつピッチ",
+        "written": "列ピッチ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "search string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんさくもじれつ",
+        "written": "検索文字列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "search string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "サーチもじれつ",
+        "written": "サーチ文字列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "section subscript"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶぶんはいれつそえじ",
+        "written": "部分配列添字"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seniority by length of service"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "ねんこうじょれつ",
+        "written": "年功序列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんばんれつ",
+        "written": "順番列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sequence of differences"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいさすうれつ",
+        "written": "階差数列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sequence type"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんじょれつがた",
+        "written": "順序列型"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sequence-of type"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんいつがたじゅんじょれつがた",
+        "written": "単一型順序列型"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "serial adder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょくれつかさんき",
+        "written": "直列加算器"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "serial addition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょくれつかさん",
+        "written": "直列加算"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "serial transmission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょくれつでんそう",
+        "written": "直列伝送"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "series circuit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょくれつかいろ",
+        "written": "直列回路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "series of biographies"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "れつでん",
+        "written": "列伝"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ship of the line"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんれつかん",
+        "written": "戦列艦"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "short reference (string)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんしゅくさんしょうれつ",
+        "written": "短縮参照列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "showroom"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんれつしつ",
+        "written": "陳列室"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "singular matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくいぎょうれつ",
+        "written": "特異行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "singular matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひせいそくぎょうれつ",
+        "written": "非正則行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "skew-symmetric matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうたいぎょうれつ",
+        "written": "交代行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sleeper train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんだいれっしゃ",
+        "written": "寝台列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sort (in ascending order)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうじゅんせいれつ",
+        "written": "昇順整列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sort file"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいれつようファイル",
+        "written": "整列用ファイル"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sort-merge file description entry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいれつへいごうようファイルきじゅつこう",
+        "written": "整列併合用ファイル記述項"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sparse matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そぎょうれつ",
+        "written": "疎行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "spectral series"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "スペクトルけいれつ",
+        "written": "スペクトル系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "square matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいほうぎょうれつ",
+        "written": "正方行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stinking chamomile (Anthemis cotula)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "カミツレもどき",
+        "written": "加密列擬き"
+      },
+      {
+        "priorities": [],
+        "pronounced": "カミツレモドキ",
+        "written": "加密列擬き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stone circle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんじょうれっせき",
+        "written": "環状列石"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "storage association"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きおくれつけつごう",
+        "written": "記憶列結合"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "storage sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きおくれつ",
+        "written": "記憶列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "string device"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もじれつにゅうりょくそうち",
+        "written": "文字列入力装置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "string variable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつへんすう",
+        "written": "列変数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stroke device"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんれつにゅうりょくそうち",
+        "written": "点列入力装置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sub-queue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふくまちぎょうれつ",
+        "written": "副待ち行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "submatrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶぶんぎょうれつ",
+        "written": "部分行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "symbol string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きごうれつ",
+        "written": "記号列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "symmetric matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいしょうぎょうれつ",
+        "written": "対称行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tandem data circuit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょくれつデータかいせん",
+        "written": "直列データ回線"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "text bundle table"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もじれつたばひょう",
+        "written": "文字列束表"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the Japanese islands"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんれっとう",
+        "written": "日本列島"
+      },
+      {
+        "priorities": [],
+        "pronounced": "にほんれっとう",
+        "written": "日本列島"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the seniority system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねんこうじょれつせいど",
+        "written": "年功序列制度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "thorium series"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "トリウムけいれつ",
+        "written": "トリウム系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "time series analysis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じけいれつぶんせき",
+        "written": "時系列分析"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to enqueue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まちぎょうれつにいれる",
+        "written": "待ち行列に入れる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to form a line (row)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつをつくる",
+        "written": "列を作る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "transverse parity check"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつほうこうきぐうけんさ",
+        "written": "列方行奇偶検査"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "triangular matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんかくぎょうれつ",
+        "written": "三角行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unit string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんいれつ",
+        "written": "単位列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "upper triangular matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うえさんかくぎょうれつ",
+        "written": "上三角行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "uranium series"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ウランけいれつ",
+        "written": "ウラン系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "view mapping matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ビューしゃぞうへんかんぎょうれつ",
+        "written": "ビュー写像変換行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "view orientation matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ビューほうこうへんかんぎょうれつ",
+        "written": "ビュー方向変換行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "volcanic chain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かざんれつ",
+        "written": "火山列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whole array"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんたいはいれつ",
+        "written": "全体配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "\"multilayer\" train",
+          "single train formed by joining one or more trains having a different origin or destination"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たそうだてれっしゃ",
+        "written": "多層建て列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(a) row",
+          "line"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "いちれつ",
+        "written": "一列"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "いちれつ",
+        "written": "１列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Britain (island)",
+          "Great Britain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ブリテン",
+        "written": "不列顚"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ブリテン",
+        "written": "不列顛"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Explicitly Parallel Instruction Computing",
+          "EPIC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めいじてきへいれつめいれいコンピューティングぎじゅつ",
+        "written": "明示的並列命令コンピューティング技術"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "German chamomile (Matricaria recutita)",
+          "German camomile"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "カミツレ",
+        "written": "加密列"
+      },
+      {
+        "priorities": [],
+        "pronounced": "カミツレ",
+        "written": "加密爾列"
+      },
+      {
+        "priorities": [],
+        "pronounced": "カミルレ",
+        "written": "加密列"
+      },
+      {
+        "priorities": [],
+        "pronounced": "カミルレ",
+        "written": "加密爾列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "HIPPI",
+          "High Performance Parallel Interface"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうこうそくへいれつインターフェース",
+        "written": "超高速並列インターフェース"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Imperial train",
+          "royal train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おめしれっしゃ",
+        "written": "お召し列車"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おめしれっしゃ",
+        "written": "御召列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Réaumur temperature scale",
+          "degrees Réaumur"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっし",
+        "written": "列氏"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Réaumur temperature scale",
+          "degrees Réaumur"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっしおんど",
+        "written": "列氏温度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United States Civil Administration of the Ryukyu Islands (1950-1972)",
+          "USCAR"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りゅうきゅうれっとうべいこくみんせいふ",
+        "written": "琉球列島米国民政府"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "actinium series",
+          "Actinides"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アクチニウムけいれつ",
+        "written": "アクチニウム系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adjoint matrix",
+          "Hermitian conjugate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ずいはんぎょうれつ",
+        "written": "随伴行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "archipelago",
+          "chain of islands"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "れっとう",
+        "written": "列島"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "arithmetic progression",
+          "arithmetic sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうさすうれつ",
+        "written": "等差数列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attendance",
+          "presence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "れっせき",
+        "written": "列席"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attendance",
+          "presence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつざ",
+        "written": "列坐"
+      },
+      {
+        "priorities": [],
+        "pronounced": "れつざ",
+        "written": "列座"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attendant",
+          "attendee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんれつしゃ",
+        "written": "参列者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attendee",
+          "persons present"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっせきしゃ",
+        "written": "列席者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attribute-value matrix",
+          "AVM"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぞくせいちぎょうれつ",
+        "written": "属性値行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "automatic train control",
+          "ATC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうれっしゃせいぎょそうち",
+        "written": "自動列車制御装置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "automatic train stop",
+          "ATS"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうれっしゃていしそうち",
+        "written": "自動列車停止装置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "back row",
+          "rear rank"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41",
+          "spec2"
+        ],
+        "pronounced": "こうれつ",
+        "written": "後列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "battery (of artillery, cameras, etc.)",
+          "barrage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "ほうれつ",
+        "written": "放列"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "ほうれつ",
+        "written": "砲列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bit stream",
+          "binary digit string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ビットれつ",
+        "written": "ビット列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "canonization",
+          "establishment of sainthood"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっせい",
+        "written": "列聖"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chronological order",
+          "time series"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じけいれつ",
+        "written": "時系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "colonnade",
+          "row of columns"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっちゅう",
+        "written": "列柱"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "display stand",
+          "exhibition table"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんれつだい",
+        "written": "陳列台"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "down-train",
+          "train heading toward the ending point of its route"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "くだりれっしゃ",
+        "written": "下り列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "empty string",
+          "null string"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "からのもじれつ",
+        "written": "空の文字列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "enumeration",
+          "list"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "れっきょ",
+        "written": "列挙"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fundamental sequence",
+          "Cauchy sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きほんれつ",
+        "written": "基本列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gallery",
+          "exhibition hall"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんれつとう",
+        "written": "陳列棟"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "geometric progression",
+          "geometric sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうひすうれつ",
+        "written": "等比数列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "heritage railway train (typically running on a scenic tramway previously used for logging or mining)",
+          "sightseeing train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "トロッコれっしゃ",
+        "written": "トロッコ列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "identity matrix",
+          "unit matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんいぎょうれつ",
+        "written": "単位行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "island arc",
+          "crescent-shaped archipelago"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こじょうれっとう",
+        "written": "弧状列島"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lanthanide series",
+          "lanthanoid series"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ランタンけいれつ",
+        "written": "ランタン系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "linear algebra",
+          "matrix algebra"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうれつだいすう",
+        "written": "行列代数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "list",
+          "enumeration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26"
+        ],
+        "pronounced": "れっき",
+        "written": "列記"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "long line",
+          "long queue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf32",
+          "spec2"
+        ],
+        "pronounced": "ちょうだのれつ",
+        "written": "長蛇の列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "main sequence star",
+          "main sequence stars"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅけいれつせい",
+        "written": "主系列星"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "major powers of the world",
+          "great powers"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "れっきょう",
+        "written": "列強"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nations",
+          "states"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf34",
+          "spec2"
+        ],
+        "pronounced": "れっこく",
+        "written": "列国"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "orthodontia",
+          "orthodontics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しれつきょうせい",
+        "written": "歯列矯正"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parallel marker",
+          "particle used to list items (e.g. \"to\", \"ya\", \"yara\")"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいれつじょし",
+        "written": "並列助詞"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parallel parking",
+          "roadside parking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうれつちゅうしゃ",
+        "written": "縦列駐車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parallel processing",
+          "array processing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいれつしょり",
+        "written": "並列処理"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "partial (character) string",
+          "substring"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶぶんもじれつ",
+        "written": "部分文字列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "perpendicular parking",
+          "side-by-side parking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいれつちゅうしゃ",
+        "written": "並列駐車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "planetary alignment",
+          "syzygy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わくせいちょくれつ",
+        "written": "惑星直列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pseudonoise sequence",
+          "pn sequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんじざつおんけいれつ",
+        "written": "近似雑音系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rank (e.g. of soldiers)",
+          "horizontal line"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうれつ",
+        "written": "横列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rock series",
+          "lithosequence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がんせきけいれつ",
+        "written": "岩石系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special train",
+          "extra train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りんじれっしゃ",
+        "written": "臨時列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "standing in a row",
+          "standing in a column"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつりつ",
+        "written": "列立"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "staticizer",
+          "serial-parallel converter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょくへいれつへんかんき",
+        "written": "直並列変換器"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "through train",
+          "direct train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょくつうれっしゃ",
+        "written": "直通列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to discuss in the same terms",
+          "to treat equally"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうれつにろんじる",
+        "written": "同列に論じる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "train",
+          "railway train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "れっしゃ",
+        "written": "列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "train telephone",
+          "railway radiotelephone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっしゃでんわ",
+        "written": "列車電話"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "transposed matrix",
+          "transpose"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんちぎょうれつ",
+        "written": "転置行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "two rows",
+          "double file"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にれつ",
+        "written": "二列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "up-train",
+          "train heading toward the starting point of its route"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "のぼりれっしゃ",
+        "written": "上り列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vactrain",
+          "vacuum tube train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんくうチューブれっしゃ",
+        "written": "真空チューブ列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "very fast train",
+          "bullet train"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だんがんれっしゃ",
+        "written": "弾丸列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "zero matrix",
+          "null matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れいぎょうれつ",
+        "written": "零行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "zero matrix",
+          "null matrix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゼロぎょうれつ",
+        "written": "ゼロ行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Fibonacci sequence",
+          "Fibonacci numbers",
+          "Fibonacci series"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "フィボナッチすうれつ",
+        "written": "フィボナッチ数列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Indian file",
+          "single file",
+          "single column"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんじゅうれつ",
+        "written": "単縦列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "array",
+          "line-up",
+          "parade"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいれつ",
+        "written": "斉列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attendance",
+          "participation",
+          "presence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "さんれつ",
+        "written": "参列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "back row",
+          "last row",
+          "rearmost row"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "さいこうれつ",
+        "written": "最後列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "byte string",
+          "byte sequence",
+          "sequence of bytes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "バイトれつ",
+        "written": "バイト列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "column",
+          "file",
+          "(vertical) line"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうれつ",
+        "written": "縦列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "enumerated type",
+          "enumeration type",
+          "enum"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっきょがた",
+        "written": "列挙型"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "enumeration",
+          "citation",
+          "listing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf39",
+          "spec2"
+        ],
+        "pronounced": "られつ",
+        "written": "羅列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "exhibit",
+          "article on display",
+          "showpiece"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんれつひん",
+        "written": "陳列品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "exhibit",
+          "article on display",
+          "showpiece"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっぴん",
+        "written": "列品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "exhibition",
+          "display",
+          "putting on show"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf23"
+        ],
+        "pronounced": "ちんれつ",
+        "written": "陳列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "keiretsu transaction",
+          "financial transaction between affiliated enterprises",
+          "intragroup business deal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいれつとりひき",
+        "written": "系列取引"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "order",
+          "sequence",
+          "precedence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつじ",
+        "written": "列次"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paradigmatic",
+          "prototypical",
+          "representative"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいれつてき",
+        "written": "系列的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "putting in order",
+          "systemize",
+          "systemise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいれつか",
+        "written": "系列化"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rank",
+          "ranking order",
+          "hierarchy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "じょれつ",
+        "written": "序列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regular train",
+          "local train",
+          "train that stops at every station"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふつうれっしゃ",
+        "written": "普通列車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "return to the line (of battle)",
+          "coming back to the game",
+          "comeback"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんれつふっき",
+        "written": "戦列復帰"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "row of people lined up",
+          "forming a row",
+          "lining up (side by side)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とれつ",
+        "written": "堵列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "serializer",
+          "parallel-serial converter",
+          "dynamicizer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいちょくれつへんかんき",
+        "written": "並直列変換器"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "standing in a row",
+          "forming a line",
+          "alignment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "せいれつ",
+        "written": "整列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to form a line",
+          "to queue up",
+          "to line up"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れつをなす",
+        "written": "列をなす"
+      },
+      {
+        "priorities": [],
+        "pronounced": "れつをなす",
+        "written": "列を成す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tone row",
+          "note row",
+          "series"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おんれつ",
+        "written": "音列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rank (of troops)",
+          "file",
+          "column",
+          "formation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "たいれつ",
+        "written": "隊列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Volcano Islands (Japan)"
+        ]
+      },
+      {
+        "glosses": [
+          "chain of volcanic islands"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かざんれっとう",
+        "written": "火山列島"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "array"
+        ]
+      },
+      {
+        "glosses": [
+          "arrangement",
+          "disposition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "はいれつ",
+        "written": "排列"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "はいれつ",
+        "written": "配列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "asterism"
+        ]
+      },
+      {
+        "glosses": [
+          "lining up (like a row of stars)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいれつ",
+        "written": "星列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "matrix"
+        ]
+      },
+      {
+        "glosses": [
+          "line",
+          "queue",
+          "procession",
+          "parade"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "ぎょうれつ",
+        "written": "行列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parallel (electronics, computing, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "arranging in a line",
+          "standing in a row"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "へいれつ",
+        "written": "並列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "permutation"
+        ]
+      },
+      {
+        "glosses": [
+          "lining up in order",
+          "linear arrangement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんれつ",
+        "written": "順列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "serial"
+        ]
+      },
+      {
+        "glosses": [
+          "series (e.g. electrical)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "ちょくれつ",
+        "written": "直列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "subsequence"
+        ]
+      },
+      {
+        "glosses": [
+          "substring"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶぶんれつ",
+        "written": "部分列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sequence",
+          "progression"
+        ]
+      },
+      {
+        "glosses": [
+          "several lines",
+          "several rows"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すうれつ",
+        "written": "数列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to attend",
+          "to take part in"
+        ]
+      },
+      {
+        "glosses": [
+          "to line up with",
+          "to be a member of",
+          "to rank with"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れっする",
+        "written": "列する"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to line up",
+          "to stand in a line"
+        ]
+      },
+      {
+        "glosses": [
+          "to rival",
+          "to match",
+          "to equal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "ならぶ",
+        "written": "並ぶ"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "ならぶ",
+        "written": "列ぶ"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "ならぶ",
+        "written": "双ぶ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "same row",
+          "same line",
+          "same file"
+        ]
+      },
+      {
+        "glosses": [
+          "same rank",
+          "same level",
+          "same category",
+          "same treatment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "どうれつ",
+        "written": "同列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "affiliated",
+          "subsidiary"
+        ]
+      },
+      {
+        "glosses": [
+          "keiretsu (group)",
+          "conglomeration of businesses linked by cross-shareholdings"
+        ]
+      },
+      {
+        "glosses": [
+          "series",
+          "sequence",
+          "system",
+          "succession"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "けいれつ",
+        "written": "系列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "counter for rows"
+        ]
+      },
+      {
+        "glosses": [
+          "sequence"
+        ]
+      },
+      {
+        "glosses": [
+          "company (of someone)",
+          "group",
+          "ranks"
+        ]
+      },
+      {
+        "glosses": [
+          "row",
+          "line",
+          "file",
+          "column",
+          "queue",
+          "rank",
+          "procession"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf08"
+        ],
+        "pronounced": "れつ",
+        "written": "列"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to attend",
+          "to participate in"
+        ]
+      },
+      {
+        "glosses": [
+          "to enrol",
+          "to enroll",
+          "to join"
+        ]
+      },
+      {
+        "glosses": [
+          "to extend",
+          "to stretch out",
+          "to stand in a row"
+        ]
+      },
+      {
+        "glosses": [
+          "to have a connection",
+          "to be related",
+          "to be linked"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf40"
+        ],
+        "pronounced": "つらなる",
+        "written": "列なる"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf40"
+        ],
+        "pronounced": "つらなる",
+        "written": "連なる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to line up",
+          "to put in a row"
+        ]
+      },
+      {
+        "glosses": [
+          "to take along with",
+          "to bring with"
+        ]
+      },
+      {
+        "glosses": [
+          "to add (to a group)",
+          "to accept (as a member of an organization, etc.)",
+          "to join (e.g. a list)"
+        ]
+      },
+      {
+        "glosses": [
+          "to link",
+          "to put together",
+          "to string together (e.g. compliments)",
+          "to enumerate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "つらねる",
+        "written": "列ねる"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "つらねる",
+        "written": "連ねる"
+      }
+    ]
+  }
+]

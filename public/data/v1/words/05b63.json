@@ -1,0 +1,1611 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(haiku) lacking seasonal references"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むき",
+        "written": "無季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(season of) winter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "とうき",
+        "written": "冬季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Shiki Theatrical Company"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げきだんしき",
+        "written": "劇団四季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Summer Olympics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かきごりん",
+        "written": "夏季五輪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Summer Olympics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かきオリンピック",
+        "written": "夏季オリンピック"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Winter Olympics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうきオリンピック",
+        "written": "冬季オリンピック"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "blooming in each season"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきざき",
+        "written": "四季咲き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dictionary of seasonal words (for haiku and haikai)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きよせ",
+        "written": "季寄せ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dry season"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "かんき",
+        "written": "乾季"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "かんき",
+        "written": "乾期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "end of the season"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きまつ",
+        "written": "季末"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "end-of-year settling of accounts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっきじまい",
+        "written": "節季仕舞い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "expiration of a term of service"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねんきあけ",
+        "written": "年季明け"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ねんきあけ",
+        "written": "年期明け"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flowering season"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "かき",
+        "written": "花季"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "かき",
+        "written": "花期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hunting season"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうき",
+        "written": "猟季"
+      },
+      {
+        "priorities": [],
+        "pronounced": "りょうき",
+        "written": "猟期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "imperial ceremony of ancestor worship formerly held on the autumnal equinox"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうきこうれいさい",
+        "written": "秋季皇霊祭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "imperial ceremony of ancestor worship formerly held on the vernal equinox"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅんきこうれいさい",
+        "written": "春季皇霊祭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last child"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きし",
+        "written": "季子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last player"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びき",
+        "written": "尾季"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ビキ",
+        "written": "尾季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quarterly (journal)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきほう",
+        "written": "四季報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quarterly (magazine)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかんざっし",
+        "written": "季刊雑誌"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quarterly (magazine, journal, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかんし",
+        "written": "季刊誌"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quarterly publication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "きかん",
+        "written": "季刊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rainy season"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "うき",
+        "written": "雨季"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "うき",
+        "written": "雨期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつてき",
+        "written": "季節的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal (weather) phenomenon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつげんしょう",
+        "written": "季節現象"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal adjustment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつちょうせい",
+        "written": "季節調整"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal migration (of fish, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつかいゆう",
+        "written": "季節回遊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal variation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつへんい",
+        "written": "季節変異"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal winds"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf39",
+          "spec2"
+        ],
+        "pronounced": "きせつふう",
+        "written": "季節風"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal word (in haiku)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "きご",
+        "written": "季語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal word (in haiku)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きことば",
+        "written": "季言葉"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きことば",
+        "written": "季詞"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonally adjusted"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつちょうせいずみ",
+        "written": "季節調整済み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonally adjusted figure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつちょうせいち",
+        "written": "季節調整値"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "spring season"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "しゅんき",
+        "written": "春季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "spring training camp"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅんきキャンプ",
+        "written": "春季キャンプ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "summer fever"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かきねつ",
+        "written": "夏季熱"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "summer rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かきりょうきん",
+        "written": "夏季料金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "summer season"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なつき",
+        "written": "夏季"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "かき",
+        "written": "夏季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "summer vacation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かききゅうか",
+        "written": "夏季休暇"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the four seasons"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "しき",
+        "written": "四季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "this season"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "こんき",
+        "written": "今季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Winter Olympic Games",
+          "Winter Olympics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうきごりん",
+        "written": "冬季五輪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Winter Olympic Games",
+          "Winter Olympics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "オリンピックとうききょうぎたいかい",
+        "written": "オリンピック冬季競技大会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "degenerate age",
+          "corrupt world"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせい",
+        "written": "季世"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "end of the year or season",
+          "year end"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっき",
+        "written": "節季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fall season",
+          "autumn season"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "しゅうき",
+        "written": "秋季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last season (e.g. in sports)",
+          "equivalent season last year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくき",
+        "written": "昨季"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さっき",
+        "written": "昨季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "next season (esp. in sports)",
+          "next year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "らいき",
+        "written": "来季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "out of season",
+          "unseasonal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じきはずれ",
+        "written": "時季はずれ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "じきはずれ",
+        "written": "時季外れ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "overlapping seasonal words",
+          "having more than one seasonal word in a haiku"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きがさなり",
+        "written": "季重さなり"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "passage of the seasons",
+          "change of the four seasons"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきのうつろい",
+        "written": "四季の移ろい"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "season",
+          "climate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きこう",
+        "written": "季候"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "season",
+          "time of year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "じき",
+        "written": "時季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "season",
+          "time of year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "きせつ",
+        "written": "季節"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "season's tidings",
+          "seasonal letter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつのたより",
+        "written": "季節のたより"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きせつのたより",
+        "written": "季節の便り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal affective disorder",
+          "SAD"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつせいじょうどうしょうがい",
+        "written": "季節性情動障害"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal influenza",
+          "seasonal flu"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつせいインフルエンザ",
+        "written": "季節性インフルエンザ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal labor",
+          "seasonal labour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつろうどう",
+        "written": "季節労働"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal laborer",
+          "seasonal labourer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつろうどうしゃ",
+        "written": "季節労働者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonality",
+          "seasonal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつせい",
+        "written": "季節性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sense of the seasons",
+          "feeling of seasonality"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつかん",
+        "written": "季節感"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "servant's clothes provided by an employer",
+          "livery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきせ",
+        "written": "仕着"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しきせ",
+        "written": "仕着せ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しきせ",
+        "written": "四季施"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しきせ",
+        "written": "為着"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tropical wet and dry climate",
+          "tropical savannah climate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねったいかきしょううきこう",
+        "written": "熱帯夏季少雨気候"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unseasonable",
+          "out-of-season"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつはずれ",
+        "written": "季節はずれ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きせつはずれ",
+        "written": "季節外れ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "apprenticeship",
+          "indentureship",
+          "indenture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねんきぼうこう",
+        "written": "年季奉公"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ねんきぼうこう",
+        "written": "年期奉公"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dry season",
+          "dry spell",
+          "dry period"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんそうき",
+        "written": "乾燥季"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かんそうき",
+        "written": "乾燥期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "frivolous age",
+          "degenerate period in history",
+          "decadent age"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうき",
+        "written": "澆季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in these times",
+          "in times likes these",
+          "the season being what it is"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつがら",
+        "written": "季節柄"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal payment",
+          "payment made at the Bon festival",
+          "year-end payment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっきばらい",
+        "written": "節季払い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "from season to season",
+          "season by season",
+          "of each season",
+          "in each season"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきおりおり",
+        "written": "四季折々"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しきおりおり",
+        "written": "四季折折"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "changing seasons",
+          "season's transition",
+          "transition from one season to the next",
+          "turn of the seasons",
+          "turning of the seasons"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせつのうつりかわり",
+        "written": "季節の移り変わり"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Bon and year-end festivals"
+        ]
+      },
+      {
+        "glosses": [
+          "two seasons"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にき",
+        "written": "二季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "end of autumn"
+        ]
+      },
+      {
+        "glosses": [
+          "ninth month of the lunar calendar"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きしゅう",
+        "written": "季秋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "end of summer"
+        ]
+      },
+      {
+        "glosses": [
+          "sixth month of the lunar calendar"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きか",
+        "written": "季夏"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "end of winter"
+        ]
+      },
+      {
+        "glosses": [
+          "twelfth month of the lunar calendar"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きとう",
+        "written": "季冬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "half of a season"
+        ]
+      },
+      {
+        "glosses": [
+          "half-year (sometimes esp. as an Edo-period duration of employment)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんき",
+        "written": "半季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "late spring"
+        ]
+      },
+      {
+        "glosses": [
+          "third month of the lunar calendar"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きしゅん",
+        "written": "季春"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one season"
+        ]
+      },
+      {
+        "glosses": [
+          "one year (esp. as an Edo-period duration of employment)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっき",
+        "written": "一季"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひとき",
+        "written": "一季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seasonal word (in haiku)"
+        ]
+      },
+      {
+        "glosses": [
+          "seasonal topic (in haiku)",
+          "seasonal word used as a theme (at a haiku gathering)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きだい",
+        "written": "季題"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "this season"
+        ]
+      },
+      {
+        "glosses": [
+          "nowadays",
+          "these days"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうき",
+        "written": "当季"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to become experienced (after many years of practice)"
+        ]
+      },
+      {
+        "glosses": [
+          "to become worn (through long use)",
+          "to show its age"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねんきがはいる",
+        "written": "年季が入る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ねんきがはいる",
+        "written": "年期が入る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one-year period"
+        ]
+      },
+      {
+        "glosses": [
+          "period of an apprentice's contract (usu. ten years)"
+        ]
+      },
+      {
+        "glosses": [
+          "apprenticeship",
+          "indentureship",
+          "indenture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねんき",
+        "written": "年季"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ねんき",
+        "written": "年期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "season (in nature, sports, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "seasonal word or phrase (in haiku)"
+        ]
+      },
+      {
+        "glosses": [
+          "year"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "き",
+        "written": "季"
+      }
+    ]
+  }
+]

@@ -1,0 +1,4599 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(audio) recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "ろくおん",
+        "written": "錄音"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "ろくおん",
+        "written": "録音"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(cockpit) voice recorder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうじゅうせきおんせいきろくそうち",
+        "written": "操縦席音声記録装置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(recorded) man-on-the-street interview"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいとうろくおん",
+        "written": "街頭録音"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(recorded) man-on-the-street interview"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいろく",
+        "written": "街録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(video) recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "ろくが",
+        "written": "録画"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Acts of the Apostles (book of the Bible)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しとげんこうろく",
+        "written": "使徒言行録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Alien Registration Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいこくじんとうろくほう",
+        "written": "外国人登録法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Book of Serenity (12th century collection of koans, compiled by Chinese monk Hongzhi Zhengjue)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうようろく",
+        "written": "従容録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chuandeng Lu (Record of the Transmission of the Lamp, 1004 CE Buddhist scripture)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんとうろく",
+        "written": "伝灯録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Data Recording Device"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "データきろくそうち",
+        "written": "データ記録装置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Diet Record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こっかいぎじろく",
+        "written": "国会議事録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Genshi Shiroku (book of sayings by Satō Issai)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんししろく",
+        "written": "言志四録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Jingde Chuandeng Lu (Record of the Transmission of the Lamp Published in the Jingde Era, 1004 CE Buddhist scripture)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいとくでんとうろく",
+        "written": "景徳伝灯録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Linji-lu (Record of Linji, Tang-era Buddhist text based on the teachings of Linji)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りんざいろく",
+        "written": "臨済録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Montoku Jitsuroku (fifth of the six classical Japanese history texts)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もんとくじつろく",
+        "written": "文徳実録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nanbōroku (1593 text about the tea ceremony based on the teachings of Sen no Rikyū)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんぼうろく",
+        "written": "南坊録"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんぼうろく",
+        "written": "南方録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nihon Montoku Tennō Jitsuroku (fifth of the six classical Japanese history texts)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんもんとくてんのうじつろく",
+        "written": "日本文徳天皇実録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nihon Sandai Jitsuroku (sixth of the six classical Japanese history texts)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんさんだいじつろく",
+        "written": "日本三代実録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Olympic record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "オリンピックきろく",
+        "written": "オリンピック記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Records Management Society of Japan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくかんりがっかい",
+        "written": "記録管理学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Registration and License Tax Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくめんきょぜいほう",
+        "written": "登録免許税法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Sandai Jitsuroku (sixth of the six classical Japanese history texts)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんだいじつろく",
+        "written": "三代実録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Shinsen Shouji Roku (Newly Compiled Record of Clan Names; 815 CE)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんせんしょうじろく",
+        "written": "新撰姓氏録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "The Travels of Marco Polo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうほうけんぶんろく",
+        "written": "東方見聞録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "UA capabilities registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ユーエーのうりょくのとうろく",
+        "written": "ＵＡ能力の登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abstract page"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうろくページ",
+        "written": "抄録ページ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "access log"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せつぞくきろく",
+        "written": "接続記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adding someone to one's friends list"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ともろく",
+        "written": "友録"
+      },
+      {
+        "priorities": [],
+        "pronounced": "トモロク",
+        "written": "友録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alien registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいこくじんとうろく",
+        "written": "外国人登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alien registration card"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいじんとうろくしょう",
+        "written": "外人登録証"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alleging diminution"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくけんけつのしゅちょう",
+        "written": "記録欠缺の主張"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alternate recipient assignment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいこうじゅしんしゃとうろく",
+        "written": "代行受信者登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "archive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくほかんじょ",
+        "written": "記録保管所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "arrest record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいほきろく",
+        "written": "逮捕記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "audit trail"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんさきろく",
+        "written": "監査記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "authentic account"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf34"
+        ],
+        "pronounced": "じつろく",
+        "written": "実録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "automatic abstracting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうしょうろくさぎょう",
+        "written": "自動抄録作業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "binaural recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "バイノーラルろくおん",
+        "written": "バイノーラル録音"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bound-in supplement (in a book, magazine, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とじこみふろく",
+        "written": "とじこみ付録"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とじこみふろく",
+        "written": "とじ込み付録"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とじこみふろく",
+        "written": "綴じ込み付録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cardiography"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんぱくきろく",
+        "written": "心拍記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cash register"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんせんとうろくき",
+        "written": "金銭登録器"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きんせんとうろくき",
+        "written": "金銭登録機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certification of information recorded on foreign resident registration file"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいこくじんとうろくげんぴょうきさいじこうしょうめいしょ",
+        "written": "外国人登録原票記載事項証明書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conditional acceptance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうけんつきさいろく",
+        "written": "条件付き採録"
+      },
+      {
+        "priorities": [],
+        "pronounced": "じょうけんつきさいろく",
+        "written": "条件付採録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "copyright library"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょさくけんとうろくとしょかん",
+        "written": "著作権登録図書館"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "course registration (university, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りしゅうとうろく",
+        "written": "履修登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "credit-worthiness directory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうしんろく",
+        "written": "興信録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいきろく",
+        "written": "犯罪記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cumulative guidance record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しどうようろく",
+        "written": "指導要録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "data registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "データとうろく",
+        "written": "データ登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "detailed record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうろく",
+        "written": "詳録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "digital recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "デジタルろくおん",
+        "written": "デジタル録音"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "documentary film"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくえいが",
+        "written": "記録映画"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "documentary literature"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくぶんがく",
+        "written": "記録文学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "double-pulse recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばいパルスきろく",
+        "written": "倍パルス記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "electromagnetic record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんじてききろく",
+        "written": "電磁的記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "equal to the current record (in sports, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "タイきろく",
+        "written": "タイ記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fine record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいきろく",
+        "written": "快記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flight record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいくうきろく",
+        "written": "滞空記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flight recorder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひこうきろくそうち",
+        "written": "飛行記録装置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fossil record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かせききろく",
+        "written": "化石記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guest book"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "らいきゃくほうめいろく",
+        "written": "来客芳名録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "historical document written without a particular addressee (e.g. a diary)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こきろく",
+        "written": "古記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "human document"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんせいきろく",
+        "written": "人生記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "including (an extra work) within the same book, DVD, etc."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいろく",
+        "written": "併録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "index"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf43"
+        ],
+        "pronounced": "そうもくろく",
+        "written": "総目録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indicative abstract"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しじしょうろく",
+        "written": "指示抄録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "informative abstract"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうちしょうろく",
+        "written": "報知抄録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inventory of property"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいさんもくろく",
+        "written": "財産目録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lecture transcript"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうぎろく",
+        "written": "講義録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "library text"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくしゅうげんぶん",
+        "written": "登録集原文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "library-name"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくしゅうめい",
+        "written": "登録集名"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "license plate for registered vehicles (i.e. compact car or larger)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうしゃとうろくばんごうひょう",
+        "written": "自動車登録番号標"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "list of personnel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくいんろく",
+        "written": "職員録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "live recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なまろく",
+        "written": "生録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "log-commit record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "コミットログきろく",
+        "written": "コミットログ記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "log-damage record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そんしょうログきろく",
+        "written": "損傷ログ記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "log-ready record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんびかんりょうログきろく",
+        "written": "準備完了ログ記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "logger"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうきろくき",
+        "written": "自動記録器"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "longitudinal magnetic recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいへいじききろく",
+        "written": "水平磁気記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "magnetic media"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じききろくばいたい",
+        "written": "磁気記録媒体"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "magnetic recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じききろく",
+        "written": "磁気記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "magnetic recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じきろくおん",
+        "written": "磁気録音"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "making a secret audio recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぬすみどり",
+        "written": "盗み録り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "making a secret audio recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくしどり",
+        "written": "隠しどり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かくしどり",
+        "written": "隠し録り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "manifest (of cargo)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみにもくろく",
+        "written": "積み荷目録"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみにもくろく",
+        "written": "積荷目録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "miscellaneous records"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざつろく",
+        "written": "雑録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "new Japanese record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんしんきろく",
+        "written": "日本新記録"
+      },
+      {
+        "priorities": [],
+        "pronounced": "にほんしんきろく",
+        "written": "日本新記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "new record (in sports, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんきろく",
+        "written": "新記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "new world record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せかいしんきろく",
+        "written": "世界新記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-registered access"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みとうろくアクセス",
+        "written": "未登録アクセス"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "not included (in a compilation, album, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みしゅうろく",
+        "written": "未収録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "official record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうにんきろく",
+        "written": "公認記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "personnel record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんじきろく",
+        "written": "人事記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "physical recording density"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶつりきろくみつど",
+        "written": "物理記録密度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pre-recorded broadcast"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろくおんほうそう",
+        "written": "録音放送"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "preregistration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんとうろく",
+        "written": "前登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "proof of vehicle having been registered as disposed of"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まっしょうとうろくしょうめいしょ",
+        "written": "抹消登録証明書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "public record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうきろく",
+        "written": "公記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "public recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかいろくおん",
+        "written": "公開録音"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "random comments"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まんろく",
+        "written": "漫録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "record (of legal proceedings in a court)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そしょうきろく",
+        "written": "訴訟記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "record and playback"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくさいせい",
+        "written": "記録再生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "record boundary character"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくきょうかいもじ",
+        "written": "記録境界文字"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "record end"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくしゅうりょう",
+        "written": "記録終了"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "record of Diet proceedings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こっかいかいぎろく",
+        "written": "国会会議録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "record of a person's words and deeds"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんこうろく",
+        "written": "言行録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "record start"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくかいし",
+        "written": "記録開始"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "record-breaking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくやぶり",
+        "written": "記録破り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recorded (data) medium"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じぜんきろくばいたい",
+        "written": "事前記録媒体"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recorded information"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくじょうほう",
+        "written": "記録情報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recording audio at home (as opposed to in a studio)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じたくろくおん",
+        "written": "自宅録音"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recording audio at home (as opposed to in a studio)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たくろく",
+        "written": "宅録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recording head"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろくおんヘッド",
+        "written": "録音ヘッド"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recording surface (e.g. of CD, tape, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくめん",
+        "written": "記録面"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regional pickle of Kyoto made from turnip-like vegetable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すぐき",
+        "written": "抄録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "register (e.g. cash)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくき",
+        "written": "登録器"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とうろくき",
+        "written": "登録機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "register book (for a ship)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんめいろく",
+        "written": "船名録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registered"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくずみ",
+        "written": "登録済"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とうろくずみ",
+        "written": "登録済み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registered access"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくずみアクセス",
+        "written": "登録済みアクセス"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registered contractor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくぎょうしゃ",
+        "written": "登録業者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registered owner identifier"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくしょゆうしゃしきべつし",
+        "written": "登録所有者識別子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registered trademark"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "とうろくしょうひょう",
+        "written": "登録商標"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registered vehicle (i.e. compact car or larger)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくじどうしゃ",
+        "written": "登録自動車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registering a seal (with the local government)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いんかんとうろく",
+        "written": "印鑑登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registration and license tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくめんきょぜい",
+        "written": "登録免許税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registration fee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくりょう",
+        "written": "登録料"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registration number"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "とうろくばんごう",
+        "written": "登録番号"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registration of a design"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いしょうとうろく",
+        "written": "意匠登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registration of livestock"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かちくとうろく",
+        "written": "家畜登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registration tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくぜい",
+        "written": "登録税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registration-identifier"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくしきべつし",
+        "written": "登録識別子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "resident registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうみんとうろく",
+        "written": "住民登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "return-to-reference recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きじゅんふっききろく",
+        "written": "基準復帰記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "round-backed chair used by a priest during a memorial service"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくろく",
+        "written": "曲彔"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きょくろく",
+        "written": "曲椂"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きょくろく",
+        "written": "曲禄"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きょくろく",
+        "written": "曲録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "selected bibliography"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいしょうぶんけんもくろく",
+        "written": "推奨文献目録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "separate-volume supplement (to)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べっさつふろく",
+        "written": "別冊付録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "simultaneous recording (of image and sound)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうろく",
+        "written": "同録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "summary"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てきろく",
+        "written": "摘録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tape recorder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "テープろくおんき",
+        "written": "テープ録音機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the Revelation of St. John the Divine (book of the Bible)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ヨハネもくしろく",
+        "written": "ヨハネ黙示録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to put on record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくにのせる",
+        "written": "記録に載せる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろくする",
+        "written": "録する"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trademark registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうひょうとうろく",
+        "written": "商標登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "transaction logging"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "トランザクションきろくどうさ",
+        "written": "トランザクション記録動作"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "true account"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じつろくもの",
+        "written": "実録物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unregistered owner identifier"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みとうろくしょゆうしゃしきべつし",
+        "written": "未登録所有者識別子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unregistered word"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みとうろくご",
+        "written": "未登録語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "user registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りようしゃとうろく",
+        "written": "利用者登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "user registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りようしゃのとうろく",
+        "written": "利用者の登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "user registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ユーザとうろく",
+        "written": "ユーザ登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "user registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ユーザーとうろく",
+        "written": "ユーザー登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "utility model registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じつようしんあんとうろく",
+        "written": "実用新案登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vehicle larger than a light motor vehicle, and subject to automobile registration and tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくしゃ",
+        "written": "登録車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "video taping (and storing)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とりだめ",
+        "written": "取り溜め"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とりだめ",
+        "written": "撮り溜め"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とりだめ",
+        "written": "録り溜め"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visitors' book"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうめいろく",
+        "written": "芳名録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "voter registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんきょにんとうろく",
+        "written": "選挙人登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "world record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せかいきろく",
+        "written": "世界記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "world record holder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せかいきろくほじしゃ",
+        "written": "世界記録保持者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "written record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひつろく",
+        "written": "筆録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Blue Cliff Record",
+          "Biyan Lu (collection of Zen Buddhist koans compiled in China during the Song Dynasty)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へきがんろく",
+        "written": "碧巌録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese record",
+          "national record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんきろく",
+        "written": "日本記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "RZ",
+          "Return-to-Zero"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくへんちょうほうしき",
+        "written": "記録変調方式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Revelation (book of the Bible)",
+          "the Apocalypse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もくしろく",
+        "written": "黙示録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Transmission of the Lamp (collection of biographies of famous Zen masters)",
+          "Record of the Transmission of the Lamp"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいとくでんとうろく",
+        "written": "景徳傳燈録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "analects",
+          "sayings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "ごろく",
+        "written": "語録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "audio tape",
+          "magnetic tape"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "ろくおんテープ",
+        "written": "録音テープ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "audit trail",
+          "history"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうさきろく",
+        "written": "動作記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "background recording",
+          "recording a different TV program than one is watching"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うらろく",
+        "written": "裏録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "best (highest) record",
+          "new record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいこうきろく",
+        "written": "最高記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bibliographical catalogue",
+          "author bibliography"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょさくもくろく",
+        "written": "著作目録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "breaking a record",
+          "setting a new record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくこうしん",
+        "written": "記録更新"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "catalog",
+          "catalogue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かたろぐ",
+        "written": "型録"
+      },
+      {
+        "priorities": [
+          "gai1",
+          "ichi1"
+        ],
+        "pronounced": "カタログ",
+        "written": "型録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "catalog of publications",
+          "catalogue of publications"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんもくろく",
+        "written": "出版目録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certificate of alien registration",
+          "alien registration card"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいこくじんとうろくしょうめいしょ",
+        "written": "外国人登録証明書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "classified catalog",
+          "classified catalogue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんるいもくろく",
+        "written": "分類目録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "computer virus",
+          "malware"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふせいしれいでんじてききろく",
+        "written": "不正指令電磁的記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "deposition",
+          "record of testimony"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうげんろくしゅ",
+        "written": "証言録取"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "deregistration",
+          "cancellation of registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくまっしょう",
+        "written": "登録抹消"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "directory",
+          "inventory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくぼ",
+        "written": "登録簿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "directory",
+          "name list"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんめいろく",
+        "written": "人名録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug master file",
+          "DMF"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんやくなどとうろくげんぼ",
+        "written": "原薬等登録原簿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "essays",
+          "collection of miscellaneous thoughts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ずいそうろく",
+        "written": "随想録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "frequency modulation recording",
+          "FM recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうはすうへんちょうきろく",
+        "written": "周波数変調記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "illustrated book",
+          "picture book"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "ずろく",
+        "written": "図録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "journal",
+          "daily record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf45"
+        ],
+        "pronounced": "にちろく",
+        "written": "日録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "late registration",
+          "delayed registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちえんとうろく",
+        "written": "遅延登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "memoirs",
+          "reminiscence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいそうろく",
+        "written": "回想録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "memoirs",
+          "reminiscences"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31",
+          "spec2"
+        ],
+        "pronounced": "かいころく",
+        "written": "回顧録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "minutes",
+          "proceedings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいぎろく",
+        "written": "会議録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "modified frequency modulation recording",
+          "MFM recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へんけいしゅうはすうへんちょうきろく",
+        "written": "変形周波数変調記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "new registration",
+          "registering for the first time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんきとうろく",
+        "written": "新規登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-return-to-zero (change) recording",
+          "NRZ(C)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひゼロふっきへんかきろく",
+        "written": "非ゼロ復帰変化記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-return-to-zero change-on-zeros recording",
+          "NRZ-0"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひゼロふっきゼロきろく",
+        "written": "非０復帰０記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "optical storage media",
+          "optical storage medium"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひかりきろくばいたい",
+        "written": "光記録媒体"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "perpendicular magnetic recording",
+          "vertical magnetic recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいちょくじききろく",
+        "written": "垂直磁気記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "phase modulation recording",
+          "phase encoding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いそうへんちょうきろく",
+        "written": "位相変調記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "polarized return-to-zero recording",
+          "RZ(P)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくせいゼロふっききろく",
+        "written": "極性ゼロ復帰記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "postscript",
+          "addendum"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ついろく",
+        "written": "追録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "presence",
+          "dignity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんろく",
+        "written": "貫禄"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かんろく",
+        "written": "貫録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reciting something and then recording it",
+          "recording of something that has been recited"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんろく",
+        "written": "伝録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "record",
+          "sound-recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろくおんばん",
+        "written": "録音盤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "record",
+          "transcript"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろく",
+        "written": "錄"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ろく",
+        "written": "録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "record of proceedings",
+          "minutes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "ぎじろく",
+        "written": "議事録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recording",
+          "record-taking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろくしゅ",
+        "written": "録取"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recording",
+          "transcription"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46",
+          "spec2"
+        ],
+        "pronounced": "さいろく",
+        "written": "採録"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf46",
+          "spec2"
+        ],
+        "pronounced": "さいろく",
+        "written": "載録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recording audio without consent",
+          "secret recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひみつろくおん",
+        "written": "秘密録音"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recording medium",
+          "storage medium"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくばいたい",
+        "written": "記録媒体"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recording room",
+          "recording studio"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろくおんしつ",
+        "written": "録音室"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registered name",
+          "legal name"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくめい",
+        "written": "登録名"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registration book",
+          "registration card"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくしょう",
+        "written": "登録証"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "return-to-zero recording",
+          "RZ"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゼロふっききろく",
+        "written": "ゼロ復帰記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "selective abstract",
+          "slanted abstract"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんたくしょうろく",
+        "written": "選択抄録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "selective abstract",
+          "slanted abstract"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へんこうしょうろく",
+        "written": "偏向抄録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ship's certificate",
+          "ship's registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんぱくとうろくしょう",
+        "written": "船舶登録証"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "simultaneous recording (of image and sound)",
+          "synchronous recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうじろくおん",
+        "written": "同時録音"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sound recorder",
+          "tape recorder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "ろくおんき",
+        "written": "録音機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stenographic record",
+          "shorthand notes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf34"
+        ],
+        "pronounced": "そっきろく",
+        "written": "速記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to break a record",
+          "to establish a new record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくをこうしんする",
+        "written": "記録を更新する"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to break the record",
+          "to break a record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくをやぶる",
+        "written": "記録を破る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to keep a record",
+          "to keep a tally"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくをつける",
+        "written": "記録をつける"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きろくをつける",
+        "written": "記録を付ける"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to take photographs for later use",
+          "to shoot video for archiving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とりためる",
+        "written": "撮り溜める"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とりためる",
+        "written": "録り溜める"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とりだめる",
+        "written": "撮り溜める"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とりだめる",
+        "written": "録り溜める"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "track meet",
+          "athletic event for recording official times"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくかい",
+        "written": "記録会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unregistered",
+          "non-registered"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みとうろく",
+        "written": "未登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "address book",
+          "list of addresses",
+          "mailing list"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうしょろく",
+        "written": "住所録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bit density",
+          "recording density",
+          "packing density"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくみつど",
+        "written": "記録密度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "compiling",
+          "editing",
+          "writing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんろく",
+        "written": "撰録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "court record",
+          "judicial record",
+          "trial record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいばんきろく",
+        "written": "裁判記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inventory",
+          "catalog",
+          "catalogue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうひんもくろく",
+        "written": "商品目録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "membership registration",
+          "subscription",
+          "member enrolment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいいんとうろく",
+        "written": "会員登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-return-to-zero recording",
+          "NRZ",
+          "non-return-to-reference recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひきじゅんふっききろく",
+        "written": "非基準復帰記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-return-to-zero recording",
+          "NRZ",
+          "non-return-to-reference recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひゼロふっききろく",
+        "written": "非ゼロ復帰記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "notebook",
+          "memorandum",
+          "commonplace book"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びぼうろく",
+        "written": "備忘録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "number of subscribers",
+          "number of registrants",
+          "enrollment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうろくしゃすう",
+        "written": "登録者数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "record",
+          "record-setting",
+          "record-breaking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "きろくてき",
+        "written": "記録的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "record keeper",
+          "recorder",
+          "archivist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きろくがかり",
+        "written": "記録係"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registrant",
+          "subscriber",
+          "enrollee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "とうろくしゃ",
+        "written": "登録者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unofficial record",
+          "rumour",
+          "rumor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "よろく",
+        "written": "余録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "who's who",
+          "directory",
+          "social register"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "しんしろく",
+        "written": "紳士録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "appendix",
+          "supplement",
+          "annex",
+          "extra (of a newspaper or magazine)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "ichi2",
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "ふろく",
+        "written": "付録"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "ichi2",
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "ふろく",
+        "written": "附録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "book catalogue",
+          "book catalog",
+          "card catalogue",
+          "card catalog"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "としょもくろく",
+        "written": "図書目録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-return-to-zero change-on-ones recording",
+          "NRZ-1",
+          "non-return-to-zero (mark) recording",
+          "NRZ(M)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひゼロふっきマークきろく",
+        "written": "非ゼロ復帰マーク記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "private records",
+          "secret notes",
+          "secret document",
+          "confidential papers"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひろく",
+        "written": "秘録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quotation",
+          "abstract",
+          "selection",
+          "summary"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf45",
+          "spec2"
+        ],
+        "pronounced": "しょうろく",
+        "written": "抄録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registration",
+          "accession",
+          "register",
+          "entry",
+          "record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "とうろく",
+        "written": "登錄"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "とうろく",
+        "written": "登録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Confessiones (St. Augustine of Hippo)"
+        ]
+      },
+      {
+        "glosses": [
+          "Les Confessions (Rousseau)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくはくろく",
+        "written": "告白録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Confessiones (St. Augustine of Hippo)"
+        ]
+      },
+      {
+        "glosses": [
+          "Les Confessions (Rousseau)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざんげろく",
+        "written": "懺悔録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certificate indicating an impending gift"
+        ]
+      },
+      {
+        "glosses": [
+          "catalogue",
+          "catalog",
+          "inventory",
+          "index",
+          "list"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "もくろく",
+        "written": "目録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "message left on the answering machine"
+        ]
+      },
+      {
+        "glosses": [
+          "unattended (video, audio) recording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るすろく",
+        "written": "留守録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "race game (board game played with dice in which the object is to reach the end of a track)"
+        ]
+      },
+      {
+        "glosses": [
+          "ban-sugoroku",
+          "sugoroku",
+          "traditional Japanese board game similar to backgammon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すぐろく",
+        "written": "双六"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すぐろく",
+        "written": "雙六"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すごろく",
+        "written": "双六"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すごろく",
+        "written": "双陸"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すごろく",
+        "written": "壽語録"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すごろく",
+        "written": "寿語録"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すごろく",
+        "written": "雙六"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recording (audio or video)"
+        ]
+      },
+      {
+        "glosses": [
+          "recording (in a book, the minutes, etc.)",
+          "printing",
+          "including (e.g. in a set of complete works)",
+          "containing",
+          "compiling"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "しゅうろく",
+        "written": "収録"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "しゅうろく",
+        "written": "收錄"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "しゅうろく",
+        "written": "輯録"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "しゅうろく",
+        "written": "集録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reprinting"
+        ]
+      },
+      {
+        "glosses": [
+          "rerecording"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "さいろく",
+        "written": "再録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be able to record"
+        ]
+      },
+      {
+        "glosses": [
+          "to be recorded (of sound or video)",
+          "to be caught on tape"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とれる",
+        "written": "録れる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to take (a photograph)"
+        ]
+      },
+      {
+        "glosses": [
+          "to record (audio or video)",
+          "to film",
+          "to shoot"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "とる",
+        "written": "撮る"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "とる",
+        "written": "録る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-return-to-zero (mark) recording",
+          "NRZ(M)"
+        ]
+      },
+      {
+        "glosses": [
+          "non-return-to-zero change-on-ones recording",
+          "NRZ-1"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひゼロふっきいちきろく",
+        "written": "非０復帰１記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to record",
+          "to document"
+        ]
+      },
+      {
+        "glosses": [
+          "record",
+          "minutes",
+          "document"
+        ]
+      },
+      {
+        "glosses": [
+          "record (e.g. in sports)",
+          "results",
+          "score"
+        ]
+      },
+      {
+        "glosses": [
+          "to set a record (e.g. in sports)",
+          "to show a result",
+          "to reach a value"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "きろく",
+        "written": "記錄"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "きろく",
+        "written": "記録"
+      }
+    ]
+  }
+]

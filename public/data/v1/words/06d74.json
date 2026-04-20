@@ -1,0 +1,1398 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "after bathing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "よくご",
+        "written": "浴後"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいきよく",
+        "written": "外気浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くうきよく",
+        "written": "空気浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anting (bird activity)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎよく",
+        "written": "蟻浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bath at a temple for the poor, sick and prisoners"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せよく",
+        "written": "施浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bathing (in a Zen Temple)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいよく",
+        "written": "開浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bathing etiquette (i.e. in a public bath)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にゅうよくマナー",
+        "written": "入浴マナー"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bathing in a hot spring"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おんせんよく",
+        "written": "温泉浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bathroom"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "よくしつ",
+        "written": "浴室"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bathroom with a large bath (in a hotel, hot spring resort, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいよくじょう",
+        "written": "大浴場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bathtub"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "よくそう",
+        "written": "浴槽"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "colourful yukata (colorful)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いろゆかた",
+        "written": "色ゆかた"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いろゆかた",
+        "written": "色浴衣"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "footbath (for improving blood circulation)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そくよく",
+        "written": "足浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "for bath use"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "よくよう",
+        "written": "浴用"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hand bath (for improving blood circulation)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅよく",
+        "written": "手浴"
+      },
+      {
+        "priorities": [],
+        "pronounced": "てよく",
+        "written": "手浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "heat bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねつよく",
+        "written": "熱浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "main bath (i.e. in a bathhouse)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅよくそう",
+        "written": "主浴槽"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicated bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくよく",
+        "written": "薬浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mixed bathing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こんよく",
+        "written": "混浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mud bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でいよく",
+        "written": "泥浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "public bathhouse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうしゅうよくじょう",
+        "written": "公衆浴場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pushing down (one's opponent) by leaning on (him)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あびせたおし",
+        "written": "浴びせ倒し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quiet bathing (i.e. without talking)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もくよく",
+        "written": "黙浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rustic bathhouse (esp. at onsen)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よくしゃ",
+        "written": "浴舎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "salt bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えんよく",
+        "written": "塩浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "salt bath furnace"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えんよくろ",
+        "written": "塩浴炉"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sitz bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざよく",
+        "written": "坐浴"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ざよく",
+        "written": "座浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sunbathing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf34"
+        ],
+        "pronounced": "にっこうよく",
+        "written": "日光浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pour on"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "あびせる",
+        "written": "浴びせる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to take a shower"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "シャワーをあびる",
+        "written": "シャワーを浴びる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yukata (light cotton kimono worn in the summer or used as a bathrobe)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よくい",
+        "written": "浴衣"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "ゆかた",
+        "written": "浴衣"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yukata sash"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆかたおび",
+        "written": "浴衣帯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(taking a) bath",
+          "hot spring cure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆあみ",
+        "written": "湯あみ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆあみ",
+        "written": "湯浴み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a bath",
+          "bathing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいよく",
+        "written": "水浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bather",
+          "(hot springs resort) guest"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よっかく",
+        "written": "浴客"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "よっきゃく",
+        "written": "浴客"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bathhouse",
+          "bathroom"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よくでん",
+        "written": "浴殿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bathhouse entry ticket",
+          "bathing ticket"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にゅうよくけん",
+        "written": "入浴券"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bathing",
+          "going in the bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "にゅうよく",
+        "written": "入浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bloodbath",
+          "massacre"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けつよく",
+        "written": "血浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cold bath",
+          "cold shower"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れいすいよく",
+        "written": "冷水浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dust bath",
+          "dust bathing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すなあび",
+        "written": "砂浴び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "full-body bath",
+          "full-body bathing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんしんよく",
+        "written": "全身浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "half body bathing",
+          "hip bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんしんよく",
+        "written": "半身浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hot bath",
+          "warm bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おんよく",
+        "written": "温浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "partial bath",
+          "submerging only part of the body in water"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんぶよく",
+        "written": "部分浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "public bathing",
+          "public bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうどうよく",
+        "written": "共同浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "purification",
+          "washing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいかいもくよく",
+        "written": "斎戒もく浴"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さいかいもくよく",
+        "written": "斎戒沐浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "service celebrating the birth of the Buddha (held on April 8)",
+          "Buddha's birthday festival"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よくぶつえ",
+        "written": "浴仏会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "solarium",
+          "sun-room"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっこうよくしつ",
+        "written": "日光浴室"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stone sauna",
+          "facility where one rests on towels laid on a slab of heated natural rock"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がんばんよく",
+        "written": "岩盤浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "struggling through wind and rain",
+          "undergoing hardships"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しっぷうよくう",
+        "written": "櫛風浴雨"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to appear on the stage",
+          "to be in the limelight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "フットライトをあびる",
+        "written": "フットライトを浴びる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to attract attention",
+          "to come into the limelight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうもくをあびる",
+        "written": "注目を浴びる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wearing a yukata",
+          "(in) one's informal summer kimono"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆかたがけ",
+        "written": "ゆかた掛け"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆかたがけ",
+        "written": "浴衣がけ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆかたがけ",
+        "written": "浴衣掛け"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yukata cloth material",
+          "special light woven material 36-40cm wide for making yukata"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆかたじ",
+        "written": "ゆかた地"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆかたじ",
+        "written": "浴衣地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bathhouse offering special services (usu. sexual)",
+          "massage parlour",
+          "soapland"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくしゅよくじょう",
+        "written": "特殊浴場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bathing powder",
+          "bathwater additive",
+          "bath salt"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にゅうよくざい",
+        "written": "入浴剤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "forest bathing",
+          "forest therapy",
+          "peaceful walk through the woods for health benefits"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんりんよく",
+        "written": "森林浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quick bath",
+          "quick shower",
+          "quick dip (e.g. in the sea)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひとあび",
+        "written": "ひと浴び"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひとあび",
+        "written": "一浴び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "swimming area (in the ocean)",
+          "swimming beach",
+          "seawater baths"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "かいすいよくじょう",
+        "written": "海水浴場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to heap abuse upon (a person)",
+          "to criticize strongly",
+          "to blast (someone)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひなんをあびせる",
+        "written": "批難を浴びせる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひなんをあびせる",
+        "written": "非難を浴びせる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vapor bath",
+          "vapour bath",
+          "steam bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうきよく",
+        "written": "蒸気浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "swimming in the ocean",
+          "sea bathing",
+          "seawater bath",
+          "going for a dip in the ocean"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "かいすいよく",
+        "written": "海水浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bathroom"
+        ]
+      },
+      {
+        "glosses": [
+          "bathhouse",
+          "(public) bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "よくじょう",
+        "written": "浴場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "public bath or hot springs maintained by the local community and free or low fee"
+        ]
+      },
+      {
+        "glosses": [
+          "public bath",
+          "communal bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうどうよくじょう",
+        "written": "共同浴場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "swimming"
+        ]
+      },
+      {
+        "glosses": [
+          "bathing (in cold water)",
+          "showering"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みずあび",
+        "written": "水浴び"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to bathe"
+        ]
+      },
+      {
+        "glosses": [
+          "to receive (an honor, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よくす",
+        "written": "浴す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to bathe"
+        ]
+      },
+      {
+        "glosses": [
+          "to receive (an honor, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よくする",
+        "written": "浴する"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be in the limelight"
+        ]
+      },
+      {
+        "glosses": [
+          "to be performed (on the stage)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゃっこうをあびる",
+        "written": "脚光を浴びる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be spattered by blood from one's victim"
+        ]
+      },
+      {
+        "glosses": [
+          "to suffer a reaction",
+          "to receive a backlash"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かえりちをあびる",
+        "written": "返り血をあびる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かえりちをあびる",
+        "written": "返り血を浴びる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to throw (liquid) at",
+          "to dash"
+        ]
+      },
+      {
+        "glosses": [
+          "to inundate (with questions)",
+          "to heap (praise)",
+          "to hurl (abuse)",
+          "to level (insults)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あびせかける",
+        "written": "浴びせかける"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あびせかける",
+        "written": "浴びせ掛ける"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to suffer (e.g. an attack)",
+          "to draw (e.g. criticism, attention, praise)",
+          "to have heaped upon",
+          "to be showered with"
+        ]
+      },
+      {
+        "glosses": [
+          "to dash over oneself (e.g. water)",
+          "to take (e.g. shower)",
+          "to bask in (e.g. the sun)",
+          "to bathe in",
+          "to be flooded with (e.g. light)",
+          "to be covered in"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "あびる",
+        "written": "浴びる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ablution"
+        ]
+      },
+      {
+        "glosses": [
+          "bathing (of an infant)"
+        ]
+      },
+      {
+        "glosses": [
+          "receiving a blessing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もくよく",
+        "written": "沐浴"
+      }
+    ]
+  }
+]

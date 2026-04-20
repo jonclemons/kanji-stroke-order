@@ -1,0 +1,3190 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "A Song of Ice and Fire (series of fantasy novels by George R. R. Martin)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりとほのおのうた",
+        "written": "氷と炎の歌"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Antarctic Ocean"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんぴょうよう",
+        "written": "南氷洋"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "なんひょうよう",
+        "written": "南氷洋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Arctic Ocean"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほくひょうよう",
+        "written": "北氷洋"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ほっぴょうよう",
+        "written": "北氷洋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Basic Instinct (1992 film)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりのびしょう",
+        "written": "氷の微笑"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Hyōka (2001 novel and media franchise)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうか",
+        "written": "氷菓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Iceland"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうしゅう",
+        "written": "氷州"
+      },
+      {
+        "priorities": [],
+        "pronounced": "アイスランド",
+        "written": "氷州"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Usui Pass"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うすいとうげ",
+        "written": "碓氷峠"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a thaw"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいひょう",
+        "written": "解氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adularia (feldspar)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうちょうせき",
+        "written": "氷長石"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "artificial ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんぞうこおり",
+        "written": "人造氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "being frozen in ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりづけ",
+        "written": "凍り漬け"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こおりづけ",
+        "written": "氷漬け"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "below freezing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf32",
+          "spec2"
+        ],
+        "pronounced": "ひょうてんか",
+        "written": "氷点下"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bowl of shaved ice with boiled adzuki beans"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりあずき",
+        "written": "氷小豆"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cryohydric point"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうしょうてん",
+        "written": "氷晶点"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cryolite"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうしょうせき",
+        "written": "氷晶石"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cryoplankton"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうせつプランクトン",
+        "written": "氷雪プランクトン"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cryosphere"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっぴょうけん",
+        "written": "雪氷圏"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fast ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていちゃくひょう",
+        "written": "定着氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "field of eternal snow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうでん",
+        "written": "氷田"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "first ice of winter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はつごおり",
+        "written": "初氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "first-year ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いちねんごおり",
+        "written": "一年氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flowers surrounded by ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はなごおり",
+        "written": "花氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "freeze tag (children's game)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりおに",
+        "written": "こおり鬼"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こおりおに",
+        "written": "凍り鬼"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こおりおに",
+        "written": "氷鬼"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "freezing or frost season"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けっぴょうき",
+        "written": "結氷期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "freezing point"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうてん",
+        "written": "氷点"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "freezing rain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うひょう",
+        "written": "雨氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "frozen dessert"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりがし",
+        "written": "氷菓子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "frozen dessert (e.g. ice cream, sorbet, ice pop)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうか",
+        "written": "氷菓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "frozen meat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりづめにく",
+        "written": "氷詰め肉"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "glacial acetic acid"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうさくさん",
+        "written": "氷酢酸"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひょうさくさん",
+        "written": "氷醋酸"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "glacial lake"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうがこ",
+        "written": "氷河湖"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "glacial lake outburst flood"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうがこけっかいこうずい",
+        "written": "氷河湖決壊洪水"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "glacier"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "ひょうが",
+        "written": "氷河"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "glaciology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっぴょうがく",
+        "written": "雪氷学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "glaciology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうががく",
+        "written": "氷河学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "glass for serving Japanese shaved ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりコップ",
+        "written": "氷コップ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gleaming sword"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりのやいば",
+        "written": "氷の刃"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "go-between (in marriage)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうじん",
+        "written": "氷人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice anchor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりアンカー",
+        "written": "氷アンカー"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice and snow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうせつ",
+        "written": "氷雪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice bag"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりぶくろ",
+        "written": "氷袋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice breaking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいひょう",
+        "written": "砕氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice cap"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうかん",
+        "written": "氷冠"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice cap"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうぼう",
+        "written": "氷帽"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice core"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうしょうコア",
+        "written": "氷床コア"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice crystals"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうしょう",
+        "written": "氷晶"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice cube"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくごおり",
+        "written": "角氷"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かくひょう",
+        "written": "角氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice diving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りゅうひょうダイビング",
+        "written": "流氷ダイビング"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice field"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りゅうひょうや",
+        "written": "流氷野"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice fog"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうむ",
+        "written": "氷霧"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice giant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょだいひょうわくせい",
+        "written": "巨大氷惑星"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice hockey"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうきゅう",
+        "written": "氷球"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice hummock"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうきゅう",
+        "written": "氷丘"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice making"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいひょう",
+        "written": "製氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice pillow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりまくら",
+        "written": "氷枕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice plant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいひょうじょ",
+        "written": "製氷所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice quake"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうしん",
+        "written": "氷震"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice sculpture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうぞう",
+        "written": "氷像"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice sheet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうしょう",
+        "written": "氷床"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice shelf"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たなごおり",
+        "written": "棚氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice shelf"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうほう",
+        "written": "氷棚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice skating"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりすべり",
+        "written": "氷滑り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice surface"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうめん",
+        "written": "氷面"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice tongs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりばさみ",
+        "written": "氷挟み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice tongue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうぜつ",
+        "written": "氷舌"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice wedge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうせつ",
+        "written": "氷楔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice-shaving machine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくひょうき",
+        "written": "削氷機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice-shaving machine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうさくき",
+        "written": "氷削機"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひょうさっき",
+        "written": "氷削機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "iceberg"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "ひょうざん",
+        "written": "氷山"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "iceblink"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうえい",
+        "written": "氷映"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "melting ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうひょう",
+        "written": "融氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mixture of ice and water (for keeping fish fresh)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みずごおり",
+        "written": "水氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mochi freeze-dried in the winter air"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりもち",
+        "written": "凍り餅"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こおりもち",
+        "written": "氷餅"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "multi-year ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たねんひょう",
+        "written": "多年氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "narrow victory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はくひょうのしょうり",
+        "written": "薄氷の勝利"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "on ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうじょう",
+        "written": "氷上"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one's doubts being cleared away (dispelled, resolved)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎもんひょうかい",
+        "written": "疑問氷解"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pack ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうひょう",
+        "written": "そう氷"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そうひょう",
+        "written": "叢氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "packing in ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりづめ",
+        "written": "氷詰め"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pancake ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はすはごおり",
+        "written": "はす葉氷"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はすはごおり",
+        "written": "蓮葉氷"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はすばごおり",
+        "written": "はす葉氷"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はすばごおり",
+        "written": "蓮葉氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "periglacial"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうひょうが",
+        "written": "周氷河"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "postglacial period"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうひょうき",
+        "written": "後氷期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pressure ridge (in ice)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうきゅうみゃく",
+        "written": "氷丘脈"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sea ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいひょう",
+        "written": "海氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "second-year ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にねんごおり",
+        "written": "二年氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "serac"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうとう",
+        "written": "氷塔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sharp, glistening sword"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうじん",
+        "written": "氷刃"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the moon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうりん",
+        "written": "氷輪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "thin ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うすごおり",
+        "written": "薄氷"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "はくひょう",
+        "written": "薄氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "thin ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うすらい",
+        "written": "薄ら氷"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うすらひ",
+        "written": "薄ら氷"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うすらび",
+        "written": "薄ら氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "thinly-sliced salmon head cartilage (also whale etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひず",
+        "written": "氷頭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "thinly-sliced salmon head cartilage and daikon seasoned with vinegar"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひずなます",
+        "written": "氷頭なます"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひずなます",
+        "written": "氷頭膾"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひずなます",
+        "written": "氷頭鱠"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "third climate of spring (when the ice breaks and fish start appearing near the surface)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うおこおりにのぼる",
+        "written": "うお氷に上る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うおこおりにのぼる",
+        "written": "魚氷に上る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うおひにのぼる",
+        "written": "うお氷に上る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うおひにのぼる",
+        "written": "魚氷に上る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tip of the iceberg"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうざんのいっかく",
+        "written": "氷山の一角"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to become frozen over"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりがはる",
+        "written": "氷が張る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "valley glacier"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たにひょうが",
+        "written": "谷氷河"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "young ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばんじょうなんぴょう",
+        "written": "板状軟氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(water) ice",
+          "frozen water"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいひょう",
+        "written": "水氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anchor ice",
+          "bottom-fast ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかりこおり",
+        "written": "いかり氷"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかりこおり",
+        "written": "錨氷"
+      },
+      {
+        "priorities": [],
+        "pronounced": "びょうひょう",
+        "written": "錨氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chipped ice",
+          "ice chips"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶっかきごおり",
+        "written": "ぶっかき氷"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぶっかきごおり",
+        "written": "打っ欠き氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drift ice",
+          "ice floe"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25",
+          "spec2"
+        ],
+        "pronounced": "りゅうひょう",
+        "written": "流氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "floe",
+          "ice floe"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうばん",
+        "written": "氷盤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "freezing",
+          "freezing over"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうけつ",
+        "written": "氷結"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "freezing temperature",
+          "chilling temperature"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうおん",
+        "written": "氷温"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "frozen sea",
+          "icy waters"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうかい",
+        "written": "氷海"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice age",
+          "glacial period"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうがじだい",
+        "written": "氷河時代"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice and charcoal",
+          "contradiction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうたん",
+        "written": "氷炭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice bag",
+          "ice pack"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうのう",
+        "written": "氷のう"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひょうのう",
+        "written": "氷嚢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice crystals",
+          "diamond dust"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいひょう",
+        "written": "細氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice field",
+          "ice floe"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "ひょうげん",
+        "written": "氷原"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice maker",
+          "ice machine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいひょうき",
+        "written": "製氷器"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せいひょうき",
+        "written": "製氷機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice man",
+          "ice shop"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりや",
+        "written": "氷屋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice resurfacing",
+          "resurfacing a skating rink"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいひょう",
+        "written": "整氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice shard",
+          "ice shards"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうへん",
+        "written": "氷片"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice shaver",
+          "shaved ice machine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かきごおりき",
+        "written": "かきごおり機"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かきごおりき",
+        "written": "かき氷機"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かきごおりき",
+        "written": "掻き氷機"
+      },
+      {
+        "priorities": [],
+        "pronounced": "カキごおりき",
+        "written": "カキ氷機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice tray",
+          "ice-cube tray"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいひょうざら",
+        "written": "製氷皿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice wall",
+          "ice ridge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうへき",
+        "written": "氷壁"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "icebox",
+          "ice box"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりばこ",
+        "written": "氷箱"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "icebreaker (ship)",
+          "ice breaker"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいひょうかん",
+        "written": "砕氷艦"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "icebreaker (ship)",
+          "ice breaker"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいひょうせん",
+        "written": "砕氷船"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "insoluble azo dye that is cooled with ice during dyeing",
+          "ice color"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうせんせんりょう",
+        "written": "氷染染料"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interstadial (period of higher temperatures during a glacial period)",
+          "interstade"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あかんぴょうき",
+        "written": "亜間氷期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "melting like ice",
+          "dispelling doubts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうしゃく",
+        "written": "氷釈"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "not getting along well with each other",
+          "being like water and oil"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいかひょうたん",
+        "written": "水火氷炭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pure ice",
+          "factory-made ice without impurities"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんぴょう",
+        "written": "純氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "small hail",
+          "ice pellets"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりあられ",
+        "written": "氷あられ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こおりあられ",
+        "written": "氷霰"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "something disappearing bit by bit",
+          "ice in the sun"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひなたにこおり",
+        "written": "日向に氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stadial (period of lower temperatures during an interglacial period)",
+          "stade"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あひょうき",
+        "written": "亜氷期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "students surpass their masters",
+          "ice coming from water is colder than water"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりはみずよりいでてみずよりもさむし",
+        "written": "氷は水より出でて水よりも寒し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "thawing season",
+          "spring thaw"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいひょうき",
+        "written": "解氷期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "watermelon snow",
+          "snow algae"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうせつそう",
+        "written": "氷雪藻"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whitebait",
+          "immature sweetfish"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひうお",
+        "written": "氷魚"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひお",
+        "written": "氷魚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "freezing (over)",
+          "ice",
+          "frost"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けっぴょう",
+        "written": "結氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "glacial period",
+          "glacial",
+          "glaciation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうき",
+        "written": "氷期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "glacial scouring",
+          "glacial erosion",
+          "glacial abrasion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうしょく",
+        "written": "氷蝕"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひょうしょく",
+        "written": "氷食"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "glacial striae",
+          "glacial striations",
+          "glacial grooves"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうがさっこん",
+        "written": "氷河擦痕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "go-between",
+          "matchmaker",
+          "Cupid"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げっかひょうじん",
+        "written": "月下氷人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "having completely different natures and being incompatible with each other",
+          "like oil and water",
+          "ice and (charcoal) fire cannot coexist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうたんあいいれず",
+        "written": "氷炭相容れず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice crust",
+          "ice rind",
+          "ice shell"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうかく",
+        "written": "氷殻"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice floe",
+          "floating ice",
+          "pack ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふひょう",
+        "written": "浮氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice house",
+          "ice compartment",
+          "ice-making room"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいひょうしつ",
+        "written": "製氷室"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice house",
+          "ice room",
+          "cold room"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひむろ",
+        "written": "氷室"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひょうしつ",
+        "written": "氷室"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "こおりむろ",
+        "written": "氷室"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice-resurfacing machine",
+          "ice resurfacer",
+          "Zamboni"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいひょうしゃ",
+        "written": "整氷車"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interglacial period",
+          "interglacial",
+          "interglaciation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぴょうき",
+        "written": "間氷期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lump of ice",
+          "block of ice",
+          "ice floe"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうかい",
+        "written": "氷塊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "period of poor employment opportunities",
+          "job drought",
+          "employment ice age"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうしょくひょうがき",
+        "written": "就職氷河期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rime",
+          "hoarfrost",
+          "silver frost"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むひょう",
+        "written": "霧氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "thawing season",
+          "thaw",
+          "season when the ice melts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうひょうき",
+        "written": "融氷期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to freeze",
+          "to become frozen",
+          "to freeze over"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "こおる",
+        "written": "凍る"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "こおる",
+        "written": "氷る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "deicer",
+          "de-icer",
+          "deicing fluid",
+          "de-icing fluid"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうひょうえき",
+        "written": "融氷液"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice cap climate",
+          "snow and ice climate",
+          "frost climate",
+          "nival climate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうせつきこう",
+        "written": "氷雪気候"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rock candy",
+          "sugar candy",
+          "crystallized sugar",
+          "sugar crystals"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりざとう",
+        "written": "氷砂糖"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shaved ice (usually served with flavored simple syrup)",
+          "Italian ice",
+          "snow cone",
+          "sno-cone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "カキごおり",
+        "written": "カキ氷"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "かきごおり",
+        "written": "かき氷"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "かきごおり",
+        "written": "掻き氷"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "かきごおり",
+        "written": "欠き氷"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "かきごおり",
+        "written": "欠氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "long-tailed duck (Clangula hyemalis)",
+          "old-squaw",
+          "hareld",
+          "old injun",
+          "oldwife"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりがも",
+        "written": "氷鴨"
+      },
+      {
+        "priorities": [],
+        "pronounced": "コオリガモ",
+        "written": "氷鴨"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Iceland"
+        ]
+      },
+      {
+        "glosses": [
+          "ice island"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうとう",
+        "written": "氷島"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dried bean curd"
+        ]
+      },
+      {
+        "glosses": [
+          "frozen tofu"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりどうふ",
+        "written": "凍豆腐"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こおりどうふ",
+        "written": "氷豆腐"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しみどうふ",
+        "written": "凍豆腐"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fish caught under ice"
+        ]
+      },
+      {
+        "glosses": [
+          "saffron cod (Eleginus gracilis)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こまい",
+        "written": "氷下魚"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こまい",
+        "written": "氷魚"
+      },
+      {
+        "priorities": [],
+        "pronounced": "コマイ",
+        "written": "氷下魚"
+      },
+      {
+        "priorities": [],
+        "pronounced": "コマイ",
+        "written": "氷魚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "frost-covered trees"
+        ]
+      },
+      {
+        "glosses": [
+          "frost on trees",
+          "hoarfrost (on trees)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf45"
+        ],
+        "pronounced": "じゅひょう",
+        "written": "樹氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hail"
+        ]
+      },
+      {
+        "glosses": [
+          "ice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひ",
+        "written": "冰"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひ",
+        "written": "氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice"
+        ]
+      },
+      {
+        "glosses": [
+          "shaved ice (usually served with flavored simple syrup)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf08"
+        ],
+        "pronounced": "こおり",
+        "written": "凍り"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf08"
+        ],
+        "pronounced": "こおり",
+        "written": "氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice water"
+        ]
+      },
+      {
+        "glosses": [
+          "shaved ice (usually served with flavored simple syrup)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こおりすい",
+        "written": "氷水"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひみず",
+        "written": "氷水"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "こおりみず",
+        "written": "氷水"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "icefall"
+        ]
+      },
+      {
+        "glosses": [
+          "frozen waterfall",
+          "freezing of a waterfall"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうばく",
+        "written": "氷瀑"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "landing (a jump in ice skating)"
+        ]
+      },
+      {
+        "glosses": [
+          "icing (on an aircraft, ship, etc.)",
+          "ice accretion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゃくひょう",
+        "written": "着氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "melting (of ice)"
+        ]
+      },
+      {
+        "glosses": [
+          "being cleared (of doubt, misgivings, etc.)",
+          "being dispelled",
+          "melting away"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "ひょうかい",
+        "written": "氷解"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "snow and ice"
+        ]
+      },
+      {
+        "glosses": [
+          "snow ice",
+          "frozen snow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっぴょう",
+        "written": "雪氷"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆきこおり",
+        "written": "雪氷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chilly rain",
+          "freezing rain"
+        ]
+      },
+      {
+        "glosses": [
+          "hail",
+          "sleet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひさめ",
+        "written": "氷雨"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tough period",
+          "drought (of opportunities, jobs, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "glacial period",
+          "glacial epoch",
+          "glacial era",
+          "ice age"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうがき",
+        "written": "氷河期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ice"
+        ]
+      },
+      {
+        "glosses": [
+          "ice pillar (for cooling a room)"
+        ]
+      },
+      {
+        "glosses": [
+          "icicle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つらら",
+        "written": "氷"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つらら",
+        "written": "氷柱"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf45"
+        ],
+        "pronounced": "ひょうちゅう",
+        "written": "氷柱"
+      }
+    ]
+  }
+]

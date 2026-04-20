@@ -1,0 +1,4887 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(aquatic) polyculture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こんよう",
+        "written": "混養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(convalescent) rest"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "せいよう",
+        "written": "静養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(culture) medium"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばいようき",
+        "written": "培養基"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Aizu Nursing School"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あいづようごがっこう",
+        "written": "会津養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Akita International University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいきょうようだいがく",
+        "written": "国際教養大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Amatsu Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あまつようごがっこう",
+        "written": "天津養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Awaji Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あわじようごがっこう",
+        "written": "淡路養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Daiichi Nursing School"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいいちようごがっこう",
+        "written": "第一養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Daini Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいにようごがっこう",
+        "written": "第二養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Dainikoutou Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいにこうとうようごがっこう",
+        "written": "第二高等養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Hanamaki Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はなまきようごがっこう",
+        "written": "花巻養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Haruna Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はるなようごがっこう",
+        "written": "榛名養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Higashi Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひがしようごがっこう",
+        "written": "東養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Hitachi Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひたちようごがっこう",
+        "written": "日立養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Inba Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いんばようごがっこう",
+        "written": "印旛養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Isumi Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いすみようごがっこう",
+        "written": "夷隅養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Iwaki Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いわきようごがっこう",
+        "written": "いわき養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Dietetic and Enriched Foods Association"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんえいようしょくひんきょうかい",
+        "written": "日本栄養食品協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Dietetics Society"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんえいようかいぜんがっかい",
+        "written": "日本栄養改善学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Society of Metabolism and Clinical Nutrition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんびょうたいえいようがっかい",
+        "written": "日本病態栄養学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Society of Clinical Nutrition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんりんしょうえいようがっかい",
+        "written": "日本臨床栄養学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Junior College of Kagawa Nutrition University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょしえいようだいがくたんきだいがくぶ",
+        "written": "女子栄養大学短期大学部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Junior College of Nutrition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようたん",
+        "written": "栄養短"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kagawa Nutrition University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょしえいようだいがく",
+        "written": "女子栄養大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kamakura Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かまくらようごがっこう",
+        "written": "鎌倉養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kurihama Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くりはまようごがっこう",
+        "written": "久里浜養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kyushu Nutrition Welfare University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうしゅうえいようふくしだいがく",
+        "written": "九州栄養福祉大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kōtō Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうとうようごがっこう",
+        "written": "高等養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Matsumoto Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まつもとようごがっこう",
+        "written": "松本養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Mihara Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みはらようごがっこう",
+        "written": "三原養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Minami Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みなみようごがっこう",
+        "written": "南養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Miyako Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みやこようごがっこう",
+        "written": "宮古養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Miyama Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みやまようごがっこう",
+        "written": "みやま養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nagano Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ながのようごがっこう",
+        "written": "長野養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nanao Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ななおようごがっこう",
+        "written": "七尾養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nanao Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ななおようごがっこう",
+        "written": "七生養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nara Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ならようごがっこう",
+        "written": "奈良養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Institute of Nutrition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくりつえいようけんきゅうじょ",
+        "written": "国立栄養研究所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National School for Children with Disabilities"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくりつようごがっこう",
+        "written": "国立養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nichinan Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にちなんようごがっこう",
+        "written": "日南養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Niigata School for the Handicapped"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にいがたようごがっこう",
+        "written": "新潟養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nishinokyō Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にしのきょうようごがっこう",
+        "written": "西の京養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nutrition College Musashino"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むさしのえいようせんもんがっこう",
+        "written": "武蔵野栄養専門学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Okayama Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おかやまようごがっこう",
+        "written": "岡山養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Oogaki Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おおがきようごがっこう",
+        "written": "大垣養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Saibi Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいびようごがっこう",
+        "written": "西備養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Saori Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さおりようごがっこう",
+        "written": "佐織養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Shichijō Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しちじょうようごがっこう",
+        "written": "七条養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Shiritsu Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しりつようごがっこう",
+        "written": "市立養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Takasu Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たかすようごがっこう",
+        "written": "鷹栖養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ten'yō era (1144.2.23-1145.7.22)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんよう",
+        "written": "天養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ube Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うべようごがっこう",
+        "written": "宇部養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Wakatsuki Special Needs School (older name style)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わかつきようごがっこう",
+        "written": "若槻養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Yōrō Code (promulgated 757 CE)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようろうりつりょう",
+        "written": "養老律令"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Yōrō Code (promulgated 757 CE)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようろうりょう",
+        "written": "養老令"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Yōwa era (1181.7.14-1182.5.27)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようわ",
+        "written": "養和"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adoption (of a person)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "ようしえんぐみ",
+        "written": "養子縁組"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "ようしえんぐみ",
+        "written": "養子縁組み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adoptionism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようしろん",
+        "written": "養子論"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adoptive family"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようか",
+        "written": "養家"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adoptive heir"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようしし",
+        "written": "養嗣子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adoptive parent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようかた",
+        "written": "養方"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adoptive parents"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "ようふぼ",
+        "written": "養父母"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antinutrient"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんえいようそ",
+        "written": "反栄養素"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aquaculture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいさんようしょく",
+        "written": "水産養殖"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aquaculture industry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようしょくぎょう",
+        "written": "養殖業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "autotrophy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どくりつえいよう",
+        "written": "独立栄養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "beehive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようほうばこ",
+        "written": "養蜂箱"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bottle-fed child"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんこうえいようじ",
+        "written": "人工栄養児"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "caring for oneself (at home; e.g. after testing positive for COVID-19)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じしゅりょうよう",
+        "written": "自主療養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "carp breeding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようり",
+        "written": "養鯉"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cell culture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいぼうばいよう",
+        "written": "細胞培養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ceremony to consecrate a newly made Buddhist statue or image by inserting the eyes (thereby investing it with soul)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいげんくよう",
+        "written": "開眼供養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "clean (pure) culture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんすいばいよう",
+        "written": "純粋培養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "college of general education"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうようがくぶ",
+        "written": "教養学部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commemoration of the Buddha's birthday"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はなくよう",
+        "written": "花供養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cultured pearl"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようしょくしんじゅ",
+        "written": "養殖真珠"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dietitian"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようがくしゃ",
+        "written": "栄養学者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "duty to support (a person)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふようぎむ",
+        "written": "扶養義務"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dystrophic lake"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふしょくえいようこ",
+        "written": "腐植栄養湖"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "educational program (TV, radio)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうようばんぐみ",
+        "written": "教養番組"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "embryologist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はいばいようし",
+        "written": "胚培養士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "embryologist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばいようし",
+        "written": "培養士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "endowment insurance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようろうほけん",
+        "written": "養老保険"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "eutrophication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふえいようか",
+        "written": "富栄養化"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "failing to practice what one preaches"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いしゃのふようじょう",
+        "written": "医者の不養生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "feast for one's eyes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めのほよう",
+        "written": "目の保養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fish hatchery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようぎょじょう",
+        "written": "養魚場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fish pond"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようしょくち",
+        "written": "養殖池"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fish-breeding pond"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようぎょち",
+        "written": "養魚池"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "foster child"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やしないご",
+        "written": "養い子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "functional nutritional food"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようきのうしょくひん",
+        "written": "栄養機能食品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general education"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっぱんきょうよう",
+        "written": "一般教養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general education course"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうようかてい",
+        "written": "教養課程"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hair tonic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようもうざい",
+        "written": "養毛剤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "health resort"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほようち",
+        "written": "保養地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "health resort"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうようち",
+        "written": "療養地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "heterotrophy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうぞくえいよう",
+        "written": "従属栄養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intensive-care old people's home"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくべつようごろうじんホーム",
+        "written": "特別養護老人ホーム"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intensive-care old people's home"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくよう",
+        "written": "特養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "keeping (part of) a person's ashes in one's home or inside a pendant, etc."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てもとくよう",
+        "written": "手元供養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "malnutrition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようぶそく",
+        "written": "栄養不足"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "malnutrition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "えいようしっちょう",
+        "written": "栄養失調"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medical expenses"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうようひ",
+        "written": "療養費"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "memorial service"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ついぜんくよう",
+        "written": "追善供養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "memorial service for old needles"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はりくよう",
+        "written": "針供養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "memorial service to appease an aborted foetus"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みずごくよう",
+        "written": "水子供養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "memorial tower"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くようとう",
+        "written": "供養塔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "micronutrient"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びりょうようそ",
+        "written": "微量要素"
+      },
+      {
+        "priorities": [],
+        "pronounced": "びりょうようそ",
+        "written": "微量養素"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "natural alimentation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しぜんえいよう",
+        "written": "自然栄養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nourishing or nutritious food"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じようぶつ",
+        "written": "滋養物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nourishment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46",
+          "spec2"
+        ],
+        "pronounced": "じよう",
+        "written": "滋養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nurses' training school"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんごふようせいじょ",
+        "written": "看護婦養成所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nursing home"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようごホーム",
+        "written": "養護ホーム"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutrient"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じようぶん",
+        "written": "滋養分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutrient"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "えいようそ",
+        "written": "栄養素"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutrient-rich (or eutrophic) lake"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふえいようこ",
+        "written": "富栄養湖"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutrition facts label"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようせいぶんひょうじ",
+        "written": "栄養成分表示"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutrition facts label"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようひょうじ",
+        "written": "栄養表示"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutritional yeast"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようこうぼ",
+        "written": "栄養酵母"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutritive material"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようぶつ",
+        "written": "栄養物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutritive salts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようえんるい",
+        "written": "栄養塩類"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "old age pension"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようろうねんきん",
+        "written": "養老年金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one's dependents"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふようかぞく",
+        "written": "扶養家族"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paratrophic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせいえいよう",
+        "written": "寄生栄養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pearl culture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんじゅようしょく",
+        "written": "真珠養殖"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pearl-oyster beds"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんじゅようしょくじょう",
+        "written": "真珠養殖場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "poultry farmer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようけいか",
+        "written": "養鶏家"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prevention is better than cure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりよりようじょう",
+        "written": "薬より養生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rear a tiger and court disaster"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようこのうれい",
+        "written": "養虎の患い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rear a tiger and court disaster"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようこのうれえ",
+        "written": "養虎の患え"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recuperating patient"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうようしゃ",
+        "written": "療養者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recuperation at home"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じたくりょうよう",
+        "written": "自宅療養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regimen"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようじょうほう",
+        "written": "養生法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regular adoption (official adoption with the consent of both parties and without dissolving the relationship with the biological parents)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふつうようしえんぐみ",
+        "written": "普通養子縁組"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reimbursement system for high-cost medical care"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうがくりょうようひせいど",
+        "written": "高額療養費制度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rest or recreation room"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうようしつ",
+        "written": "休養室"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "retreat (religious, spiritual)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうようかい",
+        "written": "修養会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "salmon and trout farm"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようそんじょう",
+        "written": "養鱒場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sanatorium"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほよういん",
+        "written": "保養院"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sanatorium"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうようしょ",
+        "written": "療養所"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "りょうようじょ",
+        "written": "療養所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seeking to improve one's health with a change of climate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんちりょうよう",
+        "written": "転地療養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sericulture industry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようさんぎょう",
+        "written": "養蚕業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "services performed in perpetuity by a Buddhist temple for the repose of a departed soul"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいたいくよう",
+        "written": "永代供養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "son-in-law taken (adopted) into family"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むこようし",
+        "written": "婿養子"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ムコようし",
+        "written": "ムコ養子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "source of nutrients"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようげん",
+        "written": "栄養源"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax exemption for a child under the age of 16"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねんしょうふようこうじょ",
+        "written": "年少扶養控除"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tax exemption for dependents"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふようこうじょ",
+        "written": "扶養控除"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "therapeutic hot spring"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうようおんせん",
+        "written": "療養温泉"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tissue culture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そしきばいよう",
+        "written": "組織培養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to put up for adoption"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようしにだす",
+        "written": "養子に出す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "training school"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようせいじょ",
+        "written": "養成所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trophic level"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようだんかい",
+        "written": "栄養段階"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unknown person's grave"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くようづか",
+        "written": "供養塚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vegetative organ"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようきかん",
+        "written": "栄養器官"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vegetative propagation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようはんしょく",
+        "written": "栄養繁殖"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vegetative reproduction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようせいしょく",
+        "written": "栄養生殖"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "watershed protection forest"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいげんかんようりん",
+        "written": "水源かん養林"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すいげんかんようりん",
+        "written": "水源涵養林"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "American College of Nutrition",
+          "ACN"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べいこくえいようがっかい",
+        "written": "米国栄養学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Society for Lipid Nutrition",
+          "JSLN"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんししつえいようがっかい",
+        "written": "日本脂質栄養学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Nutritional Foods Association",
+          "NNFA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんべいえいようしょくひんきょうかい",
+        "written": "全米栄養食品協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Research Institute of Aquaculture",
+          "NRIA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようしょくけんきゅうじょ",
+        "written": "養殖研究所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adopted child (usu. male)",
+          "son-in-law"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "ようし",
+        "written": "養子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adopted daughter",
+          "foster daughter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26"
+        ],
+        "pronounced": "ようじょ",
+        "written": "養女"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adopting a married couple",
+          "married couple adopted into the family"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふうふようし",
+        "written": "夫婦養子"
+      },
+      {
+        "priorities": [],
+        "pronounced": "めおとようし",
+        "written": "夫婦養子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "affectionate upbringing",
+          "affectionate nurture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じよう",
+        "written": "慈養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bee yard",
+          "apiary"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようほうじょう",
+        "written": "養蜂場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "beekeeper",
+          "apiarist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようほうか",
+        "written": "養蜂家"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "beekeeping",
+          "apiculture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようほう",
+        "written": "養蜂"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "breast feeding",
+          "maternal feeding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぼにゅうえいよう",
+        "written": "母乳栄養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "breeding",
+          "raising"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しよう",
+        "written": "飼養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "caring for the sick",
+          "taking care of oneself"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かよう",
+        "written": "加養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "central venous hyperalimentation",
+          "intravenous hyperalimentation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしんじょうみゃくえいよう",
+        "written": "中心静脈栄養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "child-rearing expenses",
+          "child-support payments (following divorce)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よういくひ",
+        "written": "養育費"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "college of liberal arts (general education)",
+          "liberal arts school"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうようぶ",
+        "written": "教養部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "deathbed adoption of a successor (to prevent extinction of the family line)",
+          "person adopted by someone on his deathbed"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まつごようし",
+        "written": "末期養子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dependent relative",
+          "dependent family member"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふようしんぞく",
+        "written": "扶養親族"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "development of the body",
+          "caring for one's body"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいよう",
+        "written": "体養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dietetics",
+          "nutritional science"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "えいようがく",
+        "written": "栄養学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dietitian",
+          "(licensed) nutritionist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "えいようし",
+        "written": "栄養士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "diversion",
+          "change of pace"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きほよう",
+        "written": "気保養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "eel farming",
+          "eel culture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようまん",
+        "written": "養鰻"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "filial duties",
+          "devotion to one's parents"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうよう",
+        "written": "孝養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fish breeding",
+          "pisciculture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようぎょ",
+        "written": "養魚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fish farmer",
+          "pisciculturist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようぎょか",
+        "written": "養魚家"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "foster father",
+          "adoptive father"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "ようふ",
+        "written": "養父"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "foster mother",
+          "adoptive mother"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "ようぼ",
+        "written": "養母"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "godparents",
+          "foster parents"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やしないおや",
+        "written": "養い親"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "highly nourishing (nutritious)",
+          "earning top marks nutrition-wise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようまんてん",
+        "written": "栄養満点"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "home for the aged",
+          "old people's home"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "ようろういん",
+        "written": "養老院"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "leper colony",
+          "leprosarium"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ハンセンびょうりょうようじょ",
+        "written": "ハンセン病療養所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "malnutrition",
+          "malnourishment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようふりょう",
+        "written": "栄養不良"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "masking tape",
+          "curing tape"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようせいテープ",
+        "written": "養成テープ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "memorial service for the dead",
+          "holding a service"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "くよう",
+        "written": "供養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "neglect of health",
+          "intemperance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふようじょう",
+        "written": "不養生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nourishment",
+          "nutrient"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "ようぶん",
+        "written": "養分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "novel about one's education, spiritual growth, etc.",
+          "Bildungsroman"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうようしょうせつ",
+        "written": "教養小説"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nursery",
+          "(breeding) farm"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようしょくじょう",
+        "written": "養殖場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nursing",
+          "(protective) care"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "ようご",
+        "written": "養護"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutrition",
+          "nourishment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "えいよう",
+        "written": "営養"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "えいよう",
+        "written": "栄養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutritional supplement",
+          "dietary supplement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようほじょしょくひん",
+        "written": "栄養補助食品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutritional value",
+          "food value"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "えいようか",
+        "written": "栄養価"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "overnutrition",
+          "excessive nutritional intake"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようかた",
+        "written": "栄養過多"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "parenteral nutrition",
+          "parenteral alimentation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひけいこうえいよう",
+        "written": "非経口栄養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "person managing their symptoms (e.g. of a mild case of COVID-19) at home",
+          "person recuperating at home"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じたくりょうようしゃ",
+        "written": "自宅療養者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pig-keeping",
+          "pig farming"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33",
+          "spec2"
+        ],
+        "pronounced": "ようとん",
+        "written": "養豚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "poultry farm",
+          "chicken farm"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようけいじょう",
+        "written": "養鶏場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recommended dietary allowance",
+          "RDA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいしょうえいようしょようりょう",
+        "written": "推奨栄養所要量"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recuperation",
+          "medical treatment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "りょうよう",
+        "written": "療養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registered dietitian",
+          "nationally certified nutritionist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんりえいようし",
+        "written": "管理栄養士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "school for the disabled",
+          "special school"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようごがっきゅう",
+        "written": "養護学級"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "self-cultivation",
+          "self-culture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じこしゅうよう",
+        "written": "自己修養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shore reclamation",
+          "shoreline maintenance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようひん",
+        "written": "養浜"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "snack for an empty stomach",
+          "something to tide one over"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むしやしない",
+        "written": "むし養い"
+      },
+      {
+        "priorities": [],
+        "pronounced": "むしやしない",
+        "written": "虫やしない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "むしやしない",
+        "written": "虫養い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "spray curing",
+          "curing of newly-poured and slightly hardened concrete"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんすいようじょう",
+        "written": "散水養生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stock keeping",
+          "raising livestock"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようちく",
+        "written": "養畜"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "support (e.g. of one's dependents)",
+          "maintenance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "ふよう",
+        "written": "扶養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "supporter",
+          "breadwinner"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふようしゃ",
+        "written": "扶養者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taking nourishing food",
+          "eating a balanced diet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくようじょう",
+        "written": "食養生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the poultry industry",
+          "poultry farming"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようけいぎょう",
+        "written": "養鶏業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tiger rearing",
+          "keeping a tiger"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようこ",
+        "written": "養虎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be adopted",
+          "to enter a family as an adopted child"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようしにいく",
+        "written": "養子に行く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "training school",
+          "vocational school"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようせいこう",
+        "written": "養成校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "travelling somewhere to improve one's health",
+          "travelling somewhere to recuperate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でようじょう",
+        "written": "出養生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alimony",
+          "spousal support",
+          "maintenance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふようりょう",
+        "written": "扶養料"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bringing up",
+          "rearing",
+          "upbringing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "よういく",
+        "written": "養育"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "children's home",
+          "child care institution",
+          "orphanage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようごしせつ",
+        "written": "養護施設"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "culture fluid",
+          "culture solution",
+          "broth"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばいようえき",
+        "written": "培養液"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dependent",
+          "person receiving support",
+          "person being supported"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひふようしゃ",
+        "written": "被扶養者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "energy drink",
+          "nutritional supplement drink",
+          "vitamin drink"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようドリンク",
+        "written": "栄養ドリンク"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "headwater conservation",
+          "water source protection",
+          "water source cultivation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいげんかんよう",
+        "written": "水源かん養"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すいげんかんよう",
+        "written": "水源涵養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "health preservation",
+          "recuperation",
+          "recreation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "ほよう",
+        "written": "保養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lake with low nutrient level",
+          "oligotrophic lake",
+          "unproductive lake"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひんえいようこ",
+        "written": "貧栄養湖"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "livestock husbandry (esp. fish)",
+          "breeding",
+          "stocking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちくよう",
+        "written": "畜養"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちくよう",
+        "written": "蓄養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "moral (spiritual) improvement",
+          "practice mental training",
+          "cultivate one's mind (soul)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいしんしゅうよう",
+        "written": "精神修養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutrient",
+          "nutritional supplement",
+          "nutritional tonic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようざい",
+        "written": "栄養剤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutrient composition",
+          "nutritional composition",
+          "nutritional information"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいようせいぶん",
+        "written": "栄養成分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutriment",
+          "nutritious substance",
+          "nourishment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "えいようぶん",
+        "written": "栄養分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "orphanage",
+          "children's home",
+          "foster home"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうようごしせつ",
+        "written": "児童養護施設"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "person of culture",
+          "educated person",
+          "highbrow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうようじん",
+        "written": "教養人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pig farm",
+          "hog farm",
+          "piggery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようとんじょう",
+        "written": "養豚場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "potting soil",
+          "planting mix",
+          "compost"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばいようど",
+        "written": "培養土"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "poultry raising",
+          "poultry farming",
+          "chicken farming"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28",
+          "spec2"
+        ],
+        "pronounced": "ようけい",
+        "written": "養鶏"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "recreation facility (usu. corporate-owned and for the exclusive use of the corporation's employees)",
+          "rest home",
+          "retreat center"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほようしょ",
+        "written": "保養所"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "ほようじょ",
+        "written": "保養所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "school nurse",
+          "nurse teacher",
+          "health teacher"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "ようごきょうゆ",
+        "written": "養護教諭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sericulture",
+          "silkworm culture",
+          "silkworm raising"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30",
+          "spec2"
+        ],
+        "pronounced": "ようさん",
+        "written": "養蚕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sericulturist",
+          "silk grower",
+          "silkworm raiser"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようさんか",
+        "written": "養蚕家"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special adoption",
+          "plenary adoption",
+          "adoption in which the relationship with the biological parents is dissolved"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくべつようしえんぐみ",
+        "written": "特別養子縁組"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special school",
+          "special needs school",
+          "school for children with physical or mental disabilities"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようごがっこう",
+        "written": "養護学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to bring up",
+          "to foster",
+          "to rear"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やしないそだてる",
+        "written": "養い育てる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to enliven one's spirit",
+          "to refresh oneself",
+          "to cheer oneself up"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうぜんのきをやしなう",
+        "written": "浩然の気を養う"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to restore one's energy",
+          "to restore one's spirits",
+          "to recharge one's batteries"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいきをやしなう",
+        "written": "英気を養う"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adopter",
+          "adopting parent or parents",
+          "adoptive parent or parents",
+          "foster parent or parents"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようしん",
+        "written": "養親"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aquaculture",
+          "culture",
+          "cultivation",
+          "raising"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "ようしょく",
+        "written": "養殖"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cultured meat",
+          "lab-grown meat",
+          "in-vitro meat",
+          "clean meat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばいようにく",
+        "written": "培養肉"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "farmed fish",
+          "farm-raised fish",
+          "cultivated fish",
+          "hatchery fish"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようしょくぎょ",
+        "written": "養殖魚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "long term care bed",
+          "long term care beds",
+          "chronic stage bed",
+          "chronic stage beds"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうようびょうしょう",
+        "written": "療養病床"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "self-improvement",
+          "(mental) training",
+          "self-discipline",
+          "cultivation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf43"
+        ],
+        "pronounced": "しゅうよう",
+        "written": "修養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "training",
+          "education",
+          "development",
+          "cultivation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "ようせい",
+        "written": "養成"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tube feeding",
+          "tubal feeding",
+          "intubation feeding",
+          "gavage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいかんえいよう",
+        "written": "経管栄養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "undernutrition",
+          "undernourishment",
+          "malnutrition",
+          "poor nutrition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていえいよう",
+        "written": "低栄養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "uneducated",
+          "uncultured",
+          "unrefined",
+          "ignorant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むきょうよう",
+        "written": "無教養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(understanding or appreciation of) culture",
+          "(one's) education",
+          "cultivation",
+          "sophistication",
+          "refinement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf08"
+        ],
+        "pronounced": "きょうよう",
+        "written": "教養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crude",
+          "philistine",
+          "uncultivated",
+          "uneducated",
+          "vulgar"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうようのない",
+        "written": "教養のない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rest",
+          "relaxation",
+          "recreation",
+          "recuperation",
+          "convalescence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "きゅうよう",
+        "written": "休養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "grounding (in a skill or subject)",
+          "knowledge",
+          "training",
+          "achievements",
+          "attainments",
+          "accomplishments"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "そよう",
+        "written": "素養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(groundwater) recharge"
+        ]
+      },
+      {
+        "glosses": [
+          "cultivation (of character, virtue, etc.)",
+          "fostering",
+          "development (e.g. of a skill)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんよう",
+        "written": "かん養"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かんよう",
+        "written": "涵養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "artificial nourishment"
+        ]
+      },
+      {
+        "glosses": [
+          "bottle feeding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんこうえいよう",
+        "written": "人工栄養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mixotrophism"
+        ]
+      },
+      {
+        "glosses": [
+          "mixed feeding",
+          "mixotrophy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こんごうえいよう",
+        "written": "混合栄養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "maintaining (e.g. a family)",
+          "support"
+        ]
+      },
+      {
+        "glosses": [
+          "sustaining (an army)",
+          "supplying (troops and horses) with provisions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうよう",
+        "written": "給養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nutrition",
+          "nourishment"
+        ]
+      },
+      {
+        "glosses": [
+          "bringing up",
+          "nurture",
+          "rearing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "やしない",
+        "written": "養い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Yōrō era (717.11.17-724.2.4)"
+        ]
+      },
+      {
+        "glosses": [
+          "spending one's old age in comfort"
+        ]
+      },
+      {
+        "glosses": [
+          "making provision for the elderly",
+          "making provision for one's old age"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "ようろう",
+        "written": "養老"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dietetics"
+        ]
+      },
+      {
+        "glosses": [
+          "macrobiotics",
+          "macrobiotic diet"
+        ]
+      },
+      {
+        "glosses": [
+          "taking nourishing food",
+          "eating a balanced diet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくよう",
+        "written": "食養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "culture",
+          "cultivation"
+        ]
+      },
+      {
+        "glosses": [
+          "cultivation (e.g. of a skill)",
+          "nurture (of democracy, national power, etc.)",
+          "growth"
+        ]
+      },
+      {
+        "glosses": [
+          "cultivation (of plants)",
+          "growing",
+          "raising"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "ばいよう",
+        "written": "培養"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "curing (concrete)"
+        ]
+      },
+      {
+        "glosses": [
+          "recuperation"
+        ]
+      },
+      {
+        "glosses": [
+          "taking care of one's health"
+        ]
+      },
+      {
+        "glosses": [
+          "covering (with a protective material)",
+          "coating"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "ようじょう",
+        "written": "養生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to adopt (a child)"
+        ]
+      },
+      {
+        "glosses": [
+          "to recuperate (from injury, illness, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "to support",
+          "to maintain",
+          "to provide for"
+        ]
+      },
+      {
+        "glosses": [
+          "to bring up",
+          "to raise",
+          "to rear",
+          "to feed"
+        ]
+      },
+      {
+        "glosses": [
+          "to cultivate (a habit, a quality, etc.)",
+          "to develop",
+          "to build up",
+          "to foster"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf39"
+        ],
+        "pronounced": "やしなう",
+        "written": "養う"
+      }
+    ]
+  }
+]

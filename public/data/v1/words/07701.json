@@ -1,0 +1,3081 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(Nara and Heian era) ministry of ceremonies"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきぶしょう",
+        "written": "式部省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(former) Ministry of Health and Welfare"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "こうせいしょう",
+        "written": "厚生省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(former) Ministry of Posts and Telecommunications (now Ministry of Internal Affairs and Communications)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "ゆうせいしょう",
+        "written": "郵政省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Anhui Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あんきしょう",
+        "written": "安徽省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chancellery (Tang dynasty China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もんかしょう",
+        "written": "門下省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Council for Reform of the Foreign Ministry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいむしょうきのうかいかくかいぎ",
+        "written": "外務省機能改革会議"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Agriculture (e.g. of the USA)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうむしょう",
+        "written": "農務省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Commerce"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうむしょう",
+        "written": "商務省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Defense (Defence)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぼうそうしょう",
+        "written": "防総省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of State Affairs (Tang dynasty China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうしょしょう",
+        "written": "尚書省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of the Imperial Household"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くないしょう",
+        "written": "宮内省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of the Navy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいぐんしょう",
+        "written": "海軍省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "External Relations Ministry (Angola, Brazil, India)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいがいかんけいしょう",
+        "written": "対外関係省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Forgive me for dispensing with the preliminaries, but I hasten to inform you that..."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんしょう",
+        "written": "冠省"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かんせい",
+        "written": "冠省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Fujian Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふっけんしょう",
+        "written": "福建省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Gansu Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんしゅくしょう",
+        "written": "甘粛省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Guizhou Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きしゅうしょう",
+        "written": "貴州省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Hainan Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいなんしょう",
+        "written": "海南省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Hebei Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かほくしょう",
+        "written": "河北省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Heilongjiang Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくりゅうこうしょう",
+        "written": "黒竜江省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Henan Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かなんしょう",
+        "written": "河南省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Home Ministry Police Affairs Bureau (1876-1947)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないむしょうけいほきょく",
+        "written": "内務省警保局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Hubei Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こほくしょう",
+        "written": "湖北省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Hunan Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こなんしょう",
+        "written": "湖南省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan's 2001 central government restructuring"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうおうしょうちょうさいへん",
+        "written": "中央省庁再編"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Jiangsu Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうそしょう",
+        "written": "江蘇省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Jiangxi Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせいしょう",
+        "written": "江西省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Jilin Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きつりんしょう",
+        "written": "吉林省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Liaoning Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうねいしょう",
+        "written": "遼寧省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Minister for Culture and Tourism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんかかんこうしょう",
+        "written": "文化観光省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Agriculture and Commerce (1881-1925)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうしょうむしょう",
+        "written": "農商務省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Agriculture and Forestry (1925-1978)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうりんしょう",
+        "written": "農林省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Central Affairs (under the ritsuryō system)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうむしょう",
+        "written": "中務省"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なかつかさしょう",
+        "written": "中務省"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なかのつかさ",
+        "written": "中務省"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なかのまつりごとのつかさ",
+        "written": "中務省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Civil Administration (under the ritsuryō system)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おさむるつかさ",
+        "written": "治部省"
+      },
+      {
+        "priorities": [],
+        "pronounced": "じぶしょう",
+        "written": "治部省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Communications and Transportation (dissolved in 1949)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていしんしょう",
+        "written": "逓信省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Construction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "けんせつしょう",
+        "written": "建設省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Culture (e.g. in China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんかしょう",
+        "written": "文化省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Defense"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぼうえいしょう",
+        "written": "防衛省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Divinities (1871-1872)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんぎしょう",
+        "written": "神祇省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Education, Science and Culture (1871-2001)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "もんぶしょう",
+        "written": "文部省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Finance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいむしょう",
+        "written": "財務省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Foreign Affairs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "がいむしょう",
+        "written": "外務省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Health, Labour and Welfare"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせいろうどうしょう",
+        "written": "厚生労働省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Health, Labour and Welfare"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうろうしょう",
+        "written": "厚労省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Home Affairs (1960-2001)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "じちしょう",
+        "written": "自治省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Information"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうほうしょう",
+        "written": "情報省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Internal Affairs and Communications"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうむしょう",
+        "written": "総務省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Justice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "ほうむしょう",
+        "written": "法務省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Labour (now Ministry of Health, Labour and Welfare)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "ろうどうしょう",
+        "written": "労働省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Religious Education (1872-1877)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうぶしょう",
+        "written": "教部省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Transport"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "うんゆしょう",
+        "written": "運輸省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Unification (South Korea)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とういつぶ",
+        "written": "統一省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of the Environment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんきょうしょう",
+        "written": "環境省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of the Environment - Global Environment Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんきょうしょうちきゅうかんきょうきょく",
+        "written": "環境省地球環境局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Military Establishment (forerunner to the US Department of Defense; 1947-1949)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こっかぐんせいしょう",
+        "written": "国家軍政省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Qinghai Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいかいしょう",
+        "written": "青海省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Sanseido (publisher)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんせいどう",
+        "written": "三省堂"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Sanseido Kokugo Jiten (Japanese dictionary published by Sanseido)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんせいどうこくごじてん",
+        "written": "三省堂国語辞典"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Secretariat (Tang dynasty China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうしょしょう",
+        "written": "中書省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Shaanxi Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんせいしょう",
+        "written": "陝西省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Shandong Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんとうしょう",
+        "written": "山東省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Shanxi Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんせいしょう",
+        "written": "山西省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "State Department"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "こくむしょう",
+        "written": "国務省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Yunnan Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うんなんしょう",
+        "written": "雲南省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Zhejiang Province (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっこうしょう",
+        "written": "浙江省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "asyndetic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えんざんきごうしょうりゃく",
+        "written": "演算記号省略"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "central government ministries and agencies"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうおうしょうちょう",
+        "written": "中央省庁"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conservation of electric power"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうでんりょく",
+        "written": "省電力"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "default"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうりゃくじ",
+        "written": "省略時"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "default context"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうりゃくじコンテキスト",
+        "written": "省略時コンテキスト"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "default entity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうりゃくじじったい",
+        "written": "省略時実体"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "default value"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうりゃくじち",
+        "written": "省略時値"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ellipsis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうりゃくきごう",
+        "written": "省略記号"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "energy-saving power strip (power board)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうエネタップ",
+        "written": "省エネタップ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "frequent reflection (meditation)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "さんせい",
+        "written": "三省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "government railway line"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうせん",
+        "written": "省線"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "holiday traffic congestion caused by people travelling to their hometowns en masse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせいラッシュ",
+        "written": "帰省ラッシュ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ministerial ordinance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "しょうれい",
+        "written": "省令"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "omitted tag minimization parameter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうりゃくタグさいしょうかひきすう",
+        "written": "省略タグ最小化引数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "operated by the government"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうえい",
+        "written": "省営"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "power saver (feature)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうでんりょくきのう",
+        "written": "省電力機能"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "provincial capital (of China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうと",
+        "written": "省都"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "saving resources"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうしげん",
+        "written": "省資源"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "simplification of a kanji"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうじ",
+        "written": "省字"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せいじ",
+        "written": "省字"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "space-saving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうスペース",
+        "written": "省スペース"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special low power transceiver (wireless)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくていしょうでんりょくむせんき",
+        "written": "特定省電力無線機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the eight ministries (under the Grand Council of State of the ritsuryō system)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はっしょう",
+        "written": "八省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to eliminate waste"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むだをはぶく",
+        "written": "無駄を省く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to urge (someone) to reflect sincerely"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もうせいをうながす",
+        "written": "猛省を促す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "truncated representation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょういしょうりゃくひょうき",
+        "written": "上位省略表記"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unconsciousness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんじふせい",
+        "written": "人事不省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(former) Ministry of International Trade and Industry (now Ministry of Economy, Trade and Industry)",
+          "MITI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "つうしょうさんぎょうしょう",
+        "written": "通商産業省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(former) Ministry of International Trade and Industry (now Ministry of Economy, Trade and Industry)",
+          "MITI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "つうさんしょう",
+        "written": "通産省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Bunten exhibition",
+          "annual art exhibition sponsored by the Ministry of Education (antecedent of the Nitten exhibition)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もんぶしょうびじゅつてんらんかい",
+        "written": "文部省美術展覧会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Defense (US)",
+          "the Pentagon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくぼうそうしょう",
+        "written": "国防総省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Education (e.g. USA, Australia)",
+          "Ministry of Education"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょういくしょう",
+        "written": "教育省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Health",
+          "Ministry of Health"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほけんしょう",
+        "written": "保健省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Homeland Security",
+          "DHS"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくどあんぜんほしょうしょう",
+        "written": "国土安全保障省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Homeland Security",
+          "DHS"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べいこくどあんぜんほしょうしょう",
+        "written": "米国土安全保障省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Homeland Security (US)",
+          "DHS"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アメリカこくどあんぜんほしょうしょう",
+        "written": "アメリカ国土安全保障省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "I have nothing to be ashamed of",
+          "I have a clean conscience"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うちにかえりみてやましからず",
+        "written": "内に省みてやましからず"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うちにかえりみてやましからず",
+        "written": "内に省みて疚しからず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Agriculture, Forestry and Fisheries",
+          "MAFF"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうすいしょう",
+        "written": "農水省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Agriculture, Forestry and Fisheries",
+          "MAFF"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "のうりんすいさんしょう",
+        "written": "農林水産省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Economy, Trade and Industry",
+          "METI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいさんしょう",
+        "written": "経産省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Economy, Trade and Industry",
+          "METI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいざいさんぎょうしょう",
+        "written": "経済産業省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Education, Culture, Sports, Science and Technology",
+          "MEXT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "もんぶかがくしょう",
+        "written": "文部科学省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Education, Culture, Sports, Science and Technology",
+          "MEXT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんかしょう",
+        "written": "文科省"
+      },
+      {
+        "priorities": [],
+        "pronounced": "もんかしょう",
+        "written": "文科省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Land, Infrastructure, Transport and Tourism",
+          "MLIT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくどこうつうしょう",
+        "written": "国土交通省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Land, Infrastructure, Transport and Tourism",
+          "MLIT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こっこうしょう",
+        "written": "国交省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Tourism (Brazil, India, New Zealand, etc.)",
+          "Department of Tourism (South Africa, Philippines, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんこうしょう",
+        "written": "観光省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a certain ministry",
+          "an unspecified ministry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぼうしょう",
+        "written": "某省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abbreviation",
+          "abbreviated style"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうりゃくけい",
+        "written": "省略形"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "each ministry thinks only of its own good, but not of the good of the country",
+          "when there are ministries, there is no country"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうあってくになし",
+        "written": "省あって国なし"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "energy conservation",
+          "economical use of energy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうエネ",
+        "written": "省エネ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "energy-saving measures",
+          "energy-saving strategy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうエネたいさく",
+        "written": "省エネ対策"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "government departments",
+          "ministries and agencies"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふしょう",
+        "written": "府省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "homecoming",
+          "returning home"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "きせい",
+        "written": "帰省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in the ministry",
+          "in the department"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうない",
+        "written": "省内"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interests of a ministry",
+          "departmental interests"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうえき",
+        "written": "省益"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "introspection",
+          "reflection on one's self"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35",
+          "spec2"
+        ],
+        "pronounced": "ないせい",
+        "written": "内省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "labor saving",
+          "labour saving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうりょくか",
+        "written": "省力化"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "labor saving",
+          "reduction of labor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "しょうりょく",
+        "written": "省力"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "manpower reduction",
+          "personnel saving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうじんか",
+        "written": "省人化"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "matters that should be reflected on",
+          "points in need of review"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんせいざいりょう",
+        "written": "反省材料"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ministries and government offices",
+          "the authorities"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "しょうちょう",
+        "written": "省庁"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reflection",
+          "consideration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうさつ",
+        "written": "省察"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せいさつ",
+        "written": "省察"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reflective",
+          "introspective"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないせいてき",
+        "written": "内省的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "registration (of change in real estate rights) with all right holders but the initial and final omitted",
+          "middle omission registration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうかんしょうりゃくとうき",
+        "written": "中間省略登記"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "self-examination",
+          "reflection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36",
+          "spec2"
+        ],
+        "pronounced": "じせい",
+        "written": "自省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "service at the head office",
+          "work at the home office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんしょうづめ",
+        "written": "本省詰め"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sign of remorse",
+          "indication of regret"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんせいのいろ",
+        "written": "反省の色"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "textbook approved by the Ministry of Education, Culture, Sports, Science and Technology",
+          "government-approved textbook"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もんぶかがくしょうけんていずみきょうかしょ",
+        "written": "文部科学省検定済み教科書"
+      },
+      {
+        "priorities": [],
+        "pronounced": "もんぶかがくしょうけんていずみきょうかしょ",
+        "written": "文部科学省検定済教科書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the said ministry",
+          "the same ministry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "どうしょう",
+        "written": "同省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to save labor",
+          "to save labour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろうりょくをはぶく",
+        "written": "労力を省く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "treasury bill",
+          "TB"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おおくらしょうしょうけん",
+        "written": "大蔵省証券"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "written apology",
+          "written statement of regret"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんせいぶん",
+        "written": "反省文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Defense (USA)",
+          "the Pentagon",
+          "Ministry of Defence (UK, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくぼうしょう",
+        "written": "国防省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Guangdong Province (China)",
+          "Canton",
+          "Kwangtung"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "カントンしょう",
+        "written": "広東省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Sichuan (China)",
+          "Szechuan",
+          "Szechwan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しせんしょう",
+        "written": "四川省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Statistics Bureau of Japan",
+          "SBJ",
+          "Statistics Bureau, Ministry of Internal Affairs and Communications"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうむしょうとうけいきょく",
+        "written": "総務省統計局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ellipsis points (e.g. ...)",
+          "suspension points",
+          "apostrophe"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうりゃくふごう",
+        "written": "省略符号"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "energy conservation",
+          "economical use of energy",
+          "energy-saving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "しょうエネルギー",
+        "written": "省エネルギー"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "evaluation meeting",
+          "postmortem session",
+          "review meeting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんせいかい",
+        "written": "反省会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lack of reflection (on one's conduct, failures, etc.)",
+          "lack of self-examination",
+          "lack of introspection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むはんせい",
+        "written": "無反省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reflection",
+          "reexamination",
+          "contemplation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいし",
+        "written": "省思"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "serious reflection",
+          "soul-searching",
+          "penitence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf39"
+        ],
+        "pronounced": "もうせい",
+        "written": "猛省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the concerned government agencies",
+          "the ministries and agencies that are relevant to the matter at hand",
+          "the relevant authorities"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんけいしょうちょう",
+        "written": "関係省庁"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Home Ministry",
+          "Department of the Interior (US, etc.)",
+          "Home Office (UK)",
+          "Ministry of Home Affairs (Japan, pre-1947)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないむしょう",
+        "written": "内務省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to reflect on (oneself, past conduct, etc.)",
+          "to contemplate",
+          "to examine",
+          "to think over",
+          "to introspect"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "かえりみる",
+        "written": "省みる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to save trouble",
+          "to save effort",
+          "to save hassle",
+          "to save bother",
+          "to save time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てまがはぶける",
+        "written": "手間が省ける"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Economic Affairs (Japan; 1964-1969)"
+        ]
+      },
+      {
+        "glosses": [
+          "Ministry of the Economy (Brazil)",
+          "Ministry of Finance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいざいしょう",
+        "written": "経済省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Justice (US)"
+        ]
+      },
+      {
+        "glosses": [
+          "Ministry of Justice (1871-1948)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しほうしょう",
+        "written": "司法省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of the Army"
+        ]
+      },
+      {
+        "glosses": [
+          "Ministry of the Army (Japan; 1872-1945)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りくぐんしょう",
+        "written": "陸軍省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Law Concerning the Rational Use of Energy"
+        ]
+      },
+      {
+        "glosses": [
+          "energy saving law"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうエネほう",
+        "written": "省エネ法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Finance (1869-2001)"
+        ]
+      },
+      {
+        "glosses": [
+          "Ministry of the Treasury (under the ritsuryō system)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "おおくらしょう",
+        "written": "大蔵省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Justice (1869-1871)"
+        ]
+      },
+      {
+        "glosses": [
+          "Ministry of Justice (under the ritsuryō system)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うたえただすつかさ",
+        "written": "刑部省"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うたえのつかさ",
+        "written": "刑部省"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぎょうぶしょう",
+        "written": "刑部省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ministry of Popular Affairs (1869-1871)"
+        ]
+      },
+      {
+        "glosses": [
+          "Ministry of Popular Affairs (under the ritsuryō system)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たみのつかさ",
+        "written": "民部省"
+      },
+      {
+        "priorities": [],
+        "pronounced": "みんぶしょう",
+        "written": "民部省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "each ministry"
+        ]
+      },
+      {
+        "glosses": [
+          "each province (of China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくしょう",
+        "written": "各省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "military command body (early Meiji period)"
+        ]
+      },
+      {
+        "glosses": [
+          "ministry in charge of military affairs (ritsuryō period)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうぶしょう",
+        "written": "兵部省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "person from one's own province (in China)"
+        ]
+      },
+      {
+        "glosses": [
+          "person whose ancestors lived in Taiwan before the Kuomintang-related immigration wave"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんしょうじん",
+        "written": "本省人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "person from outside one's own province (in China)"
+        ]
+      },
+      {
+        "glosses": [
+          "person who moved to Taiwan from the continent after WWII",
+          "mainlander"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいしょうじん",
+        "written": "外省人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "self-questioning"
+        ]
+      },
+      {
+        "glosses": [
+          "to self-question",
+          "to rethink",
+          "to reflect on oneself"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じこはんせい",
+        "written": "自己反省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "three departments (in Tang dynasty China: Secretariat, Chancellory and Dept. of State Affairs)"
+        ]
+      },
+      {
+        "glosses": [
+          "three ministries (under the ritsuryō system: Ministries of Civil Services, Health and War)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんしょう",
+        "written": "三省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "omission",
+          "leaving out"
+        ]
+      },
+      {
+        "glosses": [
+          "abbreviation",
+          "abridgment",
+          "abridgement",
+          "shortening (e.g. of a name)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "しょうりゃく",
+        "written": "省略"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "omission (of words and passages)",
+          "abbreviation"
+        ]
+      },
+      {
+        "glosses": [
+          "writing a character in a simplified form",
+          "omitting strokes from a kanji"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうひつ",
+        "written": "省筆"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せいひつ",
+        "written": "省筆"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "this ministry",
+          "this department"
+        ]
+      },
+      {
+        "glosses": [
+          "ministry proper",
+          "home office",
+          "head office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "ほんしょう",
+        "written": "本省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regret",
+          "repentance",
+          "remorse",
+          "being sorry"
+        ]
+      },
+      {
+        "glosses": [
+          "reflection",
+          "reconsideration",
+          "introspection",
+          "meditation",
+          "contemplation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "はんせい",
+        "written": "反省"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to omit",
+          "to leave out",
+          "to exclude",
+          "to eliminate"
+        ]
+      },
+      {
+        "glosses": [
+          "to curtail",
+          "to save",
+          "to cut down",
+          "to economize",
+          "to economise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "はぶく",
+        "written": "省く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "province (of China)"
+        ]
+      },
+      {
+        "glosses": [
+          "ministry",
+          "department"
+        ]
+      },
+      {
+        "glosses": [
+          "saving",
+          "conserving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょう",
+        "written": "省"
+      }
+    ]
+  }
+]

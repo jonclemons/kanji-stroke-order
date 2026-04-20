@@ -1,0 +1,2175 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(judicial) denial"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょひしょぶん",
+        "written": "拒否処分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "NOT circuit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていかいろ",
+        "written": "否定回路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "NOT operation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろんりひていえんざん",
+        "written": "論理否定演算"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Negative AND operation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていろんりせきえんざん",
+        "written": "否定論理積演算"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Negative OR operation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていろんりわえんざん",
+        "written": "否定論理和演算"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adoption or rejection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "さいひ",
+        "written": "採否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anxiety or stress-induced inability to go to work"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっしゃきょひしょう",
+        "written": "出社拒否症"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "apophasis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようひいんじゅつ",
+        "written": "陽否陰述"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "approval and disapproval"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょひ",
+        "written": "許否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "blocking communications (from a phone number or an e-mail address)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゃくしんきょひ",
+        "written": "着信拒否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "condition of health"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんぴ",
+        "written": "健否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conscientious objection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうしんてきへいえききょひ",
+        "written": "良心的兵役拒否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "denial of service attack"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "サービスきょひこうげき",
+        "written": "サービス拒否攻撃"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "double negative"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にじゅうひてい",
+        "written": "二重否定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fate (safety) of a person (persons) being unknown"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あんぴふめい",
+        "written": "安否不明"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "good and bad fortune"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うんぷ",
+        "written": "運否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "good or bad"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうひ",
+        "written": "良否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "logical NOT circuit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろんりひていかいろ",
+        "written": "論理否定回路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "logical negation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろんりてきひてい",
+        "written": "論理的否定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "necessity (or lack thereof)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようひ",
+        "written": "要否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negated combined condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていくみあわせじょうけん",
+        "written": "否定組合せ条件"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negated simple condition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていたんじゅんじょうけん",
+        "written": "否定単純条件"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negation of the negation (in the Hegelian dialectic)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていのひてい",
+        "written": "否定の否定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negative form"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていけい",
+        "written": "否定形"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negative proposition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていめいだい",
+        "written": "否定命題"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negative sentence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていぶん",
+        "written": "否定文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negative theology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていしんがく",
+        "written": "否定神学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negative word"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていご",
+        "written": "否定語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "いや",
+        "written": "否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-repudiation of delivery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はいしんのひにんふのう",
+        "written": "配信の否認不能"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-repudiation of origin"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はっせいげんのひにんふのう",
+        "written": "発生源の否認不能"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-repudiation of submission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はっしんのひにんふのう",
+        "written": "発信の否認不能"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "partial negation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶぶんひてい",
+        "written": "部分否定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "refusing to allow a passenger on board a train or into a bus or taxi"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうしゃきょひ",
+        "written": "乗車拒否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rejection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょひはんのう",
+        "written": "拒否反応"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reluctantly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやいやながら",
+        "written": "否々乍ら"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやいやながら",
+        "written": "否否乍ら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "right and wrong"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいひ",
+        "written": "正否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "right of veto"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "きょひけん",
+        "written": "拒否権"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "self-denial"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じこひてい",
+        "written": "自己否定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the good and bad"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぞうひ",
+        "written": "臧否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to take the ayes and noes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かひをとる",
+        "written": "可否を採る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "truancy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうこうきょひ",
+        "written": "登校拒否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "true or false"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんぴ",
+        "written": "真否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "verb-phrase negation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうしくひてい",
+        "written": "動詞句否定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whether or not"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "かいなか",
+        "written": "か否か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whether true or false"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じっぴ",
+        "written": "実否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yes or no"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひかおうか",
+        "written": "否か応か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(whether) existent or non-existent",
+          "life or death"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぞんぴ",
+        "written": "存否"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "そんぴ",
+        "written": "存否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "NOR gate",
+          "NOR element"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていろんりわそし",
+        "written": "否定論理和素子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "NOT gate",
+          "NOT element"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていそし",
+        "written": "否定素子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "approval or disapproval",
+          "admission or denial"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "にんぴ",
+        "written": "認否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "arraignment",
+          "plea (of guilty or not guilty)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいじょうにんぴ",
+        "written": "罪状認否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bad fortune",
+          "misfortune"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひうん",
+        "written": "否運"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひうん",
+        "written": "非運"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "confirmation of someone's safety",
+          "ascertainment of someone's safety"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あんぴかくにん",
+        "written": "安否確認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conscientious objector",
+          "CO"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうしんてきへいえききょひしゃ",
+        "written": "良心的兵役拒否者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "considering the pros and cons of",
+          "examining arguments for and against"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かひけんとう",
+        "written": "可否検討"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "constituent negation",
+          "word negation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせいそひてい",
+        "written": "構成素否定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "constituent negation",
+          "word negation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごひてい",
+        "written": "語否定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "draft refuser",
+          "draft objector"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうへいきょひしゃ",
+        "written": "徴兵拒否者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "draft refuser",
+          "draft objector"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいえききょひしゃ",
+        "written": "兵役拒否者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negative",
+          "contradictory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていてき",
+        "written": "否定的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negative acknowledge",
+          "NAK"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていおうとう",
+        "written": "否定応答"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negative question",
+          "question asked in the negative (e.g. \"Can't you read Japanese?\")"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていぎもんぶん",
+        "written": "否定疑問文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "neurotic fear of returning home after work",
+          "nostophobia"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きたくきょひしょう",
+        "written": "帰宅拒否症"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no",
+          "the noes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "ひ",
+        "written": "否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quasi-negation (e.g. use of words like 'hardly', 'seldom', 'barely')",
+          "weak negation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんひてい",
+        "written": "準否定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "refuser",
+          "objector"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょひしゃ",
+        "written": "拒否者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "success or failure",
+          "result"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "ごうひ",
+        "written": "合否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tie vote",
+          "equal number of votes for and against"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんぴどうひょう",
+        "written": "賛否同票"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to detest",
+          "to dislike"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやむ",
+        "written": "否む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "truant child",
+          "child who refuses to attend school"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうこうきょひじ",
+        "written": "登校拒否児"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trusting to chance",
+          "trusting to Providence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うんぴてんぷ",
+        "written": "運否天賦"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うんぷてんぷ",
+        "written": "運否天賦"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whether one likes it or not",
+          "willy-nilly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやでも",
+        "written": "否でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whether one wants to or not",
+          "without choice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやおうなく",
+        "written": "いや応なく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやおうなく",
+        "written": "否応なく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやおうなく",
+        "written": "否応無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "willy-nilly",
+          "whether willing or not"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやもおうもなく",
+        "written": "いやも応もなく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやもおうもなく",
+        "written": "否も応もなく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやもおうもなく",
+        "written": "否も応も無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yes and no",
+          "for and against"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf08"
+        ],
+        "pronounced": "さんぴ",
+        "written": "賛否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cannot deny",
+          "undeniable",
+          "incontrovertible"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いなめない",
+        "written": "否めない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "complete denial",
+          "complete disavowal",
+          "total negation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんひてい",
+        "written": "全否定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "compulsory",
+          "unavoidable",
+          "necessary"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやおうなし",
+        "written": "いや応なし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやおうなし",
+        "written": "否応なし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやおうなし",
+        "written": "否応無し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no!",
+          "no no!",
+          "no, not at all"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いえいえ",
+        "written": "否々"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いえいえ",
+        "written": "否否"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "いやいや",
+        "written": "否々"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "いやいや",
+        "written": "否否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-conjunction",
+          "NAND operation",
+          "NOT-BOTH operation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていせき",
+        "written": "否定積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-conjunction",
+          "NAND operation",
+          "NOT-BOTH operation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていろんりせき",
+        "written": "否定論理積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-disjunction",
+          "NOR operation",
+          "NEITHER-NOR operation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていろんりわ",
+        "written": "否定論理和"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-disjunction",
+          "NOR operation",
+          "NEITHER-NOR operation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていわ",
+        "written": "否定和"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "propriety",
+          "fitness",
+          "aptitude"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "てきひ",
+        "written": "適否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "propriety",
+          "right or wrong",
+          "justice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "とうひ",
+        "written": "当否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "refusal to accept the present situation",
+          "denial of the existing situation",
+          "negation of the status quo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんじょうひてい",
+        "written": "現状否定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rejection",
+          "negation",
+          "voting down"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "ひけつ",
+        "written": "否決"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "right to keep silent",
+          "right to silence",
+          "right to remain silent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41",
+          "spec2"
+        ],
+        "pronounced": "もくひけん",
+        "written": "黙否権"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf41",
+          "spec2"
+        ],
+        "pronounced": "もくひけん",
+        "written": "黙秘権"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "safety",
+          "welfare",
+          "well-being"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あんび",
+        "written": "安否"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あんぶ",
+        "written": "安否"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あんぷ",
+        "written": "安否"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "あんぴ",
+        "written": "安否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sentential negation",
+          "sentence negation",
+          "statement negation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんひてい",
+        "written": "文否定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "success or failure",
+          "outcome",
+          "result"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "せいひ",
+        "written": "成否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to refuse",
+          "to reject",
+          "to deny"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょひる",
+        "written": "拒否る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "total denial",
+          "complete denial",
+          "denying totally (flatly, outright)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんめんひてい",
+        "written": "全面否定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whether one likes it or not",
+          "whether willing or not",
+          "willy-nilly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやがおうにも",
+        "written": "いやが応にも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやがおうにも",
+        "written": "否が応にも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやがおうにも",
+        "written": "嫌が応にも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whether one likes it or not",
+          "whether willing or not",
+          "willy-nilly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやでもおうでも",
+        "written": "いやでも応でも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやでもおうでも",
+        "written": "否でも応でも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやでもおうでも",
+        "written": "嫌でも応でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whether one likes it or not",
+          "whether willing or not",
+          "willy-nilly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやがおうでも",
+        "written": "いやが応でも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやがおうでも",
+        "written": "否が応でも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやがおうでも",
+        "written": "嫌がおうでも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやがおうでも",
+        "written": "嫌が応でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yes or no answer",
+          "agreement or disagreement",
+          "consent or refusal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "いやおう",
+        "written": "否応"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "arguments for and against",
+          "pros and cons",
+          "mixed reception",
+          "mixed reviews"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんぴりょうろん",
+        "written": "賛否両論"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "denial",
+          "negation",
+          "repudiation",
+          "disapproval"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "ひにん",
+        "written": "否認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "refusal",
+          "rejection",
+          "denial",
+          "veto"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "きょひ",
+        "written": "拒否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whether one likes it or not",
+          "inevitably",
+          "unavoidably",
+          "compulsorily",
+          "by force"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやおうなしに",
+        "written": "いや応なしに"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやおうなしに",
+        "written": "否応なしに"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやおうなしに",
+        "written": "否応無しに"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "consent or refusal",
+          "yes or no",
+          "decision to accept or decline",
+          "up or down (vote)",
+          "assent or dissent",
+          "accept or reject"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35",
+          "spec2"
+        ],
+        "pronounced": "だくひ",
+        "written": "諾否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "objection"
+        ]
+      },
+      {
+        "glosses": [
+          "as soon as",
+          "no sooner than",
+          "one way or another"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いなや",
+        "written": "否や"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to deny"
+        ]
+      },
+      {
+        "glosses": [
+          "to refuse",
+          "to decline"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いなむ",
+        "written": "否む"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いなむ",
+        "written": "辞む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whether or not"
+        ]
+      },
+      {
+        "glosses": [
+          "the minute (that) ...",
+          "no sooner than ...",
+          "as soon as"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やいなや",
+        "written": "や否や"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(more than) enough",
+          "too much"
+        ]
+      },
+      {
+        "glosses": [
+          "bitterly",
+          "extremely",
+          "keenly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやというほど",
+        "written": "否というほど"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやというほど",
+        "written": "否という程"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやというほど",
+        "written": "嫌というほど"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いやというほど",
+        "written": "嫌という程"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certainly",
+          "without fail"
+        ]
+      },
+      {
+        "glosses": [
+          "right and wrong",
+          "pros and cons"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "ぜひ",
+        "written": "是否"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "ぜひ",
+        "written": "是非"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no",
+          "nay"
+        ]
+      },
+      {
+        "glosses": [
+          "disagreement",
+          "objection",
+          "disapproval"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "いな",
+        "written": "否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pro and con",
+          "ayes and noes"
+        ]
+      },
+      {
+        "glosses": [
+          "propriety",
+          "right and wrong",
+          "advisability",
+          "possibility"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "かひ",
+        "written": "可否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "NOT operation"
+        ]
+      },
+      {
+        "glosses": [
+          "negation"
+        ]
+      },
+      {
+        "glosses": [
+          "denial",
+          "negation",
+          "repudiation",
+          "disavowal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "ひてい",
+        "written": "否定"
+      }
+    ]
+  }
+]

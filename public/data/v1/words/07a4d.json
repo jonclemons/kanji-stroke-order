@@ -1,0 +1,5562 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "100-point sticks deposited on the table after dealer win"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみぼう",
+        "written": "積み棒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "AND operation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろんりせきえんざん",
+        "written": "論理積演算"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kronecker product"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "クロネッカーせき",
+        "written": "クロネッカー積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Miller integrator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ミラーせきぶんき",
+        "written": "ミラー積分器"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Negative AND operation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていろんりせきえんざん",
+        "written": "否定論理積演算"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Riemann integral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "リーマンせきぶん",
+        "written": "リーマン積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Riemann sum"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くぶんきゅうせきほう",
+        "written": "区分求積法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Sekisui Chemical Co. Ltd."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきすいかがく",
+        "written": "積水化学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Sekisui Jushi Corporation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきすいじゅし",
+        "written": "積水樹脂"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Tsumitate NISA (tax-advantaged investment account)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみたてニーサ",
+        "written": "つみたてＮＩＳＡ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみたてニーサ",
+        "written": "積立ＮＩＳＡ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accumulated deficit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいせきあかじ",
+        "written": "累積赤字"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accumulated loss"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいせきそんしつ",
+        "written": "累積損失"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accumulated stock investment plan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かぶしきるいせきとうしせいど",
+        "written": "株式累積投資制度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accumulation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "るいせき",
+        "written": "累積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accumulation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "しゅうせき",
+        "written": "集積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accumulation of good deeds"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきぜん",
+        "written": "積善"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "action integral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さようせきぶん",
+        "written": "作用積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "activism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっきょくこうどうしゅぎ",
+        "written": "積極行動主義"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "activist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっきょくこうどうしゅぎしゃ",
+        "written": "積極行動主義者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aeolian soil"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふうせきど",
+        "written": "風積土"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alluvial"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうせき",
+        "written": "沖積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alluvial epoch (i.e. the Holocene epoch)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうせきせい",
+        "written": "沖積世"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alluvial period"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうせきき",
+        "written": "沖積期"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alluvial plain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうせきへいや",
+        "written": "沖積平野"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alluvial series"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうせきとう",
+        "written": "沖積統"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alluvial soil"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうせきど",
+        "written": "沖積土"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "altocumulus clouds"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせきうん",
+        "written": "高積雲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "area graph"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めんせきグラフ",
+        "written": "面積グラフ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "areal velocity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めんせきそくど",
+        "written": "面積速度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "award miles"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきさんマイル",
+        "written": "積算マイル"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bioaccumulation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいぶつちくせき",
+        "written": "生物蓄積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "body of water"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきすい",
+        "written": "積水"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "building area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんちくめんせき",
+        "written": "建築面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bulk"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばらづみ",
+        "written": "ばら積"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばらづみ",
+        "written": "ばら積み"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばらづみ",
+        "written": "散積"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばらづみ",
+        "written": "散積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bulk cargo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばらづみかもつ",
+        "written": "ばら積み貨物"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばらづみかもつ",
+        "written": "ばら積貨物"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばらづみかもつ",
+        "written": "散積貨物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "calculating in one's head"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むなづもり",
+        "written": "胸積もり"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "calculus"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びぶんせきぶんがく",
+        "written": "微分積分学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "capital accumulation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しほんちくせき",
+        "written": "資本蓄積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cargo insurance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみにほけん",
+        "written": "積荷保険"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conjunction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろんりせきけつごう",
+        "written": "論理積結合"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "constant of integration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきぶんていすう",
+        "written": "積分定数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "contact area (of an electrical connection)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっしょくめんせき",
+        "written": "接触面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cross product"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "クロスせき",
+        "written": "クロス積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cross-sectional area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だんめんせき",
+        "written": "断面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cumulative"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいせきてき",
+        "written": "累積的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cumulative distribution function"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいせきぶんぷかんすう",
+        "written": "累積分布関数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cumulative indexing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいせきさくいんつけ",
+        "written": "累積索引付け"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cumulative percentage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいせきりつ",
+        "written": "累積率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cumulative remainder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいせきさりつ",
+        "written": "累積差率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cumulative sum"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいせきわ",
+        "written": "累積和"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cumulative voting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいせきとうひょう",
+        "written": "累積投票"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cumulonimbus cloud"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf43"
+        ],
+        "pronounced": "せきらんうん",
+        "written": "積乱雲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cumulus clouds"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきうん",
+        "written": "積雲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cycle of sedimentation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいせきりんね",
+        "written": "堆積輪廻"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "deep-rooted evil"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきへい",
+        "written": "積弊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "definite integral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていせきぶん",
+        "written": "定積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "degree of integration (e.g. components per chip)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうせきど",
+        "written": "集積度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "differential cross-section"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びぶんだんめんせき",
+        "written": "微分断面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "diluvial epoch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせき",
+        "written": "洪積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "diluvial epoch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせきせい",
+        "written": "洪積世"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "direct product"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょくせきしゅうごう",
+        "written": "直積集合"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dot product"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ドットせき",
+        "written": "ドット積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "energy density (Wh/l)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいせきエネルギーみつど",
+        "written": "体積エネルギー密度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excluded volume effect"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はいじょたいせきこうか",
+        "written": "排除体積効果"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "expansionary fiscal policy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっきょくざいせい",
+        "written": "積極財政"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "floor space"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆかめんせき",
+        "written": "床面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "free on board price"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみこみねだん",
+        "written": "積み込み値段"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "goods loaded in the afternoon for delivery the following morning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よいづみ",
+        "written": "宵積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "immediate shipment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じきつみだし",
+        "written": "直積み出し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "improper integral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうぎせきぶん",
+        "written": "広義積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "impulse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りきせき",
+        "written": "力積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indefinite integral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふていせきぶん",
+        "written": "不定積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "iniquities of fathers are visited upon their sons"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきふぜんのいえにはかならずよおうあり",
+        "written": "積不善の家には必ず余殃あり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せきふぜんのいえにはかならずよおうあり",
+        "written": "積不善の家には必ず余殃有り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inn"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むろつみ",
+        "written": "室積"
+      },
+      {
+        "priorities": [],
+        "pronounced": "むろつみ",
+        "written": "室積み"
+      },
+      {
+        "priorities": [],
+        "pronounced": "むろつみ",
+        "written": "館"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inner product"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないせき",
+        "written": "内積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "installment saving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみたてちょきん",
+        "written": "積立貯金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integral calculus"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきぶんがく",
+        "written": "積分学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integral equation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきぶんほうていしき",
+        "written": "積分方程式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integrated circuit memory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうせきかいろメモリー",
+        "written": "集積回路メモリー"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integrated-circuit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうせきかいろ",
+        "written": "集積回路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきさんほう",
+        "written": "積算法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきぶんほう",
+        "written": "積分法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integration by parts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶぶんせきぶんほう",
+        "written": "部分積分法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integration, e.g. of electronic components into integrated circuits"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうせきか",
+        "written": "集積化"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integrator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきぶんき",
+        "written": "積分器"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intersection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきしゅうごう",
+        "written": "積集合"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "land area (of a country, continent, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りくちめんせき",
+        "written": "陸地面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lateral moraine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そくほうたいせき",
+        "written": "側方堆積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "layered dry cell (battery)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきそうかんでんち",
+        "written": "積層乾電池"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "loading"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にづみ",
+        "written": "荷積"
+      },
+      {
+        "priorities": [],
+        "pronounced": "にづみ",
+        "written": "荷積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "loading and unloading"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみおろし",
+        "written": "積みおろし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみおろし",
+        "written": "積み下ろし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみおろし",
+        "written": "積み卸し"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみおろし",
+        "written": "積み降ろし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみおろし",
+        "written": "積下ろし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみおろし",
+        "written": "積卸"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみおろし",
+        "written": "積卸し"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみおろし",
+        "written": "積降ろし"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "loading in the middle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なかづみ",
+        "written": "中積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "manifest (of cargo)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみにもくろく",
+        "written": "積み荷目録"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみにもくろく",
+        "written": "積荷目録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "marine sediment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいていたいせきぶつ",
+        "written": "海底堆積物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "molar volume"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "モルたいせき",
+        "written": "モル体積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "moment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきりつ",
+        "written": "積率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "moment-generating function"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきりつぼかんすう",
+        "written": "積率母関数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mountain (pile) of difficult problems"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんもんさんせき",
+        "written": "難問山積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "multiple integral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうせきぶん",
+        "written": "重積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "multiple integral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たじゅうせきぶん",
+        "written": "多重積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-shared area (measurement) in an apartment or housing complex"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんゆうめんせき",
+        "written": "専有面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "path integral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいろせきぶん",
+        "written": "経路積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "person who estimates the variety and quantity of wood necessary to build a house from looking at the plans"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きづもり",
+        "written": "木積もり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きづもり",
+        "written": "木積り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "piling up"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうせき",
+        "written": "重積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "planimeter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めんせきけい",
+        "written": "面積計"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "planted area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf23"
+        ],
+        "pronounced": "さくづけめんせき",
+        "written": "作付面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "positive liberty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっきょくてきじゆう",
+        "written": "積極的自由"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "proactive pacifism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっきょくてきへいわしゅぎ",
+        "written": "積極的平和主義"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "product"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうせき",
+        "written": "乗積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "product"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうじょうせき",
+        "written": "相乗積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "product-moment correlation coefficient"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきりつそうかんけいすう",
+        "written": "積率相関係数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "projected area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうえいめんせき",
+        "written": "投影面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pyrocumulonimbus (cloud)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かさいせきらんうん",
+        "written": "火災積乱雲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quadrature"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうせきほう",
+        "written": "求積法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reserve fund"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみたてしきん",
+        "written": "積み立て資金"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみたてしきん",
+        "written": "積立資金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "retirement plan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こじんたいしょくきんつみたてけいかく",
+        "written": "個人退職金積立計画"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "scalar product"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "スカラーせき",
+        "written": "スカラー積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sedimentary layer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいせきそう",
+        "written": "堆積層"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sedimentary rock"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいせきがん",
+        "written": "堆積岩"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sedimentary rock"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんせきがん",
+        "written": "沈積岩"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sedimentation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいせきさよう",
+        "written": "堆積作用"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sedimentology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいせきがく",
+        "written": "堆積学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shipment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみおくり",
+        "written": "積み送り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shipment by steamer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせんずみ",
+        "written": "汽船積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shipper"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみだしにん",
+        "written": "積み出し人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "specific volume"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひたいせき",
+        "written": "比体積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stacking flat and face up (magazines, books, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひらづみ",
+        "written": "平積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stochastic integral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつせきぶん",
+        "written": "確率積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "storage tube"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちくせきかん",
+        "written": "蓄積管"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stratocumulus"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうせきうん",
+        "written": "層積雲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "summing integrator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かさんせきぶんき",
+        "written": "加算積分器"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "surface area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "ひょうめんせき",
+        "written": "表面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "surface integral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めんせきぶん",
+        "written": "面積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "time ordered product"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じかんじゅんじょせき",
+        "written": "時間順序積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to build one's career"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "キャリアをつむ",
+        "written": "キャリアを積む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to estimate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "みつもる",
+        "written": "見積もる"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "みつもる",
+        "written": "見積る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to increase (an amount of money or goods)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみます",
+        "written": "積み増す"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみます",
+        "written": "積増す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to leave behind (cargo, passengers, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみのこす",
+        "written": "積み残す"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみのこす",
+        "written": "積残す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to overload"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみすぎる",
+        "written": "積みすぎる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみすぎる",
+        "written": "積み過ぎる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to reload"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみなおす",
+        "written": "積みなおす"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみなおす",
+        "written": "積み直す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to send off"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "つみだす",
+        "written": "積み出す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to shock (grain)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たばねつむ",
+        "written": "束ね積む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to transship"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみかえる",
+        "written": "積み換える"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみかえる",
+        "written": "積み替える"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみかえる",
+        "written": "積換える"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみかえる",
+        "written": "積替える"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to unload"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみおろす",
+        "written": "積みおろす"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみおろす",
+        "written": "積み下ろす"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "total floor area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たてものめんせき",
+        "written": "建物面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "total floor area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のべめんせき",
+        "written": "延べ面積"
+      },
+      {
+        "priorities": [],
+        "pronounced": "のべめんせき",
+        "written": "延面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "total floor area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のべゆかめんせき",
+        "written": "延べ床面積"
+      },
+      {
+        "priorities": [],
+        "pronounced": "のべゆかめんせき",
+        "written": "延床面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unit weight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんいたいせきじゅうりょう",
+        "written": "単位体積重量"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "village garbage collection point"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゴミしゅうせきじょう",
+        "written": "ゴミ集積場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "volume integral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいせきぶん",
+        "written": "体積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "volume ratio"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようせきひ",
+        "written": "容積比"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "volume resistivity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいせきていこう",
+        "written": "体積抵抗"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "watt-hour meter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきさんでんりょくけい",
+        "written": "積算電力計"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wing area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よくめんせき",
+        "written": "翼面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "written estimate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つもりがき",
+        "written": "積もり書き"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つもりがき",
+        "written": "積り書"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つもりがき",
+        "written": "積り書き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "AND gate",
+          "AND element"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろんりせきそし",
+        "written": "論理積素子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Application-Specific Integrated Circuit",
+          "ASIC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくていようとむけしゅうせきかいろ",
+        "written": "特定用途向け集積回路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Taiwan Semiconductor Manufacturing Company",
+          "TSMC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいわんせきたいでんろせいぞう",
+        "written": "台湾積体電路製造"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a virtuous family enjoys long prosperity",
+          "one's good deeds shall be repaid even to one's descendants"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきぜんのいえにはかならずよけいあり",
+        "written": "積善の家には必ず余慶あり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せきぜんのいえにはかならずよけいあり",
+        "written": "積善の家には必ず余慶有り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accumulation",
+          "piling up"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいせき",
+        "written": "滞積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accumulation point",
+          "limit point"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうせきてん",
+        "written": "集積点"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alluvium",
+          "alluvial stratum"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうせきそう",
+        "written": "沖積層"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "amount of snowfall",
+          "snow accumulation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきせつりょう",
+        "written": "積雪量"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "area of a piece of land",
+          "acreage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちせき",
+        "written": "地積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "area under the curve",
+          "AUC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょくせんかめんせき",
+        "written": "曲線下面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bulk carrier",
+          "bulker"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばらづみかもつせん",
+        "written": "ばら積み貨物船"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばらづみかもつせん",
+        "written": "ばら積貨物船"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばらづみかもつせん",
+        "written": "撒積貨物船"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "capacity",
+          "volume"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "ようせき",
+        "written": "容積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "capacity",
+          "volume"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "たいせき",
+        "written": "体積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "carrying",
+          "loading"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいせき",
+        "written": "載積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cirrocumulus",
+          "cirrocumulus cloud"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんせきうん",
+        "written": "巻積雲"
+      },
+      {
+        "priorities": [],
+        "pronounced": "けんせきうん",
+        "written": "絹積雲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "competitive bids",
+          "competitive bidding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あいみつ",
+        "written": "合いみつ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あいみつ",
+        "written": "合い見積"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あいみつ",
+        "written": "相みつ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あいみつ",
+        "written": "相見積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "compost",
+          "manure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみごえ",
+        "written": "積み肥"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cumulative debt",
+          "debt accumulation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るいせきさいむ",
+        "written": "累積債務"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "diluvium",
+          "diluvial formation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせきそう",
+        "written": "洪積層"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "direct product",
+          "Cartesian product"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょくせき",
+        "written": "直積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "displacement volume",
+          "displacement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おしのけようせき",
+        "written": "押しのけ容積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "estimation",
+          "valuation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねづもり",
+        "written": "値積もり"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fallen snow",
+          "snow cover"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "せきせつ",
+        "written": "積雪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "finding area or volume",
+          "mensuration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうせき",
+        "written": "求積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "garbage collection site",
+          "trash disposal area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごみしゅうせきじょ",
+        "written": "ごみ集積所"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゴミしゅうせきじょ",
+        "written": "ゴミ集積所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "increase (in an amount of money or goods)",
+          "augmentation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみまし",
+        "written": "積み増し"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみまし",
+        "written": "積増し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "infinitesimal calculus",
+          "(differential and integral) calculus"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びせきぶん",
+        "written": "微積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "infinitesimal calculus",
+          "(differential and integral) calculus"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びせきぶんがく",
+        "written": "微積分学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integrated circuit memory",
+          "IC memory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうせきかいろきおくそうち",
+        "written": "集積回路記憶装置"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integrated circuit memory",
+          "IC memory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうせきかいろメモリ",
+        "written": "集積回路メモリ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integration by parts",
+          "partial integration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶぶんせきぶん",
+        "written": "部分積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "internal volume",
+          "capacity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないようせき",
+        "written": "内容積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lading",
+          "shipment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26"
+        ],
+        "pronounced": "ふなづみ",
+        "written": "船積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "laminating",
+          "lamination layer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきそう",
+        "written": "積層"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "large-scale integration",
+          "LSI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいきぼしゅうせきかいろ",
+        "written": "大規模集積回路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "loading",
+          "carrying"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "せきさい",
+        "written": "積載"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "many sins",
+          "long-standing evils"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきあく",
+        "written": "積悪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "masonry",
+          "stonework"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いしづみ",
+        "written": "石積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "maximum carrying capacity",
+          "maximum payload"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいだいせきさいりょう",
+        "written": "最大積載量"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "overloading (a truck, etc.)",
+          "excessive loading"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かせきさい",
+        "written": "過積載"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pile",
+          "accumulation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "つみかさね",
+        "written": "つみ重ね"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "つみかさね",
+        "written": "積みかさね"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "つみかさね",
+        "written": "積み重"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "つみかさね",
+        "written": "積み重ね"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "つみかさね",
+        "written": "積重ね"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "plan",
+          "intention"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はらづもり",
+        "written": "腹づもり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はらづもり",
+        "written": "腹積もり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はらづもり",
+        "written": "腹積り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "positive plan",
+          "constructive policy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっきょくさく",
+        "written": "積極策"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "positivism",
+          "progressive argument"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっきょくろん",
+        "written": "積極論"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quotation",
+          "quote"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "おみつもり",
+        "written": "お見積"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "おみつもり",
+        "written": "お見積もり"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "おみつもり",
+        "written": "お見積り"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "おみつもり",
+        "written": "御見積"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "おみつもり",
+        "written": "御見積もり"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "おみつもり",
+        "written": "御見積り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quote",
+          "estimated price"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みつもりかかく",
+        "written": "見積り価格"
+      },
+      {
+        "priorities": [],
+        "pronounced": "みつもりかかく",
+        "written": "見積価格"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reserve (fund)",
+          "deposit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "つみたてきん",
+        "written": "積立金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sediment",
+          "deposit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいせきぶつ",
+        "written": "堆積物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sedimentation",
+          "deposition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんせき",
+        "written": "沈積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shipment",
+          "forwarding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "つみだし",
+        "written": "積み出し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special reserve (fund)",
+          "contingent reserve"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べっとつみたてきん",
+        "written": "別途積立金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stone wall construction technique, with smallest stone surfaces facing outwards",
+          "burdock piling"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごぼうづみ",
+        "written": "牛蒡積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stowage at the bottom",
+          "goods stowed at the bottom"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そこづみ",
+        "written": "底積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to accumulate",
+          "to save"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "つみたてる",
+        "written": "積み立てる"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "つみたてる",
+        "written": "積立てる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to accumulate merit",
+          "to make merit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くどくをつむ",
+        "written": "功徳を積む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to fall and pile up (e.g. snow)",
+          "to lie thick"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "ふりつもる",
+        "written": "降り積もる"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "ふりつもる",
+        "written": "降積もる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to gain experience",
+          "to accumulate experiences"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいけんをつむ",
+        "written": "経験を積む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pile up",
+          "to accumulate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33",
+          "spec2"
+        ],
+        "pronounced": "つみかさねる",
+        "written": "つみ重ねる"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf33",
+          "spec2"
+        ],
+        "pronounced": "つみかさねる",
+        "written": "積み重ねる"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf33",
+          "spec2"
+        ],
+        "pronounced": "つみかさねる",
+        "written": "積重ねる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "total area",
+          "gross area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうめんせき",
+        "written": "総面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "total size (of land)",
+          "square measure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんめんせき",
+        "written": "全面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "transshipment",
+          "reshipment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみかえ",
+        "written": "積み換え"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみかえ",
+        "written": "積み替え"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみかえ",
+        "written": "積換え"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみかえ",
+        "written": "積替え"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ultra large-scale integration",
+          "ULSI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうちょうだいきぼしゅうせきかいろ",
+        "written": "超々大規模集積回路"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちょうちょうだいきぼしゅうせきかいろ",
+        "written": "超超大規模集積回路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "very large-scale integration",
+          "VLSI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうだいきぼしゅうせきかいろ",
+        "written": "超大規模集積回路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(cargo) depot",
+          "(garbage) collection site",
+          "(ammunition) dump"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうせきじょ",
+        "written": "集積所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(obtaining) quotes from several companies",
+          "(fielding) competitive bids",
+          "competitive bidding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あいみつもり",
+        "written": "合い見積もり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あいみつもり",
+        "written": "合い見積り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あいみつもり",
+        "written": "合見積"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あいみつもり",
+        "written": "合見積り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あいみつもり",
+        "written": "相見積もり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あいみつもり",
+        "written": "相見積り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accumulation",
+          "accumulate",
+          "store"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "ちくせき",
+        "written": "蓄積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accumulation (of discontent, frustration, etc.)",
+          "buildup",
+          "suppression (e.g. of anger)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うっせき",
+        "written": "うっ積"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うっせき",
+        "written": "鬱積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "active",
+          "positive",
+          "progressive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃっきょく",
+        "written": "積極"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "せっきょく",
+        "written": "積極"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aggressive",
+          "active and bold (daring)",
+          "resolute determination"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっきょくかかん",
+        "written": "積極果敢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cross product",
+          "vector product",
+          "outer product"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいせき",
+        "written": "外積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cross product",
+          "vector product",
+          "outer product"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ベクトルせき",
+        "written": "ベクトル積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "deepest snow",
+          "maximum snowfall",
+          "maximum depth of snow cover"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいしんせきせつ",
+        "written": "最深積雪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "deposit",
+          "sediment",
+          "sedimentation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんせきぶつ",
+        "written": "沈積物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flammagenitus",
+          "pyrocumulus cloud",
+          "fire cloud"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かさいせきうん",
+        "written": "火災積雲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gradualist approach",
+          "build-up approach",
+          "buildup approach"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみあげほうしき",
+        "written": "積み上げ方式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "huge mound",
+          "heap",
+          "pile"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "やまづみ",
+        "written": "山積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intussusception",
+          "indigitation",
+          "invagination"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうじゅうせき",
+        "written": "腸重積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intussusception",
+          "indigitation",
+          "invagination"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうじゅうせきしょう",
+        "written": "腸重積症"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "land area",
+          "lot area",
+          "site area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とちめんせき",
+        "written": "土地面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "last drink (of sake)",
+          "last glass",
+          "last cup"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おつもり",
+        "written": "お積もり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おつもり",
+        "written": "お積り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おつもり",
+        "written": "御積もり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おつもり",
+        "written": "御積り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "load",
+          "freight",
+          "cargo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "つみに",
+        "written": "積み荷"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "つみに",
+        "written": "積荷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "load capacity",
+          "loading capacity",
+          "carrying capacity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきさいのうりょく",
+        "written": "積載能力"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "maintenance fee (in an apartment building)",
+          "maintenance charge",
+          "reserve fund for building repairs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうぜんつみたてきん",
+        "written": "修繕積立金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "many a little makes a mickle",
+          "every little helps",
+          "even dust becomes a mountain if piled together"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちりもつもればやまとなる",
+        "written": "ちりも積もれば山となる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちりもつもればやまとなる",
+        "written": "塵も積もれば山となる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちりもつもればやまとなる",
+        "written": "塵も積もれば山と成る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "masonry",
+          "masonry structure",
+          "construction method using brick, stone, concrete blocks, etc."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そせきぞう",
+        "written": "組積造"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-conjunction",
+          "NAND operation",
+          "NOT-BOTH operation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていせき",
+        "written": "否定積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-conjunction",
+          "NAND operation",
+          "NOT-BOTH operation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひていろんりせき",
+        "written": "否定論理積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "open-air storage",
+          "piling up out in the open",
+          "leaving in a pile outside"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のづみ",
+        "written": "野積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "piling up",
+          "making a heap",
+          "laying bricks"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "つみあげ",
+        "written": "積み上げ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "random masonry",
+          "uneven stonework",
+          "disordered piling"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "らんづみ",
+        "written": "乱積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reserve fund",
+          "savings",
+          "deposit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみきん",
+        "written": "積み金"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみきん",
+        "written": "積金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to load (with goods, cargo)",
+          "to put on board",
+          "to stow aboard"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "つみこむ",
+        "written": "積み込む"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "つみこむ",
+        "written": "積込む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pile up",
+          "to stack up",
+          "to accumulate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "つみかさなる",
+        "written": "積み重なる"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "つみかさなる",
+        "written": "積重なる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pile up and up",
+          "to pile up more and more",
+          "to mount (e.g. debts, concerns)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つもりつもる",
+        "written": "積もり積もる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "written estimate",
+          "quotation",
+          "quote"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みつもりしょ",
+        "written": "見積もり書"
+      },
+      {
+        "priorities": [],
+        "pronounced": "みつもりしょ",
+        "written": "見積り書"
+      },
+      {
+        "priorities": [],
+        "pronounced": "みつもりしょ",
+        "written": "見積書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(maximum) load",
+          "load capacity",
+          "loading capacity",
+          "carrying capacity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきさいりょう",
+        "written": "積載量"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anticipation",
+          "expectation",
+          "plan",
+          "preparation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こころづもり",
+        "written": "心づもり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こころづもり",
+        "written": "心積もり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こころづもり",
+        "written": "心積り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "area (measurement)",
+          "square measure",
+          "size (of land)",
+          "floor space"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "めんせき",
+        "written": "面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "assertiveness",
+          "positiveness",
+          "initiative",
+          "spirit of enterprise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっきょくせい",
+        "written": "積極性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bulk modulus",
+          "volume elasticity",
+          "volume modulus",
+          "measure of a substance's resistance to uniform compression"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいせきだんせいりつ",
+        "written": "体積弾性率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "estimate",
+          "estimation",
+          "valuation",
+          "quotation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "みつもり",
+        "written": "見積"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "みつもり",
+        "written": "見積もり"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "みつもり",
+        "written": "見積り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "line integral",
+          "path integral",
+          "contour integral",
+          "curve integral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんせきぶん",
+        "written": "線積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "logical product",
+          "AND operation",
+          "conjunction",
+          "intersection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろんりせき",
+        "written": "論理積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lot area",
+          "site area",
+          "plottage",
+          "lot size"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しきちめんせき",
+        "written": "敷地面積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "piling up",
+          "accumulating",
+          "forming a (huge) pile",
+          "lying in piles"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "さんせき",
+        "written": "山積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "positive",
+          "assertive",
+          "active",
+          "proactive",
+          "aggressive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "せっきょくてき",
+        "written": "積極的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "saving",
+          "savings",
+          "accumulation",
+          "putting aside",
+          "reserving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf27",
+          "spec1"
+        ],
+        "pronounced": "つみたて",
+        "written": "積み立て"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf27",
+          "spec1"
+        ],
+        "pronounced": "つみたて",
+        "written": "積立"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf27",
+          "spec1"
+        ],
+        "pronounced": "つみたて",
+        "written": "積立て"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "floor space index",
+          "FSI",
+          "floor area ratio",
+          "FAR",
+          "ratio of building size to lot",
+          "plot ratio"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようせきりつ",
+        "written": "容積率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to practice",
+          "to practise",
+          "to train",
+          "to drill",
+          "to become practiced",
+          "to become practised"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れんしゅうをつむ",
+        "written": "練習を積む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(many) years"
+        ]
+      },
+      {
+        "glosses": [
+          "long-standing (esp. hatred, grudge)",
+          "ancient"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "せきねん",
+        "written": "積年"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kansai New Year decoration (made from food)"
+        ]
+      },
+      {
+        "glosses": [
+          "New Year food for entertaining a guest served in multilayered lacquered boxes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くいつみ",
+        "written": "食い摘み"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くいつみ",
+        "written": "食い積み"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くいつみ",
+        "written": "食摘み"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くいつみ",
+        "written": "食積"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くいつみ",
+        "written": "食積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "books bought but not read"
+        ]
+      },
+      {
+        "glosses": [
+          "buying books and not reading them",
+          "stockpiling books",
+          "tsundoku"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "つんどく",
+        "written": "つん読"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "つんどく",
+        "written": "積ん読"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "つんどく",
+        "written": "積読"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integral"
+        ]
+      },
+      {
+        "glosses": [
+          "integration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきぶん",
+        "written": "積分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "loading"
+        ]
+      },
+      {
+        "glosses": [
+          "stacking the wall of tiles to one's advantage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf34"
+        ],
+        "pronounced": "つみこみ",
+        "written": "積み込み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "overload"
+        ]
+      },
+      {
+        "glosses": [
+          "rounding up error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみすぎ",
+        "written": "積みすぎ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみすぎ",
+        "written": "積み過ぎ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "piling worker"
+        ]
+      },
+      {
+        "glosses": [
+          "way of piling (things)",
+          "stacking pattern",
+          "stowage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみかた",
+        "written": "積み方"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "product"
+        ]
+      },
+      {
+        "glosses": [
+          "volume",
+          "area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "せき",
+        "written": "積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sedimentation"
+        ]
+      },
+      {
+        "glosses": [
+          "accumulation",
+          "pile",
+          "heap"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf34"
+        ],
+        "pronounced": "たいせき",
+        "written": "堆積"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to estimate"
+        ]
+      },
+      {
+        "glosses": [
+          "to pile up",
+          "to accumulate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "つもる",
+        "written": "積もる"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "つもる",
+        "written": "積る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "left-off cargo",
+          "passengers left behind"
+        ]
+      },
+      {
+        "glosses": [
+          "rounding error",
+          "truncation error",
+          "remainder after truncation to an integer value"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "つみのこし",
+        "written": "積み残し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "piled timber",
+          "piling up wood"
+        ]
+      },
+      {
+        "glosses": [
+          "wooden building blocks",
+          "wooden bricks",
+          "playing with building blocks"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "つみき",
+        "written": "積み木"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "つみき",
+        "written": "積木"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "putting beneath other goods",
+          "being at the bottom of the pile"
+        ]
+      },
+      {
+        "glosses": [
+          "lowly position",
+          "bottom (of the ladder)",
+          "obscurity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "したづみ",
+        "written": "下づみ"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "したづみ",
+        "written": "下積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to acquire (e.g. experience)",
+          "to build (a reputation)"
+        ]
+      },
+      {
+        "glosses": [
+          "to pile up",
+          "to make a heap",
+          "to lay (e.g. bricks)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "つみあげる",
+        "written": "積み上げる"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "つみあげる",
+        "written": "積上げる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adding (to)",
+          "increase (in quantity)",
+          "additional amount"
+        ]
+      },
+      {
+        "glosses": [
+          "loading on top",
+          "piling on top",
+          "upper load",
+          "goods loaded on top",
+          "deck cargo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "うわづみ",
+        "written": "上積み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "integration"
+        ]
+      },
+      {
+        "glosses": [
+          "addition",
+          "adding up"
+        ]
+      },
+      {
+        "glosses": [
+          "estimate",
+          "quantity survey"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf23"
+        ],
+        "pronounced": "せきさん",
+        "written": "積算"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to acquire",
+          "to accumulate"
+        ]
+      },
+      {
+        "glosses": [
+          "to load (car, ship, etc.)",
+          "to pack"
+        ]
+      },
+      {
+        "glosses": [
+          "to pile up",
+          "to stack"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "つむ",
+        "written": "積む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "estimate",
+          "estimation",
+          "calculation"
+        ]
+      },
+      {
+        "glosses": [
+          "belief",
+          "assumption",
+          "thought",
+          "conviction"
+        ]
+      },
+      {
+        "glosses": [
+          "intention",
+          "plan",
+          "purpose",
+          "expectation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "つもり",
+        "written": "積もり"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "つもり",
+        "written": "積り"
+      }
+    ]
+  }
+]

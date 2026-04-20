@@ -1,0 +1,962 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "beckoning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf43",
+          "spec2"
+        ],
+        "pronounced": "てまねき",
+        "written": "手まねき"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf43",
+          "spec2"
+        ],
+        "pronounced": "てまねき",
+        "written": "手招き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bid committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうちいいんかい",
+        "written": "招致委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "day or date of an invitation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうたいび",
+        "written": "招待日"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fiddler crab (esp. species Uca arcuata)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しおまねき",
+        "written": "望潮"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しおまねき",
+        "written": "潮招"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しおまねき",
+        "written": "潮招き"
+      },
+      {
+        "priorities": [],
+        "pronounced": "シオマネキ",
+        "written": "望潮"
+      },
+      {
+        "priorities": [],
+        "pronounced": "シオマネキ",
+        "written": "潮招"
+      },
+      {
+        "priorities": [],
+        "pronounced": "シオマネキ",
+        "written": "潮招き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guest speaker"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうたいえんぜつしゃ",
+        "written": "招待演説者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "invitation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "まねき",
+        "written": "招き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "invitation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうだい",
+        "written": "招待"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しょうだい",
+        "written": "請待"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "しょうたい",
+        "written": "招待"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "しょうたい",
+        "written": "請待"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "invitation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうじょう",
+        "written": "召請"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しょうじょう",
+        "written": "招請"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちょうしょう",
+        "written": "召請"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちょうしょう",
+        "written": "招請"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "しょうせい",
+        "written": "召請"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "しょうせい",
+        "written": "招請"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "invitation letter (e.g. document in support of a visa to enter Japan)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうへいりゆうしょ",
+        "written": "招へい理由書"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しょうへいりゆうしょ",
+        "written": "招聘理由書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "invited lecture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうたいこうえん",
+        "written": "招待講演"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "invitee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうたいきゃく",
+        "written": "招待客"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "invocation of the dead"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうこん",
+        "written": "招魂"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "memorial service (esp. for war dead)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうこんさい",
+        "written": "招魂祭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "part of a loom"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まねき",
+        "written": "招木"
+      },
+      {
+        "priorities": [],
+        "pronounced": "まねき",
+        "written": "機躡"
+      },
+      {
+        "priorities": [],
+        "pronounced": "まねき",
+        "written": "蹋木"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "requesting the testimony of an unsworn witness (who is not bound by perjury law)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんこうにんしょうち",
+        "written": "参考人招致"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seats reserved for guests"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうたいせき",
+        "written": "招待席"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shrine dedicated to the spirits of the war dead"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうこんしゃ",
+        "written": "招魂社"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "summons to appear before the Diet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こっかいしょうち",
+        "written": "国会招致"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to beckon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てまねく",
+        "written": "手招く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to beckon (to)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さしまねく",
+        "written": "さし招く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さしまねく",
+        "written": "差し招く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さしまねく",
+        "written": "差招く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さしまねく",
+        "written": "麾く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to receive an invitation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうたいにあずかる",
+        "written": "招待にあずかる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しょうたいにあずかる",
+        "written": "招待に与る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "uninvited guest"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まねかれざるきゃく",
+        "written": "招かれざる客"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unsolicited promotion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふしょうせいかんゆう",
+        "written": "不招請勧誘"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(courteous) invitation",
+          "call"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "しょうへい",
+        "written": "招へい"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "しょうへい",
+        "written": "招聘"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(written) invitation",
+          "letter of invitation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうたいじょう",
+        "written": "招待状"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "beckoning cat",
+          "figure of a cat with one paw raised (usu. white porcelain)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まねきねこ",
+        "written": "招き猫"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "good luck charm",
+          "something that encourages or invites good luck"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうふく",
+        "written": "招福"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "invited speaker",
+          "guest speaker at"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうたいこうえんしゃ",
+        "written": "招待講演者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inviting country",
+          "host nation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうせいこく",
+        "written": "招請国"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "marriage in which a man is adopted into the bride's family",
+          "matrilocal marriage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうせいこん",
+        "written": "招婿婚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to invite",
+          "to show (someone) in"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうじる",
+        "written": "招じる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しょうじる",
+        "written": "請じる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to invite",
+          "to show (someone) in"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうずる",
+        "written": "召ずる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しょうずる",
+        "written": "招ずる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しょうずる",
+        "written": "請ずる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to invite in",
+          "to show someone in"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まねきいれる",
+        "written": "招き入れる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to invite in",
+          "to usher in"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうじいれる",
+        "written": "招じ入れる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しょうじいれる",
+        "written": "請じ入れる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "banquet",
+          "invitation to a party",
+          "party"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうえん",
+        "written": "招宴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "complimentary ticket",
+          "invitation card",
+          "invitation ticket"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうたいけん",
+        "written": "招待券"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to bring calamity upon oneself",
+          "to invite disaster",
+          "to court disaster"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わざわいをまねく",
+        "written": "災いを招く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "call",
+          "summons",
+          "convening",
+          "convocation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "しょうしゅう",
+        "written": "招集"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "invitation",
+          "summons",
+          "bidding (e.g. to host the Olympics)",
+          "calling"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf08"
+        ],
+        "pronounced": "しょうち",
+        "written": "招致"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to gesture to come closer",
+          "to beckon",
+          "to call",
+          "to summon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まねきよせる",
+        "written": "招きよせる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "まねきよせる",
+        "written": "招き寄せる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "summons",
+          "citation",
+          "subpoena",
+          "arraigning",
+          "summoning",
+          "calling"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf45",
+          "spec2"
+        ],
+        "pronounced": "しょうかん",
+        "written": "召喚"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf45",
+          "spec2"
+        ],
+        "pronounced": "しょうかん",
+        "written": "招喚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "arrogance leads to downfall"
+        ]
+      },
+      {
+        "glosses": [
+          "every flow has its ebb"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まんはそんをまねく",
+        "written": "満は損を招く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "invitation",
+          "bringing over"
+        ]
+      },
+      {
+        "glosses": [
+          "bringing about",
+          "giving rise to",
+          "causing",
+          "incurring"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうらい",
+        "written": "招来"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to invite",
+          "to ask"
+        ]
+      },
+      {
+        "glosses": [
+          "to beckon",
+          "to wave someone in",
+          "to gesture to"
+        ]
+      },
+      {
+        "glosses": [
+          "to call in",
+          "to send for",
+          "to summon"
+        ]
+      },
+      {
+        "glosses": [
+          "to bring on oneself",
+          "to cause",
+          "to incur",
+          "to lead to",
+          "to result in"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "まねく",
+        "written": "招く"
+      }
+    ]
+  }
+]

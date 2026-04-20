@@ -1,0 +1,4385 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(one's) destination (of a journey by plane or boat)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とこうさき",
+        "written": "渡航先"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(treaty of) friendship, commerce and navigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうこうつうしょうこうかい",
+        "written": "友好通商航海"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Aerolineas Argentinas"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アルゼンチンこうくう",
+        "written": "アルゼンチン航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Air China"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうごくこくさいこうくう",
+        "written": "中国国際航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Air Developing and Proving Command"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうかいはつじっけんしゅうだん",
+        "written": "航空開発実験集団"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Air Great Wall"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうじょうこうくう",
+        "written": "長城航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Air Koryo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうらいこうくう",
+        "written": "高麗航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Air Mauritius"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "モーリシャスこうくう",
+        "written": "モーリシャス航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Air Niugini"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ニューギニアこうくう",
+        "written": "ニューギニア航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Air Officer Candidate School"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうじえいたいかんぶこうほせいがっこう",
+        "written": "航空自衛隊幹部候補生学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Air Staff College"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうじえいたいかんぶがっこう",
+        "written": "航空自衛隊幹部学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Air Staff Office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうばくりょうかんぶ",
+        "written": "航空幕僚監部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Air Support Command"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうしえんしゅうだん",
+        "written": "航空支援集団"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Air Training Command"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうきょういくしゅうだん",
+        "written": "航空教育集団"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Austrian Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "オーストリアこうくう",
+        "written": "オーストリア航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "British Airways"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf34"
+        ],
+        "pronounced": "えいこくこうくう",
+        "written": "英国航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "China Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうかこうくう",
+        "written": "中華航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "China Eastern Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうごくとうほうこうくう",
+        "written": "中国東方航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "China Southern Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうごくなんぽうこうくう",
+        "written": "中国南方航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Civil Aviation College - Obihiro Branch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうだいがくこうおびひろぶんこう",
+        "written": "航空大学校帯広分校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Civil Aviation College - Sendai Branch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうだいがくこうせんだいぶんこう",
+        "written": "航空大学校仙台分校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Czech Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "チェコこうくう",
+        "written": "チェコ航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Department of Civil Aviation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みんかんこうくうきょく",
+        "written": "民間航空局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "EVA Air"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうえいこうくう",
+        "written": "長栄航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "EVA Airways"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "エバーこうくう",
+        "written": "エバー航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "EgyptAir"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "エジプトこうくう",
+        "written": "エジプト航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Electronic Navigation Research Institute"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんしこうほうけんきゅうじょ",
+        "written": "電子航法研究所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ethiopian Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "エチオピアこうくう",
+        "written": "エチオピア航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "European Aeronautic Defense and Space Company EADS NV"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうしゅうこうくうぼうえいうちゅうかいしゃ",
+        "written": "欧州航空防衛宇宙会社"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Finnair"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "フィンランドこうくう",
+        "written": "フィンランド航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Hong Kong Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんこんこうくう",
+        "written": "香港航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Icelandair"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アイスランドこうくう",
+        "written": "アイスランド航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "International Academy of Astronautics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいうちゅうこうくうがっかい",
+        "written": "国際宇宙航空学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Asia Airways"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんアジアこうくうかぶしきがいしゃ",
+        "written": "日本アジア航空株式会社"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Aviation Electronics Industry, Limited"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんこうくうでんしこうぎょう",
+        "written": "日本航空電子工業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Domestic Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんこくないこうくうかぶしきがいしゃ",
+        "written": "日本国内航空株式会社"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Institute of Navigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんこうかいがっかい",
+        "written": "日本航海学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Aerospace Exploration Agency (JAXA) (formerly NASDA)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うちゅうこうくうけんきゅうかいはつきこう",
+        "written": "宇宙航空研究開発機構"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Society for Aeromedical Services"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんこうくういりょうがっかい",
+        "written": "日本航空医療学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "LOT Polish Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ポーランドこうくう",
+        "written": "ポーランド航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Malaysia Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "マレーシアこうくう",
+        "written": "マレーシア航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Navigation Acts (regulations of colonial trade in 17th century England)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかいほう",
+        "written": "航海法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nihon Kinkyori Airways"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんきんきょりこうくう",
+        "written": "日本近距離航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nippon Cargo Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんかもつこうくう",
+        "written": "日本貨物航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Northeast Passage (sea route along the north coast of Russia)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほくとうこうろ",
+        "written": "北東航路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Northwest Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ノースウエストこうくう",
+        "written": "ノースウエスト航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Northwest Passage (sea route along the north coast of Canada)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほくせいこうろ",
+        "written": "北西航路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Philippine Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "フィリピンこうくう",
+        "written": "フィリピン航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Qantas Airways"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "カンタスこうくう",
+        "written": "カンタス航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Regional Civil Aviation Bureau"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちほうこうくうきょく",
+        "written": "地方航空局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Royal Jordanian (airline)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ロイヤル・ヨルダンこうくう",
+        "written": "ロイヤル・ヨルダン航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Shanghai Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "シャンハイこうくう",
+        "written": "上海航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Singapore Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "シンガポールこうくう",
+        "written": "シンガポール航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Sino-Japanese Treaty of Commerce and Navigation (1896)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっしんつうしょうこうかいじょうやく",
+        "written": "日清通商航海条約"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Spring Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅんじゅうこうくう",
+        "written": "春秋航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "SriLankan Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "スリランカこうくう",
+        "written": "スリランカ航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Thai Airways International"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "タイこくさいこうくう",
+        "written": "タイ国際航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Turkish Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "トルコこうくう",
+        "written": "トルコ航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ユナイテッドこうくう",
+        "written": "ユナイテッド航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Vietnam Airlines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ベトナムこうくう",
+        "written": "ベトナム航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aerial photograph"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうしゃしん",
+        "written": "航空写真"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aeronautical beacon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうとうだい",
+        "written": "航空灯台"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こうくうとうだい",
+        "written": "航空燈台"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aeronautical chart"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうず",
+        "written": "航空図"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aeronautical engineering"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうこうがく",
+        "written": "航空工学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aeronautics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "こうくうがく",
+        "written": "航空学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aerospace"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうう",
+        "written": "航宇"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aerospace"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくううちゅう",
+        "written": "航空宇宙"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aerospace engineering"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくううちゅうこうがく",
+        "written": "航空宇宙工学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aerospace industry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくううちゅうこうぎょう",
+        "written": "航空宇宙工業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aerospace industry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくううちゅうさんぎょう",
+        "written": "航空宇宙産業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air base"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうきち",
+        "written": "航空基地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air strike"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうこうげき",
+        "written": "航空攻撃"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air superiority"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうゆうせい",
+        "written": "航空優勢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air traffic control"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうかんり",
+        "written": "航空管理"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air traffic control"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうこうつうかんせい",
+        "written": "航空交通管制"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air traffic control tower"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうかんせいとう",
+        "written": "航空管制塔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air traffic controller"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうかんせいかん",
+        "written": "航空管制官"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aircraft"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "こうくうき",
+        "written": "航空機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aircraft carrier"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf42",
+          "spec2"
+        ],
+        "pronounced": "こうくうぼかん",
+        "written": "航空母艦"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aircraft engine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうはつどうき",
+        "written": "航空発動機"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こうくうはつどうき",
+        "written": "航空發動機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "airfare"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくううんちん",
+        "written": "航空運賃"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "airline company"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "こうくうがいしゃ",
+        "written": "航空会社"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "airsickness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうびょう",
+        "written": "航空病"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anti-aircraft gun"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいこうくうきほう",
+        "written": "対航空機砲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "army aviation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りくぐんこうくうたい",
+        "written": "陸軍航空隊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "astronavigator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうちゅうし",
+        "written": "航宙士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aviation fuel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうねんりょう",
+        "written": "航空燃料"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aviation fuel tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうきねんりょうぜい",
+        "written": "航空機燃料税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aviation medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくういがく",
+        "written": "航空医学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "battlefield air interdiction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんじょうこうくうそし",
+        "written": "戦場航空阻止"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cancellation (of a flight or sea voyage)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "けっこう",
+        "written": "欠航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "celestial navigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんもんこうほう",
+        "written": "天文航法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "close air support"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんせつこうくうしえん",
+        "written": "近接航空支援"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "coastal route"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないこくこうろ",
+        "written": "内国航路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "coastwise service"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "ないこう",
+        "written": "内航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "code-share flight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうどううんこうびん",
+        "written": "共同運航便"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きょうどううんこうびん",
+        "written": "共同運行便"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commuter aviation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "コミューターこうくう",
+        "written": "コミューター航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conditional operation (i.e. departure) of a flight, etc. that might end up diverted due to bad weather"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうけんつきうんこう",
+        "written": "条件付き運航"
+      },
+      {
+        "priorities": [],
+        "pronounced": "じょうけんつきうんこう",
+        "written": "条件付き運行"
+      },
+      {
+        "priorities": [],
+        "pronounced": "じょうけんつきうんこう",
+        "written": "条件付運航"
+      },
+      {
+        "priorities": [],
+        "pronounced": "じょうけんつきうんこう",
+        "written": "条件付運行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cruise missile"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんこうミサイル",
+        "written": "巡航ミサイル"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cruise ship"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんこうきゃくせん",
+        "written": "巡航客船"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cruising capacity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうぞくりょく",
+        "written": "航続力"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cruising speed"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "じゅんこうそくど",
+        "written": "巡航速度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dead reckoning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいそくこうほう",
+        "written": "推測航法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "departure of a ship"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はっこう",
+        "written": "発航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "discount airline ticket"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "かくやすこうくうけん",
+        "written": "格安航空券"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "east-to-west sea route"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にしまわりこうろ",
+        "written": "西回り航路"
+      },
+      {
+        "priorities": [],
+        "pronounced": "にしまわりこうろ",
+        "written": "西廻り航路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flying corps"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうたい",
+        "written": "航空隊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "global positioning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいせいこうほう",
+        "written": "衛星航法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "go-around"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゃくりくふっこう",
+        "written": "着陸復航"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちゃくりくふっこう",
+        "written": "着陸復行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "going upstream"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうこう",
+        "written": "上航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "great circle sailing route"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいけんこうろ",
+        "written": "大圏航路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "homeward voyage or flight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きこう",
+        "written": "帰航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "independent fishing boat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どっこうせん",
+        "written": "独航船"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inertial navigation system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんせいこうほう",
+        "written": "慣性航法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "innocent passage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むがいつうこう",
+        "written": "無害通航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "maiden voyage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょじょこうかい",
+        "written": "処女航海"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "maiden voyage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はつこうかい",
+        "written": "初航海"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "military police brigade (air force)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうけいむたい",
+        "written": "航空警務隊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nautical astronomy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかいてんもんがく",
+        "written": "航海天文学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nautical twilight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかいはくめい",
+        "written": "航海薄明"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "navigation satellite"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうこうえいせい",
+        "written": "航行衛星"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ocean navigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えんようこうかい",
+        "written": "遠洋航海"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ocean-going ship"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいこうせん",
+        "written": "外航船"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "omega navigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "オメガこうほう",
+        "written": "オメガ航法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "passport"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とこうめんじょう",
+        "written": "渡航免状"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "private aircraft"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みんかんこうくうき",
+        "written": "民間航空機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "right of way (e.g. in sailing)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうろけん",
+        "written": "航路権"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "round trip (airplane) ticket"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうふくこうくうけん",
+        "written": "往復航空券"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sailing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうそう",
+        "written": "航走"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sailing north"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほっこう",
+        "written": "北航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sailing on"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんこう",
+        "written": "進航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sea lane"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えんようこうろ",
+        "written": "遠洋航路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seaworthiness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんこうのうりょく",
+        "written": "堪航能力"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shipping (by sea or air)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうそう",
+        "written": "航送"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "space flight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうちゅう",
+        "written": "航宙"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special purpose submarine (esp. Japanese midget submarines used in WWII)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくしゅせんこうてい",
+        "written": "特殊潜航艇"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stopping at a port"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "きこう",
+        "written": "寄港"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "きこう",
+        "written": "寄航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stowaway"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みっこうしゃ",
+        "written": "密航者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "suspension of sailings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうこう",
+        "written": "休航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tactical air control center (centre)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんじゅつこうくうとうせいほんぶ",
+        "written": "戦術航空統制本部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tactical air control party"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんじゅつこうくうとうせいはん",
+        "written": "戦術航空統制班"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the path of one's life"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんせいこうろ",
+        "written": "人生航路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the right of innocent passage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むがいつうこうけん",
+        "written": "無害通航権"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "time machine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうじき",
+        "written": "航時機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to voyage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうする",
+        "written": "航する"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "towing (a ship)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいこう",
+        "written": "えい航"
+      },
+      {
+        "priorities": [],
+        "pronounced": "えいこう",
+        "written": "曳航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "travel advisory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とこうじしゅくかんこく",
+        "written": "渡航自粛勧告"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "travel restrictions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とこうせいげん",
+        "written": "渡航制限"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "treaty of commerce and navigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つうしょうこうかいじょうやく",
+        "written": "通商航海条約"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "treaty of friendship, commerce and navigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうこうつうしょうこうかいじょうやく",
+        "written": "修好通商航海条約"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wake (of boat)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "こうせき",
+        "written": "航跡"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "zigzag course (esp. warship)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ジグザグこうこう",
+        "written": "ジグザグ航行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "AATC",
+          "Automatic Air Traffic Control"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうこうくうかんせい",
+        "written": "自動航空管制"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Age of Discovery",
+          "Age of Exploration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいこうかいじだい",
+        "written": "大航海時代"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "China National Space Administration",
+          "CNSA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうごくこっかこうてんきょく",
+        "written": "中国国家航天局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Civil Aeronautics Law",
+          "Aviation Law"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうほう",
+        "written": "航空法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Civil Aviation Administration of China",
+          "CAAC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうごくみんこう",
+        "written": "中国民航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Federal Aviation Administration",
+          "FAA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べいれんぽうこうくうきょく",
+        "written": "米連邦航空局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Federal Aviation Administration",
+          "FAA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れんぽうこうくうかんりきょく",
+        "written": "連邦航空管理局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Institute of Navigation",
+          "ION"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかいがっかい",
+        "written": "航海学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+          "IALA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいこうろひょうしききょうかい",
+        "written": "国際航路標識協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "JAL Flight Crew Union",
+          "JFU"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんこうくうじょういんくみあい",
+        "written": "日本航空乗員組合"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Air Lines",
+          "JAL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんこうくう",
+        "written": "日本航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Air Self-Defense Force",
+          "JASDF"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんこうくうじえいたい",
+        "written": "日本航空自衛隊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Air Self-Defense Force",
+          "JASDF"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "こうくうじえいたい",
+        "written": "航空自衛隊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Airlines (abbr)",
+          "JAL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっこう",
+        "written": "日航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Korea Aerospace Research Institute",
+          "KARI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんこくこうくううちゅうけんきゅうじょ",
+        "written": "韓国航空宇宙研究所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Korean Air",
+          "KAL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいかんこうくう",
+        "written": "大韓航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Aeronautics and Space Administration",
+          "NASA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくううちゅうきょく",
+        "written": "航空宇宙局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Aeronautics and Space Administration",
+          "NASA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べいこうくううちゅうきょく",
+        "written": "米航空宇宙局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Aeronautics and Space Administration (USA)",
+          "NASA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アメリカこうくううちゅうきょく",
+        "written": "アメリカ航空宇宙局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Aerospace Laboratory",
+          "NAL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "こうくううちゅうぎじゅつけんきゅうじょ",
+        "written": "航空宇宙技術研究所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Air Traffic Controllers Association",
+          "NATCA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうこうつうかんせいきょうかい",
+        "written": "航空交通管制協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "South African Airways",
+          "SAA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みなみアフリカこうくう",
+        "written": "南アフリカ航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aerial warfare",
+          "air war"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうせん",
+        "written": "航空戦"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aerogramme",
+          "air letter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうしょかん",
+        "written": "航空書簡"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aeronautical radio",
+          "aircraft radio"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうむせん",
+        "written": "航空無線"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air cargo",
+          "air freight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうかもつ",
+        "written": "航空貨物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air traffic control",
+          "ATC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうかんせい",
+        "written": "航空管制"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "airmail",
+          "air mail"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうゆうびん",
+        "written": "航空郵便"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "airplane mode",
+          "aeroplane mode"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうきモード",
+        "written": "航空機モード"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "arrival of ships (from abroad)",
+          "arrival by ship"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "らいこう",
+        "written": "来航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aviation",
+          "flying"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "こうくう",
+        "written": "航空"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aviation business",
+          "air transport service"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうじぎょう",
+        "written": "航空事業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aviation insurance",
+          "aerial insurance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうほけん",
+        "written": "航空保険"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "boating",
+          "sailing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうこう",
+        "written": "舟航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "circumnavigation",
+          "circle tour by ship"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうこう",
+        "written": "周航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "code-sharing (e.g. airlines)",
+          "joint operation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうどううんこう",
+        "written": "共同運航"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きょうどううんこう",
+        "written": "共同運行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crossing an ocean by boat",
+          "sea voyage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうよう",
+        "written": "航洋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cruise",
+          "cruising"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "じゅんこう",
+        "written": "巡航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cruise boat",
+          "cruiser"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんこうせん",
+        "written": "巡航船"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cruising",
+          "flight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうぞく",
+        "written": "航続"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cruising range",
+          "flying range"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "こうぞくきょり",
+        "written": "航続距離"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "direct voyage",
+          "direct service"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "ちょっこう",
+        "written": "直航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "domestic vessel",
+          "coastal vessel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないこうせん",
+        "written": "内航船"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "duration of a cruise (flight)",
+          "endurance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうぞくじかん",
+        "written": "航続時間"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "first mate",
+          "first officer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっとうこうかいし",
+        "written": "一等航海士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flight ticket",
+          "air ticket"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうチケット",
+        "written": "航空チケット"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "foreign route",
+          "ocean route"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいこくこうろ",
+        "written": "外国航路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "foreign voyage",
+          "outward voyage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいこう",
+        "written": "外航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "going upstream",
+          "sailing against the current"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そこう",
+        "written": "溯航"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そこう",
+        "written": "溯行"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そこう",
+        "written": "遡航"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そこう",
+        "written": "遡行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "holding one's course",
+          "continuing the voyage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぞっこう",
+        "written": "続航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interplanetary cruise",
+          "planetary travel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わくせいかんこうこう",
+        "written": "惑星間航行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mate",
+          "navigation officer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかいし",
+        "written": "航海士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nautical table",
+          "sailing chart"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかいず",
+        "written": "航海図"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "navigation",
+          "cruise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいこう",
+        "written": "回航"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かいこう",
+        "written": "廻航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "navigation",
+          "sailing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "つうこう",
+        "written": "通航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one-way airline ticket",
+          "one-way plane ticket"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かたみちこうくうけん",
+        "written": "片道航空券"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outward voyage",
+          "outbound flight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうこう",
+        "written": "往航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "radio navigation",
+          "electronic navigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんぱこうほう",
+        "written": "電波航法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sailing",
+          "navigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "こうほう",
+        "written": "航法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sailing east",
+          "eastbound"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうこう",
+        "written": "東航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sailing south",
+          "southbound"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんこう",
+        "written": "南航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seagoing vessel",
+          "oceangoing ship"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうようせん",
+        "written": "航洋船"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seamanship",
+          "(the art of) navigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかいじゅつ",
+        "written": "航海術"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "second mate",
+          "second officer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にとうこうかいし",
+        "written": "二等航海士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ship's log",
+          "logbook"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかいにっし",
+        "written": "航海日誌"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "smuggling (people)",
+          "stowing away"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "みっこう",
+        "written": "密航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "submarine voyage",
+          "underwater navigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf40"
+        ],
+        "pronounced": "せんこう",
+        "written": "潜航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "third mate",
+          "third officer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんとうこうかいし",
+        "written": "三等航海士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tugging",
+          "towing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いんこう",
+        "written": "引航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unmanned aerial vehicle (UAV)",
+          "drone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むじんこうくうき",
+        "written": "無人航空機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "voyager",
+          "navigator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかいしゃ",
+        "written": "航海者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Civil Aviation College",
+          "College of Aeronautics",
+          "COA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうだいがっこう",
+        "written": "航空大学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Federation Aeronautique Internationale",
+          "International Aeronautical Federation",
+          "FAI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいこうくうれんめい",
+        "written": "国際航空連盟"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aerial show",
+          "air show",
+          "airshow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうショー",
+        "written": "航空ショー"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air flotilla",
+          "air fleet",
+          "combat aviation unit of the Imperial Japanese Navy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうせんたい",
+        "written": "航空戦隊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air flotilla",
+          "air fleet",
+          "combat aviation unit of the Imperial Japanese Navy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせん",
+        "written": "航戦"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air transportation",
+          "air transport",
+          "transport by air"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうゆそう",
+        "written": "航空輸送"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "airline ticket",
+          "plane ticket",
+          "air ticket"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "こうくうけん",
+        "written": "航空券"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "celestial navigation",
+          "astronavigation",
+          "celonavigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんそくこうほう",
+        "written": "天測航法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cruise",
+          "navigation",
+          "sailing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "こうこう",
+        "written": "航行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "entering service (on a route; of a plane or ship)",
+          "going into commission",
+          "being in service"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "しゅうこう",
+        "written": "就航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "flight dynamics",
+          "aerodynamics",
+          "aeromechanics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうりきがく",
+        "written": "航空力学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "foreign voyage",
+          "travelling overseas",
+          "travelling abroad"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいがいとこう",
+        "written": "海外渡航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "low-cost carrier",
+          "LCC",
+          "low-cost airline"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくやすこうくうがいしゃ",
+        "written": "格安航空会社"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regulated navigation area",
+          "navigation area",
+          "navigation zone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうこうくいき",
+        "written": "航行区域"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "return flight",
+          "return voyage",
+          "homeward journey"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふっこう",
+        "written": "復航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "run (of a ship)",
+          "sail",
+          "flight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうてい",
+        "written": "航程"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sea mark",
+          "seamark",
+          "beacon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうろひょうしき",
+        "written": "航路標識"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "travel history",
+          "record of travel",
+          "experience of travel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とこうれき",
+        "written": "渡航歴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "voyage",
+          "passage",
+          "travelling"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "とこう",
+        "written": "渡航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(air or sea) route",
+          "course",
+          "line",
+          "run"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "こうろ",
+        "written": "航路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air route",
+          "airway",
+          "air lane",
+          "air corridor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうろ",
+        "written": "航空路"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aircraft warning lights",
+          "airplane warning lights",
+          "obstacle light",
+          "obstruction light"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうくうしょうがいとう",
+        "written": "航空障害灯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chief navigator",
+          "navigating officer",
+          "navigator",
+          "sailing master"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかいちょう",
+        "written": "航海長"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "operation (of a ship or aircraft route)",
+          "service",
+          "navigation",
+          "flight"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "うんこう",
+        "written": "運航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "passenger",
+          "visitor",
+          "traveler",
+          "traveller"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とこうしゃ",
+        "written": "渡航者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(sea) voyage",
+          "navigation",
+          "sailing",
+          "passage",
+          "cruise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "こうかい",
+        "written": "航海"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "departure (of a boat, plane)",
+          "setting sail",
+          "leaving port",
+          "putting out to sea",
+          "takeoff"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "しゅっこう",
+        "written": "出航"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "midget submarine"
+        ]
+      },
+      {
+        "glosses": [
+          "submarine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんこうてい",
+        "written": "潜航艇"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "air service",
+          "air transport (of goods)"
+        ]
+      },
+      {
+        "glosses": [
+          "airmail",
+          "air mail"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "こうくうびん",
+        "written": "航空便"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "difficult voyage",
+          "stormy passage",
+          "hard flight"
+        ]
+      },
+      {
+        "glosses": [
+          "rough going",
+          "running into trouble",
+          "proceeding with difficulty",
+          "rough passage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "なんこう",
+        "written": "難航"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3513 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Atomic Energy Commission (US)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんしりょくいいんかい",
+        "written": "原子力委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Board of Education"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうい",
+        "written": "教委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Board of Education"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "きょういくいいんかい",
+        "written": "教育委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Budget Committee (of the Diet)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よさんい",
+        "written": "予算委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Budget Committee of the lower house of the Diet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅういんよさんい",
+        "written": "衆院予算委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Budget Committee of the lower house of the Diet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅういんよさんいいんかい",
+        "written": "衆院予算委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Budget Committee of the upper house of the Diet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんいんよさんい",
+        "written": "参院予算委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Budget Committee of the upper house of the Diet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんいんよさんいいんかい",
+        "written": "参院予算委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Central Committee of the Communist Party"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうさんとうちゅうおういいんかい",
+        "written": "共産党中央委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Central Labor Relations Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうおうろうどういいんかい",
+        "written": "中央労働委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Central Labor Relations Committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうろうい",
+        "written": "中労委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Committee for Election Administration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんきょかんりいいんかい",
+        "written": "選挙管理委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Committee on Economic Security"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいざいあんぜんほしょういいん",
+        "written": "経済安全保障委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Committee on Judicial Affairs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf39"
+        ],
+        "pronounced": "ほうむいいんかい",
+        "written": "法務委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Committee on Rules and Administration (Diet)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎうんい",
+        "written": "議運委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Coordination Committee on Multilateral Export Controls"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいきょうさんけんゆしゅつとうせいいいんかい",
+        "written": "対共産圏輸出統制委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Environmental Dispute Coordination Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "こうがいとうちょうせいいいんかい",
+        "written": "公害等調整委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Equity Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうへいいいんかい",
+        "written": "公平委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "European Commission (abbr)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうしゅうい",
+        "written": "欧州委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "European Commission (executive of the EU)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうしゅういいんかい",
+        "written": "欧州委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "House Steering Committee Chairman"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎいんうんえいいいんちょう",
+        "written": "議院運営委員長"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "House of Representatives Steering Committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうぎいんうんえいいいんかい",
+        "written": "衆議院運営委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "International Committee of the Red Cross"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきじゅうじこくさいいいんかい",
+        "written": "赤十字国際委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Casino Regulatory Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "カジノかんりいいんかい",
+        "written": "カジノ管理委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Fair Trade Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせいとりひきいいんかい",
+        "written": "公正取引委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Fair Trade Commission (abbr)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうとりい",
+        "written": "公取委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese National Commission for UNESCO"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんユネスコこくないいいんかい",
+        "written": "日本ユネスコ国内委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Olympic Committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんオリンピックいいんかい",
+        "written": "日本オリンピック委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Judge Indictment Committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいばんかんそついいいんかい",
+        "written": "裁判官訴追委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Labour Relations Commission for Seafarers"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんいんろうどういいんかい",
+        "written": "船員労働委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Bar Examination Administration Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しほうしけんかんりいいんかい",
+        "written": "司法試験管理委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Public Safety Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "こっかこうあんいいんかい",
+        "written": "国家公安委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nuclear Safety Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんしりょくあんぜんいいんかい",
+        "written": "原子力安全委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "People's Commissar (in the early Soviet Union)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんみんいいん",
+        "written": "人民委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Personal Information Protection Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こじんじょうほうほごいいんかい",
+        "written": "個人情報保護委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Public Corporation and National Enterprise Labor Relations Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうろうい",
+        "written": "公労委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Public Security Examination Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうあんしんさいいんかい",
+        "written": "公安審査委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Regional Parole Board"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちほうこうせいほごいいんかい",
+        "written": "地方更生保護委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Securities and Exchange Surveillance Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうけんとりひきとうかんしいいんかい",
+        "written": "証券取引等監視委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "State Ethnic Affairs Commission (China)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こっかみんぞくじむいいんかい",
+        "written": "国家民族事務委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "The Financial Reconstruction Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんゆうさいせいいいんかい",
+        "written": "金融再生委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Trade Negotiation Committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぼうえきこうしょういいんかい",
+        "written": "貿易交渉委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United Nations Commission on Human Rights"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいれんごうじんけんいいんかい",
+        "written": "国際連合人権委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United Nations Human Rights Commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくれんじんけんいいんかい",
+        "written": "国連人権委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United Nations Human Rights Committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゆうけんきやくじんけんいいんかい",
+        "written": "自由権規約人権委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United Nations committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくれんい",
+        "written": "国連委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Venezuela"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ベネズエラ",
+        "written": "委内瑞拉"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ヴェネズエラ",
+        "written": "委内瑞拉"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abandoner (in securities, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いふしゃ",
+        "written": "委付者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abandonment (rights, property)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いふ",
+        "written": "委付"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "advisory committee (council, panel)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しもんいいんかい",
+        "written": "諮問委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "agricultural land commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうちいいんかい",
+        "written": "農地委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "an arbitration committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうていいいんかい",
+        "written": "調停委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attorney-in-fact"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いにんじょうによるだいりにん",
+        "written": "委任状による代理人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "authorized agent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いにんだいりにん",
+        "written": "委任代理人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bid committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうちいいんかい",
+        "written": "招致委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "central committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうおういいんかい",
+        "written": "中央委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "class representative"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がっきゅういいん",
+        "written": "学級委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "committee member"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "いいん",
+        "written": "委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "committee of the National Diet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こっかいたいさくいいんかい",
+        "written": "国会対策委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "company with a committee governance structure (e.g. auditing, appointment, compensation)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いいんかいせっちかいしゃ",
+        "written": "委員会設置会社"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "complete power of attorney"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんけんいにん",
+        "written": "全権委任"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "configuration control board"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせいせいぎょいいんかい",
+        "written": "構成制御委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "consignment production"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いたくせいさん",
+        "written": "委託生産"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "consignment sale"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いたくはんばい",
+        "written": "委託販売"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "consignment sales and purchase"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いたくばいばい",
+        "written": "委託売買"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "consignor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いたくしゃ",
+        "written": "委託者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "contract research"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いたくけんきゅう",
+        "written": "委託研究"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crisis committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ききかんりいいんかい",
+        "written": "危機管理委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "delegated legislation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いにんりっぽう",
+        "written": "委任立法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "details when I see you"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いさいめんだん",
+        "written": "委細面談"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "disciplinary committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "ちょうばついいんかい",
+        "written": "懲罰委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "district welfare officer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "みんせいいいん",
+        "written": "民生委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "draft committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんあんいいんかい",
+        "written": "原案委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "editorial writer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろんせついいん",
+        "written": "論説委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ethics committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りんりいいんかい",
+        "written": "倫理委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "executive committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じっこういいんかい",
+        "written": "実行委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "executive committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "しっこういいん",
+        "written": "執行委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fact-finding committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんそうきゅうめいいいんかい",
+        "written": "真相究明委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fact-finding committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じつじょうちょうさいいんかい",
+        "written": "実情調査委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "five ringside judges"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんぱんいいん",
+        "written": "審判委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general power of attorney"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうかついにんじょう",
+        "written": "包括委任状"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "head of the Foreign Relations Committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいこういいんちょう",
+        "written": "外交委員長"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indictment committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そついいいんかい",
+        "written": "訴追委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "individual outsourcing agreement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうむいたくこべつけいやくしょ",
+        "written": "業務委託個別契約書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "investigation committee (of prefectural assembly, established under Section 100 of the Act)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひゃくじょういいんかい",
+        "written": "百条委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "investigative commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんとういいんかい",
+        "written": "検討委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "joint committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごうどういいんかい",
+        "written": "合同委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "joint technical committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごうどうぎじゅついいんかい",
+        "written": "合同技術委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "letter of appointment (to a position)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いしょくじょう",
+        "written": "委嘱状"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mandate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "いにんとうち",
+        "written": "委任統治"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "margin money"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いたくほしょうきん",
+        "written": "委託保証金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "member of a standing committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうにんいいん",
+        "written": "常任委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "negotiating committeemen"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうしょういいん",
+        "written": "交渉委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "notice of abandonment (of securities, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いふつうちしょ",
+        "written": "委付通知書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outsourcing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいぶいたく",
+        "written": "外部委託"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outsourcing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうむのがいぶいたく",
+        "written": "業務の外部委託"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outsourcing contract"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いたくけいやくしょ",
+        "written": "委託契約書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "plenipotentiary"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんけんいいん",
+        "written": "全権委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "power of attorney"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいりいにんじょう",
+        "written": "代理委任状"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "preparatory committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんびいいんかい",
+        "written": "準備委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "production committee system (joint financing for a work, e.g. anime, film, game)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいさくいいんかいほうしき",
+        "written": "製作委員会方式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "public safety commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうい",
+        "written": "公委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "public safety commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "こうあんいいんかい",
+        "written": "公安委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "referral to a committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いいんふたく",
+        "written": "委員付託"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "research outsourcing contract"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんきゅういたくけいやくしょ",
+        "written": "研究委託契約書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reserve member"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よびいいん",
+        "written": "予備委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "scholarship student sent by government office or business"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いたくせい",
+        "written": "委託生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくべつい",
+        "written": "特別委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "standing committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうちいいんかい",
+        "written": "常置委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "standing committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "じょうにんいいんかい",
+        "written": "常任委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "steering committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うんえいいいんかい",
+        "written": "運営委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "student library assistant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "としょいいん",
+        "written": "図書委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "subcommittee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうい",
+        "written": "小委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "subcommittee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょういいんかい",
+        "written": "小委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "supervisory board"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんとくいいんかい",
+        "written": "監督委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "support services agreement contract"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうむしえんいたくけいやくしょ",
+        "written": "業務支援委託契約書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "technical committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎじゅついいんかい",
+        "written": "技術委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the same committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どういいんかい",
+        "written": "同委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to entrust (a person) with power of attorney (to do something for one)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんけんをゆだねる",
+        "written": "全権を委ねる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to explain or describe a situation or matter in greatest details"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いきょくをつくす",
+        "written": "委曲を尽くす"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to form a committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いいんかいをおく",
+        "written": "委員会を置く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to submit (a plan) to a committee for deliberation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いいんかいにはかる",
+        "written": "委員会に諮る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(committee) chairman",
+          "president"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "いいんちょう",
+        "written": "委員長"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Comite Consultatif International des Radiocommunications",
+          "CCIR"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいむせんつうしんしもんいいんかい",
+        "written": "国際無線通信諮問委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Comite International des Poids et Measures",
+          "International Committee of Weights and Measures"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいどりょうこういいんかい",
+        "written": "国際度量衡委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Commission Internationale de I'Eclairage",
+          "CIE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいしょうめいいいんかい",
+        "written": "国際照明委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Democratic National Committee (US)",
+          "DNC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みんしゅとうぜんこくいいんかい",
+        "written": "民主党全国委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Federal Communications Commission (USA)",
+          "FCC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れんぽうつうしんいいんかい",
+        "written": "連邦通信委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Federal Trade Commission",
+          "FTC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れんぽうぼうえきいいんかい",
+        "written": "連邦貿易委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Federal Trade Commission (USA)",
+          "FTC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れんぽうとりひきいいんかい",
+        "written": "連邦取引委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Foreign Policy Commission",
+          "Foreign Relations Committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうりゅういいんかい",
+        "written": "交流委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "International Commission on Radiological Protection",
+          "ICRP"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいほうしゃせんぼうごいいんかい",
+        "written": "国際放射線防護委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "International Olympic Committee",
+          "IOC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいオリンピックいいんかい",
+        "written": "国際オリンピック委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "International Telegraph and Telephone Consultative Committee",
+          "CCITT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいでんしんでんわしもんいいんかい",
+        "written": "国際電信電話諮問委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "International Whaling Commission",
+          "IWC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいほげいいいんかい",
+        "written": "国際捕鯨委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Internet Engineering Task Force",
+          "IETF"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "インターネットぎじゅつとくべつちょうさいいんかい",
+        "written": "インターネット技術特別調査委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Internet Research Task Force",
+          "IRTF"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "インターネットけんきゅうとくべつちょうさいいんかい",
+        "written": "インターネット研究特別調査委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Interstate Commerce Commission (U.S.)",
+          "ICC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうさいつうしょういいんかい",
+        "written": "州際通商委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Transport Safety Board",
+          "JTSB"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うんゆあんぜんいいんかい",
+        "written": "運輸安全委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nuclear Regulation Authority",
+          "NRA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんしりょくきせいいいんかい",
+        "written": "原子力規制委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Securities and Exchange Commission",
+          "SEC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうけんとりひきいいんかい",
+        "written": "証券取引委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "UN Monitoring, Verification and Inspection Commission",
+          "UNMOVIC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくれんかんしけんしょうささついいんかい",
+        "written": "国連監視検証査察委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Unicode Technical Committee",
+          "UTC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ユニコードぎじゅついいんかい",
+        "written": "ユニコード技術委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United Nations Human Rights Council",
+          "UNHRC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくれんきやくじんけんいいんかい",
+        "written": "国連規約人権委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United Nations Special Commission",
+          "UNSCOM"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいれんごうたいりょうはかいへいきはいきとくべついいんかい",
+        "written": "国際連合大量破壊兵器廃棄特別委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Yokozuna Deliberation Committee",
+          "body that recommends promotion of wrestlers to grand champions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よこづなしんぎいいんかい",
+        "written": "横綱審議委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "action committee",
+          "executive committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じっこうい",
+        "written": "実行委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "action committee",
+          "executive committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じっこういいん",
+        "written": "実行委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "blank power of attorney",
+          "carte blanche"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はくしいにんじょう",
+        "written": "白紙委任状"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cabinet standing committee",
+          "House Committee on the Cabinet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないかくいいんかい",
+        "written": "内閣委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "class president",
+          "head class representative"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がっきゅういいんちょう",
+        "written": "学級委員長"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commission",
+          "commission payment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いたくりょうきん",
+        "written": "委託料金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "committee system",
+          "commission system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いいんかいせいど",
+        "written": "委員会制度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "compensation committee",
+          "remuneration committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうしゅういいんかい",
+        "written": "報酬委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "court of inquiry",
+          "court of enquiry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さもんいいんかい",
+        "written": "査問委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "details",
+          "circumstances"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いきょく",
+        "written": "委曲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "details",
+          "particulars"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いさい",
+        "written": "委細"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "editorial committee member",
+          "senior staff writer (newspaper)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へんしゅういいん",
+        "written": "編集委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "independent committee",
+          "third-party panel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいさんしゃいいんかい",
+        "written": "第三者委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "labor-relations board",
+          "labour-relations board"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろうい",
+        "written": "労委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "labor-relations board",
+          "labour-relations board"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26"
+        ],
+        "pronounced": "ろうどういいんかい",
+        "written": "労働委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mandate (e.g. to use resources)",
+          "lease (e.g. to use facilities)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うんよういたく",
+        "written": "運用委託"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ministerial aide",
+          "government delegate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいふいいん",
+        "written": "政府委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nominating committee",
+          "nomination committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しめいいいんかい",
+        "written": "指名委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "organizing committee",
+          "organization committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そしきい",
+        "written": "組織委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "organizing committee",
+          "organization committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そしきいいんかい",
+        "written": "組織委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outsourcing",
+          "subcontracting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうむいたく",
+        "written": "業務委託"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "political action committee",
+          "PAC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいじこうどういいんかい",
+        "written": "政治行動委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quasi-mandate contract",
+          "time and material contract"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんいにんけいやく",
+        "written": "準委任契約"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reconsignment (of goods)",
+          "recommissioning (of a task)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいいたく",
+        "written": "再委託"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rehabilitation",
+          "worker"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほごいいん",
+        "written": "保護委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "selection committee member",
+          "member of a screening committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんこういいん",
+        "written": "選考委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special committee",
+          "ad hoc committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくべついいんかい",
+        "written": "特別委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "subcontractor",
+          "outsourcing contractor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいぶいたくさき",
+        "written": "外部委託先"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "supervisory auditor",
+          "member of inspection committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんさいいん",
+        "written": "監査委員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to entrust (to someone)",
+          "to leave (in someone's hands)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "まかす",
+        "written": "任す"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "まかす",
+        "written": "委す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "transfer",
+          "assignment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "いじょう",
+        "written": "委譲"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "いじょう",
+        "written": "移譲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "winding",
+          "meandering"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いい",
+        "written": "委蛇"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いい",
+        "written": "逶迤"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いい",
+        "written": "逶迱"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いだ",
+        "written": "委蛇"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いだ",
+        "written": "逶迤"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いだ",
+        "written": "逶迱"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Committee on Rules and Administration (Diet)",
+          "House Steering Committee",
+          "Standing Committee for House Management"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "ぎいんうんえいいいんかい",
+        "written": "議院運営委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "advisory committee",
+          "committee of experts",
+          "advisory panel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんもんいいんかい",
+        "written": "専門委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "delegation contract",
+          "mandate agreement",
+          "contract delegating legal authority (e.g. to a guardian)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いにんけいやく",
+        "written": "委任契約"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "devolution",
+          "delegation of authority",
+          "transfer of power"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんげんいじょう",
+        "written": "権限委譲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outsourcing agreement",
+          "operating agreement",
+          "subcontracting arrangement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうむいたくけいやく",
+        "written": "業務委託契約"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "selection committee",
+          "screening committee",
+          "nomination committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんこういいんかい",
+        "written": "選考委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to yield oneself (to something)",
+          "to devote oneself (to something)",
+          "to surrender oneself (to something)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みをゆだねる",
+        "written": "身をゆだねる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "みをゆだねる",
+        "written": "身を委ねる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "total situation fully understood",
+          "understood",
+          "agreed"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いさいしょうち",
+        "written": "委細承知"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "carte blanche",
+          "blank check",
+          "blank cheque",
+          "unconditional authority"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はくしいにん",
+        "written": "白紙委任"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commission",
+          "proxy",
+          "power of attorney",
+          "authorization"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "いにんじょう",
+        "written": "委任状"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commissioning",
+          "entrusting (with)",
+          "request",
+          "appointment (to a position)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf23"
+        ],
+        "pronounced": "いしょく",
+        "written": "依嘱"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf23"
+        ],
+        "pronounced": "いしょく",
+        "written": "委嘱"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "entrusting",
+          "charge",
+          "delegation",
+          "authorization"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "いにん",
+        "written": "委任"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the same committee",
+          "the same commission",
+          "the said committee",
+          "the said commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうい",
+        "written": "同委"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "committee",
+          "commission",
+          "board",
+          "panel",
+          "committee meeting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf01"
+        ],
+        "pronounced": "いいんかい",
+        "written": "委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "entrusting (something to a person)",
+          "consignment (of goods)",
+          "putting in someone's charge",
+          "trust",
+          "commission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "いたく",
+        "written": "委托"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "いたく",
+        "written": "委託"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "withering",
+          "shrivelling",
+          "shrinking",
+          "atrophy",
+          "contraction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf18",
+          "spec1"
+        ],
+        "pronounced": "いしゅく",
+        "written": "委縮"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf18",
+          "spec1"
+        ],
+        "pronounced": "いしゅく",
+        "written": "萎縮"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Budget Committee (of the Upper and Lower Houses of the Diet)"
+        ]
+      },
+      {
+        "glosses": [
+          "budget committee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よさんいいんかい",
+        "written": "予算委員会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abandonment",
+          "desertion"
+        ]
+      },
+      {
+        "glosses": [
+          "waiving (a right)",
+          "waiver",
+          "renunciation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いき",
+        "written": "委棄"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to entrust (a matter) to",
+          "to leave to"
+        ]
+      },
+      {
+        "glosses": [
+          "to abandon oneself to (e.g. pleasure)",
+          "to yield to (e.g. anger)",
+          "to devote oneself to"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "ゆだねる",
+        "written": "委ねる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "detailed",
+          "full",
+          "minute"
+        ]
+      },
+      {
+        "glosses": [
+          "knowing very well",
+          "knowledgeable (about)",
+          "well-acquainted (with)",
+          "well-informed (about)",
+          "familiar (with)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "くわしい",
+        "written": "委しい"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "くわしい",
+        "written": "精しい"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "くわしい",
+        "written": "詳しい"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to leave (a matter, decision, etc. to someone)",
+          "to entrust (to someone)",
+          "to entrust (someone) with"
+        ]
+      },
+      {
+        "glosses": [
+          "to use (money, strength, spare time, etc.) to the full",
+          "to use freely",
+          "to use without reserve"
+        ]
+      },
+      {
+        "glosses": [
+          "to leave (to chance, one's imagination, etc.)",
+          "to let (take its own course)",
+          "to let (happen)",
+          "to give (oneself to something)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "まかせる",
+        "written": "任せる"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "まかせる",
+        "written": "委せる"
+      }
+    ]
+  }
+]

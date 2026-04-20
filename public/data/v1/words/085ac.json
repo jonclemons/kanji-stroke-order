@@ -1,0 +1,9294 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(Japanese) Pharmaceutical Affairs Law"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくじほう",
+        "written": "薬事法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(bulk) drug substance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんやく",
+        "written": "原薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(dispensation of) free medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せやく",
+        "written": "施薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(study of) medicine, dentistry and pharmacology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いしやくがく",
+        "written": "医歯薬学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Academy of Pharmaceutical Science and Technology, Japan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんやくざいがっかい",
+        "written": "日本薬剤学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Association of Clinical Pharmacology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りんしょうやくりがっかい",
+        "written": "臨床薬理学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Astellas Pharma"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アステラスせいやく",
+        "written": "アステラス製薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Banyu Pharmaceutical"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばんゆうせいやく",
+        "written": "万有製薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Bhaisajyaguru (buddha able to cure all ills)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "やくしにょらい",
+        "written": "薬師如来"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Bhaisajyaraja (bodhisattva)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくおうぼさつ",
+        "written": "薬王菩薩"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "China Pharmaceutical University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうごくやっかだいがく",
+        "written": "中国薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese herbal medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "かんぽうやく",
+        "written": "漢方薬"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "かんぽうやく",
+        "written": "韓方薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese peony (Paeonia lactiflora)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃくやく",
+        "written": "芍薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "シャクヤク",
+        "written": "芍薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chugai Pharmaceutical"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうがいせいやく",
+        "written": "中外製薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Daiichi College of Pharmaceutical Sciences"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいいちやっかだいがく",
+        "written": "第一薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Daiichi Pharmaceutical"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいいちせいやく",
+        "written": "第一製薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Ethical Manufacturers' Association"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやくこうぎょうきょうかい",
+        "written": "医薬工業協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Explosives Control Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かやくるいとりしまりほう",
+        "written": "火薬類取締法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Fujisawa Pharmaceutical (now Astellas Pharma)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふじさわせいやく",
+        "written": "藤沢製薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Gifu Pharmaceutical University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎふやくかだいがく",
+        "written": "岐阜薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Greek fire"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ギリシアかやく",
+        "written": "ギリシア火薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Gunpowder Plot (of 1605)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かやくいんぼうじけん",
+        "written": "火薬陰謀事件"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Hokkaido Institute of Pharmaceutical Sciences"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほっかいどうやっかだいがく",
+        "written": "北海道薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Hokkaidouyakuka University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほっかいどうやくかだいがく",
+        "written": "北海道薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Hoshi University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほしやくかだいがく",
+        "written": "星薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Hoshiyakka University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほしやっかだいがく",
+        "written": "星薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Institute of Natural Medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わかんやくけんきゅうじょ",
+        "written": "和漢薬研究所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "International Congress of Pharmacology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいやくりがっかい",
+        "written": "国際薬理学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "International Reagents Corporation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいしやく",
+        "written": "国際試薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Inorganic Chemical Industry Association"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんむきやくひんきょうかい",
+        "written": "日本無機薬品協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Pharmaceutical Manufacturers Association"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんせいやくこうぎょうきょうかい",
+        "written": "日本製薬工業協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Pharmacopeia"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんやっきょくほう",
+        "written": "日本薬局方"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Society for the Study of Xenobiotics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんやくぶつどうたいがっかい",
+        "written": "日本薬物動態学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Society of Clinical Pharmacology and Therapeutics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんりんしょうやくりがっかい",
+        "written": "日本臨床薬理学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese lawsuit involving cases where hospitalized patients contracted Creutzfeld-Jakob disease from infected transplants"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくがいヤコブびょうそしょう",
+        "written": "薬害ヤコブ病訴訟"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kobe Pharmaceutical University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうべやっかだいがく",
+        "written": "神戸薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kobe Women's College of Pharmacy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうべじょしやっかだいがく",
+        "written": "神戸女子薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Korean spice mix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ヤンニョム",
+        "written": "薬念"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ヤンニョン",
+        "written": "薬念"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kyoritsu College of Pharmacy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうりつやくかだいがく",
+        "written": "共立薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kyoritsu College of Pharmacy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうりつやっかだいがく",
+        "written": "共立薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kyoto Pharmaceutical University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうとやっかだいがく",
+        "written": "京都薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kōbejoshiyakuka University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうべじょしやくかだいがく",
+        "written": "神戸女子薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Libatape Pharmaceutical"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "リバテープせいやく",
+        "written": "リバテープ製薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Medical and Pharmaceutical Society for Wakan-Yaku"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わかんいやくがっかい",
+        "written": "和漢医薬学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Meiji College of Pharmacy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めいじやっかだいがく",
+        "written": "明治薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Meijiyakuka University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めいじやくかだいがく",
+        "written": "明治薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Narcotics Control Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくとりしまりほう",
+        "written": "麻薬取締法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Narcotics and Psychotropics Control Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくおよびこうせいしんやくとりしまりほう",
+        "written": "麻薬及び向精神薬取締法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nihon Pharmaceutical University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんやっかだいがく",
+        "written": "日本薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Niigata College of Pharmacy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にいがたやっかだいがく",
+        "written": "新潟薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nikko maple (Acer maximowiczianum)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めぐすりのき",
+        "written": "目薬の木"
+      },
+      {
+        "priorities": [],
+        "pronounced": "めぐすりのき",
+        "written": "目薬木"
+      },
+      {
+        "priorities": [],
+        "pronounced": "メグスリノキ",
+        "written": "目薬の木"
+      },
+      {
+        "priorities": [],
+        "pronounced": "メグスリノキ",
+        "written": "目薬木"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Osaka University of Pharmaceutical Sciences"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おおさかやっかだいがく",
+        "written": "大阪薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Osakayakuka University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おおさかやくかだいがく",
+        "written": "大阪薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Otsuka Pharmaceutical"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おおつかせいやく",
+        "written": "大塚製薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Pharmaceutical Manufacturers Association (pn)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べいこくせいやくこうぎょうきょうかい",
+        "written": "米国製薬工業協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Pharmaceutical and Food Safety Bureau (formerly Pharmaceutical and Medical Safety Bureau)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやくあんぜんきょく",
+        "written": "医薬安全局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Pharmaceuticals and Medical Devices Agency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやくひんいりょうききそうごうきこう",
+        "written": "医薬品医療機器総合機構"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Pharmacists Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくざいしほう",
+        "written": "薬剤師法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Showa Pharmaceutical University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうわやっかだいがく",
+        "written": "昭和薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Special Committee on Drug Prices"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やっかせんもんぶかい",
+        "written": "薬価専門部会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Takeda Pharmaceutical"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たけだやくひんこうぎょう",
+        "written": "武田薬品工業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Tokyo University of Pharmacy and Life Science"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうきょうやっかだいがく",
+        "written": "東京薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Toyama Medical and Pharmaceutical University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とやまいかやっかだいがく",
+        "written": "富山医科薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Toyamaikayakuka University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とやまいかやくかだいがく",
+        "written": "富山医科薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Tōhoku College of Pharmacy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうほくやっかだいがく",
+        "written": "東北薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Tōkyōyakuka University"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうきょうやくかだいがく",
+        "written": "東京薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "US Pharmacopeial Convention"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べいこくやっきょくほうきょうかい",
+        "written": "米国薬局方協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Vajrayaksa"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こんごうやしゃ",
+        "written": "金剛夜叉"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こんごうやしゃ",
+        "written": "金剛薬叉"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Yamanouchi Pharmaceutical (now Astellas Pharma)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やまのうちせいやく",
+        "written": "山之内製薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Yokohama University of Pharmacy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よこはまやっかだいがく",
+        "written": "横浜薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acid-base indicator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんえんきしじやく",
+        "written": "酸塩基指示薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "addictive drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうかんせいやくぶつ",
+        "written": "習慣性薬物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alcoholic beverage for medicinal purposes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくしゅ",
+        "written": "薬酒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alcoholic beverage for medicinal purposes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくようしゅ",
+        "written": "薬用酒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "an abortive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おろしぐすり",
+        "written": "下ろし薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "analgesic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんつうやく",
+        "written": "鎮痛薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antagonist (drug)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きっこうやく",
+        "written": "拮抗薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anti-impotence medication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "インポやく",
+        "written": "インポ薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anti-obesity drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうひまんやく",
+        "written": "抗肥満薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anticholinergic drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうコリンやく",
+        "written": "抗コリン薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anticonvulsant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうけいれんやく",
+        "written": "抗けいれん薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こうけいれんやく",
+        "written": "抗痙攣薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antidote"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げどくやく",
+        "written": "解毒薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antiemetic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいとやく",
+        "written": "制吐薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antihistamine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうヒスタミンやく",
+        "written": "抗ヒスタミン薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antipsychotic drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせいしんびょうやく",
+        "written": "抗精神病薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antiviral drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうウイルスやく",
+        "written": "抗ウイルス薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "applying eye drops"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんやく",
+        "written": "点薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bald head"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やかんあたま",
+        "written": "やかん頭"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やかんあたま",
+        "written": "薬缶頭"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やかんあたま",
+        "written": "薬罐頭"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やかんあたま",
+        "written": "薬鑵頭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "banned drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんしやくぶつ",
+        "written": "禁止薬物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "beautiful appearance of a woman"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たてばしゃくやくすわればぼたんあるくすがたはゆりのはな",
+        "written": "立てば芍薬座れば牡丹歩く姿は百合の花"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bitter medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にがいくすり",
+        "written": "苦い薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "boiled pine pitch and oil (traditionally used as a glue in archery, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすね",
+        "written": "天鼠子"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすね",
+        "written": "天鼠矢"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすね",
+        "written": "薬煉"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすね",
+        "written": "薬練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "carbonate dehydratase inhibitor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんさんだっすいこうそそがいやく",
+        "written": "炭酸脱水酵素阻害薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "casserole of rice, fish or meat, and vegetables"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かやくめし",
+        "written": "加薬飯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "casserole of rice, fish or meat, and vegetables"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かやくごはん",
+        "written": "かやくご飯"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かやくごはん",
+        "written": "かやく御飯"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かやくごはん",
+        "written": "加薬ごはん"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かやくごはん",
+        "written": "加薬ご飯"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かやくごはん",
+        "written": "加薬御飯"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かやくごはん",
+        "written": "火薬ご飯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chamber (of a gun)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくしつ",
+        "written": "薬室"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chameleon plant (Houttuynia cordata)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうやく",
+        "written": "十薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "charge for medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくだい",
+        "written": "薬代"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf43"
+        ],
+        "pronounced": "くすりだい",
+        "written": "薬代"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chemical castration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつきょせい",
+        "written": "薬物去勢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chemical smell"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくひんしゅう",
+        "written": "薬品臭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chemicals"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かがくやくひん",
+        "written": "化学薬品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chief court physician (ritsuryō system)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんやくのかみ",
+        "written": "典薬頭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "children's medicine for nervousness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むしぐすり",
+        "written": "虫薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "community pharmacy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちいきやっきょく",
+        "written": "地域薬局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "controlled substance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きせいやくぶつ",
+        "written": "規制薬物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "court physician"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんやく",
+        "written": "典薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "decongestant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うっけつじょきょやく",
+        "written": "鬱血除去薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "diagnostic agent (esp. pregnancy test)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんさやく",
+        "written": "検査薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "disinfectant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうどくやく",
+        "written": "消毒薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "diuretic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りにょうやく",
+        "written": "利尿薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "doctor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすし",
+        "written": "医"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすし",
+        "written": "医師"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすし",
+        "written": "薬師"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすりし",
+        "written": "薬師"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dose"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうやく",
+        "written": "調薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dose of medicine to be taken only once"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とんぷくやく",
+        "written": "屯服薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とんぷくやく",
+        "written": "頓服薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dried Swertia japonica (used as a traditional medicine)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうやく",
+        "written": "当薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drinkers drink too much (and harm themselves in the process), nondrinkers drink too little (and miss out on the medicinal benefits of alcohol)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうごはどくをしらずげこはくすりをしらず",
+        "written": "上戸は毒を知らず下戸は薬を知らず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug abuse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつらんよう",
+        "written": "薬物乱用"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug addict"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくかんじゃ",
+        "written": "麻薬患者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug addiction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくじょうしゅう",
+        "written": "麻薬常習"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug addiction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくちゅうどく",
+        "written": "麻薬中毒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug control"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつとうせい",
+        "written": "薬物統制"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug dependence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶついそん",
+        "written": "薬物依存"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やくぶついぞん",
+        "written": "薬物依存"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug development"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやくひんかいはつ",
+        "written": "医薬品開発"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug monograph"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやくひんかくじょう",
+        "written": "医薬品各条"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug possession"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつふほうしょじ",
+        "written": "薬物不法所持"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug rash (eruption)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくしん",
+        "written": "薬疹"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug resistance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくざいたいせい",
+        "written": "薬剤耐性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug resistance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくざいていこうせい",
+        "written": "薬剤抵抗性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug test"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつけんさ",
+        "written": "薬物検査"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug therapy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつちりょう",
+        "written": "薬物治療"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug trafficking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくみつゆ",
+        "written": "麻薬密輸"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug use"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつしよう",
+        "written": "薬物使用"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug used for weight reduction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やせぐすり",
+        "written": "痩せ薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug user or addict"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくじょうようしゃ",
+        "written": "麻薬常用者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug-metabolizing enzyme"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつたいしゃこうそ",
+        "written": "薬物代謝酵素"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug-related crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくはんざい",
+        "written": "麻薬犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug-sniffing dog"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくけん",
+        "written": "麻薬犬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug-sniffing dog"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくたんちけん",
+        "written": "麻薬探知犬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "druggist's mortar"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やげん",
+        "written": "薬研"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drugs to stimulate childbirth"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はやめぐすり",
+        "written": "早め薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "effect of a drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "やくり",
+        "written": "薬理"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "electuary"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねりぐすり",
+        "written": "練り薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "emergency contraceptive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんきゅうひにんやく",
+        "written": "緊急避妊薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "emetic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいとやく",
+        "written": "催吐薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "emetic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はきぐすり",
+        "written": "吐き薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はきぐすり",
+        "written": "吐薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "expectorant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょたんやく",
+        "written": "去痰薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "experimental drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しけんやく",
+        "written": "試験薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "explosive mixture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こんごうかやく",
+        "written": "混合火薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "explosives"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さくやく",
+        "written": "さく薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "さくやく",
+        "written": "炸薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "eye drops"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんがんやく",
+        "written": "点眼薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "eyewash"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんがんやく",
+        "written": "洗眼薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "folk medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みんかんやく",
+        "written": "民間薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fungicide"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さつしんきんやく",
+        "written": "殺真菌薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gastric antacid"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいさんやく",
+        "written": "制酸薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general-purpose cold medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうごうかんぼうやく",
+        "written": "総合感冒薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "generic drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうはついやくひん",
+        "written": "後発医薬品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "generic drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ジェネリックいやくひん",
+        "written": "ジェネリック医薬品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "generic drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぞろやく",
+        "written": "ぞろ薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゾロやく",
+        "written": "ゾロ薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "genomic drug discovery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゲノムそうやく",
+        "written": "ゲノム創薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "god of medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやくのかみ",
+        "written": "医薬の神"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "good medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうやく",
+        "written": "良薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guncotton"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうめんやく",
+        "written": "強綿薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gunpowder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうやく",
+        "written": "硝薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hair restorer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けはえぐすり",
+        "written": "毛生え薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "harmful side effects of a medicine or drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やっか",
+        "written": "薬禍"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "harmful side effects of a medicine or drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "やくがい",
+        "written": "薬害"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "herbal medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうやく",
+        "written": "草薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "herbal therapy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくそうりょうほう",
+        "written": "薬草療法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "high explosive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせいのうばくやく",
+        "written": "高性能爆薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "household medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうびやく",
+        "written": "常備薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "illegal drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いほうやくぶつ",
+        "written": "違法薬物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indicator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しじやく",
+        "written": "指示薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "infusion (remedy)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふりだしぐすり",
+        "written": "振り出し薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふりだしぐすり",
+        "written": "振出し薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "investigational new drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちけんやく",
+        "written": "治験薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "laxative"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんげやく",
+        "written": "緩下薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "laxative"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げやく",
+        "written": "下薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "liquid medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくえき",
+        "written": "薬液"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "magic potion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まほうやく",
+        "written": "魔法薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medical fee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくれい",
+        "written": "薬礼"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medical, dental and pharmacological"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いしやく",
+        "written": "医歯薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medically effective ingredient"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やっこうぶつ",
+        "written": "薬効物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicated bath"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくよく",
+        "written": "薬浴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicinal action"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくりさよう",
+        "written": "薬理作用"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicinal cooking (based on traditional Chinese medicine)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぜん",
+        "written": "薬膳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicinal drink made from plants steeped in mirin"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくみしゅ",
+        "written": "薬味酒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicinal herb"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "やくそう",
+        "written": "薬草"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicinal soap"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくようせっけん",
+        "written": "薬用石鹸"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やくようせっけん",
+        "written": "薬用石鹼"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicinal use"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "やくよう",
+        "written": "薬用"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicinal-herb garden"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくえん",
+        "written": "薬園"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicine available under health insurance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほけんやく",
+        "written": "保険薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicine box"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりばこ",
+        "written": "薬箱"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicine cabinet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくだな",
+        "written": "薬棚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicine chest (container)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくろう",
+        "written": "薬籠"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicine left by a salesman, and paid for when used"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はいちやく",
+        "written": "配置薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicine taken internally"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないふくやく",
+        "written": "内服薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicine taken internally"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないようやく",
+        "written": "内用薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mouthwash"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うがいぐすり",
+        "written": "うがい薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うがいぐすり",
+        "written": "嗽薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "munitions bunker"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばくやくこ",
+        "written": "爆薬庫"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "muscle relaxant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんしかんやく",
+        "written": "筋弛緩薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "myrrh"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もつやく",
+        "written": "没薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "name of a drug or medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくめい",
+        "written": "薬名"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "narcotic addiction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくじょうよう",
+        "written": "麻薬常用"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "narcotic analgesic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくせいちんつうやく",
+        "written": "麻薬性鎮痛薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "necessity guaranteed to cure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひっちやく",
+        "written": "必治薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "neither medicines nor medical care having little effect on a patient"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくせきむこう",
+        "written": "薬石無効"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no medical treatment having proved effective"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくせきこうなく",
+        "written": "薬石効なく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やくせきこうなく",
+        "written": "薬石効無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nose drops"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんびやく",
+        "written": "点鼻薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "observing and reviewing the effects of a drug after it has been released onto the market"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いくやく",
+        "written": "育薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one can give a plausible argument for anything"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りくつとこうやくはどこへでもつく",
+        "written": "理屈と膏薬はどこへでもつく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "りくつとこうやくはどこへでもつく",
+        "written": "理屈と膏薬はどこへでも付く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one's usual medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じやく",
+        "written": "持薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "organic farming"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むのうやくのうほう",
+        "written": "無農薬農法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "organically produced vegetables"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むのうやくやさい",
+        "written": "無農薬野菜"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "over-the-counter drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しはんやく",
+        "written": "市販薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "over-the-counter drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいしゅうやく",
+        "written": "大衆薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "over-the-counter drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "オーティーシーやく",
+        "written": "ＯＴＣ薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paper for wrapping powdered medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくほうし",
+        "written": "薬包紙"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmaceutical affairs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくじ",
+        "written": "薬事"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmaceutical company"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくひんがいしゃ",
+        "written": "薬品会社"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmaceutical industry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいやくぎょうかい",
+        "written": "製薬業界"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmaceutical inspector"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくじかんしいん",
+        "written": "薬事監視員"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmaceutics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくざいがく",
+        "written": "薬剤学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacodynamics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくりきがく",
+        "written": "薬力学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacokinetics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつどうたい",
+        "written": "薬物動態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacokinetics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつどうたいがく",
+        "written": "薬物動態学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacological activity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくりかっせい",
+        "written": "薬理活性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacologist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくがくしゃ",
+        "written": "薬学者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacologist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくりがくしゃ",
+        "written": "薬理学者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつがく",
+        "written": "薬物学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "やくりがく",
+        "written": "薬理学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacopeia"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やっきょくほう",
+        "written": "薬局方"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やっきょくほう",
+        "written": "薬局法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacotherapy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつりょうほう",
+        "written": "薬物療法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacy (subject)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やっか",
+        "written": "薬科"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacy right outside a doctor's office or hospital"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もんぜんやっきょく",
+        "written": "門前薬局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pill"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がんやく",
+        "written": "丸薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "placebo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きやすめぐすり",
+        "written": "気休め薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "placebo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎやく",
+        "written": "偽薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぎやく",
+        "written": "擬薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "placebo effect"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎやくこうか",
+        "written": "偽薬効果"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "poison"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "どくやく",
+        "written": "毒薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "poison in medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくどく",
+        "written": "薬毒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "poison pill (anti-takeover measure)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どくやくじょうこう",
+        "written": "毒薬条項"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "powdered medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんやく",
+        "written": "散薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prescription"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくせん",
+        "written": "薬箋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prescription"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくほう",
+        "written": "薬方"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prescription drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょほうやく",
+        "written": "処方薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prevention is better than cure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりよりようじょう",
+        "written": "薬より養生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "priming powders"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんかやく",
+        "written": "点火薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "principal agent (in a medicine)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅやく",
+        "written": "主薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "propellant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいやく",
+        "written": "推薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "propellant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はっしゃやく",
+        "written": "発射薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "proper diet and Chinese herbal medicine share the same principles"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくしょくどうげん",
+        "written": "薬食同源"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "psychopharmacology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいしんやくりがく",
+        "written": "精神薬理学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "psychotropic drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせいしんやく",
+        "written": "向精神薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "radioactive indicator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうしゃせいしじやく",
+        "written": "放射性指示薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reagent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "しやく",
+        "written": "試薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reduction in the use of agricultural chemicals"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんのうやく",
+        "written": "減農薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regulatory approval of a drug or medical device"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくじしょうにん",
+        "written": "薬事承認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rice grown with reduced agricultural chemicals"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんのうやくまい",
+        "written": "減農薬米"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rubefacient (substance that causes redness of skin)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いんせきやく",
+        "written": "引赤薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rubefacient (substance that causes redness of skin)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はっせきやく",
+        "written": "発赤薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "satchel charge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こんぽうばくやく",
+        "written": "梱包爆薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "separation of medical and dispensary practice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやくぶんぎょう",
+        "written": "医薬分業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shaped charge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しこうせいばくやく",
+        "written": "指向性爆薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sleeping medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいみんやく",
+        "written": "催眠薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "smokeless (gun)powder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むえんかやく",
+        "written": "無煙火薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "specific medicine or remedy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てきやく",
+        "written": "適薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "specific remedy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あいぐすり",
+        "written": "合い薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stimulant drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうふんやく",
+        "written": "興奮薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stomach medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いぐすり",
+        "written": "胃薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sundry remedies"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひゃくやく",
+        "written": "百薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "suppository"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざやく",
+        "written": "坐薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ざやく",
+        "written": "座薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "synthetic drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごうせいやく",
+        "written": "合成薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taking medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "ふくやく",
+        "written": "服薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "test drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひけんやく",
+        "written": "被験薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the best medicine (i.e. sake)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひゃくやくのちょう",
+        "written": "百薬の長"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the four drug-control laws of Japan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつよんぽう",
+        "written": "薬物四法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "there's no medicine for stupidity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あほうにつけるくすりなし",
+        "written": "阿呆に付ける薬なし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "アホにつけるくすりなし",
+        "written": "アホにつける薬なし"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to apply eyedrops"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めぐすりをさす",
+        "written": "目薬を差す"
+      },
+      {
+        "priorities": [],
+        "pronounced": "めぐすりをさす",
+        "written": "目薬を注す"
+      },
+      {
+        "priorities": [],
+        "pronounced": "めぐすりをさす",
+        "written": "目薬を点す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to apply medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりをつける",
+        "written": "薬をつける"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすりをつける",
+        "written": "薬を付ける"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to bribe"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はなぐすりをかがせる",
+        "written": "鼻薬をかがせる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はなぐすりをかがせる",
+        "written": "鼻薬を嗅がせる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to have medicine be effective"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりがきく",
+        "written": "クスリが効く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすりがきく",
+        "written": "薬がきく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすりがきく",
+        "written": "薬が効く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to inject a unit of dope"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくをうつ",
+        "written": "薬を打つ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to put a kettle on (the stove)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やかんをかける",
+        "written": "薬罐をかける"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やかんをかける",
+        "written": "薬罐を掛ける"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "traditional Chinese medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうやく",
+        "written": "中薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tranquilizer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいしんあんていやく",
+        "written": "精神安定薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "treatment by medicine and diet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくじりょうほう",
+        "written": "薬餌療法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tricyclic antidepressant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんかんけいこううつやく",
+        "written": "三環系抗うつ薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "triggering explosive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きばくやく",
+        "written": "起爆薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vasoconstrictor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けっかんしゅうしゅくやく",
+        "written": "血管収縮薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "winter-time practice of eating meat of animals such as boar and deer to ward off cold"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりぐい",
+        "written": "薬喰い"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすりぐい",
+        "written": "薬食い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yakbap (sweet Korean dish with rice and nuts)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ヤクパプ",
+        "written": "薬飯"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ヤッパプ",
+        "written": "薬飯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yaksik (sweet Korean dish with rice and nuts)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ヤクシク",
+        "written": "薬食"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(ammunition) cartridge",
+          "shell case"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やっきょう",
+        "written": "薬きょう"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やっきょう",
+        "written": "薬莢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(medical) decoction",
+          "infusion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんじぐすり",
+        "written": "煎じ薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(medical) decoction",
+          "infusion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんやく",
+        "written": "煎薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(study of) pharmacy",
+          "pharmaceutics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "やくがく",
+        "written": "薬学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Bhaishajyaguru triad",
+          "image of Bhaishajyaguru Buddha flanked by the Bodhisattvas Suryaprabha and Candraprabha"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくしさんぞん",
+        "written": "薬師三尊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese medicine",
+          "herbal medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんやく",
+        "written": "漢薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Drug Enforcement Administration (US)",
+          "DEA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくとりしまりきょく",
+        "written": "麻薬取締局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Drug Information Association",
+          "DIA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやくひんじょうほうきょうかい",
+        "written": "医薬品情報協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Federation Internationale Pharmaceutique",
+          "International Pharmaceutical Federation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいやくがくれんごう",
+        "written": "国際薬学連合"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Food and Drug Administration (US)",
+          "FDA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくひんいやくひんきょく",
+        "written": "食品医薬品局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "International Society of Pharmaceutical Engineering",
+          "ISPE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいせいやくぎじゅつきょうかい",
+        "written": "国際製薬技術協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Association of Cardiovascular Pharmacology",
+          "JACP"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんじゅんかんやくりがっかい",
+        "written": "日本循環薬理学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Society of Neuropsychopharmacology",
+          "JSNP"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんしんけいせいしんやくりがっかい",
+        "written": "日本神経精神薬理学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese and Chinese medicine",
+          "oriental medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わかんやく",
+        "written": "和漢薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Institute of Health Sciences",
+          "NIHS"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくりついやくひんしょくひんえいせいけんきゅうじょ",
+        "written": "国立医薬品食品衛生研究所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Institute on Drug Abuse",
+          "NIDA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくりつやくぶつらんようけんきゅうじょ",
+        "written": "国立薬物乱用研究所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Pesticide Science Society of Japan",
+          "PSSJ"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんのうやくがっかい",
+        "written": "日本農薬学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Pharmaceutical Research and Manufacturers of America",
+          "PhRMA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べいこくけんきゅうせいやくこうぎょうきょうかい",
+        "written": "米国研究製薬工業協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Shimose powder (explosive composed chiefly of picric acid)",
+          "Shimose"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しもせかやく",
+        "written": "下瀬火薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United Nations Office on Drugs and Crime",
+          "UNODC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくれんやくぶつはんざいじむしょ",
+        "written": "国連薬物犯罪事務所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abortifacient",
+          "abortive drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だたいやく",
+        "written": "堕胎薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abortion pill",
+          "abortion-inducing drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうぜつやく",
+        "written": "中絶薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ammunition",
+          "ammo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "だんやく",
+        "written": "弾薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "analepticum",
+          "restorative medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいふくやく",
+        "written": "回復薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anesthetic",
+          "anaesthetic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しびれぐすり",
+        "written": "しびれ薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しびれぐすり",
+        "written": "痺れ薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anti-anxiety agent",
+          "anti-anxiety drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうふあんやく",
+        "written": "抗不安薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anti-inflammatory drug",
+          "anti-inflammatory agent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうえんしょうやく",
+        "written": "抗炎症薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antibacterial drugs",
+          "antimicrobial drugs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうきんやく",
+        "written": "抗菌薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anticonvulsant",
+          "antiepileptic agent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうてんかんやく",
+        "written": "抗てんかん薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こうてんかんやく",
+        "written": "抗癲癇薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antipyretic",
+          "antifebrile"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げねつやく",
+        "written": "解熱薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antituberculous drug",
+          "antitubercular agent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうけっかくやく",
+        "written": "抗結核薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aphrodisiac",
+          "tonic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうせいやく",
+        "written": "強精薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "arms and ammunition",
+          "weapons and ammunition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶきだんやく",
+        "written": "武器弾薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "black powder",
+          "gunpowder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくしょくかやく",
+        "written": "黒色火薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "carminative",
+          "gripe water"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くふうやく",
+        "written": "駆風薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "charging with gunpowder",
+          "charge of gunpowder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうやく",
+        "written": "装薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chartula",
+          "cartridge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくほう",
+        "written": "薬包"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chemical burn",
+          "chemical injury"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくしょう",
+        "written": "薬傷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "complete mastery of or over",
+          "at one's beck and call"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じかやくろうちゅうのもの",
+        "written": "自家薬籠中の物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "complete mastery of or over",
+          "at one's beck and call"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくろうちゅうのもの",
+        "written": "薬籠中の物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "condiment (e.g. grated or chopped topping such as daikon, wasabi, ginger, green onion, red pepper)",
+          "spice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf34",
+          "spec2"
+        ],
+        "pronounced": "やくみ",
+        "written": "薬味"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "contraceptive",
+          "birth control drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひにんやく",
+        "written": "避妊薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "diagnostic drug",
+          "diagnostic pharmaceutical"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんだんやく",
+        "written": "診断薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "digestive medicine",
+          "medicine for the stomach and bowels"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いちょうやく",
+        "written": "胃腸薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dosage",
+          "dose"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうやくりょう",
+        "written": "投薬量"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug addict",
+          "junkie"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくちゅうどくしゃ",
+        "written": "麻薬中毒者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug combination",
+          "drug cocktail"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こんごうやく",
+        "written": "混合薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug dependence",
+          "substance dependence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶついそんしょう",
+        "written": "薬物依存症"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やくぶついぞんしょう",
+        "written": "薬物依存症"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug master file",
+          "DMF"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんやくなどとうろくげんぼ",
+        "written": "原薬等登録原簿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug price",
+          "cost of medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくか",
+        "written": "薬価"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "やっか",
+        "written": "薬価"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug trafficking",
+          "dealing in illegal drugs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくみつばい",
+        "written": "麻薬密売"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug withdrawal",
+          "cessation of medication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうやく",
+        "written": "休薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug-resistant bacterium",
+          "drug-resistant bacteria"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくざいたいせいきん",
+        "written": "薬剤耐性菌"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "druglord",
+          "drug baron"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくおう",
+        "written": "麻薬王"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drugs",
+          "ingredients (for Chinese medicine)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくしゅ",
+        "written": "薬種"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dye retarding agent",
+          "leveling agent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あしどめぐすり",
+        "written": "足留め薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あしどめぐすり",
+        "written": "足留薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ear drops (medicine)",
+          "eardrops"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんじやく",
+        "written": "点耳薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "effective medicine",
+          "well-known medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めいやく",
+        "written": "名薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "effectiveness of a drug",
+          "efficacy of a drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりのちから",
+        "written": "薬の力"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ethical pharmaceuticals",
+          "prescription drugs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いりょうよういやくひん",
+        "written": "医療用医薬品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "explosive",
+          "blasting powder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28",
+          "spec2"
+        ],
+        "pronounced": "ばくやく",
+        "written": "爆薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "eye drops",
+          "eye lotion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さしぐすり",
+        "written": "差し薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "eye drops",
+          "eyewash"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "めぐすり",
+        "written": "目薬"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "めぐすり",
+        "written": "眼薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "galactogogue",
+          "galactagogue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいにゅうやく",
+        "written": "催乳薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gargle medicine",
+          "mouthwash"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がんそうやく",
+        "written": "含嗽薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general anesthetic",
+          "general anaesthetic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんしんますいやく",
+        "written": "全身麻酔薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "glaze",
+          "enamel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うわぐすり",
+        "written": "うわ薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うわぐすり",
+        "written": "上薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うわぐすり",
+        "written": "上釉"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うわぐすり",
+        "written": "釉"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うわぐすり",
+        "written": "釉薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆう",
+        "written": "釉"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ゆうやく",
+        "written": "釉薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "good wine makes good blood",
+          "sake is the best of all medicines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さけはひゃくやくのちょう",
+        "written": "酒は百薬の長"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guncotton",
+          "cotton powder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めんかやく",
+        "written": "綿火薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gunpowder",
+          "powder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "かやく",
+        "written": "火薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hallucinogen",
+          "psychedelic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんかくやく",
+        "written": "幻覚薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "harmless but pointless",
+          "neither bad nor good"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どくにもくすりにもならない",
+        "written": "毒にも薬にもならない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "high-risk medication",
+          "HRM"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ハイリスクやく",
+        "written": "ハイリスク薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hop trefoil (Trifolium campestre)",
+          "low hop clover"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすだまつめくさ",
+        "written": "薬玉詰草"
+      },
+      {
+        "priorities": [],
+        "pronounced": "クスダマツメクサ",
+        "written": "薬玉詰草"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intravenous anaesthetic",
+          "intravenous anesthetic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうみゃくますいやく",
+        "written": "静脈麻酔薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "killing by poison",
+          "poisoning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくさつ",
+        "written": "薬殺"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medical efficacy",
+          "effect of a medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "やっこう",
+        "written": "薬効"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "やっこう",
+        "written": "薬效"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicinal ingredient",
+          "ingredients for medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくざい",
+        "written": "薬材"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicinal plant",
+          "medicinal herb"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくようしょくぶつ",
+        "written": "薬用植物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicine",
+          "chemicals"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "やくひん",
+        "written": "薬品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicine",
+          "drugs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくじ",
+        "written": "薬餌"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicine bottle",
+          "vial"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりびん",
+        "written": "薬瓶"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicine for external use",
+          "external medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいようやく",
+        "written": "外用薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicine manufacture",
+          "drug manufacture"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "せいやく",
+        "written": "製薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicines",
+          "drugs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "やくぶつ",
+        "written": "薬物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mydriatic agent",
+          "mydriatic drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんどうやく",
+        "written": "散瞳薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "narcotics squad",
+          "narc squad"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくとりしまりはん",
+        "written": "麻薬取締班"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "new medicine",
+          "new drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "しんやく",
+        "written": "新薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-prescription drug",
+          "over-the-counter drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっぱんよういやくひん",
+        "written": "一般用医薬品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nonsteroidal anti-inflammatory drug",
+          "NSAID"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひステロイドせいこうえんしょうやく",
+        "written": "非ステロイド性抗炎症薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ointment",
+          "lotion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つけぐすり",
+        "written": "付け薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one man's meat is another man's poison",
+          "one man's medicine is another man's poison"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうのくすりはおつのどく",
+        "written": "甲の薬は乙の毒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "oral contraceptives",
+          "the pill"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいこうひにんやく",
+        "written": "経口避妊薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "oral medicine",
+          "internal medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "のみぐすり",
+        "written": "飲み薬"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "のみぐすり",
+        "written": "飲薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "original drug",
+          "originator drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんぱついやくひん",
+        "written": "先発医薬品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "over-the-counter drug",
+          "medication bought directly from the drugstore without a prescription"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいぐすり",
+        "written": "買い薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かいぐすり",
+        "written": "買薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "panacea",
+          "elixir (of life)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんやく",
+        "written": "仙薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "patent medicine",
+          "nonprescription drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うりぐすり",
+        "written": "売り薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うりぐすり",
+        "written": "売薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばいやく",
+        "written": "売薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pesticide residue",
+          "agrochemical residues"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざんりゅうのうやく",
+        "written": "残留農薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmaceutical college",
+          "college of pharmacy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やっかだいがく",
+        "written": "薬科大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmaceutical company",
+          "pharma company"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいやくがいしゃ",
+        "written": "製薬会社"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmaceutical department",
+          "college of pharmacy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくがくぶ",
+        "written": "薬学部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmaceutical industry",
+          "medicine industry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぎょうかい",
+        "written": "薬業界"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacist",
+          "chemist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "やくざいし",
+        "written": "薬剤師"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacognosy",
+          "the study of medicinal drugs derived from plants or other natural sources"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうやくがく",
+        "written": "生薬学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "plate for compounding condiments",
+          "small dish for serving condiments"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくみざら",
+        "written": "薬味皿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "potion",
+          "liquid medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいやく",
+        "written": "水薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "みずぐすり",
+        "written": "水薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "poultice",
+          "cataplasm"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しっぷやく",
+        "written": "湿布薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "powdered medicine",
+          "powder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こぐすり",
+        "written": "粉薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こなぐすり",
+        "written": "粉薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "powerful medicine",
+          "strong poison"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36",
+          "spec2"
+        ],
+        "pronounced": "げきやく",
+        "written": "劇薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pregnancy test kit",
+          "pregnancy test"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にんしんけんさやく",
+        "written": "妊娠検査薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prophylactic (drug)",
+          "preventive medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よぼうやく",
+        "written": "予防薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quick-acting remedy",
+          "fast-acting medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そっこうやく",
+        "written": "即効薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "remedy for a cold",
+          "cold medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かざぐすり",
+        "written": "風薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かざぐすり",
+        "written": "風邪薬"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "かぜぐすり",
+        "written": "かぜ薬"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "かぜぐすり",
+        "written": "風薬"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "かぜぐすり",
+        "written": "風邪薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "restorative",
+          "smelling salts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きつけぐすり",
+        "written": "気つけ薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きつけぐすり",
+        "written": "気付け薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "selective serotonin reuptake inhibitor",
+          "SSRI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんたくてきセロトニンさいとりこみそがいやく",
+        "written": "選択的セロトニン再取り込み阻害薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sleeping pill",
+          "sleep medication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいみんやく",
+        "written": "睡眠薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "spent shell casing",
+          "empty cartridge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "からやっきょう",
+        "written": "空薬莢"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "spermicide",
+          "spermatocide"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さつせいしやく",
+        "written": "殺精子薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stimulant",
+          "irritant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しげきやく",
+        "written": "刺激薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stomachic",
+          "stomach medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんいやく",
+        "written": "健胃薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the most helpful advice may be difficult to listen to",
+          "good medicine tastes bitter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りょうやくはくちににがし",
+        "written": "良薬は口に苦し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be beneficial (to)",
+          "to do (a person) good"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりになる",
+        "written": "薬になる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to do drugs",
+          "to take (illicit) drugs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりをやる",
+        "written": "薬をやる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やくをやる",
+        "written": "薬をやる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "クスリをやる",
+        "written": "薬をやる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ヤクをやる",
+        "written": "薬をやる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to learn a lesson (usu. from an unpleasant experience)",
+          "to be good for someone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いいくすりになる",
+        "written": "いい薬になる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いいくすりになる",
+        "written": "良い薬になる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tonic",
+          "pick-me-up"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうそうやく",
+        "written": "強壮薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "traditional Japanese medicine",
+          "Japanese folk medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わやく",
+        "written": "和薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trinitrotoluene",
+          "TNT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゃかつやく",
+        "written": "茶褐薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vasodilator",
+          "vasodepressor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けっかんかくちょうやく",
+        "written": "血管拡張薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what is bad for you might end up good",
+          "poison changes into medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どくやくへんじてくすりとなる",
+        "written": "毒薬変じて薬となる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "yakutaishi",
+          "type of washi wrapping paper used for wrapping medicines"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくたいし",
+        "written": "薬袋紙"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(something that is) available for use at any time",
+          "(someone who is) at one's beck and call",
+          "(something over which) one has complete mastery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じかやくろう",
+        "written": "自家薬籠"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Bhaisajyaguru",
+          "Pindola",
+          "The Healing Buddha"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "やくし",
+        "written": "薬師"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a born fool is never cured",
+          "there is no cure for stupidity",
+          "there is no medicine for fools"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばかにつけるくすりはない",
+        "written": "バカにつける薬はない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばかにつけるくすりはない",
+        "written": "バカにつける薬は無い"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばかにつけるくすりはない",
+        "written": "バカに付ける薬はない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばかにつけるくすりはない",
+        "written": "バカに付ける薬は無い"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばかにつけるくすりはない",
+        "written": "馬鹿につける薬はない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばかにつけるくすりはない",
+        "written": "馬鹿につける薬は無い"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばかにつけるくすりはない",
+        "written": "馬鹿に付ける薬はない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ばかにつけるくすりはない",
+        "written": "馬鹿に付ける薬は無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adhesive skin patch",
+          "transdermal patch",
+          "medical patch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はりぐすり",
+        "written": "はり薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はりぐすり",
+        "written": "貼り薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "administration",
+          "medication",
+          "dosage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "とうやく",
+        "written": "投薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "agricultural chemical (i.e. pesticide, herbicide, fungicide, etc.)",
+          "agrochemical",
+          "agrichemical"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "のうやく",
+        "written": "農薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ammunition depot",
+          "ammunition dump",
+          "powder magazine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だんやくこ",
+        "written": "弾薬庫"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anesthetic",
+          "anaesthetic",
+          "narcotic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ますいやく",
+        "written": "麻酔薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antifungal drug",
+          "antifungal medication",
+          "antifungal agent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうしんきんやく",
+        "written": "抗真菌薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antihypertensive",
+          "hypotensive drug",
+          "blood pressure-lowering medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうあつやく",
+        "written": "降圧薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "antispasmodic drug",
+          "spasmolytic drug",
+          "anticonvulsant drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんけいやく",
+        "written": "鎮痙薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "apothecary",
+          "druggist",
+          "chemist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくしゅしょう",
+        "written": "薬種商"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cathartic",
+          "purgative",
+          "laxative"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃやく",
+        "written": "瀉薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chemical resistance",
+          "resistant to chemicals",
+          "chemical proof"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいやくひんせい",
+        "written": "耐薬品性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cough suppressant",
+          "antitussive drug",
+          "cough medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんがいやく",
+        "written": "鎮咳薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cure-all",
+          "panacea",
+          "heal-all"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まんびょうやく",
+        "written": "万病薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dispensary",
+          "dispensing pharmacy",
+          "pharmacist's office"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうざいやっきょく",
+        "written": "調剤薬局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dope",
+          "narcotic",
+          "drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やく",
+        "written": "薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ヤク",
+        "written": "薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "double-dealer",
+          "timeserver",
+          "moving back and forth between two sides in a conflict"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふたまたこうやく",
+        "written": "二股膏薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふたまたごうやく",
+        "written": "二股膏薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "double-dealer",
+          "timeserver",
+          "moving back and forth between two sides in a conflict"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "またぐらこうやく",
+        "written": "股座膏薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "またぐらごうやく",
+        "written": "股座膏薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug addiction",
+          "drug addict",
+          "junkie"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくちゅう",
+        "written": "ヤク中"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やくちゅう",
+        "written": "薬中"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug administration",
+          "giving of a drug",
+          "medication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつとうよ",
+        "written": "薬物投与"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug cartel",
+          "drug ring",
+          "drug syndicate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくそしき",
+        "written": "麻薬組織"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug czar",
+          "Director of the White House Office of National Drug Control Policy",
+          "ONDCP"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくもんだいたんとうちょうかん",
+        "written": "麻薬問題担当長官"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug discovery",
+          "drug design",
+          "development of new drugs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうやく",
+        "written": "創薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug history handbook",
+          "drug notebook",
+          "medical diary"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おくすりてちょう",
+        "written": "おくすり手帳"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おくすりてちょう",
+        "written": "お薬手帳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drugstore",
+          "pharmacy",
+          "chemist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくほ",
+        "written": "薬舗"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やくほ",
+        "written": "薬鋪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "laxative",
+          "purgative",
+          "evacuant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くだしぐすり",
+        "written": "下し薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "laxative",
+          "purgative",
+          "evacuant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つうじぐすり",
+        "written": "通じ薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "love potion",
+          "philter",
+          "aphrodisiac"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほれぐすり",
+        "written": "ほれ薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ほれぐすり",
+        "written": "惚れ薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicine",
+          "drug",
+          "chemical"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "やくざい",
+        "written": "薬剤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "miraculous medicine",
+          "miracle drug",
+          "wonder drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れいやく",
+        "written": "霊薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "monoamine oxidase inhibitor",
+          "MAO inhibitor",
+          "MAOI"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "モノアミンさんかこうそそがいやく",
+        "written": "モノアミン酸化酵素阻害薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "narcotic",
+          "drug",
+          "dope"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "まやく",
+        "written": "痲薬"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "まやく",
+        "written": "麻薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "organic farming",
+          "organic cultivation",
+          "farming without pesticides"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むのうやくさいばい",
+        "written": "無農薬栽培"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "overprescription",
+          "overmedication",
+          "drug dependence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりづけ",
+        "written": "クスリ漬け"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすりづけ",
+        "written": "薬づけ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすりづけ",
+        "written": "薬漬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすりづけ",
+        "written": "薬漬け"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pesticide-free",
+          "non-chemical",
+          "organic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むのうやく",
+        "written": "無農薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacy (esp. one without facilities to prepare their own medicines)",
+          "drugstore",
+          "chemist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくてん",
+        "written": "薬店"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quit-smoking drug",
+          "smoking-cessation aid",
+          "stop-smoking medication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんえんほじょやく",
+        "written": "禁煙補助薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quitting drugs",
+          "going cold turkey",
+          "going clean"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんやく",
+        "written": "禁薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きんヤク",
+        "written": "禁ヤク"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "salve",
+          "ointment",
+          "potion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きずぐすり",
+        "written": "傷薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きずぐすり",
+        "written": "疵薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "specific medicine",
+          "wonder drug",
+          "silver bullet"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "とっこうやく",
+        "written": "特効薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "spraying of agrochemicals",
+          "pesticide spraying",
+          "crop-dusting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のうやくさんぷ",
+        "written": "農薬散布"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "synthetic drug",
+          "synthetic narcotic",
+          "designer drug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごうせいまやく",
+        "written": "合成麻薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "there is a huge markup in medicines, making it a profitable field",
+          "medicines sell for ten times the cost of their ingredients",
+          "medicine ten times"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりくそうばい",
+        "written": "薬九層倍"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be ready and waiting",
+          "to be on the alert",
+          "to be on the watch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てぐすねひく",
+        "written": "手ぐすねひく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "てぐすねひく",
+        "written": "手ぐすね引く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "てぐすねひく",
+        "written": "手薬煉引く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "てぐすねひく",
+        "written": "手薬練引く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to work too well (of a punishment, reprimand, etc.)",
+          "to be too much (for someone)",
+          "to have a stronger effect than intended"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりがききすぎる",
+        "written": "薬がききすぎる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすりがききすぎる",
+        "written": "薬が効きすぎる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすりがききすぎる",
+        "written": "薬が効き過ぎる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "universal medicine",
+          "cure-all",
+          "panacea"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばんのうやく",
+        "written": "万能薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wonder drug",
+          "miracle cure",
+          "elixir"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きやく",
+        "written": "奇薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wonder drug",
+          "miracle cure",
+          "elixir"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf39"
+        ],
+        "pronounced": "みょうやく",
+        "written": "妙薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "caustic",
+          "corrosive agent",
+          "etching reagent",
+          "escharotic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふしょくやく",
+        "written": "腐食薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug deal",
+          "drug dealing",
+          "drug trafficking",
+          "drug trade"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくとりひき",
+        "written": "麻薬取引"
+      },
+      {
+        "priorities": [],
+        "pronounced": "まやくとりひき",
+        "written": "麻薬取引き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gambir",
+          "gambier",
+          "catechu",
+          "cutch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あせんやく",
+        "written": "阿仙薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "laxative",
+          "cathartic",
+          "evacuant",
+          "purgative"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃかやく",
+        "written": "瀉下薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しゃげやく",
+        "written": "瀉下薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medical cream",
+          "ointment",
+          "salve",
+          "liniment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぬりぐすり",
+        "written": "塗り薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぬりぐすり",
+        "written": "塗薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "quasi-drug",
+          "medicated products",
+          "quasi-medicine",
+          "product with relatively mild medicinal effect, sold in general stores as well as pharmacies"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやくぶがいひん",
+        "written": "医薬部外品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medical and pharmaceutical products",
+          "medicinal supplies",
+          "drugs",
+          "pharmaceuticals",
+          "medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "いやくひん",
+        "written": "医薬品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "natural drugs",
+          "natural remedy",
+          "herbal medicine",
+          "crude drugs",
+          "galenical"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きぐすり",
+        "written": "生薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せいやく",
+        "written": "生薬"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "しょうやく",
+        "written": "生薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sleeping powder",
+          "sleeping drug",
+          "narcotic",
+          "anaesthetic",
+          "anesthetic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ねむりぐすり",
+        "written": "眠り薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "therapeutic agent",
+          "remedy",
+          "medicine",
+          "drug",
+          "cure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちりょうやく",
+        "written": "治療薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "double-dealer",
+          "fence-sitter",
+          "timeserver",
+          "moving back and forth between two sides in a conflict",
+          "duplicity",
+          "turncoat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うちまたこうやく",
+        "written": "内股膏薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うちまたごうやく",
+        "written": "内股膏薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(ammunition) cartridge"
+        ]
+      },
+      {
+        "glosses": [
+          "(chlorine) feeder tube"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくとう",
+        "written": "薬筒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Pharmaceutical and Food Safety Bureau"
+        ]
+      },
+      {
+        "glosses": [
+          "medicine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "いやく",
+        "written": "医薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adjuvant"
+        ]
+      },
+      {
+        "glosses": [
+          "revitalizing stimulant (in Chinese medicine)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほやく",
+        "written": "補薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aphrodisiac"
+        ]
+      },
+      {
+        "glosses": [
+          "love potion",
+          "philter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びやく",
+        "written": "媚薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bald head"
+        ]
+      },
+      {
+        "glosses": [
+          "kettle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "やかん",
+        "written": "薬缶"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "やかん",
+        "written": "薬罐"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "やかん",
+        "written": "薬鑵"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug addiction"
+        ]
+      },
+      {
+        "glosses": [
+          "medicinal poisoning",
+          "chemical poisoning",
+          "drug poisoning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぶつちゅうどく",
+        "written": "薬物中毒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fourth toe"
+        ]
+      },
+      {
+        "glosses": [
+          "ring finger",
+          "third finger",
+          "fourth finger (in piano-playing)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "くすりゆび",
+        "written": "くすり指"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "くすりゆび",
+        "written": "薬指"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hanging decorative ball that splits in half to release confetti, streamers, balloons, etc. (for celebratory events)"
+        ]
+      },
+      {
+        "glosses": [
+          "ornamental ball-shaped scent bag"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすだま",
+        "written": "くす玉"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすだま",
+        "written": "クス玉"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすだま",
+        "written": "久寿玉"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすだま",
+        "written": "薬玉"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "insect repellent"
+        ]
+      },
+      {
+        "glosses": [
+          "anthelmintic",
+          "vermifuge",
+          "vermicide"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くちゅうやく",
+        "written": "駆虫薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "powder keg"
+        ]
+      },
+      {
+        "glosses": [
+          "gunpowder magazine",
+          "magazine",
+          "explosives warehouse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かやくこ",
+        "written": "火薬庫"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "small bottle for carrying gunpowder"
+        ]
+      },
+      {
+        "glosses": [
+          "prescription bag",
+          "pharmacy bag"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくたい",
+        "written": "薬袋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "frustratingly difficult task",
+          "(applying) eyedrops from the second floor"
+        ]
+      },
+      {
+        "glosses": [
+          "roundabout and inefficient way",
+          "something totally ineffective"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にかいからめぐすり",
+        "written": "二階から目薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hospital pharmacy",
+          "dispensary"
+        ]
+      },
+      {
+        "glosses": [
+          "pharmacy",
+          "drugstore",
+          "chemist's (shop)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "やっきょく",
+        "written": "薬局"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ointment",
+          "liniment"
+        ]
+      },
+      {
+        "glosses": [
+          "plaster",
+          "patch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あぶらぐすり",
+        "written": "油薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あぶらぐすり",
+        "written": "脂薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あぶらぐすり",
+        "written": "膏薬"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こうやく",
+        "written": "膏薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacy",
+          "drugstore"
+        ]
+      },
+      {
+        "glosses": [
+          "apothecary",
+          "druggist",
+          "chemist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくしゅや",
+        "written": "薬種屋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "supper in a Zen temple",
+          "rice porridge served for supper in a Zen temple"
+        ]
+      },
+      {
+        "glosses": [
+          "various medicines",
+          "medical treatment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくせき",
+        "written": "薬石"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wonder drug",
+          "excellent remedy"
+        ]
+      },
+      {
+        "glosses": [
+          "secret medicine",
+          "secret remedy",
+          "nostrum"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひやく",
+        "written": "秘薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pharmacist",
+          "druggist",
+          "chemist",
+          "apothecary"
+        ]
+      },
+      {
+        "glosses": [
+          "pharmacy",
+          "drugstore",
+          "chemist's (shop)",
+          "apothecary"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりや",
+        "written": "くすり屋"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くすりや",
+        "written": "薬屋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "meat, fish, vegetables, etc. added to rice or udon (e.g. to make gomoku meshi)"
+        ]
+      },
+      {
+        "glosses": [
+          "adjuvant (in Chinese medicine)",
+          "addition of an adjuvant"
+        ]
+      },
+      {
+        "glosses": [
+          "spices",
+          "condiments",
+          "seasoning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かやく",
+        "written": "加薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medicated bath"
+        ]
+      },
+      {
+        "glosses": [
+          "medicinal hot spring"
+        ]
+      },
+      {
+        "glosses": [
+          "(medical) decoction",
+          "infusion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くすりゆ",
+        "written": "薬湯"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やくとう",
+        "written": "薬湯"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やくゆ",
+        "written": "薬湯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nose medicine (e.g. nasal spray)"
+        ]
+      },
+      {
+        "glosses": [
+          "soothing sweets (for a child)"
+        ]
+      },
+      {
+        "glosses": [
+          "bribe",
+          "hush money"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はなぐすり",
+        "written": "鼻薬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(pottery) glaze"
+        ]
+      },
+      {
+        "glosses": [
+          "efficacious chemical (gunpowder, pesticide, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "small bribe"
+        ]
+      },
+      {
+        "glosses": [
+          "(illegal) drug",
+          "narcotic"
+        ]
+      },
+      {
+        "glosses": [
+          "medicine",
+          "pharmaceuticals",
+          "(legal) drugs",
+          "pill",
+          "ointment",
+          "salve"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "クスリ",
+        "written": "薬"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf04"
+        ],
+        "pronounced": "くすり",
+        "written": "薬"
+      }
+    ]
+  }
+]

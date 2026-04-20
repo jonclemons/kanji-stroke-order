@@ -1,0 +1,4288 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(act or crime of) pollution"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうがいざい",
+        "written": "公害罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) adultery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふりんざい",
+        "written": "不倫罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) aiding and abetting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうじょざい",
+        "written": "幇助罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) assembling with dangerous weapons"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうきじゅんびしゅうごうざい",
+        "written": "凶器準備集合罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) contempt of court"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうていぶじょくざい",
+        "written": "法廷侮辱罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) defamation (i.e. slander, libel)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶじょくざい",
+        "written": "侮辱罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) gang rape"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうだんごうかんざい",
+        "written": "集団強姦罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) gang rape"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうだんごうかんとうざい",
+        "written": "集団強姦等罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) harboring a fugitive (harbouring)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんにんぞうとくざい",
+        "written": "犯人蔵匿罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) indecent assault"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうせいわいせつざい",
+        "written": "強制わいせつ罪"
+      },
+      {
+        "priorities": [],
+        "pronounced": "きょうせいわいせつざい",
+        "written": "強制猥褻罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) inflicting bodily injury"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうがいざい",
+        "written": "傷害罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) inflicting bodily injury resulting in death"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうがいちしざい",
+        "written": "傷害致死罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) opening sealed correspondence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんしょかいひざい",
+        "written": "信書開披罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) opening sealed correspondence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんしょかいふうざい",
+        "written": "信書開封罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) preparations or plots for private war"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しせんよびおよびいんぼうざい",
+        "written": "私戦予備及び陰謀罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) public indecency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうぜんわいせつざい",
+        "written": "公然わいせつ罪"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こうぜんわいせつざい",
+        "written": "公然猥褻罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) rape"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごうかんざい",
+        "written": "強姦罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) rape (or attempted rape) resulting in death or injury"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごうかんちししょうざい",
+        "written": "強姦致死傷罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) robbery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごうとうざい",
+        "written": "強盗罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) treason"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こっかはんぎゃくざい",
+        "written": "国家反逆罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) treason"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんぎゃくざい",
+        "written": "反逆罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(execution by) decapitation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざんざい",
+        "written": "斬罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(the crime of) adultery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんつうざい",
+        "written": "姦通罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(the crime of) arson"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうかざい",
+        "written": "放火罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(the crime of) bribery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうわいざい",
+        "written": "収賄罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(the crime of) bribery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅたくしゅうわいざい",
+        "written": "受託収賄罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(the crime of) extortion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうかつざい",
+        "written": "恐喝罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(the crime of) high treason"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいぎゃくざい",
+        "written": "大逆罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(the crime of) kidnapping (kidnaping)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうかいざい",
+        "written": "誘拐罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(the crime of) murder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さつじんざい",
+        "written": "殺人罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(the crime of) rioting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうじょうざい",
+        "written": "騒擾罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Act on Payment of Relief Benefit for Victims, etc. of Crimes Committed by Aum Shinrikyo (2008)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "オウムしんりきょうはんざいひがいしゃきゅうさいほう",
+        "written": "オウム真理教犯罪被害者救済法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Crime and Punishment (1866 novel by Fyodor Dostoevsky)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみとばつ",
+        "written": "罪と罰"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Immaculate Conception"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むげんざいのおんやどり",
+        "written": "無原罪の御宿り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Immaculate Conception"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むげんざいのやどり",
+        "written": "無原罪の宿り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Association of Criminal Psychology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんはんざいしんりがっかい",
+        "written": "日本犯罪心理学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Minor Offenses Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいはんざいほう",
+        "written": "軽犯罪法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abandonment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いきざい",
+        "written": "遺棄罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accidental infliction of injury"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かしつしょうがいざい",
+        "written": "過失傷害罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquittal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むざいほうめん",
+        "written": "無罪放免"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "apology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "しゃざい",
+        "written": "謝罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "apology press conference"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃざいかいけん",
+        "written": "謝罪会見"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "attempted crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みすいざい",
+        "written": "未遂罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "breach of trust"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はいにんざい",
+        "written": "背任罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "breaking and entering"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうきょしんにゅうざい",
+        "written": "住居侵入罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cleansing of sins"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうざい",
+        "written": "浄罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "closely examining (questioning) the concrete circumstances of a crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいじょうきゅうめい",
+        "written": "罪状糾明"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "collective guilt"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうだんはんざい",
+        "written": "集団犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "computer crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "コンピュータはんざい",
+        "written": "コンピュータ犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "computer crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "コンピューターはんざい",
+        "written": "コンピューター犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "condemn the offense, but not the offender"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみをにくんでひとをにくまず",
+        "written": "罪を憎んで人を憎まず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "corporate crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きぎょうはんざい",
+        "written": "企業犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "corpus delicti"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうざいしょうこ",
+        "written": "有罪証拠"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "corpus delicti (concrete evidence of a crime, e.g. a bullet-riddled body)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいたい",
+        "written": "罪体"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざい",
+        "written": "罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime against humanity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんどうにたいするつみ",
+        "written": "人道に対する罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime against humanity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じんどうはんざい",
+        "written": "人道犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime of bribery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぞうわいざい",
+        "written": "贈賄罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime of espionage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "スパイざい",
+        "written": "スパイ罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime of perjury"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎしょうざい",
+        "written": "偽証罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime of preparing to commit homicide"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さつじんよびざい",
+        "written": "殺人予備罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime of rioting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうらんざい",
+        "written": "騒乱罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime prevention"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいぼうし",
+        "written": "犯罪防止"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいはっせいりつ",
+        "written": "犯罪発生率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいりつ",
+        "written": "犯罪率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime scene"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいばしょ",
+        "written": "犯罪場所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crimes of abduction, confinement and bodily injury"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいほかんきんちしょうざい",
+        "written": "逮捕監禁致傷罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいこうい",
+        "written": "犯罪行為"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal damage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいひがい",
+        "written": "犯罪被害"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal indecency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わいせつざい",
+        "written": "わいせつ罪"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わいせつざい",
+        "written": "猥褻罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal instigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうさざい",
+        "written": "教唆罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal insurrection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないらんざい",
+        "written": "内乱罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal intimidation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうはくざい",
+        "written": "脅迫罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal investigation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいそうさ",
+        "written": "犯罪捜査"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal psychology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいしんりがく",
+        "written": "犯罪心理学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいきろく",
+        "written": "犯罪記録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal record"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいれき",
+        "written": "犯罪歴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal sociology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいしゃかいがく",
+        "written": "犯罪社会学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいがく",
+        "written": "犯罪学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cybercrime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "サイバーはんざい",
+        "written": "サイバー犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "death not caused by a violent crime (excl. dying of natural causes)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひはんざいし",
+        "written": "非犯罪死"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drug-related crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まやくはんざい",
+        "written": "麻薬犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "environmental crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんきょうはんざい",
+        "written": "環境犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "environmental criminology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんきょうはんざいがく",
+        "written": "環境犯罪学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "evidence (of a crime)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいしょう",
+        "written": "罪証"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "expiation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めつざい",
+        "written": "滅罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "expiation of sins"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいしょうしょうめつ",
+        "written": "罪障消滅"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "false charge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf43"
+        ],
+        "pronounced": "むじつのつみ",
+        "written": "無実の罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "false entry in an officially authenticated document"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうせいしょうしょげんぽんふじつきさいざい",
+        "written": "公正証書原本不実記載罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "feelings of guilt"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいあくかん",
+        "written": "罪悪感"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "financial crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんゆうはんざい",
+        "written": "金融犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "five cardinal sins (killing one's father, killing one's mother, killing an arhat, shedding the blood of a Buddha, causing a schism within the sangha)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごぎゃくざい",
+        "written": "五逆罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "forgery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎぞうざい",
+        "written": "偽造罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fraud"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さぎざい",
+        "written": "詐欺罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fraudulent appropriation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうりょうざい",
+        "written": "横領罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "full apology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんめんしゃざい",
+        "written": "全面謝罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guilty plea"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうざいとうべん",
+        "written": "有罪答弁"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hate crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぞうおはんざい",
+        "written": "憎悪犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hearing confessions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうざい",
+        "written": "聴罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "illegal abortion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だたいざい",
+        "written": "堕胎罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "illegal arrest and imprisonment resulting in death or bodily injury"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいほかんきんちししょうざい",
+        "written": "逮捕監禁致死傷罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "imprisonment (for 1-3 years; third most severe of the five ritsuryō punishments)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ずざい",
+        "written": "徒罪"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とざい",
+        "written": "徒罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "infamous crime or offense (offence)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はれんちざい",
+        "written": "破廉恥罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "international crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいはんざい",
+        "written": "国際犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "it is no crime to steal flowers"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はなどろぼうはつみにならない",
+        "written": "花泥棒は罪にならない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "juvenile offender"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わかねんはんざいしゃ",
+        "written": "若年犯罪者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misdemeanor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いけいざい",
+        "written": "違警罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "number of crimes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいすう",
+        "written": "罪数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "offense requiring a formal complaint in order to prosecute"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんこくざい",
+        "written": "親告罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "original sin"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんざい",
+        "written": "原罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "penalty of decapitation and exposure of the severed head"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうざい",
+        "written": "梟罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "perfect crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜんはんざい",
+        "written": "完全犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "planned crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいかくはんざい",
+        "written": "計画犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "presumption of innocence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいていむざい",
+        "written": "推定無罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "previous conviction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんざい",
+        "written": "前罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "published apology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃざいこうこく",
+        "written": "謝罪広告"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "responsibility or liability for a crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいせき",
+        "written": "罪責"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sacrificial lamb"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくざいのひつじ",
+        "written": "贖罪の羊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sense of atonement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくざいいしき",
+        "written": "贖罪意識"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sex crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいはんざい",
+        "written": "性犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sex crimes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんいんざい",
+        "written": "姦淫罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sex offender"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいはんざいしゃ",
+        "written": "性犯罪者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sinking into sin"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だざい",
+        "written": "堕罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sins (which prevent entry into bliss)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいしょう",
+        "written": "罪障"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "street crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいとうはんざい",
+        "written": "街頭犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "street crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろじょうはんざい",
+        "written": "路上犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the Seven Deadly Sins"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ななつのざいげん",
+        "written": "七つの罪源"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the Seven Deadly Sins"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ななつのたいざい",
+        "written": "七つの大罪"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ななつのだいざい",
+        "written": "七つの大罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to exile a criminal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいにんをながす",
+        "written": "罪人を流す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pin a crime on"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみをきせる",
+        "written": "罪を着せる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to slide into sin"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみにおちいる",
+        "written": "罪に陥る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vehicular manslaughter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きけんうんてんちしざい",
+        "written": "危険運転致死罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "victim of crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいひがいしゃ",
+        "written": "犯罪被害者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "war crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんじはんざい",
+        "written": "戦時犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "war crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんそうはんざい",
+        "written": "戦争犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "war crimes tribunal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんそうはんざいほうてい",
+        "written": "戦争犯罪法廷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "war criminal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf36"
+        ],
+        "pronounced": "せんそうはんざいにん",
+        "written": "戦争犯罪人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "written apology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃざいぶん",
+        "written": "謝罪文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "youth crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいしょうねんはんざい",
+        "written": "青少年犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) assault",
+          "battery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぼうこうざい",
+        "written": "暴行罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) incapacitated rape",
+          "crime of sexual assault against someone who is intoxicated, asleep or otherwise unable to consent or resist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅんごうかんざい",
+        "written": "準強姦罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) obstruction",
+          "obstruction charge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぼうがいざい",
+        "written": "妨害罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) revealing a secret",
+          "breach of confidence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひみつろうじざい",
+        "written": "秘密漏示罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) revealing state secrets",
+          "charge of revealing national security information"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひみつろうえいざい",
+        "written": "秘密漏洩罪"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひみつろうせつざい",
+        "written": "秘密漏洩罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) trespassing",
+          "housebreaking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かたくしんにゅうざい",
+        "written": "家宅侵入罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(criminal) conspiracy",
+          "conspiracy to commit a crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうぼうざい",
+        "written": "共謀罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(nature of a) crime",
+          "(criminal) charge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "ざいじょう",
+        "written": "罪状"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Association of Sociological Criminology",
+          "JASC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんはんざいしゃかいがっかい",
+        "written": "日本犯罪社会学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "United Nations Office on Drugs and Crime",
+          "UNODC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくれんやくぶつはんざいじむしょ",
+        "written": "国連薬物犯罪事務所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Yom Kippur",
+          "Day of Atonement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくざいのひ",
+        "written": "贖罪の日"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accusation",
+          "indictment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もんざい",
+        "written": "問罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "arraignment",
+          "plea (of guilty or not guilty)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいじょうにんぴ",
+        "written": "罪状認否"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "atrocious crime",
+          "heinous crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうあくはんざい",
+        "written": "凶悪犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "banishment",
+          "exile"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "るざい",
+        "written": "流罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bodily injury caused by negligence in the conduct of business",
+          "accidental infliction of injury in the conduct of business"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎょうむじょうかしつしょうがいざい",
+        "written": "業務上過失傷害罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "capital crime",
+          "crime resulting in a death penalty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しざい",
+        "written": "死罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "concurrent offenses",
+          "concurrent offences"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいごうざい",
+        "written": "併合罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "condemn the offense, but not the offender",
+          "detest the sin, but weep for the sinner"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そのつみをにくんでそのひとをにくまず",
+        "written": "その罪を憎んでその人を憎まず"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そのつみをにくんでそのひとをにくまず",
+        "written": "其の罪を憎んで其の人を憎まず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime for which one's three types of relatives will be punished",
+          "crime implicating one's relatives of all three types"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんぞくのつみ",
+        "written": "三族の罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime syndicate",
+          "criminal syndicate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいそしき",
+        "written": "犯罪組織"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal",
+          "culprit"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "はんざいしゃ",
+        "written": "犯罪者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminality",
+          "criminal propensity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいせい",
+        "written": "犯罪性"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cyber-crime",
+          "net crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ネットはんざい",
+        "written": "ネット犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "execution by hanging",
+          "hanging"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうざい",
+        "written": "絞罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "false arrest and imprisonment",
+          "illegal arrest and confinement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいほおよびかんきんざい",
+        "written": "逮捕及び監禁罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "false arrest and imprisonment",
+          "illegal arrest and confinement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいほかんきんざい",
+        "written": "逮捕監禁罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "father confessor",
+          "confessor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうざいしさい",
+        "written": "聴罪司祭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "felony",
+          "serious crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうはんざい",
+        "written": "重犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "felony",
+          "serious crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "じゅうざい",
+        "written": "重罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fugitive from justice",
+          "fugitive criminal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうぼうはんざいにん",
+        "written": "逃亡犯罪人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guilt",
+          "culpability"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "ゆうざい",
+        "written": "有罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guiltless",
+          "innocent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみのない",
+        "written": "罪のない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみのない",
+        "written": "罪の無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guilty verdict",
+          "guilty as charged"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうざいかくてい",
+        "written": "有罪確定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guilty verdict",
+          "judgment of guilty (judgement)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうざいはんけつ",
+        "written": "有罪判決"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gun crime",
+          "gun-related crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうはんざい",
+        "written": "銃犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "immaculacy (i.e. freedom from original sin)",
+          "immaculateness"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むげんざい",
+        "written": "無原罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "innocence",
+          "being not guilty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "むざい",
+        "written": "無罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "innocent verdict",
+          "\"not guilty\" verdict"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むざいはんけつ",
+        "written": "無罪判決"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "involuntary manslaughter",
+          "accidental homicide"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かしつちしざい",
+        "written": "過失致死罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "juvenile crime",
+          "juvenile delinquency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうねんはんざい",
+        "written": "少年犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "juvenile offender",
+          "juvenile delinquent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうねんはんざいしゃ",
+        "written": "少年犯罪者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kidnapping",
+          "kidnaping"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りゃくしゅゆうかいざい",
+        "written": "略取誘拐罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lese majesty",
+          "lèse-majesté"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふけいざい",
+        "written": "不敬罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "minor offense",
+          "minor offence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かるいはんざい",
+        "written": "軽い犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "name of a crime",
+          "charge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf39"
+        ],
+        "pronounced": "ざいめい",
+        "written": "罪名"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nulla poena sine lege",
+          "no punishment without law"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいけいほうていしゅぎ",
+        "written": "罪刑法定主義"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "obstructing the discharge of official duties",
+          "hindering a government official in the execution of his duties"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうむしっこうぼうがいざい",
+        "written": "公務執行妨害罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "organized crime",
+          "organised crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そしきはんざい",
+        "written": "組織犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "political crime",
+          "political offence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいじはんざい",
+        "written": "政治犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "prisoner",
+          "convict"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいしゅう",
+        "written": "罪囚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "retribution for one's crime",
+          "punishment for one's crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみのむくい",
+        "written": "罪の報い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sacrificial goat",
+          "scapegoat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくざいのやぎ",
+        "written": "贖罪の山羊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sensational crime that becomes a media event",
+          "theatrical crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げきじょうがたはんざい",
+        "written": "劇場型犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "serious crime",
+          "felony"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうだいはんざい",
+        "written": "重大犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "serious crime",
+          "grave crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おもいつみ",
+        "written": "重い罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "serious crime",
+          "grave sin"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいざい",
+        "written": "大罪"
+      },
+      {
+        "priorities": [],
+        "pronounced": "だいざい",
+        "written": "大罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "serious criminal",
+          "heinous criminal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいざいにん",
+        "written": "大罪人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "substance of a sin",
+          "source of a sin"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいげん",
+        "written": "罪源"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the crime of revealing a secret",
+          "breach of confidence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひみつをおかすつみ",
+        "written": "秘密を侵す罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the good and bad deeds cancel each other out",
+          "good deeds make up for the bad"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうざいあいつぐなう",
+        "written": "功罪相償う"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to accuse someone",
+          "to charge someone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみにとう",
+        "written": "罪に問う"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to commit a crime",
+          "to commit a sin"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみをおかす",
+        "written": "罪を犯す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to commit a crime",
+          "to resort to crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいにおよぶ",
+        "written": "犯罪に及ぶ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to pay for one's transgression",
+          "to receive punishment for one's crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみのむくいをうける",
+        "written": "罪の報いを受ける"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "traces of a crime",
+          "evidence of a crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいせき",
+        "written": "罪跡"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "transnational organized crime",
+          "TOC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいそしきはんざい",
+        "written": "国際組織犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "treason",
+          "conspiracy against one's country"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がいかんざい",
+        "written": "外患罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unlawful trespass",
+          "occupying a property and refusing to leave"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふたいきょざい",
+        "written": "不退去罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wrongful death",
+          "death caused by violent crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいし",
+        "written": "犯罪死"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(crime of) theft",
+          "(crime of) stealing",
+          "larceny"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せっとうざい",
+        "written": "窃盗罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "being proven guilty of a crime",
+          "having one's guilt for a crime made clear",
+          "(the) nature of offense being (becoming) clear"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいじょうめいはく",
+        "written": "罪状明白"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime",
+          "offence",
+          "offense"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "はんざい",
+        "written": "犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime",
+          "sin",
+          "vice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "ざいあく",
+        "written": "罪悪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime of plotting a crime",
+          "crime of preparing to commit an offense",
+          "preparation of a crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よびざい",
+        "written": "予備罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "false charge",
+          "false accusation",
+          "misrepresentation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "えんざい",
+        "written": "えん罪"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "えんざい",
+        "written": "冤罪"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "えんざい",
+        "written": "寃罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guilt-free",
+          "sinless",
+          "innocent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみなき",
+        "written": "罪なき"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみなき",
+        "written": "罪無き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "innocent",
+          "not guilty",
+          "harmless"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみがない",
+        "written": "罪がない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみがない",
+        "written": "罪が無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "merits and demerits",
+          "good points and bad points",
+          "strengths and weaknesses"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "こうざい",
+        "written": "功罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "offence",
+          "offense",
+          "fault"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいか",
+        "written": "罪過"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "offense against public morals",
+          "morals offense",
+          "vice crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふうぞくはんざい",
+        "written": "風俗犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "other crimes",
+          "further offenses",
+          "further offences"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "よざい",
+        "written": "余罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sin",
+          "iniquity",
+          "crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいごう",
+        "written": "罪業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sinful",
+          "wicked",
+          "immoral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみぶかい",
+        "written": "罪深い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sinner",
+          "evildoer",
+          "wrongdoer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみびと",
+        "written": "罪人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to charge",
+          "to sentence",
+          "to punish"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみする",
+        "written": "罪する"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to take the blame (for another's crime or mistake)",
+          "to take responsibility (for)",
+          "to be charged with a crime"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみをきる",
+        "written": "罪を着る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "white lie",
+          "harmless lie",
+          "fib"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみのないうそ",
+        "written": "罪のないうそ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つみのないうそ",
+        "written": "罪のない嘘"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "atonement (for one's sins)",
+          "expiation",
+          "making amends",
+          "making up for (a misdeed)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "つみほろぼし",
+        "written": "罪ほろぼし"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "つみほろぼし",
+        "written": "罪滅し"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "つみほろぼし",
+        "written": "罪滅ぼし"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal",
+          "culprit",
+          "offender",
+          "rogue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんざいにん",
+        "written": "犯罪人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "criminal",
+          "lawbreaker",
+          "wrongdoer",
+          "offender"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47",
+          "spec2"
+        ],
+        "pronounced": "ざいにん",
+        "written": "罪人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "minor offence",
+          "minor offense",
+          "misdemeanor",
+          "misdemeanour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "けいはんざい",
+        "written": "軽犯罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "minor offense",
+          "minor offence",
+          "misdemeanor",
+          "misdemeanour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいざい",
+        "written": "軽罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "minor offense",
+          "minor offence",
+          "misdemeanor",
+          "misdemeanour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びざい",
+        "written": "微罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "offense",
+          "offence",
+          "crime",
+          "guilt",
+          "punishment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいか",
+        "written": "罪科"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "acquittal"
+        ]
+      },
+      {
+        "glosses": [
+          "indulgence",
+          "remission of sin",
+          "pardon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "めんざい",
+        "written": "免罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "atonement"
+        ]
+      },
+      {
+        "glosses": [
+          "the Atonement (of Jesus Christ)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくざい",
+        "written": "贖罪"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぞくざい",
+        "written": "贖罪"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とくざい",
+        "written": "贖罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "crime of killing one's master or parent (Edo period)"
+        ]
+      },
+      {
+        "glosses": [
+          "very grave sin"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎゃくざい",
+        "written": "逆罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cruel"
+        ]
+      },
+      {
+        "glosses": [
+          "deceitful"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つみつくり",
+        "written": "罪作り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "five punishments (of ancient China: tattooing, cutting off the nose, cutting off a leg, castration or confinement, death)"
+        ]
+      },
+      {
+        "glosses": [
+          "five punishments (of the ritsuryō system: light caning, severe caning, imprisonment, exile, death)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ござい",
+        "written": "五罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "same crime"
+        ]
+      },
+      {
+        "glosses": [
+          "being equally guilty",
+          "bearing the same amount of responsibility"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "どうざい",
+        "written": "同罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "undetected crime"
+        ]
+      },
+      {
+        "glosses": [
+          "penal servitude",
+          "submitting to a sentence",
+          "pleading guilty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふくざい",
+        "written": "伏罪"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふくざい",
+        "written": "服罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "beheading",
+          "decapitation"
+        ]
+      },
+      {
+        "glosses": [
+          "judgment (of a crime)",
+          "conviction",
+          "condemnation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "だんざい",
+        "written": "断罪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indulgence (esp. in the Catholic Church)",
+          "pardon"
+        ]
+      },
+      {
+        "glosses": [
+          "excuse",
+          "justification",
+          "rationalization"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めんざいふ",
+        "written": "免罪符"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "thoughtlessness",
+          "lack of consideration"
+        ]
+      },
+      {
+        "glosses": [
+          "fault",
+          "responsibility",
+          "culpability"
+        ]
+      },
+      {
+        "glosses": [
+          "penalty",
+          "sentence",
+          "punishment"
+        ]
+      },
+      {
+        "glosses": [
+          "crime",
+          "sin",
+          "wrongdoing",
+          "indiscretion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "つみ",
+        "written": "罪"
+      }
+    ]
+  }
+]

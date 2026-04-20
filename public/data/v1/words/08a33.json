@@ -1,0 +1,3873 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(automatic) translation software"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくソフトウェア",
+        "written": "翻訳ソフトウェア"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(professional) interpreter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つうやくし",
+        "written": "通訳士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "A Pocket Dictionary of the English and Japanese Language (1862)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいわたいやくしゅうちんじしょ",
+        "written": "英和対訳袖珍辞書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Dictionarium Latino Lusitanicum ac Iaponicum (1595 Latin-Portuguese-Japanese dictionary)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ラポにちたいやくじしょ",
+        "written": "拉葡日対訳辞書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Dictionarium Latino Lusitanicum, Ac Iaponicum (1595 trilingual Latin-Portuguese-Japanese dictionary)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "らぽにちたいやくじしょ",
+        "written": "羅葡日対訳辞書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "English translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "えいやく",
+        "written": "英訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "English-Japanese translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいぶんわやく",
+        "written": "英文和訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "French translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふつやく",
+        "written": "仏訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Guide Association"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんかんこうつうやくきょうかい",
+        "written": "日本観光通訳協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Guide Association"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんかんこうつうやくきょうかい",
+        "written": "日本観光通訳協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんごやく",
+        "written": "日本語訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "わやく",
+        "written": "和訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese-English interpreting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にちえいつうやく",
+        "written": "日英通訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese-English translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わぶんえいやく",
+        "written": "和文英訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Licensed Guide Interpreters Act"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つうやくあんないしほう",
+        "written": "通訳案内士法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "New Interconfessional Translation (of the Bible)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんきょうどうやく",
+        "written": "新共同訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "New Japanese Bible"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんかいやく",
+        "written": "新改訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Septuagint"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しちじゅうにんやくせいしょ",
+        "written": "七十人訳聖書"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ななじゅうにんやくせいしょ",
+        "written": "七十人訳聖書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abridged translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうやく",
+        "written": "抄訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "admitting no excuse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いいわけがたたない",
+        "written": "言い訳が立たない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いいわけがたたない",
+        "written": "言訳が立たない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "apologetic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もうしわけなさそう",
+        "written": "申し訳なさそう"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "assembler directive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくアセンブラしじぶん",
+        "written": "翻訳アセンブラ指示文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "automatic translation machine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうほんやくき",
+        "written": "自動翻訳機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bad translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あくやく",
+        "written": "悪訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "book-keeping journal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しわけちょう",
+        "written": "仕訳帳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "colloquial translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうごやく",
+        "written": "口語訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "compiler"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくルーチン",
+        "written": "翻訳ルーチン"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "compiler directing statement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくしじぶん",
+        "written": "翻訳指示文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "compiler directive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくコンパイラしじぶん",
+        "written": "翻訳コンパイラ指示文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "complete translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf45"
+        ],
+        "pronounced": "かんやく",
+        "written": "完訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "complete translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf40",
+          "spec2"
+        ],
+        "pronounced": "ぜんやく",
+        "written": "全訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "drumming style used to announce bouts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいこうちわけ",
+        "written": "太鼓内訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "first translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょやく",
+        "written": "初訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "for some (unspecified) reason"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけあって",
+        "written": "訳あって"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "impossible to do (although wants to)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけにはいきません",
+        "written": "訳にはいきません"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interpreter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つうやくにん",
+        "written": "通訳人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interpreter (device)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せんこうほんやくき",
+        "written": "穿孔翻訳機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interpreter (person who translates orally)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つうやくしゃ",
+        "written": "通訳者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interpreter directive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくかいしゃくじっこうプログラムしじぶん",
+        "written": "翻訳解釈実行プログラム指示文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "joint translation (translation carried out by more than one person)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうやく",
+        "written": "共訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "journal (accounts)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しわけひょう",
+        "written": "仕訳表"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mistranslation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "ごやく",
+        "written": "誤訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "name or word formed by translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくめい",
+        "written": "訳名"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "official interpreter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つうやくかん",
+        "written": "通訳官"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "original text with its translation printed side by side or on opposite page"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "たいやく",
+        "written": "対訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "peculiar translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちんやく",
+        "written": "珍訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pre-Kumarajiva Chinese translation (i.e. before the 5th century)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こやく",
+        "written": "古訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "provisional translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かやく",
+        "written": "仮訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rough translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "したやく",
+        "written": "下訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "running a translation (in a magazine)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくさい",
+        "written": "訳載"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seeming to have a problem, issue, etc."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけありげ",
+        "written": "訳ありげ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけありげ",
+        "written": "訳あり気"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけありげ",
+        "written": "訳有りげ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけありげ",
+        "written": "訳有り気"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sensible"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけのわかった",
+        "written": "訳の分かった"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "separately compiled program"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくたんいのプログラム",
+        "written": "翻訳単位のプログラム"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "simultaneous interpreter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうじつうやくしゃ",
+        "written": "同時通訳者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "source computer entry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくようけいさんききじゅつこう",
+        "written": "翻訳用計算機記述項"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "source-computer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくようけいさんき",
+        "written": "翻訳用計算機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "specifications"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しわけしょ",
+        "written": "仕訳書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "standard translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていやく",
+        "written": "定訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "supervising a translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "かんやく",
+        "written": "監訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the reason(s) is (are) as follows"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひだりのようなわけ",
+        "written": "左のような訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the translation profession"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぎょう",
+        "written": "訳業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to have an excuse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いいわけがたつ",
+        "written": "言い訳が立つ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いいわけがたつ",
+        "written": "言訳がたつ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "transfer interpreter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てんそうせんこうほんやくき",
+        "written": "転送穿孔翻訳機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translated book"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくほん",
+        "written": "訳本"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translated poem"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "やくし",
+        "written": "訳詩"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translating and explaining"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やっかい",
+        "written": "訳解"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translating into Braille"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf23"
+        ],
+        "pronounced": "てんやく",
+        "written": "点訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくしょ",
+        "written": "翻訳書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくしゅつ",
+        "written": "訳出"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくじゅつ",
+        "written": "訳述"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくひつ",
+        "written": "訳筆"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf34"
+        ],
+        "pronounced": "やくしょ",
+        "written": "訳書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation agency"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくかいしゃ",
+        "written": "翻訳会社"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation from a foreign language into Japanese"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくやく",
+        "written": "国訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation into Japanese"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26"
+        ],
+        "pronounced": "ほうやく",
+        "written": "邦訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation memory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくメモリ",
+        "written": "翻訳メモリ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation of lyrics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf34"
+        ],
+        "pronounced": "やくし",
+        "written": "訳詞"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation rights (to a book)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくけん",
+        "written": "翻訳権"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation studies"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくがく",
+        "written": "翻訳学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation studies"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくけんきゅう",
+        "written": "翻訳研究"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation table"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくテーブル",
+        "written": "翻訳テーブル"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくじかん",
+        "written": "翻訳時間"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくか",
+        "written": "翻訳家"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくしゃ",
+        "written": "翻訳者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "やくしゃ",
+        "written": "訳者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translator directive"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくプログラムしじぶん",
+        "written": "翻訳プログラム指示文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "transliteration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じやく",
+        "written": "字訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "untranslated"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みやく",
+        "written": "未訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Asia-Pacific Association for Machine Translation",
+          "AAMT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アジアたいへいようきかいほんやくきょうかい",
+        "written": "アジア太平洋機械翻訳協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Authorized Version (of the Bible)",
+          "AV"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんていえいやくせいしょ",
+        "written": "欽定英訳聖書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "English version",
+          "English translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいごやく",
+        "written": "英語訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "I'm sorry",
+          "(it's) inexcusable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もうしわけがたたない",
+        "written": "申し訳がたたない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "もうしわけがたたない",
+        "written": "申し訳が立たない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Association for Interpretation Studies",
+          "JAIS"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんつうやくがっかい",
+        "written": "日本通訳学会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Nippon Intellectual Property Translation Association",
+          "NIPTA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんちてきざいさんほんやくきょうかい",
+        "written": "日本知的財産翻訳協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "apology",
+          "excuse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "もうしわけ",
+        "written": "申しわけ"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "もうしわけ",
+        "written": "申し分け"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "もうしわけ",
+        "written": "申し訳"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "もうしわけ",
+        "written": "申し訳け"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "もうしわけ",
+        "written": "申分"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "もうしわけ",
+        "written": "申分け"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "もうしわけ",
+        "written": "申訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "brief translation",
+          "summary translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ようやく",
+        "written": "要訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "confused translation",
+          "puzzling translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めいやく",
+        "written": "迷訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "consecutive interpretation",
+          "consecutive interpreting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちくじつうやく",
+        "written": "逐次通訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "details",
+          "intricacies"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょわけ",
+        "written": "諸訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "difficult to translate",
+          "untranslatable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくしがたい",
+        "written": "訳し難い"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やくしにくい",
+        "written": "訳しにくい"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やくしにくい",
+        "written": "訳し難い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "easily",
+          "without difficulty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけなく",
+        "written": "訳なく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけなく",
+        "written": "訳無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excellent translation",
+          "fine translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf43"
+        ],
+        "pronounced": "めいやく",
+        "written": "名訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "free translation",
+          "liberal translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いやく",
+        "written": "意訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "free translation",
+          "liberal translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゆうやく",
+        "written": "自由訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "goodwill guide",
+          "volunteer guide and interpreter for foreign residents and tourists"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんいつうやく",
+        "written": "善意通訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "imperfect product (sold at a discounted price)",
+          "defect merchandise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけありしょうひん",
+        "written": "わけあり商品"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけありしょうひん",
+        "written": "ワケアリ商品"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけありしょうひん",
+        "written": "訳あり商品"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけありしょうひん",
+        "written": "訳アリ商品"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけありしょうひん",
+        "written": "訳有り商品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "imperfect product (sold at a discounted price)",
+          "defect merchandise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけありひん",
+        "written": "わけあり品"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけありひん",
+        "written": "ワケアリ品"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけありひん",
+        "written": "訳あり品"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけありひん",
+        "written": "訳アリ品"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけありひん",
+        "written": "訳有り品"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indirect translation",
+          "translation of a translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうやく",
+        "written": "重訳"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちょうやく",
+        "written": "重訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interpreter-guide",
+          "guide-interpreter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つうやくガイド",
+        "written": "通訳ガイド"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "joint translator",
+          "co-translator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうやくしゃ",
+        "written": "共訳者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "know-it-all airs",
+          "I-know-how-it-is look"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけしりがお",
+        "written": "わけ知り顔"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけしりがお",
+        "written": "訳知り顔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lame excuse",
+          "poor excuse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くるしいいいわけ",
+        "written": "苦しい言い訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "language being translated from",
+          "source language"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくもとげんご",
+        "written": "翻訳元言語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "language being translated to",
+          "target language"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくさきげんご",
+        "written": "翻訳先言語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "literal style (of translation)",
+          "metaphrastic style"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょくやくたい",
+        "written": "直訳体"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "literal translation",
+          "direct translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "ちょくやく",
+        "written": "直訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "loan translation",
+          "calque"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくしゃくよう",
+        "written": "翻訳借用"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "man of the world",
+          "experienced in matters of the heart"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけしり",
+        "written": "訳知り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "modern translation",
+          "translation into modern language (of a classical text, e.g. The Tale of Genji)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんだいごやく",
+        "written": "現代語訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "official translator",
+          "secretary-translator"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくかん",
+        "written": "翻訳官"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "oral translation",
+          "reading and translating"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくどく",
+        "written": "訳読"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "post-translational modification",
+          "PTM"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくごしゅうしょく",
+        "written": "翻訳後修飾"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "proper or suitable translation",
+          "exact rendering"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てきやく",
+        "written": "適訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "real estate with a flaw that reduces its price",
+          "stigmatized property"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけありぶっけん",
+        "written": "訳あり物件"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけありぶっけん",
+        "written": "訳有り物件"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sign-language interpreting",
+          "sign-language interpreter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅわつうやく",
+        "written": "手話通訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "simultaneous interpretation",
+          "simultaneous interpreting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26"
+        ],
+        "pronounced": "どうじつうやく",
+        "written": "同時通訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somehow",
+          "for some reason or other"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どういうわけか",
+        "written": "どういう訳か"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どういうわけか",
+        "written": "どう言うわけか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どういうわけか",
+        "written": "どう言う訳か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "super-liberal translation",
+          "making understandable and readable through free interpretation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうやく",
+        "written": "超訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to have a reason",
+          "to have an excuse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけがある",
+        "written": "訳がある"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to the extent it makes one feel apologetic",
+          "so (much, good, etc.) that one feels guilty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もうしわけないくらい",
+        "written": "申し訳ないくらい"
+      },
+      {
+        "priorities": [],
+        "pronounced": "もうしわけないくらい",
+        "written": "申し訳ない位"
+      },
+      {
+        "priorities": [],
+        "pronounced": "もうしわけないぐらい",
+        "written": "申し訳ないぐらい"
+      },
+      {
+        "priorities": [],
+        "pronounced": "もうしわけないぐらい",
+        "written": "申し訳ない位"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to translate",
+          "to interpret"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくする",
+        "written": "訳する"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to translate",
+          "to interpret"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "やくす",
+        "written": "訳す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tour guide-interpreter",
+          "tour guide licensed for guiding foreigners in Japan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんこくつうやくあんないし",
+        "written": "全国通訳案内士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tour guide-interpreter",
+          "tour guide licensed for guiding foreigners in Japan"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つうやくあんないし",
+        "written": "通訳案内士"
+      },
+      {
+        "priorities": [],
+        "pronounced": "つうやくあんないし",
+        "written": "通訳案内師"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation",
+          "version (e.g. \"English version\")"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やく",
+        "written": "訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation time",
+          "compile time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくじ",
+        "written": "翻訳時"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translational equivalent",
+          "equivalent word in translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "やくご",
+        "written": "訳語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translator",
+          "translation program"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくプログラム",
+        "written": "翻訳プログラム"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translator (device, program)",
+          "translation machine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくき",
+        "written": "翻訳機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trial translation",
+          "tentative translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しやく",
+        "written": "試訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "untranslated region",
+          "UTR"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひほんやくりょういき",
+        "written": "非翻訳領域"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "without cause",
+          "without reason"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけもなく",
+        "written": "訳もなく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけもなく",
+        "written": "訳も無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "word-for-word translation",
+          "literal translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちくごやく",
+        "written": "逐語訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "word-for-word translation",
+          "literal translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちくじやく",
+        "written": "逐字訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(a part of the source text) being left untranslated",
+          "being left out of the translation",
+          "omission from a translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくぬけ",
+        "written": "訳抜け"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "King James Bible",
+          "King James Version",
+          "Authorized Version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんていやくせいしょ",
+        "written": "欽定訳聖書"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "having special circumstances (e.g. problems, issues, advantages, flaws, defects, etc.)",
+          "imperfect (merchandise)",
+          "with defects"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけあり",
+        "written": "訳あり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけあり",
+        "written": "訳アリ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけあり",
+        "written": "訳有り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ワケアリ",
+        "written": "訳あり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ワケアリ",
+        "written": "訳アリ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ワケアリ",
+        "written": "訳有り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "it does not mean that ...",
+          "I don't mean that ...",
+          "it is not the case that"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "わけじゃない",
+        "written": "訳じゃない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "it does not mean that ...",
+          "I don't mean that ...",
+          "it is not the case that..."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけではありません",
+        "written": "訳ではありません"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "it does not mean that ...",
+          "I don't mean that ...",
+          "it is not the case that..."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "わけではない",
+        "written": "わけでは無い"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "わけではない",
+        "written": "訳ではない"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "わけではない",
+        "written": "訳では無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "machine translation",
+          "automatic translation",
+          "MT"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じどうほんやく",
+        "written": "自動翻訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "machine translation",
+          "mechanical translation",
+          "automatic translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかいほんやく",
+        "written": "機械翻訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "program review",
+          "budget screening",
+          "review and prioritization of government programs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じぎょうしわけ",
+        "written": "事業仕分け"
+      },
+      {
+        "priorities": [],
+        "pronounced": "じぎょうしわけ",
+        "written": "事業仕訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reason",
+          "circumstances",
+          "meaning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけがら",
+        "written": "訳柄"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reason",
+          "circumstances",
+          "meaning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけあい",
+        "written": "訳合"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけあい",
+        "written": "訳合い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "retranslation",
+          "new translation",
+          "revised translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいやく",
+        "written": "改訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "therefore",
+          "for that reason",
+          "such being the case"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そんなわけで",
+        "written": "そんな訳で"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "this is why",
+          "this means",
+          "it is the case that"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "というわけだ",
+        "written": "という訳だ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "というわけだ",
+        "written": "と言う訳だ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be incomparable",
+          "to be completely different matters",
+          "to be completely different things"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけがちがう",
+        "written": "わけが違う"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけがちがう",
+        "written": "訳が違う"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation",
+          "piece of translated writing",
+          "translated sentence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくぶん",
+        "written": "翻訳文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translationese",
+          "translatese",
+          "translatorese"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくちょう",
+        "written": "翻訳調"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "variation",
+          "different version",
+          "another version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "べつやく",
+        "written": "別訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cannot avoid (doing)",
+          "cannot help (doing)",
+          "have no other choice but to",
+          "must (do)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないわけにはいかない",
+        "written": "ないわけには行かない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ないわけにはいかない",
+        "written": "ない訳にはいかない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ないわけにはいかない",
+        "written": "ない訳には行かない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "itemization (of expenses)",
+          "the items",
+          "breakdown",
+          "classification"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "うちわけ",
+        "written": "内訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "seeming like an excuse",
+          "seeming like a justification",
+          "defensive",
+          "in an apologetic tone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いいわけがましい",
+        "written": "言い訳がましい"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to assort",
+          "to classify",
+          "to journalize (in accounting)",
+          "to journalise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しわける",
+        "written": "仕分ける"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しわける",
+        "written": "仕訳ける"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cannot (due to external circumstances)",
+          "cannot afford to",
+          "must not",
+          "impossible to",
+          "no way one can (do)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけにはいけない",
+        "written": "訳にはいけない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cannot (due to external circumstances)",
+          "cannot afford to",
+          "must not",
+          "impossible to",
+          "no way one can (do)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけにはいかない",
+        "written": "わけには行かない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけにはいかない",
+        "written": "訳にはいかない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけにはいかない",
+        "written": "訳には行かない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "incomprehensible",
+          "nonsensical",
+          "puzzling",
+          "mysterious",
+          "meaningless"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけのわからない",
+        "written": "わけの分からない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけのわからない",
+        "written": "わけの分らない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけのわからない",
+        "written": "訳のわからない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけのわからない",
+        "written": "訳の分からない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけのわからない",
+        "written": "訳の分らない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "poor excuse (of a)",
+          "nearly non-existent",
+          "barely sufficient",
+          "token (effort, etc.)",
+          "symbolic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もうしわけていど",
+        "written": "申し訳程度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translated sentence",
+          "translated passage",
+          "translation",
+          "version",
+          "rendering"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "やくぶん",
+        "written": "訳文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "conclusion from reasoning, judgement or calculation based on something read or heard",
+          "reason",
+          "cause",
+          "meaning",
+          "circumstances",
+          "situation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "わけ",
+        "written": "訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Russian translation"
+        ]
+      },
+      {
+        "glosses": [
+          "translating into Russian"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろやく",
+        "written": "露訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "assortment journalizing (in bookkeeping)"
+        ]
+      },
+      {
+        "glosses": [
+          "classification",
+          "sorting (out)",
+          "grouping",
+          "assortment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "しわけ",
+        "written": "仕分"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "しわけ",
+        "written": "仕分け"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "しわけ",
+        "written": "仕訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "excuse"
+        ]
+      },
+      {
+        "glosses": [
+          "explanation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "いいわけ",
+        "written": "言いわけ"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "いいわけ",
+        "written": "言い分け"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "いいわけ",
+        "written": "言い訳"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "いいわけ",
+        "written": "言分け"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "いいわけ",
+        "written": "言訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interpretation (i.e. oral translation)"
+        ]
+      },
+      {
+        "glosses": [
+          "interpreter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "つうやく",
+        "written": "通訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "my translation"
+        ]
+      },
+      {
+        "glosses": [
+          "poor translation",
+          "clumsy translation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せつやく",
+        "written": "拙訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "new translation"
+        ]
+      },
+      {
+        "glosses": [
+          "post-Xuanzang Chinese translation (i.e. mid 7th century onward)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんやく",
+        "written": "新訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "old translation"
+        ]
+      },
+      {
+        "glosses": [
+          "pre-Xuanzang Chinese translation (esp. 5th-mid 7th century)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうやく",
+        "written": "旧訳"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くやく",
+        "written": "旧訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "thank you very much (for help, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "I'm sorry",
+          "(it's) inexcusable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もうしわけございません",
+        "written": "申しわけございません"
+      },
+      {
+        "priorities": [],
+        "pronounced": "もうしわけございません",
+        "written": "申し訳ございません"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "thank you very much (for help, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "I'm sorry",
+          "(it's) inexcusable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "もうしわけありません",
+        "written": "申しわけありません"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "もうしわけありません",
+        "written": "申し訳ありません"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "thank you very much (for help, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "I'm sorry",
+          "(it's) inexcusable",
+          "I feel regretful",
+          "I feel guilty"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "もうしわけない",
+        "written": "申しわけない"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "もうしわけない",
+        "written": "申し訳ない"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "もうしわけない",
+        "written": "申し訳無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "there is no way that ..."
+        ]
+      },
+      {
+        "glosses": [
+          "easy",
+          "simple"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "わけがない",
+        "written": "わけが無い"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "わけがない",
+        "written": "訳がない"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "わけがない",
+        "written": "訳が無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "there's no way that ..."
+        ]
+      },
+      {
+        "glosses": [
+          "easy",
+          "simple"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけない",
+        "written": "訳ない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけない",
+        "written": "訳無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation"
+        ]
+      },
+      {
+        "glosses": [
+          "back translation",
+          "transcription (of shorthand to longhand)",
+          "deciphering (a code)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんやく",
+        "written": "反訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translator's notes"
+        ]
+      },
+      {
+        "glosses": [
+          "translation and annotation",
+          "translation with notes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やくちゅう",
+        "written": "訳注"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やくちゅう",
+        "written": "訳註"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "why"
+        ]
+      },
+      {
+        "glosses": [
+          "somehow",
+          "for some reason (or other)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうしたわけか",
+        "written": "どうした訳か"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どうしたわけか",
+        "written": "如何した訳か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "word borrowed and translated from another language"
+        ]
+      },
+      {
+        "glosses": [
+          "term used in translation",
+          "translation equivalent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほんやくご",
+        "written": "翻訳語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kango translation",
+          "translation into Japanese using kanji"
+        ]
+      },
+      {
+        "glosses": [
+          "translation into (classical) Chinese",
+          "translation into kanbun"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんやく",
+        "written": "漢訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "I don't get it",
+          "I'm confused",
+          "I'm lost"
+        ]
+      },
+      {
+        "glosses": [
+          "incomprehensible",
+          "nonsensical",
+          "puzzling",
+          "mysterious",
+          "meaningless"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わけがわからない",
+        "written": "わけが分からない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけがわからない",
+        "written": "訳がわからない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけがわからない",
+        "written": "訳が分からない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わけがわからない",
+        "written": "訳が分らない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "phonetic representation of a foreign word using Chinese characters"
+        ]
+      },
+      {
+        "glosses": [
+          "reading aloud (for people with impaired vision)"
+        ]
+      },
+      {
+        "glosses": [
+          "transliteration"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おんやく",
+        "written": "音訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "translation"
+        ]
+      },
+      {
+        "glosses": [
+          "translation"
+        ]
+      },
+      {
+        "glosses": [
+          "deciphering",
+          "decoding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "ほんやく",
+        "written": "翻訳"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "ほんやく",
+        "written": "飜訳"
+      }
+    ]
+  }
+]

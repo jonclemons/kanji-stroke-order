@@ -1,0 +1,3779 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "\"day of the ghost\" (an extremely auspicious day on the lunar calendar for everything but weddings)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きしゅくにち",
+        "written": "鬼宿日"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(being beholden to someone for a favor of) a night's lodging and a meal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっしゅくいっぱん",
+        "written": "一宿一飯"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(business of) renting out one's home (on Airbnb, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅうたくしゅくはくじぎょう",
+        "written": "住宅宿泊事業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(short-term) leave allowed a servant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどさがり",
+        "written": "宿下がり"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やどさがり",
+        "written": "宿下り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Bond\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たたらぼし",
+        "written": "たたら星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "たたらぼし",
+        "written": "婁宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Chariot\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みつかけぼし",
+        "written": "みつかけ星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "みつかけぼし",
+        "written": "軫宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Dipper\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひきつぼし",
+        "written": "斗宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ひつきぼし",
+        "written": "斗宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Emptiness\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とみてぼし",
+        "written": "とみて星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とみてぼし",
+        "written": "虚宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Encampment\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はついぼし",
+        "written": "はつい星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はついぼし",
+        "written": "室宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Extended Net\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちりこぼし",
+        "written": "ちりこ星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちりこぼし",
+        "written": "張宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちりこぼし",
+        "written": "張星"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Girl\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うるきぼし",
+        "written": "うるき星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うるきぼし",
+        "written": "女宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Heart\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なかごぼし",
+        "written": "中子星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なかごぼし",
+        "written": "心宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Legs\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けいしゅく",
+        "written": "奎宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とかきぼし",
+        "written": "奎宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とかきぼし",
+        "written": "斗掻き星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とかきぼし",
+        "written": "斗搔き星"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Net\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あめふりぼし",
+        "written": "畢宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あめふりぼし",
+        "written": "雨降り星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あめふりぼし",
+        "written": "雨降星"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Ox\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いなみぼし",
+        "written": "牛宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いなみぼし",
+        "written": "稲見星"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Three Stars\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "からすきぼし",
+        "written": "参宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "からすきぼし",
+        "written": "唐鋤星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "からすきぼし",
+        "written": "犂星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しんしゅく",
+        "written": "参宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Turtle Beak\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とろきぼし",
+        "written": "とろき星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "とろきぼし",
+        "written": "觜宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Wall\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なまめぼし",
+        "written": "なまめ星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なまめぼし",
+        "written": "壁宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Well\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちちりぼし",
+        "written": "ちちり星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ちちりぼし",
+        "written": "井宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Willow\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぬりこぼし",
+        "written": "ぬりこ星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ぬりこぼし",
+        "written": "柳宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Wings\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たすきぼし",
+        "written": "翼宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "たすきぼし",
+        "written": "襷星"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"horn\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すぼし",
+        "written": "角宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"rooftop\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うみやめぼし",
+        "written": "危宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"root\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ともぼし",
+        "written": "とも星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ともぼし",
+        "written": "氐宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"stomach\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えきえぼし",
+        "written": "胃宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"winnowing basket\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みぼし",
+        "written": "箕宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "みぼし",
+        "written": "箕星"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Dardanus crassimanus (species of left-handed hermit crab)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いしだたみやどかり",
+        "written": "石畳宿借"
+      },
+      {
+        "priorities": [],
+        "pronounced": "イシダタミヤドカリ",
+        "written": "石畳宿借"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Home, Sweet Home"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はにゅうのやど",
+        "written": "埴生の宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Immaculate Conception"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むげんざいのおんやどり",
+        "written": "無原罪の御宿り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Immaculate Conception"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むげんざいのやどり",
+        "written": "無原罪の宿り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kokumin-Shukusha Kyokai"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくみんしゅくしゃきょうかい",
+        "written": "国民宿舎協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Xiuyaojing (Indian astrological text written by Amoghavajra)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくようきょう",
+        "written": "宿曜経"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すくようきょう",
+        "written": "宿曜経"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すくようぎょう",
+        "written": "宿曜経"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accommodation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくせつび",
+        "written": "宿泊設備"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "agency that dispatches lodged servants"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うけやど",
+        "written": "受宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うけやど",
+        "written": "請け宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うけやど",
+        "written": "請宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "being at home"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざいしゅく",
+        "written": "在宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "billeting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんしゅく",
+        "written": "分宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "board-and-room charge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げしゅくりょう",
+        "written": "下宿料"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "boarding house"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しろうとげしゅく",
+        "written": "素人下宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "boarding school"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きしゅくがっこう",
+        "written": "寄宿学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "boarding student"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きしゅくせい",
+        "written": "寄宿生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "boardinghouse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がっしゅくしょ",
+        "written": "合宿所"
+      },
+      {
+        "priorities": [],
+        "pronounced": "がっしゅくじょ",
+        "written": "合宿所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "brothel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いんばいやど",
+        "written": "淫売宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "brothel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばいしゅんやど",
+        "written": "売春宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "brothel for male prostitutes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うりこやど",
+        "written": "売子宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "brothel fronting as a tea house, inn, restaurant, etc."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あいまいやど",
+        "written": "曖昧宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "change of lodgings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどがえ",
+        "written": "宿替え"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cheap hotel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やすやど",
+        "written": "安宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cheap lodging house"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きちんやど",
+        "written": "木賃宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chronic disease"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくあ",
+        "written": "宿痾"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "concave land hermit crab (Coenobita cavipes)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おかやどかり",
+        "written": "岡宿借"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おかやどかり",
+        "written": "陸宿借"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おかやどかり",
+        "written": "陸寄居虫"
+      },
+      {
+        "priorities": [],
+        "pronounced": "オカヤドカリ",
+        "written": "岡宿借"
+      },
+      {
+        "priorities": [],
+        "pronounced": "オカヤドカリ",
+        "written": "陸宿借"
+      },
+      {
+        "priorities": [],
+        "pronounced": "オカヤドカリ",
+        "written": "陸寄居虫"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fatalism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくめいろん",
+        "written": "宿命論"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fatalist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくめいろんじゃ",
+        "written": "宿命論者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fate predetermined from a prior existence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっこん",
+        "written": "宿根"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fee for board and lodging"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きしゅくりょう",
+        "written": "寄宿料"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "first-class inn"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうやど",
+        "written": "上宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "form of astrology based on the Xiuyaojing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくよう",
+        "written": "宿曜"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すくよう",
+        "written": "宿曜"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "form of astrology based on the Xiuyaojing (brought to Japan in the Heian period)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すくようどう",
+        "written": "宿曜道"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "free lodging (for pilgrims, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんこんやど",
+        "written": "善根宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gambling den"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばくちやど",
+        "written": "博奕宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guest spending the night (i.e. at a hotel)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくきゃく",
+        "written": "宿泊客"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hangover"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくすい",
+        "written": "宿酔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hotel charges"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくりょう",
+        "written": "宿料"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hotel charges"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどせん",
+        "written": "宿銭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hotel charges"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどちん",
+        "written": "宿賃"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hotel charges (for lodging, not meals, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどだい",
+        "written": "宿代"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hotel guest"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうしゅくしゃ",
+        "written": "投宿者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hotel or lodging house tout"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどひき",
+        "written": "宿引き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hotel register"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどちょう",
+        "written": "宿帳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "husband"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどろく",
+        "written": "宿六"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inexpensive hotel operated by a local government"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44",
+          "spec2"
+        ],
+        "pronounced": "こくみんしゅくしゃ",
+        "written": "国民宿舎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inn"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "やどや",
+        "written": "宿屋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inn used for clandestine encounters between lovers"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "であいやど",
+        "written": "出合い宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "であいやど",
+        "written": "出合宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intermediate host"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちゅうかんしゅくしゅ",
+        "written": "中間宿主"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "karma (from one's previous life)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくごう",
+        "written": "宿業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "knowledge of previous lifetimes (one of the six supernormal Buddhist powers)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくみょうつう",
+        "written": "宿命通"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lingering snow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくせつ",
+        "written": "宿雪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lodging"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げしゅくさき",
+        "written": "下宿先"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lodging house"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げしゅくや",
+        "written": "下宿屋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lodging in the same place"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうしゅく",
+        "written": "同宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どうじゅく",
+        "written": "同宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "longstanding desire"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "しゅくがん",
+        "written": "宿願"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "natural host"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しぜんしゅくしゅ",
+        "written": "自然宿主"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "night duty room"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくちょくしつ",
+        "written": "宿直室"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "number of nights staying in accommodation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくすう",
+        "written": "宿泊数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one's previous existence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくせ",
+        "written": "宿世"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すくせ",
+        "written": "宿世"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outcasts common around the Kyoto region from the Kamakura period to the Edo period"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅく",
+        "written": "夙"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しゅく",
+        "written": "守公"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しゅく",
+        "written": "守宮"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しゅく",
+        "written": "宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "perennial plant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっこんそう",
+        "written": "宿根草"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "renowned scholar"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくがく",
+        "written": "宿学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sleeping outdoors"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろしゅく",
+        "written": "露宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "staying one night"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっしゅく",
+        "written": "一宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taking shelter from rain"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "あまやどり",
+        "written": "雨やどり"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "あまやどり",
+        "written": "雨宿り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be the mother of someone's child"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たねをやどす",
+        "written": "種を宿す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to become pregnant with an illegitimate child"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いんがのたねをやどす",
+        "written": "因果の胤を宿す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "training camp"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうかがっしゅく",
+        "written": "強化合宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "twenty-eight mansions of Chinese astronomy (constellations dividing the ecliptic into 28 positions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にじゅうはっしゅく",
+        "written": "二十八宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "veteran general"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくしょう",
+        "written": "宿将"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a sound mind is in a sound body",
+          "mens sana in corpore sano"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんぜんなるせいしんはけんぜんなるしんたいにやどる",
+        "written": "健全なる精神は健全なる身体に宿る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accommodation",
+          "lodging"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "しゅくはく",
+        "written": "宿泊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accommodation charge",
+          "room rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくりょう",
+        "written": "宿泊料"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "billeting",
+          "camp"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26"
+        ],
+        "pronounced": "しゅくえい",
+        "written": "宿営"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "boarder",
+          "boarding student"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げしゅくせい",
+        "written": "下宿生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "caravansary",
+          "caravanserai"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいしょうやど",
+        "written": "隊商宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fate",
+          "destiny"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくうん",
+        "written": "宿運"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fateful",
+          "predestined"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくめいてき",
+        "written": "宿命的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hotel catering for lovers",
+          "hotel that rents rooms by the hour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "つれこみやど",
+        "written": "連れ込み宿"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "つれこみやど",
+        "written": "連込み宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hotel charge",
+          "lodging expense"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくひ",
+        "written": "宿泊費"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hotel voucher",
+          "accommodation voucher"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくけん",
+        "written": "宿泊券"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "house covered with dew",
+          "place covered with dew"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つゆのやど",
+        "written": "露の宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "house covered with dew",
+          "place covered with dew"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つゆのやどり",
+        "written": "露の宿り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lodger",
+          "guest (esp. at a hotel)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくしゃ",
+        "written": "宿泊者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lodger",
+          "roomer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げしゅくにん",
+        "written": "下宿人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lodging",
+          "putting up"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ししゅく",
+        "written": "止宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lodging",
+          "putting up at a hotel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうしゅく",
+        "written": "投宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lodging host",
+          "lodging place"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくさき",
+        "written": "宿泊先"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lodgings",
+          "quarters"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくじょ",
+        "written": "宿泊所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "long-cherished desire",
+          "one's heart's desire"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくぼう",
+        "written": "宿望"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しゅくもう",
+        "written": "宿望"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "long-standing ambition",
+          "one's heart's desire"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくし",
+        "written": "宿志"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "longstanding abuse",
+          "deep-rooted evil"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくへい",
+        "written": "宿弊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "longstanding opinion",
+          "old grudge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくい",
+        "written": "宿意"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "old evils",
+          "evils committed in a previous existence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくあく",
+        "written": "宿悪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "old grudge",
+          "old score"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくえん",
+        "written": "宿怨"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "old grudge",
+          "old score"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくこん",
+        "written": "宿恨"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しゅっこん",
+        "written": "宿恨"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one's regular inn",
+          "one's usual hotel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じょうやど",
+        "written": "定宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "じょうやど",
+        "written": "常宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "public lodging house",
+          "simple lodging (including pensions, private lodging and capsule hotels)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんいしゅくしょ",
+        "written": "簡易宿所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "public lodging house",
+          "simple lodging (including pensions, private lodging and capsule hotels)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんしゅく",
+        "written": "簡宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "public lodging house",
+          "simple lodging (including pensions, private lodging and capsule hotels)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんいしゅくはくしょ",
+        "written": "簡易宿泊所"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かんいしゅくはくじょ",
+        "written": "簡易宿泊所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "resting place between inn towns (Edo period)",
+          "town situated between two post towns"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あいのしゅく",
+        "written": "合の宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あいのしゅく",
+        "written": "間の宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あいのしゅく",
+        "written": "間宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "star of fate",
+          "a zodiac"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくせい",
+        "written": "宿星"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "staying in the same inn or hotel",
+          "rooming together"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あいやど",
+        "written": "相宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "taking an intensive driving course while staying in accommodation provided by the driving school",
+          "driving school camp"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がっしゅくめんきょ",
+        "written": "合宿免許"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "temporary dwelling",
+          "this transient world"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かりのやどり",
+        "written": "仮の宿り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be pregnant",
+          "to be with child"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こをやどす",
+        "written": "子を宿す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to stay (at)",
+          "to stop (at)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくす",
+        "written": "宿す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to stay (at)",
+          "to stop (at)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくする",
+        "written": "宿する"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to take in lodgers",
+          "to keep boarders"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げしゅくにんをおく",
+        "written": "下宿人をおく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "げしゅくにんをおく",
+        "written": "下宿人を置く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "training camp",
+          "off-campus residential course"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくけんしゅう",
+        "written": "宿泊研修"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "travellers' inn",
+          "stage inn"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たびやど",
+        "written": "旅宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "りょしゅく",
+        "written": "旅宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "visitor's or pilgrims' lodgings in a temple",
+          "priest's quarters"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくぼう",
+        "written": "宿坊"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"Hairy Head\" constellation (one of the 28 mansions)",
+          "Pleiades",
+          "Seven Sisters"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぼうしゅく",
+        "written": "昴宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accommodation charge",
+          "lodging charges",
+          "lodging fees"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくりょうきん",
+        "written": "宿泊料金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accommodation facility (e.g. hotel)",
+          "lodging facility",
+          "boarding house"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくしせつ",
+        "written": "宿泊施設"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accommodation tax",
+          "bed tax",
+          "transient occupancy tax"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくぜい",
+        "written": "宿泊税"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "address",
+          "lodgings",
+          "accommodation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくしょ",
+        "written": "宿所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "boarding house",
+          "residence hall",
+          "dormitory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きしゅくりょう",
+        "written": "寄宿寮"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "boarding house",
+          "residence hall",
+          "dormitory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33",
+          "spec2"
+        ],
+        "pronounced": "きしゅくしゃ",
+        "written": "寄宿舎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "construction camp",
+          "bunkhouse",
+          "workers' living quarters"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さぎょういんしゅくしゃ",
+        "written": "作業員宿舎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "destiny",
+          "fate",
+          "karma"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくえん",
+        "written": "宿縁"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fate",
+          "destiny",
+          "predestination"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "しゅくめい",
+        "written": "宿命"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "feces contained long in the intestines",
+          "fecal stasis",
+          "coprostasis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくべん",
+        "written": "宿便"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "homeless person",
+          "vagabond",
+          "tramp"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどなし",
+        "written": "宿なし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やどなし",
+        "written": "宿無し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "honesty is the best policy",
+          "honesty pays",
+          "God dwells in an honest heart"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうじきのこうべにかみやどる",
+        "written": "正直の頭に神宿る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hot spring inn",
+          "hot spring hotel",
+          "hot spring resort"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おんせんやど",
+        "written": "温泉宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inn town",
+          "post town",
+          "post-station town"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくばまち",
+        "written": "宿場町"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lodger",
+          "boarder",
+          "paying guest"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくにん",
+        "written": "宿泊人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lodging",
+          "abode",
+          "shelter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどり",
+        "written": "宿り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lodging together",
+          "training camp",
+          "boarding house"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "がっしゅく",
+        "written": "合宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mistle thrush (Turdus viscivorus)",
+          "missel thrush",
+          "stormcock"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどりぎつぐみ",
+        "written": "宿木鶇"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ヤドリギツグミ",
+        "written": "宿木鶇"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "night watch",
+          "night guard",
+          "night shift"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とのい",
+        "written": "宿直"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "しゅくちょく",
+        "written": "宿直"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "outdoor sleeper",
+          "rough sleeper",
+          "homeless person"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "のじゅくしゃ",
+        "written": "野宿者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "relay station",
+          "post station",
+          "stage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "しゅくえき",
+        "written": "宿駅"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "relay station (esp. on Edo-period highway)",
+          "post station",
+          "stage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf39"
+        ],
+        "pronounced": "しゅくば",
+        "written": "宿場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "residential",
+          "training-camp-style",
+          "boarding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がっしゅくけいしき",
+        "written": "合宿形式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "room for overnight guests",
+          "accommodation room",
+          "guestroom"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくはくしつ",
+        "written": "宿泊室"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shabby house",
+          "hovel",
+          "tumbledown dwelling"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はにゅうのやど",
+        "written": "埴生の宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shipping agent",
+          "boathouse",
+          "inn for sailors"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふなやど",
+        "written": "舟宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふなやど",
+        "written": "船宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sleeping outdoors",
+          "sleeping out in the open air",
+          "camping"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf37"
+        ],
+        "pronounced": "のじゅく",
+        "written": "野宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "billeting area",
+          "cantonment",
+          "encampment",
+          "étape"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくえいち",
+        "written": "宿営地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guest house",
+          "private home providing lodging for travelers",
+          "bed and breakfast",
+          "pension"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf20"
+        ],
+        "pronounced": "みんしゅく",
+        "written": "民宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "homeless person",
+          "tramp",
+          "vagrant",
+          "vagabond"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むしゅくもの",
+        "written": "無宿者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "old men",
+          "elders",
+          "seniors",
+          "veterans"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくろう",
+        "written": "宿老"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "old enemy",
+          "longtime enemy",
+          "arch-enemy",
+          "traditional rival",
+          "longstanding foe"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf26",
+          "spec2"
+        ],
+        "pronounced": "しゅくてき",
+        "written": "宿敵"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "\"day of the ghost\""
+        ]
+      },
+      {
+        "glosses": [
+          "Chinese \"ghost\" constellation (one of the 28 mansions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きしゅく",
+        "written": "鬼宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(parasitic) host"
+        ]
+      },
+      {
+        "glosses": [
+          "landlord",
+          "innkeeper"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどぬし",
+        "written": "宿主"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf39"
+        ],
+        "pronounced": "しゅくしゅ",
+        "written": "宿主"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"room\" constellation (one of the 28 mansions)"
+        ]
+      },
+      {
+        "glosses": [
+          "(natural) satellite",
+          "moon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そいぼし",
+        "written": "房宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そいぼし",
+        "written": "房星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そいぼし",
+        "written": "添い星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "そいぼし",
+        "written": "添星"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Lord (title of respect for nobility, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "Sukune (third highest of the eight hereditary titles)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すくね",
+        "written": "宿禰"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "being removed from the family register (Edo period)"
+        ]
+      },
+      {
+        "glosses": [
+          "homelessness",
+          "homeless person"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むしゅく",
+        "written": "無宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "building where one keeps oxcarts and other conveyances inside a private estate"
+        ]
+      },
+      {
+        "glosses": [
+          "resting area for one's oxcart, wagon, etc."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くるまやどり",
+        "written": "車宿り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "housing (for government employees)"
+        ]
+      },
+      {
+        "glosses": [
+          "lodging (house)",
+          "accommodation",
+          "hotel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "しゅくしゃ",
+        "written": "宿舎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mistletoe (esp. European mistletoe, Viscum album)"
+        ]
+      },
+      {
+        "glosses": [
+          "parasitic plant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどりぎ",
+        "written": "宿り木"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やどりぎ",
+        "written": "宿木"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やどりぎ",
+        "written": "寄生木"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "homework",
+          "assignment"
+        ]
+      },
+      {
+        "glosses": [
+          "pending issue",
+          "unresolved problem",
+          "open question"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "しゅくだい",
+        "written": "宿題"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to make a reservation (at a hotel, etc.)",
+          "to arrange for a place to stay"
+        ]
+      },
+      {
+        "glosses": [
+          "to stay in a hotel (inn, etc.)",
+          "to put up (at)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やどをとる",
+        "written": "宿をとる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やどをとる",
+        "written": "宿を取る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "boarding house",
+          "lodging house",
+          "lodgings"
+        ]
+      },
+      {
+        "glosses": [
+          "boarding",
+          "lodging",
+          "board and lodging",
+          "room and board"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf17"
+        ],
+        "pronounced": "げしゅく",
+        "written": "下宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "boarding house",
+          "residence hall",
+          "dormitory"
+        ]
+      },
+      {
+        "glosses": [
+          "lodging",
+          "boarding",
+          "room and board",
+          "board and lodging"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "きしゅく",
+        "written": "寄宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese \"star\" constellation (one of the 28 mansions)"
+        ]
+      },
+      {
+        "glosses": [
+          "constellation"
+        ]
+      },
+      {
+        "glosses": [
+          "mansion (any of the Chinese constellations used to divide the ecliptic into 28 positions)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいしゅく",
+        "written": "星宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ほとおりぼし",
+        "written": "ほとおり星"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ほとおりぼし",
+        "written": "星宿"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ほとほりぼし",
+        "written": "星宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hermit crab"
+        ]
+      },
+      {
+        "glosses": [
+          "renting a house"
+        ]
+      },
+      {
+        "glosses": [
+          "tenant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かみな",
+        "written": "寄居虫"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ごうな",
+        "written": "寄居虫"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やどかり",
+        "written": "宿借"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やどかり",
+        "written": "宿借り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やどかり",
+        "written": "寄居虫"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ヤドカリ",
+        "written": "宿借"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ヤドカリ",
+        "written": "宿借り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ヤドカリ",
+        "written": "寄居虫"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "home of a servant's parents (or guarantor, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "house",
+          "home",
+          "dwelling"
+        ]
+      },
+      {
+        "glosses": [
+          "lodging",
+          "inn",
+          "hotel"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "やど",
+        "written": "宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "inn that introduces clients to prostitutes"
+        ]
+      },
+      {
+        "glosses": [
+          "inn that serves as a meeting place for lovers"
+        ]
+      },
+      {
+        "glosses": [
+          "inn where one rests on the way"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なかやど",
+        "written": "中宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lodging"
+        ]
+      },
+      {
+        "glosses": [
+          "constellation",
+          "mansion (in Chinese astronomy)"
+        ]
+      },
+      {
+        "glosses": [
+          "relay station",
+          "post town"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅく",
+        "written": "宿"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to carry (a baby)",
+          "to be pregnant"
+        ]
+      },
+      {
+        "glosses": [
+          "to give lodging to",
+          "to accommodate"
+        ]
+      },
+      {
+        "glosses": [
+          "to house",
+          "to contain",
+          "to harbour (a feeling)",
+          "to hold (e.g. dew on leaves)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44",
+          "spec2"
+        ],
+        "pronounced": "やどす",
+        "written": "宿す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be a parasite (bugs, plants, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "to be part of a constellation"
+        ]
+      },
+      {
+        "glosses": [
+          "to be pregnant"
+        ]
+      },
+      {
+        "glosses": [
+          "to dwell",
+          "to live",
+          "to remain"
+        ]
+      },
+      {
+        "glosses": [
+          "to stay at",
+          "to take shelter at",
+          "to stop at",
+          "to lodge at"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf34",
+          "spec2"
+        ],
+        "pronounced": "やどる",
+        "written": "宿る"
+      }
+    ]
+  }
+]

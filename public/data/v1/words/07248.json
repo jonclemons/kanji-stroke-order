@@ -1,0 +1,4513 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(book) launch party"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんきねんパーティー",
+        "written": "出版記念パーティー"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(printing, etc.) plate cost"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんだい",
+        "written": "版代"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(registry of) land and people"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんせき",
+        "written": "版籍"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(software) trial version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "トライアルばん",
+        "written": "トライアル版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Bijutsu Shuppan-sha (publisher)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "びじゅつしゅっぱんしゃ",
+        "written": "美術出版社"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Fuji Pacific Music Inc."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "フジパシフィックおんがくしゅっぱん",
+        "written": "フジパシフィック音楽出版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "International Publishers Association"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくさいしゅっぱんれんごう",
+        "written": "国際出版連合"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Electronic Publishing Association"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんでんししゅっぱんきょうかい",
+        "written": "日本電子出版協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese Association of Children's Book Publishers"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんじどうとしょしゅっぱんきょうかい",
+        "written": "日本児童図書出版協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Jesuit publications (16th-17th century)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あまくさばん",
+        "written": "天草版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Mac version (of software, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "マックばん",
+        "written": "マック版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "マックばん",
+        "written": "Ｍａｃ版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Mitsumura Tosho Publishing Co. Ltd"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みつむらとしょしゅっぱん",
+        "written": "光村図書出版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Research Institute for Publications"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんかがくけんきゅうじょ",
+        "written": "出版科学研究所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Sunday edition of a newspaper"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "にちようばん",
+        "written": "日曜版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "alpha version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アルファばん",
+        "written": "アルファ版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "an edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いっぱん",
+        "written": "一版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "beta version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ベータばん",
+        "written": "β版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ベータばん",
+        "written": "ベータ版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "block copy artist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんしたかき",
+        "written": "版下書き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "block printing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もくはんずり",
+        "written": "木版刷り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "もくはんずり",
+        "written": "木版摺"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "books printed in Japan by the Jesuits (1590-1612)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "キリシタンばん",
+        "written": "キリシタン版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "branch-off edition (of a series)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっちょうばん",
+        "written": "出張版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "brayer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんがローラー",
+        "written": "版画ローラー"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "candidate release"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "キャンディデートばん",
+        "written": "キャンディデート版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "carefully selected edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいせんばん",
+        "written": "精選版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "collector's edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あいぞうばん",
+        "written": "愛蔵版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commemorative publication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きねんしゅっぱん",
+        "written": "記念出版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commercial publishing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうぎょうしゅっぱん",
+        "written": "商業出版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commercial version (of software)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょうようばん",
+        "written": "商用版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "complete version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんせいばん",
+        "written": "完成版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "copperplate engraving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうこくおうはん",
+        "written": "彫刻凹版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "copperplate etching"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふしょくどうばん",
+        "written": "腐食銅板"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふしょくどうばん",
+        "written": "腐食銅版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "copyright"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぞうはん",
+        "written": "蔵版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "copyright holder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんけんしょゆうしゃ",
+        "written": "版権所有者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "copyright infringement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんけんしんがい",
+        "written": "版権侵害"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "deluxe edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "ごうかばん",
+        "written": "豪華版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "desktop publishing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "デスクトップしゅっぱん",
+        "written": "デスクトップ出版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "different edition (e.g. of a book)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いはん",
+        "written": "異板"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いはん",
+        "written": "異版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "discontinued edition (model, product, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はいばん",
+        "written": "廃版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "distribution of type"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいはん",
+        "written": "解版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "dubbed version (of a movie)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふきかえばん",
+        "written": "吹き替え版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふきかえばん",
+        "written": "吹替え版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ふきかえばん",
+        "written": "吹替版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "early edition (of a newspaper)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はやばん",
+        "written": "早版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ebook edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんししょせきばん",
+        "written": "電子書籍版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "electronic publishing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんししゅっぱん",
+        "written": "電子出版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "engraving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうこくばん",
+        "written": "彫刻版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "enlarged and revised edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぞうていばん",
+        "written": "増訂版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "enlarged and revised edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぞうほかいていばん",
+        "written": "増補改訂版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "expanded edition (of a dictionary)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほていばん",
+        "written": "補訂版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "first edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "しょはん",
+        "written": "初版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "first edition (book)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょはんぼん",
+        "written": "初版本"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "free version (of software, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むしょうばん",
+        "written": "無償版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "free version (of software, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むりょうばん",
+        "written": "無料版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "freedom of the press"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんのじゆう",
+        "written": "出版の自由"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "halftone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あみはん",
+        "written": "網版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "halftone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あみめばん",
+        "written": "網目版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "highlight halftone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ハイライトばん",
+        "written": "ハイライト版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intaglio (printing)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうはん",
+        "written": "凹版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "おうばん",
+        "written": "凹版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "intaglio printing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おうはんいんさつ",
+        "written": "凹版印刷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kawaraban (type of Edo-period single-page newspaper)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かわらばん",
+        "written": "瓦版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "key block (in woodblock printing)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おもはん",
+        "written": "主版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "library edition (of a book)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "としょかんばん",
+        "written": "図書館版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "limited edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんていばん",
+        "written": "限定版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "limited publication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんていしゅっぱん",
+        "written": "限定出版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "linocut"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "リノリウムはんが",
+        "written": "リノリウム版画"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lithograph"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきばんが",
+        "written": "石版画"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lithography"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきばんいんさつ",
+        "written": "石版印刷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lithography"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいはん",
+        "written": "平版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lithography"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきばんずり",
+        "written": "石版刷"
+      },
+      {
+        "priorities": [],
+        "pronounced": "せきばんずり",
+        "written": "石版刷り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "local edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25"
+        ],
+        "pronounced": "ちほうばん",
+        "written": "地方版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "low voltage mobile (processor)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていでんあつばんモバイル",
+        "written": "低電圧版モバイル"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "low voltage xeon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていでんあつばんジーオン",
+        "written": "低電圧版Ｘｅｏｎ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mimeograph"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうはん",
+        "written": "孔版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mimeograph"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とうしゃばん",
+        "written": "謄写版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mimeograph"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がりばん",
+        "written": "がり版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ガリばん",
+        "written": "ガリ版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mobile edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "モバイルはん",
+        "written": "モバイル版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "monographic publication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たんこうしゅっぱんぶつ",
+        "written": "単行出版物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "new and revised edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんていばん",
+        "written": "新訂版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "old edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうばん",
+        "written": "旧版"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf45"
+        ],
+        "pronounced": "きゅうはん",
+        "written": "旧版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "old woodblock-printed book from the Muromachi period or earlier"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こはんぼん",
+        "written": "古板本"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こはんぼん",
+        "written": "古版本"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こはんぽん",
+        "written": "古板本"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こはんぽん",
+        "written": "古版本"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "out of print"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "ぜっぱん",
+        "written": "絶版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "overseas edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいがいばん",
+        "written": "海外版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paid version (of software, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうしょうばん",
+        "written": "有償版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paid version (of software, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ゆうりょうばん",
+        "written": "有料版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paperback edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぶんこばん",
+        "written": "文庫版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "papercraft sculpture representing a scene akin to a painting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たてばんこ",
+        "written": "立て版古"
+      },
+      {
+        "priorities": [],
+        "pronounced": "たてばんこ",
+        "written": "立版古"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "permission to publish"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんきょか",
+        "written": "出版許可"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "photoengraving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あえんとっぱん",
+        "written": "亜鉛凸版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "photolithography"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃしんせきばん",
+        "written": "写真石版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "phototype"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃしんとっぱん",
+        "written": "写真凸版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "place of publication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんち",
+        "written": "出版地"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "plate-making"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "せいはん",
+        "written": "製版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "platemaking shop"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいはんじょ",
+        "written": "製版所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pochoir (type of hand-painted stencil printing)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かっぱばん",
+        "written": "カッパ版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かっぱばん",
+        "written": "合羽版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pocket edition (of a book)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうちんばん",
+        "written": "袖珍版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "print-on-demand publishing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "オンデマンドしゅっぱん",
+        "written": "オンデマンド出版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "オンデマンドしゅっぱん",
+        "written": "オン・デマンド出版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "printed book"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かっぱんぼん",
+        "written": "活版本"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "printed edition (as opposed to digital)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さっしばん",
+        "written": "冊子版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "printed edition (of a book, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょせきばん",
+        "written": "書籍版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "public text display version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうかいぶんひょうじばん",
+        "written": "公開文表示版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "しゅっぱんぶつ",
+        "written": "出版物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "しゅっぱん",
+        "written": "出板"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "しゅっぱん",
+        "written": "出版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publication after securing subscriptions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よやくしゅっぱん",
+        "written": "予約出版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publisher"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんぎょうしゃ",
+        "written": "出版業者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publisher"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "しゅっぱんもと",
+        "written": "出版元"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publisher"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "はんもと",
+        "written": "板元"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "はんもと",
+        "written": "版元"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publishing (esp. using woodblock printing)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいはん",
+        "written": "開板"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かいはん",
+        "written": "開版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publishing business"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんぎょう",
+        "written": "出版業"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publishing costs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんひ",
+        "written": "出版費"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publishing department"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんぶ",
+        "written": "出版部"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publishing house"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんや",
+        "written": "出版屋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "return of the land and people from the feudal lords to the Emperor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんせきほうかん",
+        "written": "版籍奉還"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はんせきほうかん",
+        "written": "藩籍奉還"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "revised edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf25",
+          "spec2"
+        ],
+        "pronounced": "かいていばん",
+        "written": "改定版"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf25",
+          "spec2"
+        ],
+        "pronounced": "かいていばん",
+        "written": "改訂版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "revised version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅうせいばん",
+        "written": "修正版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "revision management"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいはんかんり",
+        "written": "改版管理"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "second revised edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいていばん",
+        "written": "再訂版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "スペシャルばん",
+        "written": "スペシャル版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stamp made with a potato"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いもばん",
+        "written": "芋版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stereotype"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えんばん",
+        "written": "鉛版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "subtitled version (of a movie)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じまくばん",
+        "written": "字幕版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "territory"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんと",
+        "written": "版図"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "test version (of software)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "テストばん",
+        "written": "テスト版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the publishing world"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんかい",
+        "written": "出版界"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to revise an edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんをあらためる",
+        "written": "版を改める"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trial version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おためしばん",
+        "written": "お試し版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ultra low voltage mobile (processor)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうていでんあつばんモバイル",
+        "written": "超低電圧版モバイル"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "upgrade version (of software)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アップグレードばん",
+        "written": "アップグレード版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "urtext edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんてんばん",
+        "written": "原典版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "woodblock print"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もくはんが",
+        "written": "木版画"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "year of publication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんねん",
+        "written": "出版年"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "zinc etching"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あえんばん",
+        "written": "亜鉛版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "All Japan Magazine and Book Publisher's and Editor's Association",
+          "AJPEA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜんこくしゅっぱんきょうかい",
+        "written": "全国出版協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "English version",
+          "English-language edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいごばん",
+        "written": "英語版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Medical Publishers Association",
+          "JMPA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんいしょしゅっぱんきょうかい",
+        "written": "日本医書出版協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese (language) version",
+          "Japanese edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にほんごばん",
+        "written": "日本語版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "National Music Publishers' Association",
+          "NMPA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おんがくしゅっぱんきょうかい",
+        "written": "音楽出版協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "all rights reserved",
+          "copyright reserved"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんけんしょゆう",
+        "written": "版権所有"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "catalog of publications",
+          "catalogue of publications"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんもくろく",
+        "written": "出版目録"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cheap edition (of a book)",
+          "popular edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふきゅうばん",
+        "written": "普及版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "circulation",
+          "number printed"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんぶすう",
+        "written": "出版部数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "comic book version",
+          "comic book edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "コミックばん",
+        "written": "コミック版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "copper plate",
+          "copperplate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうはん",
+        "written": "銅版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どうばん",
+        "written": "銅版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "copperplate engraving",
+          "etching"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうばんが",
+        "written": "銅版画"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf30",
+          "spec2"
+        ],
+        "pronounced": "どうはんが",
+        "written": "銅版画"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "copyright",
+          "publishing rights"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf23"
+        ],
+        "pronounced": "はんけん",
+        "written": "版権"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "demo version (of a video game)",
+          "trial version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゆうばん",
+        "written": "試遊版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "demo version (of software)",
+          "trial version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいけんばん",
+        "written": "体験版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "demo version (of software)",
+          "trial version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "デモばん",
+        "written": "デモ版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "desktop publishing",
+          "DTP"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たくじょうしゅっぱん",
+        "written": "卓上出版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "edited edition",
+          "edited version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へんしゅうばん",
+        "written": "編集版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "electronic edition",
+          "online edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でんしばん",
+        "written": "電子版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "facsimile edition",
+          "reprint"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "ふっこくばん",
+        "written": "復刻板"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "ふっこくばん",
+        "written": "復刻版"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "ふっこくばん",
+        "written": "複刻版"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "ふっこくばん",
+        "written": "覆刻版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fascia signage",
+          "company nameplate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃめいばん",
+        "written": "社名版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "final version",
+          "final edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいしゅうばん",
+        "written": "最終版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "imprint (on the bottom edge of a sheet of stamps)",
+          "manufacturer's name"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "めいはん",
+        "written": "銘版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "latest version",
+          "latest edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいしんばん",
+        "written": "最新版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "letterpress",
+          "relief printing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30",
+          "spec2"
+        ],
+        "pronounced": "とっぱんいんさつ",
+        "written": "凸版印刷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "letterpress",
+          "relief printing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33",
+          "spec2"
+        ],
+        "pronounced": "とっぱん",
+        "written": "凸版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "letterpress printing",
+          "moveable type printing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かっぱんいんさつ",
+        "written": "活版印刷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lithograph",
+          "lithography"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せきばん",
+        "written": "石版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "movie version (based on TV series, anime, etc.)",
+          "the movie"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げきじょうばん",
+        "written": "劇場版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "official publication",
+          "official publications"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうしきしゅっぱんぶつ",
+        "written": "公式出版物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "official publication",
+          "public documents"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんちょうしゅっぱんぶつ",
+        "written": "官庁出版物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "old edition (of a book)",
+          "old woodblock"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こはん",
+        "written": "古版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "online version",
+          "online edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "オンラインばん",
+        "written": "オンライン版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "piracy",
+          "pirated software"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいぞくはんソフトウェア",
+        "written": "海賊版ソフトウェア"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "plate check",
+          "plate inspection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "けんぱん",
+        "written": "検版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "press law",
+          "publication law"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんほう",
+        "written": "出版法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "printer's",
+          "print shop"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かっぱんしょ",
+        "written": "活版所"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かっぱんじょ",
+        "written": "活版所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "privately printed book",
+          "private (press) edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しかばん",
+        "written": "私家版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pro edition (of software, etc.)",
+          "professional edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "プロばん",
+        "written": "プロ版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publication in a new format or binding",
+          "special edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しんそうばん",
+        "written": "新装版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reason for revision",
+          "reason for modification"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいはんりゆう",
+        "written": "改版理由"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rectangular company stamp",
+          "square company seal"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざばん",
+        "written": "座版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reduced-size edition (esp. of an unabridged compilation of a newspaper)",
+          "compact edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "しゅくさつばん",
+        "written": "縮刷版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "remake edition",
+          "remake"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "リメイクばん",
+        "written": "リメイク版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "リメークばん",
+        "written": "リメーク版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "revised edition (of a publication)",
+          "revision"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいはん",
+        "written": "改版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "self-publishing",
+          "publishing at one's own expense"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じひしゅっぱん",
+        "written": "自費出版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "shirokuban (paper size of 127x188mm)",
+          "duodecimo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しろくばん",
+        "written": "四六判"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しろくばん",
+        "written": "四六版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "しろくばん",
+        "written": "４／６判"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "simplified version",
+          "abridged edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんいばん",
+        "written": "簡易版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "simplified version",
+          "abridged edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんりゃくばん",
+        "written": "簡略版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "slump in publishing",
+          "publishing recession"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんふきょう",
+        "written": "出版不況"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "standard edition",
+          "regular edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "つうじょうばん",
+        "written": "通常版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "standard edition",
+          "standard version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "スタンダードばん",
+        "written": "スタンダード版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "stencil printing",
+          "mimeographic printing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうはんいんさつ",
+        "written": "孔版印刷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sōsaku-hanga (woodblock printing art movement)",
+          "creative prints"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうさくはんが",
+        "written": "創作版画"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "three-color printing (red and yellow and blue)",
+          "three-colour printing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんしょくばん",
+        "written": "三色版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to go through several printings",
+          "to run into several editions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんをかさねる",
+        "written": "版を重ねる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trial printing",
+          "prototype edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しさくばん",
+        "written": "試作版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trial version (e.g. software)",
+          "evaluation version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しようばん",
+        "written": "試用版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tricolor printing",
+          "tricolour printing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんしょくしゃしんばん",
+        "written": "原色写真版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tricolor printing",
+          "tricolour printing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんしょくばん",
+        "written": "原色版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "version management",
+          "revision management"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんすうかんり",
+        "written": "版数管理"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "version number",
+          "revision number"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんすう",
+        "written": "版数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "web edition",
+          "online edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ウェブばん",
+        "written": "ウェブ版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ウェブばん",
+        "written": "Ｗｅｂ版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wood-block printing",
+          "wood engraving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf27"
+        ],
+        "pronounced": "もくはん",
+        "written": "木版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "woodblock artist",
+          "woodblock printmaker"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もくはんがか",
+        "written": "木版画家"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "woodblock-printed book",
+          "book printed from woodblocks"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "はんぽん",
+        "written": "板本"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "はんぽん",
+        "written": "版本"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "abridged edition",
+          "abridged version",
+          "abridgement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅくやくばん",
+        "written": "縮約版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "additional printing",
+          "reprint",
+          "reissue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "じゅうはん",
+        "written": "重版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "artwork",
+          "block copy",
+          "paste-up"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんした",
+        "written": "版下"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cheap edition",
+          "low-priced edition",
+          "popular edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "れんかばん",
+        "written": "廉価版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commercial version (e.g. of software)",
+          "production version",
+          "release version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいひんばん",
+        "written": "製品版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "full version",
+          "complete version",
+          "unabridged edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぜんばん",
+        "written": "完全版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "improved version",
+          "revised edition",
+          "refinement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいりょうばん",
+        "written": "改良版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "machine plate",
+          "press plate",
+          "printing plate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さっぱん",
+        "written": "刷版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "modern version",
+          "modern edition",
+          "updated, contemporary edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "げんだいばん",
+        "written": "現代版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paper edition",
+          "print edition",
+          "printed edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かみばん",
+        "written": "紙版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "photoengraving",
+          "photomechanical process",
+          "photochemical engraving"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃしんせいはん",
+        "written": "写真製版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "photostat",
+          "photographic plate",
+          "photogravure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃしんばん",
+        "written": "写真版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "pirated edition",
+          "pirated version",
+          "bootleg copy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "かいぞくばん",
+        "written": "海賊版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "plate",
+          "illustration",
+          "figure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "ずはん",
+        "written": "図版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "printer (person)",
+          "print shop",
+          "printer's"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かっぱんや",
+        "written": "活版屋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "printmaker",
+          "woodblock artist",
+          "copperplate engraver"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんがか",
+        "written": "版画家"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publisher",
+          "publishing house",
+          "publishing company"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "しゅっぱんしゃ",
+        "written": "出版社"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "しゅっぱんしゃ",
+        "written": "出版者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publishing rights",
+          "publication right",
+          "right to publish"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんけん",
+        "written": "出版権"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reprint",
+          "reprinting",
+          "second edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "さいはん",
+        "written": "再版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "smaller version",
+          "miniature version",
+          "pocket edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こがたばん",
+        "written": "小型版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special issue (of magazine, etc.)",
+          "timeless edition",
+          "collector's edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほぞんばん",
+        "written": "保存版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "underground publication",
+          "underground publishing",
+          "samizdat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちかしゅっぱん",
+        "written": "地下出版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "without a place of publication",
+          "sine loco",
+          "s.l."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゅっぱんちふめい",
+        "written": "出版地不明"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "woodcut",
+          "woodblock print",
+          "art print"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "はんが",
+        "written": "板画"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "はんが",
+        "written": "版画"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hectograph",
+          "gelatin duplicator (gelatine)",
+          "jellygraph",
+          "copygraph"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こんにゃくばん",
+        "written": "こんにゃく版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "こんにゃくばん",
+        "written": "蒟蒻版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "コンニャクばん",
+        "written": "コンニャク版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "permanent edition",
+          "timeless edition",
+          "collector's version",
+          "only issue of non-regularly printed magazine or mook"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "えいきゅうほぞんばん",
+        "written": "永久保存版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "typesetting",
+          "composition",
+          "form",
+          "forme"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くみはん",
+        "written": "組み版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くみはん",
+        "written": "組版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unabridged edition",
+          "unabridged version",
+          "uncut edition",
+          "unexpurgated edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むさくじょばん",
+        "written": "無削除版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(printing) block"
+        ]
+      },
+      {
+        "glosses": [
+          "woodcut"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばんぎ",
+        "written": "板木"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf34"
+        ],
+        "pronounced": "はんぎ",
+        "written": "板木"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf34"
+        ],
+        "pronounced": "はんぎ",
+        "written": "版木"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Chinese textbook (published by the Edo shogunate)"
+        ]
+      },
+      {
+        "glosses": [
+          "government publication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぱん",
+        "written": "官板"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かんぱん",
+        "written": "官版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "block of type"
+        ]
+      },
+      {
+        "glosses": [
+          "letterpress printing",
+          "moveable type printing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "かっぱん",
+        "written": "活版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "copyrighted material"
+        ]
+      },
+      {
+        "glosses": [
+          "unauthorized derivative work"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんけんもの",
+        "written": "版権もの"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はんけんもの",
+        "written": "版権モノ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はんけんもの",
+        "written": "版権物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "corresponding version"
+        ]
+      },
+      {
+        "glosses": [
+          "supported version"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいおうばん",
+        "written": "対応版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "edition (of a manga book, etc.) with an included extra (e.g. a booklet, toy, CD)"
+        ]
+      },
+      {
+        "glosses": [
+          "specially bound edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とくそうばん",
+        "written": "特装版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "engraving a woodblock or seal"
+        ]
+      },
+      {
+        "glosses": [
+          "woodblock or seal engraver"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんほり",
+        "written": "版彫"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はんほり",
+        "written": "版彫り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "key block (in woodblock printmaking)"
+        ]
+      },
+      {
+        "glosses": [
+          "key plate (in 4 colors process printing)",
+          "K plate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すみはん",
+        "written": "スミ版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "すみはん",
+        "written": "墨版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-government publication"
+        ]
+      },
+      {
+        "glosses": [
+          "private printing",
+          "privately printed book",
+          "private edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しはん",
+        "written": "私版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "original edition (of a publication)"
+        ]
+      },
+      {
+        "glosses": [
+          "form (printing)",
+          "forme",
+          "typesetting plate",
+          "original plate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんぱん",
+        "written": "原版"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "げんばん",
+        "written": "原版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "plate-making"
+        ]
+      },
+      {
+        "glosses": [
+          "makeup",
+          "justifying"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいはん",
+        "written": "整版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "printing plate"
+        ]
+      },
+      {
+        "glosses": [
+          "print edition",
+          "printed edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いんさつばん",
+        "written": "印刷版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "surface of a printing plate"
+        ]
+      },
+      {
+        "glosses": [
+          "type page",
+          "printed page"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんづら",
+        "written": "版面"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はんめん",
+        "written": "版面"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "definitive edition",
+          "authoritative edition"
+        ]
+      },
+      {
+        "glosses": [
+          "the best of its kind",
+          "the ultimate ...",
+          "the definitive ...",
+          "the last word in ..."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf33"
+        ],
+        "pronounced": "けっていばん",
+        "written": "決定版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "forged woodblock",
+          "print made from a forged woodblock"
+        ]
+      },
+      {
+        "glosses": [
+          "pirated edition",
+          "bootleg edition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎはん",
+        "written": "偽版"
+      },
+      {
+        "priorities": [],
+        "pronounced": "にせはん",
+        "written": "偽版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "new publication",
+          "new book"
+        ]
+      },
+      {
+        "glosses": [
+          "new edition",
+          "reissue",
+          "republication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "しんぱん",
+        "written": "志ん板"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "しんぱん",
+        "written": "新板"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf28"
+        ],
+        "pronounced": "しんぱん",
+        "written": "新版"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "publishing",
+          "printing"
+        ]
+      },
+      {
+        "glosses": [
+          "seal (used in lieu of a signature)",
+          "stamp"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんこう",
+        "written": "板行"
+      },
+      {
+        "priorities": [],
+        "pronounced": "はんこう",
+        "written": "版行"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "counter for editions of a publication"
+        ]
+      },
+      {
+        "glosses": [
+          "plate",
+          "block",
+          "cast"
+        ]
+      },
+      {
+        "glosses": [
+          "edition",
+          "version",
+          "printing",
+          "impression",
+          "implementation (of software)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ばん",
+        "written": "版"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf13"
+        ],
+        "pronounced": "はん",
+        "written": "版"
+      }
+    ]
+  }
+]

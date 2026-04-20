@@ -1,0 +1,1879 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(words with) different kanji but the same Japanese reading (and usu. a similar meaning)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いじどうくん",
+        "written": "異字同訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(words with) different kanji but the same Japanese reading (and usu. a similar meaning)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうくんいじ",
+        "written": "同訓異字"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "A Miscellany of Ten Maxims (Kamakura period collection of writing)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じっきんしょう",
+        "written": "十訓抄"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japan Industrial and Vocational Training Association"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にっぽんさんぎょうくんれんきょうかい",
+        "written": "日本産業訓練協会"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese reading of a Chinese character"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "わくん",
+        "written": "倭訓"
+      },
+      {
+        "priorities": [],
+        "pronounced": "わくん",
+        "written": "和訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Japanese reading of a kanji (sometimes esp. in ref. to readings that do not correspond to the orig. Chinese meaning of the kanji)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こっくん",
+        "written": "国訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Kojiki with Ancient Readings (by Nagase Masachi, 1803)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくんこじき",
+        "written": "古訓古事記"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Shokugyoukunren Junior College"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくぎょうくんれんたんきだいがく",
+        "written": "職業訓練短期大学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adaptive training"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "てきおうくんれん",
+        "written": "適応訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "auditory trainer"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちょうのうくんれんし",
+        "written": "聴能訓練士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "autogenic training"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じりつくんれんほう",
+        "written": "自律訓練法"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "correct kun reading"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいくん",
+        "written": "正訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "difficult reading of a kanji"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんくん",
+        "written": "難訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "disaster drill"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひなんくんれん",
+        "written": "避難訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "disaster prevention practice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぼうさいくんれん",
+        "written": "防災訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "discipline"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんいく",
+        "written": "訓育"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "emergency surfacing drill (submarine)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きんきゅうふじょうくんれん",
+        "written": "緊急浮上訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "exegetics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんこがく",
+        "written": "訓詁学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "explaining the meanings of old words"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんしゃく",
+        "written": "訓釈"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fire drill"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぼうかくんれん",
+        "written": "防火訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guiding marks for rendering classical Chinese into Japanese"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんてん",
+        "written": "訓点"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guiding motto for one's life"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょせいくん",
+        "written": "処生訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "home education"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ていきん",
+        "written": "庭訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "homonym that has a native Japanese reading"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうくんいぎご",
+        "written": "同訓異義語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "imperial navy order"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "たいかいくん",
+        "written": "大海訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "index listing kanji by their Chinese and Japanese pronunciations"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "おんくんさくいん",
+        "written": "音訓索引"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "instruction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいくん",
+        "written": "垂訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "instructions sent in response to a question (from an embassy, consulate, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいくん",
+        "written": "回訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "job (work) training (for the unskilled)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくぎょうくんれん",
+        "written": "職業訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kanbun converted into literary Japanese"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぶんくんどくぶん",
+        "written": "漢文訓読文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kanbun converted into literary Japanese"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんどくぶん",
+        "written": "訓読文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kanji reading that has not been approved by the government (and is not to be taught in public schools)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうがいおんくん",
+        "written": "表外音訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kanji readings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47",
+          "spec2"
+        ],
+        "pronounced": "おんくん",
+        "written": "音訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kanji used to represent syllables, based on their \"kun\" readings (prior to the advent of kana)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんがな",
+        "written": "訓仮名"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kun homophone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうくん",
+        "written": "同訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "marginal notes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぼうくん",
+        "written": "傍訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "orthoptist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しのうくんれんし",
+        "written": "視能訓練士"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "precepts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょせいくん",
+        "written": "処世訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "private or secret orders"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ないくん",
+        "written": "内訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reading a classical Chinese text in Japanese"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かんぶんくんどく",
+        "written": "漢文訓読"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reading and meaning of a kanji"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんぎ",
+        "written": "訓義"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reading of a kanji by meaning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぎくん",
+        "written": "義訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reading of a kanji compound by meaning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じゅくじくん",
+        "written": "熟字訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "request for instructions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいくん",
+        "written": "請訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "school precepts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "こうくん",
+        "written": "校訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "strict instruction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "げんくん",
+        "written": "厳訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "telegraphed instructions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんでん",
+        "written": "訓電"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the Japanese reading of a kanji"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じくん",
+        "written": "字訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the Sermon on the Mount"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さんじょうのすいくん",
+        "written": "山上の垂訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "the instruction of a teacher"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しくん",
+        "written": "師訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to read (a kanji) with its native Japanese reading"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よむ",
+        "written": "訓む"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to read kanji using its native Japanese pronunciation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんずる",
+        "written": "訓ずる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "toilet training"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はいせつくんれん",
+        "written": "排泄訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trainee"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんれんせい",
+        "written": "訓練生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trainer aircraft"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんれんき",
+        "written": "訓練機"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "training extra hard"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もうとっくん",
+        "written": "猛特訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "training school"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんれんしょ",
+        "written": "訓練所"
+      },
+      {
+        "priorities": [],
+        "pronounced": "くんれんじょ",
+        "written": "訓練所"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "using the Japanese-reading of kanji to represent native Japanese words (irrespective of the kanji's actual meaning)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃっくん",
+        "written": "借訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "vocational training college"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょくぎょうくんれんたんきだいがっこう",
+        "written": "職業訓練短期大学校"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Reserve Officers' Training Corps (US)",
+          "ROTC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よびえきしょうこうくんれんかてい",
+        "written": "予備役将校訓練課程"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "admonitory speech",
+          "words of admonition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんげん",
+        "written": "訓言"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "admonitory speech (e.g. to students)",
+          "words of admonition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんじ",
+        "written": "訓辞"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "advisory provision",
+          "discretionary provision"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんじきてい",
+        "written": "訓示規定"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "directive",
+          "instructions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf34",
+          "spec2"
+        ],
+        "pronounced": "くんれい",
+        "written": "訓令"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "exemplum",
+          "apologue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんわ",
+        "written": "訓話"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "giving guidance",
+          "explaining"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんか",
+        "written": "訓化"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "giving guidance",
+          "explaining"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんかい",
+        "written": "訓誨"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hard training",
+          "intensive training"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "もうくんれん",
+        "written": "猛訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "homeschooling",
+          "home-schooling"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にわのおしえ",
+        "written": "庭の訓"
+      },
+      {
+        "priorities": [],
+        "pronounced": "にわのおしえ",
+        "written": "庭の訓え"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "instructive",
+          "didactic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうくんてき",
+        "written": "教訓的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interpretation",
+          "exegesis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんこ",
+        "written": "訓詁"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "interpretation",
+          "explanation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんかい",
+        "written": "訓解"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "joint exercise",
+          "joint training"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうどうくんれん",
+        "written": "共同訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kind counsel",
+          "mother's advice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じくん",
+        "written": "慈訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kunrei-shiki romanization (government-authorized system of romanizing Japanese)",
+          "kunrei system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんれいしき",
+        "written": "訓令式"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kunrei-shiki romanization (government-authorized system of romanizing Japanese)",
+          "kunrei system"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんれいしきローマじ",
+        "written": "訓令式ローマ字"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "military exercise",
+          "drill"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぐんじくんれん",
+        "written": "軍事訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "night landing practice",
+          "NLP"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やかんちゃくりくくんれん",
+        "written": "夜間着陸訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "on-the-job training",
+          "hands-on training"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じっちくんれん",
+        "written": "実地訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reprimand",
+          "admonition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "くんこく",
+        "written": "訓告"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "teachings left by a deceased person",
+          "last instructions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf42"
+        ],
+        "pronounced": "いくん",
+        "written": "遺訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to lecture",
+          "to give a lesson"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょうくんをたれる",
+        "written": "教訓を垂れる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "voice training",
+          "vocal training"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はっせいくんれん",
+        "written": "発声訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Hunmin-jongum",
+          "the Hankul (Hangul) alphabet (of Korea)",
+          "the Onmun (Enmun)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんみんせいおん",
+        "written": "訓民正音"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "caution",
+          "admonition",
+          "warning"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんゆ",
+        "written": "訓諭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "disaster simulation exercise",
+          "disaster imagination game",
+          "DIG"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "さいがいずじょうくんれん",
+        "written": "災害図上訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "family precepts",
+          "family motto",
+          "rule of the home"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かきん",
+        "written": "家訓"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かくん",
+        "written": "家訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guide",
+          "master",
+          "teacher"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんてき",
+        "written": "訓迪"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "guiding precepts of a company",
+          "company credo",
+          "corporate philosophy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しゃくん",
+        "written": "社訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "instruction",
+          "direction",
+          "briefing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf23"
+        ],
+        "pronounced": "くんじ",
+        "written": "訓示"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kun reading",
+          "kun'yomi",
+          "native Japanese reading of a Chinese character"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "くんよみ",
+        "written": "訓読み"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "special training",
+          "intensive training",
+          "crash course"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "とっくん",
+        "written": "特訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "training range",
+          "training grounds",
+          "training area"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんれんじょう",
+        "written": "訓練場"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "warning",
+          "admonition",
+          "lesson or a phrase that teaches you not to do something"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46",
+          "spec2"
+        ],
+        "pronounced": "くんかい",
+        "written": "訓戒"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf46",
+          "spec2"
+        ],
+        "pronounced": "くんかい",
+        "written": "訓誡"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "work injury prevention training",
+          "accident awareness training",
+          "hazard prediction training"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きけんよちくんれん",
+        "written": "危険予知訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lesson",
+          "precept",
+          "teachings",
+          "moral"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "きょうくん",
+        "written": "教訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "training",
+          "drill",
+          "practice",
+          "discipline"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "くんれん",
+        "written": "訓練"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "teaching",
+          "instruction",
+          "teachings",
+          "precept",
+          "lesson",
+          "doctrine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "おしえ",
+        "written": "教え"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "おしえ",
+        "written": "訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ancient teachings"
+        ]
+      },
+      {
+        "glosses": [
+          "former reading (of kanji, classical Chinese, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうくん",
+        "written": "旧訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "kun'yomi (native Japanese reading of a kanji)"
+        ]
+      },
+      {
+        "glosses": [
+          "reading a Chinese text (kanbun) in Japanese"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんどく",
+        "written": "訓読"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "licensed elementary school teacher"
+        ]
+      },
+      {
+        "glosses": [
+          "instruction",
+          "guidance",
+          "tutelage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くんどう",
+        "written": "訓導"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "native Japanese reading of a Chinese character"
+        ]
+      },
+      {
+        "glosses": [
+          "precept",
+          "lesson",
+          "one's teachings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "くに",
+        "written": "訓"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "くん",
+        "written": "訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "old reading (of kanji or kanbun)"
+        ]
+      },
+      {
+        "glosses": [
+          "ancient precepts",
+          "ancient teachings"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こくん",
+        "written": "古訓"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reading a text from start to finish"
+        ]
+      },
+      {
+        "glosses": [
+          "transliterating classical Chinese into Japanese"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よみくだし",
+        "written": "訓み下し"
+      },
+      {
+        "priorities": [],
+        "pronounced": "よみくだし",
+        "written": "読み下し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to read (a text) from start to finish"
+        ]
+      },
+      {
+        "glosses": [
+          "to transliterate classical Chinese into Japanese"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よみくだす",
+        "written": "訓み下す"
+      },
+      {
+        "priorities": [],
+        "pronounced": "よみくだす",
+        "written": "読み下す"
+      }
+    ]
+  }
+]

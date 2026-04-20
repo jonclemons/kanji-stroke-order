@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 8000",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 8000",
+    "measure:latency": "node scripts/measure-latency.mjs",
+    "mirror:data": "node scripts/mirror-kanji-data.mjs"
+  },
+  "dependencies": {
+    "preact": "^10.26.4"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.2",
+    "vite": "^7.1.12",
+    "wrangler": "^4.77.0"
+  }
+}

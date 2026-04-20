@@ -1,7 +1,18 @@
+window.initLegacyApp = function initLegacyApp() {
+if (window.__kanjiAppInitialized) return;
+window.__kanjiAppInitialized = true;
+
 const kanjiInput = document.getElementById("kanjiInput");
 const lookupBtn = document.getElementById("lookupBtn");
 const errorEl = document.getElementById("error");
 const resultsEl = document.getElementById("results");
+const printViewEl = document.getElementById("printView");
+const aboutViewEl = document.getElementById("aboutView");
+const privacyViewEl = document.getElementById("privacyView");
+const termsViewEl = document.getElementById("termsView");
+const printPreviewSheetEl = document.getElementById("printPreviewSheet");
+const printBackInlineBtn = document.getElementById("printBackInlineBtn");
+const printNowInlineBtn = document.getElementById("printNowInlineBtn");
 const kanjiTitle = document.getElementById("kanjiTitle");
 const readingsEl = document.getElementById("readings");
 const wordsEl = document.getElementById("words");
@@ -11,6 +22,14 @@ const printBtn = document.getElementById("printBtn");
 const modeToggleBtn = document.getElementById("modeToggleBtn");
 const kanjiGrid = document.getElementById("kanjiGrid");
 const gradeButtons = document.querySelectorAll(".grade-btn");
+const appHeaderEyebrow = document.getElementById("appHeaderEyebrow");
+const appHeaderTitle = document.getElementById("appHeaderTitle");
+const appHeaderSubtitle = document.getElementById("appHeaderSubtitle");
+const emptyStateEl = document.getElementById("emptyState");
+const emptyStateMessage = document.getElementById("emptyStateMessage");
+const footerActionsEl = document.getElementById("footerActions");
+const footerMetaLinksEl = document.getElementById("footerMetaLinks");
+const mainContentEl = document.querySelector(".main-content");
 
 let animationTimer = null;
 let isPlaying = false;
@@ -21,11 +40,35 @@ let currentStrokeNumbers = [];
 let currentViewBox = "";
 let currentGrade = null;
 let currentKanjiInfo = null;
+let currentScreen = "browse";
+let infoReturnState = null;
 
 const gradeKanjiCache = {};
 const kanjiInfoCache = {};
 const svgCache = {};
 const wordsCache = {};
+const inflightRequests = {
+  svg: {},
+  info: {},
+  words: {},
+  grades: {},
+};
+const knownKanjiByGradeCache = {};
+const kanjiLoadState = {};
+const kanjiGridButtons = new Map();
+const kanjiPreloadTasks = new Map();
+const gradeWarmPromises = {};
+const gradeDownloadState = {};
+const GRADE_YEARS = [1, 2, 3, 4, 5, 6];
+const KANJI_PRELOAD_CONCURRENCY = 3;
+const LOCAL_DATA_VERSION = "v1";
+
+let kanjiPreloadQueue = [];
+let activeKanjiPreloads = 0;
+let currentGradeLoadId = 0;
+let currentLookupId = 0;
+let currentGridSelectionId = 0;
+let gradeListWarmupStarted = false;
 
 // --- IndexedDB persistent cache ---
 
@@ -67,64 +110,290 @@ async function idbSet(storeName, key, value) {
   } catch { /* silent */ }
 }
 
+function hasCacheEntry(cache, key) {
+  return Object.prototype.hasOwnProperty.call(cache, key);
+}
+
+function runWhenIdle(callback) {
+  if ("requestIdleCallback" in window) {
+    requestIdleCallback(() => callback());
+  } else {
+    setTimeout(callback, 200);
+  }
+}
+
+async function getOrFetchCachedValue({ memoryCache, storeName, key, inflightCache, fetchValue }) {
+  if (hasCacheEntry(memoryCache, key)) return memoryCache[key];
+  if (inflightCache[key]) return inflightCache[key];
+
+  inflightCache[key] = (async () => {
+    const cached = await idbGet(storeName, key);
+    if (cached !== undefined) {
+      memoryCache[key] = cached;
+      return cached;
+    }
+
+    const value = await fetchValue();
+    memoryCache[key] = value;
+    idbSet(storeName, key, value);
+    return value;
+  })();
+
+  try {
+    return await inflightCache[key];
+  } finally {
+    delete inflightCache[key];
+  }
+}
+
+async function isGradeDownloaded(grade) {
+  if (hasCacheEntry(gradeDownloadState, grade)) return gradeDownloadState[grade];
+
+  const meta = await idbGet("meta", `grade-${grade}`);
+  const downloaded = Boolean(meta);
+  gradeDownloadState[grade] = downloaded;
+  return downloaded;
+}
+
 // --- API ---
 
 function kanjiToHex(char) {
   return char.codePointAt(0).toString(16).padStart(5, "0");
 }
 
-async function fetchKanjiSVG(kanji) {
-  if (svgCache[kanji]) return svgCache[kanji];
-  const cached = await idbGet("svg", kanji);
-  if (cached) { svgCache[kanji] = cached; return cached; }
+function localDataUrl(kind, key) {
+  return `/data/${LOCAL_DATA_VERSION}/${kind}/${key}`;
+}
 
-  const hex = kanjiToHex(kanji);
-  const url = `https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/${hex}.svg`;
-  const resp = await fetch(url);
-  if (!resp.ok) throw new Error(`「${kanji}」のデータがみつかりません`);
-  const data = await resp.text();
-  svgCache[kanji] = data;
-  idbSet("svg", kanji, data);
-  return data;
+async function fetchMirroredResource({ localUrl, upstreamUrl, parseAs }) {
+  if (localUrl) {
+    try {
+      const localResp = await fetch(localUrl, { cache: "force-cache" });
+      if (localResp.ok) {
+        return parseAs === "text" ? localResp.text() : localResp.json();
+      }
+      if (localResp.status !== 404) {
+        throw new Error(`local mirror request failed: ${localResp.status}`);
+      }
+    } catch (error) {
+      console.warn("Local mirror unavailable, falling back upstream", localUrl, error);
+    }
+  }
+
+  const upstreamResp = await fetch(upstreamUrl);
+  if (!upstreamResp.ok) {
+    throw new Error(`upstream request failed: ${upstreamResp.status}`);
+  }
+  return parseAs === "text" ? upstreamResp.text() : upstreamResp.json();
+}
+
+async function fetchKanjiSVG(kanji) {
+  return getOrFetchCachedValue({
+    memoryCache: svgCache,
+    storeName: "svg",
+    key: kanji,
+    inflightCache: inflightRequests.svg,
+    fetchValue: async () => {
+      const hex = kanjiToHex(kanji);
+      return fetchMirroredResource({
+        localUrl: localDataUrl("svg", `${hex}.svg`),
+        upstreamUrl: `https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/${hex}.svg`,
+        parseAs: "text",
+      });
+    },
+  });
 }
 
 async function fetchKanjiInfo(kanji) {
-  if (kanjiInfoCache[kanji]) return kanjiInfoCache[kanji];
-  const cached = await idbGet("info", kanji);
-  if (cached) { kanjiInfoCache[kanji] = cached; return cached; }
-
-  const resp = await fetch(`https://kanjiapi.dev/v1/kanji/${encodeURIComponent(kanji)}`);
-  if (!resp.ok) return null;
-  const data = await resp.json();
-  kanjiInfoCache[kanji] = data;
-  idbSet("info", kanji, data);
-  return data;
+  return getOrFetchCachedValue({
+    memoryCache: kanjiInfoCache,
+    storeName: "info",
+    key: kanji,
+    inflightCache: inflightRequests.info,
+    fetchValue: async () => {
+      const hex = kanjiToHex(kanji);
+      return fetchMirroredResource({
+        localUrl: localDataUrl("info", `${hex}.json`),
+        upstreamUrl: `https://kanjiapi.dev/v1/kanji/${encodeURIComponent(kanji)}`,
+        parseAs: "json",
+      }).catch(() => null);
+    },
+  });
 }
 
 async function fetchKanjiWords(kanji) {
-  if (wordsCache[kanji]) return wordsCache[kanji];
-  const cached = await idbGet("words", kanji);
-  if (cached) { wordsCache[kanji] = cached; return cached; }
-
-  const resp = await fetch(`https://kanjiapi.dev/v1/words/${encodeURIComponent(kanji)}`);
-  if (!resp.ok) return [];
-  const data = await resp.json();
-  wordsCache[kanji] = data;
-  idbSet("words", kanji, data);
-  return data;
+  return getOrFetchCachedValue({
+    memoryCache: wordsCache,
+    storeName: "words",
+    key: kanji,
+    inflightCache: inflightRequests.words,
+    fetchValue: async () => {
+      const hex = kanjiToHex(kanji);
+      return fetchMirroredResource({
+        localUrl: localDataUrl("words", `${hex}.json`),
+        upstreamUrl: `https://kanjiapi.dev/v1/words/${encodeURIComponent(kanji)}`,
+        parseAs: "json",
+      }).catch(() => []);
+    },
+  });
 }
 
 async function fetchGradeKanji(grade) {
-  if (gradeKanjiCache[grade]) return gradeKanjiCache[grade];
-  const cached = await idbGet("grades", grade);
-  if (cached) { gradeKanjiCache[grade] = cached; return cached; }
+  return getOrFetchCachedValue({
+    memoryCache: gradeKanjiCache,
+    storeName: "grades",
+    key: grade,
+    inflightCache: inflightRequests.grades,
+    fetchValue: async () => {
+      return fetchMirroredResource({
+        localUrl: localDataUrl("grades", `grade-${grade}.json`),
+        upstreamUrl: `https://kanjiapi.dev/v1/kanji/grade-${grade}`,
+        parseAs: "json",
+      }).catch(() => []);
+    },
+  });
+}
 
-  const resp = await fetch(`https://kanjiapi.dev/v1/kanji/grade-${grade}`);
-  if (!resp.ok) return [];
-  const data = await resp.json();
-  gradeKanjiCache[grade] = data;
-  idbSet("grades", grade, data);
-  return data;
+function isKanjiWarmReady(kanji) {
+  return kanjiLoadState[kanji] === "ready"
+    || (hasCacheEntry(svgCache, kanji)
+      && hasCacheEntry(kanjiInfoCache, kanji)
+      && hasCacheEntry(wordsCache, kanji));
+}
+
+function getKanjiLoadStatus(kanji) {
+  if (isKanjiWarmReady(kanji)) return "ready";
+  return kanjiLoadState[kanji] || "idle";
+}
+
+function updateKanjiGridButtonState(button, kanji) {
+  const status = getKanjiLoadStatus(kanji);
+  button.classList.toggle("is-queued", status === "queued");
+  button.classList.toggle("is-loading", status === "loading");
+  button.classList.toggle("is-ready", status === "ready");
+  button.classList.toggle("is-error", status === "error");
+  button.setAttribute("aria-busy", status === "loading" ? "true" : "false");
+}
+
+function setKanjiLoadStatus(kanji, status) {
+  kanjiLoadState[kanji] = status;
+  const button = kanjiGridButtons.get(kanji);
+  if (button) updateKanjiGridButtonState(button, kanji);
+}
+
+function setActiveKanjiGridButton(activeKanji) {
+  kanjiGridButtons.forEach((button, kanji) => {
+    button.classList.toggle("active", kanji === activeKanji);
+  });
+}
+
+async function warmKanjiData(kanji) {
+  await Promise.all([
+    fetchKanjiSVG(kanji),
+    fetchKanjiInfo(kanji),
+    fetchKanjiWords(kanji),
+  ]);
+}
+
+function pumpKanjiPreloadQueue() {
+  while (activeKanjiPreloads < KANJI_PRELOAD_CONCURRENCY && kanjiPreloadQueue.length) {
+    const task = kanjiPreloadQueue.shift();
+    if (!task || task.state !== "queued") continue;
+
+    activeKanjiPreloads += 1;
+    task.state = "loading";
+    setKanjiLoadStatus(task.kanji, "loading");
+
+    warmKanjiData(task.kanji)
+      .then(() => {
+        task.state = "ready";
+        setKanjiLoadStatus(task.kanji, "ready");
+        task.resolve();
+      })
+      .catch((err) => {
+        task.state = "error";
+        setKanjiLoadStatus(task.kanji, "error");
+        task.reject(err);
+      })
+      .finally(() => {
+        activeKanjiPreloads -= 1;
+        kanjiPreloadTasks.delete(task.kanji);
+        pumpKanjiPreloadQueue();
+      });
+  }
+}
+
+function queueKanjiWarm(kanji, { priority = false } = {}) {
+  if (isKanjiWarmReady(kanji)) {
+    setKanjiLoadStatus(kanji, "ready");
+    return Promise.resolve();
+  }
+
+  let task = kanjiPreloadTasks.get(kanji);
+  if (!task) {
+    let resolveTask;
+    let rejectTask;
+    const promise = new Promise((resolve, reject) => {
+      resolveTask = resolve;
+      rejectTask = reject;
+    });
+
+    task = {
+      kanji,
+      promise,
+      resolve: resolveTask,
+      reject: rejectTask,
+      state: "queued",
+    };
+    kanjiPreloadTasks.set(kanji, task);
+    kanjiPreloadQueue.push(task);
+    setKanjiLoadStatus(kanji, "queued");
+  } else if (priority && task.state === "queued") {
+    kanjiPreloadQueue = [task, ...kanjiPreloadQueue.filter((item) => item !== task)];
+  }
+
+  pumpKanjiPreloadQueue();
+  return task.promise;
+}
+
+async function warmGradeKanjiInOrder(grade, kanjiList) {
+  if (await isGradeDownloaded(grade)) {
+    kanjiList.forEach((kanji) => setKanjiLoadStatus(kanji, "ready"));
+    return;
+  }
+
+  if (gradeWarmPromises[grade]) return gradeWarmPromises[grade];
+
+  gradeWarmPromises[grade] = (async () => {
+    const results = await Promise.allSettled(kanjiList.map((kanji) => queueKanjiWarm(kanji)));
+    if (results.every((result) => result.status === "fulfilled")) {
+      gradeDownloadState[grade] = true;
+      await idbSet("meta", `grade-${grade}`, {
+        grade,
+        count: kanjiList.length,
+        downloadedAt: Date.now(),
+      });
+    }
+  })().finally(() => {
+    delete gradeWarmPromises[grade];
+  });
+
+  return gradeWarmPromises[grade];
+}
+
+function startGradeListWarmupInYearOrder() {
+  if (gradeListWarmupStarted) return;
+  gradeListWarmupStarted = true;
+
+  runWhenIdle(async () => {
+    for (const grade of GRADE_YEARS) {
+      try {
+        await fetchGradeKanji(grade);
+      } catch {
+        // Keep the app interactive even if a background warmup request fails.
+      }
+    }
+  });
 }
 
 // --- SVG parsing ---
@@ -198,11 +467,7 @@ function addCrossGuide(svg, viewBox, color) {
 async function getGradeAppropriateWords(kanji, words, targetGrade) {
   if (!targetGrade) targetGrade = 6;
 
-  const knownKanji = new Set();
-  for (let g = 1; g <= targetGrade; g++) {
-    const list = await fetchGradeKanji(g);
-    list.forEach((k) => knownKanji.add(k));
-  }
+  const knownKanji = await getKnownKanjiForGrade(targetGrade);
 
   const filtered = words.filter((w) => {
     if (!w.variants || !w.variants.length || !w.meanings || !w.meanings.length) return false;
@@ -234,7 +499,54 @@ async function getGradeAppropriateWords(kanji, words, targetGrade) {
   return unique.slice(0, 10);
 }
 
+async function getKnownKanjiForGrade(targetGrade) {
+  if (knownKanjiByGradeCache[targetGrade]) return knownKanjiByGradeCache[targetGrade];
+
+  const previousKnown = targetGrade > 1
+    ? new Set(await getKnownKanjiForGrade(targetGrade - 1))
+    : new Set();
+  const currentGradeKanji = await fetchGradeKanji(targetGrade);
+  currentGradeKanji.forEach((kanji) => previousKnown.add(kanji));
+  knownKanjiByGradeCache[targetGrade] = previousKnown;
+  return previousKnown;
+}
+
 // --- Rendering ---
+
+function getReadingDisplaySets(info) {
+  if (!info) {
+    return {
+      on: [],
+      kun: [],
+    };
+  }
+
+  const prioritizeReadings = (readings, { type, limit }) => {
+    const seenRoots = new Set();
+    const selected = [];
+
+    readings.forEach((reading) => {
+      if (!reading || selected.length >= limit) return;
+
+      const cleaned = reading.replace(/^[\-]/, "").replace(/\./g, "");
+      const root = type === "kun"
+        ? cleaned.slice(0, Math.min(cleaned.length, 3))
+        : cleaned;
+
+      if (seenRoots.has(root)) return;
+      seenRoots.add(root);
+      selected.push(reading);
+    });
+
+    return selected;
+  };
+
+  return {
+    // Keep the list short and predictable so elementary students see the core readings first.
+    on: prioritizeReadings(info.on_readings || [], { type: "on", limit: 2 }),
+    kun: prioritizeReadings(info.kun_readings || [], { type: "kun", limit: 3 }),
+  };
+}
 
 function renderReadings(info) {
   readingsEl.innerHTML = "";
@@ -243,13 +555,14 @@ function renderReadings(info) {
     return;
   }
 
+  const readingSets = getReadingDisplaySets(info);
   const groups = [];
 
-  if (info.on_readings && info.on_readings.length > 0) {
-    groups.push({ label: "音読み（おんよみ）", values: info.on_readings });
+  if (readingSets.kun.length > 0) {
+    groups.push({ label: "訓読み（くんよみ）", values: readingSets.kun });
   }
-  if (info.kun_readings && info.kun_readings.length > 0) {
-    groups.push({ label: "訓読み（くんよみ）", values: info.kun_readings });
+  if (readingSets.on.length > 0) {
+    groups.push({ label: "音読み（おんよみ）", values: readingSets.on });
   }
   if (info.grade) {
     const gradeLabel = info.grade <= 6
@@ -589,6 +902,13 @@ let traceProgress = 0;
 let tracePaths = [];
 let traceIsDrawing = false;
 let traceSvgEl = null;
+const TRACE_START_TOLERANCE = 15;
+const TRACE_RESUME_TOLERANCE = 18;
+const TRACE_PATH_TOLERANCE = 18;
+const TRACE_COMPLETION_RATIO = 0.96;
+const TRACE_END_TOLERANCE = 12;
+const TRACE_MIN_PROGRESS_STEP = 1;
+const TRACE_MIN_MOVE_COUNT = 6;
 
 const animationWrap = document.getElementById("animationWrap");
 const canvasTitle = document.getElementById("canvasTitle");
@@ -747,11 +1067,26 @@ function initTraceStroke(index) {
   path.style.strokeDashoffset = len;
   path.style.transition = "none";
   traceProgress = 0;
+  traceMoveCount = 0;
+  traceStarted = false;
+  traceIsDrawing = false;
   addTraceHint(path, index);
 }
 
 function updateTraceCounter() {
   traceCounter.textContent = `${traceStrokeIndex + 1}/${currentStrokes.length}画め`;
+}
+
+function pointDistance(a, b) {
+  const dx = a.x - b.x;
+  const dy = a.y - b.y;
+  return Math.sqrt(dx * dx + dy * dy);
+}
+
+function isNearPathLength(path, point, length, tolerance) {
+  const clampedLength = Math.max(0, Math.min(path.getTotalLength(), length));
+  const pathPoint = path.getPointAtLength(clampedLength);
+  return pointDistance(point, pathPoint) < tolerance;
 }
 
 function svgPoint(svg, clientX, clientY) {
@@ -795,25 +1130,28 @@ let traceStarted = false; // has the user touched near the start of the current 
 function onTraceStart(e) {
   if (traceStrokeIndex >= tracePaths.length) return;
   e.preventDefault();
-  traceIsDrawing = true;
+  traceIsDrawing = false;
+  traceStarted = false;
   traceCanvas.classList.remove("error");
+  const point = svgPoint(traceSvgEl, e.clientX, e.clientY);
+  const path = tracePaths[traceStrokeIndex];
 
   // If already made progress on this stroke, allow continuing from where we left off
   if (traceProgress > 0) {
-    traceStarted = true;
+    if (isNearPathLength(path, point, traceProgress, TRACE_RESUME_TOLERANCE)) {
+      traceStarted = true;
+      traceIsDrawing = true;
+    }
     return;
   }
 
   // Fresh stroke: check if finger is near the start point
-  const point = svgPoint(traceSvgEl, e.clientX, e.clientY);
-  const path = tracePaths[traceStrokeIndex];
   const startPt = path.getPointAtLength(0);
-  const dx = point.x - startPt.x;
-  const dy = point.y - startPt.y;
-  const distToStart = Math.sqrt(dx * dx + dy * dy);
+  const distToStart = pointDistance(point, startPt);
 
-  if (distToStart < 15) {
+  if (distToStart < TRACE_START_TOLERANCE) {
     traceStarted = true;
+    traceIsDrawing = true;
     traceMoveCount = 0;
     removeTraceHint();
   }
@@ -826,36 +1164,44 @@ function onTraceMove(e) {
   const point = svgPoint(traceSvgEl, e.clientX, e.clientY);
   const path = tracePaths[traceStrokeIndex];
   const totalLen = path.getTotalLength();
-  const TOLERANCE = 18;
 
   const result = findNearestProgress(path, point, traceProgress);
 
-  if (result.distance < TOLERANCE && result.length >= traceProgress) {
+  if (result.distance < TRACE_PATH_TOLERANCE && result.length >= traceProgress) {
+    const progressDelta = result.length - traceProgress;
     traceProgress = result.length;
-    traceMoveCount++;
+    if (progressDelta >= TRACE_MIN_PROGRESS_STEP) {
+      traceMoveCount++;
+    }
     path.style.strokeDashoffset = totalLen - traceProgress;
     traceCanvas.classList.remove("error");
 
-    // Require at least 3 move events before auto-completing (prevents instant skip on short strokes)
-    // Require 90% progress, at least 6 move events, and finger must be past 50% of path
-    // This prevents short strokes from auto-completing on first touch
-    if (traceProgress / totalLen >= 0.9 && traceMoveCount >= 6 && traceProgress > totalLen * 0.5) {
+    const isNearStrokeEnd = isNearPathLength(path, point, totalLen, TRACE_END_TOLERANCE);
+    if (
+      traceProgress / totalLen >= TRACE_COMPLETION_RATIO
+      && traceMoveCount >= TRACE_MIN_MOVE_COUNT
+      && isNearStrokeEnd
+    ) {
       completeTraceStroke();
     }
-  } else if (result.distance >= TOLERANCE) {
+  } else if (result.distance >= TRACE_PATH_TOLERANCE) {
     traceCanvas.classList.add("error");
   }
 }
 
 function onTraceEnd(e) {
   traceIsDrawing = false;
-  // Don't reset traceStarted — allow resuming mid-stroke after lifting finger
+  traceStarted = false;
 }
 
 function completeTraceStroke() {
   const path = tracePaths[traceStrokeIndex];
   path.style.transition = "stroke-dashoffset 0.15s ease";
   path.style.strokeDashoffset = "0";
+  traceIsDrawing = false;
+  traceStarted = false;
+  traceMoveCount = 0;
+  traceCanvas.classList.remove("error");
 
   traceStrokeIndex++;
   traceProgress = 0;
@@ -892,13 +1238,276 @@ if (traceRetryBtn) {
   traceRetryBtn.addEventListener("click", retryTrace);
 }
 
+function gradeLabel(grade) {
+  return `${grade}ねんせい`;
+}
+
+function isInfoScreen(screen = currentScreen) {
+  return screen === "about" || screen === "privacy" || screen === "terms";
+}
+
+function syncGradeButtons() {
+  gradeButtons.forEach((btn) => {
+    btn.classList.toggle("active", parseInt(btn.dataset.grade, 10) === currentGrade);
+  });
+}
+
+function updateAppHeader() {
+  let eyebrow = "こくごアプリ";
+  let title = "かんじれんしゅう";
+  let subtitle = "がくねんを えらんで かんじを さがそう";
+
+  if (currentScreen === "print" && currentKanji) {
+    eyebrow = "いんさつじゅんび";
+    title = `${currentKanji} を いんさつ`;
+    subtitle = "ぷれびゅーを みてから したの ぼたんを おしてね";
+  } else if (currentScreen === "about") {
+    eyebrow = "アプリの じょうほう";
+    title = "このアプリについて";
+    subtitle = "このアプリの ねがいと データのことを まとめています";
+  } else if (currentScreen === "privacy") {
+    eyebrow = "たいせつな おしらせ";
+    title = "プライバシーポリシー";
+    subtitle = "このアプリで あつかう じょうほうについて";
+  } else if (currentScreen === "terms") {
+    eyebrow = "たいせつな おしらせ";
+    title = "利用規約";
+    subtitle = "このアプリの つかいかたについて";
+  } else if (currentScreen === "detail" && currentKanji) {
+    eyebrow = currentGrade ? `${gradeLabel(currentGrade)} の かんじ` : "かんじの れんしゅう";
+    title = `${currentKanji} の れんしゅう`;
+    subtitle = "よみかた、ことば、かきじゅんを みてみよう";
+  } else if (currentGrade) {
+    eyebrow = `${gradeLabel(currentGrade)} の かんじ`;
+    title = "かんじを えらぼう";
+    subtitle = "したの ますから きになる かんじを おしてね";
+  }
+
+  appHeaderEyebrow.textContent = eyebrow;
+  appHeaderTitle.textContent = title;
+  appHeaderSubtitle.textContent = subtitle;
+}
+
+function updateEmptyState() {
+  if (!emptyStateMessage) return;
+
+  if (currentGrade) {
+    emptyStateMessage.textContent = "したの ますから かんじを おしてね";
+  } else {
+    emptyStateMessage.textContent = "がくねんを えらんで かんじを おしてね";
+  }
+}
+
+function renderFooterActions() {
+  footerActionsEl.innerHTML = "";
+
+  const actions = [];
+
+  if (isInfoScreen()) {
+    actions.push({
+      label: infoReturnState ? "もどる" : "さいしょへ",
+      variant: "secondary",
+      onClick: () => {
+        if (infoReturnState) {
+          restoreFromInfoView();
+        } else {
+          showHomeView();
+        }
+      },
+    });
+  } else if (currentScreen === "print" && currentKanji) {
+    actions.push({
+      label: "かんじにもどる",
+      variant: "secondary",
+      onClick: () => showDetailView({ updateRoute: true }),
+    });
+    actions.push({
+      label: "いんさつする",
+      variant: "accent",
+      onClick: printCurrentSheet,
+    });
+  } else if (currentScreen === "detail" && currentKanji) {
+    actions.push({
+      label: currentGrade ? "かんじいちらん" : "さいしょへ",
+      variant: "secondary",
+      onClick: () => {
+        if (currentGrade) {
+          showBrowseView({ updateRoute: true, expand: true });
+        } else {
+          showHomeView();
+        }
+      },
+    });
+    actions.push({
+      label: "いんさつ",
+      variant: "accent",
+      onClick: openPrintPreview,
+    });
+  } else if (currentScreen === "browse" && currentGrade) {
+    actions.push({
+      label: "さいしょへ",
+      variant: "secondary",
+      onClick: showHomeView,
+    });
+
+    if (currentKanji && currentStrokes.length) {
+      actions.push({
+        label: "さいごのかんじ",
+        variant: "primary",
+        onClick: () => showDetailView({ updateRoute: true }),
+      });
+    }
+  }
+
+  actions.forEach(({ label, variant, onClick, disabled = false }) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `app-footer-btn is-${variant}`;
+    button.textContent = label;
+    button.disabled = disabled;
+    button.addEventListener("click", onClick);
+    footerActionsEl.appendChild(button);
+  });
+
+  footerActionsEl.classList.toggle("is-empty", actions.length === 0);
+}
+
+function renderFooterMetaLinks() {
+  footerMetaLinksEl.innerHTML = "";
+
+  const links = [
+    { screen: "about", label: "アプリについて" },
+    { screen: "privacy", label: "プライバシーポリシー" },
+    { screen: "terms", label: "利用規約" },
+  ];
+
+  links.forEach(({ screen, label }) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "app-footer-meta-link";
+    button.textContent = label;
+
+    if (currentScreen === screen) {
+      button.classList.add("is-active");
+      button.setAttribute("aria-current", "page");
+      button.disabled = true;
+    } else {
+      button.addEventListener("click", () => openInfoView(screen));
+    }
+
+    footerMetaLinksEl.appendChild(button);
+  });
+}
+
+function syncAppShell() {
+  const showDetail = currentScreen === "detail" && Boolean(currentKanji);
+  const showPrint = currentScreen === "print" && Boolean(currentKanji);
+  const showAbout = currentScreen === "about";
+  const showPrivacy = currentScreen === "privacy";
+  const showTerms = currentScreen === "terms";
+  const showEmpty = currentScreen === "browse";
+
+  resultsEl.classList.toggle("hidden", !showDetail);
+  printViewEl.classList.toggle("hidden", !showPrint);
+  aboutViewEl.classList.toggle("hidden", !showAbout);
+  privacyViewEl.classList.toggle("hidden", !showPrivacy);
+  termsViewEl.classList.toggle("hidden", !showTerms);
+  emptyStateEl.classList.toggle("hidden", !showEmpty);
+  document.body.classList.toggle("is-print-preview", showPrint);
+
+  updateAppHeader();
+  updateEmptyState();
+  renderFooterActions();
+  renderFooterMetaLinks();
+}
+
+function showBrowseView({ updateRoute = true, expand = false } = {}) {
+  currentScreen = "browse";
+  if (expand) expandSidebar();
+  syncAppShell();
+  if (updateRoute) updateHash();
+}
+
+function showDetailView({ updateRoute = true, collapse = false } = {}) {
+  currentScreen = "detail";
+  if (collapse) collapseSidebar();
+  syncAppShell();
+  if (updateRoute) updateHash();
+}
+
+function showPrintView({ updateRoute = true, collapse = true } = {}) {
+  currentScreen = "print";
+  if (collapse) collapseSidebar();
+  syncAppShell();
+  if (updateRoute) updateHash();
+}
+
+function captureCurrentViewState() {
+  return {
+    screen: currentScreen,
+    grade: currentGrade,
+    hasKanji: Boolean(currentKanji),
+  };
+}
+
+function openInfoView(screen = "about", { updateRoute = true } = {}) {
+  if (!isInfoScreen()) {
+    infoReturnState = captureCurrentViewState();
+  }
+
+  currentScreen = screen;
+  syncAppShell();
+  if (updateRoute) updateHash();
+}
+
+function restoreFromInfoView() {
+  const returnState = infoReturnState;
+  infoReturnState = null;
+
+  if (!returnState) {
+    showHomeView();
+    return;
+  }
+
+  currentGrade = returnState.grade;
+  syncGradeButtons();
+
+  if (returnState.screen === "print" && returnState.hasKanji) {
+    showPrintView({ updateRoute: true, collapse: true });
+  } else if (returnState.screen === "detail" && returnState.hasKanji) {
+    showDetailView({ updateRoute: true });
+  } else if (returnState.screen === "browse" && returnState.grade) {
+    showBrowseView({ updateRoute: true, expand: true });
+  } else {
+    showHomeView();
+  }
+}
+
+function showHomeView({ updateRoute = true } = {}) {
+  currentGrade = null;
+  currentScreen = "browse";
+  infoReturnState = null;
+  currentGradeLoadId += 1;
+  currentLookupId += 1;
+  currentGridSelectionId += 1;
+  errorEl.textContent = "";
+  kanjiGrid.classList.add("hidden");
+  kanjiGrid.innerHTML = "";
+  setActiveKanjiGridButton(null);
+  syncGradeButtons();
+  expandSidebar();
+  syncAppShell();
+  if (updateRoute) updateHash();
+}
+
 // --- Print Practice Sheet (Japanese school style) ---
 
 function buildPrintSheetSVG() {
   const info = currentKanjiInfo;
+  const readingSets = getReadingDisplaySets(info);
   const strokeCount = info?.stroke_count || currentStrokes.length;
-  const onReadings = info?.on_readings || [];
-  const kunReadings = info?.kun_readings || [];
+  const onReadings = readingSets.on;
+  const kunReadings = readingSets.kun;
 
   // Helper: embed kanji strokes scaled into a cell at (cx, cy, size)
   function strokePaths(cx, cy, size, color, strokeW, upTo) {
@@ -937,6 +1546,8 @@ function buildPrintSheetSVG() {
 
   // Layout: invisible sixths grid — A4 landscape
   const W = 281, H = 194;
+  const PRINT_SAFE_W = 280;
+  const PRINT_SAFE_H = 193;
   const sixthW = W / 6; // ~46.8mm per sixth
   const margin = 2;
 
@@ -1094,126 +1705,126 @@ function buildPrintSheetSVG() {
     svg += `<text x="${cx + kjCellSize / 2}" y="${cy + kjCellSize + 3.5}" text-anchor="middle" font-size="2.2" fill="#7a7a7a">${i + 1}/${n}</text>`;
   }
 
-  return `<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<title>漢字の練習 — ${currentKanji}</title>
-<style>
-  @page { size: landscape; margin: 8mm; }
-  * { margin: 0; padding: 0; }
-  body { display: flex; justify-content: center; align-items: center; height: 100vh; }
-  svg { width: 100%; height: auto; max-height: 100vh; }
-</style>
-</head>
-<body>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" font-family="'Hiragino Kaku Gothic ProN','Meiryo','Yu Gothic',sans-serif">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${PRINT_SAFE_W}mm" height="${PRINT_SAFE_H}mm" font-family="'Hiragino Kaku Gothic ProN','Meiryo','Yu Gothic',sans-serif">
 ${svg}
-</svg>
-<script>window.onload = () => { window.print(); };</script>
-</body>
-</html>`;
+</svg>`;
 }
 
-function printPracticeSheet() {
-  const html = buildPrintSheetSVG();
-  const printWindow = window.open("", "_blank");
-  printWindow.document.write(html);
-  printWindow.document.close();
+function openPrintPreview({ updateRoute = true } = {}) {
+  if (!currentKanji || !currentStrokes.length) {
+    errorEl.textContent = "いんさつする かんじが まだないよ";
+    return false;
+  }
+
+  errorEl.textContent = "";
+  printPreviewSheetEl.innerHTML = buildPrintSheetSVG();
+  showPrintView({ updateRoute, collapse: true });
+  return true;
+}
+
+function printCurrentSheet() {
+  if (currentScreen !== "print") {
+    const opened = openPrintPreview({ updateRoute: true });
+    if (!opened) return;
+  }
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      window.print();
+    });
+  });
 }
 
 // --- Prefetching ---
 
-function prefetchGradeInfo(kanjiList) {
-  // Prefetch kanji info for all kanji in the grade during idle time
-  let idx = 0;
-  function next() {
-    if (idx >= kanjiList.length) return;
-    const batch = kanjiList.slice(idx, idx + 5);
-    idx += 5;
-    batch.forEach((k) => fetchKanjiInfo(k));
-    if ("requestIdleCallback" in window) {
-      requestIdleCallback(next);
-    } else {
-      setTimeout(next, 200);
-    }
-  }
-  if ("requestIdleCallback" in window) {
-    requestIdleCallback(next);
-  } else {
-    setTimeout(next, 200);
-  }
-}
-
 function prefetchNeighbors(kanji, kanjiList) {
-  // Prefetch SVG + words for adjacent kanji in the grid
+  // Prefetch adjacent kanji so stepping through a grade feels instant.
   const idx = kanjiList.indexOf(kanji);
   if (idx === -1) return;
   const neighbors = [kanjiList[idx - 1], kanjiList[idx + 1]].filter(Boolean);
   neighbors.forEach((k) => {
-    fetchKanjiSVG(k);
-    fetchKanjiWords(k);
+    queueKanjiWarm(k);
   });
-}
-
-// --- Offline grade download ---
-
-// Silent background download when a grade is accessed
-async function downloadGradeSilently(grade) {
-  const already = await idbGet("meta", `grade-${grade}`);
-  if (already) return;
-
-  const kanjiList = await fetchGradeKanji(grade);
-  for (let i = 0; i < kanjiList.length; i += 5) {
-    const batch = kanjiList.slice(i, i + 5);
-    await Promise.all(batch.map((k) =>
-      Promise.all([fetchKanjiSVG(k), fetchKanjiInfo(k), fetchKanjiWords(k)])
-    ));
-  }
-  await idbSet("meta", `grade-${grade}`, { grade, count: kanjiList.length, downloadedAt: Date.now() });
 }
 
 // --- Grade browsing ---
 
-async function loadGrade(grade) {
+async function loadGrade(grade, { updateRoute = true } = {}) {
+  const loadId = ++currentGradeLoadId;
+  errorEl.textContent = "";
   currentGrade = grade;
-  updateHash();
-  gradeButtons.forEach((btn) => {
-    btn.classList.toggle("active", parseInt(btn.dataset.grade) === grade);
-  });
+  syncGradeButtons();
+  showBrowseView({ updateRoute, expand: true });
 
   kanjiGrid.innerHTML = '<span style="color:#888">よみこみちゅう...</span>';
   kanjiGrid.classList.remove("hidden");
-  expandSidebar();
 
   const kanjiList = await fetchGradeKanji(grade);
+  if (loadId !== currentGradeLoadId) return;
+  const gradeDownloaded = await isGradeDownloaded(grade);
+  if (loadId !== currentGradeLoadId) return;
 
   kanjiGrid.innerHTML = "";
+  kanjiGridButtons.clear();
   kanjiList.forEach((k) => {
+    if (gradeDownloaded) kanjiLoadState[k] = "ready";
+
     const btn = document.createElement("button");
+    btn.type = "button";
     btn.className = "kanji-grid-btn";
-    btn.textContent = k;
+    btn.dataset.kanji = k;
+    btn.setAttribute("aria-label", `${k} をひらく`);
+
+    const char = document.createElement("span");
+    char.className = "kanji-grid-char";
+    char.textContent = k;
+    btn.appendChild(char);
+
     btn.addEventListener("click", () => {
-      kanjiInput.value = k;
-      lookup();
-      collapseSidebar();
+      void selectKanjiFromGrid(k, { collapse: true });
     });
+
+    kanjiGridButtons.set(k, btn);
+    updateKanjiGridButtonState(btn, k);
     kanjiGrid.appendChild(btn);
   });
 
-  // Prefetch info for all kanji in this grade during idle time
-  prefetchGradeInfo(kanjiList);
-
-  // Silently download all data for this grade in background
-  downloadGradeSilently(grade);
+  setActiveKanjiGridButton(currentKanji);
+  warmGradeKanjiInOrder(grade, kanjiList);
 }
 
 // --- Main lookup ---
 
-async function lookup() {
+async function selectKanjiFromGrid(
+  kanji,
+  { collapse = false, screen = "detail", updateRoute = true } = {},
+) {
+  const selectionId = ++currentGridSelectionId;
+  errorEl.textContent = "";
+  setActiveKanjiGridButton(kanji);
+
+  try {
+    await queueKanjiWarm(kanji, { priority: true });
+  } catch (err) {
+    if (selectionId === currentGridSelectionId) {
+      errorEl.textContent = err.message;
+    }
+    return;
+  }
+
+  if (selectionId !== currentGridSelectionId) return;
+
+  kanjiInput.value = kanji;
+  if (collapse) collapseSidebar();
+  await lookup({ screen, updateRoute, collapse });
+}
+
+async function lookup({ screen = "detail", updateRoute = true, collapse = false } = {}) {
+  const lookupId = ++currentLookupId;
   const kanji = kanjiInput.value.trim();
   errorEl.textContent = "";
-  resultsEl.classList.add("hidden");
+  currentScreen = "browse";
+  syncAppShell();
 
   if (!kanji) {
     errorEl.textContent = "漢字をいれてね";
@@ -1228,21 +1839,16 @@ async function lookup() {
   lookupBtn.textContent = "…";
 
   // Immediately highlight in grid
-  kanjiGrid.querySelectorAll(".kanji-grid-btn").forEach((btn) => {
-    btn.classList.toggle("active", btn.textContent === kanji);
-  });
+  setActiveKanjiGridButton(kanji);
 
   // Show spinner
-  const emptyState = document.getElementById("emptyState");
-  if (emptyState) emptyState.classList.add("hidden");
-  resultsEl.classList.add("hidden");
   let spinner = document.getElementById("loadingSpinner");
   if (!spinner) {
     spinner = document.createElement("div");
     spinner.id = "loadingSpinner";
     spinner.className = "loading-spinner";
     spinner.innerHTML = '<div class="spinner"></div>';
-    document.querySelector(".main-content").appendChild(spinner);
+    mainContentEl.appendChild(spinner);
   }
   spinner.classList.remove("hidden");
 
@@ -1252,6 +1858,7 @@ async function lookup() {
       fetchKanjiInfo(kanji),
       fetchKanjiWords(kanji),
     ]);
+    if (lookupId !== currentLookupId) return;
 
     const strokes = parseStrokes(svgText);
     const strokeNumbers = parseStrokeNumbers(svgText);
@@ -1263,13 +1870,13 @@ async function lookup() {
 
     const grade = kanjiInfo?.grade || currentGrade || 6;
     const filteredWords = await getGradeAppropriateWords(kanji, kanjiWords, grade);
+    if (lookupId !== currentLookupId) return;
 
     currentKanji = kanji;
     currentStrokes = strokes;
     currentStrokeNumbers = strokeNumbers;
     currentViewBox = viewBox;
     currentKanjiInfo = kanjiInfo;
-    updateHash();
 
     kanjiTitle.textContent = kanji;
     renderReadings(kanjiInfo);
@@ -1280,9 +1887,12 @@ async function lookup() {
     setupAnimation(strokes, viewBox);
     animationWrap.style.display = "";
     traceArea.style.display = "none";
-    resultsEl.classList.remove("hidden");
-    const emptyState = document.getElementById("emptyState");
-    if (emptyState) emptyState.classList.add("hidden");
+
+    if (screen === "print") {
+      openPrintPreview({ updateRoute });
+    } else {
+      showDetailView({ updateRoute, collapse });
+    }
 
     // Prefetch neighbors in the grade grid
     if (currentGrade && gradeKanjiCache[currentGrade]) {
@@ -1292,8 +1902,11 @@ async function lookup() {
     // Autoplay animation
     setTimeout(() => playAnimation(), 300);
   } catch (err) {
-    errorEl.textContent = err.message;
+    if (lookupId === currentLookupId) {
+      errorEl.textContent = err.message;
+    }
   } finally {
+    if (lookupId !== currentLookupId) return;
     lookupBtn.disabled = false;
     lookupBtn.textContent = "しらべる";
     const spinner = document.getElementById("loadingSpinner");
@@ -1303,15 +1916,31 @@ async function lookup() {
 
 // --- Event listeners ---
 
-lookupBtn.addEventListener("click", lookup);
+lookupBtn.addEventListener("click", () => {
+  currentGridSelectionId += 1;
+  void lookup();
+});
 kanjiInput.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") lookup();
+  if (e.key === "Enter") {
+    currentGridSelectionId += 1;
+    void lookup();
+  }
 });
 
-printBtn.addEventListener("click", printPracticeSheet);
+printBtn.addEventListener("click", openPrintPreview);
+if (printBackInlineBtn) {
+  printBackInlineBtn.addEventListener("click", () => {
+    showDetailView({ updateRoute: true });
+  });
+}
+if (printNowInlineBtn) {
+  printNowInlineBtn.addEventListener("click", printCurrentSheet);
+}
 
 gradeButtons.forEach((btn) => {
-  btn.addEventListener("click", () => loadGrade(parseInt(btn.dataset.grade)));
+  btn.addEventListener("click", () => {
+    void loadGrade(parseInt(btn.dataset.grade, 10));
+  });
 });
 
 // --- Mobile sidebar toggle ---
@@ -1342,33 +1971,103 @@ sidebarToggle.addEventListener("click", () => {
 
 // --- Hash routing ---
 function updateHash() {
+  if (isInfoScreen()) {
+    history.replaceState(null, "", `#${currentScreen}`);
+    return;
+  }
+
   const parts = [];
-  if (currentGrade) parts.push(`grade/${currentGrade}`);
-  if (currentKanji) parts.push(currentKanji);
-  window.location.hash = parts.join("/");
+  if (currentGrade) {
+    parts.push("grade", String(currentGrade));
+  }
+  if (currentKanji && (currentScreen === "detail" || currentScreen === "print")) {
+    parts.push(encodeURIComponent(currentKanji));
+  }
+  if (currentScreen === "print" && currentKanji) {
+    parts.push("print");
+  }
+
+  const basePath = `${window.location.pathname}${window.location.search}`;
+  if (parts.length) {
+    history.replaceState(null, "", "#" + parts.join("/"));
+  } else {
+    history.replaceState(null, "", basePath);
+  }
 }
 
-function loadFromHash() {
+async function loadFromHash() {
   const hash = window.location.hash.slice(1); // remove #
-  if (!hash) return;
+  if (!hash) {
+    showHomeView({ updateRoute: false });
+    return;
+  }
 
-  const gradeMatch = hash.match(/grade\/(\d+)/);
-  const kanjiMatch = hash.replace(/grade\/\d+\/?/, "");
+  if (hash === "about" || hash === "data") {
+    infoReturnState = null;
+    openInfoView("about", { updateRoute: false });
+    return;
+  }
 
-  if (gradeMatch) {
-    const grade = parseInt(gradeMatch[1]);
-    loadGrade(grade).then(() => {
-      if (kanjiMatch) {
-        kanjiInput.value = kanjiMatch;
-        lookup();
-      }
-    });
+  if (hash === "privacy") {
+    infoReturnState = null;
+    openInfoView("privacy", { updateRoute: false });
+    return;
+  }
+
+  if (hash === "terms") {
+    infoReturnState = null;
+    openInfoView("terms", { updateRoute: false });
+    return;
+  }
+
+  const parts = hash.split("/").filter(Boolean);
+  let cursor = 0;
+  let grade = null;
+  let kanjiMatch = "";
+  let screen = "browse";
+
+  if (parts[cursor] === "grade" && /^\d+$/.test(parts[cursor + 1] || "")) {
+    grade = parseInt(parts[cursor + 1], 10);
+    cursor += 2;
+  }
+
+  if (parts[cursor] && parts[cursor] !== "print") {
+    try {
+      kanjiMatch = decodeURIComponent(parts[cursor]);
+    } catch {
+      kanjiMatch = parts[cursor];
+    }
+    cursor += 1;
+  }
+
+  if (parts[cursor] === "print" && kanjiMatch) {
+    screen = "print";
   } else if (kanjiMatch) {
+    screen = "detail";
+  }
+
+  if (grade) {
+    await loadGrade(grade, { updateRoute: false });
+    if (kanjiMatch) {
+      await selectKanjiFromGrid(kanjiMatch, {
+        collapse: false,
+        screen,
+        updateRoute: false,
+      });
+    } else {
+      showBrowseView({ updateRoute: false, expand: true });
+    }
+  } else if (kanjiMatch) {
+    showHomeView({ updateRoute: false });
     kanjiInput.value = kanjiMatch;
-    lookup();
+    await lookup({ screen, updateRoute: false, collapse: false });
+  } else {
+    showHomeView({ updateRoute: false });
   }
 }
 
 window.addEventListener("hashchange", loadFromHash);
+syncAppShell();
+startGradeListWarmupInYearOrder();
 loadFromHash();
-
+};

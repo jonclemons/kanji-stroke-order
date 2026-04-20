@@ -6,102 +6,13 @@
   <meta name="theme-color" content="#d4e4ed">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <link rel="manifest" href="manifest.json">
-  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="/icon.svg">
+  <link rel="stylesheet" href="/style.css">
   <title>かんじれんしゅう</title>
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="app-layout">
-    <!-- Left sidebar: grade nav + kanji grid + input -->
-    <aside class="sidebar">
-      <button id="sidebarToggle" class="sidebar-toggle hidden">▼ 漢字をえらぶ</button>
-      <div id="sidebarContent" class="sidebar-content">
-        <h1>かんじれんしゅう</h1>
-
-        <div class="input-section">
-          <input type="text" id="kanjiInput" placeholder="漢字" maxlength="1">
-          <button id="lookupBtn">しらべる</button>
-        </div>
-        <div id="error" class="error"></div>
-
-        <div class="grade-nav">
-          <button class="grade-btn" data-grade="1">1年生</button>
-          <button class="grade-btn" data-grade="2">2年生</button>
-          <button class="grade-btn" data-grade="3">3年生</button>
-          <button class="grade-btn" data-grade="4">4年生</button>
-          <button class="grade-btn" data-grade="5">5年生</button>
-          <button class="grade-btn" data-grade="6">6年生</button>
-        </div>
-
-        <div id="kanjiGrid" class="kanji-grid hidden"></div>
-      </div>
-    </aside>
-
-    <!-- Main content: kanji details -->
-    <main class="main-content">
-      <div id="results" class="results hidden">
-        <div class="results-columns">
-          <!-- Left: info, words, print -->
-          <div class="results-left">
-            <h2 id="kanjiTitle" class="kanji-title"></h2>
-
-            <div class="section">
-              <h3>よみかた</h3>
-              <div id="readings" class="readings"></div>
-            </div>
-
-            <div class="section">
-              <h3>この漢字をつかうことば</h3>
-              <div id="words" class="words-list"></div>
-            </div>
-
-            <div class="section">
-              <h3>れんしゅうシート</h3>
-              <div class="practice-options">
-                <button id="printBtn">いんさつ</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Right: stroke order + animation stacked -->
-          <div class="results-right">
-            <div class="section">
-              <div class="mode-header">
-                <h3 id="canvasTitle">アニメーション</h3>
-                <button id="modeToggleBtn" class="mode-toggle-btn" title="モードきりかえ">✏ なぞる</button>
-              </div>
-              <div id="animationWrap">
-                <div id="animationCanvas" class="animation-canvas"></div>
-              </div>
-              <div id="traceArea" class="hidden">
-                <div id="traceCanvas" class="trace-canvas"></div>
-                <div class="trace-info">
-                  <span id="traceCounter" class="trace-counter"></span>
-                  <button id="traceRetryBtn" class="trace-retry-btn hidden">もういちど</button>
-                </div>
-                <div id="traceMessage" class="trace-message hidden"></div>
-              </div>
-            </div>
-
-            <div class="section">
-              <h3>かきじゅん</h3>
-              <div id="steps" class="steps-grid"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="emptyState" class="empty-state">
-        <p>← 学年をえらんで、漢字をクリックしてね</p>
-      </div>
-    </main>
-  </div>
-  <script src="app.js"></script>
-  <script>
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("/sw.js");
-    }
-  </script>
+  <div id="app"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>

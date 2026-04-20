@@ -1,0 +1,10372 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(for) any reason"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかなるりゆう",
+        "written": "いかなる理由"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかなるりゆう",
+        "written": "如何なる理由"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(not) one"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにひとつ",
+        "written": "何ひとつ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにひとつ",
+        "written": "何一つ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Euclidean geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ユークリッドきかがく",
+        "written": "ユークリッド幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Riemannian geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "リーマンきかがく",
+        "written": "リーマン幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a few times"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんかいか",
+        "written": "何回か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "affine geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "アフィンきかがく",
+        "written": "アフィン幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "algebraic geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいすうきかがく",
+        "written": "代数幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "analytical geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいせききかがく",
+        "written": "解析幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "any number of people"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんにんでも",
+        "written": "何人でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "any number of times"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんどでも",
+        "written": "何度でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anyone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どなたでも",
+        "written": "何方でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anywhere"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこでも",
+        "written": "何処でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anywhere"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこにでも",
+        "written": "何処にでも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "as if nothing had happened"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにごともなかったかのように",
+        "written": "何事もなかったかのように"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "as usual"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつものごとく",
+        "written": "何時ものごとく"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "casually"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんかなしに",
+        "written": "何か無しに"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "coordinate geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ざひょうきかがく",
+        "written": "座標幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "depending on ..."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかんで",
+        "written": "如何で"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "depending on ..."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかんによって",
+        "written": "如何によって"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "descriptive geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "がほうきかがく",
+        "written": "画法幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "descriptive geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ずほうきかがく",
+        "written": "図法幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "elementary geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しょとうきかがく",
+        "written": "初等幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "equally competent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いずれおとらぬ",
+        "written": "いずれ劣らぬ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いずれおとらぬ",
+        "written": "何れ劣らぬ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "for the first time in several months"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんかげつぶりか",
+        "written": "何か月ぶりか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつぶりか",
+        "written": "何ヵ月ぶりか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつぶりか",
+        "written": "何ヶ月ぶりか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつぶりか",
+        "written": "何ヶ月振りか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "for the first time in years"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんねんぶりか",
+        "written": "何年ぶりか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんねんぶりか",
+        "written": "何年振りか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "from what time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんじから",
+        "written": "何時から"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "geometric (progression, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかきゅうすうてき",
+        "written": "幾何級数的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "geometric graphics element"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかがくずけいようそ",
+        "written": "幾何学図形要素"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "geometric pattern"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかがくもよう",
+        "written": "幾何学模様"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "geometric pattern"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかもよう",
+        "written": "幾何模様"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "geometric series"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかきゅうすう",
+        "written": "幾何級数"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "geometrical"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかがくてき",
+        "written": "幾何学的"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "geometrical optics"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかこうがく",
+        "written": "幾何光学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "geometrical spirit (Pascal)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかがくてきせいしん",
+        "written": "幾何学的精神"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "きかがく",
+        "written": "幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "きか",
+        "written": "幾何"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかで",
+        "written": "争で"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかで",
+        "written": "如何で"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many hours"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんじかん",
+        "written": "何時間"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many months"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんかげつ",
+        "written": "何か月"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつ",
+        "written": "何カ月"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつ",
+        "written": "何ケ月"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつ",
+        "written": "何ヵ月"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつ",
+        "written": "何ヶ月"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつ",
+        "written": "何箇月"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many people"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんびとさま",
+        "written": "何人様"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many people"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんめい",
+        "written": "何名"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many pieces"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんこ",
+        "written": "何個"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんこ",
+        "written": "何箇"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many points"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんてん",
+        "written": "何点"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many steps"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんぽ",
+        "written": "何歩"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many times"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf08"
+        ],
+        "pronounced": "なんかい",
+        "written": "何回"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many words"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんご",
+        "written": "何語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many? (large animals)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんとう",
+        "written": "何頭"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how much"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかばかり",
+        "written": "如何許"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hundreds"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf18"
+        ],
+        "pronounced": "なんびゃく",
+        "written": "何百"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hyperbolic geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうきょくきかがく",
+        "written": "双曲幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "if you insist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうしてもというのなら",
+        "written": "どうしてもと言うのなら"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どうしてもというのなら",
+        "written": "如何してもと言うのなら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in various ways"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにくれ",
+        "written": "何くれ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにくれ",
+        "written": "何呉"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in various ways"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにくれとなく",
+        "written": "何くれとなく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにくれとなく",
+        "written": "何呉となく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにくれとなく",
+        "written": "何呉と無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "large number of items"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんびゃっこ",
+        "written": "何百個"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "many periods"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんきも",
+        "written": "何期も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "many thousands"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "なんぜん",
+        "written": "何千"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "many years"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんねんかん",
+        "written": "何年間"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "manyfold"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんばいも",
+        "written": "何倍も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "more than usual"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつもより",
+        "written": "何時もより"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no matter how much time passes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつまでたっても",
+        "written": "いつまで経っても"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつまでたっても",
+        "written": "何時まで経っても"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "non-Euclidean geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひユークリッドきかがく",
+        "written": "非ユークリッド幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "none"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どれにも",
+        "written": "何れにも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nothing comes from nothing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むからはなにもしょうじない",
+        "written": "無からは何も生じない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nowhere"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どこにもない",
+        "written": "何処にもない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "on what business"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにようで",
+        "written": "何用で"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "plane geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいめんきかがく",
+        "written": "平面幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "solid geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "りったいきかがく",
+        "written": "立体幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somehow or other"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうかこうか",
+        "written": "如何かこうか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "someone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どなたか",
+        "written": "何方か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "someone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにものか",
+        "written": "何ものか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにものか",
+        "written": "何者か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "something"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにがな",
+        "written": "何がな"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "something (or other)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにごとか",
+        "written": "何ごとか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにごとか",
+        "written": "何事か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "spherical geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きゅうめんきかがく",
+        "written": "球面幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "such-and-such a place"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこそこ",
+        "written": "何処其処"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "such-and-such a place"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこどこ",
+        "written": "何処何処"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "tens of thousands of years"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんまんねん",
+        "written": "何万年"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be able to manage somehow or another"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんとかなる",
+        "written": "何とかなる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "topology"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いそうきかがく",
+        "written": "位相幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unusually large tree"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんじゃもんじゃ",
+        "written": "何じゃもんじゃ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ナンジャモンジャ",
+        "written": "何じゃもんじゃ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "various types"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんしゅるい",
+        "written": "何種類"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんじゃ",
+        "written": "何じゃ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what (TV) channel?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんチャン",
+        "written": "何チャン"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what color"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにいろ",
+        "written": "何色"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what floor"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんかい",
+        "written": "何階"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what grade (in school)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんねんせい",
+        "written": "何年生"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what is it?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんだっけ",
+        "written": "何だっけ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what language"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにご",
+        "written": "何語"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what month"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんがつ",
+        "written": "何月"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what nationality"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにじん",
+        "written": "何人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what number"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんばん",
+        "written": "何番"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what on Earth is this?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんだこりゃ",
+        "written": "何だこりゃ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what on Earth is this?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんだこれは",
+        "written": "何だこれは"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what the hell are you saying?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにいうとんねん",
+        "written": "何言うとんねん"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what the hell are you saying?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにをいうとんねん",
+        "written": "何を言うとんねん"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what the hell are you saying?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにをいってんねん",
+        "written": "何を言ってんねん"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what the hell are you saying?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにをいうてんねん",
+        "written": "何を言うてんねん"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにをゆうてんねん",
+        "written": "何を言うてんねん"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにを",
+        "written": "何を"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whatever"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんとでも",
+        "written": "何とでも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "when"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いついつ",
+        "written": "何時何時"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "where there is a will, there is a way"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいしんいっとうなにごとかならざらん",
+        "written": "精神一到何事か成らざらん"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whereabouts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どのあたり",
+        "written": "どの辺り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どのあたり",
+        "written": "何のあたり"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "who"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どなた",
+        "written": "何方"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "who"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どいつ",
+        "written": "何奴"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どやつ",
+        "written": "何奴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "who"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どちらさま",
+        "written": "どちら様"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どちらさま",
+        "written": "何方様"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "without any special thought"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにごころなく",
+        "written": "何心なく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにごころなく",
+        "written": "何心無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(at) any time",
+          "whenever"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつなりと",
+        "written": "何時なりと"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(for) months",
+          "many months"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんかげつも",
+        "written": "何か月も"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつも",
+        "written": "何ケ月も"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつも",
+        "written": "何ヵ月も"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつも",
+        "written": "何ヶ月も"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつも",
+        "written": "何箇月も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(not) in any way",
+          "in no way"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかんとも",
+        "written": "如何とも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(of a choice) one being as excellent as the other",
+          "both so beautiful it is hard to choose between"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いずれあやめかかきつばた",
+        "written": "いずれ菖蒲か杜若"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いずれあやめかかきつばた",
+        "written": "何れ菖蒲か杜若"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "It's nothing!",
+          "Don't mention it!"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんのなんの",
+        "written": "何の何の"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a few months",
+          "several months"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんかげつか",
+        "written": "何か月か"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつか",
+        "written": "何ケ月か"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつか",
+        "written": "何ヵ月か"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつか",
+        "written": "何ヶ月か"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかげつか",
+        "written": "何箇月か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "above all else",
+          "more than anything"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なににもまして",
+        "written": "何にもまして"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なににもまして",
+        "written": "何にも増して"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "all over",
+          "everywhere"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこにもかしこにも",
+        "written": "何処にも彼処にも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "always",
+          "all the time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつだって",
+        "written": "何時だって"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "any number of times",
+          "over and over again"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんかいでも",
+        "written": "何回でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anything",
+          "whatever"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんなり",
+        "written": "何なり"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anything and everything",
+          "just about everything"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにもかも",
+        "written": "何もかも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにもかも",
+        "written": "何も彼も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "as always",
+          "as usual"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつものとおりに",
+        "written": "いつもの通りに"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつものとおりに",
+        "written": "何時もの通りに"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "as always",
+          "as usual"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつもとおり",
+        "written": "いつも通り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつもとおり",
+        "written": "何時も通り"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "いつもどおり",
+        "written": "いつも通り"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "いつもどおり",
+        "written": "何時も通り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "at any rate",
+          "anyhow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにせ",
+        "written": "何せ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんせ",
+        "written": "何せ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "at some point in the past",
+          "at some stage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつのころからか",
+        "written": "いつの頃からか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつのころからか",
+        "written": "何時の頃からか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "at what time",
+          "when"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんじなんぷん",
+        "written": "何時何分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "because",
+          "the reason why is"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんとなれば",
+        "written": "何となれば"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "because",
+          "the reason why is"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なぜかというと",
+        "written": "なぜかと言うと"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なぜかというと",
+        "written": "何故かと言うと"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "before anything else",
+          "first of all"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにはさておき",
+        "written": "何はさておき"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにはさておき",
+        "written": "何は扨措き"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "by all means",
+          "by all costs"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにがなんでも",
+        "written": "何が何でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "casual",
+          "unconcerned"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにごころない",
+        "written": "何心ない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにごころない",
+        "written": "何心無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "certain person",
+          "certain amount"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんのなにがし",
+        "written": "何のなにがし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんのなにがし",
+        "written": "何の某"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "challenging (an unknown person)",
+          "asking a person's identity"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "すいか",
+        "written": "誰何"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "chance encounter (worth treasuring)",
+          "a connection made with another person by chance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにかのえん",
+        "written": "何かの縁"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cheat",
+          "swindler"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかさまし",
+        "written": "いかさま師"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかさまし",
+        "written": "如何様師"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "damn it!",
+          "dang it!"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにくそ",
+        "written": "何糞"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "each and every",
+          "all"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どれもこれも",
+        "written": "何れも此れも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "elliptic geometry",
+          "Riemannian geometry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だえんきかがく",
+        "written": "楕円幾何学"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "even if nothing else",
+          "more than anything else"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにはなくとも",
+        "written": "何はなくとも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにはなくとも",
+        "written": "何は無くとも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "everything",
+          "all"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なににも",
+        "written": "何にも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "for many days",
+          "for several days"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんにちも",
+        "written": "何日も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "from out of nowhere",
+          "from who knows where"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこからともなく",
+        "written": "どこからとも無く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どこからともなく",
+        "written": "何処からともなく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どこからともなく",
+        "written": "何処からとも無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "gaining nothing by",
+          "getting nowhere by"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにもでない",
+        "written": "なにも出ない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにもでない",
+        "written": "何もでない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにもでない",
+        "written": "何も出ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "geometric mean",
+          "geometric average"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きかへいきん",
+        "written": "幾何平均"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how",
+          "in what way"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかにして",
+        "written": "如何にして"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how",
+          "in what way"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どのように",
+        "written": "どの様に"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どのように",
+        "written": "何の様に"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how could I (you, etc.) ...?",
+          "how dare you (they, etc.) (have the nerve to) ...?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんのかんばせあって",
+        "written": "何のかんばせあって"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんのかんばせあって",
+        "written": "何の顔あって"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how far",
+          "to what extent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこまで",
+        "written": "何処まで"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どこまで",
+        "written": "何処迄"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how long?",
+          "till when?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつまで",
+        "written": "何時まで"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつまで",
+        "written": "何時迄"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many kinds",
+          "how many types"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんしゅ",
+        "written": "何種"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many people",
+          "a number of people"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんにん",
+        "written": "何人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many times",
+          "how often"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "なんべん",
+        "written": "何べん"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "なんべん",
+        "written": "何遍"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how much",
+          "how many"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにほど",
+        "written": "何ほど"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにほど",
+        "written": "何程"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how old",
+          "what age"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec2"
+        ],
+        "pronounced": "なんさい",
+        "written": "何才"
+      },
+      {
+        "priorities": [
+          "spec2"
+        ],
+        "pronounced": "なんさい",
+        "written": "何歳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "if you ask me ...",
+          "as for ..."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうかというと",
+        "written": "どうかと言うと"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どうかというと",
+        "written": "如何かと言うと"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in any case",
+          "whatever the case may be"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかなるばあいでも",
+        "written": "いかなる場合でも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかなるばあいでも",
+        "written": "如何なる場合でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in either case",
+          "in all cases"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いずれのばあいにおいても",
+        "written": "いずれの場合においても"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いずれのばあいにおいても",
+        "written": "何れの場合においても"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indefinitely",
+          "for a long time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いついつまでも",
+        "written": "何時何時までも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いついつまでも",
+        "written": "何時何時迄も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "it doesn't matter what",
+          "anything is fine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんでもいい",
+        "written": "何でもいい"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "it doesn't matter what",
+          "anything is fine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんだっていい",
+        "written": "何だっていい"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんだっていい",
+        "written": "何だって良い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "more than anything",
+          "above all else"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なによりも",
+        "written": "何よりも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんよりも",
+        "written": "何よりも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "multicolored printing",
+          "multicoloured printing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんしょくずり",
+        "written": "何色搨"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no matter what anyone says",
+          "regardless of what is said"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんだかんだいっても",
+        "written": "なんだかんだ言っても"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんだかんだいっても",
+        "written": "何だかんだいっても"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんだかんだいっても",
+        "written": "何だかんだ言っても"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no matter what it is",
+          "in every case"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにごとにつけ",
+        "written": "何事につけ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにごとにつけ",
+        "written": "何事に付け"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no one at all",
+          "no one, who he or she may be"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにびとたりとも",
+        "written": "何人たりとも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんびとたりとも",
+        "written": "何人たりとも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんぴとたりとも",
+        "written": "何人たりとも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "noncommutative geometry",
+          "NCG"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひかかんきか",
+        "written": "非可換幾何"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "not knowing what's what",
+          "being unable to make heads or tails"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにがなにやらわからない",
+        "written": "何が何やらわからない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにがなにやらわからない",
+        "written": "何が何やら分からない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "not knowing what's what",
+          "being unable to make heads or tails"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにがなんだかわからない",
+        "written": "何が何だかわからない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにがなんだかわからない",
+        "written": "何が何だか分からない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "not long after",
+          "before long"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いくばくもなく",
+        "written": "幾ばくもなく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いくばくもなく",
+        "written": "幾ばくも無く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いくばくもなく",
+        "written": "幾何もなく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いくばくもなく",
+        "written": "幾何も無く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いくばくもなく",
+        "written": "幾許もなく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いくばくもなく",
+        "written": "幾許も無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nothing can be done (about)",
+          "cannot be helped"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかんともしがたい",
+        "written": "如何ともしがたい"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nowhere",
+          "not anywhere (with neg. verb)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこへも",
+        "written": "何処へも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "regardless of",
+          "irrespective of"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかんにかかわらず",
+        "written": "如何にかかわらず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "several times",
+          "once or twice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんどか",
+        "written": "何度か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "since some time or another",
+          "since who-knows-when"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつからか",
+        "written": "何時からか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "so what!",
+          "who gives a damn?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だからなんだ",
+        "written": "だから何だ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "some",
+          "small amount of"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いくばくか",
+        "written": "幾ばくか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いくばくか",
+        "written": "幾何か"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いくばくか",
+        "written": "幾許か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "some days",
+          "several days"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんにちか",
+        "written": "何日か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "some other time",
+          "another time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いずれまた",
+        "written": "何れまた"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somehow or other",
+          "for some reason or another"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんとなし",
+        "written": "何となし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんとなし",
+        "written": "何と無し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "something one finds questionable",
+          "something one finds fault with"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかがなもの",
+        "written": "如何なもの"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "something or other",
+          "anything"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにかもの",
+        "written": "何か物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "something or other",
+          "somehow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんとかかんとか",
+        "written": "何とかかんとか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんとかかんとか",
+        "written": "何とか彼とか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somewhere",
+          "someplace"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこぞ",
+        "written": "何処ぞ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "there is nothing",
+          "having nothing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにもない",
+        "written": "何もない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにもない",
+        "written": "何も無い"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんもない",
+        "written": "何もない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんもない",
+        "written": "何も無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "this and that",
+          "one thing or another"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうのこうの",
+        "written": "如何の斯うの"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "this and that",
+          "one thing or another"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにやらかやら",
+        "written": "何やら彼やら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "this and that",
+          "one thing or another"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにやらかにやら",
+        "written": "何やらかにやら"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにやらかにやら",
+        "written": "何やら彼にやら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "this and that (esp. complaining or protesting)",
+          "something or other"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんのかんの",
+        "written": "何のかんの"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "utopia",
+          "(natural) paradise"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "むかうのさと",
+        "written": "無何有の郷"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what day?",
+          "what day of the week?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんようび",
+        "written": "何曜日"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what did you just say (to me)?",
+          "what's that?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんだと",
+        "written": "何だと"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what do you want?",
+          "can I help you?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにかよう",
+        "written": "なにか用"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにかよう",
+        "written": "何か用"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかよう",
+        "written": "なんか用"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんかよう",
+        "written": "何か用"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what is it exactly?",
+          "what is it precisely"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いったいなんなんですか",
+        "written": "いったい何なんですか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what kind of business",
+          "what sort of matter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なによう",
+        "written": "何用"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what minute",
+          "how many minutes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんぷん",
+        "written": "何分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what more can one say?",
+          "utterly at a loss for words (because of disbelief or disgust)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにをかいわんや",
+        "written": "何をかいわんや"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにをかいわんや",
+        "written": "何をか言わんや"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what number (in a sequence)",
+          "what rank"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんばんめ",
+        "written": "何番め"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんばんめ",
+        "written": "何番目"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what proportion",
+          "what percentage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんわり",
+        "written": "何割"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what sort",
+          "what kind"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どのよう",
+        "written": "どの様"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どのよう",
+        "written": "何の様"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what star sign",
+          "what constellation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにざ",
+        "written": "何座"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what time",
+          "which hour"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんじ",
+        "written": "何時"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what's that?",
+          "what the..."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんじゃそら",
+        "written": "何じゃそら"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんじゃそりゃ",
+        "written": "何じゃそりゃ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what's what",
+          "heads or tails"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにがなにやら",
+        "written": "何が何やら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what's what",
+          "heads or tails"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにがなんだか",
+        "written": "何が何だか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whatever",
+          "no matter what"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんであれ",
+        "written": "何であれ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "when",
+          "at what point"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつのまに",
+        "written": "いつの間に"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつのまに",
+        "written": "何時の間に"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "where",
+          "what place"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこら",
+        "written": "何処ら"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どこら",
+        "written": "何所ら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "where",
+          "whereabouts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこいら",
+        "written": "何処いら"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どこいら",
+        "written": "何所いら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "where",
+          "whereabouts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこらあたり",
+        "written": "どこら辺り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どこらあたり",
+        "written": "何処ら辺り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "where",
+          "whereabouts"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこらへん",
+        "written": "どこら辺"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どこらへん",
+        "written": "何処ら辺"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "where to?",
+          "whither?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どちらへ",
+        "written": "何方へ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "which",
+          "what (way)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "どの",
+        "written": "何の"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "who",
+          "what kind of person"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにやつ",
+        "written": "何やつ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにやつ",
+        "written": "何奴"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "who",
+          "what kind of person"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "なにもの",
+        "written": "何もの"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "なにもの",
+        "written": "何者"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "why",
+          "how"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なぜに",
+        "written": "何故に"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにゆえに",
+        "written": "何故に"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "why",
+          "how"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "なぜ",
+        "written": "何故"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "なにゆえ",
+        "written": "何ゆえ"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf30"
+        ],
+        "pronounced": "なにゆえ",
+        "written": "何故"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "you cannot rely on parents and money to stay around forever",
+          "money comes and goes; so do parents"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつまでもあるとおもうなおやとかね",
+        "written": "いつまでもあると思うな親と金"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつまでもあるとおもうなおやとかね",
+        "written": "何時迄もあると思うな親と金"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(a) little",
+          "somewhat",
+          "somehow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf19"
+        ],
+        "pronounced": "なんだか",
+        "written": "何だか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(not) anything",
+          "(nothing) at all",
+          "(not) any"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "なんにも",
+        "written": "何にも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(not) in any way",
+          "in no way",
+          "at all"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうにもこうにも",
+        "written": "如何にもこうにも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(several) tens",
+          "dozens",
+          "scores (of)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf12"
+        ],
+        "pronounced": "なんじゅう",
+        "written": "何十"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a fox is not taken twice in the same snare",
+          "there are no birds in last year's nest",
+          "there aren't always loaches under the willow tree"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やなぎのしたにいつもどじょうはおらぬ",
+        "written": "柳の下にいつも泥鰌はおらぬ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やなぎのしたにいつもどじょうはおらぬ",
+        "written": "柳の下に何時も泥鰌は居らぬ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "about when",
+          "about what time",
+          "how soon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "spec1"
+        ],
+        "pronounced": "いつごろ",
+        "written": "いつ頃"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "spec1"
+        ],
+        "pronounced": "いつごろ",
+        "written": "何時ごろ"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "spec1"
+        ],
+        "pronounced": "いつごろ",
+        "written": "何時頃"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "all over",
+          "all over the place",
+          "everywhere"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこもかしこも",
+        "written": "何処も彼処も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "all over",
+          "all over the place",
+          "everywhere"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこもかも",
+        "written": "何処もかも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "another",
+          "different",
+          "something else"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにかべつ",
+        "written": "何か別"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "any of",
+          "either of",
+          "(to) any"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いずれか",
+        "written": "何れか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いずれか",
+        "written": "孰か"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いずれか",
+        "written": "孰れか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "any one",
+          "any",
+          "whichever"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どれでも",
+        "written": "何れでも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anyone",
+          "any person",
+          "whoever"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんびと",
+        "written": "何びと"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんびと",
+        "written": "何人"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんぴと",
+        "written": "何人"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "なにびと",
+        "written": "何びと"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "なにびと",
+        "written": "何人"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anything",
+          "whatever",
+          "whatever one likes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんなりと",
+        "written": "何なりと"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anything",
+          "whatever",
+          "whatever one likes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんなりとも",
+        "written": "何なりとも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anything and everything",
+          "from top to toe",
+          "from A to Z"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにからなにまで",
+        "written": "何から何まで"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにからなにまで",
+        "written": "何から何迄"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "as always",
+          "as ever",
+          "though it's always the case"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつもながら",
+        "written": "何時もながら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "as usual",
+          "as always",
+          "like always"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつものように",
+        "written": "いつもの様に"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつものように",
+        "written": "何時ものように"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつものように",
+        "written": "何時もの様に"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "because",
+          "for",
+          "the reason why is ..."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "なぜならば",
+        "written": "何故ならば"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "because",
+          "the reason is",
+          "if you want to know why"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "なぜなら",
+        "written": "何故なら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "before one knows",
+          "unnoticed",
+          "unawares"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつしか",
+        "written": "何時しか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "currently nowhere to be seen",
+          "unknown where it went",
+          "disappeared into thin air"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこへやら",
+        "written": "何処へやら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "even so",
+          "anyhow",
+          "at any rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なににしても",
+        "written": "何にしても"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんにしても",
+        "written": "何にしても"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "everybody",
+          "every last one of them",
+          "all"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どいつもこいつも",
+        "written": "何奴も此奴も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "everything",
+          "for (to) everything",
+          "(in) anything"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なににでも",
+        "written": "何にでも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんにでも",
+        "written": "何にでも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "first and foremost",
+          "above all",
+          "most importantly of all"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なによりもまず",
+        "written": "何よりもまず"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なによりもまず",
+        "written": "何よりも先ず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "for no particular reason",
+          "for some reason or other",
+          "somehow or other"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんとはなしに",
+        "written": "なんとは無しに"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんとはなしに",
+        "written": "何とはなしに"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんとはなしに",
+        "written": "何とは無しに"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "for some reason or other",
+          "somehow or other",
+          "by some chance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにかのひょうし",
+        "written": "何かの拍子"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how",
+          "in what way",
+          "I wonder"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこをどう",
+        "written": "何処を如何"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how",
+          "in what way",
+          "how about"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どう",
+        "written": "如何"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how long",
+          "how far",
+          "how much"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どのくらい",
+        "written": "どの位"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どのくらい",
+        "written": "何のくらい"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どのくらい",
+        "written": "何の位"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どのぐらい",
+        "written": "どの位"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どのぐらい",
+        "written": "何の位"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how long",
+          "how far",
+          "how much"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どれぐらい",
+        "written": "どれ位"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どれぐらい",
+        "written": "何れぐらい"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どれぐらい",
+        "written": "何れ位"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どれくらい",
+        "written": "どれ位"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どれくらい",
+        "written": "何れくらい"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どれくらい",
+        "written": "何れ位"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how much",
+          "how many",
+          "however"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかほど",
+        "written": "いか程"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかほど",
+        "written": "如何ほど"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかほど",
+        "written": "如何程"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how much",
+          "how many",
+          "to what extent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どれだけ",
+        "written": "何れ丈"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "if you are so inclined",
+          "if it suits you",
+          "if you like"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんだったら",
+        "written": "何だったら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in all respects",
+          "in every way",
+          "whatsoever"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにによらず",
+        "written": "何によらず"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにによらず",
+        "written": "何に依らず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in doing anything",
+          "in everything",
+          "no matter what one does"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにをするにも",
+        "written": "何をするにも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in every case",
+          "in everything",
+          "in all matters"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにごとによらず",
+        "written": "何事によらず"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにごとによらず",
+        "written": "何事に依らず"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにごとによらず",
+        "written": "何事に拠らず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in some way or other",
+          "in some shape or form",
+          "somehow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんらかのかたちで",
+        "written": "なんらかの形で"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんらかのかたちで",
+        "written": "何らかの形で"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "more than usual",
+          "especially",
+          "particularly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつにもまして",
+        "written": "いつにも増して"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつにもまして",
+        "written": "何時にもまして"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつにもまして",
+        "written": "何時にも増して"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "my goodness!",
+          "good lord!",
+          "holy cow!"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんてこと",
+        "written": "なんて事"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんてこと",
+        "written": "何てこと"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんてこと",
+        "written": "何て事"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no holds barred",
+          "anything goes",
+          "no limits"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんでもあり",
+        "written": "何でもあり"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no matter what",
+          "whatever you say",
+          "in the end"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんてったって",
+        "written": "何てったって"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no matter what",
+          "whatever you say",
+          "in the end"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんといったって",
+        "written": "何と言ったって"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nothing but",
+          "nothing more than",
+          "nothing less than"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いがいのなにものでもない",
+        "written": "以外の何者でもない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いがいのなにものでもない",
+        "written": "以外の何者でも無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nothing special",
+          "no big deal",
+          "doesn't matter"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんのその",
+        "written": "何のその"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんのその",
+        "written": "何の其の"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "of no use whatsoever",
+          "good for nothing",
+          "useless"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんのやくにもたたない",
+        "written": "なんの役にも立たない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんのやくにもたたない",
+        "written": "何の役にも立たない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one of these days",
+          "someday",
+          "one day"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつのひか",
+        "written": "いつの日か"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつのひか",
+        "written": "何時の日か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one of these days",
+          "someday",
+          "one day"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつのひにか",
+        "written": "いつの日にか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつのひにか",
+        "written": "何時の日にか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one thing or another",
+          "this and that",
+          "something or another"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんやかんや",
+        "written": "何やかんや"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんやかんや",
+        "written": "何や彼んや"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "one way or another",
+          "in many ways",
+          "in various ways"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "なにかと",
+        "written": "何かと"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "なにかと",
+        "written": "何彼と"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ordinary",
+          "nothing special",
+          "nothing to exclaim over"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんてことない",
+        "written": "何てことない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんてことない",
+        "written": "何て事ない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんてことない",
+        "written": "何て事無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ordinary",
+          "nothing special",
+          "nothing to exclaim over"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんてことのない",
+        "written": "何てことのない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんてことのない",
+        "written": "何て事のない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんてことのない",
+        "written": "何て事の無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "repeatedly",
+          "several times",
+          "many times"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんべんも",
+        "written": "何べんも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんべんも",
+        "written": "何遍も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "showing no concern at all",
+          "being not at all bothered",
+          "devil-may-care attitude"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこふくかぜ",
+        "written": "どこ吹く風"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どこふくかぜ",
+        "written": "何処吹く風"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "since when",
+          "from when",
+          "how long"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつから",
+        "written": "何時から"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somehow",
+          "for some reason",
+          "without knowing why"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なぜだか",
+        "written": "何故だか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somehow",
+          "for some reason",
+          "without knowing why"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "なぜか",
+        "written": "何故か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somehow or other",
+          "for some reason or another",
+          "without knowing why"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにとなく",
+        "written": "何となく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにとなく",
+        "written": "何と無く"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "なんとなく",
+        "written": "何となく"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "なんとなく",
+        "written": "何と無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somehow or other",
+          "one way or another",
+          "by some means or other"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんとかして",
+        "written": "何とかして"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "something or other",
+          "one thing or another",
+          "this or that"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんだかだ",
+        "written": "何だかだ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんだかだ",
+        "written": "何だ彼だ"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんだかんだ",
+        "written": "何だかんだ"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんだかんだ",
+        "written": "何だ彼だ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sooner or later",
+          "in due time",
+          "in due course"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつかは",
+        "written": "何時かは"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "this and that",
+          "something or other",
+          "one thing or another"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにかかにか",
+        "written": "何かかにか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにかかにか",
+        "written": "何か彼にか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "time and time again",
+          "many times",
+          "a number of times"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんかいも",
+        "written": "何回も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be frank with you",
+          "to tell you the truth",
+          "I'm going to lay my cards on the table"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なにをかくそう",
+        "written": "何をかくそう"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なにをかくそう",
+        "written": "何を隠そう"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to come out all right",
+          "to take care of itself",
+          "to be OK"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうにかなる",
+        "written": "如何にかなる"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どーにかなる",
+        "written": "如何にかなる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to raise objections",
+          "to complain",
+          "(to have the right) to say anything"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうこういう",
+        "written": "どうこう言う"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どうこういう",
+        "written": "如何こう言う"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unusual",
+          "unwonted",
+          "uncharacteristic"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつにない",
+        "written": "何時にない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつにない",
+        "written": "何時に無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unusually",
+          "unwontedly",
+          "uncharacteristically"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "いつになく",
+        "written": "何時になく"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "いつになく",
+        "written": "何時に無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what date?",
+          "what's the date?",
+          "when?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんがつなんにち",
+        "written": "何月何日"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what is it (that)",
+          "the meaning of something",
+          "what something is about"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なになのか",
+        "written": "何なのか"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんなのか",
+        "written": "何なのか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what kind",
+          "what type",
+          "what sort"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにしゅ",
+        "written": "何種"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what kind of",
+          "what sort of",
+          "what"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どういう",
+        "written": "どう言う"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どういう",
+        "written": "如何いう"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どういう",
+        "written": "如何言う"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what sort of",
+          "what kind of",
+          "what way"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかよう",
+        "written": "如何様"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what the?",
+          "what's going on?",
+          "what's this?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにこれ",
+        "written": "何これ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにコレ",
+        "written": "何コレ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ナニコレ",
+        "written": "何これ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ナニコレ",
+        "written": "何コレ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "which way",
+          "which direction",
+          "where"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いずち",
+        "written": "何方"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "a fox is not taken twice in the same snare",
+          "there are no birds in last year's nest",
+          "there aren't always loach under the willow tree",
+          "good luck does not always repeat itself"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "やなぎのしたにいつもどじょうはいない",
+        "written": "柳の下にいつも泥鰌はいない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "やなぎのしたにいつもどじょうはいない",
+        "written": "柳の下に何時も泥鰌は居ない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "any kind of",
+          "every",
+          "whatsoever",
+          "whatever"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかなる",
+        "written": "如何なる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anyway",
+          "anyhow",
+          "at any rate",
+          "after all"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにぶんにも",
+        "written": "何分にも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anyway",
+          "anyhow",
+          "at any rate",
+          "in any case"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どのみち",
+        "written": "どの道"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どのみち",
+        "written": "何の道"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "at any rate",
+          "in any case",
+          "at the very least",
+          "if nothing else"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにはともあれ",
+        "written": "何はともあれ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "at any rate",
+          "in any event",
+          "either way",
+          "anyway"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いずれにせよ",
+        "written": "何れにせよ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "before one knows",
+          "before one becomes aware of",
+          "unnoticed",
+          "unawares"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつかしら",
+        "written": "何時かしら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "before one knows",
+          "before one becomes aware of",
+          "unnoticed",
+          "unawares"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "spec1"
+        ],
+        "pronounced": "いつのまにか",
+        "written": "いつの間にか"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "spec1"
+        ],
+        "pronounced": "いつのまにか",
+        "written": "何時の間にか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "before one knows it",
+          "without realizing",
+          "unawares",
+          "unnoticed"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつのまにやら",
+        "written": "いつの間にやら"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつのまにやら",
+        "written": "何時の間にやら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "completely ordinary",
+          "plain",
+          "commonplace",
+          "everyday"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんのへんてつもない",
+        "written": "なんの変哲もない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんのへんてつもない",
+        "written": "何の変哲もない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんのへんてつもない",
+        "written": "何の変哲も無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "did something happen?",
+          "what's with you?",
+          "what's wrong?",
+          "what's cooking?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにかあったの",
+        "written": "何かあったの"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how much",
+          "how many",
+          "what amount",
+          "what extent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いくばく",
+        "written": "幾ばく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いくばく",
+        "written": "幾何"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いくばく",
+        "written": "幾許"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how should I put it?",
+          "what shall I say?",
+          "well, you know",
+          "like"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんというか",
+        "written": "なんと言うか"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんというか",
+        "written": "何と言うか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "if not ... then what is it?",
+          "(this) is nothing other than ...",
+          "(it) must be ...",
+          "(it) is definitely ..."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "でなくてなんだろう",
+        "written": "でなくて何だろう"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in various ways",
+          "in all sorts of ways",
+          "at every opportunity",
+          "whenever there is a chance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにかにつけ",
+        "written": "何かにつけ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにかにつけ",
+        "written": "何かに付け"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにかにつけ",
+        "written": "何彼につけ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in various ways",
+          "in all sorts of ways",
+          "at every opportunity",
+          "whenever there is a chance"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにかにつけて",
+        "written": "何かにつけて"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにかにつけて",
+        "written": "何かに付けて"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにかにつけて",
+        "written": "何彼につけて"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "innocent look",
+          "nonchalant look",
+          "look of ignorance",
+          "air of innocence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにくわぬかお",
+        "written": "なに食わぬ顔"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにくわぬかお",
+        "written": "何食わぬ顔"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "many times over",
+          "often",
+          "repeatedly",
+          "time after time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんども",
+        "written": "何度も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no matter how you put it",
+          "whatever the circumstances may be",
+          "say what you like",
+          "no matter how you look at it"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いくらなんでも",
+        "written": "いくら何でも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いくらなんでも",
+        "written": "幾ら何でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no matter what",
+          "whatever happens",
+          "in any situation",
+          "rain or shine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにがあっても",
+        "written": "何があっても"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no matter what",
+          "whatever happens",
+          "in any situation",
+          "rain or shine"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにがあろうと",
+        "written": "何があろうと"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no matter what",
+          "whatever you say",
+          "in the end",
+          "after all"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんたって",
+        "written": "何たって"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no matter what it takes",
+          "by any means necessary",
+          "at all costs",
+          "by hook or by crook"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんとしてでも",
+        "written": "何としてでも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no matter what it takes",
+          "by any means necessary",
+          "at all costs",
+          "by hook or by crook"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんとしても",
+        "written": "何としても"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nothing to be afraid of",
+          "trivial",
+          "not amounting to much",
+          "can't do anything"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにするものぞ",
+        "written": "何するものぞ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "on the least pretext",
+          "at every opportunity",
+          "whenever there is a chance",
+          "at the drop of a hat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにかというと",
+        "written": "なにかと言うと"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにかというと",
+        "written": "何かというと"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにかというと",
+        "written": "何かと言うと"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "on the least pretext",
+          "at every opportunity",
+          "whenever there is a chance",
+          "at the drop of a hat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにかといえば",
+        "written": "なにかと言えば"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにかといえば",
+        "written": "何かといえば"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにかといえば",
+        "written": "何かと言えば"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "so what?",
+          "what of it?",
+          "and?",
+          "why do you ask?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "それがなにか",
+        "written": "それが何か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "some people",
+          "a number of people",
+          "several people",
+          "a few people"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんにんか",
+        "written": "何人か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "some time ago",
+          "the other day",
+          "at some time or other",
+          "once"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつぞや",
+        "written": "何時ぞや"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somehow",
+          "for some reason",
+          "in some way",
+          "vaguely"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どことなく",
+        "written": "何処となく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どことなく",
+        "written": "何処と無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "time after time",
+          "countless times",
+          "many a time",
+          "dozens of times"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんどとなく",
+        "written": "何度となく"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to gain nothing",
+          "to be of no benefit",
+          "to be no use",
+          "to be unprofitable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんのとくにもならない",
+        "written": "何の得にもならない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trivial",
+          "not amounting to much",
+          "not enough to cause a problem",
+          "not as much as expected"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんのことはない",
+        "written": "何のことはない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんのことはない",
+        "written": "何のことは無い"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんのことはない",
+        "written": "何の事はない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんのことはない",
+        "written": "何の事は無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "uneventfully",
+          "without incident",
+          "without a hitch",
+          "peacefully"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにごともなく",
+        "written": "何ごともなく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにごともなく",
+        "written": "何ごとも無く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにごともなく",
+        "written": "何事もなく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにごともなく",
+        "written": "何事も無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unintentionally",
+          "calmly",
+          "inadvertently",
+          "innocently"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "spec1"
+        ],
+        "pronounced": "なにげなく",
+        "written": "何げなく"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "spec1"
+        ],
+        "pronounced": "なにげなく",
+        "written": "何気なく"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "spec1"
+        ],
+        "pronounced": "なにげなく",
+        "written": "何気無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what the?",
+          "what's that?",
+          "what are you doing?",
+          "what's going on?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにそれ",
+        "written": "何それ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにソレ",
+        "written": "何ソレ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ナニソレ",
+        "written": "何それ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ナニソレ",
+        "written": "何ソレ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whatever way",
+          "any way",
+          "either way",
+          "one way or the other"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうとでも",
+        "written": "如何とでも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whatever way",
+          "any way",
+          "either way",
+          "one way or the other"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうとも",
+        "written": "如何とも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "you're welcome",
+          "don't mention it",
+          "not at all",
+          "my pleasure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どういたしまして",
+        "written": "どう致しまして"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どういたしまして",
+        "written": "如何致しまして"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "after all is said and done",
+          "no matter what people say",
+          "in the end",
+          "definitely",
+          "undeniably"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんていっても",
+        "written": "なんて言っても"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんていっても",
+        "written": "何て言っても"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "after all is said and done",
+          "no matter what people say",
+          "in the end",
+          "definitely",
+          "undeniably"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんといっても",
+        "written": "何といっても"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんといっても",
+        "written": "何と言っても"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anyhow",
+          "at all events",
+          "in any case",
+          "either way",
+          "anyway"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いずれにしろ",
+        "written": "何れにしろ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anyhow",
+          "at all events",
+          "in any case",
+          "either way",
+          "anyway"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いずれにしても",
+        "written": "何れにしても"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いずれにしても",
+        "written": "孰れにしても"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anyway",
+          "either way",
+          "one way or the other",
+          "whichever",
+          "whatever"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どちみち",
+        "written": "何方道"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どっちみち",
+        "written": "どっち道"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どっちみち",
+        "written": "何方道"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "at any rate",
+          "anyhow",
+          "anyway",
+          "in any case",
+          "because"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんにしろ",
+        "written": "何にしろ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "at any rate",
+          "anyhow",
+          "anyway",
+          "in any case",
+          "because"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんにせよ",
+        "written": "何にせよ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "both are bad",
+          "neither is good",
+          "one's as bad as the other",
+          "both are to blame",
+          "six of one, half a dozen of the other"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どっちもどっち",
+        "written": "何方もどっち"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hopeless",
+          "futile",
+          "no use",
+          "beyond help",
+          "cannot be done"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どうにもならない",
+        "written": "如何にもならない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indescribable",
+          "inexpressible",
+          "unspeakable",
+          "indefinable",
+          "nobody can tell"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんともいえない",
+        "written": "なんとも言えない"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんともいえない",
+        "written": "何ともいえない"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんともいえない",
+        "written": "何とも言えない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "it cannot be helped",
+          "there's nothing for it",
+          "it's no use fighting back",
+          "it's hopeless",
+          "there is no way out of it"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どうしようもない",
+        "written": "どうしようも無い"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どうしようもない",
+        "written": "どう仕様もない"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どうしようもない",
+        "written": "どう仕様も無い"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どうしようもない",
+        "written": "如何しようもない"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どうしようもない",
+        "written": "如何しようも無い"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どうしようもない",
+        "written": "如何仕様も無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "it's no big deal",
+          "it's no problem",
+          "it's nothing to worry about",
+          "safe (and sound)",
+          "all right"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんともない",
+        "written": "何ともない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんともない",
+        "written": "何とも無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "lead nowhere",
+          "get one nowhere",
+          "no use",
+          "fruitless",
+          "there's no point (in doing)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんにもならない",
+        "written": "何にもならない"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "some",
+          "any",
+          "in any way",
+          "of some kind",
+          "of some sort"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんらか",
+        "written": "何らか"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんらか",
+        "written": "何等か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somehow",
+          "how",
+          "in what way",
+          "why",
+          "what kind of"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうした",
+        "written": "如何した"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "this and that",
+          "one thing or another",
+          "something or other",
+          "and whatnot",
+          "and the rest"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにやかや",
+        "written": "何やかや"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにやかや",
+        "written": "何や彼や"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "any",
+          "all",
+          "every",
+          "both",
+          "either",
+          "none (with neg. verb)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いずれも",
+        "written": "何れも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どれも",
+        "written": "何れも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commonplace (of people or animals)",
+          "ordinary",
+          "typical",
+          "ubiquitous",
+          "run-of-the-mill",
+          "found around every corner"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこにでもいる",
+        "written": "何処にでもいる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unintentionally",
+          "inadvertently",
+          "calmly",
+          "casually",
+          "nonchalantly",
+          "innocently"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんのきなしに",
+        "written": "なんの気なしに"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんのきなしに",
+        "written": "何の気なしに"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんのきなしに",
+        "written": "何の気無しに"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "whatever happens",
+          "no matter what",
+          "under any circumstances",
+          "in any case",
+          "at all costs",
+          "at any price"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうあっても",
+        "written": "如何あっても"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "all over (the place)",
+          "throughout",
+          "everywhere",
+          "every inch",
+          "every part",
+          "from head to toe",
+          "from start to end"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこからどこまで",
+        "written": "何処から何処まで"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "commonplace",
+          "ordinary",
+          "typical",
+          "ubiquitous",
+          "run-of-the-mill",
+          "mundane",
+          "found around every corner"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこにでもある",
+        "written": "何処にでもある"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "forever",
+          "eternally",
+          "for good",
+          "as long as one likes",
+          "indefinitely",
+          "endlessly",
+          "for a long time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "いつまでも",
+        "written": "いつ迄も"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "いつまでも",
+        "written": "何時までも"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "いつまでも",
+        "written": "何時迄も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fully",
+          "to the full",
+          "(most) satisfactorily",
+          "amply",
+          "sufficiently",
+          "completely",
+          "perfectly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかんなく",
+        "written": "如何なく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかんなく",
+        "written": "如何無く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかんなく",
+        "written": "遺憾なく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかんなく",
+        "written": "遺憾無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "noncommittal",
+          "equivocal",
+          "indecisive",
+          "evasive",
+          "ambiguous",
+          "vague",
+          "on neither side"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どっちつかず",
+        "written": "何方付かず"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sometime",
+          "someday",
+          "one day",
+          "some time or other",
+          "the other day",
+          "in due course",
+          "in time"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつか",
+        "written": "何時か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what the hell",
+          "oh, great!",
+          "son of a gun",
+          "holy mackerel",
+          "oh no!",
+          "holy cow!",
+          "damn!"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんてこった",
+        "written": "何てこった"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(not) either"
+        ]
+      },
+      {
+        "glosses": [
+          "both"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どちらも",
+        "written": "何方も"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どっちも",
+        "written": "何方も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aimlessly"
+        ]
+      },
+      {
+        "glosses": [
+          "somehow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いずこともなく",
+        "written": "何処ともなく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いずこともなく",
+        "written": "何処とも無く"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どこともなく",
+        "written": "何処ともなく"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どこともなく",
+        "written": "何処とも無く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anywhere"
+        ]
+      },
+      {
+        "glosses": [
+          "where?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこだって",
+        "written": "何処だって"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "for some reason"
+        ]
+      },
+      {
+        "glosses": [
+          "something",
+          "some kind of"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf22"
+        ],
+        "pronounced": "なにやら",
+        "written": "何やら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many days"
+        ]
+      },
+      {
+        "glosses": [
+          "what day"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんにち",
+        "written": "何日"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many degrees (temperature, angle, etc.)"
+        ]
+      },
+      {
+        "glosses": [
+          "how many times"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "なんど",
+        "written": "何度"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nobody"
+        ]
+      },
+      {
+        "glosses": [
+          "(no matter) who",
+          "everyone",
+          "anyone"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにびとも",
+        "written": "何人も"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんびとも",
+        "written": "何人も"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんぴとも",
+        "written": "何人も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nothing"
+        ]
+      },
+      {
+        "glosses": [
+          "everything",
+          "anything"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにごとも",
+        "written": "何ごとも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにごとも",
+        "written": "何事も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "questionable"
+        ]
+      },
+      {
+        "glosses": [
+          "how",
+          "in what way",
+          "how about"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "いかが",
+        "written": "如何"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somehow"
+        ]
+      },
+      {
+        "glosses": [
+          "somewhere"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこやら",
+        "written": "何処やら"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どこやら",
+        "written": "何所やら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "something or other"
+        ]
+      },
+      {
+        "glosses": [
+          "or something",
+          "or something like that",
+          "or words to that effect"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "とかなんとか",
+        "written": "とか何とか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somewhere"
+        ]
+      },
+      {
+        "glosses": [
+          "in some respects",
+          "in some way"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どっか",
+        "written": "何処か"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どこか",
+        "written": "何処か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somewhere or other"
+        ]
+      },
+      {
+        "glosses": [
+          "in some way",
+          "somehow or other"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこかしら",
+        "written": "何処かしら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be better than anything"
+        ]
+      },
+      {
+        "glosses": [
+          "surpassing everything",
+          "better than anything"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なににもまさる",
+        "written": "何にも勝る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what (e.g. \"what rudeness\")"
+        ]
+      },
+      {
+        "glosses": [
+          "what (something) is like"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんたる",
+        "written": "何たる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what kind of"
+        ]
+      },
+      {
+        "glosses": [
+          "(not) in any way",
+          "(not) at all",
+          "(none) whatsoever"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにら",
+        "written": "何ら"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにら",
+        "written": "何等"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "なんら",
+        "written": "何ら"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf11"
+        ],
+        "pronounced": "なんら",
+        "written": "何等"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what kind of thing"
+        ]
+      },
+      {
+        "glosses": [
+          "anything (else)",
+          "nothing (but)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "なにもの",
+        "written": "何もの"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf31"
+        ],
+        "pronounced": "なにもの",
+        "written": "何物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what time"
+        ]
+      },
+      {
+        "glosses": [
+          "when",
+          "at what moment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんどき",
+        "written": "何時"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what year"
+        ]
+      },
+      {
+        "glosses": [
+          "how many years",
+          "how long"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんねん",
+        "written": "何年"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "which"
+        ]
+      },
+      {
+        "glosses": [
+          "well",
+          "now",
+          "c'mon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どれどれ",
+        "written": "何れ何れ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "which (of three or more)"
+        ]
+      },
+      {
+        "glosses": [
+          "well",
+          "now",
+          "c'mon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どれ",
+        "written": "何れ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "which blood group?"
+        ]
+      },
+      {
+        "glosses": [
+          "what shape?",
+          "what type?",
+          "which model?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにがた",
+        "written": "何型"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "who"
+        ]
+      },
+      {
+        "glosses": [
+          "which way",
+          "which direction",
+          "where"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いずかた",
+        "written": "いず方"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いずかた",
+        "written": "何方"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "why"
+        ]
+      },
+      {
+        "glosses": [
+          "somehow",
+          "for some reason (or other)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうしたわけか",
+        "written": "どうした訳か"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どうしたわけか",
+        "written": "如何した訳か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(at) any time",
+          "whenever (you like)"
+        ]
+      },
+      {
+        "glosses": [
+          "always",
+          "all the time",
+          "at all times"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんどきでも",
+        "written": "何時でも"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "いつでも",
+        "written": "何時でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(not) anywhere",
+          "nowhere"
+        ]
+      },
+      {
+        "glosses": [
+          "everywhere",
+          "anywhere"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どこにも",
+        "written": "何処にも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "all sorts of things",
+          "(anything and) everything"
+        ]
+      },
+      {
+        "glosses": [
+          "by all means",
+          "at any cost"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんでもかでも",
+        "written": "何でもかでも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんでもかでも",
+        "written": "何でも彼でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "all sorts of things",
+          "(anything and) everything"
+        ]
+      },
+      {
+        "glosses": [
+          "by all means",
+          "at any cost"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんでもかんでも",
+        "written": "何でもかんでも"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんでもかんでも",
+        "written": "何でも彼んでも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "at any time",
+          "at any moment"
+        ]
+      },
+      {
+        "glosses": [
+          "when",
+          "at what moment"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いつなんどき",
+        "written": "いつなん時"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつなんどき",
+        "written": "いつ何どき"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつなんどき",
+        "written": "いつ何時"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつなんどき",
+        "written": "何時なんどき"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いつなんどき",
+        "written": "何時何時"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "by all means",
+          "without fail"
+        ]
+      },
+      {
+        "glosses": [
+          "please",
+          "kindly",
+          "I beg of you",
+          "if it pleases you"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにそつ",
+        "written": "何卒"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "spec1"
+        ],
+        "pronounced": "なにとぞ",
+        "written": "何とぞ"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "spec1"
+        ],
+        "pronounced": "なにとぞ",
+        "written": "何卒"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "everywhere",
+          "wherever"
+        ]
+      },
+      {
+        "glosses": [
+          "nowhere (with neg. verb)",
+          "nothing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どこも",
+        "written": "何処も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "general merchant",
+          "general store"
+        ]
+      },
+      {
+        "glosses": [
+          "jack-of-all-trades",
+          "all-rounder",
+          "generalist"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんでもや",
+        "written": "なんでも屋"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんでもや",
+        "written": "何でも屋"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how ...!",
+          "what ...!"
+        ]
+      },
+      {
+        "glosses": [
+          "what?",
+          "what's that?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf34"
+        ],
+        "pronounced": "なんて",
+        "written": "何て"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how much",
+          "what point"
+        ]
+      },
+      {
+        "glosses": [
+          "whereabouts",
+          "what part"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どのへん",
+        "written": "どの辺"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どのへん",
+        "written": "何の辺"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how much (long, far)",
+          "what extent"
+        ]
+      },
+      {
+        "glosses": [
+          "where",
+          "what place"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いずく",
+        "written": "何処"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いずこ",
+        "written": "何処"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いづこ",
+        "written": "何処"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いどこ",
+        "written": "何処"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いどこ",
+        "written": "何所"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いどこ",
+        "written": "何處"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "どこ",
+        "written": "何処"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "どこ",
+        "written": "何所"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "どこ",
+        "written": "何處"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how?",
+          "by what means?"
+        ]
+      },
+      {
+        "glosses": [
+          "why?",
+          "what for?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "なんで",
+        "written": "何で"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "however (much)",
+          "no matter how"
+        ]
+      },
+      {
+        "glosses": [
+          "how much",
+          "how many",
+          "how",
+          "to what extent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんぼう",
+        "written": "何ぼう"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "indecent",
+          "unseemly"
+        ]
+      },
+      {
+        "glosses": [
+          "suspicious",
+          "dubious",
+          "unreliable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかがわしい",
+        "written": "如何わしい"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "no matter what",
+          "however much"
+        ]
+      },
+      {
+        "glosses": [
+          "what kind of",
+          "whatever sort of"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかな",
+        "written": "如何な"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いっかな",
+        "written": "如何な"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "normal times",
+          "ordinary days"
+        ]
+      },
+      {
+        "glosses": [
+          "when",
+          "at what time",
+          "how soon"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf29"
+        ],
+        "pronounced": "いつ",
+        "written": "何時"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "nothing of the sort",
+          "not at all"
+        ]
+      },
+      {
+        "glosses": [
+          "easy",
+          "trifling",
+          "harmless",
+          "of no concern",
+          "nothing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんでもない",
+        "written": "何でもない"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんでもない",
+        "written": "何でも無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "person of importance",
+          "a someone"
+        ]
+      },
+      {
+        "glosses": [
+          "absolutely",
+          "certainly",
+          "to be sure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにさま",
+        "written": "何さま"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにさま",
+        "written": "何様"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "something (or other)",
+          "some ... or other"
+        ]
+      },
+      {
+        "glosses": [
+          "somehow (or other)",
+          "for some reason",
+          "without knowing why"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにかしら",
+        "written": "何かしら"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにかしら",
+        "written": "何か知ら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unfortunately",
+          "alas"
+        ]
+      },
+      {
+        "glosses": [
+          "why",
+          "how come"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにがかなしくて",
+        "written": "何が悲しくて"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unusual item",
+          "something strange"
+        ]
+      },
+      {
+        "glosses": [
+          "fake",
+          "forgery",
+          "counterfeit",
+          "imitation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかもの",
+        "written": "いか物"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかもの",
+        "written": "偽物"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかもの",
+        "written": "如何物"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what can be done about ...",
+          "... cannot be helped"
+        ]
+      },
+      {
+        "glosses": [
+          "to one's regret",
+          "regrettably",
+          "unfortunately"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかんせん",
+        "written": "如何せん"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what!",
+          "oh"
+        ]
+      },
+      {
+        "glosses": [
+          "what the heck",
+          "what the",
+          "damn"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なあんだ",
+        "written": "何だ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんだ",
+        "written": "何だ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なーんだ",
+        "written": "何だ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(depending on) how",
+          "(depending on) what",
+          "nature (of)"
+        ]
+      },
+      {
+        "glosses": [
+          "what is ...?",
+          "how is ...?",
+          "what will be ...?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかん",
+        "written": "奈何"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかん",
+        "written": "如何"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(not) anything",
+          "(not) at all",
+          "(not) a bit"
+        ]
+      },
+      {
+        "glosses": [
+          "really",
+          "very",
+          "extremely",
+          "terribly",
+          "awfully"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf10"
+        ],
+        "pronounced": "なんとも",
+        "written": "何とも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(not) in any way",
+          "in no way",
+          "at all"
+        ]
+      },
+      {
+        "glosses": [
+          "terribly",
+          "awfully",
+          "hopelessly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どうにも",
+        "written": "如何にも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "above anything else",
+          "above all",
+          "more than anything"
+        ]
+      },
+      {
+        "glosses": [
+          "best",
+          "greatest",
+          "excellent",
+          "wonderful",
+          "most important"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf06"
+        ],
+        "pronounced": "なにより",
+        "written": "何より"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "if ... doesn't suit you",
+          "if you don't like ...",
+          "if ... doesn't take your fancy"
+        ]
+      },
+      {
+        "glosses": [
+          "if you like",
+          "if you prefer",
+          "if it suits you",
+          "if it's fine with you",
+          "if you don't mind",
+          "if necessary"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんなら",
+        "written": "何なら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somehow",
+          "anyhow",
+          "one way or another"
+        ]
+      },
+      {
+        "glosses": [
+          "something",
+          "something or other",
+          "so-and-so"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf05"
+        ],
+        "pronounced": "なんとか",
+        "written": "何とか"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "I am told",
+          "I hear",
+          "I understand",
+          "they say"
+        ]
+      },
+      {
+        "glosses": [
+          "any",
+          "anything",
+          "whatever",
+          "whatever one likes",
+          "everything",
+          "all"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "なんでも",
+        "written": "何でも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "because",
+          "since",
+          "for",
+          "after all"
+        ]
+      },
+      {
+        "glosses": [
+          "in any case",
+          "at any rate",
+          "anyhow",
+          "anyway",
+          "as you know",
+          "for you see",
+          "particularly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "なにしろ",
+        "written": "何しろ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "surely",
+          "absolutely",
+          "certainly",
+          "indeed"
+        ]
+      },
+      {
+        "glosses": [
+          "fraud",
+          "cheating",
+          "foul play",
+          "trickery",
+          "hoax",
+          "swindle",
+          "counterfeit",
+          "fake"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いかさま",
+        "written": "いか様"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いかさま",
+        "written": "如何様"
+      },
+      {
+        "priorities": [],
+        "pronounced": "イカサマ",
+        "written": "いか様"
+      },
+      {
+        "priorities": [],
+        "pronounced": "イカサマ",
+        "written": "如何様"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "casual",
+          "unconcerned",
+          "nonchalant",
+          "indifferent",
+          "offhand"
+        ]
+      },
+      {
+        "glosses": [
+          "ordinary",
+          "normal",
+          "regular",
+          "everyday",
+          "unremarkable"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "なにげない",
+        "written": "何げない"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "なにげない",
+        "written": "何気ない"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "なにげない",
+        "written": "何気無い"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "never"
+        ]
+      },
+      {
+        "glosses": [
+          "always",
+          "all the time",
+          "at all times"
+        ]
+      },
+      {
+        "glosses": [
+          "usual",
+          "regular",
+          "habitual",
+          "customary"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "いつも",
+        "written": "何時も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "of what name"
+        ]
+      },
+      {
+        "glosses": [
+          "how (beautiful, etc.)",
+          "what a ..."
+        ]
+      },
+      {
+        "glosses": [
+          "nothing worth mentioning",
+          "nothing special"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんちゅう",
+        "written": "何ちゅう"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "of what name"
+        ]
+      },
+      {
+        "glosses": [
+          "how (beautiful, etc.)",
+          "what a ..."
+        ]
+      },
+      {
+        "glosses": [
+          "nothing worth mentioning",
+          "nothing special"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんとゆう",
+        "written": "何と言う"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんという",
+        "written": "何という"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんという",
+        "written": "何と言う"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "please"
+        ]
+      },
+      {
+        "glosses": [
+          "anyway",
+          "anyhow",
+          "at any rate",
+          "after all"
+        ]
+      },
+      {
+        "glosses": [
+          "some",
+          "any",
+          "(a) little",
+          "of some kind",
+          "of some sort"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf40"
+        ],
+        "pronounced": "なにぶん",
+        "written": "何ぶん"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf40"
+        ],
+        "pronounced": "なにぶん",
+        "written": "何分"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "something"
+        ]
+      },
+      {
+        "glosses": [
+          "what"
+        ]
+      },
+      {
+        "glosses": [
+          "why",
+          "how"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なぞ",
+        "written": "何ぞ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なぞ",
+        "written": "奚"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにぞ",
+        "written": "何ぞ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにぞ",
+        "written": "奚"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんぞ",
+        "written": "何ぞ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なんぞ",
+        "written": "奚"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "which one (esp. of two alternatives)"
+        ]
+      },
+      {
+        "glosses": [
+          "who"
+        ]
+      },
+      {
+        "glosses": [
+          "which way",
+          "which direction",
+          "where"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どちら",
+        "written": "何方"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どっち",
+        "written": "何方"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "which street"
+        ]
+      },
+      {
+        "glosses": [
+          "how can (one possibly do ...)",
+          "cannot possibly ...",
+          "there is no way ..."
+        ]
+      },
+      {
+        "glosses": [
+          "what article (of a legal document, etc.)",
+          "what clause",
+          "what section"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんじょう",
+        "written": "何条"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(so) what (are you trying to say)?",
+          "what (do you mean)?"
+        ]
+      },
+      {
+        "glosses": [
+          "somehow",
+          "for some reason"
+        ]
+      },
+      {
+        "glosses": [
+          "something",
+          "some",
+          "any"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "なんか",
+        "written": "何か"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "なにか",
+        "written": "何か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "I",
+          "me"
+        ]
+      },
+      {
+        "glosses": [
+          "certain amount",
+          "some"
+        ]
+      },
+      {
+        "glosses": [
+          "certain person",
+          "Mr So-and-so",
+          "a certain ..."
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにがし",
+        "written": "何がし"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにがし",
+        "written": "何某"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにがし",
+        "written": "某"
+      },
+      {
+        "priorities": [],
+        "pronounced": "なにぼう",
+        "written": "何某"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "after realizing",
+          "without knowing"
+        ]
+      },
+      {
+        "glosses": [
+          "inadvertently",
+          "for no special reason"
+        ]
+      },
+      {
+        "glosses": [
+          "truthfully",
+          "unexpectedly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なにげに",
+        "written": "何気に"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "and everything else",
+          "and all"
+        ]
+      },
+      {
+        "glosses": [
+          "(not) anything",
+          "(nothing) at all",
+          "(not) any",
+          "nothing"
+        ]
+      },
+      {
+        "glosses": [
+          "(not) at all",
+          "(not) in the least",
+          "(not) especially",
+          "(not) to that extent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf03"
+        ],
+        "pronounced": "なにも",
+        "written": "何も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "and so on",
+          "and you know the rest"
+        ]
+      },
+      {
+        "glosses": [
+          "for some reason or other",
+          "somehow"
+        ]
+      },
+      {
+        "glosses": [
+          "whatsitsname",
+          "what-you-call-it",
+          "Mr. so-and-so"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんとやら",
+        "written": "何とやら"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anyone",
+          "anything"
+        ]
+      },
+      {
+        "glosses": [
+          "what?!",
+          "what did you say?!"
+        ]
+      },
+      {
+        "glosses": [
+          "why?",
+          "what for?",
+          "for what reason?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんだって",
+        "written": "何だって"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "everything",
+          "anything"
+        ]
+      },
+      {
+        "glosses": [
+          "what",
+          "what sort of thing"
+        ]
+      },
+      {
+        "glosses": [
+          "what (on earth)?",
+          "what's the meaning of this ...?",
+          "what's this ... all about?"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "なにごと",
+        "written": "何ごと"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf15"
+        ],
+        "pronounced": "なにごと",
+        "written": "何事"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how much",
+          "how many"
+        ]
+      },
+      {
+        "glosses": [
+          "no matter how (much)",
+          "however"
+        ]
+      },
+      {
+        "glosses": [
+          "(not) many",
+          "(not) much",
+          "almost (none)",
+          "hardly",
+          "barely"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "どれほど",
+        "written": "どれ程"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どれほど",
+        "written": "何れ程"
+      },
+      {
+        "priorities": [],
+        "pronounced": "どれほど",
+        "written": "何程"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "however (much)",
+          "no matter how"
+        ]
+      },
+      {
+        "glosses": [
+          "what matters is ...",
+          "it all comes down to ...",
+          "nothing beats ..."
+        ]
+      },
+      {
+        "glosses": [
+          "how much",
+          "how many",
+          "how",
+          "to what extent"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんぼ",
+        "written": "何ぼ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "absolutely",
+          "certainly",
+          "for sure"
+        ]
+      },
+      {
+        "glosses": [
+          "indeed",
+          "really",
+          "truly",
+          "just (like)"
+        ]
+      },
+      {
+        "glosses": [
+          "very",
+          "extremely",
+          "totally",
+          "terribly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "いかにも",
+        "written": "如何にも"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "adds emphasis to the preceding word"
+        ]
+      },
+      {
+        "glosses": [
+          "no ...",
+          "any"
+        ]
+      },
+      {
+        "glosses": [
+          "no",
+          "not at all",
+          "oh (it's nothing)"
+        ]
+      },
+      {
+        "glosses": [
+          "what",
+          "what kind of",
+          "what sort of"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "なんの",
+        "written": "何の"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cannot possibly"
+        ]
+      },
+      {
+        "glosses": [
+          "no way"
+        ]
+      },
+      {
+        "glosses": [
+          "how",
+          "in what way",
+          "by what means"
+        ]
+      },
+      {
+        "glosses": [
+          "why",
+          "for what reason",
+          "for what purpose",
+          "what for"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どうして",
+        "written": "如何して"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "how many"
+        ]
+      },
+      {
+        "glosses": [
+          "what"
+        ]
+      },
+      {
+        "glosses": [
+          "many",
+          "a lot of"
+        ]
+      },
+      {
+        "glosses": [
+          "several",
+          "a few",
+          "some"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "なん",
+        "written": "何"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hey",
+          "oi"
+        ]
+      },
+      {
+        "glosses": [
+          "how",
+          "in what way"
+        ]
+      },
+      {
+        "glosses": [
+          "how (much)",
+          "to what extent"
+        ]
+      },
+      {
+        "glosses": [
+          "however (much)",
+          "no matter how"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "いかに",
+        "written": "如何に"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "on no account",
+          "by no means"
+        ]
+      },
+      {
+        "glosses": [
+          "whether (one is) willing or not",
+          "willingly or unwillingly",
+          "willy-nilly"
+        ]
+      },
+      {
+        "glosses": [
+          "in the end",
+          "in the long run",
+          "after all",
+          "eventually"
+        ]
+      },
+      {
+        "glosses": [
+          "by all means",
+          "at any cost",
+          "no matter what",
+          "at any rate",
+          "surely"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "どうしても",
+        "written": "如何しても"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "somehow or other",
+          "one way or another"
+        ]
+      },
+      {
+        "glosses": [
+          "whether (or not)",
+          "if"
+        ]
+      },
+      {
+        "glosses": [
+          "please",
+          "if you would",
+          "would you mind"
+        ]
+      },
+      {
+        "glosses": [
+          "strange",
+          "(something is) wrong",
+          "(something is) off"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どうか",
+        "written": "如何か"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anyway",
+          "anyhow",
+          "at any rate"
+        ]
+      },
+      {
+        "glosses": [
+          "where",
+          "which",
+          "who"
+        ]
+      },
+      {
+        "glosses": [
+          "sooner or later",
+          "eventually",
+          "one of these days",
+          "at some future date or time"
+        ]
+      },
+      {
+        "glosses": [
+          "both",
+          "either",
+          "any",
+          "all",
+          "whichever"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いづれ",
+        "written": "何れ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いづれ",
+        "written": "孰れ"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "いずれ",
+        "written": "何れ"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "いずれ",
+        "written": "孰れ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what"
+        ]
+      },
+      {
+        "glosses": [
+          "well, well",
+          "let's see"
+        ]
+      },
+      {
+        "glosses": [
+          "so-and-so",
+          "such and such",
+          "something (or other)"
+        ]
+      },
+      {
+        "glosses": [
+          "what?",
+          "wait",
+          "hang on"
+        ]
+      },
+      {
+        "glosses": [
+          "no",
+          "oh (not at all)",
+          "please",
+          "there, there"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "なになに",
+        "written": "何々"
+      },
+      {
+        "priorities": [
+          "news2",
+          "nf46"
+        ],
+        "pronounced": "なになに",
+        "written": "何何"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in all respects",
+          "on every point"
+        ]
+      },
+      {
+        "glosses": [
+          "persistently",
+          "stubbornly"
+        ]
+      },
+      {
+        "glosses": [
+          "thoroughly",
+          "exhaustively"
+        ]
+      },
+      {
+        "glosses": [
+          "anywhere",
+          "for all time",
+          "to the ends of the earth"
+        ]
+      },
+      {
+        "glosses": [
+          "through thick and thin",
+          "come hell or high water",
+          "to the bitter end",
+          "to the utmost"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どこまでも",
+        "written": "何処までも"
+      },
+      {
+        "priorities": [
+          "spec1"
+        ],
+        "pronounced": "どこまでも",
+        "written": "何処迄も"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "oh my",
+          "wow"
+        ]
+      },
+      {
+        "glosses": [
+          "well, ...",
+          "so, ..."
+        ]
+      },
+      {
+        "glosses": [
+          "what",
+          "how"
+        ]
+      },
+      {
+        "glosses": [
+          "what (a) ...!",
+          "how ...!"
+        ]
+      },
+      {
+        "glosses": [
+          "surprisingly",
+          "to my amazement",
+          "believe it or not",
+          "why, ...!"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf09"
+        ],
+        "pronounced": "なんと",
+        "written": "何と"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "what"
+        ]
+      },
+      {
+        "glosses": [
+          "(not) at all",
+          "(not) in the slightest"
+        ]
+      },
+      {
+        "glosses": [
+          "hey!",
+          "come on!"
+        ]
+      },
+      {
+        "glosses": [
+          "what?",
+          "huh?"
+        ]
+      },
+      {
+        "glosses": [
+          "you-know-what",
+          "that thing"
+        ]
+      },
+      {
+        "glosses": [
+          "oh, no (it's fine)",
+          "why (it's nothing)",
+          "oh (certainly not)"
+        ]
+      },
+      {
+        "glosses": [
+          "penis",
+          "(one's) thing",
+          "dick"
+        ]
+      },
+      {
+        "glosses": [
+          "whatsit",
+          "whachamacallit",
+          "what's-his-name",
+          "what's-her-name"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ナニ",
+        "written": "何"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf02"
+        ],
+        "pronounced": "なに",
+        "written": "何"
+      }
+    ]
+  }
+]

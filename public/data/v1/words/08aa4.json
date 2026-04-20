@@ -1,0 +1,2430 @@
+[
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(code) error rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふごうあやまりりつ",
+        "written": "符号誤り率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "(papal) infallibility"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ふかご",
+        "written": "不可誤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "absolute error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ぜったいごさ",
+        "written": "絶対誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accidental bombing"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごとうか",
+        "written": "誤投下"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accidental ingestion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごしょく",
+        "written": "誤食"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accidental shooting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "ごしゃ",
+        "written": "誤射"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "anachronism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf24"
+        ],
+        "pronounced": "じだいさくご",
+        "written": "時代錯誤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "aspiration pneumonia"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごえんせいはいえん",
+        "written": "誤えん性肺炎"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ごえんせいはいえん",
+        "written": "誤嚥性肺炎"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "balanced error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいこうごさ",
+        "written": "平衡誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "balanced error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "へいこうてきごさ",
+        "written": "平衡的誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bias error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かたよりごさ",
+        "written": "偏り誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error burst"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりバースト",
+        "written": "誤りバースト"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error condition (in calculators)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりじょうたい",
+        "written": "誤り状態"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error control"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりせいぎょ",
+        "written": "誤り制御"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error control software"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりせいぎょソフトウェア",
+        "written": "誤り制御ソフトウェア"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error correction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりていせい",
+        "written": "誤り訂正"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error detection"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりけんしゅつ",
+        "written": "誤り検出"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error distribution"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごさぶんぷ",
+        "written": "誤差分布"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error in copying"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごしゃ",
+        "written": "誤写"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error indication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりつうち",
+        "written": "誤り通知"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error indication"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりひょうじ",
+        "written": "誤り表示"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error range"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごさはんい",
+        "written": "誤差範囲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error rate"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりりつ",
+        "written": "誤り率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error recovery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりかいふく",
+        "written": "誤り回復"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error span"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごさはば",
+        "written": "誤差幅"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error-correcting code"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりていせいふごう",
+        "written": "誤り訂正符号"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "errors and omissions"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごだつ",
+        "written": "誤脱"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fallacy (sometimes esp. a paralogism)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごびゅうすいり",
+        "written": "誤謬推理"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fallacy of composition"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごうせいのごびゅう",
+        "written": "合成の誤謬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fatal error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ちめいてきあやまり",
+        "written": "致命的誤り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "formal public identifier error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうてきこうかいしきべつしあやまり",
+        "written": "公的公開識別子誤り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "incorrect insertion (of equipment, unit, part)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごそうにゅう",
+        "written": "誤挿入"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "keyboard input error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "にゅうりょくあやまり",
+        "written": "入力誤り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "malfunction"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごどうさ",
+        "written": "誤動作"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "medical malpractice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いりょうかご",
+        "written": "医療過誤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "miscalculation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "ごさん",
+        "written": "誤算"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misdelivery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごはい",
+        "written": "誤配"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misdelivery"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごはいたつ",
+        "written": "誤配達"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misinformation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごでん",
+        "written": "誤伝"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misjudgement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごだん",
+        "written": "誤断"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mistake in speaking"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ことあやまり",
+        "written": "事誤り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mistake of fact"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "じじつごにん",
+        "written": "事実誤認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mistaken answer or response"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごとう",
+        "written": "誤答"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mistranslation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "ごやく",
+        "written": "誤訳"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misunderstanding"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "ごかい",
+        "written": "誤解"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "naturalistic fallacy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しぜんしゅぎてきごびゅう",
+        "written": "自然主義的誤謬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "paramnesia"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きおくさくご",
+        "written": "記憶錯誤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "personal equation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こじんごさ",
+        "written": "個人誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "phase error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いそうごさ",
+        "written": "位相誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "protocol error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "プロトコルあやまり",
+        "written": "プロトコル誤り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "random error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かくりつごさ",
+        "written": "確率誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reflection error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "はんしゃごさ",
+        "written": "反射誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "relative error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "そうたいごさ",
+        "written": "相対誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "reportable markup error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ほうこくかのうマークあやまり",
+        "written": "報告可能マーク誤り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "rounding error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まるめごさ",
+        "written": "丸め誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "test case error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "しけんこうもくあやまり",
+        "written": "試験項目誤り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to admit to a mistake"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりをみとめる",
+        "written": "誤りを認める"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to correct an error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりをなおす",
+        "written": "誤りを直す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to err"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまつ",
+        "written": "誤つ"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あやまつ",
+        "written": "過つ"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to fall into error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりにおちいる",
+        "written": "誤りに陥る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to miswrite"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かきあやまる",
+        "written": "書き誤る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "trial and error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf16"
+        ],
+        "pronounced": "しこうさくご",
+        "written": "試行錯誤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "truncation error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "うちきりごさ",
+        "written": "打ち切り誤差"
+      },
+      {
+        "priorities": [],
+        "pronounced": "うちきりごさ",
+        "written": "打切り誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "type I error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいいっしゅのかご",
+        "written": "第一種の過誤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "type II error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "だいにしゅのかご",
+        "written": "第二種の過誤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "ungrammatical sentence"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごぶん",
+        "written": "誤文"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "unrecoverable error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かいふくふのうあやまり",
+        "written": "回復不能誤り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Homer sometimes nods",
+          "even Kōbō Daishi's handwriting contains mistakes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうぼうにもふでのあやまり",
+        "written": "弘法にも筆の誤り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "Homer sometimes nods",
+          "even Kōbō Daishi's handwriting contains mistakes"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "こうぼうもふでのあやまり",
+        "written": "弘法も筆の誤り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accidental bid",
+          "bid made in mistake"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごにゅうさつ",
+        "written": "誤入札"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "accidental ingestion",
+          "swallowing something by mistake"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごいん",
+        "written": "誤飲"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "allowable error",
+          "allowable limit of error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "きょようごさ",
+        "written": "許容誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bit error rate",
+          "BER"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ビットあやまりりつ",
+        "written": "ビット誤り率"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "bombing (shelling) the wrong target",
+          "(be killed by) friendly fire"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf44"
+        ],
+        "pronounced": "ごばく",
+        "written": "誤爆"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error diffusion",
+          "random dither"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごさかくさん",
+        "written": "誤差拡散"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error-detecting code",
+          "self-checking code"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりけんしゅつふごう",
+        "written": "誤り検出符号"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "false alarm",
+          "accidental alarm"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごけいほう",
+        "written": "誤警報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "false information",
+          "misinformation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごじょうほう",
+        "written": "誤情報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "hamartoma",
+          "benign malformation resembling a neoplasm"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かごしゅ",
+        "written": "過誤腫"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "malfunction",
+          "failure"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごさどう",
+        "written": "誤作動"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "measurement error",
+          "calculation error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "ごさ",
+        "written": "誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misbelief",
+          "fallacy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごしん",
+        "written": "誤信"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misdelivery",
+          "sending to the wrong place"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごそう",
+        "written": "誤送"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misjudgment",
+          "misjudgement"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごしん",
+        "written": "誤審"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misnomer",
+          "misnaming"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごしょう",
+        "written": "誤称"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misreading",
+          "misinterpreting"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごどく",
+        "written": "誤読"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misrecognition",
+          "mistaking (x for y)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごにんしき",
+        "written": "誤認識"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misrecognition",
+          "mistaking (x for y)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf21"
+        ],
+        "pronounced": "ごにん",
+        "written": "誤認"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mistake",
+          "error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ご",
+        "written": "誤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mistake",
+          "fault"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "かご",
+        "written": "過誤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mistaken arrest",
+          "arrest based on misidentification"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごにんたいほ",
+        "written": "誤認逮捕"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mistaken or missing characters",
+          "omissions or errors"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごじだつじ",
+        "written": "誤字脱字"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misunderstanding",
+          "misinformation"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごぶん",
+        "written": "誤聞"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "miswriting a word",
+          "using the wrong kanji to write a word"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ろぎょのあやまり",
+        "written": "魯魚の誤り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "standard error",
+          "SE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ひょうじゅんごさ",
+        "written": "標準誤差"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to make a typo",
+          "to type the wrong character"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごじる",
+        "written": "誤字る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to say by mistake",
+          "to make a slip of the tongue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "いいあやまる",
+        "written": "言い誤る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "いいあやまる",
+        "written": "言誤る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "wrong diagnosis",
+          "misdiagnosis"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "ごしん",
+        "written": "誤診"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misleading",
+          "misdirecting",
+          "leading astray"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごどう",
+        "written": "誤導"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misprint",
+          "typographical error",
+          "typo"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf43",
+          "spec2"
+        ],
+        "pronounced": "ごしょく",
+        "written": "誤植"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mistake in writing",
+          "clerical error",
+          "slip of the pen"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "かきあやまり",
+        "written": "書き誤り"
+      },
+      {
+        "priorities": [],
+        "pronounced": "かきあやまり",
+        "written": "書誤り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "selecting the wrong kanji (when typing)",
+          "kanji typo",
+          "misconversion"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごへんかん",
+        "written": "誤変換"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to be confused",
+          "to be flustered",
+          "to be at a loss"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まごつく",
+        "written": "間誤付く"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to err",
+          "to take the wrong path",
+          "to go astray"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "みをあやまる",
+        "written": "身を誤る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to fluster",
+          "to abash",
+          "to befuddle"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "まごつかせる",
+        "written": "間誤付かせる"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to make a mistake",
+          "to commit an error",
+          "to commit a fault"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりをおかす",
+        "written": "誤りをおかす"
+      },
+      {
+        "priorities": [],
+        "pronounced": "あやまりをおかす",
+        "written": "誤りを犯す"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to misrepresent",
+          "to distort",
+          "to belie"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "あやまりつたえる",
+        "written": "誤り伝える"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to mistake (for something or someone else)",
+          "to misread",
+          "to misjudge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf35"
+        ],
+        "pronounced": "みあやまる",
+        "written": "見誤る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "breathing in (of a foreign body, food, etc.)",
+          "pulmonary aspiration",
+          "mis-swallowing",
+          "swallowing down the wrong pipe"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごえん",
+        "written": "誤えん"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ごえん",
+        "written": "誤嚥"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "delivery to the wrong house or person (email, postal items, etc.)",
+          "false notification",
+          "mistaken notification",
+          "notifying someone incorrectly"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごたつ",
+        "written": "誤達"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "errata",
+          "erratum",
+          "corrigenda",
+          "corrigendum"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいごひょう",
+        "written": "正誤表"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "erroneous entry",
+          "misentry",
+          "slip of the pen",
+          "writing down wrongly (a sum, etc.)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごき",
+        "written": "誤記"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "error",
+          "mistake",
+          "slip",
+          "bug"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "あやまり",
+        "written": "誤り"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "あやまり",
+        "written": "謬"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "あやまり",
+        "written": "謬り"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "false report",
+          "incorrect report",
+          "misinformation",
+          "false alarm"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf28",
+          "spec2"
+        ],
+        "pronounced": "ごほう",
+        "written": "誤報"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fault",
+          "error",
+          "indiscretion",
+          "faux pas"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "あやまち",
+        "written": "誤ち"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news1",
+          "nf14"
+        ],
+        "pronounced": "あやまち",
+        "written": "過ち"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "in error",
+          "by mistake",
+          "by accident",
+          "accidentally"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "あやまって",
+        "written": "誤って"
+      },
+      {
+        "priorities": [
+          "news1",
+          "nf07"
+        ],
+        "pronounced": "あやまって",
+        "written": "過って"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misjudgement",
+          "misjudgment",
+          "erroneous judgement",
+          "miscarriage of justice"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf32"
+        ],
+        "pronounced": "ごはん",
+        "written": "誤判"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "mistaken way of writing something",
+          "mistaken spelling",
+          "wrong way of writing something",
+          "wrong spelling"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごひょうき",
+        "written": "誤表記"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misuse",
+          "incorrect use",
+          "abuse",
+          "malapropism"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "news2",
+          "nf47"
+        ],
+        "pronounced": "ごよう",
+        "written": "誤用"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "improper use",
+          "wrong use",
+          "misuse",
+          "mishandling",
+          "abuse"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごしよう",
+        "written": "誤使用"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "misprint",
+          "misspelling",
+          "typo",
+          "typographical error",
+          "erratum"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "ごじ",
+        "written": "誤字"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "cheating",
+          "deception",
+          "trickery",
+          "manipulation",
+          "juggling",
+          "falsifying",
+          "sham",
+          "camouflage",
+          "smoke and mirrors",
+          "cutting corners"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごまかし",
+        "written": "胡麻化し"
+      },
+      {
+        "priorities": [],
+        "pronounced": "ごまかし",
+        "written": "誤魔化し"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "correction (of errors)"
+        ]
+      },
+      {
+        "glosses": [
+          "correct or incorrect",
+          "right or wrong",
+          "accuracy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "せいご",
+        "written": "正誤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "discrepancy between one's actions and intentions"
+        ]
+      },
+      {
+        "glosses": [
+          "mistake",
+          "error",
+          "discrepancy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf38"
+        ],
+        "pronounced": "さくご",
+        "written": "錯誤"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "fallacy"
+        ]
+      },
+      {
+        "glosses": [
+          "mistake",
+          "error"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごびゅう",
+        "written": "誤謬"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "sending (an email, text message, etc.) to the wrong person",
+          "mistakenly sent message"
+        ]
+      },
+      {
+        "glosses": [
+          "transmission of incorrect information",
+          "incorrect transmission"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "ごそうしん",
+        "written": "誤送信"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to misread (a name, kanji, etc.)",
+          "to read incorrectly",
+          "to mispronounce (when reading)"
+        ]
+      },
+      {
+        "glosses": [
+          "to misread (a situation, trend, etc.)",
+          "to misinterpret",
+          "to misjudge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [],
+        "pronounced": "よみあやまる",
+        "written": "読み誤る"
+      },
+      {
+        "priorities": [],
+        "pronounced": "よみあやまる",
+        "written": "読誤る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to mislead",
+          "to misguide",
+          "to lead astray"
+        ]
+      },
+      {
+        "glosses": [
+          "to be wrong",
+          "to be incorrect",
+          "to be false",
+          "to be mistaken"
+        ]
+      },
+      {
+        "glosses": [
+          "to make a mistake (in)",
+          "to commit an error",
+          "to do incorrectly",
+          "to err"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "あやまる",
+        "written": "誤る"
+      },
+      {
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf41"
+        ],
+        "pronounced": "あやまる",
+        "written": "謬る"
+      }
+    ]
+  },
+  {
+    "meanings": [
+      {
+        "glosses": [
+          "to embezzle",
+          "to pocket"
+        ]
+      },
+      {
+        "glosses": [
+          "to deceive",
+          "to cheat",
+          "to swindle"
+        ]
+      },
+      {
+        "glosses": [
+          "to evade (a question, taxes, etc.)",
+          "to dodge",
+          "to gloss over (a mistake, fault, etc.)",
+          "to smooth over",
+          "to get one's way out of (a difficult situation)",
+          "to explain away"
+        ]
+      },
+      {
+        "glosses": [
+          "to falsify",
+          "to misrepresent",
+          "to lie about",
+          "to tamper with",
+          "to doctor",
+          "to cook"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "ごまかす",
+        "written": "胡麻化す"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "ごまかす",
+        "written": "誤摩化す"
+      },
+      {
+        "priorities": [
+          "ichi1"
+        ],
+        "pronounced": "ごまかす",
+        "written": "誤魔化す"
+      }
+    ]
+  }
+]
