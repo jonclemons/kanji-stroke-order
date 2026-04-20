@@ -35,28 +35,7 @@ export default function App() {
         <main className="main-content">
           <div id="results" className="results hidden">
             <div className="results-columns">
-              <div className="results-left">
-                <h2 id="kanjiTitle" className="kanji-title"></h2>
-
-                <div className="section">
-                  <h3>よみかた</h3>
-                  <div id="readings" className="readings"></div>
-                </div>
-
-                <div className="section">
-                  <h3>この漢字をつかうことば</h3>
-                  <div id="words" className="words-list"></div>
-                </div>
-
-                <div className="section">
-                  <h3>れんしゅうシート</h3>
-                  <div className="practice-options">
-                    <button id="printBtn">いんさつ</button>
-                  </div>
-                </div>
-              </div>
-
-              <div className="results-right">
+              <div className="results-primary">
                 <div className="section">
                   <div className="mode-header">
                     <h3 id="canvasTitle">アニメーション</h3>
@@ -78,6 +57,25 @@ export default function App() {
                 <div className="section">
                   <h3>かきじゅん</h3>
                   <div id="steps" className="steps-grid"></div>
+                </div>
+              </div>
+
+              <div className="results-side">
+                <div className="section">
+                  <h3>よみかた</h3>
+                  <div id="readings" className="readings"></div>
+                </div>
+
+                <div className="section">
+                  <h3>この漢字をつかうことば</h3>
+                  <div id="words" className="words-list"></div>
+                </div>
+
+                <div className="section">
+                  <h3>れんしゅうシート</h3>
+                  <div className="practice-options">
+                    <button id="printBtn">いんさつ</button>
+                  </div>
                 </div>
               </div>
             </div>

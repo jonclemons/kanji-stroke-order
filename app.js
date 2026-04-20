@@ -13,7 +13,6 @@ const termsViewEl = document.getElementById("termsView");
 const printPreviewSheetEl = document.getElementById("printPreviewSheet");
 const printBackInlineBtn = document.getElementById("printBackInlineBtn");
 const printNowInlineBtn = document.getElementById("printNowInlineBtn");
-const kanjiTitle = document.getElementById("kanjiTitle");
 const readingsEl = document.getElementById("readings");
 const wordsEl = document.getElementById("words");
 const stepsGrid = document.getElementById("steps");
@@ -1878,7 +1877,6 @@ async function lookup({ screen = "detail", updateRoute = true, collapse = false 
     currentViewBox = viewBox;
     currentKanjiInfo = kanjiInfo;
 
-    kanjiTitle.textContent = kanji;
     renderReadings(kanjiInfo);
     renderWords(filteredWords);
     renderSteps(strokes, viewBox);

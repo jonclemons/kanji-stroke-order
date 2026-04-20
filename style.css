@@ -331,13 +331,6 @@ button:hover {
   display: none !important;
 }
 
-.kanji-title {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  color: #4a4a4a;
-}
-
 .section {
   margin-bottom: 0.75rem;
 }
@@ -350,26 +343,92 @@ button:hover {
   padding-bottom: 0.3rem;
 }
 
-/* Two-column results layout: info left, strokes right */
+/* Two-column results layout: practice left, details right */
 .results-columns {
-  display: flex;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.95fr);
+  gap: 1.5rem;
+  align-items: start;
 }
 
-.results-left {
-  flex: 1;
+.results-primary {
+  display: flex;
+  flex-direction: column;
   min-width: 0;
 }
 
-.results-right {
-  flex: 1;
+.results-side {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.results-side .section:last-child {
+  margin-bottom: 0;
+}
+
+.results-primary .section:first-child {
+  margin-bottom: 1rem;
+}
+
+.results-primary .section:last-child {
+  margin-bottom: 0;
+}
+
+.results-side .section h3 {
+  text-align: left;
+}
+
+.results-side .readings,
+.results-side .words-list,
+.results-side .practice-options {
+  justify-content: flex-start;
+}
+
+.results-side .reading-group,
+.results-side .word-card {
+  text-align: left;
+}
+
+.results-side .practice-options {
+  gap: 0.75rem;
+}
+
+.results-side #printBtn {
+  width: 100%;
+  max-width: 220px;
+}
+
+.results-primary #animationWrap,
+.results-primary .trace-area,
+.results-primary .steps-grid {
+  text-align: center;
+}
+
+.results-primary .steps-grid {
   min-width: 0;
 }
 
 /* Stack content columns when main area is narrow */
 @media (max-width: 1100px) {
   .results-columns {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+
+  .results-side .readings,
+  .results-side .words-list,
+  .results-side .practice-options {
+    justify-content: center;
+  }
+
+  .results-side .reading-group,
+  .results-side .word-card {
+    text-align: center;
+  }
+
+  .results-side #printBtn {
+    width: auto;
+    max-width: none;
   }
 }
 
@@ -573,14 +632,16 @@ button:hover {
   padding: 0.3rem 0.8rem;
   font-size: 0.8rem;
   border-radius: 6px;
-  background: #e8f0f5;
-  border: 1px solid #b8c8d4;
+  background: #f5f0e8;
+  border: 1px solid #9ec5a0;
+  color: #3a3a3a;
+  font-weight: 600;
 }
 
 .trace-retry-btn:hover {
-  background: #9ec5a0;
-  border-color: #9ec5a0;
-  color: white;
+  background: #dcebdc;
+  border-color: #89b18b;
+  color: #2f4731;
 }
 
 @keyframes trace-pulse {
