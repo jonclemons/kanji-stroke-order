@@ -62,6 +62,7 @@ const GRADE_YEARS = [1, 2, 3, 4, 5, 6];
 const KANJI_PRELOAD_CONCURRENCY = 3;
 const LOCAL_DATA_VERSION = DATA_VERSION;
 const CACHE_STATE_KEY = "cache-state";
+const LOCAL_DATA_BASE_PATHS = ["/data", "/public/data"];
 
 let kanjiPreloadQueue = [];
 let activeKanjiPreloads = 0;
@@ -69,6 +70,7 @@ let currentGradeLoadId = 0;
 let currentLookupId = 0;
 let currentGridSelectionId = 0;
 let gradeListWarmupStarted = false;
+let preferredLocalDataBasePath = LOCAL_DATA_BASE_PATHS[0];
 
 // --- IndexedDB persistent cache ---
 
@@ -206,22 +208,55 @@ function kanjiToHex(char) {
   return char.codePointAt(0).toString(16).padStart(5, "0");
 }
 
-function localDataUrl(kind, key) {
-  return `/data/${LOCAL_DATA_VERSION}/${kind}/${key}`;
+function localDataSources(kind, key) {
+  const basePaths = [
+    preferredLocalDataBasePath,
+    ...LOCAL_DATA_BASE_PATHS.filter((basePath) => basePath !== preferredLocalDataBasePath),
+  ];
+
+  return basePaths.map((basePath) => ({
+    basePath,
+    url: `${basePath}/${LOCAL_DATA_VERSION}/${kind}/${key}`,
+  }));
 }
 
-async function fetchMirroredResource({ localUrl, upstreamUrl, parseAs }) {
-  if (localUrl) {
+async function parseLocalMirrorResponse(response, parseAs) {
+  const body = await response.text();
+  const trimmedBody = body.trimStart();
+  const contentType = response.headers.get("content-type") || "";
+
+  if (contentType.includes("text/html") || /^<!doctype html/i.test(trimmedBody) || /^<html/i.test(trimmedBody)) {
+    throw new Error("local mirror returned app shell HTML");
+  }
+
+  if (parseAs === "json") {
+    if (!trimmedBody.startsWith("{") && !trimmedBody.startsWith("[")) {
+      throw new Error("local mirror returned invalid JSON");
+    }
+    return JSON.parse(body);
+  }
+
+  if (!trimmedBody.includes("<svg")) {
+    throw new Error("local mirror returned invalid SVG");
+  }
+
+  return body;
+}
+
+async function fetchMirroredResource({ localSources = [], upstreamUrl, parseAs }) {
+  for (const localSource of localSources) {
     try {
-      const localResp = await fetch(localUrl, { cache: "force-cache" });
+      const localResp = await fetch(localSource.url, { cache: "force-cache" });
       if (localResp.ok) {
-        return parseAs === "text" ? localResp.text() : localResp.json();
+        const parsed = await parseLocalMirrorResponse(localResp, parseAs);
+        preferredLocalDataBasePath = localSource.basePath;
+        return parsed;
       }
       if (localResp.status !== 404) {
         throw new Error(`local mirror request failed: ${localResp.status}`);
       }
     } catch (error) {
-      console.warn("Local mirror unavailable, falling back upstream", localUrl, error);
+      console.warn("Local mirror unavailable, trying next source", localSource.url, error);
     }
   }
 
@@ -241,7 +276,7 @@ async function fetchKanjiSVG(kanji) {
     fetchValue: async () => {
       const hex = kanjiToHex(kanji);
       return fetchMirroredResource({
-        localUrl: localDataUrl("svg", `${hex}.svg`),
+        localSources: localDataSources("svg", `${hex}.svg`),
         upstreamUrl: `https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/${hex}.svg`,
         parseAs: "text",
       });
@@ -258,7 +293,7 @@ async function fetchKanjiInfo(kanji) {
     fetchValue: async () => {
       const hex = kanjiToHex(kanji);
       return fetchMirroredResource({
-        localUrl: localDataUrl("info", `${hex}.json`),
+        localSources: localDataSources("info", `${hex}.json`),
         upstreamUrl: `https://kanjiapi.dev/v1/kanji/${encodeURIComponent(kanji)}`,
         parseAs: "json",
       }).catch(() => null);
@@ -275,7 +310,7 @@ async function fetchKanjiWords(kanji) {
     fetchValue: async () => {
       const hex = kanjiToHex(kanji);
       return fetchMirroredResource({
-        localUrl: localDataUrl("words", `${hex}.json`),
+        localSources: localDataSources("words", `${hex}.json`),
         upstreamUrl: `https://kanjiapi.dev/v1/words/${encodeURIComponent(kanji)}`,
         parseAs: "json",
       }).catch(() => []);
@@ -291,7 +326,7 @@ async function fetchGradeKanji(grade) {
     inflightCache: inflightRequests.grades,
     fetchValue: async () => {
       return fetchMirroredResource({
-        localUrl: localDataUrl("grades", `grade-${grade}.json`),
+        localSources: localDataSources("grades", `grade-${grade}.json`),
         upstreamUrl: `https://kanjiapi.dev/v1/kanji/grade-${grade}`,
         parseAs: "json",
       }).catch(() => []);
