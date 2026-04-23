@@ -1147,6 +1147,11 @@ button:hover {
 }
 
 @media (min-width: 769px) {
+  .app-shell.is-detail-view .app-header {
+    padding-left: calc(320px + 1.5rem);
+    padding-right: 1.5rem;
+  }
+
   .app-shell.is-detail-view .app-footer {
     padding-left: calc(320px + 1.5rem);
     padding-right: 1.5rem;
