@@ -984,6 +984,54 @@ button:hover {
   gap: 1rem;
 }
 
+.print-page {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(circle at top left, rgba(232, 160, 170, 0.18), transparent 38%),
+    linear-gradient(180deg, color-mix(in srgb, var(--bg-light) 95%, transparent), color-mix(in srgb, var(--bg) 92%, transparent));
+}
+
+.print-page-header {
+  padding: 1rem 1.5rem 0.9rem;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+.print-page-eyebrow {
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  color: var(--text-sub);
+}
+
+.print-page-title {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  color: var(--mint);
+  margin-top: 0.35rem;
+}
+
+.print-page-subtitle {
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+  color: var(--header-sub);
+}
+
+.print-page-main {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  overflow-y: auto;
+}
+
+.print-page-footer {
+  border-top: 1px solid var(--border);
+  background: var(--surface-glass);
+  backdrop-filter: blur(8px);
+  padding: 0.9rem 1rem;
+  box-shadow: 0 -8px 18px rgba(58, 58, 58, 0.06);
+}
+
 .print-view-note {
   text-align: center;
   color: var(--header-sub);
@@ -1322,12 +1370,24 @@ button:hover {
   .app-shell.is-detail-view .main-content {
     padding-top: 0.9rem;
   }
+
+  .print-page-header {
+    padding: 0.9rem 1rem 0.8rem;
+  }
+
+  .print-page-main {
+    padding: 1rem;
+  }
+
+  .print-page-footer {
+    padding: 0.8rem 0.75rem calc(0.8rem + env(safe-area-inset-bottom, 0px));
+  }
 }
 
 @media print {
   @page {
     size: landscape;
-    margin: 8mm;
+    margin: 6mm;
   }
 
   html,
@@ -1335,58 +1395,49 @@ button:hover {
     background: white !important;
     color: black !important;
     height: auto;
-    overflow: hidden;
+    overflow: visible;
   }
 
-  body:not(.is-print-preview) .app-shell {
-    display: none !important;
-  }
-
-  body.is-print-preview .app-header,
-  body.is-print-preview .sidebar,
-  body.is-print-preview .app-footer,
-  body.is-print-preview #results,
-  body.is-print-preview #dataInfoView,
-  body.is-print-preview #emptyState,
-  body.is-print-preview .print-view-note,
-  body.is-print-preview #loadingSpinner {
-    display: none !important;
-  }
-
-  body.is-print-preview .app-layout,
-  body.is-print-preview .main-content {
-    display: block !important;
+  .print-page {
     min-height: auto;
-    overflow: visible !important;
-    padding: 0;
-  }
-
-  body.is-print-preview #printView {
-    display: block !important;
-  }
-
-  body.is-print-preview .print-view-sheet-wrap {
     display: block;
+    background: white !important;
+  }
+
+  .print-page-header,
+  .print-page-footer,
+  .print-view-note {
+    display: none !important;
+  }
+
+  .print-page-main,
+  .print-view,
+  .print-view-sheet-wrap {
+    display: block;
+    min-height: auto;
+    overflow: visible;
     padding: 0;
     margin: 0;
   }
 
-  body.is-print-preview .print-preview-sheet {
-    width: 280mm;
-    height: 193mm;
+  .print-preview-sheet {
+    width: 100%;
+    max-width: none;
     margin: 0;
     border: none;
     border-radius: 0;
     box-shadow: none;
-    overflow: hidden;
     break-inside: avoid-page;
     page-break-inside: avoid;
+    overflow: visible;
   }
 
-  body.is-print-preview .print-preview-sheet svg {
-    width: 280mm;
-    height: 193mm;
-    max-width: none;
-    max-height: none;
+  .print-preview-sheet svg {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    break-inside: avoid-page;
+    page-break-inside: avoid;
   }
 }

@@ -101,31 +101,42 @@ app.get("/:char/print", async (c) => {
   });
 
   return c.render(
-    <AppShell
-      currentGrade={detail.canonicalGrade}
-      currentKanji={kanji}
-      currentPath={c.req.path}
-      footerActions={
-        <>
+    <div class="print-page">
+      <header class="print-page-header">
+        <p class="print-page-eyebrow">いんさつじゅんび</p>
+        <h1 class="print-page-title">{`${kanji} を いんさつ`}</h1>
+        <p class="print-page-subtitle">ぷれびゅーを みてから したの ぼたんを おしてね</p>
+      </header>
+
+      <main class="print-page-main">
+        <div class="print-view">
+          <p class="print-view-note">プレビューを みてから したの いんさつを おしてね</p>
+          <div class="print-view-sheet-wrap">
+            <PrintPreviewSheet svgMarkup={svgMarkup} />
+          </div>
+        </div>
+      </main>
+
+      <footer class="print-page-footer">
+        <div class="app-footer-actions">
           <a class="app-footer-btn is-secondary" href={kanjiPath(detail.canonicalGrade || requestedGrade, kanji)}>
             ←もどる
           </a>
           <PrintButton className="app-footer-btn is-accent" />
-        </>
-      }
-      kanjiList={detail.gradeKanji}
-      searchValue={kanji}
-      subtitle="ぷれびゅーを みてから したの ぼたんを おしてね"
-      title={`${kanji} を いんさつ`}
-      eyebrow="いんさつじゅんび"
-    >
-      <div class="print-view">
-        <p class="print-view-note">プレビューを みてから したの いんさつを おしてね</p>
-        <div class="print-view-sheet-wrap">
-          <PrintPreviewSheet svgMarkup={svgMarkup} />
         </div>
-      </div>
-    </AppShell>,
+        <div class="app-footer-meta-links">
+          <a class="app-footer-meta-link" href="/about">
+            アプリについて
+          </a>
+          <a class="app-footer-meta-link" href="/privacy">
+            プライバシーポリシー
+          </a>
+          <a class="app-footer-meta-link" href="/terms">
+            利用規約
+          </a>
+        </div>
+      </footer>
+    </div>,
     { title: `${kanji} を いんさつ` },
   );
 });
