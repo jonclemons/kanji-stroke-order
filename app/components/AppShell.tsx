@@ -30,8 +30,14 @@ export function AppShell({
   subtitle,
   eyebrow = "こくごアプリ",
 }: AppShellProps) {
+  const shellClasses = ["app-shell"];
+
+  if (currentKanji) {
+    shellClasses.push("is-detail-view");
+  }
+
   return (
-    <div class="app-shell">
+    <div class={shellClasses.join(" ")}>
       <header class="app-header">
         <p class="app-header-eyebrow">{eyebrow}</p>
         <h1 class="app-header-title">{title}</h1>

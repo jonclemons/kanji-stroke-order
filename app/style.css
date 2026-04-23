@@ -1052,6 +1052,18 @@ button:hover {
     flex: 1 1 160px;
     min-width: 0;
   }
+
+  .app-shell.is-detail-view .sidebar {
+    display: none;
+  }
+
+  .app-shell.is-detail-view .app-layout {
+    display: block;
+  }
+
+  .app-shell.is-detail-view .main-content {
+    padding-top: 0.9rem;
+  }
 }
 
 @media print {

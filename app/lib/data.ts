@@ -15,13 +15,24 @@ function versionedAssetPath(path: string) {
   return `/data/${DATA_VERSION}/${path}`;
 }
 
+async function fetchAsset(c: AppContext, path: string) {
+  const request = new Request(new URL(path, c.req.url).toString(), {
+    method: "GET",
+    headers: {
+      accept: c.req.header("accept") || "*/*",
+    },
+  });
+
+  return c.env.ASSETS.fetch(request);
+}
+
 async function fetchJson<T>(c: AppContext, path: string): Promise<T | null> {
   const cacheKey = `json:${path}`;
   const cached = jsonCache.get(cacheKey);
   if (cached) return (await cached) as T | null;
 
   const promise = (async () => {
-    const response = await fetch(new URL(path, c.req.url));
+    const response = await fetchAsset(c, path);
     if (!response.ok) return null;
     return (await response.json()) as T;
   })();
@@ -36,7 +47,7 @@ async function fetchText(c: AppContext, path: string): Promise<string | null> {
   if (cached) return cached;
 
   const promise = (async () => {
-    const response = await fetch(new URL(path, c.req.url));
+    const response = await fetchAsset(c, path);
     if (!response.ok) return null;
     return response.text();
   })();

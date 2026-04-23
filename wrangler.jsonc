@@ -15,7 +15,8 @@
     "command": "bun run build"
   },
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist",
+    "binding": "ASSETS"
   },
   "r2_buckets": [
     {
