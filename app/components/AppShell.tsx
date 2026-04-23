@@ -40,6 +40,9 @@ export function AppShell({
     <div class={shellClasses.join(" ")}>
       <header class="app-header">
         <p class="app-header-eyebrow">{eyebrow}</p>
+        <button id="themeToggle" class="theme-toggle-btn" type="button" aria-label="がめんのいろをきりかえる">
+          くらいがめん
+        </button>
         <h1 class="app-header-title">{title}</h1>
         <p class="app-header-subtitle">{subtitle}</p>
       </header>
