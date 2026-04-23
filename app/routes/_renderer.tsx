@@ -3,8 +3,10 @@ import { Link } from "honox/server";
 import { Script } from "honox/server";
 import { THEME_INIT_SCRIPT } from "../lib/theme";
 
-export default jsxRenderer(({ children, title }) => {
+export default jsxRenderer(({ children, title }, c) => {
   const pageTitle = title || "かんじれんしゅう";
+  const isPrintPreview = c.req.path.endsWith("/print");
+  const bodyClass = isPrintPreview ? "is-print-preview" : undefined;
 
   return (
     <html lang="ja">
@@ -23,7 +25,7 @@ export default jsxRenderer(({ children, title }) => {
         <Link href="/app/style.css" rel="stylesheet" />
         <Script src="/app/client.ts" />
       </head>
-      <body>{children}</body>
+      <body class={bodyClass}>{children}</body>
     </html>
   );
 });
