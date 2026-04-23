@@ -1,0 +1,7 @@
+[  394441ms] [ERROR] WebSocket connection to 'ws://127.0.0.1:8001/?token=RHteDm2qnfNF' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8001/@vite/client:744
+[  394451ms] [ERROR] WebSocket connection to 'ws://127.0.0.1:8000/?token=RHteDm2qnfNF' failed: Error during WebSocket handshake: Unexpected response code: 400 @ http://127.0.0.1:8001/@vite/client:754
+[  394451ms] [ERROR] [vite] failed to connect to websocket.
+your current setup:
+  (browser) 127.0.0.1:8001/ <--[HTTP]--> 127.0.0.1:8000/ (server)
+  (browser) 127.0.0.1:8001/ <--[WebSocket (failing)]--> 127.0.0.1:8000/ (server)
+Check out your Vite / network configuration and https://vite.dev/config/server-options.html#server-hmr . @ http://127.0.0.1:8001/@vite/client:764

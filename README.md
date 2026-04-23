@@ -2,8 +2,9 @@
 
 A 国語 tool for kids in Japanese public school. Built for iPad/desktop use.
 
-**Live:** https://kanji-stroke-order.pages.dev
-**Domain:** kokugo.app (setup in progress)
+**Live:** https://kokugo.app
+**Worker Preview:** https://kanji-stroke-order.beepboopbop.workers.dev
+**Domain:** kokugo.app
 **Target runtime:** Cloudflare Workers + Honox
 
 ## Features
@@ -12,7 +13,7 @@ A 国語 tool for kids in Japanese public school. Built for iPad/desktop use.
 - Grade browser (1年生〜6年生) with kanji grid
 - Kanji lookup: readings (音読み/訓読み), grade, stroke count
 - Grade-filtered vocabulary (words with kanji at or below student's grade)
-- Hash routing: shareable URLs like `#grade/2/学`
+- Native Honox path routing: URLs like `/grade/2/kanji/学`
 
 ### Stroke Animation
 - Looping stroke-by-stroke animation (240px canvas)
@@ -25,7 +26,7 @@ A 国語 tool for kids in Japanese public school. Built for iPad/desktop use.
 - Progressive stroke reveal via touch/mouse drag
 - Proximity-based path following with short-stroke skip prevention
 - Resume mid-stroke after lifting finger
-- イエーイ！ completion message
+- とめ・はね・はらい guidance during tracing
 
 ### Practice Sheet (いんさつ)
 - SVG-based A4 landscape layout with mm coordinates
@@ -67,22 +68,27 @@ A 国語 tool for kids in Japanese public school. Built for iPad/desktop use.
 
 ## Architecture
 
-The app now runs as a **Honox / Hono** app targeting **Cloudflare Workers**, while the existing browser-side kanji logic continues to run on the client.
+The app now runs as a **native Honox / Hono** app targeting **Cloudflare Workers** with SSR-first routes and browser-only islands where interactivity is needed.
 
 ```txt
-app/components/AppShell.tsx   — server-rendered app shell markup
-app/routes/index.tsx          — root page route
-app/routes/_renderer.tsx      — HTML document renderer
-app/server.ts                 — Hono server + /api/sheet endpoints
-app/client.ts                 — client entry for the browser app
-app/style.css                 — global styles (including print)
-app.js                        — legacy browser logic, still active
-src/main.js                   — browser bootstrap + service worker registration
-src/version.js                — app/data cache versioning
-public/sw.js                  — service worker
-public/manifest.json          — PWA manifest
-public/icon.svg               — app icon
-public/data/                  — mirrored kanji data served as static assets
+app/routes/index.tsx                       — home page route
+app/routes/grade/[grade]/index.tsx        — grade browse page
+app/routes/grade/[grade]/kanji/[kanji]    — SSR kanji detail + islands
+app/routes/about.tsx                      — app info page
+app/routes/_renderer.tsx                  — HTML document renderer
+app/components/AppShell.tsx               — shared SSR shell layout
+app/components/KanjiSections.tsx          — SSR kanji detail sections
+app/islands/PracticeAnimator.tsx          — animation / なぞる island
+app/islands/PrintButton.tsx               — print action island
+app/lib/                                  — data, routing, KanjiVG, trace, print helpers
+app/server.ts                             — Hono server + /api/sheet endpoints
+app/client.ts                             — native Honox client entry + service worker registration
+app/style.css                             — global styles (including print)
+src/version.js                            — app/data cache versioning
+public/sw.js                              — service worker
+public/manifest.json                      — PWA manifest
+public/icon.svg                           — app icon
+public/data/                              — mirrored kanji data served as static assets
 ```
 
 ### External APIs
