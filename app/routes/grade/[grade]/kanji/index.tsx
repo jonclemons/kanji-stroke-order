@@ -3,7 +3,6 @@ import { AppShell } from "../../../../components/AppShell";
 import { PrintPreviewSheet, ReadingsSection, StepsSection, WordsSection } from "../../../../components/KanjiSections";
 import type { AppEnv } from "../../../../env";
 import DeferredPracticeAnimator from "../../../../islands/DeferredPracticeAnimator";
-import PrintButton from "../../../../islands/PrintButton";
 import { loadKanjiDetailData, parseGrade, parseKanjiParam } from "../../../../lib/data";
 import { gradeLabel } from "../../../../lib/kanji";
 import { buildPrintSheetSVG } from "../../../../lib/print";
@@ -103,13 +102,19 @@ app.get("/:char/print", async (c) => {
   return c.render(
     <div class="print-page">
       <header class="print-page-header">
-        <p class="print-page-eyebrow">いんさつじゅんび</p>
         <h1 class="print-page-title">{`${kanji} を いんさつ`}</h1>
-        <p class="print-page-subtitle">ぷれびゅーを みてから したの ぼたんを おしてね</p>
       </header>
 
       <main class="print-page-main">
         <div class="print-view">
+          <div class="print-view-toolbar">
+            <a class="app-footer-btn is-secondary" href={kanjiPath(detail.canonicalGrade || requestedGrade, kanji)}>
+              ←もどる
+            </a>
+            <button class="app-footer-btn is-accent" id="printRouteBtn" type="button">
+              いんさつする
+            </button>
+          </div>
           <p class="print-view-note">プレビューを みてから したの いんさつを おしてね</p>
           <div class="print-view-sheet-wrap">
             <PrintPreviewSheet svgMarkup={svgMarkup} />
@@ -117,13 +122,7 @@ app.get("/:char/print", async (c) => {
         </div>
       </main>
 
-      <footer class="print-page-footer">
-        <div class="app-footer-actions">
-          <a class="app-footer-btn is-secondary" href={kanjiPath(detail.canonicalGrade || requestedGrade, kanji)}>
-            ←もどる
-          </a>
-          <PrintButton className="app-footer-btn is-accent" />
-        </div>
+      <footer class="print-page-footer print-page-footer--meta-only">
         <div class="app-footer-meta-links">
           <a class="app-footer-meta-link" href="/about">
             アプリについて
@@ -136,6 +135,21 @@ app.get("/:char/print", async (c) => {
           </a>
         </div>
       </footer>
+
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            (() => {
+              const printButton = document.getElementById('printRouteBtn');
+              if (!(printButton instanceof HTMLButtonElement)) return;
+              printButton.addEventListener('click', () => {
+                window.focus();
+                window.print();
+              });
+            })();
+          `,
+        }}
+      />
     </div>,
     { title: `${kanji} を いんさつ` },
   );
