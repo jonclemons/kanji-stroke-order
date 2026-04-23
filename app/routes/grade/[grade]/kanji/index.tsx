@@ -102,7 +102,7 @@ app.get("/:char/print", async (c) => {
   return c.render(
     <div class="print-page">
       <header class="print-page-header">
-        <h1 class="print-page-title">{`${kanji} を いんさつ`}</h1>
+        <h1 class="print-page-title">{`${kanji}のかんじれんしゅうプリント を いんさつする`}</h1>
       </header>
 
       <main class="print-page-main">
@@ -151,7 +151,7 @@ app.get("/:char/print", async (c) => {
         }}
       />
     </div>,
-    { title: `${kanji} を いんさつ` },
+    { title: `${kanji}のかんじれんしゅうプリント を いんさつする` },
   );
 });
 
