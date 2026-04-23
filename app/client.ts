@@ -37,4 +37,26 @@ async function setupServiceWorker() {
   await registration.update();
 }
 
-void setupServiceWorker();
+function scheduleServiceWorkerRegistration() {
+  const run = () => {
+    void setupServiceWorker();
+  };
+
+  const schedule = () => {
+    if ("requestIdleCallback" in window) {
+      window.requestIdleCallback(run, { timeout: 1500 });
+      return;
+    }
+
+    window.setTimeout(run, 0);
+  };
+
+  if (document.readyState === "complete") {
+    schedule();
+    return;
+  }
+
+  window.addEventListener("load", schedule, { once: true });
+}
+
+scheduleServiceWorkerRegistration();

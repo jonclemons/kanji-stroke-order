@@ -8,7 +8,7 @@ export default createRoute((c) => {
       currentPath={c.req.path}
       footerActions={
         <a class="app-footer-btn is-secondary" href="/">
-          さいしょへ
+          ←もどる
         </a>
       }
       subtitle="このアプリで あつかう じょうほうについて"

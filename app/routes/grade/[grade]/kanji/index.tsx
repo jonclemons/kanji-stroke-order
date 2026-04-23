@@ -2,7 +2,7 @@ import { Hono } from "hono";
 import { AppShell } from "../../../../components/AppShell";
 import { PrintPreviewSheet, ReadingsSection, StepsSection, WordsSection } from "../../../../components/KanjiSections";
 import type { AppEnv } from "../../../../env";
-import PracticeAnimator from "../../../../islands/PracticeAnimator";
+import DeferredPracticeAnimator from "../../../../islands/DeferredPracticeAnimator";
 import PrintButton from "../../../../islands/PrintButton";
 import { loadKanjiDetailData, parseGrade, parseKanjiParam } from "../../../../lib/data";
 import { gradeLabel } from "../../../../lib/kanji";
@@ -31,7 +31,7 @@ app.get("/:char", async (c) => {
       footerActions={
         <>
           <a class="app-footer-btn is-secondary" href={gradePath(detail.canonicalGrade || requestedGrade)}>
-            かんじいちらん
+            ←もどる
           </a>
           <a class="app-footer-btn is-accent" href={printPath(detail.canonicalGrade || requestedGrade, kanji)}>
             いんさつ
@@ -47,7 +47,7 @@ app.get("/:char", async (c) => {
       <div class="results">
         <div class="results-columns">
           <div class="results-primary">
-            <PracticeAnimator
+            <DeferredPracticeAnimator
               grade={detail.canonicalGrade || requestedGrade}
               strokes={detail.strokes}
               viewBox={detail.viewBox}

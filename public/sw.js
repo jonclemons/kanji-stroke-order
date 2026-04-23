@@ -6,7 +6,6 @@ const CORE_ASSETS = [
   "/manifest.json",
   "/icon.svg",
 ];
-const RUNTIME_DESTINATIONS = new Set(["document", "script", "style", "font", "image"]);
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
@@ -42,7 +41,7 @@ self.addEventListener("fetch", (e) => {
     return;
   }
 
-  if (e.request.mode === "navigate" || url.pathname === "/" || RUNTIME_DESTINATIONS.has(e.request.destination)) {
+  if (e.request.mode === "navigate") {
     e.respondWith(networkFirst(e.request));
   }
 });

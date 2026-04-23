@@ -17,7 +17,7 @@ export default createRoute(async (c) => {
       error={c.req.query("error") || ""}
       footerActions={
         <a class="app-footer-btn is-secondary" href="/">
-          さいしょへ
+          ←もどる
         </a>
       }
       kanjiList={kanjiList}

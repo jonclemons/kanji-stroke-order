@@ -1,4 +1,5 @@
 import { createApp } from "honox/server";
+import { cache } from "hono/cache";
 import { showRoutes } from "hono/dev";
 import type { AppEnv } from "./env";
 import { APP_VERSION, DATA_VERSION } from "../src/version.js";
@@ -13,6 +14,7 @@ const ALLOWED_ORIGINS = new Set([
 ]);
 
 const SHEET_ROUTE_PREFIX = "/api/sheet/";
+const HTML_CACHE_TTL = 300;
 
 function corsOrigin(request: Request) {
   const origin = request.headers.get("Origin");
@@ -54,6 +56,13 @@ function jsonLog(level: "info" | "error", message: string, details: Record<strin
 }
 
 const app = createApp<AppEnv>();
+const publicPageCache = cache({
+  cacheName: `kokugo-html-${APP_VERSION}-${DATA_VERSION}`,
+  cacheControl: `public, max-age=${HTML_CACHE_TTL}`,
+  cacheableStatusCodes: [200, 404],
+  keyGenerator: (c) => c.req.url,
+  onCacheNotAvailable: false,
+});
 
 app.use("*", async (c, next) => {
   const startedAt = Date.now();
@@ -69,6 +78,12 @@ app.use("*", async (c, next) => {
     durationMs: Date.now() - startedAt,
   });
 });
+
+app.use("/", publicPageCache);
+app.use("/grade/*", publicPageCache);
+app.use("/about", publicPageCache);
+app.use("/privacy", publicPageCache);
+app.use("/terms", publicPageCache);
 
 app.onError((error, c) => {
   jsonLog("error", "request.failed", {

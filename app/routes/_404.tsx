@@ -8,7 +8,7 @@ const handler: NotFoundHandler = (c) => {
           <h2>ページがみつかりません</h2>
           <p>おてすうですが、したの ぼたんから さいしょに もどってください。</p>
           <p>
-            <a href="/">さいしょへ</a>
+            <a href="/">←もどる</a>
           </p>
         </div>
       </section>
