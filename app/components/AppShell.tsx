@@ -1,4 +1,5 @@
 import type { Child } from "hono/jsx";
+import ThemeToggle from "../islands/ThemeToggle";
 import { gradePath, kanjiPath } from "../lib/routes";
 
 type AppShellProps = {
@@ -39,10 +40,10 @@ export function AppShell({
   return (
     <div class={shellClasses.join(" ")}>
       <header class="app-header">
-        <p class="app-header-eyebrow">{eyebrow}</p>
-        <button id="themeToggle" class="theme-toggle-btn" type="button" aria-label="がめんのいろをきりかえる">
-          くらいがめん
-        </button>
+        <div class="app-header-top">
+          <p class="app-header-eyebrow">{eyebrow}</p>
+          <ThemeToggle />
+        </div>
         <h1 class="app-header-title">{title}</h1>
         <p class="app-header-subtitle">{subtitle}</p>
       </header>
