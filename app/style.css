@@ -1055,12 +1055,29 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+  html,
+  body {
+    height: auto;
+  }
+
+  body {
+    min-height: 100svh;
+    overflow-y: auto;
+  }
+
+  .app-shell {
+    min-height: 100svh;
+    height: auto;
+    overflow: visible;
+  }
+
   .app-header {
     padding: 0.9rem 1rem 0.8rem;
   }
 
   .app-layout {
     flex-direction: column;
+    min-height: auto;
   }
 
   .sidebar {
@@ -1069,6 +1086,7 @@ button:hover {
     min-height: auto;
     border-right: none;
     border-bottom: 1px solid var(--border);
+    overflow: visible;
   }
 
   .sidebar-content.collapsed {
@@ -1077,6 +1095,7 @@ button:hover {
 
   .main-content {
     padding: 1rem;
+    overflow: visible;
   }
 
   .app-footer {
