@@ -3,6 +3,44 @@ import { APP_VERSION } from "../src/version.js";
 
 createClient();
 
+type ThemeMode = "light" | "dark";
+const THEME_STORAGE_KEY = "kokugo-theme";
+
+function preferredTheme(): ThemeMode {
+  const saved = window.localStorage.getItem(THEME_STORAGE_KEY);
+  if (saved === "light" || saved === "dark") {
+    return saved;
+  }
+
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+function applyTheme(theme: ThemeMode): void {
+  document.documentElement.setAttribute("data-theme", theme);
+
+  const toggleButton = document.getElementById("themeToggle");
+  if (toggleButton) {
+    toggleButton.textContent = theme === "dark" ? "あかるいがめん" : "くらいがめん";
+    toggleButton.setAttribute("aria-pressed", String(theme === "dark"));
+  }
+}
+
+function setupThemeToggle() {
+  const toggleButton = document.getElementById("themeToggle");
+  if (!toggleButton) return;
+
+  let currentTheme = preferredTheme();
+  applyTheme(currentTheme);
+
+  toggleButton.addEventListener("click", () => {
+    currentTheme = currentTheme === "light" ? "dark" : "light";
+    window.localStorage.setItem(THEME_STORAGE_KEY, currentTheme);
+    applyTheme(currentTheme);
+  });
+}
+
+setupThemeToggle();
+
 async function setupServiceWorker() {
   if (!("serviceWorker" in navigator)) return;
 
