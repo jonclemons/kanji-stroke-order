@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "kanji-stroke-order",
+  "main": "./dist/index.js",
+  "compatibility_date": "2026-04-21",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  },
+  "secrets": {
+    "required": ["READ_KEY", "UPLOAD_KEY"]
+  },
+  "build": {
+    "command": "bun run build"
+  },
+  "assets": {
+    "directory": "./dist"
+  },
+  "r2_buckets": [
+    {
+      "binding": "SHEETS",
+      "bucket_name": "kanji-sheets"
+    }
+  ]
+}

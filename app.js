@@ -489,6 +489,7 @@ function parseStrokes(svgText) {
   return Array.from(paths).map((p) => ({
     d: p.getAttribute("d"),
     id: p.getAttribute("id") || "",
+    type: p.getAttribute("kvg:type") || "",
   }));
 }
 
@@ -593,7 +594,14 @@ async function getKnownKanjiForGrade(targetGrade) {
 
 // --- Rendering ---
 
-function getReadingDisplaySets(info) {
+function getReadingDisplaySets(
+  info,
+  {
+    onLimit = 2,
+    kunLimit = 3,
+    totalLimit = null,
+  } = {},
+) {
   if (!info) {
     return {
       on: [],
@@ -621,11 +629,25 @@ function getReadingDisplaySets(info) {
     return selected;
   };
 
-  return {
+  const readingSets = {
     // Keep the list short and predictable so elementary students see the core readings first.
-    on: prioritizeReadings(info.on_readings || [], { type: "on", limit: 2 }),
-    kun: prioritizeReadings(info.kun_readings || [], { type: "kun", limit: 3 }),
+    on: prioritizeReadings(info.on_readings || [], { type: "on", limit: onLimit }),
+    kun: prioritizeReadings(info.kun_readings || [], { type: "kun", limit: kunLimit }),
   };
+
+  if (totalLimit !== null) {
+    while (readingSets.on.length + readingSets.kun.length > totalLimit) {
+      if (readingSets.kun.length >= readingSets.on.length && readingSets.kun.length > 0) {
+        readingSets.kun.pop();
+      } else if (readingSets.on.length > 0) {
+        readingSets.on.pop();
+      } else {
+        break;
+      }
+    }
+  }
+
+  return readingSets;
 }
 
 function renderReadings(info) {
@@ -861,8 +883,21 @@ function renderSteps(strokes, viewBox) {
   for (let i = 0; i < strokes.length; i++) {
     const card = document.createElement("div");
     card.className = "step-card";
+    const ending = getStrokeEndingLabel(i, "detail");
+
+    const preview = document.createElement("div");
+    preview.className = "step-card-preview";
     const svg = createStepSVG(strokes, i, stepSize, viewBox);
-    card.appendChild(svg);
+    preview.appendChild(svg);
+
+    if (ending) {
+      const endingRail = document.createElement("div");
+      endingRail.className = "step-ending-rail";
+      endingRail.textContent = ending;
+      preview.appendChild(endingRail);
+    }
+
+    card.appendChild(preview);
 
     const label = document.createElement("div");
     label.className = "step-label";
@@ -871,6 +906,26 @@ function renderSteps(strokes, viewBox) {
 
     stepsGrid.appendChild(card);
   }
+}
+
+function buildVerticalSvgLabel(text, x, y, width, height, options = {}) {
+  if (!text) return "";
+
+  const fontSize = options.fontSize || 2.1;
+  const lineHeight = options.lineHeight || 2.5;
+  const fill = options.fill || "#4d6c50";
+  const stroke = options.stroke || "#9ec5a0";
+  const bg = options.background || "#f5f0e8";
+  const chars = [...text];
+  const totalHeight = (chars.length - 1) * lineHeight;
+  const startY = y + height / 2 - totalHeight / 2 + fontSize * 0.35;
+  let labelSvg = `<rect x="${x}" y="${y}" width="${width}" height="${height}" rx="1.2" fill="${bg}" stroke="${stroke}" stroke-width="0.25"/>`;
+
+  chars.forEach((char, index) => {
+    labelSvg += `<text x="${x + width / 2}" y="${startY + index * lineHeight}" text-anchor="middle" font-size="${fontSize}" fill="${fill}" font-weight="bold">${char}</text>`;
+  });
+
+  return labelSvg;
 }
 
 // --- Animation ---
@@ -972,6 +1027,7 @@ function resetAnimation() {
 const traceArea = document.getElementById("traceArea");
 const traceCanvas = document.getElementById("traceCanvas");
 const traceCounter = document.getElementById("traceCounter");
+const traceEndingHint = document.getElementById("traceEndingHint");
 const traceRetryBtn = document.getElementById("traceRetryBtn");
 const traceMessage = document.getElementById("traceMessage");
 // traceBtn removed — using modeToggleBtn instead
@@ -992,6 +1048,113 @@ const TRACE_MIN_MOVE_COUNT = 6;
 
 const animationWrap = document.getElementById("animationWrap");
 const canvasTitle = document.getElementById("canvasTitle");
+const ENDING_GUIDANCE_FLAGS = {
+  enabled: true,
+  traceGrades: new Set([1]),
+  detailGrades: new Set([1, 2, 3, 4, 5, 6]),
+  printGrades: new Set([1, 2, 3, 4, 5, 6]),
+  surfaces: {
+    trace: true,
+    detail: true,
+    print: true, // applies to the print preview and generated PDFs
+  },
+};
+const STROKE_ENDING_BY_TYPE = new Map([
+  ["㇒", "はらい"],
+  ["㇏", "はらい"],
+  ["㇀", "はらい"],
+  ["㇚", "はね"],
+  ["㇟", "はね"],
+  ["㇖", "はね"],
+  ["㇆", "はね"],
+  ["㇗", "はね"],
+  ["㇓", "はね"],
+  ["㇜", "はね"],
+  ["㇙", "はね"],
+  ["㇛", "はね"],
+  ["㇁", "はね"],
+  ["㇂", "はね"],
+  ["㇉", "はね"],
+  ["㇈", "はね"],
+  ["㇇", "はね"],
+  ["㇐", "とめ"],
+  ["㇑", "とめ"],
+  ["㇔", "とめ"],
+  ["㇕", "とめ"],
+  ["㇄", "とめ"],
+  ["㇃", "とめ"],
+  ["㇋", "とめ"],
+  ["㇞", "とめ"],
+]);
+
+function getCurrentKanjiGrade() {
+  return Number(currentKanjiInfo?.grade || currentGrade || 0);
+}
+
+function shouldShowEndingGuidance(surface) {
+  if (!ENDING_GUIDANCE_FLAGS.enabled) return false;
+  const grade = getCurrentKanjiGrade();
+  const gradeSet = surface === "trace"
+    ? ENDING_GUIDANCE_FLAGS.traceGrades
+    : surface === "detail"
+      ? ENDING_GUIDANCE_FLAGS.detailGrades
+    : surface === "print"
+      ? ENDING_GUIDANCE_FLAGS.printGrades
+      : null;
+  if (gradeSet && !gradeSet.has(grade)) return false;
+  if (surface) return ENDING_GUIDANCE_FLAGS.surfaces[surface] === true;
+  return true;
+}
+
+function normalizeStrokeTypePart(part) {
+  return String(part || "").replace(/[a-z]+$/i, "");
+}
+
+function inferStrokeEnding(stroke) {
+  const rawType = stroke?.type || "";
+  if (!rawType) return null;
+
+  const endings = [...new Set(
+    rawType
+      .split("/")
+      .map(normalizeStrokeTypePart)
+      .map((type) => STROKE_ENDING_BY_TYPE.get(type))
+      .filter(Boolean),
+  )];
+
+  return endings.length === 1 ? endings[0] : null;
+}
+
+function getStrokeEndingLabel(index, surface) {
+  if (!shouldShowEndingGuidance(surface)) return "";
+  const stroke = currentStrokes[index];
+  return inferStrokeEnding(stroke) || "";
+}
+
+function getTraceEndingHintLabel(index = traceStrokeIndex) {
+  return getStrokeEndingLabel(index, "trace");
+}
+
+function renderTraceEndingHint(index = traceStrokeIndex) {
+  if (!traceEndingHint) return;
+  const ending = getTraceEndingHintLabel(index);
+  if (!ending) {
+    traceEndingHint.innerHTML = "";
+    traceEndingHint.classList.remove("is-hane", "is-harai", "is-tome");
+    traceEndingHint.classList.add("hidden");
+    return;
+  }
+
+  traceEndingHint.innerHTML = `
+    <span class="trace-ending-kicker">さいごは</span>
+    <span class="trace-ending-value">${ending}</span>
+  `;
+  traceEndingHint.classList.remove("is-hane", "is-harai", "is-tome");
+  traceEndingHint.classList.add(
+    ending === "はね" ? "is-hane" : ending === "はらい" ? "is-harai" : "is-tome",
+  );
+  traceEndingHint.classList.remove("hidden");
+}
 
 function enterTraceMode() {
   if (!currentStrokes.length) return;
@@ -1003,6 +1166,7 @@ function enterTraceMode() {
   canvasTitle.textContent = "なぞってみよう";
   traceMessage.classList.add("hidden");
   traceRetryBtn.classList.add("hidden");
+  renderTraceEndingHint(0);
   modeToggleBtn.textContent = "▶ アニメーション";
   buildTraceSVG();
 }
@@ -1015,6 +1179,11 @@ function exitTraceMode() {
   animationWrap.classList.remove("hidden");
   canvasTitle.textContent = "アニメーション";
   modeToggleBtn.textContent = "✏ なぞる";
+  if (traceEndingHint) {
+    traceEndingHint.innerHTML = "";
+    traceEndingHint.classList.remove("is-hane", "is-harai", "is-tome");
+    traceEndingHint.classList.add("hidden");
+  }
   // Restart looping animation
   if (currentStrokes.length) {
     setupAnimation(currentStrokes, currentViewBox);
@@ -1088,18 +1257,40 @@ function removeTraceHint() {
 
 function addTraceHint(path, index) {
   removeTraceHint();
+  const totalLength = path.getTotalLength();
   const startPt = path.getPointAtLength(0);
-  const dirPt = path.getPointAtLength(Math.min(12, path.getTotalLength()));
-  const angle = Math.atan2(dirPt.y - startPt.y, dirPt.x - startPt.x);
+  const dirSampleLen = Math.min(Math.max(totalLength * 0.08, 3), 10);
+  const dirPt = path.getPointAtLength(Math.min(dirSampleLen, totalLength));
+  const dirDx = dirPt.x - startPt.x;
+  const dirDy = dirPt.y - startPt.y;
+  const dirLength = Math.hypot(dirDx, dirDy) || 1;
+  const dirX = dirDx / dirLength;
+  const dirY = dirDy / dirLength;
+
+  const normalA = { x: -dirY, y: dirX };
+  const normalB = { x: dirY, y: -dirX };
+  const upwardNormal = normalA.y <= normalB.y ? normalA : normalB;
+
+  const badgeRadius = 7;
+  const badgeOffset = 16;
+  const badgePullback = 8;
+  const badgeCenter = {
+    x: startPt.x + upwardNormal.x * badgeOffset - dirX * badgePullback,
+    y: startPt.y + upwardNormal.y * badgeOffset - dirY * badgePullback,
+  };
+
+  const targetLen = Math.min(Math.max(totalLength * 0.12, 3), 8);
+  const targetPt = path.getPointAtLength(Math.min(targetLen, totalLength));
+  const angle = Math.atan2(targetPt.y - badgeCenter.y, targetPt.x - badgeCenter.x);
 
   const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
   g.setAttribute("class", "trace-hint");
 
-  // Pulsing circle at start
+  // Pulsing badge near the stroke start, offset away from the line itself.
   const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-  circle.setAttribute("cx", startPt.x);
-  circle.setAttribute("cy", startPt.y);
-  circle.setAttribute("r", "7");
+  circle.setAttribute("cx", badgeCenter.x);
+  circle.setAttribute("cy", badgeCenter.y);
+  circle.setAttribute("r", String(badgeRadius));
   circle.setAttribute("fill", "rgba(76, 175, 80, 0.3)");
   circle.setAttribute("stroke", "#7aaa7e");
   circle.setAttribute("stroke-width", "1.2");
@@ -1107,8 +1298,8 @@ function addTraceHint(path, index) {
 
   // Stroke number
   const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-  text.setAttribute("x", startPt.x);
-  text.setAttribute("y", startPt.y + 3.5);
+  text.setAttribute("x", badgeCenter.x);
+  text.setAttribute("y", badgeCenter.y + 3.5);
   text.setAttribute("text-anchor", "middle");
   text.setAttribute("font-size", "8");
   text.setAttribute("fill", "#7aaa7e");
@@ -1117,17 +1308,32 @@ function addTraceHint(path, index) {
   text.textContent = index + 1;
   g.appendChild(text);
 
-  // Direction arrow
-  const arrowLen = 10;
-  const ax = startPt.x + Math.cos(angle) * 14;
-  const ay = startPt.y + Math.sin(angle) * 14;
+  // Connector + direction arrow aimed at an early point on the stroke.
+  const connector = document.createElementNS("http://www.w3.org/2000/svg", "line");
+  const connectorStartX = badgeCenter.x + Math.cos(angle) * badgeRadius;
+  const connectorStartY = badgeCenter.y + Math.sin(angle) * badgeRadius;
+  const connectorEndX = targetPt.x - Math.cos(angle) * 3;
+  const connectorEndY = targetPt.y - Math.sin(angle) * 3;
+  connector.setAttribute("x1", connectorStartX);
+  connector.setAttribute("y1", connectorStartY);
+  connector.setAttribute("x2", connectorEndX);
+  connector.setAttribute("y2", connectorEndY);
+  connector.setAttribute("stroke", "#7aaa7e");
+  connector.setAttribute("stroke-width", "1.8");
+  connector.setAttribute("stroke-linecap", "round");
+  g.appendChild(connector);
+
+  const arrowLen = 7;
+  const arrowWidth = 4;
   const arrow = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-  const tipX = ax + Math.cos(angle) * arrowLen;
-  const tipY = ay + Math.sin(angle) * arrowLen;
-  const lx = ax + Math.cos(angle + 2.5) * 5;
-  const ly = ay + Math.sin(angle + 2.5) * 5;
-  const rx = ax + Math.cos(angle - 2.5) * 5;
-  const ry = ay + Math.sin(angle - 2.5) * 5;
+  const tipX = targetPt.x;
+  const tipY = targetPt.y;
+  const backX = tipX - Math.cos(angle) * arrowLen;
+  const backY = tipY - Math.sin(angle) * arrowLen;
+  const lx = backX + Math.cos(angle + Math.PI / 2) * arrowWidth;
+  const ly = backY + Math.sin(angle + Math.PI / 2) * arrowWidth;
+  const rx = backX + Math.cos(angle - Math.PI / 2) * arrowWidth;
+  const ry = backY + Math.sin(angle - Math.PI / 2) * arrowWidth;
   arrow.setAttribute("points", `${tipX},${tipY} ${lx},${ly} ${rx},${ry}`);
   arrow.setAttribute("fill", "#7aaa7e");
   g.appendChild(arrow);
@@ -1150,6 +1356,7 @@ function initTraceStroke(index) {
   traceMoveCount = 0;
   traceStarted = false;
   traceIsDrawing = false;
+  renderTraceEndingHint(index);
   addTraceHint(path, index);
 }
 
@@ -1161,6 +1368,70 @@ function pointDistance(a, b) {
   const dx = a.x - b.x;
   const dy = a.y - b.y;
   return Math.sqrt(dx * dx + dy * dy);
+}
+
+function getMinTraceMoveCount(path) {
+  const totalLen = path.getTotalLength();
+  if (totalLen < 40) return 2;
+  if (totalLen < 70) return 3;
+  if (totalLen < 100) return 4;
+  return TRACE_MIN_MOVE_COUNT;
+}
+
+function isNearPathCompletionZone(path, point, startLength, tolerance) {
+  const totalLength = path.getTotalLength();
+  const searchStart = Math.max(0, Math.min(totalLength, startLength));
+  const step = 1.5;
+
+  for (let len = searchStart; len <= totalLength; len += step) {
+    const pathPoint = path.getPointAtLength(len);
+    if (pointDistance(point, pathPoint) < tolerance) return true;
+  }
+
+  return isNearPathLength(path, point, totalLength, tolerance);
+}
+
+function getTraceCompletionProfile(path, index = traceStrokeIndex, { allowLiftCompletion = false } = {}) {
+  const baseMinMoves = allowLiftCompletion
+    ? Math.max(2, getMinTraceMoveCount(path) - 1)
+    : getMinTraceMoveCount(path);
+  const ending = getStrokeEndingLabel(index, "trace");
+
+  if (ending === "はらい") {
+    return {
+      minMoves: Math.max(1, baseMinMoves - 1),
+      minRatio: allowLiftCompletion ? 0.8 : 0.88,
+      zoneRatio: allowLiftCompletion ? 0.72 : 0.8,
+      endTolerance: (allowLiftCompletion ? TRACE_END_TOLERANCE + 5 : TRACE_END_TOLERANCE) + 8,
+    };
+  }
+
+  if (ending === "はね") {
+    return {
+      minMoves: Math.max(1, baseMinMoves - 1),
+      minRatio: allowLiftCompletion ? 0.84 : 0.9,
+      zoneRatio: allowLiftCompletion ? 0.78 : 0.84,
+      endTolerance: (allowLiftCompletion ? TRACE_END_TOLERANCE + 5 : TRACE_END_TOLERANCE) + 5,
+    };
+  }
+
+  return {
+    minMoves: baseMinMoves,
+    minRatio: allowLiftCompletion ? 0.9 : TRACE_COMPLETION_RATIO,
+    zoneRatio: allowLiftCompletion ? 0.86 : 0.92,
+    endTolerance: allowLiftCompletion ? TRACE_END_TOLERANCE + 3 : TRACE_END_TOLERANCE,
+  };
+}
+
+function canCompleteCurrentTrace(path, point, { allowLiftCompletion = false } = {}) {
+  const totalLen = path.getTotalLength();
+  const profile = getTraceCompletionProfile(path, traceStrokeIndex, { allowLiftCompletion });
+
+  return (
+    traceProgress / totalLen >= profile.minRatio
+    && traceMoveCount >= profile.minMoves
+    && isNearPathCompletionZone(path, point, totalLen * profile.zoneRatio, profile.endTolerance)
+  );
 }
 
 function isNearPathLength(path, point, length, tolerance) {
@@ -1256,12 +1527,7 @@ function onTraceMove(e) {
     path.style.strokeDashoffset = totalLen - traceProgress;
     traceCanvas.classList.remove("error");
 
-    const isNearStrokeEnd = isNearPathLength(path, point, totalLen, TRACE_END_TOLERANCE);
-    if (
-      traceProgress / totalLen >= TRACE_COMPLETION_RATIO
-      && traceMoveCount >= TRACE_MIN_MOVE_COUNT
-      && isNearStrokeEnd
-    ) {
+    if (canCompleteCurrentTrace(path, point)) {
       completeTraceStroke();
     }
   } else if (result.distance >= TRACE_PATH_TOLERANCE) {
@@ -1270,6 +1536,22 @@ function onTraceMove(e) {
 }
 
 function onTraceEnd(e) {
+  if (
+    traceIsDrawing
+    && traceStarted
+    && traceStrokeIndex < tracePaths.length
+    && traceSvgEl
+    && typeof e?.clientX === "number"
+    && typeof e?.clientY === "number"
+  ) {
+    const point = svgPoint(traceSvgEl, e.clientX, e.clientY);
+    const path = tracePaths[traceStrokeIndex];
+    if (canCompleteCurrentTrace(path, point, { allowLiftCompletion: true })) {
+      completeTraceStroke();
+      return;
+    }
+  }
+
   traceIsDrawing = false;
   traceStarted = false;
 }
@@ -1288,10 +1570,14 @@ function completeTraceStroke() {
 
   if (traceStrokeIndex >= tracePaths.length) {
     // All done!
-    traceMessage.textContent = "イエーイ！";
-    traceMessage.classList.remove("hidden");
+    traceMessage.textContent = "";
+    traceMessage.classList.add("hidden");
     traceRetryBtn.classList.remove("hidden");
     traceCounter.textContent = "";
+    if (traceEndingHint) {
+      traceEndingHint.textContent = "";
+      traceEndingHint.classList.add("hidden");
+    }
   } else {
     // Next stroke
     setTimeout(() => {
@@ -1304,6 +1590,7 @@ function completeTraceStroke() {
 function retryTrace() {
   traceMessage.classList.add("hidden");
   traceRetryBtn.classList.add("hidden");
+  renderTraceEndingHint(0);
   buildTraceSVG();
 }
 
@@ -1397,7 +1684,7 @@ function renderFooterActions() {
     });
   } else if (currentScreen === "print" && currentKanji) {
     actions.push({
-      label: "かんじにもどる",
+      label: "←もどる",
       variant: "secondary",
       onClick: () => showDetailView({ updateRoute: true }),
     });
@@ -1584,10 +1871,15 @@ function showHomeView({ updateRoute = true } = {}) {
 
 function buildPrintSheetSVG() {
   const info = currentKanjiInfo;
-  const readingSets = getReadingDisplaySets(info);
+  const readingSets = getReadingDisplaySets(info, {
+    onLimit: 6,
+    kunLimit: 6,
+    totalLimit: 6,
+  });
   const strokeCount = info?.stroke_count || currentStrokes.length;
   const onReadings = readingSets.on;
   const kunReadings = readingSets.kun;
+  const showPrintEndingLabels = shouldShowEndingGuidance("print");
 
   // Helper: embed kanji strokes scaled into a cell at (cx, cy, size)
   function strokePaths(cx, cy, size, color, strokeW, upTo) {
@@ -1747,12 +2039,15 @@ function buildPrintSheetSVG() {
   rightY += 4;
   const kjAvailH = H - rightY - margin;
   const labelSpace = 5;
+  const kjLabelW = showPrintEndingLabels ? 4.2 : 0;
+  const kjLabelGap = showPrintEndingLabels ? 1.1 : 0;
+  const kjItemGap = 2;
+  const kjBlockW = showPrintEndingLabels ? kjLabelW + kjLabelGap : 0;
   // Size cells so the grid fills contentW exactly
-  const kjCellSizeByW = (contentW - (kjMaxCols - 1) * 2) / kjMaxCols;
+  const kjCellSizeByW = (contentW - (kjMaxCols - 1) * kjItemGap - kjMaxCols * kjBlockW) / kjMaxCols;
   const kjCellSizeByH = (kjAvailH / kjMaxRows) - labelSpace;
   const kjCellSize = Math.min(kjCellSizeByW, kjCellSizeByH);
-  // Recalculate gap to distribute any leftover space evenly
-  const kjGap = kjMaxCols > 1 ? (contentW - kjMaxCols * kjCellSize) / (kjMaxCols - 1) : 0;
+  const kjUnitW = kjCellSize + kjBlockW;
 
   // Helper: full step SVG — previous (gray) + current (pink) + future (faint)
   function stepPaths(cx, cy, size, upToStep) {
@@ -1776,13 +2071,33 @@ function buildPrintSheetSVG() {
   for (let i = 0; i < n; i++) {
     const col = i % kjMaxCols;
     const row = Math.floor(i / kjMaxCols);
-    const cx = contentL + col * (kjCellSize + kjGap);
+    const itemsInRow = Math.min(kjMaxCols, n - row * kjMaxCols);
+    const rowUsedW = itemsInRow * kjUnitW + (itemsInRow - 1) * kjItemGap;
+    const rowStartX = contentL + (contentW - rowUsedW) / 2;
+    const unitX = rowStartX + col * (kjUnitW + kjItemGap);
+    const cx = unitX;
     const cy = rightY + row * (kjCellSize + labelSpace);
+    const ending = getStrokeEndingLabel(i, "print");
 
     svg += `<rect x="${cx}" y="${cy}" width="${kjCellSize}" height="${kjCellSize}" rx="1.5" fill="none" stroke="#d0d8dc" stroke-width="0.25"/>`;
     svg += crossGuide(cx, cy, kjCellSize);
     svg += stepPaths(cx + 0.5, cy + 0.5, kjCellSize - 1, i);
-    svg += `<text x="${cx + kjCellSize / 2}" y="${cy + kjCellSize + 3.5}" text-anchor="middle" font-size="2.2" fill="#7a7a7a">${i + 1}/${n}</text>`;
+
+    if (showPrintEndingLabels && ending) {
+      svg += buildVerticalSvgLabel(
+        ending,
+        cx + kjCellSize + kjLabelGap,
+        cy + 1,
+        kjLabelW,
+        kjCellSize - 2,
+        {
+          fontSize: 2.05,
+          lineHeight: 2.45,
+        },
+      );
+    }
+
+    svg += `<text x="${unitX + kjUnitW / 2}" y="${cy + kjCellSize + 3.5}" text-anchor="middle" font-size="2.2" fill="#7a7a7a">${i + 1}/${n}</text>`;
   }
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${PRINT_SAFE_W}mm" height="${PRINT_SAFE_H}mm" font-family="'Hiragino Kaku Gothic ProN','Meiryo','Yu Gothic',sans-serif">

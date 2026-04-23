@@ -1,5 +1,4 @@
 import { APP_VERSION } from "./version.js";
-import appShell from "./app-shell.js";
 import "../app.js";
 
 async function setupServiceWorker() {
@@ -35,8 +34,6 @@ async function setupServiceWorker() {
   });
   await registration.update();
 }
-
-document.getElementById("app").innerHTML = appShell;
 
 requestAnimationFrame(() => {
   window.initLegacyApp?.();

@@ -1,22 +1,16 @@
 const CACHE_PREFIX = "kanji-app";
 const APP_VERSION = new URL(self.location.href).searchParams.get("v") || "dev";
 const CACHE_NAME = `${CACHE_PREFIX}-${APP_VERSION}`;
-const APP_SHELL = [
+const CORE_ASSETS = [
   "/",
-  "/index.html",
-  "/style.css",
-  "/app.js",
-  "/src/main.js",
-  "/src/app-shell.js",
-  "/src/version.js",
   "/manifest.json",
   "/icon.svg",
 ];
-const APP_SHELL_PATHS = new Set(APP_SHELL);
+const RUNTIME_DESTINATIONS = new Set(["document", "script", "style", "font", "image"]);
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL))
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(CORE_ASSETS))
   );
   self.skipWaiting();
 });
@@ -44,16 +38,16 @@ self.addEventListener("fetch", (e) => {
   }
 
   // Mirrored kanji data is versioned and cached in IndexedDB by the app itself.
-  if (url.pathname.startsWith("/data/")) {
+  if (url.pathname.startsWith("/api/") || url.pathname.startsWith("/data/")) {
     return;
   }
 
-  if (e.request.mode === "navigate" || APP_SHELL_PATHS.has(url.pathname)) {
-    e.respondWith(networkFirst(e.request, e.request.mode === "navigate" ? "/index.html" : null));
+  if (e.request.mode === "navigate" || url.pathname === "/" || RUNTIME_DESTINATIONS.has(e.request.destination)) {
+    e.respondWith(networkFirst(e.request));
   }
 });
 
-async function networkFirst(request, fallbackUrl) {
+async function networkFirst(request) {
   try {
     const response = await fetch(request);
     if (response.ok) {
@@ -64,8 +58,8 @@ async function networkFirst(request, fallbackUrl) {
   } catch (error) {
     const cached = await caches.match(request);
     if (cached) return cached;
-    if (fallbackUrl) {
-      const fallback = await caches.match(fallbackUrl);
+    if (request.mode === "navigate") {
+      const fallback = await caches.match("/");
       if (fallback) return fallback;
     }
     throw error;

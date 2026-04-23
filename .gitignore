@@ -1,5 +1,7 @@
 node_modules/
+.dev.vars
 worker/node_modules/
+/.wrangler/
 worker/.wrangler/
 worker/.dev.vars
 dist/
