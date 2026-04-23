@@ -65,8 +65,11 @@ app.get("/:char", async (c) => {
             <div class="section">
               <h3>れんしゅうシート</h3>
               <div class="practice-options">
-                <a class="app-footer-btn is-accent detail-print-link" href={printPath(detail.canonicalGrade || requestedGrade, kanji)}>
-                  いんさつ
+                <a class="detail-print-link" href={printPath(detail.canonicalGrade || requestedGrade, kanji)}>
+                  <span>{kanji}のれんしゅうプリントをいんさつする</span>
+                  <span aria-hidden="true" class="detail-print-link-icon">
+                    <PrinterIcon />
+                  </span>
                 </a>
               </div>
             </div>
@@ -128,3 +131,14 @@ app.get("/:char/print", async (c) => {
 });
 
 export default app;
+
+function PrinterIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M7 9.5V4.8h10v4.7" />
+      <path d="M7.2 17.8H5.6A2.6 2.6 0 0 1 3 15.2v-4.1a2.6 2.6 0 0 1 2.6-2.6h12.8a2.6 2.6 0 0 1 2.6 2.6v4.1a2.6 2.6 0 0 1-2.6 2.6H16.8" />
+      <path d="M7.2 14.2h9.6v5H7.2z" />
+      <path d="M16.8 12.2h.01" />
+    </svg>
+  );
+}
