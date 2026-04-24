@@ -1,0 +1,67 @@
+name: Promote Kokugo Graph
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_id:
+        description: "Immutable build ID under v2/builds/{buildId}/graph."
+        required: true
+      channel:
+        description: "Channel manifest to update."
+        required: true
+        type: choice
+        default: "prod"
+        options:
+          - prod
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kokugo-graph-promote
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: production-data
+    env:
+      GRAPH_BUCKET: ${{ vars.GRAPH_BUCKET || 'kokugo-graph-public' }}
+      GRAPH_BASE_URL: ${{ vars.GRAPH_BASE_URL || 'https://data.kokugo.app' }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Promote validated build by updating channel manifest
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          node scripts/data-pipeline/r2-write-channel-manifest.mjs \
+            --bucket "${GRAPH_BUCKET}" \
+            --channel "${{ inputs.channel }}" \
+            --build-id "${{ inputs.build_id }}" \
+            --base-url "${GRAPH_BASE_URL}"
+
+      - name: Smoke test promoted channel
+        if: ${{ vars.GRAPH_BASE_URL != '' }}
+        run: node scripts/data-pipeline/check-r2-graph.mjs --base-url "${GRAPH_BASE_URL}" --channel "${{ inputs.channel }}"
+
+      - name: Summary
+        run: |
+          {
+            echo "## Kokugo Graph Promotion"
+            echo "- Build ID: \`${{ inputs.build_id }}\`"
+            echo "- Channel: \`${{ inputs.channel }}\`"
+            echo "- Manifest: \`${GRAPH_BASE_URL}/v2/channels/${{ inputs.channel }}/manifest.json\`"
+            echo "- No Worker deploy was run."
+          } >> "${GITHUB_STEP_SUMMARY}"

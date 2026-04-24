@@ -1,0 +1,134 @@
+name: Mirror Kokugo Sources
+
+on:
+  workflow_dispatch:
+    inputs:
+      runner_label:
+        description: "Runner label. Use ubuntu-latest unless a fallback runner was manually approved."
+        required: true
+        default: "ubuntu-latest"
+      fallback_approved:
+        description: "Confirm manual approval before using a non-default runner."
+        required: true
+        type: boolean
+        default: false
+      source_contact:
+        description: "Contact URL or email included in the source mirror user-agent."
+        required: false
+        default: "https://kokugo.app"
+  schedule:
+    - cron: "17 3 1 * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kokugo-source-mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ${{ inputs.runner_label || 'ubuntu-latest' }}
+    timeout-minutes: 60
+    env:
+      SOURCE_MIRROR_BUCKET: ${{ vars.SOURCE_MIRROR_BUCKET || 'kokugo-source-mirrors' }}
+      SOURCE_CONTACT: ${{ inputs.source_contact || vars.KOKUGO_SOURCE_CONTACT || 'https://kokugo.app' }}
+
+    steps:
+      - name: Enforce fallback runner policy
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.runner_label != 'ubuntu-latest' && inputs.fallback_approved != true }}
+        run: |
+          echo "Non-default runners require cooldown/manual review and fallback_approved=true."
+          exit 1
+
+      - uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Mirror source snapshots
+        id: mirror
+        continue-on-error: true
+        env:
+          KOKUGO_SOURCE_CONTACT: ${{ env.SOURCE_CONTACT }}
+          KOKUGO_SOURCE_USER_AGENT: kokugo-app-graph-mirror/0.1 (${{ env.SOURCE_CONTACT }})
+        run: bun run mirror:sources
+
+      - name: Package source mirror
+        if: ${{ steps.mirror.outcome == 'success' }}
+        run: |
+          mkdir -p build data/raw
+          MIRROR_ID="${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${GITHUB_SHA::12}"
+          BUNDLE="build/kokugo-sources-${MIRROR_ID}.tar.gz"
+          tar -czf "${BUNDLE}" -C data/raw kokugo-sources
+          echo "MIRROR_ID=${MIRROR_ID}" >> "${GITHUB_ENV}"
+          echo "SOURCE_BUNDLE=${BUNDLE}" >> "${GITHUB_ENV}"
+
+      - name: Upload immutable source mirror to private R2
+        if: ${{ steps.mirror.outcome == 'success' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          node scripts/data-pipeline/r2-put-object.mjs \
+            --bucket "${SOURCE_MIRROR_BUCKET}" \
+            --key "mirrors/kokugo-sources/builds/${MIRROR_ID}.tar.gz" \
+            --file "${SOURCE_BUNDLE}" \
+            --content-type "application/gzip" \
+            --cache-control "private, max-age=0, no-store"
+
+      - name: Update latest source mirror pointer in private R2
+        if: ${{ steps.mirror.outcome == 'success' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          node scripts/data-pipeline/r2-put-object.mjs \
+            --bucket "${SOURCE_MIRROR_BUCKET}" \
+            --key "mirrors/kokugo-sources/latest.tar.gz" \
+            --file "${SOURCE_BUNDLE}" \
+            --content-type "application/gzip" \
+            --cache-control "private, max-age=0, no-store"
+
+      - name: Upload mirror audit artifact
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: kokugo-source-mirror-${{ env.MIRROR_ID || github.run_id }}
+          path: |
+            data/raw/kokugo-sources/manifest.json
+            data/raw/kokugo-sources/source-status.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Summary
+        if: ${{ always() }}
+        run: |
+          {
+            echo "## Kokugo Source Mirror"
+            echo "- Status: \`${{ steps.mirror.outcome }}\`"
+            echo "- Mirror ID: \`${MIRROR_ID:-not-uploaded}\`"
+            echo "- Private bucket: \`${SOURCE_MIRROR_BUCKET}\`"
+            if [ -n "${MIRROR_ID:-}" ]; then
+              echo "- Bundle key: \`mirrors/kokugo-sources/builds/${MIRROR_ID}.tar.gz\`"
+              echo "- Latest key: \`mirrors/kokugo-sources/latest.tar.gz\`"
+            fi
+            echo "- Runner: \`${RUNNER_NAME}\`"
+            echo "- User agent contact: \`${SOURCE_CONTACT}\`"
+            if [ -f data/raw/kokugo-sources/source-status.json ]; then
+              echo ""
+              echo "### Source status"
+              echo "\`\`\`json"
+              cat data/raw/kokugo-sources/source-status.json
+              echo "\`\`\`"
+            fi
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+      - name: Fail if mirror was blocked or rate-limited
+        if: ${{ steps.mirror.outcome != 'success' }}
+        run: exit 1

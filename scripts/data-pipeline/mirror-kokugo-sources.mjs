@@ -4,7 +4,9 @@ import path from "node:path";
 
 const RAW_ROOT = path.join(process.cwd(), "data", "raw", "kokugo-sources");
 const GENERATED_AT = new Date().toISOString();
-const USER_AGENT = "kokugo-app-graph-mirror/0.1";
+const SOURCE_CONTACT = process.env.KOKUGO_SOURCE_CONTACT || "https://kokugo.app";
+const USER_AGENT =
+  process.env.KOKUGO_SOURCE_USER_AGENT || `kokugo-app-graph-mirror/0.1 (${SOURCE_CONTACT})`;
 
 const JP_COS_GRADE_PAGES = [
   {
@@ -140,7 +142,28 @@ async function writeJson(filePath, value) {
   await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
-async function fetchBytes(url, retries = 3) {
+class SourceBlockedError extends Error {
+  constructor({ sourceId, url, status, statusText, retryAfter }) {
+    super(`Source ${sourceId} stopped at ${url}: ${status} ${statusText}`);
+    this.name = "SourceBlockedError";
+    this.sourceId = sourceId;
+    this.url = url;
+    this.status = status;
+    this.statusText = statusText;
+    this.retryAfter = retryAfter;
+  }
+}
+
+async function writeSourceStatus(value) {
+  await writeJson(path.join(RAW_ROOT, "source-status.json"), {
+    generatedAt: GENERATED_AT,
+    userAgent: USER_AGENT,
+    contact: SOURCE_CONTACT,
+    ...value,
+  });
+}
+
+async function fetchBytes(url, { retries = 3, sourceId = url } = {}) {
   let lastError;
 
   for (let attempt = 1; attempt <= retries; attempt += 1) {
@@ -151,11 +174,23 @@ async function fetchBytes(url, retries = 3) {
         },
       });
       if (!response.ok) {
+        if (response.status === 403 || response.status === 429) {
+          throw new SourceBlockedError({
+            sourceId,
+            url,
+            status: response.status,
+            statusText: response.statusText,
+            retryAfter: response.headers.get("retry-after"),
+          });
+        }
         throw new Error(`${response.status} ${response.statusText}`);
       }
       const arrayBuffer = await response.arrayBuffer();
       return Buffer.from(arrayBuffer);
     } catch (error) {
+      if (error instanceof SourceBlockedError) {
+        throw error;
+      }
       lastError = error;
       if (attempt < retries) {
         await new Promise((resolve) => setTimeout(resolve, 300 * attempt));
@@ -197,6 +232,15 @@ async function mirrorSnapshot(source) {
       },
     });
     if (!response.ok) {
+      if (response.status === 403 || response.status === 429) {
+        throw new SourceBlockedError({
+          sourceId: source.id,
+          url: source.url,
+          status: response.status,
+          statusText: response.statusText,
+          retryAfter: response.headers.get("retry-after"),
+        });
+      }
       throw new Error(`Failed to fetch metadata for ${source.url}: ${response.status} ${response.statusText}`);
     }
 
@@ -232,7 +276,7 @@ async function mirrorSnapshot(source) {
     };
   }
 
-  const bytes = await fetchBytes(source.url);
+  const bytes = await fetchBytes(source.url, { sourceId: source.id });
   const outputPath = path.join(RAW_ROOT, source.outputPath);
   await ensureDir(path.dirname(outputPath));
   await fs.writeFile(outputPath, bytes);
@@ -247,7 +291,7 @@ async function mirrorSnapshot(source) {
 }
 
 async function mirrorGradePage(page) {
-  const bytes = await fetchBytes(page.url);
+  const bytes = await fetchBytes(page.url, { sourceId: page.id });
   const html = bytes.toString("utf8");
   const htmlPath = path.join(RAW_ROOT, "jp-cos", "grade-kanji", `grade-${page.grade}.html`);
   await ensureDir(path.dirname(htmlPath));
@@ -359,10 +403,29 @@ async function main() {
   };
 
   await writeJson(path.join(RAW_ROOT, "manifest.json"), manifest);
+  await writeSourceStatus({
+    status: "ok",
+    sourceCount: mirroredSources.length,
+    officialKanjiCount: totalCount,
+    fallbackPolicy:
+      "Alternate runners require manual approval, same user-agent/contact, and a lower request rate.",
+  });
   console.log(`kokugo source mirror complete: ${totalCount} official elementary kanji`);
 }
 
-main().catch((error) => {
+main().catch(async (error) => {
+  if (error instanceof SourceBlockedError) {
+    await writeSourceStatus({
+      status: error.status === 429 ? "rate-limited" : "blocked",
+      sourceId: error.sourceId,
+      sourceUrl: error.url,
+      statusCode: error.status,
+      statusText: error.statusText,
+      retryAfter: error.retryAfter,
+      fallbackPolicy:
+        "Stop this source, preserve last-good snapshots, and require cooldown plus manual approval before using an alternate runner.",
+    });
+  }
   console.error(error);
   process.exitCode = 1;
 });

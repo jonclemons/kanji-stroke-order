@@ -1,0 +1,147 @@
+name: Build Kokugo Graph
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_id:
+        description: "Optional immutable graph build ID."
+        required: false
+      source_bundle_key:
+        description: "Private R2 source mirror bundle key."
+        required: false
+        default: "mirrors/kokugo-sources/latest.tar.gz"
+  workflow_run:
+    workflows:
+      - Mirror Kokugo Sources
+    types:
+      - completed
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kokugo-graph-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GRAPH_BUCKET: ${{ vars.GRAPH_BUCKET || 'kokugo-graph-public' }}
+      SOURCE_MIRROR_BUCKET: ${{ vars.SOURCE_MIRROR_BUCKET || 'kokugo-source-mirrors' }}
+      BUILD_ARTIFACT_BUCKET: ${{ vars.BUILD_ARTIFACT_BUCKET || 'kokugo-graph-builds' }}
+      GRAPH_BASE_URL: ${{ vars.GRAPH_BASE_URL || 'https://data.kokugo.app' }}
+      INPUT_BUILD_ID: ${{ inputs.build_id }}
+      INPUT_SOURCE_BUNDLE_KEY: ${{ inputs.source_bundle_key }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Download latest approved source mirror
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          mkdir -p build data/raw
+          SOURCE_BUNDLE_KEY="${INPUT_SOURCE_BUNDLE_KEY:-mirrors/kokugo-sources/latest.tar.gz}"
+          echo "SOURCE_BUNDLE_KEY=${SOURCE_BUNDLE_KEY}" >> "${GITHUB_ENV}"
+          bunx wrangler r2 object get "${SOURCE_MIRROR_BUCKET}/${SOURCE_BUNDLE_KEY}" \
+            --file build/kokugo-source-mirror.tar.gz \
+            --remote
+          rm -rf data/raw/kokugo-sources
+          tar -xzf build/kokugo-source-mirror.tar.gz -C data/raw
+
+      - name: Build and validate graph
+        run: |
+          bun run graph:build
+          bun run graph:check
+
+      - name: Set immutable build ID
+        run: |
+          if [ -n "${INPUT_BUILD_ID}" ]; then
+            BUILD_ID="${INPUT_BUILD_ID}"
+          else
+            BUILD_ID="$(date -u +%Y%m%dT%H%M%SZ)-${GITHUB_SHA::12}-${GITHUB_RUN_ATTEMPT}"
+          fi
+          echo "BUILD_ID=${BUILD_ID}" >> "${GITHUB_ENV}"
+
+      - name: Upload immutable graph to public R2 staging area
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_UPLOAD_CONCURRENCY: "2"
+        run: |
+          node scripts/data-pipeline/r2-upload-tree.mjs \
+            --bucket "${GRAPH_BUCKET}" \
+            --root public/data/v2/graph \
+            --prefix "v2/builds/${BUILD_ID}/graph" \
+            --cache-control "public, max-age=31536000, immutable"
+
+      - name: Publish staging channel manifest
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          node scripts/data-pipeline/r2-write-channel-manifest.mjs \
+            --bucket "${GRAPH_BUCKET}" \
+            --channel staging \
+            --build-id "${BUILD_ID}" \
+            --base-url "${GRAPH_BASE_URL}"
+
+      - name: Package private build audit artifact
+        run: |
+          AUDIT_BUNDLE="build/kokugo-graph-build-${BUILD_ID}.tar.gz"
+          tar --ignore-failed-read -czf "${AUDIT_BUNDLE}" \
+            build/kokugo-graph.sqlite \
+            reports/kokugo-graph-coverage.md \
+            public/data/v2/graph/manifest.json \
+            data/raw/kokugo-sources/manifest.json \
+            data/raw/kokugo-sources/source-status.json
+          echo "AUDIT_BUNDLE=${AUDIT_BUNDLE}" >> "${GITHUB_ENV}"
+
+      - name: Upload private build audit artifact to R2
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          node scripts/data-pipeline/r2-put-object.mjs \
+            --bucket "${BUILD_ARTIFACT_BUCKET}" \
+            --key "builds/${BUILD_ID}/kokugo-graph-build.tar.gz" \
+            --file "${AUDIT_BUNDLE}" \
+            --content-type "application/gzip" \
+            --cache-control "private, max-age=0, no-store"
+
+      - name: Upload graph coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: kokugo-graph-report-${{ env.BUILD_ID }}
+          path: |
+            reports/kokugo-graph-coverage.md
+            public/data/v2/graph/manifest.json
+          retention-days: 30
+
+      - name: Smoke test public staging graph
+        if: ${{ vars.GRAPH_BASE_URL != '' }}
+        run: node scripts/data-pipeline/check-r2-graph.mjs --base-url "${GRAPH_BASE_URL}" --channel staging
+
+      - name: Summary
+        run: |
+          {
+            echo "## Kokugo Graph Build"
+            echo "- Build ID: \`${BUILD_ID}\`"
+            echo "- Public bucket: \`${GRAPH_BUCKET}\`"
+            echo "- Immutable prefix: \`v2/builds/${BUILD_ID}/graph\`"
+            echo "- Staging channel: \`${GRAPH_BASE_URL}/v2/channels/staging/manifest.json\`"
+            echo "- Private audit bucket: \`${BUILD_ARTIFACT_BUCKET}\`"
+            echo "- Source bundle: \`${SOURCE_BUNDLE_KEY}\`"
+          } >> "${GITHUB_STEP_SUMMARY}"

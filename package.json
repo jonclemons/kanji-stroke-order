@@ -12,6 +12,10 @@
     "graph:build": "bun scripts/data-pipeline/build-kokugo-graph.mjs",
     "graph:export": "bun scripts/data-pipeline/build-kokugo-graph.mjs",
     "graph:check": "node scripts/data-pipeline/check-kokugo-graph.mjs",
+    "r2:upload:tree": "node scripts/data-pipeline/r2-upload-tree.mjs",
+    "r2:put": "node scripts/data-pipeline/r2-put-object.mjs",
+    "r2:channel": "node scripts/data-pipeline/r2-write-channel-manifest.mjs",
+    "r2:check": "node scripts/data-pipeline/check-r2-graph.mjs",
     "pipeline:refresh": "bun run mirror:sources && bun run graph:build && bun run graph:check",
     "smoke:worker": "node scripts/smoke-worker.mjs",
     "test": "vitest run"

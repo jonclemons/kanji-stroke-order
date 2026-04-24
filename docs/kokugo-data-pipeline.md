@@ -57,6 +57,113 @@ The app should consume only static JSON:
 Runtime code should not fetch MEXT, JP-COS, 教科書LOD, publisher pages, KanjiAPI,
 or KanjiVG directly once the cutover is ready.
 
+## R2 Hosting Shape
+
+R2 is the primary artifact host for the graph pipeline, but it is not part of
+the live app deploy yet. Graph refreshes publish objects only; they do not run
+`wrangler deploy`.
+
+Artifact tiers:
+
+- Public graph bucket: `kokugo-graph-public`
+  - Serves public/static graph JSON.
+  - Intended custom domain: `https://data.kokugo.app`.
+  - Immutable builds: `/v2/builds/{buildId}/graph/...`.
+  - Channel pointers: `/v2/channels/staging/manifest.json` and
+    `/v2/channels/prod/manifest.json`.
+- Private source mirror bucket: `kokugo-source-mirrors`
+  - Stores raw JP-COS, MEXT metadata, 教科書LOD snapshots, source manifests, and
+    fetch status.
+  - Not served by the app.
+- Private build artifact bucket: `kokugo-graph-builds`
+  - Stores SQLite DBs, coverage reports, validation logs, and audit bundles.
+  - Retained for debugging and provenance only.
+
+Cache policy:
+
+- Immutable build files use `Cache-Control: public, max-age=31536000, immutable`.
+- Channel manifests use `Cache-Control: public, max-age=60, must-revalidate`.
+- Raw mirrors and build audit bundles use private/no-store cache metadata.
+
+Future app cutover should introduce a graph base URL setting, default it to the
+local bundled `/data/v2/graph`, and switch production to
+`https://data.kokugo.app/v2/channels/prod` only after parity checks pass.
+
+## GitHub Actions
+
+The graph pipeline has three workflows, all separate from the existing live
+Worker deploy workflow.
+
+- `mirror-sources.yml`
+  - Manual and monthly scheduled trigger.
+  - Runs `bun run mirror:sources`.
+  - Uploads a tarball of `data/raw/kokugo-sources` to the private source mirror
+    bucket under both an immutable build key and `latest.tar.gz`.
+  - Uses explicit user-agent/contact metadata.
+- `build-graph.yml`
+  - Manual and after a successful mirror workflow.
+  - Downloads the latest approved source mirror bundle from private R2.
+  - Runs `bun run graph:build` and `bun run graph:check`.
+  - Uploads the immutable graph tree to `kokugo-graph-public`.
+  - Updates only the staging channel manifest.
+  - Uploads SQLite/report audit bundles to `kokugo-graph-builds`.
+- `promote-graph.yml`
+  - Manual only.
+  - Updates the prod channel manifest to point at a validated immutable build.
+  - Uses the `production-data` environment so GitHub environment approval rules
+    can gate promotion.
+
+Required GitHub secrets:
+
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
+
+Optional repository variables:
+
+- `GRAPH_BUCKET` defaults to `kokugo-graph-public`.
+- `SOURCE_MIRROR_BUCKET` defaults to `kokugo-source-mirrors`.
+- `BUILD_ARTIFACT_BUCKET` defaults to `kokugo-graph-builds`.
+- `GRAPH_BASE_URL` defaults to `https://data.kokugo.app`.
+- `KOKUGO_SOURCE_CONTACT` defaults to `https://kokugo.app`.
+
+Local dry-run helpers:
+
+```sh
+node scripts/data-pipeline/r2-upload-tree.mjs \
+  --dry-run \
+  --bucket kokugo-graph-public \
+  --root public/data/v2/graph \
+  --prefix v2/builds/test/graph \
+  --cache-control "public, max-age=31536000, immutable"
+
+node scripts/data-pipeline/r2-write-channel-manifest.mjs \
+  --dry-run \
+  --bucket kokugo-graph-public \
+  --channel staging \
+  --build-id test \
+  --base-url https://data.kokugo.app
+```
+
+Public smoke check, after `data.kokugo.app` and the channel manifest exist:
+
+```sh
+node scripts/data-pipeline/check-r2-graph.mjs \
+  --base-url https://data.kokugo.app \
+  --channel staging
+```
+
+## Blocking And Fallback Policy
+
+The source mirror script stops immediately on repeated blocking signals for a
+source. For `403` or `429`, it writes `data/raw/kokugo-sources/source-status.json`
+with `blocked` or `rate-limited`, preserves last-good snapshots, and exits
+non-zero so CI surfaces the event.
+
+No automatic IP rotation is implemented. An alternate runner is allowed only
+after cooldown/manual review, must use the same user-agent/contact metadata, and
+must lower request rate. This is continuity and network recovery, not stealth
+evasion.
+
 ## Provider Neutrality
 
 Cloudflare Pages/R2 is a good deployment path, but the data pipeline should not
@@ -94,4 +201,3 @@ MEXT is the root. Everything else is an attributed graph claim or overlay:
 - publisher path: optional, source-backed progression overlay
 - vocabulary/examples: candidate or reviewed child-facing content
 - AI generation: offline, reviewed, committed as static data
-
