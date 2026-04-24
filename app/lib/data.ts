@@ -23,7 +23,7 @@ async function fetchAsset(c: AppContext, path: string) {
     },
   });
 
-  return c.env.ASSETS.fetch(request);
+  return c.env.ASSETS.fetch(request.url, request);
 }
 
 async function fetchJson<T>(c: AppContext, path: string): Promise<T | null> {
