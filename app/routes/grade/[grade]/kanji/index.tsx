@@ -4,7 +4,6 @@ import { PrintPreviewSheet, ReadingsSection, StepsSection, WordsSection } from "
 import type { AppEnv } from "../../../../env";
 import DeferredPracticeAnimator from "../../../../islands/DeferredPracticeAnimator";
 import { loadKanjiDetailData, parseGrade, parseKanjiParam } from "../../../../lib/data";
-import { gradeLabel } from "../../../../lib/kanji";
 import { buildPrintSheetSVG } from "../../../../lib/print";
 import { gradePath, kanjiPath, printPath } from "../../../../lib/routes";
 
@@ -41,7 +40,6 @@ app.get("/:char", async (c) => {
       searchValue={kanji}
       subtitle="よみかた、ことば、かきじゅんを みてみよう"
       title={`${kanji} の れんしゅう`}
-      eyebrow={`${gradeLabel(detail.canonicalGrade || requestedGrade)} の かんじ`}
     >
       <div class="results">
         <div class="results-columns">

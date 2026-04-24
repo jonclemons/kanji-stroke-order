@@ -2,7 +2,6 @@ import { createRoute } from "honox/factory";
 import { AppShell } from "../../../components/AppShell";
 import { EmptyState } from "../../../components/KanjiSections";
 import { loadGradeKanji, parseGrade } from "../../../lib/data";
-import { gradeLabel } from "../../../lib/kanji";
 
 export default createRoute(async (c) => {
   const grade = parseGrade(c.req.param("grade"));
@@ -24,7 +23,6 @@ export default createRoute(async (c) => {
       searchValue={c.req.query("kanji") || ""}
       subtitle="したの ますから きになる かんじを おしてね"
       title="かんじを えらぼう"
-      eyebrow={`${gradeLabel(grade)} の かんじ`}
     >
       <EmptyState message="したの ますから かんじを おしてね" />
     </AppShell>,

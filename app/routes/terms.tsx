@@ -13,7 +13,6 @@ export default createRoute((c) => {
       }
       subtitle="このアプリの つかいかたについて"
       title="利用規約"
-      eyebrow="たいせつな おしらせ"
     >
       <div class="data-info-view">
         <div class="data-info-card">

@@ -1,7 +1,79 @@
 import { createClient } from "honox/client";
+import {
+  applyTheme,
+  readStoredThemePreference,
+  resolveTheme,
+  type ThemeMode,
+  type ThemePreference,
+  writeStoredThemePreference,
+} from "./lib/theme";
 import { APP_VERSION } from "../src/version.js";
 
 createClient();
+
+function getThemeButtonLabel(preference: ThemePreference, theme: ThemeMode): string {
+  if (preference === "auto") {
+    return theme === "dark"
+      ? "くらいがめんです。おすと あかるくします"
+      : "あかるいがめんです。おすと くらくします";
+  }
+
+  return theme === "dark" ? "あかるいがめんにする" : "くらいがめんにする";
+}
+
+function syncThemeToggleButton(button: HTMLButtonElement, preference: ThemePreference, theme: ThemeMode) {
+  const buttonLabel = getThemeButtonLabel(preference, theme);
+  const srOnlyLabel = button.querySelector(".sr-only");
+
+  button.classList.toggle("is-auto", preference === "auto");
+  button.classList.toggle("is-dark", theme === "dark");
+  button.classList.toggle("is-light", theme === "light");
+  button.setAttribute("aria-label", buttonLabel);
+  button.setAttribute("aria-pressed", String(theme === "dark"));
+  button.setAttribute("title", buttonLabel);
+
+  if (srOnlyLabel instanceof HTMLElement) {
+    srOnlyLabel.textContent = buttonLabel;
+  }
+}
+
+function setupThemeToggle() {
+  const button = document.getElementById("themeToggleBtn");
+  if (!(button instanceof HTMLButtonElement)) return;
+  if (button.dataset.bound === "true") return;
+
+  button.dataset.bound = "true";
+
+  const matchMediaImpl = typeof window.matchMedia === "function" ? window.matchMedia.bind(window) : undefined;
+  const mediaQuery = window.matchMedia?.("(prefers-color-scheme: dark)");
+
+  const applyResolvedTheme = () => {
+    const preference = readStoredThemePreference(window.localStorage);
+    const theme = resolveTheme(preference, matchMediaImpl);
+    applyTheme(theme, preference);
+    syncThemeToggleButton(button, preference, theme);
+  };
+
+  applyResolvedTheme();
+
+  button.addEventListener("click", () => {
+    const currentTheme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+    const nextPreference: ThemePreference = currentTheme === "dark" ? "light" : "dark";
+    writeStoredThemePreference(nextPreference, window.localStorage);
+    applyTheme(nextPreference, nextPreference);
+    syncThemeToggleButton(button, nextPreference, nextPreference);
+  });
+
+  const refreshAutoTheme = () => {
+    if (readStoredThemePreference(window.localStorage) !== "auto") return;
+    applyResolvedTheme();
+  };
+
+  mediaQuery?.addEventListener?.("change", refreshAutoTheme);
+  window.setInterval(refreshAutoTheme, 60_000);
+}
+
+setupThemeToggle();
 
 async function setupServiceWorker() {
   if (!("serviceWorker" in navigator)) return;
