@@ -1,0 +1,140 @@
+{
+  "id": "kanji-0606f",
+  "type": "kanji",
+  "kanji": "息",
+  "hex": "0606f",
+  "officialGrade": 3,
+  "localGrade": 3,
+  "officialSequence": 111,
+  "status": "official-and-local",
+  "strokeCount": 10,
+  "meanings": [
+    "breath",
+    "coming to an end",
+    "interest (on money)",
+    "nuture",
+    "respiration",
+    "rest",
+    "son"
+  ],
+  "readings": [
+    {
+      "id": "reading-e0dcd7ece52489ae",
+      "type": "kun",
+      "reading": "いき",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "いき",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%81%AF",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-79caf548339f922b",
+      "type": "on",
+      "reading": "ソク",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "onReading",
+            "value": "ソク",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%81%AF",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    }
+  ],
+  "vocab": [
+    "vocab-07d9fcec648d83fc",
+    "vocab-2e2fd5a3412dcc2d",
+    "vocab-b04dd10d4d64dffa",
+    "vocab-2152629111321a01",
+    "vocab-c063ff5a6db5012b",
+    "vocab-c2a20e255da516b5",
+    "vocab-3133c4ce15acd2fe",
+    "vocab-e85c46b24b86b95e"
+  ],
+  "progressions": [
+    {
+      "profileId": "grade-only",
+      "grade": 3,
+      "sequence": 111,
+      "source_uri": "https://w3id.org/jp-cos/8210030131110000",
+      "confidence": 1
+    }
+  ],
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "officialCurriculumDocument",
+        "value": "小学校学習指導要領（平成29年告示）",
+        "sourceId": "mext-elementary-course-of-study-2017-pdf",
+        "sourceUri": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/09/26/1413522_001.pdf",
+        "confidence": 1,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "officialGrade",
+        "value": 3,
+        "sourceId": "mext-cos-2017-grade-3-kanji",
+        "sourceUri": "https://w3id.org/jp-cos/8210030131110000",
+        "confidence": 1,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "officialSequence",
+        "value": 111,
+        "sourceId": "mext-cos-2017-grade-3-kanji",
+        "sourceUri": "https://w3id.org/jp-cos/8210030131110000",
+        "confidence": 1,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "localGrade",
+        "value": 3,
+        "sourceId": "kanjiapi-v1-local-grade",
+        "sourceUri": "public/data/v1/grades/grade-3.json",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "strokeCount",
+        "value": 10,
+        "sourceId": "kanjiapi-v1-local-info",
+        "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%81%AF",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "strokeOrderSvg",
+        "value": "0606f.svg",
+        "sourceId": "kanjivg-local-svg",
+        "sourceUri": "public/data/v1/svg/0606f.svg",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "mext-elementary-course-of-study-2017-pdf",
+      "mext-cos-2017-grade-3-kanji",
+      "kanjiapi-v1-local-grade",
+      "kanjiapi-v1-local-info",
+      "kanjivg-local-svg"
+    ]
+  }
+}

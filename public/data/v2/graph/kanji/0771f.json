@@ -1,0 +1,176 @@
+{
+  "id": "kanji-0771f",
+  "type": "kanji",
+  "kanji": "真",
+  "hex": "0771f",
+  "officialGrade": 3,
+  "localGrade": 3,
+  "officialSequence": 101,
+  "status": "official-and-local",
+  "strokeCount": 10,
+  "meanings": [
+    "Buddhist sect",
+    "reality",
+    "true"
+  ],
+  "readings": [
+    {
+      "id": "reading-bd81453e6b8cb867",
+      "type": "kun",
+      "reading": "ま",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "ま",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E7%9C%9F",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-fa6c0b3416eb9c36",
+      "type": "kun",
+      "reading": "ま-",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "ま-",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E7%9C%9F",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-390ad744037d74ab",
+      "type": "kun",
+      "reading": "まこと",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "まこと",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E7%9C%9F",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-8368419b4d74face",
+      "type": "on",
+      "reading": "シン",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "onReading",
+            "value": "シン",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E7%9C%9F",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    }
+  ],
+  "vocab": [
+    "vocab-e5a5f3823354f957",
+    "vocab-1bf0c4d3dd3b8bb4",
+    "vocab-16906ce33f386445",
+    "vocab-908a50121d9d5d6f",
+    "vocab-4f5f362e0ad32cd8",
+    "vocab-216687fb85129dc6",
+    "vocab-baab391976e5a9d6",
+    "vocab-33d8a27189297477"
+  ],
+  "progressions": [
+    {
+      "profileId": "grade-only",
+      "grade": 3,
+      "sequence": 101,
+      "source_uri": "https://w3id.org/jp-cos/8210030131010000",
+      "confidence": 1
+    }
+  ],
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "officialCurriculumDocument",
+        "value": "小学校学習指導要領（平成29年告示）",
+        "sourceId": "mext-elementary-course-of-study-2017-pdf",
+        "sourceUri": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/09/26/1413522_001.pdf",
+        "confidence": 1,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "officialGrade",
+        "value": 3,
+        "sourceId": "mext-cos-2017-grade-3-kanji",
+        "sourceUri": "https://w3id.org/jp-cos/8210030131010000",
+        "confidence": 1,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "officialSequence",
+        "value": 101,
+        "sourceId": "mext-cos-2017-grade-3-kanji",
+        "sourceUri": "https://w3id.org/jp-cos/8210030131010000",
+        "confidence": 1,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "localGrade",
+        "value": 3,
+        "sourceId": "kanjiapi-v1-local-grade",
+        "sourceUri": "public/data/v1/grades/grade-3.json",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "strokeCount",
+        "value": 10,
+        "sourceId": "kanjiapi-v1-local-info",
+        "sourceUri": "https://kanjiapi.dev/v1/kanji/%E7%9C%9F",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "strokeOrderSvg",
+        "value": "0771f.svg",
+        "sourceId": "kanjivg-local-svg",
+        "sourceUri": "public/data/v1/svg/0771f.svg",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "mext-elementary-course-of-study-2017-pdf",
+      "mext-cos-2017-grade-3-kanji",
+      "kanjiapi-v1-local-grade",
+      "kanjiapi-v1-local-info",
+      "kanjivg-local-svg"
+    ]
+  }
+}

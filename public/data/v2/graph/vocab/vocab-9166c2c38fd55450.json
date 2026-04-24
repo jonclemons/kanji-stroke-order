@@ -1,0 +1,62 @@
+{
+  "id": "vocab-9166c2c38fd55450",
+  "type": "vocabulary",
+  "reviewStatus": "candidate-unreviewed",
+  "educationSuitability": "needs-review-before-child-facing-use",
+  "domains": [
+    "vocabulary",
+    "kanji"
+  ],
+  "written": "伝統",
+  "reading": "でんとう",
+  "meanings": [
+    "tradition",
+    "convention"
+  ],
+  "kanjiChars": [
+    "伝",
+    "統"
+  ],
+  "officialMaxGrade": 5,
+  "localMaxGrade": 5,
+  "linkedKanji": [
+    "伝",
+    "統"
+  ],
+  "renderPolicy": "show known kanji and kana fallback by profile/known set",
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "written",
+        "value": "伝統",
+        "sourceId": "kanjiapi-v1-local-words",
+        "sourceUri": "https://kanjiapi.dev/v1/words/%E4%BC%9D",
+        "confidence": 0.75,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "reading",
+        "value": "でんとう",
+        "sourceId": "kanjiapi-v1-local-words",
+        "sourceUri": "https://kanjiapi.dev/v1/words/%E4%BC%9D",
+        "confidence": 0.75,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "kanjiChars",
+        "value": [
+          "伝",
+          "統"
+        ],
+        "sourceId": "mext-grade-kanji-2017",
+        "sourceUri": "https://w3id.org/jp-cos/8210000100000000",
+        "confidence": 0.9,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "kanjiapi-v1-local-words",
+      "mext-grade-kanji-2017"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "vocab-2f2609da0c7b4c3f",
+  "type": "vocabulary",
+  "reviewStatus": "candidate-unreviewed",
+  "educationSuitability": "needs-review-before-child-facing-use",
+  "domains": [
+    "vocabulary",
+    "kanji"
+  ],
+  "written": "不毛",
+  "reading": "ふもう",
+  "meanings": [
+    "unproductive (e.g. discussion)",
+    "fruitless",
+    "barren"
+  ],
+  "kanjiChars": [
+    "不",
+    "毛"
+  ],
+  "officialMaxGrade": 4,
+  "localMaxGrade": 4,
+  "linkedKanji": [
+    "毛"
+  ],
+  "renderPolicy": "show known kanji and kana fallback by profile/known set",
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "written",
+        "value": "不毛",
+        "sourceId": "kanjiapi-v1-local-words",
+        "sourceUri": "https://kanjiapi.dev/v1/words/%E6%AF%9B",
+        "confidence": 0.75,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "reading",
+        "value": "ふもう",
+        "sourceId": "kanjiapi-v1-local-words",
+        "sourceUri": "https://kanjiapi.dev/v1/words/%E6%AF%9B",
+        "confidence": 0.75,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "kanjiChars",
+        "value": [
+          "不",
+          "毛"
+        ],
+        "sourceId": "mext-grade-kanji-2017",
+        "sourceUri": "https://w3id.org/jp-cos/8210000100000000",
+        "confidence": 0.9,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "kanjiapi-v1-local-words",
+      "mext-grade-kanji-2017"
+    ]
+  }
+}

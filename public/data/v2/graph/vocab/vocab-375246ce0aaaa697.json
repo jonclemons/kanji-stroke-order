@@ -1,0 +1,60 @@
+{
+  "id": "vocab-375246ce0aaaa697",
+  "type": "vocabulary",
+  "reviewStatus": "candidate-unreviewed",
+  "educationSuitability": "needs-review-before-child-facing-use",
+  "domains": [
+    "vocabulary",
+    "kanji"
+  ],
+  "written": "熱湯",
+  "reading": "ねっとう",
+  "meanings": [
+    "boiling water"
+  ],
+  "kanjiChars": [
+    "熱",
+    "湯"
+  ],
+  "officialMaxGrade": 4,
+  "localMaxGrade": 4,
+  "linkedKanji": [
+    "湯"
+  ],
+  "renderPolicy": "show known kanji and kana fallback by profile/known set",
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "written",
+        "value": "熱湯",
+        "sourceId": "kanjiapi-v1-local-words",
+        "sourceUri": "https://kanjiapi.dev/v1/words/%E6%B9%AF",
+        "confidence": 0.75,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "reading",
+        "value": "ねっとう",
+        "sourceId": "kanjiapi-v1-local-words",
+        "sourceUri": "https://kanjiapi.dev/v1/words/%E6%B9%AF",
+        "confidence": 0.75,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "kanjiChars",
+        "value": [
+          "熱",
+          "湯"
+        ],
+        "sourceId": "mext-grade-kanji-2017",
+        "sourceUri": "https://w3id.org/jp-cos/8210000100000000",
+        "confidence": 0.9,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "kanjiapi-v1-local-words",
+      "mext-grade-kanji-2017"
+    ]
+  }
+}

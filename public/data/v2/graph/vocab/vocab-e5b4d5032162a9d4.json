@@ -1,0 +1,61 @@
+{
+  "id": "vocab-e5b4d5032162a9d4",
+  "type": "vocabulary",
+  "reviewStatus": "candidate-unreviewed",
+  "educationSuitability": "needs-review-before-child-facing-use",
+  "domains": [
+    "vocabulary",
+    "kanji"
+  ],
+  "written": "日の丸",
+  "reading": "ひのまる",
+  "meanings": [
+    "outline of the Sun (esp. represented as a red circle)",
+    "the Japanese flag"
+  ],
+  "kanjiChars": [
+    "日",
+    "丸"
+  ],
+  "officialMaxGrade": 2,
+  "localMaxGrade": 2,
+  "linkedKanji": [
+    "丸"
+  ],
+  "renderPolicy": "show known kanji and kana fallback by profile/known set",
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "written",
+        "value": "日の丸",
+        "sourceId": "kanjiapi-v1-local-words",
+        "sourceUri": "https://kanjiapi.dev/v1/words/%E4%B8%B8",
+        "confidence": 0.75,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "reading",
+        "value": "ひのまる",
+        "sourceId": "kanjiapi-v1-local-words",
+        "sourceUri": "https://kanjiapi.dev/v1/words/%E4%B8%B8",
+        "confidence": 0.75,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "kanjiChars",
+        "value": [
+          "日",
+          "丸"
+        ],
+        "sourceId": "mext-grade-kanji-2017",
+        "sourceUri": "https://w3id.org/jp-cos/8210000100000000",
+        "confidence": 0.9,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "kanjiapi-v1-local-words",
+      "mext-grade-kanji-2017"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "kanji-0500b",
+  "type": "kanji",
+  "kanji": "個",
+  "hex": "0500b",
+  "officialGrade": 5,
+  "localGrade": 5,
+  "officialSequence": 56,
+  "status": "official-and-local",
+  "strokeCount": 10,
+  "meanings": [
+    "counter for articles",
+    "individual"
+  ],
+  "readings": [
+    {
+      "id": "reading-9090d898ba8a2a60",
+      "type": "on",
+      "reading": "カ",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "onReading",
+            "value": "カ",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E5%80%8B",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-d75e9497a0d3b784",
+      "type": "on",
+      "reading": "コ",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "onReading",
+            "value": "コ",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E5%80%8B",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    }
+  ],
+  "vocab": [
+    "vocab-74a801376704d31f",
+    "vocab-da2259c27539d198",
+    "vocab-1e73ff2deb21ea5e",
+    "vocab-d02babe7c6ccbb46",
+    "vocab-d1159285306ed2d7",
+    "vocab-cefc16d47318cf04",
+    "vocab-f5c04f44cabf9fca",
+    "vocab-47a89d9da716e880"
+  ],
+  "progressions": [
+    {
+      "profileId": "grade-only",
+      "grade": 5,
+      "sequence": 56,
+      "source_uri": "https://w3id.org/jp-cos/8210050150560000",
+      "confidence": 1
+    }
+  ],
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "officialCurriculumDocument",
+        "value": "小学校学習指導要領（平成29年告示）",
+        "sourceId": "mext-elementary-course-of-study-2017-pdf",
+        "sourceUri": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/09/26/1413522_001.pdf",
+        "confidence": 1,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "officialGrade",
+        "value": 5,
+        "sourceId": "mext-cos-2017-grade-5-kanji",
+        "sourceUri": "https://w3id.org/jp-cos/8210050150560000",
+        "confidence": 1,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "officialSequence",
+        "value": 56,
+        "sourceId": "mext-cos-2017-grade-5-kanji",
+        "sourceUri": "https://w3id.org/jp-cos/8210050150560000",
+        "confidence": 1,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "localGrade",
+        "value": 5,
+        "sourceId": "kanjiapi-v1-local-grade",
+        "sourceUri": "public/data/v1/grades/grade-5.json",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "strokeCount",
+        "value": 10,
+        "sourceId": "kanjiapi-v1-local-info",
+        "sourceUri": "https://kanjiapi.dev/v1/kanji/%E5%80%8B",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "strokeOrderSvg",
+        "value": "0500b.svg",
+        "sourceId": "kanjivg-local-svg",
+        "sourceUri": "public/data/v1/svg/0500b.svg",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "mext-elementary-course-of-study-2017-pdf",
+      "mext-cos-2017-grade-5-kanji",
+      "kanjiapi-v1-local-grade",
+      "kanjiapi-v1-local-info",
+      "kanjivg-local-svg"
+    ]
+  }
+}

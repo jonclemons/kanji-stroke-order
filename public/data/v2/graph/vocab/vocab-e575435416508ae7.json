@@ -1,0 +1,64 @@
+{
+  "id": "vocab-e575435416508ae7",
+  "type": "vocabulary",
+  "reviewStatus": "candidate-unreviewed",
+  "educationSuitability": "needs-review-before-child-facing-use",
+  "domains": [
+    "vocabulary",
+    "kanji"
+  ],
+  "written": "思う存分",
+  "reading": "おもうぞんぶん",
+  "meanings": [
+    "to one's heart's content",
+    "to one's complete satisfaction",
+    "as much as one likes"
+  ],
+  "kanjiChars": [
+    "思",
+    "存",
+    "分"
+  ],
+  "officialMaxGrade": 6,
+  "localMaxGrade": 6,
+  "linkedKanji": [
+    "存"
+  ],
+  "renderPolicy": "show known kanji and kana fallback by profile/known set",
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "written",
+        "value": "思う存分",
+        "sourceId": "kanjiapi-v1-local-words",
+        "sourceUri": "https://kanjiapi.dev/v1/words/%E5%AD%98",
+        "confidence": 0.75,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "reading",
+        "value": "おもうぞんぶん",
+        "sourceId": "kanjiapi-v1-local-words",
+        "sourceUri": "https://kanjiapi.dev/v1/words/%E5%AD%98",
+        "confidence": 0.75,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "kanjiChars",
+        "value": [
+          "思",
+          "存",
+          "分"
+        ],
+        "sourceId": "mext-grade-kanji-2017",
+        "sourceUri": "https://w3id.org/jp-cos/8210000100000000",
+        "confidence": 0.9,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "kanjiapi-v1-local-words",
+      "mext-grade-kanji-2017"
+    ]
+  }
+}

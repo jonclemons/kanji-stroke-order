@@ -1,0 +1,339 @@
+{
+  "id": "kanji-06e08",
+  "type": "kanji",
+  "kanji": "済",
+  "hex": "06e08",
+  "officialGrade": 6,
+  "localGrade": 6,
+  "officialSequence": 59,
+  "status": "official-and-local",
+  "strokeCount": 11,
+  "meanings": [
+    "come to an end",
+    "excusable",
+    "finish",
+    "need not",
+    "relieve (burden)",
+    "settle (debt, etc.)"
+  ],
+  "readings": [
+    {
+      "id": "reading-19bd8c08b20c8266",
+      "type": "kun",
+      "reading": "-す.ます",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "-す.ます",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%B8%88",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-b6822f6146e7e029",
+      "type": "kun",
+      "reading": "-ず.み",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "-ず.み",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%B8%88",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-33ada5c4051a42f6",
+      "type": "kun",
+      "reading": "-ずみ",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "-ずみ",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%B8%88",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-fea3921f1fbd0834",
+      "type": "kun",
+      "reading": "す.ます",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "す.ます",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%B8%88",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-ee85f9eec78949e0",
+      "type": "kun",
+      "reading": "す.まない",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "す.まない",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%B8%88",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-70d099bdad34afa7",
+      "type": "kun",
+      "reading": "す.む",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "す.む",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%B8%88",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-cfa2eebff57f7b4a",
+      "type": "kun",
+      "reading": "すく.う",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "すく.う",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%B8%88",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-400815f3cbbd99c1",
+      "type": "kun",
+      "reading": "な.す",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "な.す",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%B8%88",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-3534adf1e357edf2",
+      "type": "kun",
+      "reading": "わた.る",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "わた.る",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%B8%88",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-09c5bce502284f43",
+      "type": "kun",
+      "reading": "わたし",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "kunReading",
+            "value": "わたし",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%B8%88",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-339bd10a57cf9b85",
+      "type": "on",
+      "reading": "サイ",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "onReading",
+            "value": "サイ",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%B8%88",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    },
+    {
+      "id": "reading-b8e1a803dc29fd52",
+      "type": "on",
+      "reading": "セイ",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "onReading",
+            "value": "セイ",
+            "sourceId": "kanjiapi-v1-local-info",
+            "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%B8%88",
+            "confidence": 0.8,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kanjiapi-v1-local-info"
+        ]
+      }
+    }
+  ],
+  "vocab": [
+    "vocab-d9b291bba61c2274",
+    "vocab-5c207b537738fc50",
+    "vocab-6b2ec0d0ca0041dc",
+    "vocab-2c860f59ef71da3f",
+    "vocab-6310f58a50d15410",
+    "vocab-7d40bae6d0c95255",
+    "vocab-5b26f3fc6e1b76f7",
+    "vocab-f320e76c1786fe0e"
+  ],
+  "progressions": [
+    {
+      "profileId": "grade-only",
+      "grade": 6,
+      "sequence": 59,
+      "source_uri": "https://w3id.org/jp-cos/8210060160590000",
+      "confidence": 1
+    }
+  ],
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "officialCurriculumDocument",
+        "value": "小学校学習指導要領（平成29年告示）",
+        "sourceId": "mext-elementary-course-of-study-2017-pdf",
+        "sourceUri": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/09/26/1413522_001.pdf",
+        "confidence": 1,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "officialGrade",
+        "value": 6,
+        "sourceId": "mext-cos-2017-grade-6-kanji",
+        "sourceUri": "https://w3id.org/jp-cos/8210060160590000",
+        "confidence": 1,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "officialSequence",
+        "value": 59,
+        "sourceId": "mext-cos-2017-grade-6-kanji",
+        "sourceUri": "https://w3id.org/jp-cos/8210060160590000",
+        "confidence": 1,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "localGrade",
+        "value": 6,
+        "sourceId": "kanjiapi-v1-local-grade",
+        "sourceUri": "public/data/v1/grades/grade-6.json",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "strokeCount",
+        "value": 11,
+        "sourceId": "kanjiapi-v1-local-info",
+        "sourceUri": "https://kanjiapi.dev/v1/kanji/%E6%B8%88",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "strokeOrderSvg",
+        "value": "06e08.svg",
+        "sourceId": "kanjivg-local-svg",
+        "sourceUri": "public/data/v1/svg/06e08.svg",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "mext-elementary-course-of-study-2017-pdf",
+      "mext-cos-2017-grade-6-kanji",
+      "kanjiapi-v1-local-grade",
+      "kanjiapi-v1-local-info",
+      "kanjivg-local-svg"
+    ]
+  }
+}

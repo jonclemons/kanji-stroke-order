@@ -8,6 +8,11 @@
     "deploy": "wrangler deploy",
     "measure:latency": "node scripts/measure-latency.mjs",
     "mirror:data": "node scripts/mirror-kanji-data.mjs",
+    "mirror:sources": "node scripts/data-pipeline/mirror-kokugo-sources.mjs",
+    "graph:build": "bun scripts/data-pipeline/build-kokugo-graph.mjs",
+    "graph:export": "bun scripts/data-pipeline/build-kokugo-graph.mjs",
+    "graph:check": "node scripts/data-pipeline/check-kokugo-graph.mjs",
+    "pipeline:refresh": "bun run mirror:sources && bun run graph:build && bun run graph:check",
     "smoke:worker": "node scripts/smoke-worker.mjs",
     "test": "vitest run"
   },

@@ -1,0 +1,5706 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc/dist/bootstrap-toc.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>教科書LODについて</title>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="教科書LODについて">
+    <meta property="og:title" content="教科書LODについて">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://w3id.org/jp-textbook/textbookLOD-logo2.png">
+    <meta name="generator" content="ttl2html 3.1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-389547-11"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-389547-11');
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="#toc">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-inverse">
+      <a class="navbar-brand" href="./">
+        <img src="logo.png" style="max-height: 54px" alt="教科書LOD">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+            <li class="nav-item"><a class="nav-link" href="en/">English</a></li>
+        </ul>
+        <script async src="https://cse.google.com/cse.js?cx=014295902295096775885:qidxvgqqoco"></script>
+        <div class="gcse-search"></div>
+      </div>
+    </nav>
+        <div class="jumbotron">
+      <div class="container">
+        <h1>教科書LODについて</h1>
+        <p>教科書LODプロジェクトでは、初等教育、中等教育で使われている学習指導要領と現行使用教科書の出版情報、単元情報、編修趣意書情報などを Linked Open Data (LOD) として公開します。</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./"><i class="bi bi-house-door-fill"></i> Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">教科書LODについて</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 order-12">
+          <h2 data-toc-skip>目次</h2>
+          <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+        </div>
+        <div class="col-md-10">
+        <h2 id="overview">概要</h2>
+<p>
+1992年施行の学習指導要領以降の検定教科書を対象として、書誌事項、単元情報、編集趣意書情報および教科等の関連情報をLOD化しています。
+2025年1月現在、約9,000タイトルの教科書および関連情報を公開しています。
+現在公開中また公開予定の教科書や単元、編修趣意書情報は<a href="https://github.com/jp-textbook/jp-textbook.github.io/wiki/Roadmap">ロードマップページ</a>をご覧ください。
+</p>
+<p>
+データセットの元とした書誌情報等は<a href="http://www.nier.go.jp/library/">国立教育政策研究所教育図書館</a>において作成されたものを利用しています。
+教育図書館サイト内の<a href="https://nierlib.nier.go.jp/lib/database/TEXTBOOK/advanced/">戦後教科書データベース</a>においても検索できます。
+また、ISBNについては、<a href="http://www.textbook-rc.or.jp/library/">教科書研究センター附属教科書図書館</a>において作成されたデータを利用しています。
+</p>
+<p>
+また、単元情報、教科書編修趣意書情報については JSPS 科研費JP21HP8016, JP23K28384の助成を受けて作成されたデータセットを元にしています。
+元データの一部は<a href="https://erid.nier.go.jp/SHUISHO/">教科書編修趣意書データベース</a>（国立教育政策研究所）から入手できます。
+</p>
+<p>
+教科書LODの構築と公開の詳細については下記論文・文書等を参照してください。
+</p>
+<ul>
+  <li>江草由佳. 教育関連メタデータLOD化の現状と課題. 「メタデータ」のパースペクティブ. 池内有為・木村麻衣子, 責任編集. 勉誠社, 2025, pp.253-274. <a href="https://bensei.jp/index.php?main_page=product_book_info&cPath=18_72&products_id=103805">https://bensei.jp/index.php?main_page=product_book_info&cPath=18_72&products_id=103805</a></li>
+  <li>江草由佳, 高久雅生. 教科書Linked Open Data (LOD) の構築と公開. 情報の科学と技術. 2018, Vol.68, No.7, pp.361-367, <a href="https://doi.org/10.18919/jkg.68.7_361">https://doi.org/10.18919/jkg.68.7_361</a>, <a href="http://hdl.handle.net/2241/00152209">http://hdl.handle.net/2241/00152209</a></li>
+  <li>高久雅生, 江草由佳, 榎本聡, 大井将生, 有山裕美子, 阿児雄之.
+      デジタルアーカイブの教育利用促進を目指したメタデータLOD基盤に関する研究.
+      情報知識学会第33回年次大会, つくば, 情報知識学会誌, vol.35, no.2, pp.262-277 (2025-05)<br/>
+      DOI: <a href="https://doi.org/10.2964/jsik_2025_025">https://doi.org/10.2964/jsik_2025_025</a><br/>
+      <a href="https://speakerdeck.com/masao/research-on-a-metadata-lod-platform-for-promoting-educational-uses-of-digital-archives">[発表スライド]</a></li>
+  <li><a href="https://github.com/jp-textbook/jp-textbook.github.io/wiki/Toolkit">Poorman’s Linked Data Toolkit / お手軽にLinked Dataを作ろう!</a></li>
+  <li>江草由佳, 高久雅生. お手軽、お安く、持続可能な書誌情報公開（LOD化）の秘訣 ―教科書LODの経験から―. Code4Lib JAPANカンファレンス2017, 熊本 (2017-09),  <a href="https://www.slideshare.net/yegusa/20170903-c4ljplod">https://www.slideshare.net/yegusa/20170903-c4ljplod</a></li>
+</ul>
+<p>また、教科書LOD（単元LOD及び学習指導要領LOD）を紹介するオンライン情報交換会を開催し、その録画動画も公開しています。ご関心の方はぜひご覧ください。</p>
+<ul>
+  <li>教育データプラス研究会. 学習指導要領LOD＆教科書LODの紹介（2022.10.21 19:00〜）. 2022, <a href="https://www.youtube.com/watch?v=P4QRK8YNBy0">https://www.youtube.com/watch?v=P4QRK8YNBy0</a></li>
+</ul>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/P4QRK8YNBy0?rel=0" allowfullscreen></iframe>
+</div>
+<h3 id="news">お知らせ</h3>
+<dl>
+  <dt>2016年1月30日</dt>
+  <dd>
+    <i class="bi bi-easel text-success"></i>
+    <span class="label presentation">発表</span>
+    <a href="https://www.naturemuseum.net/?p=1146">オンラインシンポジウム 「博物館のデジタルアーカイブと学校をつなぐ」</a>において、講演を行いました。
+    <ul>
+      <li>江草由佳. 教科書LOD、学習指導要領LODとは何か？ その活用方法とは？. オンラインシンポジウム「博物館のデジタルアーカイブと学校をつなぐ」, 西日本自然史系博物館ネットワーク, オンライン, 2016-01-30<br>
+        <ul>
+          <li><a href="https://speakerdeck.com/yegusa/2026-01-30-mandsl-textbook-jp-cos-lod">スライド資料</a></li>
+          <li><a href="https://www.youtube.com/watch?v=9npPD0xD7Fw">アーカイブ動画</a></li>
+        </ul>
+      </li>
+    </ul>
+  </dd>
+  <dt>2026年1月9日</dt>
+  <dd>
+    <i class="bi bi-easel text-success"></i>
+    <span class="label presentation">発表</span>
+    <a href="https://taikai.digitalarchivejapan.org/10th/kikaku-2/">デジタルアーカイブ学会第10回研究大会 企画セッション</a>「DA and Education for AI / AI for DA and Education」において、講演とパネル討論を行いました。
+    <ul>
+      <li>江草由佳. 教育系LODの開発: デジタルアーカイブと教育をつなげるデータ基盤として. デジタルアーカイブ学会第10回研究大会 企画セッション「DA and Education for AI / AI for DA and Education」, オンライン, 2026-01-09
+        <ul>
+          <li><a href="https://speakerdeck.com/yegusa/2026-01-09-da-10th-panel">スライド資料</a></li>
+        </ul>
+      </li>
+    </ul>
+  </dd>
+  <dt>2025年12月24日</dt>
+  <dd>
+    <i class="bi bi-info-circle text-secondary"></i>
+    <span class="label info">お知らせ</span>
+    記事「<a href="https://qiita.com/tmasao/items/32e470c8ebbb86311d5b">教科書LOD開発の経緯とURI設計</a>」を公開しました。
+    <ul>
+      <li>高久雅生. <a href="https://qiita.com/tmasao/items/32e470c8ebbb86311d5b">教科書LOD開発の経緯とURI設計</a>. Qiita. 2025-12-24.
+    </ul>
+  </dd>
+  <dt>2025年11月21日</dt>
+  <dd>
+    <i class="bi bi-easel text-success"></i>
+    <span class="label presentation">発表</span>
+    <a href="https://taikai.digitalarchivejapan.org/10th/satellite/">デジタルアーカイブ学会第10回研究大会 サテライト企画セッション</a> 「メタデータ」のパースペクティブ において、講演を行いました。
+    <ul>
+      <li>江草由佳. 教科書メタデータのLOD化で気を付けたこと・工夫したこと・重視したこと. デジタルアーカイブ学会第10回研究大会 サテライト企画セッション「メタデータ」のパースペクティブ, オンライン, 2025-11-21, <a href="https://speakerdeck.com/yegusa/2025-11-21-da-10th-satellite">スライド資料</a>
+      </li>
+    </ul>
+  </dd>
+  <dt>2025年6月25日</dt>
+  <dd>
+    <i class="bi bi-journal-text text-primary"></i>
+    <span class="label paper">書籍刊行</span>
+    勉誠社刊行のデジタルアーカイブ・ベーシックスシリーズ『「メタデータ」のパースペクティブ』に教科書LOD等を紹介する記事を寄稿しました。
+    <ul>
+      <li>江草由佳. 教育関連メタデータLOD化の現状と課題. 「メタデータ」のパースペクティブ. 池内有為・木村麻衣子, 責任編集. 勉誠社, 2025, pp.253-274. <a href="https://bensei.jp/index.php?main_page=product_book_info&cPath=18_72&products_id=103805">https://bensei.jp/index.php?main_page=product_book_info&cPath=18_72&products_id=103805</a></li>
+    </ul>
+  </dd>
+  <dt>2025年5月31日</dt>
+  <dd>
+    <i class="bi bi-easel text-success"></i>
+    <span class="label presentation">発表</span>
+    <a href="https://www.jsik.jp/?2025program">情報知識学会 第33回（2025年度）年次大会</a>において、研究報告を行いました。
+    <ul>
+      <li>高久雅生, 江草由佳, 榎本聡, 大井将生, 有山裕美子, 阿児雄之.
+        デジタルアーカイブの教育利用促進を目指したメタデータLOD基盤に関する研究.
+        情報知識学会第33回年次大会, つくば, 情報知識学会誌, vol.35, no.2, pp.262-277 (2025-05)<br/>
+        DOI: <a href="https://doi.org/10.2964/jsik_2025_025">https://doi.org/10.2964/jsik_2025_025</a><br/>
+        <a href="https://speakerdeck.com/masao/research-on-a-metadata-lod-platform-for-promoting-educational-uses-of-digital-archives">[発表スライド]</a>
+      </li>
+    </ul>
+  </dd>
+  <dt>2025年5月29日</dt>
+  <dd>
+    <i class="bi bi-window-stack text-purple"></i>
+    <span class="label case">利用事例</span>
+    NHK放送技術研究所のイベント「<a href="https://www.nhk.or.jp/strl/open2025/">技研公開2025</a>」における展示にて単元LODを活用した応用例が紹介されました。
+    <ul>
+      <li>
+        NHK放送技術研究所. <a href="https://www.nhk.or.jp/strl/open2025/tenji/8/index.html">Webベース放送メディア③ コン
+テンツナレッジ</a>. NHK技研公開2025.
+      </li>
+    </ul>
+  </dd>
+  <dt>2025年2月26日</dt>
+  <dd>
+    <i class="bi bi-window-stack text-purple"></i>
+    <span class="label case">利用事例</span>
+    「<a href="https://edudata-plus.github.io/visualize-textbook-unit/">教科書・単元・学習指導要領細目の間の関係を可視化するツール</a>」を公開しました。
+  </dd>
+  <dt>2022年11月25日</dt>
+  <dd>
+    <i class="bi bi-award text-warning"></i>
+    <span class="label award">受賞</span>
+    教科書LODがデジタルアーカイブ学会第4回学会賞「学術賞（基盤・システム)」を受賞しました。
+  <ul>
+    <li><a href="https://digitalarchivejapan.org/10712/">デジタルアーカイブ学会第 4 回学会賞の受賞者が決まりました</a></li>
+    <li><a href="https://digitalarchivejapan.org/awards/4thawards/4thawardee/4thdetail#kyokasho">第 4 回学会賞授賞理由</a></li>
+  </ul>
+  </dd>
+  <dt>2018年11月8日</dt>
+  <dd>
+    <i class="bi bi-award text-warning"></i>
+    <span class="label award">受賞</span>
+    LODチャレンジ2018において<a href="https://github.com/jp-textbook/jp-textbook.github.io/wiki/Toolkit">Linked Dataの簡単な作成方法 Poorman's Linked Data Toolkit</a>が「LODプロモーション賞」を受賞しました。
+  <ul>
+    <li><a href="http://lodc.jp/2015/concrete5/blog/2018-11-08">【プレスリリース】Linked Open Data チャレンジ Japan 2018 受賞作品発表</a>
+  </ul>
+  <dt>2018年8月28日</dt>
+  <dd>
+    <i class="bi bi-info-circle text-secondary"></i>
+    <span class="label info">お知らせ</span>
+    教科書LODがLODクラウド（2018-08-28版）に掲載されました。
+    <ul>
+    <li><a href="https://lod-cloud.net">Linked Open Data Cloud</a></li>
+    <li><a href="https://lod-cloud.net/dataset/jp-textbook">データセット情報: jp-textbook</a></li>
+    </ul>
+  <dt>2018年8月14日</dt>
+  <dd>
+    <i class="bi bi-info-circle text-secondary"></i>
+    <span class="label info">お知らせ</span>
+    <a href="https://github.com/jp-textbook/jp-textbook.github.io/wiki/Toolkit">Linked Dataの簡単な作成方法 Poorman's Linked Data Toolkit の紹介文書</a>を公開しました。
+  <dt>2018年7月1日</dt>
+  <dd>
+    <i class="bi bi-journal-text text-primary"></i>
+    <span class="label paper">論文刊行</span>
+    『情報の科学と技術』に教科書LODの事例報告を発表しました。
+  <ul>
+    <li>江草由佳, 高久雅生. 教科書Linked Open Data (LOD) の構築と公開. 情報の科学と技術. 2018, Vol.68, No.7, pp.361-367</li>
+    <li><a href="https://doi.org/10.18919/jkg.68.7_361">https://doi.org/10.18919/jkg.68.7_361</a></li>
+  </ul>
+  </dd>
+  <dt>2017年9月2日</dt>
+  <dd>
+    <i class="bi bi-easel text-success"></i>
+    <span class="label presentation">発表</span>
+    Code4Lib JAPANカンファレンス2017において、教科書LODについての発表を行いました。
+  <ul>
+    <li>江草由佳, 高久雅生. お手軽、お安く、持続可能な書誌情報公開（LOD化）の秘訣 ―教科書LODの経験から―. Code4Lib JAPANカンファレンス2017, 熊本 (2017-09)</li>
+    <li>スライド: <a href="https://www.slideshare.net/yegusa/20170903-c4ljplod">https://www.slideshare.net/yegusa/20170903-c4ljplod</a>
+  </ul>
+  </dd>
+  <dt>2017年3月11日</dt>
+  <dd>
+    <i class="bi bi-award text-warning"></i>
+    <span class="label award">受賞</span>
+    LODチャレンジ2016において「教科書LOD」がテーマ賞「教育LOD賞」を受賞しました。
+  <ul>
+    <li><a href="http://lodc.jp/2015/concrete5/blog/2017-02-17">【プレスリリース】Linked Open Data チャレンジ Japan 2016 受賞作品発表</a></li>
+    <li><a href="https://www.slideshare.net/tmasao/20170311-lod-challenge2016-textbook">受賞作品紹介スライド</a></li>
+  </ul>
+  </dd>
+  <dt>2017年1月15日</dt>
+  <dd>
+    <i class="bi bi-info-circle text-secondary"></i>
+    <span class="label info">お知らせ</span>
+    <a href="http://idea.linkdata.org/idea/idea1s2213i">LODチャレンジ2016 データセット部門に応募</a></dd>
+</dl>
+
+<h2 id="lod-model">LOD語彙</h2>
+<p>
+教科書LODの主なリソースのモデル概要を下図に示します。
+なお、教科書LODモデルのベースURIは https://w3id.org/jp-textbook/ で、下図では <code>textbook:</code> のプレフィックスで表示しています。
+</p>
+<figure class="figure border p-1">
+  <img class="figure-img img-fluid rounded" src="lod-model.png" alt="教科書LODのモデル（教科書情報）">
+  <figcaption class="figure-caption">教科書リソースのモデル図（<a href="https://w3id.org/jp-textbook/中学校/2001/英語/904">『NEW CROWN ENGLISH SERIES 3』</a>を例として）</figcaption>
+</figure>
+<figure class="figure border p-1">
+  <img class="figure-img img-fluid rounded" src="lod-model-unit.png" alt="教科書LODのモデル図（単元情報）">
+  <figcaption class="figure-caption">単元情報リソースのモデル図（<a href="https://w3id.org/jp-textbook/AA100000003499">単元「月の位置の変化」</a>（『<a href="https://w3id.org/jp-textbook/小学校/2019/理科/404">未来をひらく 小学理科 4</a>』）を例として）</figcaption>
+</figure>
+
+          <h2 id="shapes">各リソースの説明</h2>
+            <h3 id="TextbookShape">教科書</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/Textbook">https://w3id.org/jp-textbook/Textbook</a></li></ul>
+            <p>教科書を表現するクラス。以下のようなURIにより表現されます。<br><code>https://w3id.org/jp-textbook/<var>学校種別</var>/<var>検定年</var>/<var>教科書記号</var>/<var>教科書番号</var></code></p><p>※教科書を表すリソースのURIにアクセスすると、HTML形式で教科書についての基本的な情報を返します。URIの後ろに.ttlをつけてアクセスするとTurtle形式でRDFデータを返します。</p>
+            <p>教科書リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>書名</td>
+      <td>NEW CROWN ENGLISH SERIES 3</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:editor</code></td>
+      <td>編著者名</td>
+      <td>森住衛 ほか29名</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:publisher</code></td>
+      <td>出版者名</td>
+      <td class="url">textbook:publisher/2003/三省堂</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td><code>textbook:publisher/<var>掲載教科書目録の発行年</var>/<var>発行者略称</var></code>として示される発行者をあらわすリソースと関連付ける</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:bookEdition</code></td>
+      <td>版情報</td>
+      <td>改訂版</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>※バージョン2.0までのデータ内には版情報が入っているレコードはない（古い教科書の場合のために念のため用意している）。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:isbn</code></td>
+      <td>ISBN</td>
+      <td>978-4-385-70190-5</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>※バージョン6.0以降のデータの一部に追加。※バージョン6.1以降、複数ある場合、繰り返される。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>bf:extent</code></td>
+      <td>ページ数</td>
+      <td>120</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>bf:dimensions</code></td>
+      <td>大きさ</td>
+      <td>B4</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:grade</code></td>
+      <td>対象学年</td>
+      <td>1, 2, 3</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:authorizedYear</code></td>
+      <td>検定年</td>
+      <td>"2001"</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:catalogue</code></td>
+      <td>掲載教科書目録</td>
+      <td class="url">textbook:catalogue/中学校/2004</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td><code>textbook:catalogue/<var>学校種別</var>/<var>教科書目録発行年</var></code>として示される教科書目録リソースと関連付ける。繰り返される（バージョン11.0より、初出だけでなく当該教科書が掲載されている全ての教科書目録を繰り返しで表現するように変更）。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:usageYear</code></td>
+      <td>使用年</td>
+      <td>"2005"</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:usageYearRange</code></td>
+      <td>使用年の区間</td>
+      <td>2005-2005</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>"yyyy-yyyy" もしくは "yyyy-" となる。"yyyy-" の場合は、終了年が未定のことを示す。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:textbookSymbol</code></td>
+      <td>教科書記号</td>
+      <td>英語</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:textbookNumber</code></td>
+      <td>教科書番号</td>
+      <td>904</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:subject</code></td>
+      <td>種目（科目）</td>
+      <td class="url">textbook:curriculum/中学校/2002/外国語/英語</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>textbook:curriculum/<var>学校種別</var>/<var>学習指導要領施行年</var>/<var>教科</var>/<var>科目</var></code>として示される種目（科目）リソースと関連付ける。専門教科 (<code>textbook:subjectType = Special</code>) の場合、少数の例外を除いて、機械的に書名と種目名との一致により種目を類推して追加したものであり、教育図書館が追加したデータではないことに注意。最長一致で解決できない例外は、江草・高久によって追加。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:subjectArea</code></td>
+      <td>教科</td>
+      <td class="url">textbook:curriculum/中学校/2002/外国語</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>textbook:curriculum/<var>学校種別</var>/<var>学習指導要領施行年</var>/<var>教科</var></code>として示される科目リソースと関連付ける</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:curriculum</code></td>
+      <td>対応する学習指導要領</td>
+      <td class="url">textbook:curriculum/中学校/2002</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>textbook:curriculum/<var>学校種別</var>/<var>学習指導要領施行年</var></code>として示される学習指導要領リソースと関連付ける</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:school</code></td>
+      <td>学校種別</td>
+      <td class="url">textbook:school/中学校</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>対応する学校種別を<code>textbook:school/<var>学校種別</var></code> として示される学校リソースと関連付ける</td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="url"><code>textbook:item</code></td>
+      <td>所蔵情報</td>
+      <td class="url"></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td><code>nier:recordID</code>と<code>nier:callNumber</code>、もしくは、<code>textbook-rc:recordID</code>と<code>textbook-rc:callNumber</code>の2つの所蔵情報用プロパティを持つ。複数の所蔵情報がある場合、所蔵情報の件数分、繰り返される。</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        ブランクノードの内容は以下のいずれかの内容からなる構造を持ちます。
+          <div class="blank_node"><table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>nier:recordID</code></td>
+      <td>国立教育政策研究所教育図書館の戦後教科書データベースにおけるレコードID</td>
+      <td>EB10015334</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>https://nieropac.nier.go.jp/ebopac/<var>レコードID</var></code>の形式で参照可能</td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:callNumber</code></td>
+      <td>国立教育政策研究所教育図書館の所蔵資料に対する請求記号</td>
+      <td>K260.91||S12U||01/05</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>区切り記号は、「||」である。 請求記号のルールは現行と古いものと大きく2種類ある。<dl><dt>現行ルール</dt><dd>教科書分類 - 出版者番号 - 検定年+図書番号（例：K170.8||K10||2010）</dd><dt>旧ルール</dt><dd>教科書分類 - 出版者番号＋管理番号 - 検定年/使用年（例：K260.91||S12U||01/05）。教科書分類と、出版者番号、管理番号、図書番号は教育図書館独自のもの。使用年については、教育図書館が受け入れた資料の使用年であり、当該教科書の使用開始年より遅い年のことがある。 （注：検定年、使用年が4桁の場合は西暦を、 それ以外の場合は、21～64は1946年～1989年（昭和21年～昭和64年）を表し、 88～99は1988年～1999年、00～05は2000年～2005年を表す。）</dd></dl></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>nier:</code></dt>
+      <dd class="col-sm-10">http://dl.nier.go.jp/library/vocab/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table></div>
+          <div class="blank_node"><table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>textbook-rc:recordID</code></td>
+      <td>教科書研究センター附属教科書図書館の教科書目録情報データベースにおけるレコードID</td>
+      <td>220050110</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>http://textbook-rc-lib.net/Opac/search.htm?s=SsaOkobBIBy2ftPelVbXwTJqTVi&ncid=<var>レコードID</var></code>の形式で参照可能</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook-rc:callNumber</code></td>
+      <td>教科書研究センター附属教科書図書館の所蔵資料にたいする請求記号</td>
+      <td>B2|600|H17/18</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>nier:</code></dt>
+      <dd class="col-sm-10">http://dl.nier.go.jp/library/vocab/</dd>
+      <dt class="col-sm-2"><code>textbook-rc:</code></dt>
+      <dd class="col-sm-10">http://dl.nier.go.jp/library/vocab/textbook-rc/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table></div>
+      </td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:seeAlso</code></td>
+      <td>関連リンク</td>
+      <td class="url">http://id.ndl.go.jp/jpno/89034331</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。<a href="http://iss.ndl.go.jp/">国立国会図書館サーチ</a>(国立国会図書館の書誌ID（NDLBibID）と全国書誌番号（JPNO）を使用)、<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>（NCIDを使用）へのリンク。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>bf:note</code></td>
+      <td>注記</td>
+      <td>2009年度より出版社を「日本文教出版株式会社」に変更。</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:bibliographicCitation</code></td>
+      <td>書誌情報</td>
+      <td>「あたらしい こくご　一上」小学校 1年 国語|101（東書）2019年検定</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>bf:</code></dt>
+      <dd class="col-sm-10">http://id.loc.gov/ontologies/bibframe/</dd>
+      <dt class="col-sm-2"><code>textbook:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-textbook/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="CurriculumGuidelineShape">学習指導要領</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/CurriculumGuideline">https://w3id.org/jp-textbook/CurriculumGuideline</a></li></ul>
+            <p>学習指導要領そのものを表現するクラス。以下のようなURIにより表現されます。<br><code>https://w3id.org/jp-textbook/curriculum/<var>学校種別</var>/<var>学習指導要領施行年</var></code></p>
+            <p>学習指導要領リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"高等学校学習指導要領"@ja</li><li>"こうとうがっこうがくしゅうしどうようりょう"@ja-Hira</li><li>"Upper Secondary School Curriculum Guideline"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:hasSubjectArea</code></td>
+      <td>教科がある</td>
+      <td class="url">textbook:curriculum/高等学校/1994/国語</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:datePublished</code></td>
+      <td>告示日</td>
+      <td>1989-03-15</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:startDate</code></td>
+      <td>施行年月日</td>
+      <td>1994-04-01</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:school</code></td>
+      <td>学校種別</td>
+      <td class="url">textbook:school/高等学校</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:url</code></td>
+      <td>本文URL</td>
+      <td class="url">http://www.mext.go.jp/a_menu/shotou/old-cs/1322503.htm</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。本文へのリンク。文部科学省のウェブサイトと<a href="http://www.nier.go.jp/guideline/">国立教育政策研究所学習指導要領データベース</a>へのリンク。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>owl:sameAs</code></td>
+      <td>同一リソース</td>
+      <td class="url">https://w3id.org/jp-cos/UpperSecondary/2018</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="url"><code>dct:hasVersion</code></td>
+      <td>別バージョン情報</td>
+      <td class="url"></td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>複数の改正がある場合、改正の件数分、繰り返される。<code>schema:name</code>, <code>schema:datePublished</code>, <code>schema:citation</code>, <code>schema:url</code>, <code>rdfs:seeAlso</code>, <code>schema:isbn</code>, <code>nier:itemID</code>, <code>nier:callNumber</code>, <code>nier:recordID</code>の9つの改正情報用プロパティを持つ。</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        ブランクノードの内容は以下の内容からなる構造を持ちます。
+        <div class="blank_node"><table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>別バージョンの名称</td>
+      <td><ul><li>"平成元年3月 告示"@ja</li><li>"1989-03 Notification"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>一部改正であれば、「平成15年12月 一部改正」のような表現となります。また、言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:datePublished</code></td>
+      <td>告示日（改正日）</td>
+      <td>1989-03-15</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:citation</code></td>
+      <td>出典</td>
+      <td><ul><li>"『平成元年 文部省告示第二十四号』（官報. 平成元年3月15日, 号外特第4号, pp.9-50）"@ja</li><li>"\"Notification No. 24 in 1989 of the Ministry of Education, Science and Culture\" (Official Gazette, 1989-03-15, Special Extra Edition No. 4, pp.9-50)"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>文部科学省（文部省）の告示タイトルおよび掲載された官報についての情報。また、言語コードを用いて、出典に加え、英語の出典を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語出典（漢字表記）</dd><dt>@en</dt><dd>英語出典</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:url</code></td>
+      <td>本文URL</td>
+      <td class="url">http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。本文へのリンク。文部科学省ウェブページか<a href="http://www.nier.go.jp/guideline/">国立教育政策研究所学習指導要領データベース</a>へのリンク。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:seeAlso</code></td>
+      <td>関連リンク</td>
+      <td class="url">http://id.ndl.go.jp/jpno/89034331</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。<a href="http://iss.ndl.go.jp/">国立国会図書館サーチ</a>、<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>へのリンク。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:isbn</code></td>
+      <td>ISBN</td>
+      <td>4171533104</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:itemID</code></td>
+      <td>国立教育政策研究所教育図書館の蔵書データベースにおける所蔵資料ID</td>
+      <td>071221843</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:callNumber</code></td>
+      <td>国立教育政策研究所教育図書館の所蔵資料に対する請求記号</td>
+      <td>375.92||1||1989d</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>区切り記号は、「||」である。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:recordID</code></td>
+      <td>国立教育政策研究所教育図書館の蔵書データベースにおけるレコードID</td>
+      <td>BB80025218</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>https://nieropac.nier.go.jp/ebopac/<var>レコードID</var></code>の形式で参照可能</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>nier:</code></dt>
+      <dd class="col-sm-10">http://dl.nier.go.jp/library/vocab/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table></div>
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>textbook:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-textbook/</dd>
+      <dt class="col-sm-2"><code>owl:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2002/07/owl#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="CatalogueShape">教科書目録</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/Catalogue">https://w3id.org/jp-textbook/Catalogue</a></li></ul>
+            <p>検定教科書の一覧を示す教科書目録を表現するクラス。文部科学省が毎年発行している、当該年度に利用できる教科書のリストです。最近のものは次のページから一覧されています: <a href="http://www.mext.go.jp/a_menu/shotou/kyoukasho/mokuroku.htm">http://www.mext.go.jp/a_menu/shotou/kyoukasho/mokuroku.htm</a> 以下のようなURIにより表現されます。<br><code>https://w3id.org/jp-textbook/catalogue/<var>学校種別</var>/<var>発行年</var></code></p>
+            <p>教科書目録リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>書名</td>
+      <td><ul><li>"高等学校用教科書目録(平成29年度使用)"@ja</li><li>"こうとうがっこうようきょうかしょもくろく（へいせい29ねんどしよう）"@ja-Hira</li><li>"Textbook Catalogue for Upper Secondary School of 2017 School Year"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、書名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>書名（漢字表記）</dd><dt>@ja-Hira</dt><dd>書名（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語書名</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:school</code></td>
+      <td>学校種別</td>
+      <td class="url">textbook:school/高等学校</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:datePublished</code></td>
+      <td>発行年</td>
+      <td>"2016"</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:usageYear</code></td>
+      <td>使用年度</td>
+      <td>"2017"</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>掲載している教科書の使用年度を表す。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:url</code></td>
+      <td>本文URL</td>
+      <td class="url">http://www.mext.go.jp/a_menu/shotou/kyoukasho/__icsFiles/afieldfile/2016/04/26/1369944_3.pdf</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:seeAlso</code></td>
+      <td>関連リンク</td>
+      <td class="url"><ul><li>https://web.archive.org/web/*/http://www.mext.go.jp/a_menu/shotou/kyoukasho/__icsFiles/afieldfile/2016/04/26/1369944_3.pdf</li><li>http://id.ndl.go.jp/jpno/000000045845</li><li>https://ci.nii.ac.jp/ncid/AN10586986</li></ul></td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。本文のアーカイブ（<a href="https://archive.org/web/">Wayback Machine</a>, <a href="http://warp.ndl.go.jp/">WARP</a>など）へのリンク、<a href="http://iss.ndl.go.jp">国立国会図書館サーチ</a>、<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>へのリンク</td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:itemID</code></td>
+      <td>国立教育政策研究所教育図書館の蔵書データベースにおける所蔵資料ID</td>
+      <td>400008926</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:callNumber</code></td>
+      <td>国立教育政策研究所教育図書館の所蔵資料に対する請求記号</td>
+      <td>375.9||27||2017</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>区切り記号は、「||」である。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:recordID</code></td>
+      <td>国立教育政策研究所教育図書館の蔵書データベースにおけるレコードID</td>
+      <td>BB00014905</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>https://nieropac.nier.go.jp/ebopac/<var>レコードID</var></code>の形式で参照可能</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>textbook:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-textbook/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>nier:</code></dt>
+      <dd class="col-sm-10">http://dl.nier.go.jp/library/vocab/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="ChapterCPShape">教科書編修趣意書の章</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/CompilingProspectusChapter">https://w3id.org/jp-textbook/CompilingProspectusChapter</a></li></ul>
+            <p>教科書編修趣意書の章を表現するクラス。</p>
+            <p>教科書編修趣意書の章リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>textbook:chapterType</code></td>
+      <td>趣意書種別</td>
+      <td class="url">https://w3id.org/jp-textbook/CPMappingTUTable</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>CPMappingLawOfEducation, CPMappingTUBody, CPMappingTUTable, CPMappingACBody, CPMappingACTable のいずれかの値をとる。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:pagination</code></td>
+      <td>ページ</td>
+      <td>10</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>textbook:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-textbook/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="ChapterLUShape">Chapter</h3>
+            <ul><li>対象クラス: <a href="http://schema.org/Chapter">http://schema.org/Chapter</a></li></ul>
+            <p></p>
+            <p>Chapterリソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:isPartOf</code></td>
+      <td>教科書</td>
+      <td class="url">textbook:小学校/2019/生活/108</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>textbook:<var>学校種別</var>/<var>検定年</var>/<var>教科書記号</var>/<var>教科書番号</var></code>として示される教科書リソースと関連付ける。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:pagination</code></td>
+      <td>ページ</td>
+      <td>p.24〜45</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:numberOfPages</code></td>
+      <td>ページ数</td>
+      <td>0.25</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="ChapterTypeShape">章種別</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/ChapterType">https://w3id.org/jp-textbook/ChapterType</a></li></ul>
+            <p>編修趣意書の章の種別を表現するクラス（標準、発展的な内容）。以下のようなURIにより表現されます。<br><code>https://w3id.org/jp-textbook/curriculum/<var>章種別</var></code></p>
+            <p>章種別リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"教育基本法との対照表"@ja;</li><li>"Mapping Table of Law of Education"@en;</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>名称（日本語表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:seeAlso</code></td>
+      <td>関連リンク</td>
+      <td class="url">https://www.mext.go.jp/a_menu/shotou/kyoukasho/1260070.htm</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>出典した本文を参照できるWebページへのリンク。</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="CompilingProspectusShape">教科書編修趣意書</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/CompilingProspectus">https://w3id.org/jp-textbook/CompilingProspectus</a></li></ul>
+            <p>教科書編修趣意書を表現するクラス。以下のようなURIにより表現されます。<br><code>https://w3id.org/jp-textbook/<var>編修趣意書ID</var></code> 編修趣意書IDは本プロジェクトで独自につけたものです。</p>
+            <p>教科書編修趣意書リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>タイトル</td>
+      <td>小学校1,2年生活(教出)2019年検定教科書編修趣意書</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:school</code></td>
+      <td>学校種別</td>
+      <td class="url">textbook:school/小学校</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>対応する学校種別を<code>textbook:school/<var>学校種別</var></code> として示される学校リソースと関連付ける</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:authorizedYear</code></td>
+      <td>検定年</td>
+      <td>"2001"</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:subjectArea</code></td>
+      <td>教科</td>
+      <td class="url">textbook:curriculum/小学校/2020/生活</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>textbook:curriculum/<var>学校種別</var>/<var>学習指導要領施行年</var>/<var>教科</var></code>として示される科目リソースと関連付ける</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:subject</code></td>
+      <td>種目（科目）</td>
+      <td class="url">textbook:curriculum/小学校/2020/生活/生活</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>textbook:curriculum/<var>学校種別</var>/<var>学習指導要領施行年</var>/<var>教科</var>/<var>科目</var></code>として示される種目（科目）リソースと関連付ける。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:grade</code></td>
+      <td>対象学年</td>
+      <td>1, 2</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:publisherAbbreviation</code></td>
+      <td>発行者略称</td>
+      <td>教出</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:textbook</code></td>
+      <td>教科書</td>
+      <td class="url">textbook:小学校/2019/生活/108</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td><code>textbook:<var>学校種別</var>/<var>検定年</var>/<var>教科書記号</var>/<var>教科書番号</var></code>として示される教科書リソースと関連付ける。複数の教科書がある場合、繰り返される。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:url</code></td>
+      <td>本文URL</td>
+      <td class="url">https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/05/14/1416507_004.pdf</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>本文へのリンク。文部科学省のウェブサイトへのリンク。</td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="url"><code>schema:hasPart</code></td>
+      <td>各対照表のページ数</td>
+      <td class="url"></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td><code>textbook:CPtype</code>と<code>schema:name</code>と<code>schema:pagination</code>の3つのプロパティを持つ。繰り返される。</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        ブランクノードの内容は以下の内容からなる構造を持ちます。
+        <div class="blank_node"><table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>textbook:chapterType</code></td>
+      <td>趣意書種別</td>
+      <td class="url">https://w3id.org/jp-textbook/CPMappingTUTable</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>CPMappingLawOfEducation, CPMappingTUBody, CPMappingTUTable, CPMappingACBody, CPMappingACTable のいずれかの値をとる。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:pagination</code></td>
+      <td>ページ</td>
+      <td>10</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>textbook:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-textbook/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table></div>
+      </td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:CPreceiptNumber</code></td>
+      <td>編修趣意書受理番号</td>
+      <td>30-165</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>ソート順</td>
+      <td>1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>表示順を決める場合などで利用</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>textbook:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-textbook/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="CurriculumGuidelineVersionShape">学習指導要領の改訂版</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/CurriculumGuidelineVersion">https://w3id.org/jp-textbook/CurriculumGuidelineVersion</a></li></ul>
+            <p>学習指導要領の改訂版の情報を表現するクラス。</p>
+            <p>学習指導要領の改訂版リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>別バージョンの名称</td>
+      <td><ul><li>"平成元年3月 告示"@ja</li><li>"1989-03 Notification"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>一部改正であれば、「平成15年12月 一部改正」のような表現となります。また、言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:datePublished</code></td>
+      <td>告示日（改正日）</td>
+      <td>1989-03-15</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:citation</code></td>
+      <td>出典</td>
+      <td><ul><li>"『平成元年 文部省告示第二十四号』（官報. 平成元年3月15日, 号外特第4号, pp.9-50）"@ja</li><li>"\"Notification No. 24 in 1989 of the Ministry of Education, Science and Culture\" (Official Gazette, 1989-03-15, Special Extra Edition No. 4, pp.9-50)"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>文部科学省（文部省）の告示タイトルおよび掲載された官報についての情報。また、言語コードを用いて、出典に加え、英語の出典を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語出典（漢字表記）</dd><dt>@en</dt><dd>英語出典</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:url</code></td>
+      <td>本文URL</td>
+      <td class="url">http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。本文へのリンク。文部科学省ウェブページか<a href="http://www.nier.go.jp/guideline/">国立教育政策研究所学習指導要領データベース</a>へのリンク。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:seeAlso</code></td>
+      <td>関連リンク</td>
+      <td class="url">http://id.ndl.go.jp/jpno/89034331</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。<a href="http://iss.ndl.go.jp/">国立国会図書館サーチ</a>、<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>へのリンク。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:isbn</code></td>
+      <td>ISBN</td>
+      <td>4171533104</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:itemID</code></td>
+      <td>国立教育政策研究所教育図書館の蔵書データベースにおける所蔵資料ID</td>
+      <td>071221843</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:callNumber</code></td>
+      <td>国立教育政策研究所教育図書館の所蔵資料に対する請求記号</td>
+      <td>375.92||1||1989d</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>区切り記号は、「||」である。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:recordID</code></td>
+      <td>国立教育政策研究所教育図書館の蔵書データベースにおけるレコードID</td>
+      <td>BB80025218</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>https://nieropac.nier.go.jp/ebopac/<var>レコードID</var></code>の形式で参照可能</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>nier:</code></dt>
+      <dd class="col-sm-10">http://dl.nier.go.jp/library/vocab/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="DurationLUShape">Duration</h3>
+            <ul><li>対象クラス: <a href="http://schema.org/Duration">http://schema.org/Duration</a></li></ul>
+            <p></p>
+            <p>Durationリソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>配当時数（文字列）</td>
+      <td>2-4</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>編修趣意書に掲載されたままの表記を表す。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:alternateName</code></td>
+      <td>配当時数（ラベル）</td>
+      <td>2－4（ともに生きる : 6編 私たちの成長と家....の配当時数）</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdf:value</code></td>
+      <td>配当時数</td>
+      <td>2</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>数値で表した配当時数を表す。代表的であると思われる時間を示す。不明な場合は短い値。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:minValue</code></td>
+      <td>配当時数の最小値</td>
+      <td>2</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>範囲で配当時数が示されている場合の最小値。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:maxValue</code></td>
+      <td>配当時数の最大値</td>
+      <td>4</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>範囲で配当時数が示されている場合の最大値。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:source</code></td>
+      <td>編修趣意書</td>
+      <td class="url">https://w3id.org/jp-textbook/AC100000000315</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>textbook:<var>編修趣意書ID</var></code>として示される編修趣意書リソースと関連付ける</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:mixedDurationType</code></td>
+      <td>複数単元種別</td>
+      <td class="url">textbook:mixedDurationType/Selected</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>複数単元の類型を示す。Combined（複合）,Selected（選択）の２つのどちらかをとる。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:durationType</code></td>
+      <td>時数種別</td>
+      <td class="url">textbook:durationType/Standard</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>配当時数の類型を示す。 Standard（標準）, Flexible（適宜や随時）, Optional（オプション）,  Spare（予備） のどれかをとる。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:comment</code></td>
+      <td>注記</td>
+      <td>5つの単元のうち導入の1つ及び残りの4つのうち2つの単元を選択する。</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>ソート順</td>
+      <td>1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>表示順を決める場合などで利用</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>textbook:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-textbook/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="DurationTypeShape">配当時数種別</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/DurationType">https://w3id.org/jp-textbook/DurationType</a></li></ul>
+            <p>配当時数の種類を表現するクラス。「標準 (Standard)」「適宜や随時 (Flexible)」「オプション (Optional)」「予備 (Spare)」のいずれかからなる。</p>
+            <p>配当時数種別リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"予備"@ja;</li><li>"Spare"@en;</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>名称（日本語表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="ItemNIERShape">国立教育政策研究所教育図書館所蔵資料</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/ItemNIER">https://w3id.org/jp-textbook/ItemNIER</a></li></ul>
+            <p>国立教育政策研究所教育図書館所蔵資料を表現するクラス。</p>
+            <p>国立教育政策研究所教育図書館所蔵資料リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>nier:recordID</code></td>
+      <td>国立教育政策研究所教育図書館の戦後教科書データベースにおけるレコードID</td>
+      <td>EB10015334</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>https://nieropac.nier.go.jp/ebopac/<var>レコードID</var></code>の形式で参照可能</td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:callNumber</code></td>
+      <td>国立教育政策研究所教育図書館の所蔵資料に対する請求記号</td>
+      <td>K260.91||S12U||01/05</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>区切り記号は、「||」である。 請求記号のルールは現行と古いものと大きく2種類ある。<dl><dt>現行ルール</dt><dd>教科書分類 - 出版者番号 - 検定年+図書番号（例：K170.8||K10||2010）</dd><dt>旧ルール</dt><dd>教科書分類 - 出版者番号＋管理番号 - 検定年/使用年（例：K260.91||S12U||01/05）。教科書分類と、出版者番号、管理番号、図書番号は教育図書館独自のもの。使用年については、教育図書館が受け入れた資料の使用年であり、当該教科書の使用開始年より遅い年のことがある。 （注：検定年、使用年が4桁の場合は西暦を、 それ以外の場合は、21～64は1946年～1989年（昭和21年～昭和64年）を表し、 88～99は1988年～1999年、00～05は2000年～2005年を表す。）</dd></dl></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>nier:</code></dt>
+      <dd class="col-sm-10">http://dl.nier.go.jp/library/vocab/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="ItemTextbookRCShape">教科書研究センター附属教科書図書館所蔵資料</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/ItemTextbookRC">https://w3id.org/jp-textbook/ItemTextbookRC</a></li></ul>
+            <p>教科書研究センター附属教科書図書館所蔵資料を表現するクラス。</p>
+            <p>教科書研究センター附属教科書図書館所蔵資料リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>textbook-rc:recordID</code></td>
+      <td>教科書研究センター附属教科書図書館の教科書目録情報データベースにおけるレコードID</td>
+      <td>220050110</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>http://textbook-rc-lib.net/Opac/search.htm?s=SsaOkobBIBy2ftPelVbXwTJqTVi&ncid=<var>レコードID</var></code>の形式で参照可能</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook-rc:callNumber</code></td>
+      <td>教科書研究センター附属教科書図書館の所蔵資料にたいする請求記号</td>
+      <td>B2|600|H17/18</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>nier:</code></dt>
+      <dd class="col-sm-10">http://dl.nier.go.jp/library/vocab/</dd>
+      <dt class="col-sm-2"><code>textbook-rc:</code></dt>
+      <dd class="col-sm-10">http://dl.nier.go.jp/library/vocab/textbook-rc/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="MixedDurationTypeShape">複合型の配当時数種別</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/MixedDurationType">https://w3id.org/jp-textbook/MixedDurationType</a></li></ul>
+            <p>複合型の配当時数の種類を表現するクラス。「複合 (Combined)」「選択 (Selected)」のいずれかからなる。</p>
+            <p>複合型の配当時数種別リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"複合"@ja;</li><li>"Combined"@en;</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>名称（日本語表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="PublisherShape">発行者</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/Publisher">https://w3id.org/jp-textbook/Publisher</a></li></ul>
+            <p>発行者を表現するクラス。以下のようなURIにより表現されます。<br><code>https://w3id.org/jp-textbook/publisher/<var>掲載教科書目録の発行年</var>/<var>発行者略称</var></code></p>
+            <p>発行者リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"音楽之友社"@ja;</li><li>"おんがく の ともしゃ"@ja-Hira;</li><li>"Ongaku No Tomosha"@ja-Latn;</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、そのよみ、よみのローマ字表記を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@ja-Latn</dt><dd>名称（ローマ字表記）。名称のよみをローマ字表記で示します。</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:seeAlso</code></td>
+      <td>関連リンク</td>
+      <td class="url">https://id.ndl.go.jp/auth/ndlna/00258007</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。<a href="https://hojin-info.go.jp/hojin/TopPage">法人インフォ</a>、<a href="https://id.ndl.go.jp/auth/ndla">Web NDL Authorities</a>、<a href="http://ja.dbpedia.org/">DBpedia</a>へのリンク</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:catalogueYear</code></td>
+      <td>掲載教科書目録の発行年</td>
+      <td>"2017"</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:catalogue</code></td>
+      <td>掲載教科書目録</td>
+      <td class="url">textbook:catalogue/高等学校/2017</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。<code>textbook:catalogue/<var>学校種別</var>/<var>教科書目録発行年</var></code>として示される教科書目録リソースと関連付ける</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:publisherAbbreviation</code></td>
+      <td>発行者略称</td>
+      <td>友社</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:publisherNumber</code></td>
+      <td>発行者番号</td>
+      <td>89</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。（例：<a href="https://w3id.org/jp-textbook/publisher/2009/日文">textbook:publisher/2009/日文</a>）</td>
+    </tr>
+    <tr>
+      <td class="url"><code>bf:note</code></td>
+      <td>注記</td>
+      <td>発行者番号が2種類ある（大阪書籍の教科書は発行者番号：3）。</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>textbook:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-textbook/</dd>
+      <dt class="col-sm-2"><code>bf:</code></dt>
+      <dd class="col-sm-10">http://id.loc.gov/ontologies/bibframe/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="SchoolShape">学校種別</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/School">https://w3id.org/jp-textbook/School</a></li></ul>
+            <p>日本における学校制度上の初等・中等教育組織を表現するクラス。以下のようなURIにより表現されます。<br><code>https://w3id.org/jp-textbook/school/<var>学校</var></code></p>
+            <p>学校種別リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"小学校"@ja;</li><li>"しょうがっこう"@ja-Hira;</li><li>"Elementary School"@en;</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>owl:sameAs</code></td>
+      <td>同一リソース</td>
+      <td class="url">http://ja.dbpedia.org/resource/特別支援学校</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>owl:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2002/07/owl#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="SourceOfEnglishNameShape">英語名称表記の出典情報</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/SourceOfEnglishName">https://w3id.org/jp-textbook/SourceOfEnglishName</a></li></ul>
+            <p>英語名称表記の出典情報を表現するクラス。</p>
+            <p>英語名称表記の出典情報リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>英語表記出典の名称</td>
+      <td><ul><li>"小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja</li><li>"Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:curriculum</code></td>
+      <td>対応学習指導要領</td>
+      <td class="url">curriculum/小学校/2012</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領の仮訳が出典となっている場合は、対応する学習指導要領リソースのURIを示す。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:seeAlso</code></td>
+      <td>関連リンク</td>
+      <td class="url">http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>出典した本文を参照できるWebページへのリンクや、出典が本の場合は書誌データ（<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>）へのリンクなど。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:date</code></td>
+      <td>参照日</td>
+      <td>"2018-08-12"</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>この出典を参照した日</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>textbook:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-textbook/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="SubjectTypeShape">教科・種目種別</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/SubjectType">https://w3id.org/jp-textbook/SubjectType</a></li></ul>
+            <p>高等学校における専門教育または共通教育のいずれに属するかを示すクラス。以下のようなURIにより表現されます。<br><code>https://w3id.org/jp-textbook/curriculum/<var>学校種別</var>/<var>学習指導要領施行年</var>/<var>種別</var></code></p>
+            <p>教科・種目種別リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"各学科に共通する各教科"@ja;</li><li>"かくがっかにきょうつうするかくきょうか"@ja-Hira;</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、そのよみを示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:school</code></td>
+      <td>学校種別</td>
+      <td class="url">textbook:school/高等学校</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:curriculum</code></td>
+      <td>学習指導要領</td>
+      <td class="url">textbook:curriculum/高等学校/2013</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:citation</code></td>
+      <td>出典</td>
+      <td>学習指導要領の章タイトルなど（「第２章 各学科に共通する各教科」「第３章 主として専門学科において開設される各教科」）や、学習指導要領冒頭の「学 校 教 育 法 施 行 規 則（抄）」の表題（pp. iii-iv ）など</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>textbook:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-textbook/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="TeachingUnitShape">単元</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/TeachingUnit">https://w3id.org/jp-textbook/TeachingUnit</a></li></ul>
+            <p>単元を表現するクラス。以下のようなURIにより表現されます。<br><code>https://w3id.org/jp-textbook/<var>単元ID</var></code> このIDは本プロジェクトで独自につけたものです。</p>
+            <p>単元リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>単元名</td>
+      <td>第1学年:体育編:１章   スポーツの多様性:３   スポーツの多様な楽しみ方</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:unit1</code></td>
+      <td>単元名レベル1</td>
+      <td>第1学年</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:unit2</code></td>
+      <td>単元名レベル2</td>
+      <td>体育編</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:unit3</code></td>
+      <td>単元名レベル3</td>
+      <td>１章   スポーツの多様性</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:unit4</code></td>
+      <td>単元名レベル4</td>
+      <td>３   スポーツの多様な楽しみ方</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:school</code></td>
+      <td>学校種別</td>
+      <td class="url">textbook:school/中学校</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>対応する学校種別を<code>textbook:school/<var>学校種別</var></code> として示される学校リソースと関連付ける</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:authorizedYear</code></td>
+      <td>検定年</td>
+      <td>"2020"</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:subjectArea</code></td>
+      <td>教科</td>
+      <td class="url">textbook:curriculum/中学校/2021/保健体育</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>textbook:curriculum/<var>学校種別</var>/<var>学習指導要領施行年</var>/<var>教科</var></code>として示される科目リソースと関連付ける</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:subject</code></td>
+      <td>種目（科目）</td>
+      <td class="url">textbook:curriculum/中学校/2021/保健体育/保健体育</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>textbook:curriculum/<var>学校種別</var>/<var>学習指導要領施行年</var>/<var>教科</var>/<var>科目</var></code>として示される種目（科目）リソースと関連付ける。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:grade</code></td>
+      <td>対象学年</td>
+      <td>1, 2, 3</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="url"><code>schema:workExample</code></td>
+      <td>教科書の該当ページ</td>
+      <td class="url"></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td><code>schema:isPartOf</code>と<code>schema:pagination</code>の2つのプロパティを持つ。複数の教科書がある場合、繰り返される。</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        ブランクノードの内容は以下の内容からなる構造を持ちます。
+        <div class="blank_node"><table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:isPartOf</code></td>
+      <td>教科書</td>
+      <td class="url">textbook:小学校/2019/生活/108</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>textbook:<var>学校種別</var>/<var>検定年</var>/<var>教科書記号</var>/<var>教科書番号</var></code>として示される教科書リソースと関連付ける。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:pagination</code></td>
+      <td>ページ</td>
+      <td>p.24〜45</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:numberOfPages</code></td>
+      <td>ページ数</td>
+      <td>0.25</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table></div>
+      </td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:duration</code></td>
+      <td>配当時数</td>
+      <td class="url">textbook:AC100000000315/Time004</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>配当時数リソースと関連付ける。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:cosMappingDescription</code></td>
+      <td>転記した学習指導要領の細目（文字列）</td>
+      <td>体育分野 ２−Ｈ 第１学年及び第２学年（1）ア（ウ）,イ,ウ</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>編修趣意書に記述された単元に対応する学習指導要領の細目についての情報。原則、編修趣意書に記述されたまま転記したもの。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:cosItem</code></td>
+      <td>学習指導要領の細目</td>
+      <td class="url">cs:83G1213811300000, cs:83G1213812000000, cs:83G1213813000000</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>単元に対応した学習指導要領の細目を表す。<code>cs:<var>学習指導要領コード</var></code> として示される学習指導要領の細目リソースと関連付いている。「転記した学習指導要領の細目（コード）」を根や葉まで含めて拡張している。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:originalCosItem</code></td>
+      <td>転記した学習指導要領の細目（コード）</td>
+      <td class="url">cs:83G1213811300000, cs:83G1213812000000, cs:83G1213813000000</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>「転記した学習指導要領の細目（文字列）」の内容から<code>cs:<var>学習指導要領コード</var></code> として示される学習指導要領の細目リソースと関連付けた値</td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:source</code></td>
+      <td>編修趣意書</td>
+      <td class="url">https://w3id.org/jp-textbook/AC100000000315</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td><code>textbook:<var>編修趣意書ID</var></code>として示される編修趣意書リソースと関連付ける</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:teachingUnitType</code></td>
+      <td>単元種別</td>
+      <td class="url">Standard</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>単元の類型を示す。Standard（標準）,UpperGradeContents（後の学年）,OutOfCos（学習指導要領上、どの学年等でも扱うこととされていない内容）の3つのどれかをとる。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>ソート順</td>
+      <td>315</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>表示順を決める場合などで利用</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>textbook:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-textbook/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="TeachingUnitTypeShape">単元種別</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/TeachingUnitType">https://w3id.org/jp-textbook/TeachingUnitType</a></li></ul>
+            <p>単元が標準的な学習内容か発展的な学習内容かの種別を表現するクラス（標準、上の学年の内容、学習指導要領外など）。以下のようなURIにより表現されます。<br><code>https://w3id.org/jp-textbook/curriculum/<var>単元種別</var></code></p>
+            <p>単元種別リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"類型1: 後の学年等の学習内容"@ja;</li><li>"Type 1: Study contents of upper grade"@en;</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>名称（日本語表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:seeAlso</code></td>
+      <td>関連リンク</td>
+      <td class="url">https://www.mext.go.jp/a_menu/shotou/kyoukasho/20210212-mxt_kouhou02-1.pdf#page=8</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>出典した本文を参照できるWebページへのリンク。</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="curriculum/SubjectAreaShape">教科</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/curriculum/SubjectArea">https://w3id.org/jp-textbook/curriculum/SubjectArea</a></li></ul>
+            <p>教科を表現するクラス。教科リソースは、掲載されている学習指導要領から <code>textbook:hasSubjectArea</code> でつながっています。以下のようなURIにより表現されます。<br><code>https://w3id.org/jp-textbook/curriculum/<var>学校種別</var>/<var>学習指導要領施行年</var>/<var>教科名</var></code></p>
+            <p>教科リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>教科名</td>
+      <td><ul><li>"国語"@ja</li><li>"こくご"@ja-Hira</li><li>"Japanese Language"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、教科名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。教科名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>教科名の英語名称</dd></dl>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （小学校、 中学校、 高等学校） に記載されている教科はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（Education In JAPAN, 13版）67ページの記載も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:school</code></td>
+      <td>学校種別</td>
+      <td class="url">textbook:school/高等学校</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>学習指導要領掲載順</td>
+      <td>1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>表示順を決める場合などで利用</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:subjectType</code></td>
+      <td>教科種別</td>
+      <td class="url">textbook:curriculum/高等学校/2013/Common</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領1994,2003,2013の高等学校の教科のみ。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>owl:sameAs</code></td>
+      <td>同一リソース</td>
+      <td class="url">https://w3id.org/jp-cos/UpperSecondary/2018/国語</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:hasSubject</code></td>
+      <td>種目（科目）がある</td>
+      <td class="url">textbook:curriculum/高等学校/2013/国語/国語総合</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:sourceOfEnglishName</code></td>
+      <td>英語表記出典</td>
+      <td class="url">https://w3id.org/jp-textbook/source/Elementary-2008</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>英語表記の根拠となる出典情報を表す。</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>textbook:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-textbook/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>owl:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2002/07/owl#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="curriculum/SubjectShape">種目</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-textbook/curriculum/Subject">https://w3id.org/jp-textbook/curriculum/Subject</a></li></ul>
+            <p>種目を表現するクラス。種目は、教科書作成者が、検定時に申請する教科書の種目をさしています。これは、学習指導要領における科目とほぼ同一のものをさしますが、厳密には科目とは異なるものをさすこととなります。たとえば、地図、書写などの科目としては存在しないものが含まれ、保健体育のように複数の科目に対応する種目が追加されるなどしています。種目リソースは、教科から<code>textbook:hasSubject</code> でつながっています。このソースは以下のようなURIにより表現されます。<br><code>https://w3id.org/jp-textbook/curriculum/<var>学校種別</var>/<var>学習指導要領施行年</var>/<var>教科名</var>/<var>種目名</var></code></p>
+            <p>種目リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>種目名</td>
+      <td><ul><li>"国語総合"@ja</li><li>"こくごそうごう"@ja-Hira</li><li>"Integrated Japanese Language"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、種目名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。種目名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>種目名の英語名称</dd><dd><small>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （<a href="http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm">小学校</a>、<a href="http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm">中学校</a>、<a href="http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm">高等学校</a>） に記載されている種目（科目）はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（<a href="http://ci.nii.ac.jp/ncid/BA06708576">Education In JAPAN, 13版</a>）67ページの記載、「<a href="https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf">幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）</a>」の英訳<a href="https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf">Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools</a>の"8. The Content of Each Subject and Subject Area"(pp.107-195)も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。</small></dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:school</code></td>
+      <td>学校種別</td>
+      <td class="url">textbook:school/高等学校</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>教科用図書検定申請受理種目掲載順</td>
+      <td>1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>表示順を決める場合などで利用</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:about</code></td>
+      <td>対象とする科目もしくは教科</td>
+      <td>https://w3id.org/jp-cos/UpperSecondary/2009/国語/国語総合</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:subjectType</code></td>
+      <td>種目種別</td>
+      <td class="url">textbook:curriculum/高等学校/2013/Common</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領1994,2003,2013の高等学校の教科の種目のみ。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:comment</code></td>
+      <td>注記</td>
+      <td>国語のうち書写を除く内容を対象とする。</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:seeAlso</code></td>
+      <td>参照</td>
+      <td class="url">http://www.mext.go.jp/a_menu/shotou/kyoukasho/kentei/1293732.htm</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>教科用図書検定申請受理種目のWebページ</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:citation</code></td>
+      <td>出典</td>
+      <td>『教科用図書検定申請受理種目』平成22年5月14日号外文部科学省告示第83号(平成元年6月9日文部省告示第89号の改正)</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>種目の出典となる表。検定教科書の検定時の申請に使われる種目表。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>textbook:sourceOfEnglishName</code></td>
+      <td>英語表記出典</td>
+      <td class="url">https://w3id.org/jp-textbook/source/Elementary-2008</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>英語表記の根拠となる出典情報を表す。</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>textbook:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-textbook/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>          <h2 id="versions">更新履歴 <i class="bi bi-info-circle"></i></h2>
+          <dl>
+                    <dt>2026-04-07</dt>
+        <dd>バージョン30.0を公開。</dd>
+        <dd>令和6年度検定の高等学校教科書の単元情報を全て追加しました。単元に対応する配当時数のデータモデルを設計し、新たに配当時数リソースを追加しました。配当時数リソース整備に伴い、未登録だった単元リソースを追加しました。教科・種目リソースに、学習指導要領LODへのリンクを追加しました。SPARQLエンドポイントおよび検索ページへのリンクを追加しました。各リソースページに、URI（固定リンク）をコピーする機能を追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/53?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>      <li><a href="https://w3id.org/jp-textbook/all-textbook-20260407.ttl.gz">all-textbook-20260407.ttl.gz</a>
+  (345,927トリプル, 783 KB)
+  <span class="license">
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://licensebuttons.net/l/zero/1.0/88x31.png" alt=""></a>
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/">パブリック・ドメイン (CC0)</a>として自由に利用できます。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20250627.ttl">textbook-20250627.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20241221.ttl">textbook-rc-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20260402.ttl">curriculum-20260402.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20220814.ttl">curriculum-versions-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20250526.ttl">catalogue-20250526.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20260403.ttl">subject-20260403.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20260402.ttl">subjectArea-20260402.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20250207.ttl">subjectType-20250207.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20250526.ttl">publisher-20250526.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20260403.ttl">schema-20260403.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20260405.ttl">shape-20260405.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20260407.ttl">dataset-20260407.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/source-20241221.ttl">source-20241221.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/all-teachingUnit-20260407.ttl.gz">all-teachingUnit-20260407.ttl.gz</a>
+  (1,934,065トリプル, 4.3 MB)
+  <span class="license">
+    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt=""></a>
+    <a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズライセンス 表示 4.0</a>として自由に利用できます。
+  </span>
+  <span class="derivedfrom">
+    このデータセットは<a href="https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm">「教科書編修趣意書」</a>を加工して作成。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/chapterType-20220617.ttl">chapterType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/compilingProspectus-20260403.ttl">compilingProspectus-20260403.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/durationType-20260330.ttl">durationType-20260330.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/mixedDurationType-20260330.ttl">mixedDurationType-20260330.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-body-20260407.ttl">teachingUnit-AA-body-20260407.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-duration-20260407.ttl">teachingUnit-AA-duration-20260407.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AB-20260403.ttl">teachingUnit-AB-20260403.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnitType-20220617.ttl">teachingUnitType-20220617.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+</ul></dd>
+
+                    <dt>2025-07-08</dt>
+        <dd>バージョン28.1を公開。</dd>
+        <dd>2024年度使用教科書、2025年度使用教科書の使用年度情報を更新しました。道徳教科書の教科名の誤りを修正しました。教科や種目等の一覧を適切な順序で並べるようにしました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/51?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>      <li><a href="https://w3id.org/jp-textbook/all-textbook-20250708.ttl.gz">all-textbook-20250708.ttl.gz</a>
+  (344,962トリプル, 777 KB)
+  <span class="license">
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://licensebuttons.net/l/zero/1.0/88x31.png" alt=""></a>
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/">パブリック・ドメイン (CC0)</a>として自由に利用できます。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20250627.ttl">textbook-20250627.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20241221.ttl">textbook-rc-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20220814.ttl">curriculum-versions-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20250526.ttl">catalogue-20250526.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20241221.ttl">subject-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20241221.ttl">subjectArea-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20250207.ttl">subjectType-20250207.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20250526.ttl">publisher-20250526.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20250112.ttl">schema-20250112.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20250228.ttl">shape-20250228.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20250708.ttl">dataset-20250708.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/source-20241221.ttl">source-20241221.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/all-teachingUnit-20250607.ttl.gz">all-teachingUnit-20250607.ttl.gz</a>
+  (1,092,195トリプル, 2.13 MB)
+  <span class="license">
+    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt=""></a>
+    <a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズライセンス 表示 4.0</a>として自由に利用できます。
+  </span>
+  <span class="derivedfrom">
+    このデータセットは<a href="https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm">「教科書編修趣意書」</a>を加工して作成。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/chapterType-20220617.ttl">chapterType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/compilingProspectus-20250529.ttl">compilingProspectus-20250529.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-body-20250529.ttl">teachingUnit-AA-body-20250529.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-duration-20220630.ttl">teachingUnit-AA-duration-20220630.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AB-20250406.ttl">teachingUnit-AB-20250406.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnitType-20220617.ttl">teachingUnitType-20220617.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+</ul></dd>
+
+                    <dt>2025-06-07</dt>
+        <dd>バージョン28.0を公開。</dd>
+        <dd>2025年度使用教科書の書誌情報を追加しました。教科書書誌情報にサブタイトルとして、検定年や発行者略称などの情報を追記するようにして、種目詳細ページ等での教科書リソースへのリンク情報を識別しやすくしました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/50?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>      <li><a href="https://w3id.org/jp-textbook/all-textbook-20250607.ttl.gz">all-textbook-20250607.ttl.gz</a>
+  (342,707トリプル, 776 KB)
+  <span class="license">
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://licensebuttons.net/l/zero/1.0/88x31.png" alt=""></a>
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/">パブリック・ドメイン (CC0)</a>として自由に利用できます。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20250530.ttl">textbook-20250530.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20241221.ttl">textbook-rc-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20220814.ttl">curriculum-versions-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20250526.ttl">catalogue-20250526.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20241221.ttl">subject-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20241221.ttl">subjectArea-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20250207.ttl">subjectType-20250207.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20250526.ttl">publisher-20250526.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20250112.ttl">schema-20250112.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20250228.ttl">shape-20250228.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20250607.ttl">dataset-20250607.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/source-20241221.ttl">source-20241221.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/all-teachingUnit-20250607.ttl.gz">all-teachingUnit-20250607.ttl.gz</a>
+  (1,092,195トリプル, 2.13 MB)
+  <span class="license">
+    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt=""></a>
+    <a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズライセンス 表示 4.0</a>として自由に利用できます。
+  </span>
+  <span class="derivedfrom">
+    このデータセットは<a href="https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm">「教科書編修趣意書」</a>を加工して作成。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/chapterType-20220617.ttl">chapterType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/compilingProspectus-20250529.ttl">compilingProspectus-20250529.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-body-20250529.ttl">teachingUnit-AA-body-20250529.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-duration-20220630.ttl">teachingUnit-AA-duration-20220630.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AB-20250406.ttl">teachingUnit-AB-20250406.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnitType-20220617.ttl">teachingUnitType-20220617.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+</ul></dd>
+
+                    <dt>2025-04-07</dt>
+        <dd>バージョン27.0を公開。</dd>
+        <dd>2020年度検定の高校共通教科の教科書単元情報を全て、2022-2023年度検定分の高学教科書の単元情報の多くを公開しました。トップページの学習指導要領一覧の表記とデザインを変更しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/49?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>      <li><a href="https://w3id.org/jp-textbook/all-textbook-20250305.ttl.gz">all-textbook-20250305.ttl.gz</a>
+  (339,615トリプル, 764 KB)
+  <span class="license">
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://licensebuttons.net/l/zero/1.0/88x31.png" alt=""></a>
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/">パブリック・ドメイン (CC0)</a>として自由に利用できます。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20250209.ttl">textbook-20250209.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20241221.ttl">textbook-rc-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20220814.ttl">curriculum-versions-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20240705.ttl">catalogue-20240705.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20241221.ttl">subject-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20241221.ttl">subjectArea-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20250207.ttl">subjectType-20250207.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20241229.ttl">publisher-20241229.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20250112.ttl">schema-20250112.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20250228.ttl">shape-20250228.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20250407.ttl">dataset-20250407.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/source-20241221.ttl">source-20241221.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/all-teachingUnit-20250305.ttl.gz">all-teachingUnit-20250305.ttl.gz</a>
+  (1,092,195トリプル, 2.13 MB)
+  <span class="license">
+    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt=""></a>
+    <a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズライセンス 表示 4.0</a>として自由に利用できます。
+  </span>
+  <span class="derivedfrom">
+    このデータセットは<a href="https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm">「教科書編修趣意書」</a>を加工して作成。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/chapterType-20220617.ttl">chapterType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/compilingProspectus-20250402.ttl">compilingProspectus-20250402.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-body-20250406.ttl">teachingUnit-AA-body-20250406.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-duration-20220630.ttl">teachingUnit-AA-duration-20220630.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AB-20250406.ttl">teachingUnit-AB-20250406.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnitType-20220617.ttl">teachingUnitType-20220617.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+</ul></dd>
+
+                    <dt>2025-03-05</dt>
+        <dd>バージョン26.0を公開。</dd>
+        <dd>中学校検定教科書の最新分までの単元情報を全て追加しました。2011～2014年検定の高等学校教科書の編修趣意書の情報を追加しました。サイトのお知らせ情報にカテゴリを追加して整理しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/48?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>      <li><a href="https://w3id.org/jp-textbook/all-textbook-20250305.ttl.gz">all-textbook-20250305.ttl.gz</a>
+  (339,564トリプル, 764 KB)
+  <span class="license">
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://licensebuttons.net/l/zero/1.0/88x31.png" alt=""></a>
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/">パブリック・ドメイン (CC0)</a>として自由に利用できます。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20250209.ttl">textbook-20250209.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20241221.ttl">textbook-rc-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20220814.ttl">curriculum-versions-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20240705.ttl">catalogue-20240705.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20241221.ttl">subject-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20241221.ttl">subjectArea-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20250207.ttl">subjectType-20250207.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20241229.ttl">publisher-20241229.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20250112.ttl">schema-20250112.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20250228.ttl">shape-20250228.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20250305.ttl">dataset-20250305.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/source-20241221.ttl">source-20241221.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/all-teachingUnit-20250305.ttl.gz">all-teachingUnit-20250305.ttl.gz</a>
+  (780,258トリプル, 1.55 MB)
+  <span class="license">
+    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt=""></a>
+    <a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズライセンス 表示 4.0</a>として自由に利用できます。
+  </span>
+  <span class="derivedfrom">
+    このデータセットは<a href="https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm">「教科書編修趣意書」</a>を加工して作成。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/chapterType-20220617.ttl">chapterType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/compilingProspectus-20250228.ttl">compilingProspectus-20250228.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-body-20250302.ttl">teachingUnit-AA-body-20250302.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-duration-20220630.ttl">teachingUnit-AA-duration-20220630.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AB-20250301.ttl">teachingUnit-AB-20250301.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnitType-20220617.ttl">teachingUnitType-20220617.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+</ul></dd>
+
+                    <dt>2025-02-15</dt>
+        <dd>バージョン25.0を公開。</dd>
+        <dd>編修趣意書の基本情報（平成26年度以降検定の高等学校、平成26年度検定の中学校、平成29年度の中学校道徳）を追加しました。単元リソースから学習指導要領細目リソースへのリンクを階層上の上位・下位細目への関連も自動的に追加するよう拡張しました。単元情報や編修趣意書情報に含まれていたリンク誤りをいくつか修正しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/47?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>      <li><a href="https://w3id.org/jp-textbook/all-textbook-20250215.ttl.gz">all-textbook-20250215.ttl.gz</a>
+  (339,503トリプル, 764 KB)
+  <span class="license">
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://licensebuttons.net/l/zero/1.0/88x31.png" alt=""></a>
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/">パブリック・ドメイン (CC0)</a>として自由に利用できます。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20250209.ttl">textbook-20250209.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20241221.ttl">textbook-rc-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20220814.ttl">curriculum-versions-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20240705.ttl">catalogue-20240705.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20241221.ttl">subject-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20241221.ttl">subjectArea-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20250207.ttl">subjectType-20250207.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20241229.ttl">publisher-20241229.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20250112.ttl">schema-20250112.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20250214.ttl">shape-20250214.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20250215.ttl">dataset-20250215.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/source-20241221.ttl">source-20241221.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/all-teachingUnit-20250215.ttl.gz">all-teachingUnit-20250215.ttl.gz</a>
+  (620,801トリプル, 1.23 MB)
+  <span class="license">
+    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt=""></a>
+    <a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズライセンス 表示 4.0</a>として自由に利用できます。
+  </span>
+  <span class="derivedfrom">
+    このデータセットは<a href="https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm">「教科書編修趣意書」</a>を加工して作成。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/chapterType-20220617.ttl">chapterType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/compilingProspectus-20250210.ttl">compilingProspectus-20250210.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-body-20250214.ttl">teachingUnit-AA-body-20250214.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-duration-20220630.ttl">teachingUnit-AA-duration-20220630.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AB-20250214.ttl">teachingUnit-AB-20250214.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnitType-20220617.ttl">teachingUnitType-20220617.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+</ul></dd>
+
+                    <dt>2024-12-31</dt>
+        <dd>バージョン24.0を公開。</dd>
+        <dd>小学校（令和4年度検定）と中学校（令和元年、令和2年度検定）の教科書の全ての単元情報を追加しました。令和3, 4, 5年検定の教科書のISBN情報を追加しました。最新の編修趣意書の基本情報を全て追加しました。編修趣意書対照表へのリンクを追加しました。新規追加した単元において学習指導要領LODへのリンク情報を階層下部まで追加するようにしました。教科、種目の英語訳を修正しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/46?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>      <li><a href="https://w3id.org/jp-textbook/all-textbook-20241231.ttl.gz">all-textbook-20241231.ttl.gz</a>
+  (339,411トリプル, 762 KB)
+  <span class="license">
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://licensebuttons.net/l/zero/1.0/88x31.png" alt=""></a>
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/">パブリック・ドメイン (CC0)</a>として自由に利用できます。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20240805.ttl">textbook-20240805.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20241221.ttl">textbook-rc-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20220814.ttl">curriculum-versions-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20240705.ttl">catalogue-20240705.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20241221.ttl">subject-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20241221.ttl">subjectArea-20241221.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20201103.ttl">subjectType-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20241229.ttl">publisher-20241229.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20221006.ttl">schema-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20241231.ttl">shape-20241231.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20241231.ttl">dataset-20241231.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/source-20241221.ttl">source-20241221.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/all-teachingUnit-20241231.ttl.gz">all-teachingUnit-20241231.ttl.gz</a>
+  (578,232トリプル, 1.17 MB)
+  <span class="license">
+    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt=""></a>
+    <a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズライセンス 表示 4.0</a>として自由に利用できます。
+  </span>
+  <span class="derivedfrom">
+    このデータセットは<a href="https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm">「教科書編修趣意書」</a>を加工して作成。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/chapterType-20220617.ttl">chapterType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/compilingProspectus-20241230.ttl">compilingProspectus-20241230.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-body-20241231.ttl">teachingUnit-AA-body-20241231.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-duration-20220630.ttl">teachingUnit-AA-duration-20220630.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AB-20241231.ttl">teachingUnit-AB-20241231.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnitType-20220617.ttl">teachingUnitType-20220617.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+</ul></dd>
+
+                    <dt>2024-09-09</dt>
+        <dd>バージョン23.0を公開。</dd>
+        <dd>2024年度使用教科書の情報をまとめて追加しました。SPARQLエンドポイントの試験公開を始めました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/45?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>      <li><a href="https://w3id.org/jp-textbook/all-textbook-20240909.ttl.gz">all-textbook-20240909.ttl.gz</a>
+  (338,423トリプル, 749 KB)
+  <span class="license">
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://licensebuttons.net/l/zero/1.0/88x31.png" alt=""></a>
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/">パブリック・ドメイン (CC0)</a>として自由に利用できます。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20240805.ttl">textbook-20240805.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20220901.ttl">textbook-rc-20220901.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20220814.ttl">curriculum-versions-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20240705.ttl">catalogue-20240705.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20220814.ttl">subject-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20220814.ttl">subjectArea-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20201103.ttl">subjectType-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20240705.ttl">publisher-20240705.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20221006.ttl">schema-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20240909.ttl">shape-20240909.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20240909.ttl">dataset-20240909.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/all-teachingUnit-20240909.ttl.gz">all-teachingUnit-20240909.ttl.gz</a>
+  (183,245トリプル, 413 KB)
+  <span class="license">
+    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt=""></a>
+    <a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズライセンス 表示 4.0</a>として自由に利用できます。
+  </span>
+  <span class="derivedfrom">
+    このデータセットは<a href="https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm">「教科書編修趣意書」</a>を加工して作成。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/chapterType-20220617.ttl">chapterType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/compilingProspectus-20240803.ttl">compilingProspectus-20240803.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-body-20221006.ttl">teachingUnit-AA-body-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-duration-20220630.ttl">teachingUnit-AA-duration-20220630.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AB-20221006.ttl">teachingUnit-AB-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnitType-20220617.ttl">teachingUnitType-20220617.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+</ul></dd>
+
+                    <dt>2024-03-31</dt>
+        <dd>バージョン22.1を公開。</dd>
+        <dd>歴史教科書の書誌情報を1件追加しました。<a href="https://ndlsearch.ndl.go.jp/">NDLサーチ</a>のリニューアルに伴い、リンク先を修正しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/44?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>      <li><a href="https://w3id.org/jp-textbook/all-textbook-20240331.ttl.gz">all-textbook-20240331.ttl.gz</a>
+  (319,078トリプル, 646 KB)
+  <span class="license">
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://licensebuttons.net/l/zero/1.0/88x31.png" alt=""></a>
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/">パブリック・ドメイン (CC0)</a>として自由に利用できます。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20240329.ttl">textbook-20240329.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20220901.ttl">textbook-rc-20220901.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20220814.ttl">curriculum-versions-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20230807.ttl">catalogue-20230807.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20220814.ttl">subject-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20220814.ttl">subjectArea-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20201103.ttl">subjectType-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20230731.ttl">publisher-20230731.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20221006.ttl">schema-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20221006.ttl">shape-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20240331.ttl">dataset-20240331.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/all-teachingUnit-20221007.ttl.gz">all-teachingUnit-20221007.ttl.gz</a>
+  (179,506トリプル, 408 KB)
+  <span class="license">
+    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt=""></a>
+    <a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズライセンス 表示 4.0</a>として自由に利用できます。
+  </span>
+  <span class="derivedfrom">
+    このデータセットは<a href="https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm">「教科書編修趣意書」</a>を加工して作成。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/chapterType-20220617.ttl">chapterType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/compilingProspectus-20220814.ttl">compilingProspectus-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-body-20221006.ttl">teachingUnit-AA-body-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-duration-20220630.ttl">teachingUnit-AA-duration-20220630.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AB-20221006.ttl">teachingUnit-AB-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnitType-20220617.ttl">teachingUnitType-20220617.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+</ul></dd>
+
+                    <dt>2023-08-13</dt>
+        <dd>バージョン22.0を公開。</dd>
+        <dd>2023年度使用教科書の書誌情報を追加しました。サイト内検索の機能を追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/43?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>      <li><a href="https://w3id.org/jp-textbook/all-textbook-20230813.ttl.gz">all-textbook-20230813.ttl.gz</a>
+  (318,584トリプル, 646 KB)
+  <span class="license">
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://licensebuttons.net/l/zero/1.0/88x31.png" alt=""></a>
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/">パブリック・ドメイン (CC0)</a>として自由に利用できます。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20230809.ttl">textbook-20230809.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20220901.ttl">textbook-rc-20220901.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20220814.ttl">curriculum-versions-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20230807.ttl">catalogue-20230807.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20220814.ttl">subject-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20220814.ttl">subjectArea-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20201103.ttl">subjectType-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20230731.ttl">publisher-20230731.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20221006.ttl">schema-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20221006.ttl">shape-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20230813.ttl">dataset-20230813.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/all-teachingUnit-20221007.ttl.gz">all-teachingUnit-20221007.ttl.gz</a>
+  (179,506トリプル, 408 KB)
+  <span class="license">
+    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt=""></a>
+    <a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズライセンス 表示 4.0</a>として自由に利用できます。
+  </span>
+  <span class="derivedfrom">
+    このデータセットは<a href="https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm">「教科書編修趣意書」</a>を加工して作成。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/chapterType-20220617.ttl">chapterType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/compilingProspectus-20220814.ttl">compilingProspectus-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-body-20221006.ttl">teachingUnit-AA-body-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-duration-20220630.ttl">teachingUnit-AA-duration-20220630.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AB-20221006.ttl">teachingUnit-AB-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnitType-20220617.ttl">teachingUnitType-20220617.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+</ul></dd>
+
+                    <dt>2022-10-07</dt>
+        <dd>バージョン21.0を公開。</dd>
+        <dd>教科書LODと単元LODの配布ファイルを分割しました。教科名・種目名の誤りを修正しました。教科書目録・出版社リソースを追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/42?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>      <li><a href="https://w3id.org/jp-textbook/all-textbook-20221007.ttl.gz">all-textbook-20221007.ttl.gz</a>
+  (306,610トリプル, 626 KB)
+  <span class="license">
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://licensebuttons.net/l/zero/1.0/88x31.png" alt=""></a>
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/">パブリック・ドメイン (CC0)</a>として自由に利用できます。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20220922.ttl">textbook-20220922.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20220901.ttl">textbook-rc-20220901.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20220814.ttl">curriculum-versions-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20220912.ttl">catalogue-20220912.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20220814.ttl">subject-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20220814.ttl">subjectArea-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20201103.ttl">subjectType-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20220910.ttl">publisher-20220910.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20221006.ttl">schema-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20221006.ttl">shape-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20221007.ttl">dataset-20221007.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/all-teachingUnit-20221007.ttl.gz">all-teachingUnit-20221007.ttl.gz</a>
+  (179,506トリプル, 408 KB)
+  <span class="license">
+    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt=""></a>
+    <a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズライセンス 表示 4.0</a>として自由に利用できます。
+  </span>
+  <span class="derivedfrom">
+    このデータセットは<a href="https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm">「教科書編修趣意書」</a>を加工して作成。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/chapterType-20220617.ttl">chapterType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/compilingProspectus-20220814.ttl">compilingProspectus-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-body-20221006.ttl">teachingUnit-AA-body-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-duration-20220630.ttl">teachingUnit-AA-duration-20220630.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AB-20221006.ttl">teachingUnit-AB-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnitType-20220617.ttl">teachingUnitType-20220617.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+
+</ul></dd>
+
+                    <dt>2022-09-10</dt>
+        <dd>バージョン20.0を公開。</dd>
+        <dd>2022年度使用教科書の情報を新規追加しました。あわせて、2020, 2021年度使用教科書のISBN情報及び教科書センター図書館の所蔵情報を追加しました。単元情報リソースにおいて、学習指導要領LODへのリンク情報を元としたNHK for Schoolコンテンツへの検索リンクを追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/41?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20220910.ttl.gz">all-20220910.ttl.gz</a>
+  (485,472トリプル, 1.01 MB)
+  <span class="derivedfrom">
+    このデータセットは<a href="https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm">「教科書編修趣意書」</a>を加工して作成。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20220901.ttl">textbook-20220901.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20220901.ttl">textbook-rc-20220901.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20220814.ttl">curriculum-versions-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20210623.ttl">catalogue-20210623.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20220814.ttl">subject-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20220814.ttl">subjectArea-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20201103.ttl">subjectType-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20210622.ttl">publisher-20210622.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20220827.ttl">schema-20220827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/chapterType-20220617.ttl">chapterType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/compilingProspectus-20220814.ttl">compilingProspectus-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-body-20220814.ttl">teachingUnit-AA-body-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-duration-20220630.ttl">teachingUnit-AA-duration-20220630.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AB-20220814.ttl">teachingUnit-AB-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnitType-20220617.ttl">teachingUnitType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20220831.ttl">shape-20220831.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20220910.ttl">dataset-20220910.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2022-08-28</dt>
+        <dd>バージョン19.0を公開。</dd>
+        <dd>2020年度小学校使用教科書分の単元情報と編修趣意書情報のメタデータを追加しました。学習指導要領LODへのリンクを追加しました。サイト構築をttl2html-2.0に基づくものにリニューアルしました。配布形式をGzip圧縮するように変更しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/40?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20220828.ttl.gz">all-20220828.ttl.gz</a>
+  (475,461トリプル, 1000 KB)
+  <span class="derivedfrom">
+    このデータセットは<a href="https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm">「教科書編修趣意書」</a>を加工して作成。
+  </span>
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20220827.ttl">textbook-20220827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20220827.ttl">textbook-rc-20220827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20220814.ttl">curriculum-versions-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20210623.ttl">catalogue-20210623.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20220814.ttl">subject-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20220814.ttl">subjectArea-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20201103.ttl">subjectType-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20210622.ttl">publisher-20210622.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20220827.ttl">schema-20220827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/chapterType-20220617.ttl">chapterType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/compilingProspectus-20220814.ttl">compilingProspectus-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-body-20220814.ttl">teachingUnit-AA-body-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AA-duration-20220630.ttl">teachingUnit-AA-duration-20220630.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnit-AB-20220814.ttl">teachingUnit-AB-20220814.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/teachingUnitType-20220617.ttl">teachingUnitType-20220617.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20220827.ttl">shape-20220827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20220828.ttl">dataset-20220828.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2021-06-24</dt>
+        <dd>バージョン18.0を公開。</dd>
+        <dd>2021年度使用教科書メタデータを追加しました。教科書図書館OPACへのリンクを修正しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/39?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20210624.ttl">all-20210624.ttl</a>
+  (292,130トリプル, 13.8 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20210623.ttl">textbook-20210623.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20200315.ttl">textbook-rc-20200315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20200316.ttl">curriculum-versions-20200316.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20210623.ttl">catalogue-20210623.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20201103.ttl">subject-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20201030.ttl">subjectArea-20201030.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20201103.ttl">subjectType-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20210622.ttl">publisher-20210622.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20200703.ttl">schema-20200703.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20201215.ttl">shape-20201215.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20210623.ttl">dataset-20210623.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2020-12-19</dt>
+        <dd>バージョン17.0を公開。</dd>
+        <dd>2020年度使用教科書メタデータを追加しました。年データにはデータ型<code>xsd:gYear</code>を使うよう変更しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/37?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20201219.ttl">all-20201219.ttl</a>
+  (286,149トリプル, 13.5 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20201213.ttl">textbook-20201213.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20200315.ttl">textbook-rc-20200315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20200316.ttl">curriculum-versions-20200316.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20201215.ttl">catalogue-20201215.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20201103.ttl">subject-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20201030.ttl">subjectArea-20201030.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20201103.ttl">subjectType-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20201213.ttl">publisher-20201213.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20200703.ttl">schema-20200703.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20201215.ttl">shape-20201215.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20201219.ttl">dataset-20201219.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2020-11-07</dt>
+        <dd>バージョン16.0を公開。</dd>
+        <dd>2020年以降実施の新学習指導要領の教科、種目を追加し、2020年使用の教科書目録を追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/35?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20201107.ttl">all-20201107.ttl</a>
+  (278,555トリプル, 13.1 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20200702.ttl">textbook-20200702.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20200315.ttl">textbook-rc-20200315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20200316.ttl">curriculum-versions-20200316.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20201103.ttl">catalogue-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20201103.ttl">subject-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20201030.ttl">subjectArea-20201030.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20201103.ttl">subjectType-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20201103.ttl">publisher-20201103.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20200703.ttl">schema-20200703.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20200702.ttl">shape-20200702.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20201107.ttl">dataset-20201107.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2020-08-15</dt>
+        <dd>バージョン15.2を公開。</dd>
+        <dd>出版社の識別子の一つとして用いている法人インフォのURI変更に対応しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/33?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20200815.ttl">all-20200815.ttl</a>
+  (273,479トリプル, 12.7 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20200702.ttl">textbook-20200702.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20200315.ttl">textbook-rc-20200315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20200316.ttl">curriculum-versions-20200316.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20200308.ttl">catalogue-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20200316.ttl">subject-20200316.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20200315.ttl">subjectArea-20200315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20200801.ttl">publisher-20200801.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20200703.ttl">schema-20200703.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20200702.ttl">shape-20200702.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20200814.ttl">dataset-20200814.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2020-07-12</dt>
+        <dd>バージョン15.1を公開。</dd>
+        <dd>データセット全体を記述したメタデータを追加しました。一部のスキーマ記述漏れを修正しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/32?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20200712.ttl">all-20200712.ttl</a>
+  (273,449トリプル, 12.7 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20200702.ttl">textbook-20200702.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20200315.ttl">textbook-rc-20200315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20200316.ttl">curriculum-versions-20200316.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20200308.ttl">catalogue-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20200316.ttl">subject-20200316.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20200315.ttl">subjectArea-20200315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20200308.ttl">publisher-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20200703.ttl">schema-20200703.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20200702.ttl">shape-20200702.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/dataset-20200712.ttl">dataset-20200712.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2020-07-02</dt>
+        <dd>バージョン15.0を公開。</dd>
+        <dd>使用年の情報を対応する年数分のプロパティとして記録するように変更しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/31?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20200702.ttl">all-20200702.ttl</a>
+  (272,594トリプル, 12.7 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20200702.ttl">textbook-20200702.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20200315.ttl">textbook-rc-20200315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20200316.ttl">curriculum-versions-20200316.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20200308.ttl">catalogue-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20200316.ttl">subject-20200316.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20200315.ttl">subjectArea-20200315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20200308.ttl">publisher-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20200702.ttl">schema-20200702.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20200702.ttl">shape-20200702.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2020-03-16</dt>
+        <dd>バージョン14.0を公開。</dd>
+        <dd>「情報」「家庭」「外国語」など、主として専門学科において開設される教科と学科に共通する教科において名称が同一だったもののURIを変更しました（<a href="https://w3id.org/jp-textbook/curriculum/%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1/2013/%E6%83%85%E5%A0%B1(%E5%B0%82%E9%96%80)">情報(専門)</a>など）。 一部の2019年使用教科書の使用年が継続記述になっていなかったものを修正しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/30?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20200316.ttl">all-20200316.ttl</a>
+  (233,001トリプル, 11.8 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20200316.ttl">textbook-20200316.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20200315.ttl">textbook-rc-20200315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20200316.ttl">curriculum-versions-20200316.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20200308.ttl">catalogue-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20200316.ttl">subject-20200316.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20200315.ttl">subjectArea-20200315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20200308.ttl">publisher-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20200306.ttl">schema-20200306.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20200315.ttl">shape-20200315.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2020-03-14</dt>
+        <dd>バージョン13.2を公開。</dd>
+        <dd>2019年度使用教科書のISBN情報など識別子を追加しました。 一部の教科書の所蔵情報を修正しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/29?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20200314.ttl">all-20200314.ttl</a>
+  (235,914トリプル, 11.8 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20200313.ttl">textbook-20200313.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20200306.ttl">textbook-rc-20200306.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-bib-20200313.ttl">textbook-rc-bib-20200313.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180822.ttl">curriculum-versions-20180822.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20200308.ttl">catalogue-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20190620.ttl">subject-20190620.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20190620.ttl">subjectArea-20190620.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20200308.ttl">publisher-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20200306.ttl">schema-20200306.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20200314.ttl">shape-20200314.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2020-03-08</dt>
+        <dd>バージョン13.1を公開。</dd>
+        <dd>これまで登録されていなかった専門学科における教科の種目を自動的に登録するようにし、トップページ等の表示に反映できるようにしました。 SHACL制約の一部とデータセットの一部を修正しました。特に、一部の日付データにおいて明示的に<code>xsd:date</code>型を追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/28?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20200308.ttl">all-20200308.ttl</a>
+  (235,874トリプル, 11.8 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20200308.ttl">textbook-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20200306.ttl">textbook-rc-20200306.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20200308.ttl">curriculum-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180822.ttl">curriculum-versions-20180822.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20200308.ttl">catalogue-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20190620.ttl">subject-20190620.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20190620.ttl">subjectArea-20190620.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20200308.ttl">publisher-20200308.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20200306.ttl">schema-20200306.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20200308.ttl">shape-20200308.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2020-03-06</dt>
+        <dd>バージョン13.0を公開。</dd>
+        <dd>個別所蔵資料リソースのRDFクラスとして<code>bf:Item</code>を追加しました。 ISBNを持つ教科書に対する外部リンクとして、JPNO, BibID, NCIDの新しいデータを追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/27?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20200306.ttl">all-20200306.ttl</a>
+  (234,885トリプル, 11.7 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20200306.ttl">textbook-20200306.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20200306.ttl">textbook-rc-20200306.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20190516.ttl">curriculum-20190516.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180822.ttl">curriculum-versions-20180822.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20190515.ttl">catalogue-20190515.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20190620.ttl">subject-20190620.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20190620.ttl">subjectArea-20190620.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20190620.ttl">publisher-20190620.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20200306.ttl">schema-20200306.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20200306.ttl">shape-20200306.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2020-03-02</dt>
+        <dd>バージョン12.0を公開。</dd>
+        <dd>2019年度使用教科書を追加しました。 いくつかの教科書の使用年度やタイトル等に誤りがあったものを修正しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/26?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20200302.ttl">all-20200302.ttl</a>
+  (221,029トリプル, 11.4 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20200302.ttl">textbook-20200302.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180916.ttl">textbook-rc-20180916.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20190516.ttl">curriculum-20190516.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180822.ttl">curriculum-versions-20180822.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20190515.ttl">catalogue-20190515.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20190620.ttl">subject-20190620.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20190620.ttl">subjectArea-20190620.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20190620.ttl">publisher-20190620.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20181013.ttl">schema-20181013.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20190306.ttl">shape-20190306.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-12-21</dt>
+        <dd>バージョン11.2を公開。</dd>
+        <dd><a href="https://www.w3.org/TR/shacl/">SHACL標準</a>に基づき、メタデータスキーマをRDF Shapeとして記述したファイルを追加しました。 プロパティ説明等のアプリケーションプロファイル記述をSHACLファイルから自動生成するように変更しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/24?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20181220.ttl">all-20181220.ttl</a>
+  (219,018トリプル, 11.3 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20181129.ttl">textbook-20181129.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180916.ttl">textbook-rc-20180916.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20180804.ttl">curriculum-20180804.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180822.ttl">curriculum-versions-20180822.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20181130.ttl">catalogue-20181130.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20180827.ttl">subject-20180827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20180827.ttl">subjectArea-20180827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20181130.ttl">publisher-20181130.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20181013.ttl">schema-20181013.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/shape-20181214.ttl">shape-20181214.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-12-03</dt>
+        <dd>バージョン11.1を公開。</dd>
+        <dd>教科書目録ページに教科書一覧を掲載するようにしました。 トップページから教科書目録ページへのリンクを追加しました。 発行者リソースの発行年情報の誤りをいくつか修正しました。 教科書リソースから教科書目録リソースへのリンク関連付けに一部失敗していたのを修正しました。 トップページにいくつかの種目が重複して掲載されていた誤りを修正しました。 LODモデル図を最新版に更新しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/23?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20181130.ttl">all-20181130.ttl</a>
+  (218,206トリプル, 11.2 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20181129.ttl">textbook-20181129.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180916.ttl">textbook-rc-20180916.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20180804.ttl">curriculum-20180804.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180822.ttl">curriculum-versions-20180822.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20181130.ttl">catalogue-20181130.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20180827.ttl">subject-20180827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20180827.ttl">subjectArea-20180827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20181130.ttl">publisher-20181130.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20181013.ttl">schema-20181013.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-11-27</dt>
+        <dd>バージョン11.0を公開。</dd>
+        <dd>教科書とその掲載教科書目録との関連付けを、初出教科書目録への関連付けから、掲載教科書目録へと変更し、繰り返し可能なプロパティとして定義しなおしました。 発行者情報に発見された誤りをいくつか修正しました。 教科書LODサイト内にGoogleサイト内検索の機能を追加しました。 種目名の誤りをいくつか修正しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/22?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20181125.ttl">all-20181125.ttl</a>
+  (212,141トリプル, 10.9 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20181111.ttl">textbook-20181111.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180916.ttl">textbook-rc-20180916.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20180804.ttl">curriculum-20180804.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180822.ttl">curriculum-versions-20180822.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20180727.ttl">catalogue-20180727.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20180827.ttl">subject-20180827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20180827.ttl">subjectArea-20180827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20181123.ttl">publisher-20181123.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20181013.ttl">schema-20181013.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-10-13</dt>
+        <dd>バージョン10.4を公開。</dd>
+        <dd>ISBNを持つ教科書について、JP番号、NDL書誌番号、NCIDのリンクを追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/21?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20181013.ttl">all-20181013.ttl</a>
+  (185,658トリプル, 9.4 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20180831.ttl">textbook-20180831.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180916.ttl">textbook-rc-20180916.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20180804.ttl">curriculum-20180804.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180822.ttl">curriculum-versions-20180822.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20180727.ttl">catalogue-20180727.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20180827.ttl">subject-20180827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20180827.ttl">subjectArea-20180827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20180826.ttl">publisher-20180826.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20180913.ttl">schema-20180913.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-09-16</dt>
+        <dd>バージョン10.3を公開。</dd>
+        <dd>独自のクラス、プロパティの定義としてスキーマを追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/20?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20180916.ttl">all-20180916.ttl</a>
+  (178,303トリプル, 9.02 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20180831.ttl">textbook-20180831.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180812.ttl">textbook-rc-20180812.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20180804.ttl">curriculum-20180804.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180822.ttl">curriculum-versions-20180822.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20180727.ttl">catalogue-20180727.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20180827.ttl">subject-20180827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20180827.ttl">subjectArea-20180827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20180826.ttl">publisher-20180826.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/schema-20180913.ttl">schema-20180913.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-08-31</dt>
+        <dd>バージョン10.2を公開。</dd>
+        <dd>発行者リソースに法人番号リソースへのリンクを追加しました。 発行者名称を教科書目録の「発行者一覧」から採録するように変更し、データ一部に修正を加えました。 教科書が例外的に複数の発行者から出版された場合に発行者リソースへの関連リンクを複数付与するように修正しました。 発行者番号の誤りをいくつか修正しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/19?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20180831.ttl">all-20180831.ttl</a>
+  (178,146トリプル, 9.02 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20180831.ttl">textbook-20180831.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180812.ttl">textbook-rc-20180812.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20180804.ttl">curriculum-20180804.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180822.ttl">curriculum-versions-20180822.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20180727.ttl">catalogue-20180727.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20180827.ttl">subject-20180827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20180827.ttl">subjectArea-20180827.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20180826.ttl">publisher-20180826.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-08-25</dt>
+        <dd>バージョン10.1を公開。</dd>
+        <dd>発行者情報リソースURIの記述の誤りを修正しました。 複数年にわたる発行者リソース同士をグループ化して表示するようにしました。 教科および種目の英語名称の出典情報を追加しました。 発行者情報英語版ページのタイトルをアルファベット表記に変更しました。 個別URIへのアクセス時に<code>text/turtle</code>を指定してアクセスするとRDF/Turtleデータを返すようにしました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/18?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20180825.ttl">all-20180825.ttl</a>
+  (177,410トリプル, 8.94 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20180820.ttl">textbook-20180820.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180812.ttl">textbook-rc-20180812.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20180804.ttl">curriculum-20180804.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180822.ttl">curriculum-versions-20180822.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20180727.ttl">catalogue-20180727.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20180821.ttl">subject-20180821.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20180821.ttl">subjectArea-20180821.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20180825.ttl">publisher-20180825.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-08-20</dt>
+        <dd>バージョン10.0を公開。</dd>
+        <dd>発行者情報リソースを追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/17?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20180820.ttl">all-20180820.ttl</a>
+  (173,396トリプル, 8.56 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20180820.ttl">textbook-20180820.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180812.ttl">textbook-rc-20180812.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20180804.ttl">curriculum-20180804.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180811.ttl">curriculum-versions-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20180727.ttl">catalogue-20180727.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20180812.ttl">subject-20180812.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20180812.ttl">subjectArea-20180812.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/publisher-20180818.ttl">publisher-20180818.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-08-15</dt>
+        <dd>バージョン9.1を公開。</dd>
+        <dd>教科名と種目名の英語表記とよみを一部修正しました。 教科書LODのロゴ画像を追加しました。 サイト全体のFacebookとTwitterシェア用の画像を設定しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/16?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20180815.ttl">all-20180815.ttl</a>
+  (166,237トリプル, 7.99 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20180811.ttl">textbook-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180812.ttl">textbook-rc-20180812.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20180804.ttl">curriculum-20180804.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180811.ttl">curriculum-versions-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20180727.ttl">catalogue-20180727.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20180812.ttl">subject-20180812.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20180812.ttl">subjectArea-20180812.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-08-12</dt>
+        <dd>バージョン9.0を公開。</dd>
+        <dd>教育図書館で記述している教科書の注記情報を追加しました。 注記を示すプロパティを独自の<code>textbook:note</code>からBIBFRAMEの<code>bf:note</code>プロパティに変更しました。 教科書を示すRDFクラスを<code>schema:Book</code>から独自の<code>textbook:Textbook</code>に変更しました。 対象学年情報を示す<code>textbook:grade</code>プロパティを数値リテラルで繰り返し記述するように変更しました。 教科・種別リソースに学習指導要領リソースと学校種別リソースへのリンクを追加しました。 学習指導要領改正情報に英語名称、英語出典表記を追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/15?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20180812.ttl">all-20180812.ttl</a>
+  (166,237トリプル, 7.99 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20180811.ttl">textbook-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180812.ttl">textbook-rc-20180812.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20180804.ttl">curriculum-20180804.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180811.ttl">curriculum-versions-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20180727.ttl">catalogue-20180727.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20180804.ttl">subject-20180804.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20180806.ttl">subjectArea-20180806.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180811.ttl">subjectType-20180811.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-08-09</dt>
+        <dd>バージョン8.0を公開。</dd>
+        <dd>学習指導要領の改正情報を追加しました。 教科種別、種目種別について、各学習指導要領別のURIとなるよう修正し、あわせて各教科・種目からの関連プロパティも変更しました。 全てのリソースの詳細情報を全てのプロパティ分表示するようにしました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/14?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20180809.ttl">all-20180809.ttl</a>
+  (165,325トリプル, 7.91 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20180715.ttl">textbook-20180715.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180725.ttl">textbook-rc-20180725.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20180804.ttl">curriculum-20180804.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-versions-20180802.ttl">curriculum-versions-20180802.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20180727.ttl">catalogue-20180727.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20180804.ttl">subject-20180804.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20180806.ttl">subjectArea-20180806.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectType-20180806.ttl">subjectType-20180806.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-07-28</dt>
+        <dd>バージョン7.1を公開。</dd>
+        <dd>個別のRDF/Turtleデータへのリンクを追加しました。 教科書目録のNCIDとJPNOを追加しました。 英語ページと日本語ページの間を相互にリンクするようにしました。 対象外の教科書情報が数件混入していたため除外しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/13?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20180728.ttl">all-20180728.ttl</a>
+  (164,553トリプル, 7.87 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20180715.ttl">textbook-20180715.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180725.ttl">textbook-rc-20180725.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20180713.ttl">curriculum-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20180727.ttl">catalogue-20180727.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20180720.ttl">subject-20180720.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20180713.ttl">subjectArea-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-07-21</dt>
+        <dd>バージョン7.0を公開。</dd>
+        <dd>2018年度使用教科書の書誌情報と所蔵情報をいくつか修正しました。 新たな教科・種目「道徳」を追加しました。 学校種別のURIリソースを新設しました。 各ページに対応する英語ページを作成しました。 全てのリソースに対応して、個別のリソースに対するTurtle形式を出力するようにしました。 カーリルへのリンクを追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/11?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20180721.ttl">all-20180721.ttl</a>
+  (164,387トリプル, 7.86 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20180715.ttl">textbook-20180715.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20180720.ttl">textbook-rc-20180720.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20180713.ttl">curriculum-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20180713.ttl">catalogue-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20180720.ttl">subject-20180720.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20180713.ttl">subjectArea-20180713.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/school-20180713.ttl">school-20180713.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2018-03-13</dt>
+        <dd>バージョン6.1を公開。</dd>
+        <dd>教科書図書館の所蔵教科書で一つの教科書リソースに対して複数の所蔵があるものについて両者へのリンクを追加するよう修正しました。書誌情報をいくつか修正しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/10?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20180313.ttl">all-20180313.ttl</a>
+  (157,297トリプル, 7.49 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20180313.ttl">textbook-20180313.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20171222.ttl">textbook-rc-20171222.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20171005.ttl">curriculum-20171005.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20171005.ttl">subject-20171005.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20171003.ttl">subjectArea-20171003.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20171009.ttl">catalogue-20171009.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2017-12-03</dt>
+        <dd>バージョン6.0を公開。</dd>
+        <dd><a href="http://www.textbook-rc.or.jp/library/">公益財団法人教科書研究センター附属教科書図書館</a>の所蔵教科書の書誌情報をいただき、リンクを追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/9?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20171203.ttl">all-20171203.ttl</a>
+  (157,045トリプル, 7.48 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20171130.ttl">textbook-20171130.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/textbook-rc-20171202.ttl">textbook-rc-20171202.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20171005.ttl">curriculum-20171005.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20171005.ttl">subject-20171005.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20171003.ttl">subjectArea-20171003.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20171009.ttl">catalogue-20171009.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2017-11-30</dt>
+        <dd>バージョン5.2を公開。</dd>
+        <dd>いくつかの教科書情報における誤りとウェブ上の表記を修正しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/8?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20171130.ttl">all-20171130.ttl</a>
+  (141,150トリプル, 6.85 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20171130.ttl">textbook-20171130.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20171005.ttl">curriculum-20171005.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20171005.ttl">subject-20171005.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20171003.ttl">subjectArea-20171003.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20171009.ttl">catalogue-20171009.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2017-10-09</dt>
+        <dd>バージョン5.1を公開。</dd>
+        <dd>教科、種目、学習指導要領等の名称のよみ、英語名を追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/7?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20171009.ttl">all-20171009.ttl</a>
+  (141,098トリプル, 6.84 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20171003.ttl">textbook-20171003.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20171005.ttl">curriculum-20171005.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20171005.ttl">subject-20171005.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20171003.ttl">subjectArea-20171003.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20171009.ttl">catalogue-20171009.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2017-10-03</dt>
+        <dd>バージョン5.0を公開。</dd>
+        <dd>2017年度使用教科書の情報を追加しました。そのほかページ数、大きさなどのプロパティを追加しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/6?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20171003.ttl">all-20171003.ttl</a>
+  (139,839トリプル, 6.77 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20171003.ttl">textbook-20171003.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20170606.ttl">curriculum-20170606.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20170611.ttl">subject-20170611.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20171003.ttl">subjectArea-20171003.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20171003.ttl">catalogue-20171003.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2017-07-07</dt>
+        <dd>バージョン4.1を公開。</dd>
+        <dd>種目情報の詳細情報を提供するページを追加し、教科書一覧のページを置き換えるようにしました。その他公開ページの内容を整理しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/5?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20170707.ttl">all-20170707.ttl</a>
+  (120,248トリプル, 6.22 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20170707.ttl">textbook-20170707.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20170606.ttl">curriculum-20170606.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20170611.ttl">subject-20170611.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20170611.ttl">subjectArea-20170611.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20170611.ttl">catalogue-20170611.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2017-06-11</dt>
+        <dd>バージョン4.0を公開。</dd>
+        <dd>教科書目録リソースを追加しました。トップページの種目一覧を自動生成するようにしました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/3?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20170611.ttl">all-20170611.ttl</a>
+  (120,437トリプル, 6.24 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20170611.ttl">textbook-20170611.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20170606.ttl">curriculum-20170606.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20170611.ttl">subject-20170611.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20170611.ttl">subjectArea-20170611.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/catalogue-20170611.ttl">catalogue-20170611.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2017-06-06</dt>
+        <dd>バージョン3.0を公開。</dd>
+        <dd>種目と教科情報を説明するリソースURIとプロパティを大幅に追加しました。一部のデータ不具合を修正しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/2?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-textbook/all-20170606.ttl">all-20170606.ttl</a>
+  (112,441トリプル, 6.05 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-textbook/textbook-20170606.ttl">textbook-20170606.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20170606.ttl">curriculum-20170606.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subject-20170606.ttl">subject-20170606.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/subjectArea-20170606.ttl">subjectArea-20170606.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2017-05-03</dt>
+        <dd>バージョン2.0を公開。</dd>
+        <dd>リソースURIとプロパティを一部変更しました。
+        更新の詳細については<a href="https://github.com/jp-textbook/jp-textbook.github.io/milestone/1?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>      <li><a href="https://w3id.org/jp-textbook/textbook-20170503.ttl">textbook-20170503.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20170503.ttl">curriculum-20170503.ttl</a>
+  </li>
+
+</ul></dd>
+
+                    <dt>2017-01-15</dt>
+        <dd>バージョン1.0を公開。</dd>
+        <dd>初期バージョン公開。
+        </dd>
+        <dd><ul>      <li><a href="https://w3id.org/jp-textbook/textbook-20170115.ttl">textbook-20170115.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-textbook/curriculum-20170115.ttl">curriculum-20170115.ttl</a>
+  </li>
+
+</ul></dd>
+
+          </dl>
+          <h2 id="sparql-endpoint">SPARQLエンドポイント <i class="bi bi-database-add"></i></h2>
+          <p>このデータセットに対するSPARQLエンドポイントは以下のURLからアクセスできます（試験公開中）</p>
+          <ul>
+            <li>クエリ画面: <a href="https://dydra.com/masao/jp-textbook/@query">https://dydra.com/masao/jp-textbook/@query</a></li>
+            <li>SPARQLエンドポイント: <a href="https://dydra.com/masao/jp-textbook/sparql">https://dydra.com/masao/jp-textbook/sparql</a></li>
+          </ul>
+          <h2 id="contact">連絡先</h2>
+          <p>本データセットは 教科書LODプロジェクト が開発したものです</p>
+          <ul>
+            <li>江草由佳
+            (国立教育政策研究所)
+            <li>高久雅生
+            (筑波大学)
+            <li>阿児雄之
+            (東京国立博物館)
+            <li>有山裕美子
+            (滋賀文教短期大学)
+            <li>榎本聡
+            (日本女子大学)
+            <li>大井将生
+            (同志社大学)
+          </ul>
+          <p>データセットに関する問い合わせは <a href="mailto:yuka@nier.go.jp">mailto:yuka@nier.go.jp</a> までお問い合わせください。</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <footer>
+      <p>
+        &copy; 2017-2026
+        教科書LODプロジェクト
+      </p>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc/dist/bootstrap-toc.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ldfetch@1.2/dist/main.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

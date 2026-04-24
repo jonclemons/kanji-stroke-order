@@ -1,0 +1,18 @@
+{
+  "id": "mext-elementary-kokugo-commentary-2022-pdf",
+  "label": "小学校学習指導要領（平成29年告示）解説 国語編",
+  "kind": "official-government-curriculum-commentary",
+  "url": "https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf",
+  "canonicalUri": "https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf",
+  "license": "Public government curriculum document",
+  "attribution": "文部科学省",
+  "mirroredAt": "2026-04-24T04:23:32.102Z",
+  "mirrorType": "metadata-only",
+  "headers": {
+    "contentType": "application/pdf",
+    "contentLength": "6804103",
+    "lastModified": "Mon, 23 Mar 2026 02:00:01 GMT",
+    "etag": "\"67d287-64da764891d48\""
+  },
+  "note": "Official MEXT PDF is kept as remote authority metadata to avoid committing large binary curriculum PDFs."
+}

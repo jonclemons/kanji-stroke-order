@@ -1,0 +1,496 @@
+{
+  "id": "kokugo-graph-v2",
+  "generatedAt": "2026-04-24T04:23:49.197Z",
+  "version": "v2",
+  "pipeline": {
+    "mode": "offline-build-from-mirrors",
+    "networkPolicy": "graph build/export/check do not fetch upstream sources",
+    "refreshCommand": "bun run mirror:sources && bun run graph:build && bun run graph:check",
+    "productContract": "runtime code reads static JSON under public/data/v2/graph only",
+    "artifactDistribution": [
+      "git repository",
+      "static web hosting",
+      "object storage such as Cloudflare R2, S3, Backblaze B2, or compatible mirrors",
+      "CDN or community mirror that can serve immutable JSON files"
+    ]
+  },
+  "curriculumRoot": {
+    "authority": "文部科学省",
+    "claim": "小学校学習指導要領（平成29年告示）を国語グラフの基準点にする",
+    "sourceId": "mext-elementary-course-of-study-2017-pdf",
+    "sourceUri": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/09/26/1413522_001.pdf",
+    "lodSourceId": "mext-grade-kanji-2017",
+    "lodSourceUri": "https://w3id.org/jp-cos/8210000100000000"
+  },
+  "sqlite": {
+    "path": "build/kokugo-graph.sqlite",
+    "note": "Build artifact; gitignored. Static JSON exports are committed."
+  },
+  "sources": [
+    {
+      "id": "mext-elementary-course-of-study-2017-pdf",
+      "label": "小学校学習指導要領（平成29年告示）",
+      "kind": "official-government-curriculum",
+      "canonicalUri": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/09/26/1413522_001.pdf",
+      "path": "data/raw/kokugo-sources/mext/elementary-course-of-study-2017.source.json",
+      "license": "Public government curriculum document",
+      "attribution": "文部科学省"
+    },
+    {
+      "id": "mext-elementary-kokugo-commentary-2022-pdf",
+      "label": "小学校学習指導要領（平成29年告示）解説 国語編",
+      "kind": "official-government-curriculum-commentary",
+      "canonicalUri": "https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf",
+      "path": "data/raw/kokugo-sources/mext/elementary-kokugo-commentary-2022.source.json",
+      "license": "Public government curriculum document",
+      "attribution": "文部科学省"
+    },
+    {
+      "id": "jp-cos-about",
+      "label": "学習指導要領LOD About",
+      "kind": "source-description",
+      "canonicalUri": "https://jp-cos.github.io/about.html",
+      "path": "data/raw/kokugo-sources/jp-cos/about.html",
+      "license": "CC BY 4.0",
+      "attribution": "学習指導要領LOD"
+    },
+    {
+      "id": "jp-cos-all-20250927",
+      "label": "学習指導要領LOD TTL snapshot",
+      "kind": "rdf-snapshot",
+      "canonicalUri": "https://w3id.org/jp-cos/all-20250927.ttl.gz",
+      "path": "data/raw/kokugo-sources/jp-cos/all-20250927.ttl.gz",
+      "license": "CC BY 4.0",
+      "attribution": "学習指導要領LOD"
+    },
+    {
+      "id": "jp-textbook-about",
+      "label": "教科書LOD About",
+      "kind": "source-description",
+      "canonicalUri": "https://jp-textbook.github.io/about.html",
+      "path": "data/raw/kokugo-sources/jp-textbook/about.html",
+      "license": "CC0 1.0",
+      "attribution": "教科書LOD"
+    },
+    {
+      "id": "jp-textbook-all-textbook-20260407",
+      "label": "教科書LOD textbook TTL snapshot",
+      "kind": "rdf-snapshot",
+      "canonicalUri": "https://w3id.org/jp-textbook/all-textbook-20260407.ttl.gz",
+      "path": "data/raw/kokugo-sources/jp-textbook/all-textbook-20260407.ttl.gz",
+      "license": "CC0 1.0",
+      "attribution": "教科書LOD"
+    },
+    {
+      "id": "jp-textbook-all-teaching-unit-20260407",
+      "label": "教科書LOD teaching unit TTL snapshot",
+      "kind": "rdf-snapshot",
+      "canonicalUri": "https://w3id.org/jp-textbook/all-teachingUnit-20260407.ttl.gz",
+      "path": "data/raw/kokugo-sources/jp-textbook/all-teachingUnit-20260407.ttl.gz",
+      "license": "CC0 1.0",
+      "attribution": "教科書LOD"
+    },
+    {
+      "id": "mext-cos-2017-grade-1-kanji",
+      "label": "小学校学習指導要領 2017 学年別漢字配当表 1年",
+      "kind": "curriculum-grade-kanji-page",
+      "canonicalUri": "https://w3id.org/jp-cos/8210010110000000",
+      "path": "data/raw/kokugo-sources/jp-cos/grade-kanji/grade-1.html",
+      "license": "CC BY 4.0",
+      "attribution": "学習指導要領LOD"
+    },
+    {
+      "id": "mext-cos-2017-grade-2-kanji",
+      "label": "小学校学習指導要領 2017 学年別漢字配当表 2年",
+      "kind": "curriculum-grade-kanji-page",
+      "canonicalUri": "https://w3id.org/jp-cos/8210020120000000",
+      "path": "data/raw/kokugo-sources/jp-cos/grade-kanji/grade-2.html",
+      "license": "CC BY 4.0",
+      "attribution": "学習指導要領LOD"
+    },
+    {
+      "id": "mext-cos-2017-grade-3-kanji",
+      "label": "小学校学習指導要領 2017 学年別漢字配当表 3年",
+      "kind": "curriculum-grade-kanji-page",
+      "canonicalUri": "https://w3id.org/jp-cos/8210030130000000",
+      "path": "data/raw/kokugo-sources/jp-cos/grade-kanji/grade-3.html",
+      "license": "CC BY 4.0",
+      "attribution": "学習指導要領LOD"
+    },
+    {
+      "id": "mext-cos-2017-grade-4-kanji",
+      "label": "小学校学習指導要領 2017 学年別漢字配当表 4年",
+      "kind": "curriculum-grade-kanji-page",
+      "canonicalUri": "https://w3id.org/jp-cos/8210040140000000",
+      "path": "data/raw/kokugo-sources/jp-cos/grade-kanji/grade-4.html",
+      "license": "CC BY 4.0",
+      "attribution": "学習指導要領LOD"
+    },
+    {
+      "id": "mext-cos-2017-grade-5-kanji",
+      "label": "小学校学習指導要領 2017 学年別漢字配当表 5年",
+      "kind": "curriculum-grade-kanji-page",
+      "canonicalUri": "https://w3id.org/jp-cos/8210050150000000",
+      "path": "data/raw/kokugo-sources/jp-cos/grade-kanji/grade-5.html",
+      "license": "CC BY 4.0",
+      "attribution": "学習指導要領LOD"
+    },
+    {
+      "id": "mext-cos-2017-grade-6-kanji",
+      "label": "小学校学習指導要領 2017 学年別漢字配当表 6年",
+      "kind": "curriculum-grade-kanji-page",
+      "canonicalUri": "https://w3id.org/jp-cos/8210060160000000",
+      "path": "data/raw/kokugo-sources/jp-cos/grade-kanji/grade-6.html",
+      "license": "CC BY 4.0",
+      "attribution": "学習指導要領LOD"
+    },
+    {
+      "id": "mext-grade-kanji-2017",
+      "label": "小学校学習指導要領 2017 学年別漢字配当表",
+      "kind": "derived-curriculum-data",
+      "canonicalUri": "https://w3id.org/jp-cos/8210000100000000",
+      "path": "data/raw/kokugo-sources/derived/mext-grade-kanji-2017.json",
+      "license": "CC BY 4.0",
+      "attribution": "学習指導要領LOD"
+    },
+    {
+      "id": "kanjiapi-v1-local-grade",
+      "label": "KanjiAPI local grade mirror",
+      "kind": "local-mirror",
+      "canonicalUri": "https://kanjiapi.dev",
+      "path": "public/data/v1/grades",
+      "license": "Upstream project license; local mirror for app data",
+      "attribution": "KanjiAPI"
+    },
+    {
+      "id": "kanjiapi-v1-local-info",
+      "label": "KanjiAPI local kanji info mirror",
+      "kind": "local-mirror",
+      "canonicalUri": "https://kanjiapi.dev",
+      "path": "public/data/v1/info",
+      "license": "Upstream project license; local mirror for app data",
+      "attribution": "KanjiAPI"
+    },
+    {
+      "id": "kanjiapi-v1-local-words",
+      "label": "KanjiAPI local word mirror",
+      "kind": "local-mirror",
+      "canonicalUri": "https://kanjiapi.dev",
+      "path": "public/data/v1/words",
+      "license": "Upstream project license; local mirror for app data",
+      "attribution": "KanjiAPI"
+    },
+    {
+      "id": "kanjivg-local-svg",
+      "label": "KanjiVG local SVG mirror",
+      "kind": "local-mirror",
+      "canonicalUri": "https://github.com/KanjiVG/kanjivg",
+      "path": "public/data/v1/svg",
+      "license": "KanjiVG upstream license",
+      "attribution": "KanjiVG"
+    },
+    {
+      "id": "kokugo-graph-seed",
+      "label": "Kokugo graph seed data",
+      "kind": "curated-seed",
+      "canonicalUri": "local://kokugo-graph/seed",
+      "path": "scripts/data-pipeline/build-kokugo-graph.mjs",
+      "license": "Project-authored seed data",
+      "attribution": "kokugo.app"
+    }
+  ],
+  "exports": {
+    "kanji": "kanji/{hex}.json",
+    "vocab": "vocab/{id}.json",
+    "examples": "examples/{id}.json",
+    "progressions": "progressions/{id}.json",
+    "grammar": "grammar/{id}.json",
+    "readings": "readings/{id}.json",
+    "classical": "classical/{id}.json",
+    "sayings": "sayings/{id}.json",
+    "yojijukugo": "yojijukugo/{id}.json",
+    "searchIndex": "search-index.json"
+  },
+  "counts": {
+    "officialKanji": 1026,
+    "localKanji": 1006,
+    "graphKanji": 1026,
+    "vocabulary": 6838,
+    "examples": 1,
+    "progressionProfiles": 1,
+    "domains": 9,
+    "schemaReadyScopes": 5,
+    "claims": 32192
+  },
+  "coverage": {
+    "officialTotal": 1026,
+    "officialExpectedTotal": 1026,
+    "currentLocalTotal": 1006,
+    "missingOfficialInLocal": [
+      "茨",
+      "媛",
+      "岡",
+      "潟",
+      "岐",
+      "熊",
+      "香",
+      "佐",
+      "埼",
+      "崎",
+      "滋",
+      "鹿",
+      "縄",
+      "井",
+      "沖",
+      "栃",
+      "奈",
+      "梨",
+      "阪",
+      "阜"
+    ],
+    "localOnly": [],
+    "gradeMismatches": [
+      {
+        "kanji": "賀",
+        "localGrade": 5,
+        "officialGrade": 4
+      },
+      {
+        "kanji": "群",
+        "localGrade": 5,
+        "officialGrade": 4
+      },
+      {
+        "kanji": "徳",
+        "localGrade": 5,
+        "officialGrade": 4
+      },
+      {
+        "kanji": "富",
+        "localGrade": 5,
+        "officialGrade": 4
+      },
+      {
+        "kanji": "城",
+        "localGrade": 6,
+        "officialGrade": 4
+      },
+      {
+        "kanji": "囲",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "喜",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "紀",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "救",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "型",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "航",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "告",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "殺",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "史",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "士",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "象",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "賞",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "貯",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "停",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "堂",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "得",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "毒",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "費",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "粉",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "脈",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "歴",
+        "localGrade": 4,
+        "officialGrade": 5
+      },
+      {
+        "kanji": "胃",
+        "localGrade": 4,
+        "officialGrade": 6
+      },
+      {
+        "kanji": "腸",
+        "localGrade": 4,
+        "officialGrade": 6
+      },
+      {
+        "kanji": "恩",
+        "localGrade": 5,
+        "officialGrade": 6
+      },
+      {
+        "kanji": "券",
+        "localGrade": 5,
+        "officialGrade": 6
+      },
+      {
+        "kanji": "承",
+        "localGrade": 5,
+        "officialGrade": 6
+      },
+      {
+        "kanji": "舌",
+        "localGrade": 5,
+        "officialGrade": 6
+      },
+      {
+        "kanji": "銭",
+        "localGrade": 5,
+        "officialGrade": 6
+      },
+      {
+        "kanji": "退",
+        "localGrade": 5,
+        "officialGrade": 6
+      },
+      {
+        "kanji": "敵",
+        "localGrade": 5,
+        "officialGrade": 6
+      },
+      {
+        "kanji": "俵",
+        "localGrade": 5,
+        "officialGrade": 6
+      },
+      {
+        "kanji": "預",
+        "localGrade": 5,
+        "officialGrade": 6
+      }
+    ],
+    "byGrade": [
+      {
+        "grade": 1,
+        "officialCount": 80,
+        "localCount": 80,
+        "missingFromLocal": 0,
+        "vocabLinks": 640,
+        "readingLinks": 368
+      },
+      {
+        "grade": 2,
+        "officialCount": 160,
+        "localCount": 160,
+        "missingFromLocal": 0,
+        "vocabLinks": 1280,
+        "readingLinks": 624
+      },
+      {
+        "grade": 3,
+        "officialCount": 200,
+        "localCount": 200,
+        "missingFromLocal": 0,
+        "vocabLinks": 1600,
+        "readingLinks": 702
+      },
+      {
+        "grade": 4,
+        "officialCount": 202,
+        "localCount": 200,
+        "missingFromLocal": 20,
+        "vocabLinks": 1456,
+        "readingLinks": 618
+      },
+      {
+        "grade": 5,
+        "officialCount": 193,
+        "localCount": 185,
+        "missingFromLocal": 0,
+        "vocabLinks": 1544,
+        "readingLinks": 585
+      },
+      {
+        "grade": 6,
+        "officialCount": 191,
+        "localCount": 181,
+        "missingFromLocal": 0,
+        "vocabLinks": 1528,
+        "readingLinks": 586
+      }
+    ]
+  },
+  "notes": [
+    "The grade-only progression is official grade eligibility plus allocation-table position; it is not a publisher lesson sequence.",
+    "Publisher progressions are intentionally absent until enough source data is derived from 教科書LOD or publisher material.",
+    "Grammar, reading practice, classical Japanese, sayings, and 四字熟語 are represented as first-class graph domains now, with scope exports ready for future population.",
+    "LLM-generated examples should be produced offline, reviewed, and committed as static example nodes."
+  ]
+}

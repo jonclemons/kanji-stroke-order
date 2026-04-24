@@ -1,0 +1,104 @@
+{
+  "id": "yojijukugo-scope",
+  "type": "scope",
+  "label": "四字熟語スコープ",
+  "domainId": "yojijukugo",
+  "status": "schema-ready",
+  "nodes": [
+    {
+      "id": "meaning",
+      "label": "意味",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "意味",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/yojijukugo-scope/meaning",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "reading",
+      "label": "読み",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "読み",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/yojijukugo-scope/reading",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "example",
+      "label": "例文",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "例文",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/yojijukugo-scope/example",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "kanji-coverage",
+      "label": "既習漢字",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "既習漢字",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/yojijukugo-scope/kanji-coverage",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    }
+  ],
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "domain",
+        "value": "yojijukugo",
+        "sourceId": "kokugo-graph-seed",
+        "sourceUri": "local://kokugo-graph/domains/yojijukugo",
+        "confidence": 0.7,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "kokugo-graph-seed"
+    ]
+  }
+}

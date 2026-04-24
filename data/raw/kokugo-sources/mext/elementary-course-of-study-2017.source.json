@@ -1,0 +1,18 @@
+{
+  "id": "mext-elementary-course-of-study-2017-pdf",
+  "label": "小学校学習指導要領（平成29年告示）",
+  "kind": "official-government-curriculum",
+  "url": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/09/26/1413522_001.pdf",
+  "canonicalUri": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/09/26/1413522_001.pdf",
+  "license": "Public government curriculum document",
+  "attribution": "文部科学省",
+  "mirroredAt": "2026-04-24T04:23:32.102Z",
+  "mirrorType": "metadata-only",
+  "headers": {
+    "contentType": "application/pdf",
+    "contentLength": "5977448",
+    "lastModified": "Fri, 15 Nov 2019 13:03:55 GMT",
+    "etag": "\"5b3568-597623af317c2\""
+  },
+  "note": "Official MEXT PDF is kept as remote authority metadata to avoid committing large binary curriculum PDFs."
+}

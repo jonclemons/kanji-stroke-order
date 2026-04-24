@@ -1,0 +1,124 @@
+{
+  "id": "grammar-scope",
+  "type": "scope",
+  "label": "文法スコープ",
+  "domainId": "grammar",
+  "status": "schema-ready",
+  "nodes": [
+    {
+      "id": "particles",
+      "label": "助詞",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "助詞",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/grammar-scope/particles",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "sentence-structure",
+      "label": "文の組み立て",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "文の組み立て",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/grammar-scope/sentence-structure",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "predicate-forms",
+      "label": "述語・活用",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "述語・活用",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/grammar-scope/predicate-forms",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "modifiers",
+      "label": "修飾語",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "修飾語",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/grammar-scope/modifiers",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "honorifics",
+      "label": "敬語",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "敬語",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/grammar-scope/honorifics",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    }
+  ],
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "domain",
+        "value": "grammar",
+        "sourceId": "kokugo-graph-seed",
+        "sourceUri": "local://kokugo-graph/domains/grammar",
+        "confidence": 0.7,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "kokugo-graph-seed"
+    ]
+  }
+}

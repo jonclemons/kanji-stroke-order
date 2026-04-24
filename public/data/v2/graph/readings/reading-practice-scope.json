@@ -1,0 +1,124 @@
+{
+  "id": "reading-practice-scope",
+  "type": "scope",
+  "label": "読むこと・読解スコープ",
+  "domainId": "reading-practice",
+  "status": "schema-ready",
+  "nodes": [
+    {
+      "id": "story",
+      "label": "物語文",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "物語文",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/reading-practice-scope/story",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "expository",
+      "label": "説明文",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "説明文",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/reading-practice-scope/expository",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "poetry",
+      "label": "詩",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "詩",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/reading-practice-scope/poetry",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "oral-reading",
+      "label": "音読",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "音読",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/reading-practice-scope/oral-reading",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "comprehension",
+      "label": "読解問題",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "読解問題",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/reading-practice-scope/comprehension",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    }
+  ],
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "domain",
+        "value": "reading-practice",
+        "sourceId": "kokugo-graph-seed",
+        "sourceUri": "local://kokugo-graph/domains/reading-practice",
+        "confidence": 0.7,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "kokugo-graph-seed"
+    ]
+  }
+}

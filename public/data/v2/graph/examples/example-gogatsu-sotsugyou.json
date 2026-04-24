@@ -1,0 +1,141 @@
+{
+  "id": "example-gogatsu-sotsugyou",
+  "type": "example",
+  "kind": "sentence",
+  "domains": [
+    "kanji",
+    "vocabulary",
+    "reading-practice"
+  ],
+  "canonicalText": "五月に卒業した",
+  "readingText": "ごがつにそつぎょうした",
+  "tokens": [
+    {
+      "text": "五",
+      "reading": "ご",
+      "kanji": [
+        "五"
+      ]
+    },
+    {
+      "text": "月",
+      "reading": "がつ",
+      "kanji": [
+        "月"
+      ]
+    },
+    {
+      "text": "に",
+      "reading": "に",
+      "kanji": []
+    },
+    {
+      "text": "卒業",
+      "reading": "そつぎょう",
+      "kanji": [
+        "卒",
+        "業"
+      ]
+    },
+    {
+      "text": "した",
+      "reading": "した",
+      "kanji": []
+    }
+  ],
+  "renderings": [
+    {
+      "id": "grade-only-1",
+      "profileId": "grade-only",
+      "grade": 1,
+      "text": "五月にそつぎょうした",
+      "knownKanjiCount": 80,
+      "source": "official grade eligibility"
+    },
+    {
+      "id": "grade-only-2",
+      "profileId": "grade-only",
+      "grade": 2,
+      "text": "五月にそつぎょうした",
+      "knownKanjiCount": 240,
+      "source": "official grade eligibility"
+    },
+    {
+      "id": "grade-only-3",
+      "profileId": "grade-only",
+      "grade": 3,
+      "text": "五月にそつぎょうした",
+      "knownKanjiCount": 440,
+      "source": "official grade eligibility"
+    },
+    {
+      "id": "grade-only-4",
+      "profileId": "grade-only",
+      "grade": 4,
+      "text": "五月に卒業した",
+      "knownKanjiCount": 642,
+      "source": "official grade eligibility"
+    },
+    {
+      "id": "grade-only-5",
+      "profileId": "grade-only",
+      "grade": 5,
+      "text": "五月に卒業した",
+      "knownKanjiCount": 835,
+      "source": "official grade eligibility"
+    },
+    {
+      "id": "grade-only-6",
+      "profileId": "grade-only",
+      "grade": 6,
+      "text": "五月に卒業した",
+      "knownKanjiCount": 1026,
+      "source": "official grade eligibility"
+    },
+    {
+      "id": "known-five-only-demo",
+      "profileId": "custom-known-kanji",
+      "grade": 1,
+      "text": "五がつにそつぎょうした",
+      "knownKanji": [
+        "五"
+      ],
+      "source": "manual progression demonstration"
+    }
+  ],
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "canonicalText",
+        "value": "五月に卒業した",
+        "sourceId": "kokugo-graph-seed",
+        "sourceUri": "local://kokugo-graph/seed/example-gogatsu-sotsugyou",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "readingText",
+        "value": "ごがつにそつぎょうした",
+        "sourceId": "kokugo-graph-seed",
+        "sourceUri": "local://kokugo-graph/seed/example-gogatsu-sotsugyou",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      },
+      {
+        "predicate": "domains",
+        "value": [
+          "kanji",
+          "vocabulary",
+          "reading-practice"
+        ],
+        "sourceId": "kokugo-graph-seed",
+        "sourceUri": "local://kokugo-graph/seed/example-gogatsu-sotsugyou",
+        "confidence": 0.8,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "kokugo-graph-seed"
+    ]
+  }
+}

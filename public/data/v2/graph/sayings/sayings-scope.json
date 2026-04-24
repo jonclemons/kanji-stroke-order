@@ -1,0 +1,84 @@
+{
+  "id": "sayings-scope",
+  "type": "scope",
+  "label": "ことわざ・慣用句スコープ",
+  "domainId": "sayings",
+  "status": "schema-ready",
+  "nodes": [
+    {
+      "id": "kotowaza",
+      "label": "ことわざ",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "ことわざ",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/sayings-scope/kotowaza",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "kanyoku",
+      "label": "慣用句",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "慣用句",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/sayings-scope/kanyoku",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "kojiseigo",
+      "label": "故事成語",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "故事成語",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/sayings-scope/kojiseigo",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    }
+  ],
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "domain",
+        "value": "sayings",
+        "sourceId": "kokugo-graph-seed",
+        "sourceUri": "local://kokugo-graph/domains/sayings",
+        "confidence": 0.7,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "kokugo-graph-seed"
+    ]
+  }
+}

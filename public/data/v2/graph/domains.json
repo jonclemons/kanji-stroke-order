@@ -1,0 +1,548 @@
+[
+  {
+    "id": "kanji",
+    "label": "漢字",
+    "kind": "reference-domain",
+    "status": "populated",
+    "description": "教育漢字, 字形, 画数, よみ, かきじゅん, 学年配当.",
+    "sourceIds": [
+      "mext-elementary-course-of-study-2017-pdf",
+      "mext-grade-kanji-2017",
+      "kanjiapi-v1-local-info",
+      "kanjivg-local-svg"
+    ],
+    "provenance": {
+      "claims": [
+        {
+          "predicate": "status",
+          "value": "populated",
+          "sourceId": "kokugo-graph-seed",
+          "sourceUri": "local://kokugo-graph/domains/kanji",
+          "confidence": 0.8,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-course-of-study-2017-pdf",
+          "sourceId": "mext-elementary-course-of-study-2017-pdf",
+          "sourceUri": "local://kokugo-graph/domains/kanji/source/mext-elementary-course-of-study-2017-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-grade-kanji-2017",
+          "sourceId": "mext-grade-kanji-2017",
+          "sourceUri": "local://kokugo-graph/domains/kanji/source/mext-grade-kanji-2017",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "kanjiapi-v1-local-info",
+          "sourceId": "kanjiapi-v1-local-info",
+          "sourceUri": "local://kokugo-graph/domains/kanji/source/kanjiapi-v1-local-info",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "kanjivg-local-svg",
+          "sourceId": "kanjivg-local-svg",
+          "sourceUri": "local://kokugo-graph/domains/kanji/source/kanjivg-local-svg",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        }
+      ],
+      "sourceIds": [
+        "kokugo-graph-seed",
+        "mext-elementary-course-of-study-2017-pdf",
+        "mext-grade-kanji-2017",
+        "kanjiapi-v1-local-info",
+        "kanjivg-local-svg"
+      ]
+    }
+  },
+  {
+    "id": "vocabulary",
+    "label": "語彙",
+    "kind": "reference-domain",
+    "status": "partially-populated",
+    "description": "漢字に結びついた語彙候補. 学年・既習漢字に応じた表記へ展開する.",
+    "sourceIds": [
+      "kanjiapi-v1-local-words"
+    ],
+    "provenance": {
+      "claims": [
+        {
+          "predicate": "status",
+          "value": "partially-populated",
+          "sourceId": "kokugo-graph-seed",
+          "sourceUri": "local://kokugo-graph/domains/vocabulary",
+          "confidence": 0.8,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "kanjiapi-v1-local-words",
+          "sourceId": "kanjiapi-v1-local-words",
+          "sourceUri": "local://kokugo-graph/domains/vocabulary/source/kanjiapi-v1-local-words",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        }
+      ],
+      "sourceIds": [
+        "kokugo-graph-seed",
+        "kanjiapi-v1-local-words"
+      ]
+    }
+  },
+  {
+    "id": "grammar",
+    "label": "文法",
+    "kind": "reference-domain",
+    "status": "schema-ready",
+    "description": "助詞, 文の組み立て, 活用, 敬語などを学習指導要領と教材単元に結ぶ.",
+    "sourceIds": [
+      "mext-elementary-course-of-study-2017-pdf",
+      "mext-elementary-kokugo-commentary-2022-pdf",
+      "jp-cos-all-20250927",
+      "jp-textbook-all-teaching-unit-20260407"
+    ],
+    "provenance": {
+      "claims": [
+        {
+          "predicate": "status",
+          "value": "schema-ready",
+          "sourceId": "kokugo-graph-seed",
+          "sourceUri": "local://kokugo-graph/domains/grammar",
+          "confidence": 0.8,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-course-of-study-2017-pdf",
+          "sourceId": "mext-elementary-course-of-study-2017-pdf",
+          "sourceUri": "local://kokugo-graph/domains/grammar/source/mext-elementary-course-of-study-2017-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceId": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceUri": "local://kokugo-graph/domains/grammar/source/mext-elementary-kokugo-commentary-2022-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-cos-all-20250927",
+          "sourceId": "jp-cos-all-20250927",
+          "sourceUri": "local://kokugo-graph/domains/grammar/source/jp-cos-all-20250927",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-textbook-all-teaching-unit-20260407",
+          "sourceId": "jp-textbook-all-teaching-unit-20260407",
+          "sourceUri": "local://kokugo-graph/domains/grammar/source/jp-textbook-all-teaching-unit-20260407",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        }
+      ],
+      "sourceIds": [
+        "kokugo-graph-seed",
+        "mext-elementary-course-of-study-2017-pdf",
+        "mext-elementary-kokugo-commentary-2022-pdf",
+        "jp-cos-all-20250927",
+        "jp-textbook-all-teaching-unit-20260407"
+      ]
+    }
+  },
+  {
+    "id": "reading-practice",
+    "label": "読むこと・読解",
+    "kind": "reference-domain",
+    "status": "schema-ready",
+    "description": "説明文, 物語文, 詩, 音読, 読解問題テンプレートを扱う.",
+    "sourceIds": [
+      "mext-elementary-course-of-study-2017-pdf",
+      "mext-elementary-kokugo-commentary-2022-pdf",
+      "jp-cos-all-20250927",
+      "jp-textbook-all-teaching-unit-20260407"
+    ],
+    "provenance": {
+      "claims": [
+        {
+          "predicate": "status",
+          "value": "schema-ready",
+          "sourceId": "kokugo-graph-seed",
+          "sourceUri": "local://kokugo-graph/domains/reading-practice",
+          "confidence": 0.8,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-course-of-study-2017-pdf",
+          "sourceId": "mext-elementary-course-of-study-2017-pdf",
+          "sourceUri": "local://kokugo-graph/domains/reading-practice/source/mext-elementary-course-of-study-2017-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceId": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceUri": "local://kokugo-graph/domains/reading-practice/source/mext-elementary-kokugo-commentary-2022-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-cos-all-20250927",
+          "sourceId": "jp-cos-all-20250927",
+          "sourceUri": "local://kokugo-graph/domains/reading-practice/source/jp-cos-all-20250927",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-textbook-all-teaching-unit-20260407",
+          "sourceId": "jp-textbook-all-teaching-unit-20260407",
+          "sourceUri": "local://kokugo-graph/domains/reading-practice/source/jp-textbook-all-teaching-unit-20260407",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        }
+      ],
+      "sourceIds": [
+        "kokugo-graph-seed",
+        "mext-elementary-course-of-study-2017-pdf",
+        "mext-elementary-kokugo-commentary-2022-pdf",
+        "jp-cos-all-20250927",
+        "jp-textbook-all-teaching-unit-20260407"
+      ]
+    }
+  },
+  {
+    "id": "classical-japanese",
+    "label": "古典",
+    "kind": "reference-domain",
+    "status": "schema-ready",
+    "description": "古文, 漢文, 音読, 伝統的な言語文化への橋渡し.",
+    "sourceIds": [
+      "mext-elementary-course-of-study-2017-pdf",
+      "mext-elementary-kokugo-commentary-2022-pdf",
+      "jp-cos-all-20250927",
+      "jp-textbook-all-teaching-unit-20260407"
+    ],
+    "provenance": {
+      "claims": [
+        {
+          "predicate": "status",
+          "value": "schema-ready",
+          "sourceId": "kokugo-graph-seed",
+          "sourceUri": "local://kokugo-graph/domains/classical-japanese",
+          "confidence": 0.8,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-course-of-study-2017-pdf",
+          "sourceId": "mext-elementary-course-of-study-2017-pdf",
+          "sourceUri": "local://kokugo-graph/domains/classical-japanese/source/mext-elementary-course-of-study-2017-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceId": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceUri": "local://kokugo-graph/domains/classical-japanese/source/mext-elementary-kokugo-commentary-2022-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-cos-all-20250927",
+          "sourceId": "jp-cos-all-20250927",
+          "sourceUri": "local://kokugo-graph/domains/classical-japanese/source/jp-cos-all-20250927",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-textbook-all-teaching-unit-20260407",
+          "sourceId": "jp-textbook-all-teaching-unit-20260407",
+          "sourceUri": "local://kokugo-graph/domains/classical-japanese/source/jp-textbook-all-teaching-unit-20260407",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        }
+      ],
+      "sourceIds": [
+        "kokugo-graph-seed",
+        "mext-elementary-course-of-study-2017-pdf",
+        "mext-elementary-kokugo-commentary-2022-pdf",
+        "jp-cos-all-20250927",
+        "jp-textbook-all-teaching-unit-20260407"
+      ]
+    }
+  },
+  {
+    "id": "sayings",
+    "label": "ことわざ・慣用句",
+    "kind": "reference-domain",
+    "status": "schema-ready",
+    "description": "ことわざ, 慣用句, 故事成語を語彙・読解・表現に結ぶ.",
+    "sourceIds": [
+      "mext-elementary-course-of-study-2017-pdf",
+      "mext-elementary-kokugo-commentary-2022-pdf",
+      "jp-cos-all-20250927",
+      "jp-textbook-all-teaching-unit-20260407"
+    ],
+    "provenance": {
+      "claims": [
+        {
+          "predicate": "status",
+          "value": "schema-ready",
+          "sourceId": "kokugo-graph-seed",
+          "sourceUri": "local://kokugo-graph/domains/sayings",
+          "confidence": 0.8,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-course-of-study-2017-pdf",
+          "sourceId": "mext-elementary-course-of-study-2017-pdf",
+          "sourceUri": "local://kokugo-graph/domains/sayings/source/mext-elementary-course-of-study-2017-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceId": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceUri": "local://kokugo-graph/domains/sayings/source/mext-elementary-kokugo-commentary-2022-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-cos-all-20250927",
+          "sourceId": "jp-cos-all-20250927",
+          "sourceUri": "local://kokugo-graph/domains/sayings/source/jp-cos-all-20250927",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-textbook-all-teaching-unit-20260407",
+          "sourceId": "jp-textbook-all-teaching-unit-20260407",
+          "sourceUri": "local://kokugo-graph/domains/sayings/source/jp-textbook-all-teaching-unit-20260407",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        }
+      ],
+      "sourceIds": [
+        "kokugo-graph-seed",
+        "mext-elementary-course-of-study-2017-pdf",
+        "mext-elementary-kokugo-commentary-2022-pdf",
+        "jp-cos-all-20250927",
+        "jp-textbook-all-teaching-unit-20260407"
+      ]
+    }
+  },
+  {
+    "id": "yojijukugo",
+    "label": "四字熟語",
+    "kind": "reference-domain",
+    "status": "schema-ready",
+    "description": "四字熟語を漢字, 読み, 意味, 例文, 既習条件に結ぶ.",
+    "sourceIds": [
+      "mext-elementary-course-of-study-2017-pdf",
+      "mext-elementary-kokugo-commentary-2022-pdf",
+      "jp-cos-all-20250927",
+      "jp-textbook-all-teaching-unit-20260407"
+    ],
+    "provenance": {
+      "claims": [
+        {
+          "predicate": "status",
+          "value": "schema-ready",
+          "sourceId": "kokugo-graph-seed",
+          "sourceUri": "local://kokugo-graph/domains/yojijukugo",
+          "confidence": 0.8,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-course-of-study-2017-pdf",
+          "sourceId": "mext-elementary-course-of-study-2017-pdf",
+          "sourceUri": "local://kokugo-graph/domains/yojijukugo/source/mext-elementary-course-of-study-2017-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceId": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceUri": "local://kokugo-graph/domains/yojijukugo/source/mext-elementary-kokugo-commentary-2022-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-cos-all-20250927",
+          "sourceId": "jp-cos-all-20250927",
+          "sourceUri": "local://kokugo-graph/domains/yojijukugo/source/jp-cos-all-20250927",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-textbook-all-teaching-unit-20260407",
+          "sourceId": "jp-textbook-all-teaching-unit-20260407",
+          "sourceUri": "local://kokugo-graph/domains/yojijukugo/source/jp-textbook-all-teaching-unit-20260407",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        }
+      ],
+      "sourceIds": [
+        "kokugo-graph-seed",
+        "mext-elementary-course-of-study-2017-pdf",
+        "mext-elementary-kokugo-commentary-2022-pdf",
+        "jp-cos-all-20250927",
+        "jp-textbook-all-teaching-unit-20260407"
+      ]
+    }
+  },
+  {
+    "id": "writing-expression",
+    "label": "書くこと・表現",
+    "kind": "reference-domain",
+    "status": "schema-ready",
+    "description": "作文, 日記, 要約, 推敲, 表現技法を扱う.",
+    "sourceIds": [
+      "mext-elementary-course-of-study-2017-pdf",
+      "mext-elementary-kokugo-commentary-2022-pdf",
+      "jp-cos-all-20250927",
+      "jp-textbook-all-teaching-unit-20260407"
+    ],
+    "provenance": {
+      "claims": [
+        {
+          "predicate": "status",
+          "value": "schema-ready",
+          "sourceId": "kokugo-graph-seed",
+          "sourceUri": "local://kokugo-graph/domains/writing-expression",
+          "confidence": 0.8,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-course-of-study-2017-pdf",
+          "sourceId": "mext-elementary-course-of-study-2017-pdf",
+          "sourceUri": "local://kokugo-graph/domains/writing-expression/source/mext-elementary-course-of-study-2017-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceId": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceUri": "local://kokugo-graph/domains/writing-expression/source/mext-elementary-kokugo-commentary-2022-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-cos-all-20250927",
+          "sourceId": "jp-cos-all-20250927",
+          "sourceUri": "local://kokugo-graph/domains/writing-expression/source/jp-cos-all-20250927",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-textbook-all-teaching-unit-20260407",
+          "sourceId": "jp-textbook-all-teaching-unit-20260407",
+          "sourceUri": "local://kokugo-graph/domains/writing-expression/source/jp-textbook-all-teaching-unit-20260407",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        }
+      ],
+      "sourceIds": [
+        "kokugo-graph-seed",
+        "mext-elementary-course-of-study-2017-pdf",
+        "mext-elementary-kokugo-commentary-2022-pdf",
+        "jp-cos-all-20250927",
+        "jp-textbook-all-teaching-unit-20260407"
+      ]
+    }
+  },
+  {
+    "id": "speaking-listening",
+    "label": "話すこと・聞くこと",
+    "kind": "reference-domain",
+    "status": "schema-ready",
+    "description": "発表, 対話, 聞き取り, 話し合いを扱う.",
+    "sourceIds": [
+      "mext-elementary-course-of-study-2017-pdf",
+      "mext-elementary-kokugo-commentary-2022-pdf",
+      "jp-cos-all-20250927",
+      "jp-textbook-all-teaching-unit-20260407"
+    ],
+    "provenance": {
+      "claims": [
+        {
+          "predicate": "status",
+          "value": "schema-ready",
+          "sourceId": "kokugo-graph-seed",
+          "sourceUri": "local://kokugo-graph/domains/speaking-listening",
+          "confidence": 0.8,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-course-of-study-2017-pdf",
+          "sourceId": "mext-elementary-course-of-study-2017-pdf",
+          "sourceUri": "local://kokugo-graph/domains/speaking-listening/source/mext-elementary-course-of-study-2017-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceId": "mext-elementary-kokugo-commentary-2022-pdf",
+          "sourceUri": "local://kokugo-graph/domains/speaking-listening/source/mext-elementary-kokugo-commentary-2022-pdf",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-cos-all-20250927",
+          "sourceId": "jp-cos-all-20250927",
+          "sourceUri": "local://kokugo-graph/domains/speaking-listening/source/jp-cos-all-20250927",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        },
+        {
+          "predicate": "plannedSource",
+          "value": "jp-textbook-all-teaching-unit-20260407",
+          "sourceId": "jp-textbook-all-teaching-unit-20260407",
+          "sourceUri": "local://kokugo-graph/domains/speaking-listening/source/jp-textbook-all-teaching-unit-20260407",
+          "confidence": 0.7,
+          "capturedAt": "2026-04-24T04:23:49.197Z"
+        }
+      ],
+      "sourceIds": [
+        "kokugo-graph-seed",
+        "mext-elementary-course-of-study-2017-pdf",
+        "mext-elementary-kokugo-commentary-2022-pdf",
+        "jp-cos-all-20250927",
+        "jp-textbook-all-teaching-unit-20260407"
+      ]
+    }
+  }
+]

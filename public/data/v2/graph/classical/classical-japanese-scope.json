@@ -1,0 +1,84 @@
+{
+  "id": "classical-japanese-scope",
+  "type": "scope",
+  "label": "古典スコープ",
+  "domainId": "classical-japanese",
+  "status": "schema-ready",
+  "nodes": [
+    {
+      "id": "kobun",
+      "label": "古文",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "古文",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/classical-japanese-scope/kobun",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "kanbun",
+      "label": "漢文",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "漢文",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/classical-japanese-scope/kanbun",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    },
+    {
+      "id": "traditional-language-culture",
+      "label": "伝統的な言語文化",
+      "status": "planned",
+      "provenance": {
+        "claims": [
+          {
+            "predicate": "scopeItem",
+            "value": "伝統的な言語文化",
+            "sourceId": "kokugo-graph-seed",
+            "sourceUri": "local://kokugo-graph/scopes/classical-japanese-scope/traditional-language-culture",
+            "confidence": 0.7,
+            "capturedAt": "2026-04-24T04:23:49.197Z"
+          }
+        ],
+        "sourceIds": [
+          "kokugo-graph-seed"
+        ]
+      }
+    }
+  ],
+  "provenance": {
+    "claims": [
+      {
+        "predicate": "domain",
+        "value": "classical-japanese",
+        "sourceId": "kokugo-graph-seed",
+        "sourceUri": "local://kokugo-graph/domains/classical-japanese",
+        "confidence": 0.7,
+        "capturedAt": "2026-04-24T04:23:49.197Z"
+      }
+    ],
+    "sourceIds": [
+      "kokugo-graph-seed"
+    ]
+  }
+}

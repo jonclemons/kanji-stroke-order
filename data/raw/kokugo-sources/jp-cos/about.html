@@ -1,0 +1,3165 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc/dist/bootstrap-toc.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>学習指導要領LODについて</title>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="学習指導要領LODについて">
+    <meta property="og:title" content="学習指導要領LODについて">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://w3id.org/jp-cos/logo.png">
+    <meta name="generator" content="ttl2html 3.1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZW2V5CQLY9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ZW2V5CQLY9');
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="#toc">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="./">
+        <img src="logo.png" style="max-height: 54px" alt="学習指導要領LOD">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+            <li class="nav-item"><a class="nav-link" href="/search.html">Search</a></li>
+            <li class="nav-item"><a class="nav-link" href="en/">English</a></li>
+        </ul>
+        <script async src="https://cse.google.com/cse.js?cx=75eea1908d53d46ba"></script>
+        <div class="gcse-search"></div>
+      </div>
+    </nav>
+        <div class="jumbotron">
+      <div class="container">
+        <h1>学習指導要領LODについて</h1>
+        <p>学習指導要領LODは、文部科学省が公開している学習指導要領と教育要領の内容・コードおよび関連する情報をLinked Open Data (LOD) として公開します。LOD化の対象は、現在公開されている全ての学校種別の新旧学習指導要領と教育要領（一部改正を含む）コード表の最新版です。<div class="text-right"><small>出典: 文部科学省「<a href="https://www.mext.go.jp/a_menu/other/data_00002.htm">学習指導要領コードのコード表（全体版）について</a>」</small></div></p>
+        <div class="description"><div class="text-center">
+    <label for="cos-code">学習指導要領コード</label>
+    <input type="text" name="cos-code" id="cos-code" placeholder="8220233112000000">
+    <button class="btn btn-secondary" id="display-cos-id">表示</button>
+</div></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./"><i class="bi bi-house-door-fill"></i> Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">学習指導要領LODについて</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 order-12">
+          <h2 data-toc-skip>目次</h2>
+          <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+        </div>
+        <div class="col-md-10">
+        <h2>概要</h2>
+<p>学習指導要領LODは、文部科学省が公開している学習指導要領と教育要領の内容・コードおよび関連する情報を Linked Open Data (LOD) として公開します。LOD化の対象は、現在公開されている全ての学校種別の新旧学習指導要領と教育要領（一部改正を含む）コード表の最新版です。具体的には、公開されている18件の学習指導要領と教育要領コード表を含みます。</p>
+<p> 文部科学省がオープンデータとして公開したコード表に対して、広く活用可能なURIを付与するだけでなく、学習基礎データの利活用に向けて、細目コードおよびその他の関連情報のURIを永続的な識別子としたデータモデルを構築し、再利用可能なLODデータセットとして公開しています。</p>
+<p>本データセットは、元のコード表と同一ライセンス (CC BY 4.0) のもと、構造化されたRDF/Turtle形式で公開するとともに、解決可能なウェブデータとしても提供しています。</p>
+<p>今後、既に構築済みの「<a href="https://w3id.org/jp-textbook/">教科書LOD</a>」との連携や、<a href="https://jpsearch.go.jp">ジャパンサーチ</a>をはじめとするデジタルアーカイブとの連携など、学習のためのコンテンツとの関連付けを通じて、さまざまな活用を進めていきます。ご要望やご質問は<a href="#contact">連絡先</a>までお願いいたします。</p>
+<p>参考：<a href="https://www.mext.go.jp/a_menu/other/data_00001.htm">文部科学省　教育データ標準</a></p>
+<p>
+学習指導要領LODの構築と公開の詳細については下記文献等を参照してください:
+</p>
+<ul>
+<li>江草由佳. 教育関連メタデータLOD化の現状と課題. 「メタデータ」のパースペクティブ. 池内有為・木村麻衣子, 責任編集. 勉誠社, 2025, pp.253-274. <a href="https://bensei.jp/index.php?main_page=product_book_info&cPath=18_72&products_id=103805">https://bensei.jp/index.php?main_page=product_book_info&cPath=18_72&products_id=103805</a></li>
+<li>高久雅生, 江草由佳, 榎本聡, 大井将生, 有山裕美子, 阿児雄之.
+デジタルアーカイブの教育利用促進を目指したメタデータLOD基盤に関する研究
+情報知識学会第33回年次大会, つくば, 情報知識学会誌, vol.35, no.2, pp.262-277 (2025-05)<br/>
+DOI: <a href="https://doi.org/10.2964/jsik_2025_025">https://doi.org/10.2964/jsik_2025_025</a><br/>
+<a href="https://speakerdeck.com/masao/research-on-a-metadata-lod-platform-for-promoting-educational-uses-of-digital-archives">[発表スライド]</a></li>
+</ul>
+<p>また、学習指導要領LOD（教科書LOD及び単元LOD）を紹介するオンライン情報交換会を開催し、その録画動画も公開しています。ご関心の方はぜひご覧ください。</p>
+<ul>
+  <li>教育データプラス研究会. 学習指導要領LOD＆教科書LODの紹介（2022.10.21 19:00〜）. 2022, <a href="https://www.youtube.com/watch?v=P4QRK8YNBy0">https://www.youtube.com/watch?v=P4QRK8YNBy0</a></li>
+</ul>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/P4QRK8YNBy0?rel=0" allowfullscreen></iframe>
+</div>
+
+<h2>お知らせ</h2>
+<dl>
+  <dt>2016年1月30日</dt>
+  <dd>
+    <i class="bi bi-easel text-success"></i>
+    <span class="label presentation">発表</span>
+    <a href="https://www.naturemuseum.net/?p=1146">オンラインシンポジウム　「博物館のデジタルアーカイブと学校をつなぐ」</a>において、講演を行いました。
+    <ul>
+      <li>江草由佳. タイトル：教科書LOD、学習指導要領LODとは何か？　その活用方法とは？. オンラインシンポジウム「博物館のデジタルアーカイブと学校をつなぐ」, 西日本自然史系博物館ネットワーク, オンライン, 2016-01-30, <a href="https://speakerdeck.com/yegusa/2026-01-30-mandsl-textbook-jp-cos-lod">スライド資料</a><br>
+        <a href="https://www.youtube.com/watch?v=9npPD0xD7Fw">アーカイブ動画</a>
+      </li>
+    </ul>
+  </dd>
+  <dt>2026年1月9日</dt>
+  <dd>
+    <i class="bi bi-easel text-success"></i>
+    <span class="label presentation">発表</span>
+    <a href="https://taikai.digitalarchivejapan.org/10th/kikaku-2/">デジタルアーカイブ学会第10回研究大会 企画セッション</a>「DA and Education for AI / AI for DA and Education」において、講演とパネル討論を行いました。
+    <ul>
+      <li>江草由佳. 教育系LODの開発: デジタルアーカイブと教育をつなげるデータ基盤として. デジタルアーカイブ学会第10回研究大会 企画セッション「DA and Education for AI / AI for DA and Education」, オンライン, 2026-01-09, <a href="https://speakerdeck.com/yegusa/2026-01-09-da-10th-panel">スライド資料</a></li>
+    </ul>
+  </dd>
+  <dt>2025年12月3日</dt>
+  <dd>
+    <i class="bi bi-easel text-success"></i>
+    <span class="label presentation">発表</span>
+    <a href="https://icadl.net/icadl2025/">第27回アジアパシフィック電子図書館国際会議 (The 27th International Conference on Asia-Pacific Digital Libraries; ICADL 2025)</a>において、研究論文発表を行いました。
+    <ul>
+      <li>Masao Takaku, Yuka Egusa, Satoshi Enomoto, Masao Oi, Yumiko Ariyama, Takayuki Ako. A Linked Open Data Infrastructure for Promoting the Educational Use of Digital Archives. ICADL 2025 - The 27th International Conference on Asia-Pacific Digital Libraries, Taguig, Metro Manila, Philippines, Lecture Notes in Computer Science (LNCS), vol.16242, pp.153-169 (2025-12)<br>
+      DOI: <a href="https://doi.org/10.1007/978-981-95-4861-3_14">https://doi.org/10.1007/978-981-95-4861-3_14</a><br>
+      著者最終稿: <a href="https://masao.jpn.org/pub/2025/icadl2025.pdf">著者ウェブ (非公式)</a>, <a href="https://hdl.handle.net/2241/0002021220">筑波大学機関リポジトリ</a><br>
+      スライド資料: <a href="https://speakerdeck.com/masao/a-linked-open-data-infrastructure-for-promoting-the-educational-use-of-digital-archives">https://speakerdeck.com/masao/a-linked-open-data-infrastructure-for-promoting-the-educational-use-of-digital-archives</a>
+      </li>
+  </dd>
+  <dt>2025年11月21日</dt>
+  <dd>
+    <i class="bi bi-easel text-success"></i>
+    <span class="label presentation">発表</span>
+    <a href="https://taikai.digitalarchivejapan.org/10th/satellite/">デジタルアーカイブ学会第10回研究大会 サテライト企画セッション</a> 「メタデータ」のパースペクティブ において、講演を行いました。
+    <ul>
+      <li>江草由佳. 教科書メタデータのLOD化で気を付けたこと・工夫したこと・重視したこと. デジタルアーカイブ学会第10回研究大会 サテライト企画セッション「メタデータ」のパースペクティブ, オンライン, 2025-11-21, <a href="https://speakerdeck.com/yegusa/2025-11-21-da-10th-satellite">スライド資料</a>
+      </li>
+    </ul>
+  </dd>
+  <dt>2025年6月25日</dt>
+  <dd>
+    <i class="bi bi-journal-text text-primary"></i>
+    <span class="label paper">書籍刊行</span>
+    勉誠社刊行のデジタルアーカイブ・ベーシックスシリーズ『「メタデータ」のパースペクティブ』に学習指導要領LOD等を紹介する記事を寄稿しました。
+    <ul>
+      <li>江草由佳. 教育関連メタデータLOD化の現状と課題. 「メタデータ」のパースペクティブ. 池内有為・木村麻衣子, 責任編集. 勉誠社, 2025, pp.253-274. <a href="https://bensei.jp/index.php?main_page=product_book_info&cPath=18_72&products_id=103805">https://bensei.jp/index.php?main_page=product_book_info&cPath=18_72&products_id=103805</a></li>
+    </ul>
+  </dd>
+  <dt>2025年5月31日</dt>
+  <dd>
+    <i class="bi bi-easel text-success"></i>
+    <span class="label presentation">発表</span>
+    <a href="https://www.jsik.jp/?2025program">情報知識学会 第33回（2025年度）年次大会</a>において、研究報告を行いました。
+    <ul>
+      <li>高久雅生, 江草由佳, 榎本聡, 大井将生, 有山裕美子, 阿児雄之.
+        デジタルアーカイブの教育利用促進を目指したメタデータLOD基盤に関する研究
+        情報知識学会第33回年次大会, つくば, 情報知識学会誌, vol.35, no.2, pp.262-277 (2025-05)<br/>
+        DOI: <a href="https://doi.org/10.2964/jsik_2025_025">https://doi.org/10.2964/jsik_2025_025</a><br/>
+        <a href="https://speakerdeck.com/masao/research-on-a-metadata-lod-platform-for-promoting-educational-uses-of-digital-archives">[発表スライド]</a>
+      </li>
+    </ul>
+  </dd>
+  <dt>2025年5月29日</dt>
+  <dd>
+    <i class="bi bi-window-stack text-purple"></i>
+    <span class="label case">利用事例</span>
+    NHK放送技術研究所のイベント「<a href="https://www.nhk.or.jp/strl/open2025/">技研公開2025</a>」における展示にて学習指導要領LODを活用した応用例が紹介されました。
+    <ul>
+      <li>
+        NHK放送技術研究所. <a href="https://www.nhk.or.jp/strl/open2025/tenji/8/index.html">Webベース放送メディア③ コンテンツナレッジ</a>. NHK技研公開2025.
+      </li>
+    </ul>
+  </dd>
+  <dt>2025年2月26日</dt>
+  <dd>
+    <i class="bi bi-window-stack text-purple"></i>
+    <span class="label case">利用事例</span>
+    「<a href="https://edudata-plus.github.io/visualize-textbook-unit/">教科書・単元・学習指導要領細目の間の関係を可視化するツール</a>」を公開しました。
+  </dd>
+  <dt>2023年10月27日</dt>
+  <dd>
+    <i class="bi bi-easel text-success"></i>
+    <span class="label presentation">発表</span>
+    <a href="https://conv.jaet.jp/2023/">第49回全日本教育工学研究協議会全国大会</a>において、研究報告を行いました。
+    <ul>
+      <li>榎本聡, 大井将生, 高久雅生, 阿児雄之, 有山裕美子, 江草由佳.
+        学習指導要領コードを介した教科書間連携システムの試案. 
+        第49回全日本教育工学研究協議会全国大会, article no. 3-G-4, 4p. (2023-10)<br>
+        <a href="https://conv.jaet.jp/2023/">https://conv.jaet.jp/2023/</a>
+      </li>
+    </ul>
+  </dd>
+  <dt>2022年6月12日</dt>
+  <dd>
+    <i class="bi bi-easel text-success"></i>
+    <span class="label presentation">発表</span>
+    <a href="http://www.jads.org/news/2022/20220611-12.html">アート・ドキュメンテーション学会年次大会</a>において、ポスター発表を行いました。
+  <ul><li>
+      阿児雄之, 有山裕美子, 江草由佳, 榎本聡, 大井将生, 高久雅生:
+      学習指導要領LODの公開と活用の検討.
+      2022年度アート・ドキュメンテーション学会年次大会, pp.17-17 (2022-06)<br>
+      <a href="http://www.jads.org/news/2022/JADS2022061112.pdf">http://www.jads.org/news/2022/JADS2022061112.pdf</a>
+    </li>
+  </ul></dd>
+  <dt>2022年5月28日</dt>
+  <dd>
+    <i class="bi bi-easel text-success"></i>
+    <span class="label presentation">発表</span>
+    <a href="https://www.jset.gr.jp/research/research-2866/">日本教育工学会研究会</a>において、研究報告を行いました。
+  <ul><li>
+      榎本聡, 大井将生, 高久雅生, 阿児雄之, 有山裕美子, 江草由佳:
+      学習指導要領のLinked Open Data化による学習への利活用にむけた検討.
+      日本教育工学会研究会, pp.135-142 (2022-05)<br>
+      <a href="https://doi.org/10.15077/jsetstudy.2022.1_135">https://doi.org/10.15077/jsetstudy.2022.1_135</a>
+    </li>
+  </ul></dd>
+  <dt>2022年3月18日</dt>
+  <dd>
+    <i class="bi bi-award text-warning"></i>
+    <span class="label award">受賞</span>
+    LODチャレンジ2021において、「学習指導要領LOD」が「最優秀賞」およびプラチナスポンサー賞「オラクル賞」を受賞しました。
+    <ul>
+      <li><a href="https://2021.lodc.jp/awardSymposium2021Report.html">【開催報告】LODチャレンジ2021オンライン授賞式シンポジウム</a> (2022-03-17)
+        <ul>
+          <li><a href="https://2021.lodc.jp/slide/001.pdf">受賞作品紹介スライド</a></li>
+        </ul>
+      </li>
+      <li><a href="https://2021.lodc.jp/awardPressRelease2021.html">【プレスリリース】Linked Open Data チャレンジ Japan 2021 受賞作品発表</a> (2022-02-14)</li>
+    </ul>
+  </dd>
+  <dt>2021年12月21日
+  <dd>
+    <i class="bi bi-info-circle text-secondary"></i>
+    <span class="label info">お知らせ</span>
+    カレントアウェアネス・ポータルによる紹介記事「<a href="https://current.ndl.go.jp/node/45366">「学習指導要領LOD」が公開：文部科学省が公開する学習指導要領と教育要領の内容等をLOD化</a>」が公開されました
+  <dt>2021年12月14日
+  <dd>
+    <i class="bi bi-info-circle text-secondary"></i>
+    <span class="label info">お知らせ</span>
+    研究会メンバーの大井さんによる紹介記事「<a href="https://labo.wtnv.jp/2021/12/lod.html">学習指導要領LODの公開</a>」（東京大学大学院 渡邉英徳研究室）が公開されました
+</dl>
+
+<h2>LOD語彙</h2>
+<p>
+学習指導要領LODの主なリソースのモデル図を以下に示します。 なお、学習指導要領LODのベースURI <code>https://w3id.org/jp-cos/</code> を下図では <code>cs:</code> のプレフィックスを使って示します。
+</p>
+<figure class="figure border p-1">
+<img class="figure-img img-fluid" src="lod-model-2.3.png" alt="学習指導要領LODのモデル図">
+<figcaption class="figure-caption">学習指導要領LODのモデル図（学習指導要領コード「<a href="https://w3id.org/jp-cos/83212A3200000000">83212A3200000000</a>」（中学校・社会科（地理的分野）を例として）</figcaption>
+</figure>
+
+          <h2 id="shapes">各リソースの説明</h2>
+            <h3 id="ItemShape">学習指導要領の細目</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/Item">https://w3id.org/jp-cos/Item</a></li></ul>
+            <p>学習指導要領の細目を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学習指導要領コード</var></code></p>
+            <p>学習指導要領の細目リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>dct:identifier</code></td>
+      <td>学習指導要領コード</td>
+      <td>83H1203111200000</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>元データの「学習指導要領コード」列の値。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:description</code></td>
+      <td>学習指導要領テキスト</td>
+      <td>'''(イ) 語と語の連結による音の変化'''</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>元データの「学習指導要領テキスト」列の値。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:sectionNumberHierarchy</code></td>
+      <td>節番号（階層）</td>
+      <td>第1章 / 第2章 / 第9節 / 第2 / 英語 / 2 / 〔知識及び技能〕 / (1) / ア / (イ)</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領テキスト中の節番号の全階層分を表す。プログラムで自動作成。半角カタカナは全角カタカナに変換。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:commentaryPage</code></td>
+      <td>学習指導要領解説へのリンク</td>
+      <td class="url">https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_001.pdf#page=25</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>対応する学習指導要領解説へのリンク</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:school</code></td>
+      <td>学校種別</td>
+      <td class="url">cs:school/LowerSecondary</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの2桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:disabilityCategory</code></td>
+      <td>障害分類</td>
+      <td class="url">cs:disabilityCategory/Intellectual</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの2桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:subjectArea</code></td>
+      <td>教科等</td>
+      <td class="url">https://w3id.org/jp-cos/LowerSecondary/2017/外国語</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>元データの「教科等」列の値。学習指導要領コードの3桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:subject</code></td>
+      <td>分野・科目・分類</td>
+      <td class="url">https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの4桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:grade</code></td>
+      <td>学年</td>
+      <td>1,2</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの6桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:stage</code></td>
+      <td>段階</td>
+      <td class="url">https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの6桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:category</code></td>
+      <td>大項目</td>
+      <td>目標及び内容（大項目）</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの5桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:subCategory</code></td>
+      <td>項目</td>
+      <td>内容</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの7桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:sectionNumber</code></td>
+      <td>節番号</td>
+      <td>(イ)</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領テキスト中の節番号を表す。ないこともある。プログラムで自動作成。半角カタカナは全角カタカナに変換。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:sectionText</code></td>
+      <td>テキスト</td>
+      <td>''語と語の連結による音の変化'''</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領テキスト中の節番号を除いたテキスト。プログラムで自動作成。半角カタカナは全角カタカナに変換。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:hasPart</code></td>
+      <td>子</td>
+      <td class="url">https://w3id.org/jp-cos/8GH12a4222140000</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>子供の学習指導要領細目を表す。学習指導要領コードの規則性を利用してプログラムで自動作成。</td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="url"><code>cs:basicItem</code></td>
+      <td>基礎の細目</td>
+      <td></td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>当該学習指導要領細目の基礎となる細目。学習指導要領解説などから作成する。<code>rdf:value</code>, <code>dct:provenance</code>の2つの項番用プロパティを持つ。</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        ブランクノードの内容は以下の内容からなる構造を持ちます。
+        <div class="blank_node"><table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>rdf:value</code></td>
+      <td>学習指導要領の細目</td>
+      <td class="url">https://w3id.org/jp-cos/8260233210000000</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:provenance</code></td>
+      <td>出典</td>
+      <td class="url">https://w3id.org/jp-cos/commentary/1000246</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table></div>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="url"><code>cs:advancedItem</code></td>
+      <td>応用の細目</td>
+      <td></td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>当該学習指導要領細目の応用となる細目。学習指導要領解説などから作成する。<code>rdf:value</code>, <code>dct:provenance</code>の2つの項番用プロパティを持つ。</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        ブランクノードの内容は以下の内容からなる構造を持ちます。
+        <div class="blank_node"><table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>rdf:value</code></td>
+      <td>学習指導要領の細目</td>
+      <td class="url">https://w3id.org/jp-cos/8260233210000000</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:provenance</code></td>
+      <td>出典</td>
+      <td class="url">https://w3id.org/jp-cos/commentary/1000246</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table></div>
+      </td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:citation</code></td>
+      <td>他の細目への参照</td>
+      <td class="url"></td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>テキスト中に参照された他の学習指導要領細目</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:issuedPeriod</code></td>
+      <td>告示時期</td>
+      <td class="url">https://w3id.org/jp-cos/period/H29toH31</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの1桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:courseOfStudy</code></td>
+      <td>学習指導要領</td>
+      <td class="url">https://w3id.org/jp-cos/LowerSecondary/2017</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:courseOfStudyRevision</code></td>
+      <td>学習指導要領（一部改正情報）</td>
+      <td class="url">https://w3id.org/jp-cos/LowerSecondary/2017/2017</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>複数の改正がある場合、改正の件数分、繰り返される。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:edition</code></td>
+      <td>改正情報</td>
+      <td>一部改正なし</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの16桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:source</code></td>
+      <td>出典</td>
+      <td class="url">https://w3id.org/jp-cos/83V11</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="url"><code>qb:order</code></td>
+      <td>項番</td>
+      <td></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>元データの「No」列の値。データセットの数だけ繰り返される。<code>rdf:value</code>, <code>dct:source</code>の2つの項番用プロパティを持つ。</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        ブランクノードの内容は以下の内容からなる構造を持ちます。
+        <div class="blank_node"><table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>rdf:value</code></td>
+      <td>項番</td>
+      <td>122</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:source</code></td>
+      <td>出典</td>
+      <td class="url">https://w3id.org/jp-cos/82V11</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table></div>
+      </td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:fcode</code></td>
+      <td>F学習指導要領コード</td>
+      <td>A8A3UHA1A2A0A3A1A1A1A2A0A0A0A0A0</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードをExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>bf:note</code></td>
+      <td>備考</td>
+      <td><ul><li>'''コード表：86V11におけるこの学習指導要領の細目の学習指導要領コードの第6桁は「0」となっているが、正しくは「e」であると判断し、URIや関連するプロパティ値（学習指導要領コードや段階など）もそれに合わせるように変更した。'''@ja</li><li>'''The sixth digit of the original course of study code in code table 86V11 is "0", but the correct value is "e". The URI and related property values (course of study code, stage, etc.) were changed to match.'''@en</li></ul></td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、備考を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語の備考</dd><dt>@en</dt><dd>英語の備考</dd></dl></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>bf:</code></dt>
+      <dd class="col-sm-10">http://id.loc.gov/ontologies/bibframe/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="DatasetShape">データセット</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/Dataset">https://w3id.org/jp-cos/Dataset</a></li></ul>
+            <p>データセットを表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>データセットID</var></code></p>
+            <p>データセットリソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>dct:identifier</code></td>
+      <td>データセットのID</td>
+      <td>82V11</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:version</code></td>
+      <td>データセットのバージョン</td>
+      <td>1.1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"【82V11】小学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年8月20日公表）"@ja</li><li>"【82V11】Code for Elementary School Course of Guideline published in 2017, version 1.1 （2021-08-20 release）"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:school</code></td>
+      <td>学校種別</td>
+      <td class="url">https://w3id.org/jp-cos/school/Elementary</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの2桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:releaseDate</code></td>
+      <td>公表年月日</td>
+      <td>2021-08-20</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="CourseOfStudyShape">学習指導要領</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/CourseOfStudy">https://w3id.org/jp-cos/CourseOfStudy</a></li></ul>
+            <p>学習指導要領を表すクラス。主に10年に一度大改訂される。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var></code></p>
+            <p>学習指導要領リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>cs:issuedPeriod</code></td>
+      <td>告示時期</td>
+      <td class="url">https://w3id.org/jp-cos/period/H29toH31</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの1桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"小学校学習指導要領"@ja</li><li>"しょうがっこうがくしゅうしどうようりょう"@ja-Hira</li><li>"Elementary School Curriculum Guideline"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:datePublished</code></td>
+      <td>告示日</td>
+      <td>2017-03-31</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:startDate</code></td>
+      <td>施行年月日</td>
+      <td>2020-04-01</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:school</code></td>
+      <td>学校種別</td>
+      <td class="url">https://w3id.org/jp-cos/school/Elementary</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの2桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:url</code></td>
+      <td>本文URL</td>
+      <td class="url">http://www.mext.go.jp/a_menu/shotou/old-cs/1322503.htm</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。本文へのリンク。文部科学省のウェブサイトと<a href="http://www.nier.go.jp/guideline/">国立教育政策研究所学習指導要領データベース</a>へのリンク。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:hasVersion</code></td>
+      <td>別バージョン</td>
+      <td class="url">https://w3id.org/jp-cos/Elementary/2017/2017</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>複数の改正がある場合、改正の件数分、繰り返される。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:dataset</code></td>
+      <td>データセット</td>
+      <td class="url">https://w3id.org/jp-cos/82V11</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:hasSubjectArea</code></td>
+      <td>教科がある</td>
+      <td class="url">https://w3id.org/jp-cos/Elementary/2017/国語</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:hasSubject</code></td>
+      <td>科目がある</td>
+      <td class="url">https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="CourseOfStudyRevisionShape">学習指導要領の別バージョン</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/CourseOfStudyRevision">https://w3id.org/jp-cos/CourseOfStudyRevision</a></li></ul>
+            <p>一部改正された学習指導要領を表すクラス。10年の間に一部改正が行われた場合などに利用。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>初版の告示年</var>/<var>告示年（改正年）</var></code></p>
+            <p>学習指導要領の別バージョンリソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>cs:issuedPeriod</code></td>
+      <td>告示時期</td>
+      <td class="url">https://w3id.org/jp-cos/period/H29toH31</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの1桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>別バージョンの名称</td>
+      <td><ul><li>"中学校学習指導要領 平成22年11月 一部改正"@ja</li><li>"Lower Secondary School Curriculum Guideline 2010-11 Notification of Partial Revision"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>一部改正であれば、「平成15年12月 一部改正」のような表現となります。また、言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:citation</code></td>
+      <td>出典</td>
+      <td><ul><li>"『平成22年 文部科学省告示第百六十一号』（官報. 平成22年11月30日, 号外第250号, pp.90）"@ja</li><li>"\"Notification No. 161 in 2010 of the Ministry of Education, Culture, Sports, Science and Technology\" (Official Gazette, 2010-11-30, Extra Edition No. 250, pp.90)"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>文部科学省（文部省）の告示タイトルおよび掲載された官報についての情報。また、言語コードを用いて、出典に加え、英語の出典を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語出典（漢字表記）</dd><dt>@en</dt><dd>英語出典</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:url</code></td>
+      <td>本文URL</td>
+      <td class="url">http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。本文へのリンク。文部科学省ウェブページか<a href="http://www.nier.go.jp/guideline/">国立教育政策研究所学習指導要領データベース</a>へのリンク。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:seeAlso</code></td>
+      <td>関連リンク</td>
+      <td class="url">http://id.ndl.go.jp/jpno/89034331</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。<a href="http://iss.ndl.go.jp/">国立国会図書館サーチ</a>、<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>へのリンク。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:isbn</code></td>
+      <td>ISBN</td>
+      <td>9784491034607</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:itemID</code></td>
+      <td>国立教育政策研究所教育図書館の蔵書データベースにおける所蔵資料ID</td>
+      <td>071221843</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:callNumber</code></td>
+      <td>国立教育政策研究所教育図書館の所蔵資料に対する請求記号</td>
+      <td>375.92||1||1989d</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>区切り記号は、「||」である。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>nier:recordID</code></td>
+      <td>国立教育政策研究所教育図書館の蔵書データベースにおけるレコードID</td>
+      <td>BB80025218</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td><code>https://nieropac.nier.go.jp/ebopac/<var>レコードID</var></code>の形式で参照可能</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:startDate</code></td>
+      <td>施行年月日</td>
+      <td>2020-04-01</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:datePublished</code></td>
+      <td>告示日（改正日）</td>
+      <td>1989-03-15</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:school</code></td>
+      <td>学校種別</td>
+      <td class="url">https://w3id.org/jp-cos/school/Elementary</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの2桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:dataset</code></td>
+      <td>データセット</td>
+      <td class="url">https://w3id.org/jp-cos/82V11</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>nier:</code></dt>
+      <dd class="col-sm-10">http://dl.nier.go.jp/library/vocab/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="CommentaryItemShape">学習指導要領解説の細目</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/CommentaryItem">https://w3id.org/jp-cos/CommentaryItem</a></li></ul>
+            <p>学習指導要領解説の細目を表すクラス。</p>
+            <p>学習指導要領解説の細目リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>dct:identifier</code></td>
+      <td>ID</td>
+      <td>1000031</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>IDは数字7桁（独自のID）。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:description</code></td>
+      <td>テキスト</td>
+      <td>"　本内容は，第３学年「Ａ (1) 物と重さ」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の保存性」に関わるものであり，第６学年「Ａ (2) 水溶液の性質」の学習につながるものである。"</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>元データの「学習指導要領解説」の内容。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:about</code></td>
+      <td>対象となる学習指導要領細目</td>
+      <td class="url">https://w3id.org/jp-cos/8260253110000000</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>本解説で対象としている学習指導要領の細目</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:citation</code></td>
+      <td>参照した学習指導要領細目</td>
+      <td>https://w3id.org/jp-cos/8260233110000000</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>本解説で参照した学習指導要領の細目</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:hasPart</code></td>
+      <td>子</td>
+      <td class="url">https://w3id.org/jp-cos/commentary/1000400</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>子供の細目を表す。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:commentaryPage</code></td>
+      <td>学習指導要領解説へのリンク</td>
+      <td class="url">https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=68</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>対応する学習指導要領解説へのリンク</td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:title</code></td>
+      <td>節タイトル</td>
+      <td>(1) 物の溶け方</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>細目が節タイトルを表している場合は「テキスト」と同内容を表す。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:alternative</code></td>
+      <td>短縮タイトル</td>
+      <td>(1)</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>「節タイトル」の短縮版。パンくずリストなどの利用を想定。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>順番</td>
+      <td>1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>表示順を決める場合などで利用</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="CosCommentaryShape">学習指導要領解説</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/CosCommentary">https://w3id.org/jp-cos/CosCommentary</a></li></ul>
+            <p>学習指導要領解説を表すクラス。</p>
+            <p>学習指導要領解説リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>'【社会編】小学校学習指導要領（平成29年告示）解説'@ja,</li><li>'【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, </li><li> 'Commentary on the Elementary School Course of Study (Social Studies), Notification 2017'@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:school</code></td>
+      <td>学校種別</td>
+      <td class="url">https://w3id.org/jp-cos/Elementary</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:subjectArea</code></td>
+      <td>教科等</td>
+      <td class="url">https://w3id.org/jp-cos/Elementary/2017/社会</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:issued</code></td>
+      <td>出版年</td>
+      <td>2017</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:url</code></td>
+      <td>本文URL</td>
+      <td class="url">https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>本文へのリンク</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:hasPart</code></td>
+      <td>子</td>
+      <td class="url">https://w3id.org/jp-cos/commentary/1000302</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>子供の細目を表す。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>順番</td>
+      <td>2003</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>表示順を決める場合などで利用</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="DisabilityCategoryShape">障害分類</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/DisabilityCategory">https://w3id.org/jp-cos/DisabilityCategory</a></li></ul>
+            <p>障害を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/disabilityCategory/<var>障害分類</var></code></p>
+            <p>障害分類リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>コード割り当て表掲載順</td>
+      <td>2</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>表示順を決める場合などで利用</td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:seeAlso</code></td>
+      <td>関連リンク</td>
+      <td class="url">http://ja.dbpedia.org/resource/知的障害</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"知的"@ja</li><li>"知的"@ja-Hira</li><li>"Intellectual Disability"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="NumberShape">項番</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/Number">https://w3id.org/jp-cos/Number</a></li></ul>
+            <p>学習指導要領コードのデータセットの中での項番を表すクラス。</p>
+            <p>項番リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>rdf:value</code></td>
+      <td>項番</td>
+      <td>122</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:source</code></td>
+      <td>出典</td>
+      <td class="url">https://w3id.org/jp-cos/82V11</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="PeriodShape">告示時期</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/Period">https://w3id.org/jp-cos/Period</a></li></ul>
+            <p>10年に一度の大改訂される学習指導要領を学校種別を超えてグルーピングするためのクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/period/<var>告示時期</var></code></p>
+            <p>告示時期リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"平成29～31年　告示"@ja</li><li>"Published from 2017 to 2019"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:startDate</code></td>
+      <td>時期開始日</td>
+      <td>2017-01-01</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:endDate</code></td>
+      <td>時期終了日</td>
+      <td>2019-12-31</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:code01</code></td>
+      <td>学習指導要領コード1桁目</td>
+      <td>8</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:fcode01</code></td>
+      <td>学習指導要領コード1桁目に対応するFコード</td>
+      <td>A8</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの1桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="RelatedSubjectAreaShape">関係のある教科等</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/RelatedSubjectArea">https://w3id.org/jp-cos/RelatedSubjectArea</a></li></ul>
+            <p>障害分類のある教科の場合に、障害分類を超えてまとめるためのクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var>/<var>教科名</var></code></p>
+            <p>関係のある教科等リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>dct:relation</code></td>
+      <td>関係がある</td>
+      <td class="url">https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>関係のある教科名</td>
+      <td><ul><li>"外国語"@ja</li><li>"がいこくご"@ja-Hira</li><li>"Foreign Languages"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、教科名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。教科名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>教科名の英語名称</dd></dl>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （小学校、 中学校、 高等学校） に記載されている教科はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（Education In JAPAN, 13版）67ページの記載も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="RelatedSubjectShape">関係のある科目等</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/RelatedSubject">https://w3id.org/jp-cos/RelatedSubject</a></li></ul>
+            <p>障害分類のある科目等の場合に、障害分類を超えてまとめるためのクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var>/<var>教科名</var>/<var>科目名</var></code></p>
+            <p>関係のある科目等リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>dct:relation</code></td>
+      <td>関係がある</td>
+      <td class="url">https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語/英語</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>関係のある科目名</td>
+      <td><ul><li>"外国語"@ja</li><li>"がいこくご"@ja-Hira</li><li>"Foreign Languages"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、教科名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。教科名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>教科名の英語名称</dd></dl>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （小学校、 中学校、 高等学校） に記載されている教科はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（Education In JAPAN, 13版）67ページの記載も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="SchoolShape">学校種別</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/School">https://w3id.org/jp-cos/School</a></li></ul>
+            <p>学校を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/school/school/<var>学校種別</var></code></p>
+            <p>学校種別リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>コード割り当て表掲載順</td>
+      <td>2</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>表示順を決める場合などで利用</td>
+    </tr>
+    <tr>
+      <td class="url"><code>owl:sameAs</code></td>
+      <td>同一リソース</td>
+      <td class="url">http://ja.dbpedia.org/resource/小学校</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"小学校"@ja</li><li>"しょうがっこう"@ja-Hira</li><li>"Elementary School"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>owl:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2002/07/owl#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="SourceOfEnglishNameShape">英語表記の出典</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/SourceOfEnglishName">https://w3id.org/jp-cos/SourceOfEnglishName</a></li></ul>
+            <p>教科や科目などの英訳の出典を表すクラス。</p>
+            <p>英語表記の出典リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>英語表記出典の名称</td>
+      <td><ul><li>"小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja</li><li>"Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:courseOfStudy</code></td>
+      <td>対応学習指導要領</td>
+      <td class="url">https://w3id.org/jp-cos/Elementary/2008</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領の仮訳が出典となっている場合は、対応する学習指導要領リソースのURIを示す。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:seeAlso</code></td>
+      <td>関連リンク</td>
+      <td class="url">http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>出典した本文を参照できるWebページへのリンクや、出典が本の場合は書誌データ（<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>）へのリンクなど。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:date</code></td>
+      <td>参照日</td>
+      <td>"2018-08-12"</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>この出典を参照した日</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="StageShape">段階</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/Stage">https://w3id.org/jp-cos/Stage</a></li></ul>
+            <p>知的障害の場合における段階を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/stage/<var>学校種別＋(知的)</var>/<var>段階</var></code></p>
+            <p>段階リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>"Stage 1"@en</li><li>"１段階"@ja</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>また、言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:description</code></td>
+      <td>説明</td>
+      <td></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:citation</code></td>
+      <td>出典</td>
+      <td>文部科学省. "第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-07.</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>文部科学省（文部省）が発行した文書についての情報。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>rdfs:seeAlso</code></td>
+      <td>関連リンク</td>
+      <td class="url">http://ja.dbpedia.org/resource/知的障害</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:disabilityCategory</code></td>
+      <td>障害分類</td>
+      <td class="url">https://w3id.org/jp-cos/disabilityCategory/Intellectual</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:school</code></td>
+      <td>学校種別</td>
+      <td class="url">https://w3id.org/jp-cos/school/ElementaryDeptSNES</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="StructuredItemShape">構造化細目</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/StructuredItem">https://w3id.org/jp-cos/StructuredItem</a></li></ul>
+            <p>学習指導要領の細目とその由来などを表すクラス。</p>
+            <p>構造化細目リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>rdf:value</code></td>
+      <td>学習指導要領の細目</td>
+      <td class="url">https://w3id.org/jp-cos/8260233210000000</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:provenance</code></td>
+      <td>出典</td>
+      <td class="url">https://w3id.org/jp-cos/commentary/1000246</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="SubjectAreaShape">教科等</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/SubjectArea">https://w3id.org/jp-cos/SubjectArea</a></li></ul>
+            <p>教科などを表すクラス。「総則」など、教科以外のものも含まれる。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var></code></p>
+            <p>教科等リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>cs:courseOfStudyRevision</code></td>
+      <td>学習指導要領（一部改正情報）</td>
+      <td class="url">https://w3id.org/jp-cos/LowerSecondary/2017/2017</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>複数の改正がある場合、改正の件数分、繰り返される。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>学習指導要領掲載順</td>
+      <td>1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>表示順を決める場合などで利用</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:disabilityCategory</code></td>
+      <td>障害分類</td>
+      <td class="url">https://w3id.org/jp-cos/disabilityCategory/Intellectual</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの2桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:school</code></td>
+      <td>学校種別</td>
+      <td class="url">https://w3id.org/jp-cos/school/LowerSecondary</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの2桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>教科名</td>
+      <td><ul><li>"外国語"@ja</li><li>"がいこくご"@ja-Hira</li><li>"Foreign Languages"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、教科名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。教科名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>教科名の英語名称</dd></dl>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （小学校、 中学校、 高等学校） に記載されている教科はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（Education In JAPAN, 13版）67ページの記載も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:sourceOfEnglishName</code></td>
+      <td>英語表記出典</td>
+      <td class="url">https://w3id.org/jp-cos/source/Elementary-2008</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>英語表記の根拠となる出典情報を表す。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:code03</code></td>
+      <td>学習指導要領コード3桁目</td>
+      <td>1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:fcode03</code></td>
+      <td>学習指導要領コード3桁目に対応するFコード</td>
+      <td>A1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの3桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:codePrefix</code></td>
+      <td>教科コード</td>
+      <td>821</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの1桁目から3桁目。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:fcodePrefix</code></td>
+      <td>F教科コード</td>
+      <td>A8A2A1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの1桁目から3桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:hasSubject</code></td>
+      <td>科目がある</td>
+      <td class="url">https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="SubjectShape">科目等</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/Subject">https://w3id.org/jp-cos/Subject</a></li></ul>
+            <p>科目や分類などを表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var>/<var>科目名</var></code></p>
+            <p>科目等リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <thead>
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="url"><code>cs:courseOfStudyRevision</code></td>
+      <td>学習指導要領（一部改正情報）</td>
+      <td class="url">https://w3id.org/jp-cos/LowerSecondary/2017/2017</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>複数の改正がある場合、改正の件数分、繰り返される。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>学習指導要領掲載順</td>
+      <td>10</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>表示順を決める場合などで利用</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:disabilityCategory</code></td>
+      <td>障害分類</td>
+      <td class="url">https://w3id.org/jp-cos/Intellectual</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの2桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:school</code></td>
+      <td>学校種別</td>
+      <td class="url">https://w3id.org/jp-cos/school/LowerSecondary</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの2桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>科目名</td>
+      <td><ul><li>"英語"@ja</li><li>"えいご"@ja-Hira</li><li>"English"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、教科名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。教科名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>教科名の英語名称</dd></dl>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （小学校、 中学校、 高等学校） に記載されている教科はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（Education In JAPAN, 13版）67ページの記載も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:sourceOfEnglishName</code></td>
+      <td>英語表記出典</td>
+      <td class="url">https://w3id.org/jp-cos/source/Elementary-2008</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>英語表記の根拠となる出典情報を表す。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:code04</code></td>
+      <td>学習指導要領コード4桁目</td>
+      <td>1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:fcode04</code></td>
+      <td>学習指導要領コード4桁目に対応するFコード</td>
+      <td>A1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの4桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:codePrefix</code></td>
+      <td>科目コード</td>
+      <td>83H1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの1桁目から4桁目。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:fcodePrefix</code></td>
+      <td>F科目コード</td>
+      <td>A8A3UHA1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの1桁目から4桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>          <h2 id="versions">更新履歴 <i class="bi bi-info-circle"></i></h2>
+          <dl>
+                    <dt>2025-09-27</dt>
+        <dd>バージョン3.0を公開。</dd>
+        <dd>試行的に小学校理科と社会科5・6年生分の学習指導要領解説の内容をLOD化しました。学習指導要領リソース詳細のプロパティ表示順を重要度に応じて並べるように変更しました。教科や科目一覧の並べ方を指導要領掲載順となるようにしました。お知らせの内容を見やすくなるよう整理しました。
+        更新の詳細については<a href="https://github.com/jp-cos/jp-cos.github.io/milestone/8?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-cos/all-20250927.ttl.gz">all-20250927.ttl.gz</a>
+  (955,607トリプル, 4.05 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-cos/commentary-20250824.ttl">commentary-20250824.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/commentary-metadata-20250817.ttl">commentary-metadata-20250817.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-basic-advanced-20250824.ttl">cs-basic-advanced-20250824.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-citations-20250817.ttl">cs-citations-20250817.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-commentary-20250217.ttl">cs-commentary-20250217.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-items-20220830.ttl.gz">cs-items-20220830.ttl.gz</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-metadata-20211211.ttl">cs-metadata-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-period-20211010.ttl">cs-period-20211010.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-revision-20211211.ttl">cs-revision-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-dataset-20211229.ttl">cs-dataset-20211229.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/dataset-20250927.ttl">dataset-20250927.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/disability-category-20211122.ttl">disability-category-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-class-20250817.ttl">schema-class-20250817.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-property-20250817.ttl">schema-property-20250817.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/school-20211122.ttl">school-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/section-hierarchy-20240704.ttl">section-hierarchy-20240704.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/shapes-20250817.ttl">shapes-20250817.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/stage-20211205.ttl">stage-20211205.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subject-20241220.ttl">subject-20241220.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subjectArea-20241228.ttl">subjectArea-20241228.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/source-20241228.ttl">source-20241228.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2025-01-07</dt>
+        <dd>バージョン2.5を公開。</dd>
+        <dd>教科書LODの単元情報の検索機能を追加しました。教科、科目名称の英訳を最新版に修正しました。SPARQLエンドポイントを試験公開しました。NHK for School APIバージョン2に対応しました。
+        更新の詳細については<a href="https://github.com/jp-cos/jp-cos.github.io/milestone/7?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-cos/all-20250107.ttl.gz">all-20250107.ttl.gz</a>
+  (949,284トリプル, 3.99 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-cos/cs-commentary-20240322.ttl">cs-commentary-20240322.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-items-20220830.ttl.gz">cs-items-20220830.ttl.gz</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-metadata-20211211.ttl">cs-metadata-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-period-20211010.ttl">cs-period-20211010.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-revision-20211211.ttl">cs-revision-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-dataset-20211229.ttl">cs-dataset-20211229.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/dataset-20250107.ttl">dataset-20250107.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/disability-category-20211122.ttl">disability-category-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-class-20220104.ttl">schema-class-20220104.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-property-20220930.ttl">schema-property-20220930.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/school-20211122.ttl">school-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/section-hierarchy-20240704.ttl">section-hierarchy-20240704.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/shapes-20241228.ttl">shapes-20241228.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/stage-20211205.ttl">stage-20211205.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subject-20241220.ttl">subject-20241220.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subjectArea-20241228.ttl">subjectArea-20241228.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/source-20241228.ttl">source-20241228.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2024-03-31</dt>
+        <dd>バージョン2.4を公開。</dd>
+        <dd><a href="https://adeac.jp/adeac-lab/top/SxUKILAM/index.html">SxUKILAM（スキラム）連携学習教材アーカイブ</a>の検索機能を追加しました。学習指導要領細目に対応する学習教材を検索できます。トップページに学習指導要領コードを直接入力して表示できる機能を追加しました。
+        更新の詳細については<a href="https://github.com/jp-cos/jp-cos.github.io/milestone/6?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-cos/all-20240331.ttl.gz">all-20240331.ttl.gz</a>
+  (949,204トリプル, 3.99 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-cos/cs-commentary-20240322.ttl">cs-commentary-20240322.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-items-20220830.ttl.gz">cs-items-20220830.ttl.gz</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-metadata-20211211.ttl">cs-metadata-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-period-20211010.ttl">cs-period-20211010.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-revision-20211211.ttl">cs-revision-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-dataset-20211229.ttl">cs-dataset-20211229.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/dataset-20240331.ttl">dataset-20240331.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/shapes-20240327.ttl">shapes-20240327.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/disability-category-20211122.ttl">disability-category-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-class-20220104.ttl">schema-class-20220104.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-property-20220930.ttl">schema-property-20220930.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/school-20211122.ttl">school-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/section-hierarchy-20220902.ttl">section-hierarchy-20220902.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/shapes-20240315.ttl">shapes-20240315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/stage-20211205.ttl">stage-20211205.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subject-20211223.ttl">subject-20211223.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subjectArea-20220830.ttl">subjectArea-20220830.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2024-03-27</dt>
+        <dd>バージョン2.3を公開。</dd>
+        <dd>学習指導要領解説PDFへのリンクを追加しました（一般社団法人ICT CONNECT 21が作成、公開した<a href="https://ictconnect21.jp/cscode2023/">学習指導要領解説データセット</a>の内容を取り込みました）。サイト全体の検索機能を追加しました。
+        更新の詳細については<a href="https://github.com/jp-cos/jp-cos.github.io/milestone/5?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-cos/all-20240327.ttl.gz">all-20240327.ttl.gz</a>
+  (949,172トリプル, 3.99 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-cos/cs-commentary-20240322.ttl">cs-commentary-20240322.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-items-20220830.ttl.gz">cs-items-20220830.ttl.gz</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-metadata-20211211.ttl">cs-metadata-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-period-20211010.ttl">cs-period-20211010.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-revision-20211211.ttl">cs-revision-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-dataset-20211229.ttl">cs-dataset-20211229.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/dataset-20240327.ttl">dataset-20240327.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/shapes-20240315.ttl">shapes-20240315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/disability-category-20211122.ttl">disability-category-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-class-20220104.ttl">schema-class-20220104.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-property-20220930.ttl">schema-property-20220930.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/school-20211122.ttl">school-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/section-hierarchy-20220902.ttl">section-hierarchy-20220902.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/shapes-20240315.ttl">shapes-20240315.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/stage-20211205.ttl">stage-20211205.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subject-20211223.ttl">subject-20211223.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subjectArea-20220830.ttl">subjectArea-20220830.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2022-10-06</dt>
+        <dd>バージョン2.2を公開。</dd>
+        <dd>教材や単元リソースから特定の学習指導要領リソースを指し示すプロパティ<code>cs:cosItem</code>を定義しました。個別リソースのTurtle形式にデータ型が付与されていなかった問題を改善しました。
+        更新の詳細については<a href="https://github.com/jp-cos/jp-cos.github.io/milestone/4?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-cos/all-20221006.ttl.gz">all-20221006.ttl.gz</a>
+  (940,856トリプル, 3.95 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-cos/cs-items-20220830.ttl.gz">cs-items-20220830.ttl.gz</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-metadata-20211211.ttl">cs-metadata-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-period-20211010.ttl">cs-period-20211010.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-revision-20211211.ttl">cs-revision-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-dataset-20211229.ttl">cs-dataset-20211229.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/dataset-20221006.ttl">dataset-20221006.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/disability-category-20211122.ttl">disability-category-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-class-20220104.ttl">schema-class-20220104.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-property-20220930.ttl">schema-property-20220930.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/school-20211122.ttl">school-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/section-hierarchy-20220902.ttl">section-hierarchy-20220902.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/shapes-20220830.ttl">shapes-20220830.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/stage-20211205.ttl">stage-20211205.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subject-20211223.ttl">subject-20211223.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subjectArea-20220830.ttl">subjectArea-20220830.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2022-09-02</dt>
+        <dd>バージョン2.1を公開。</dd>
+        <dd>NHK for School検索機能を追加しました。英語版サイトを追加しました。節番号階層を表現する<code>cs:sectionNumberHierarchy</code>プロパティを追加しました。その他データを修正、調整しました。
+        更新の詳細については<a href="https://github.com/jp-cos/jp-cos.github.io/milestone/3?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-cos/all-20220902.ttl.gz">all-20220902.ttl.gz</a>
+  (940,817トリプル, 3.95 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-cos/cs-items-20220830.ttl.gz">cs-items-20220830.ttl.gz</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-metadata-20211211.ttl">cs-metadata-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-period-20211010.ttl">cs-period-20211010.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-revision-20211211.ttl">cs-revision-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-dataset-20211229.ttl">cs-dataset-20211229.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/dataset-20220902.ttl">dataset-20220902.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/disability-category-20211122.ttl">disability-category-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-class-20220104.ttl">schema-class-20220104.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-property-20220830.ttl">schema-property-20220830.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/school-20211122.ttl">school-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/section-hierarchy-20220902.ttl">section-hierarchy-20220902.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/shapes-20220830.ttl">shapes-20220830.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/stage-20211205.ttl">stage-20211205.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subject-20211223.ttl">subject-20211223.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subjectArea-20220830.ttl">subjectArea-20220830.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2021-12-30</dt>
+        <dd>バージョン2.0を公開。</dd>
+        <dd>元データセットを2021年12月28日更新版に更新しました。複数のデータの誤りなどを修正しました。
+        更新の詳細については<a href="https://github.com/jp-cos/jp-cos.github.io/milestone/2?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-cos/all-20211230.ttl.gz">all-20211230.ttl.gz</a>
+  (900,772トリプル, 3.63 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-cos/code2broader-20211230.ttl">code2broader-20211230.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-items-20211229.ttl.gz">cs-items-20211229.ttl.gz</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-metadata-20211211.ttl">cs-metadata-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-period-20211010.ttl">cs-period-20211010.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-revision-20211211.ttl">cs-revision-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-dataset-20211229.ttl">cs-dataset-20211229.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/dataset-20211230.ttl">dataset-20211230.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/disability-category-20211122.ttl">disability-category-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-class-20211218.ttl">schema-class-20211218.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-property-20211206.ttl">schema-property-20211206.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/school-20211122.ttl">school-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/section-label-20211229.ttl">section-label-20211229.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/shapes-20211223.ttl">shapes-20211223.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/stage-20211205.ttl">stage-20211205.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subject-20211223.ttl">subject-20211223.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subjectArea-20211223.ttl">subjectArea-20211223.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+                    <dt>2021-12-12</dt>
+        <dd>バージョン1.0を公開。</dd>
+        <dd>初期バージョンを公開しました。
+        更新の詳細については<a href="https://github.com/jp-cos/jp-cos.github.io/milestone/1?closed=1">こちら</a>をご覧ください。
+        </dd>
+        <dd><ul>  <li><a href="https://w3id.org/jp-cos/all-20211212.ttl.gz">all-20211212.ttl.gz</a>
+  (902,593トリプル, 3.71 MB)
+    <ul>
+      <li><a href="https://w3id.org/jp-cos/code2broader-20211008.ttl">code2broader-20211008.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-items-20211206.ttl.gz">cs-items-20211206.ttl.gz</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-metadata-20211211.ttl">cs-metadata-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-period-20211010.ttl">cs-period-20211010.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-revision-20211211.ttl">cs-revision-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/cs-dataset-20211122.ttl">cs-dataset-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/dataset-20211211.ttl">dataset-20211211.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/disability-category-20211122.ttl">disability-category-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-class-20211207.ttl">schema-class-20211207.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/schema-property-20211206.ttl">schema-property-20211206.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/school-20211122.ttl">school-20211122.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/section-label-20211204.ttl">section-label-20211204.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/shapes-20211206.ttl">shapes-20211206.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/stage-20211205.ttl">stage-20211205.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subject-20211206.ttl">subject-20211206.ttl</a>
+  </li>
+
+      <li><a href="https://w3id.org/jp-cos/subjectArea-20211206.ttl">subjectArea-20211206.ttl</a>
+  </li>
+
+    </ul>
+  </li>
+</ul></dd>
+
+          </dl>
+          <h2 id="sparql-endpoint">SPARQLエンドポイント <i class="bi bi-database-add"></i></h2>
+          <p>このデータセットに対するSPARQLエンドポイントは以下のURLからアクセスできます（試験公開中）</p>
+          <ul>
+            <li>クエリ画面: <a href="https://dydra.com/masao/jp-cos/@query">https://dydra.com/masao/jp-cos/@query</a></li>
+            <li>SPARQLエンドポイント: <a href="https://dydra.com/masao/jp-cos/sparql">https://dydra.com/masao/jp-cos/sparql</a></li>
+          </ul>
+          <h2 id="contact">連絡先</h2>
+          <p>本データセットは 教育データプラス研究会 が開発したものです</p>
+          <ul>
+            <li>阿児雄之
+            (東京国立博物館)
+            <li>有山裕美子
+            (大妻女子大学)
+            <li>江草由佳
+            (国立教育政策研究所)
+            <li>榎本聡
+            <li>大井将生
+            (同志社大学)
+            <li>高久雅生
+            (筑波大学)
+          </ul>
+          <p>データセットに関する問い合わせは <a href="mailto:yuka@nier.go.jp">mailto:yuka@nier.go.jp</a> までお問い合わせください。</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <footer>
+      <p>
+        &copy; 2021-2026
+        教育データプラス研究会
+      </p>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc/dist/bootstrap-toc.min.js"></script>
+    <script src="custom.js"></script>
+  </body>
+</html>
