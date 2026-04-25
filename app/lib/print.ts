@@ -241,7 +241,7 @@ export function buildPrintSheetSVG({
     svg += `<text x="${unitX + kakijunUnitWidth / 2}" y="${cy + kakijunCellSize + 3.5}" text-anchor="middle" font-size="2.2" fill="#7a7a7a">${index + 1}/${strokes.length}</text>`;
   }
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" font-family="'Hiragino Kaku Gothic ProN','Meiryo','Yu Gothic',sans-serif">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}mm" height="${height}mm" viewBox="0 0 ${width} ${height}" preserveAspectRatio="xMidYMid meet" font-family="'Hiragino Kaku Gothic ProN','Meiryo','Yu Gothic',sans-serif">
 ${svg}
 </svg>`;
 }
