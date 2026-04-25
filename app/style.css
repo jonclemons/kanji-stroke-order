@@ -1595,7 +1595,6 @@ button:hover {
 
 @media print {
   @page {
-    size: A4 landscape;
     margin: 6mm;
   }
 
@@ -1631,9 +1630,9 @@ button:hover {
   }
 
   .print-preview-sheet {
-    width: 100%;
-    max-width: none;
-    margin: 0;
+    width: 260mm;
+    max-width: 100%;
+    margin: 0 auto;
     border: none;
     border-radius: 0;
     box-shadow: none;
