@@ -6,11 +6,6 @@ export default createRoute((c) => {
     <AppShell
       currentMeta="about"
       currentPath={c.req.path}
-      footerActions={
-        <a class="app-footer-btn is-secondary" href="/">
-          ←もどる
-        </a>
-      }
       subtitle="このアプリの ねがいと データのことを まとめています"
       title="このアプリについて"
     >

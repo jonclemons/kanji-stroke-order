@@ -1,7 +1,8 @@
 const INFO_PATHS = new Set(["/about", "/privacy", "/terms"]);
 
 export function gradePath(grade: number) {
-  return `/grade/${grade}`;
+  const params = new URLSearchParams({ grade: String(grade) });
+  return `/?${params.toString()}`;
 }
 
 export function kanjiPath(grade: number, kanji: string) {

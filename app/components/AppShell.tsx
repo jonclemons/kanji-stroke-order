@@ -1,5 +1,5 @@
 import type { Child } from "hono/jsx";
-import { gradePath, kanjiPath } from "../lib/routes";
+import KanjiPicker from "../islands/KanjiPicker";
 
 type AppShellProps = {
   children: Child;
@@ -28,89 +28,29 @@ export function AppShell({
   title,
   subtitle,
 }: AppShellProps) {
-  const showDrawer = currentMeta === null;
-  const drawerOpensByDefault = currentMeta === null && currentKanji === null;
+  const showKanjiPicker = currentMeta === null;
+  const showInlinePicker = showKanjiPicker && currentKanji === null;
 
   return (
     <div class="app-shell">
       <header class="app-header">
         <div class="content-column app-header-inner">
-          <div class="app-header-top">
+          <div class={`app-header-top${showKanjiPicker ? " has-search" : ""}`}>
             <a class="app-header-eyebrow" href="/">
               kokugo.app
             </a>
+            {showKanjiPicker ? (
+              <HeaderSearch
+                currentGrade={currentGrade}
+                currentPath={currentPath}
+                error={error}
+                searchValue={searchValue}
+              />
+            ) : null}
             <ThemeToggleButton />
           </div>
         </div>
       </header>
-
-      {showDrawer ? (
-        <section class="app-drawer-section">
-          <div class="content-column">
-            <details class="kanji-drawer" {...(drawerOpensByDefault ? { open: true } : {})}>
-              <summary class="kanji-drawer-toggle">
-                <span class="kanji-drawer-toggle-copy">
-                  <span class="kanji-drawer-toggle-title">かんじを えらぶ</span>
-                  <span class="kanji-drawer-toggle-meta">
-                    {currentGrade ? `${currentGrade}年生の かんじ` : "がくねんと かんじを えらぼう"}
-                  </span>
-                </span>
-                <span aria-hidden="true" class="kanji-drawer-toggle-icon">
-                  ▾
-                </span>
-              </summary>
-
-              <div class="kanji-drawer-panel">
-                <form class="input-section" method="get" action="/lookup">
-                  <input
-                    id="kanjiInput"
-                    name="kanji"
-                    type="text"
-                    placeholder="漢字"
-                    maxLength={1}
-                    value={searchValue}
-                  />
-                  {currentGrade ? <input type="hidden" name="grade" value={String(currentGrade)} /> : null}
-                  <input type="hidden" name="from" value={currentPath} />
-                  <button id="lookupBtn" type="submit">
-                    しらべる
-                  </button>
-                </form>
-
-                <div class="error">{error || ""}</div>
-
-                <nav class="grade-nav" aria-label="学年">
-                  {[1, 2, 3, 4, 5, 6].map((grade) => (
-                    <a
-                      class={`grade-btn${grade === currentGrade ? " active" : ""}`}
-                      aria-current={grade === currentGrade ? "page" : undefined}
-                      href={gradePath(grade)}
-                      key={grade}
-                    >
-                      {grade}年生
-                    </a>
-                  ))}
-                </nav>
-
-                {kanjiList.length > 0 ? (
-                  <div class="kanji-grid">
-                    {kanjiList.map((kanji) => (
-                      <a
-                        aria-current={kanji === currentKanji ? "page" : undefined}
-                        class={`kanji-grid-btn${kanji === currentKanji ? " active" : ""}`}
-                        href={kanjiPath(currentGrade || 1, kanji)}
-                        key={kanji}
-                      >
-                        <span class="kanji-grid-char">{kanji}</span>
-                      </a>
-                    ))}
-                  </div>
-                ) : null}
-              </div>
-            </details>
-          </div>
-        </section>
-      ) : null}
 
       <main class="main-content">
         <div class="content-column main-content-inner">
@@ -118,6 +58,14 @@ export function AppShell({
             <h1 class="page-intro-title">{title}</h1>
             <p class="page-intro-subtitle">{subtitle}</p>
           </div>
+          {showInlinePicker ? (
+            <KanjiPicker
+              currentGrade={currentGrade}
+              currentKanji={currentKanji}
+              isInline
+              kanjiList={kanjiList}
+            />
+          ) : null}
           {children}
         </div>
       </main>
@@ -132,6 +80,41 @@ export function AppShell({
           </div>
         </div>
       </footer>
+    </div>
+  );
+}
+
+function HeaderSearch({
+  currentGrade,
+  currentPath,
+  error,
+  searchValue,
+}: {
+  currentGrade: number | null;
+  currentPath: string;
+  error: string | null;
+  searchValue: string;
+}) {
+  return (
+    <div class="app-header-search-wrap">
+      <form class="app-header-search input-section" method="get" action="/lookup">
+        <input
+          aria-label="しらべる かんじ"
+          id="kanjiInput"
+          name="kanji"
+          type="text"
+          placeholder="漢字"
+          maxLength={1}
+          value={searchValue}
+        />
+        <input id="selectedGradeInput" type="hidden" name="grade" value={currentGrade ? String(currentGrade) : ""} />
+        <input type="hidden" name="from" value={currentPath} />
+        <button aria-label="しらべる" id="lookupBtn" type="submit">
+          <SearchIcon />
+          <span class="sr-only">しらべる</span>
+        </button>
+      </form>
+      {error ? <div class="app-header-error">{error}</div> : null}
     </div>
   );
 }
@@ -208,6 +191,15 @@ function MoonIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
       <path d="M15.6 3.6a8.8 8.8 0 1 0 4.8 15.8 9.8 9.8 0 0 1-10.8-10.8 8.9 8.9 0 0 0 6-5Z" />
+    </svg>
+  );
+}
+
+function SearchIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="10.8" cy="10.8" r="6.2" />
+      <path d="m15.4 15.4 5 5" />
     </svg>
   );
 }

@@ -1,31 +1,15 @@
 import { createRoute } from "honox/factory";
-import { AppShell } from "../../../components/AppShell";
-import { EmptyState } from "../../../components/KanjiSections";
-import { loadGradeKanji, parseGrade } from "../../../lib/data";
+import { parseGrade } from "../../../lib/data";
 
 export default createRoute(async (c) => {
   const grade = parseGrade(c.req.param("grade"));
   if (!grade) return c.notFound();
 
-  const kanjiList = await loadGradeKanji(c, grade);
+  const params = new URLSearchParams({ grade: String(grade) });
+  const error = c.req.query("error");
+  const kanji = c.req.query("kanji");
+  if (error) params.set("error", error);
+  if (kanji) params.set("kanji", kanji);
 
-  return c.render(
-    <AppShell
-      currentGrade={grade}
-      currentPath={c.req.path}
-      error={c.req.query("error") || ""}
-      footerActions={
-        <a class="app-footer-btn is-secondary" href="/">
-          ←もどる
-        </a>
-      }
-      kanjiList={kanjiList}
-      searchValue={c.req.query("kanji") || ""}
-      subtitle="したの ますから きになる かんじを おしてね"
-      title="かんじを えらぼう"
-    >
-      <EmptyState message="したの ますから かんじを おしてね" />
-    </AppShell>,
-    { title: `${grade}年生の かんじ` },
-  );
+  return c.redirect(`/?${params.toString()}`, 302);
 });
