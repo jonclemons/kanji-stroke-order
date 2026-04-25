@@ -83,6 +83,18 @@ function scrollMainToTop() {
   window.scrollTo({ top: 0 });
 }
 
+function syncFooterActionGroups() {
+  document.querySelectorAll(".app-footer-actions").forEach((actions) => {
+    if (!(actions instanceof HTMLElement)) return;
+
+    const hasVisibleAction = Array.from(actions.children).some((child) => {
+      return child instanceof HTMLElement && !child.classList.contains("hidden");
+    });
+
+    actions.classList.toggle("is-empty", !hasVisibleAction);
+  });
+}
+
 function setKanjiDetailView(showList: boolean) {
   document.querySelectorAll("[data-kanji-detail-switcher]").forEach((switcher) => {
     const detailPanel = switcher.querySelector("[data-kanji-detail-panel]");
@@ -105,11 +117,12 @@ function setKanjiDetailView(showList: boolean) {
 
   document.querySelectorAll("[data-kanji-list-toggle]").forEach((element) => {
     if (element instanceof HTMLElement) {
-      element.classList.toggle("is-active", showList);
+      element.classList.toggle("hidden", showList);
       element.setAttribute("aria-pressed", String(showList));
     }
   });
 
+  syncFooterActionGroups();
   window.requestAnimationFrame(scrollMainToTop);
 }
 
