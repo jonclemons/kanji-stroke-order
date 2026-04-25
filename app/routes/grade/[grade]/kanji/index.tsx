@@ -58,7 +58,7 @@ app.get("/:char", async (c) => {
         </>
       }
       kanjiList={detail.gradeKanji}
-      listSubtitle="がくねんを えらんで かんじを さがそう"
+      listSubtitle=""
       listTitle="かんじれんしゅう"
       searchValue={c.req.query("kanji") || kanji}
       subtitle="よみかた、ことば、かきじゅんを みてみよう"
@@ -107,7 +107,13 @@ app.get("/:char", async (c) => {
         </div>
 
         <div class="hidden" data-kanji-list-panel>
-          <KanjiPicker currentGrade={detail.canonicalGrade} currentKanji={kanji} isInline kanjiList={detail.gradeKanji} />
+          <KanjiPicker
+            currentGrade={detail.canonicalGrade}
+            currentKanji={kanji}
+            instruction="がくねんを えらんで かんじを さがそう"
+            isInline
+            kanjiList={detail.gradeKanji}
+          />
         </div>
       </div>
     </AppShell>,

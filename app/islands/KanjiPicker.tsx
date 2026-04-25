@@ -5,6 +5,7 @@ import { gradePath, kanjiPath } from "../lib/routes";
 type KanjiPickerProps = {
   currentGrade: number | null;
   currentKanji: string | null;
+  instruction?: string;
   isInline?: boolean;
   kanjiList: string[];
 };
@@ -45,7 +46,13 @@ async function fetchGradeKanji(grade: number) {
   return kanji;
 }
 
-export default function KanjiPicker({ currentGrade, currentKanji, isInline = false, kanjiList }: KanjiPickerProps) {
+export default function KanjiPicker({
+  currentGrade,
+  currentKanji,
+  instruction = "",
+  isInline = false,
+  kanjiList,
+}: KanjiPickerProps) {
   const [selectedGrade, setSelectedGrade] = useState<number | null>(currentGrade);
   const [selectedKanjiList, setSelectedKanjiList] = useState(kanjiList);
   const mountedRef = useRef(true);
@@ -110,6 +117,7 @@ export default function KanjiPicker({ currentGrade, currentKanji, isInline = fal
     <details class={`kanji-drawer${isInline ? " is-inline" : ""}`} {...(isInline ? { open: true } : {})}>
       <summary aria-label="かんじを えらぶ" class="kanji-drawer-toggle">
         <span class="sr-only">かんじを えらぶ</span>
+        {instruction ? <span class="kanji-drawer-toggle-text">{instruction}</span> : null}
         <span aria-hidden="true" class="kanji-drawer-toggle-icon">
           ▾
         </span>

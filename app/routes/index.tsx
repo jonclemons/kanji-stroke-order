@@ -14,8 +14,9 @@ export default createRoute(async (c) => {
       currentPath={c.req.path}
       error={queryError}
       kanjiList={kanjiList}
+      pickerInstruction="がくねんを えらんで かんじを さがそう"
       searchValue={queryKanji}
-      subtitle="がくねんを えらんで かんじを さがそう"
+      subtitle=""
       title="かんじれんしゅう"
     />,
     { title: "かんじれんしゅう" },

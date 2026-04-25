@@ -104,11 +104,11 @@ function syncPageIntroForKanjiView(showList: boolean) {
     const nextTitle = showList ? intro.dataset.listTitle : intro.dataset.defaultTitle;
     const nextSubtitle = showList ? intro.dataset.listSubtitle : intro.dataset.defaultSubtitle;
 
-    if (title instanceof HTMLElement && nextTitle) {
+    if (title instanceof HTMLElement && typeof nextTitle === "string") {
       title.textContent = nextTitle;
     }
 
-    if (subtitle instanceof HTMLElement && nextSubtitle) {
+    if (subtitle instanceof HTMLElement && typeof nextSubtitle === "string") {
       subtitle.textContent = nextSubtitle;
     }
   });

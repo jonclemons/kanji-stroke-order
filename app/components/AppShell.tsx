@@ -12,6 +12,7 @@ type AppShellProps = {
   kanjiList?: string[];
   listSubtitle?: string;
   listTitle?: string;
+  pickerInstruction?: string;
   searchValue?: string;
   title: string;
   subtitle: string;
@@ -28,6 +29,7 @@ export function AppShell({
   kanjiList = [],
   listSubtitle,
   listTitle,
+  pickerInstruction = "",
   searchValue = "",
   title,
   subtitle,
@@ -77,6 +79,7 @@ export function AppShell({
             <KanjiPicker
               currentGrade={currentGrade}
               currentKanji={currentKanji}
+              instruction={pickerInstruction}
               isInline
               kanjiList={kanjiList}
             />
