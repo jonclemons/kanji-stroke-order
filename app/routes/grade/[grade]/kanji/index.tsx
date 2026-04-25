@@ -143,7 +143,7 @@ app.get("/:char/print", async (c) => {
   return c.render(
     <div class="print-page">
       <header class="print-page-header">
-        <h1 class="print-page-title">{`${kanji}のかんじれんしゅうプリント を いんさつする`}</h1>
+        <h1 class="print-page-title">{`${kanji}のれんしゅうシート`}</h1>
       </header>
 
       <main class="print-page-main">
@@ -152,8 +152,11 @@ app.get("/:char/print", async (c) => {
             <a class="app-footer-btn is-secondary" href={kanjiPath(detail.canonicalGrade || requestedGrade, kanji)}>
               ←もどる
             </a>
-            <button class="app-footer-btn is-accent" id="printRouteBtn" type="button">
-              いんさつする
+            <button aria-label={`${kanji}のれんしゅうシートを いんさつする`} class="app-footer-btn is-accent" id="printRouteBtn" type="button">
+              <span class="app-footer-btn-text">いんさつする</span>
+              <span aria-hidden="true" class="app-footer-btn-icon">
+                <PrinterIcon />
+              </span>
             </button>
           </div>
           <p class="print-view-note">プレビューを みてから したの いんさつを おしてね</p>
