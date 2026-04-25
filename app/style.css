@@ -1563,7 +1563,7 @@ button:hover {
 
 @media print {
   @page {
-    size: 297mm 210mm;
+    size: A4 landscape;
     margin: 6mm;
   }
 
@@ -1571,14 +1571,12 @@ button:hover {
   body {
     background: white !important;
     color: black !important;
-    width: 281mm;
-    height: 194mm;
+    height: auto;
     overflow: visible;
   }
 
   .print-page {
-    width: 281mm;
-    min-height: 194mm;
+    min-height: auto;
     display: block;
     background: white !important;
   }
@@ -1594,8 +1592,6 @@ button:hover {
   .print-view,
   .print-view-sheet-wrap {
     display: block;
-    width: 281mm;
-    height: 194mm;
     min-height: auto;
     overflow: visible;
     padding: 0;
@@ -1603,8 +1599,7 @@ button:hover {
   }
 
   .print-preview-sheet {
-    width: 281mm;
-    height: 194mm;
+    width: 100%;
     max-width: none;
     margin: 0;
     border: none;
@@ -1617,36 +1612,10 @@ button:hover {
 
   .print-preview-sheet svg {
     display: block;
-    width: 281mm;
-    max-width: none;
-    height: 194mm;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     break-inside: avoid-page;
     page-break-inside: avoid;
-  }
-}
-
-@media print and (orientation: portrait) {
-  html,
-  body {
-    width: 198mm;
-    height: 285mm;
-  }
-
-  .print-page {
-    width: 198mm;
-    min-height: 285mm;
-  }
-
-  .print-page-main,
-  .print-view,
-  .print-view-sheet-wrap {
-    width: 198mm;
-    height: 285mm;
-  }
-
-  /* iOS AirPrint can ignore @page landscape, so rotate the sheet inside the portrait page it actually uses. */
-  .print-preview-sheet {
-    transform: translateX(194mm) rotate(90deg);
-    transform-origin: top left;
   }
 }

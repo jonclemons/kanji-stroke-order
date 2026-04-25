@@ -181,6 +181,18 @@ setupKanjiDetailSwitcher();
 
 let activePrintFrame: HTMLIFrameElement | null = null;
 
+function shouldPrintInHiddenFrame() {
+  const userAgent = window.navigator.userAgent;
+  const isIOS =
+    /iPad|iPhone|iPod/.test(userAgent) ||
+    (window.navigator.platform === "MacIntel" && window.navigator.maxTouchPoints > 1);
+  const isSafari =
+    /\bSafari\//.test(userAgent) &&
+    !/\bChrome\/|\bChromium\/|\bCriOS\/|\bFxiOS\/|\bEdg\//.test(userAgent);
+
+  return !isIOS && !isSafari;
+}
+
 function printInHiddenFrame(url: string, title: string) {
   activePrintFrame?.remove();
 
@@ -233,6 +245,8 @@ function printInHiddenFrame(url: string, title: string) {
 }
 
 function setupDirectPrintLinks() {
+  if (!shouldPrintInHiddenFrame()) return;
+
   document.querySelectorAll("[data-print-now]").forEach((link) => {
     if (!(link instanceof HTMLAnchorElement)) return;
     if (link.dataset.bound === "true") return;
