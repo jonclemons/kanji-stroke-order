@@ -58,6 +58,8 @@ app.get("/:char", async (c) => {
         </>
       }
       kanjiList={detail.gradeKanji}
+      listSubtitle="がくねんを えらんで かんじを さがそう"
+      listTitle="かんじれんしゅう"
       searchValue={c.req.query("kanji") || kanji}
       subtitle="よみかた、ことば、かきじゅんを みてみよう"
       title={`${kanji} の れんしゅう`}

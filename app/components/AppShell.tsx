@@ -10,6 +10,8 @@ type AppShellProps = {
   error?: string | null;
   footerActions?: Child;
   kanjiList?: string[];
+  listSubtitle?: string;
+  listTitle?: string;
   searchValue?: string;
   title: string;
   subtitle: string;
@@ -24,6 +26,8 @@ export function AppShell({
   error = null,
   footerActions = null,
   kanjiList = [],
+  listSubtitle,
+  listTitle,
   searchValue = "",
   title,
   subtitle,
@@ -54,9 +58,20 @@ export function AppShell({
 
       <main class="main-content">
         <div class="content-column main-content-inner">
-          <div class="page-intro">
-            <h1 class="page-intro-title">{title}</h1>
-            <p class="page-intro-subtitle">{subtitle}</p>
+          <div
+            class="page-intro"
+            data-default-subtitle={subtitle}
+            data-default-title={title}
+            data-list-subtitle={listSubtitle || subtitle}
+            data-list-title={listTitle || title}
+            data-page-intro
+          >
+            <h1 class="page-intro-title" data-page-intro-title>
+              {title}
+            </h1>
+            <p class="page-intro-subtitle" data-page-intro-subtitle>
+              {subtitle}
+            </p>
           </div>
           {showInlinePicker ? (
             <KanjiPicker

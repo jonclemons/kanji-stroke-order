@@ -95,6 +95,25 @@ function syncFooterActionGroups() {
   });
 }
 
+function syncPageIntroForKanjiView(showList: boolean) {
+  document.querySelectorAll("[data-page-intro]").forEach((intro) => {
+    if (!(intro instanceof HTMLElement)) return;
+
+    const title = intro.querySelector("[data-page-intro-title]");
+    const subtitle = intro.querySelector("[data-page-intro-subtitle]");
+    const nextTitle = showList ? intro.dataset.listTitle : intro.dataset.defaultTitle;
+    const nextSubtitle = showList ? intro.dataset.listSubtitle : intro.dataset.defaultSubtitle;
+
+    if (title instanceof HTMLElement && nextTitle) {
+      title.textContent = nextTitle;
+    }
+
+    if (subtitle instanceof HTMLElement && nextSubtitle) {
+      subtitle.textContent = nextSubtitle;
+    }
+  });
+}
+
 function setKanjiDetailView(showList: boolean) {
   document.querySelectorAll("[data-kanji-detail-switcher]").forEach((switcher) => {
     const detailPanel = switcher.querySelector("[data-kanji-detail-panel]");
@@ -122,6 +141,7 @@ function setKanjiDetailView(showList: boolean) {
     }
   });
 
+  syncPageIntroForKanjiView(showList);
   syncFooterActionGroups();
   window.requestAnimationFrame(scrollMainToTop);
 }
