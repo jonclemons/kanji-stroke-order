@@ -20,6 +20,7 @@ This file captures project context, user preferences, and working knowledge for 
 - **Plan before building**: use plan mode for non-trivial features
 - **Test before moving on**: push and verify changes before starting next feature
 - **Discuss before acting**: don't make large assumptions, ask first
+- **Framework-native first**: use HonoX/Hono routing, request, response, and rendering patterns for app behavior; if a change is tempting to solve outside the framework's native model, confirm before doing it
 - **All hiragana** for labels aimed at kids (よみかた not 読み方, かきじゅん not 書きじゅん, かく not 画)
 
 ## Project: kanji-stroke-order
