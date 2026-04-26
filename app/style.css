@@ -168,9 +168,9 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--border);
+  border: 1px solid transparent;
   border-radius: 999px;
-  background: color-mix(in srgb, var(--bg-light) 88%, transparent);
+  background: transparent;
   color: var(--text);
   padding: 0.22rem;
   margin-left: auto;
@@ -187,8 +187,7 @@ body {
 }
 
 .theme-toggle-btn:hover {
-  border-color: var(--mint);
-  box-shadow: 0 0 0 2px color-mix(in srgb, var(--mint) 24%, transparent);
+  background: color-mix(in srgb, var(--bg-light) 45%, transparent);
   transform: translateY(-1px);
 }
 
