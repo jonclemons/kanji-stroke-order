@@ -1017,10 +1017,19 @@ button:hover {
 .detail-print-preview-link {
   display: block;
   width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
   color: inherit;
+  cursor: pointer;
   text-decoration: none;
   border-radius: 10px;
   outline-offset: 0.25rem;
+  text-align: inherit;
+}
+
+.detail-print-preview-link:hover {
+  background: transparent;
 }
 
 .detail-print-preview-link:hover .print-preview-sheet,

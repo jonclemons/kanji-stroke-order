@@ -263,6 +263,51 @@ function setupDirectPrintLinks() {
 
 setupDirectPrintLinks();
 
+function setupPrintPdfTriggers() {
+  document.querySelectorAll("[data-print-pdf-trigger]").forEach((trigger) => {
+    if (!(trigger instanceof HTMLButtonElement)) return;
+    if (trigger.dataset.bound === "true") return;
+
+    trigger.dataset.bound = "true";
+    trigger.addEventListener("click", async () => {
+      if (trigger.disabled) return;
+
+      const svg = trigger.querySelector(".print-preview-sheet svg");
+      if (!(svg instanceof SVGSVGElement)) return;
+
+      const title = trigger.dataset.printPdfTitle || document.title;
+      const filename = trigger.dataset.printPdfFilename || `${title}.pdf`;
+      const pdfWindow = window.open("", "_blank");
+
+      trigger.disabled = true;
+
+      try {
+        const { generatePrintSheetPdfBlob } = await import("./lib/print-pdf");
+        const pdfBlob = await generatePrintSheetPdfBlob(svg, title);
+        const pdfUrl = URL.createObjectURL(pdfBlob);
+
+        if (pdfWindow) {
+          pdfWindow.document.title = filename;
+          pdfWindow.location.href = pdfUrl;
+        } else {
+          window.location.href = pdfUrl;
+        }
+
+        window.setTimeout(() => URL.revokeObjectURL(pdfUrl), 10 * 60_000);
+      } catch (error) {
+        pdfWindow?.close();
+        console.error(error);
+        window.focus();
+        window.print();
+      } finally {
+        trigger.disabled = false;
+      }
+    });
+  });
+}
+
+setupPrintPdfTriggers();
+
 async function setupServiceWorker() {
   if (!("serviceWorker" in navigator)) return;
 

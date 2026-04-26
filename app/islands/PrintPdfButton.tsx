@@ -2,11 +2,20 @@ import { useState } from "hono/jsx";
 import { generatePrintSheetPdfBlob } from "../lib/print-pdf";
 
 type PrintPdfButtonProps = {
+  detailOnly?: boolean;
   filename: string;
+  label?: string;
+  sourceSelector?: string;
   title: string;
 };
 
-export default function PrintPdfButton({ filename, title }: PrintPdfButtonProps) {
+export default function PrintPdfButton({
+  detailOnly = false,
+  filename,
+  label = "いんさつする",
+  sourceSelector = ".print-preview-sheet svg",
+  title,
+}: PrintPdfButtonProps) {
   const [isBusy, setIsBusy] = useState(false);
 
   const handlePrint = async () => {
@@ -16,7 +25,7 @@ export default function PrintPdfButton({ filename, title }: PrintPdfButtonProps)
     setIsBusy(true);
 
     try {
-      const svg = document.querySelector(".print-preview-sheet svg");
+      const svg = document.querySelector(sourceSelector);
       if (!(svg instanceof SVGSVGElement)) {
         throw new Error("Print sheet SVG was not found.");
       }
@@ -46,11 +55,12 @@ export default function PrintPdfButton({ filename, title }: PrintPdfButtonProps)
     <button
       aria-label={`${title}を いんさつする`}
       class="app-footer-btn is-accent"
+      data-kanji-detail-only={detailOnly ? "true" : undefined}
       disabled={isBusy}
       onClick={handlePrint}
       type="button"
     >
-      <span class="app-footer-btn-text">{isBusy ? "PDFをつくっています" : "いんさつする"}</span>
+      <span class="app-footer-btn-text">{isBusy ? "PDFをつくっています" : label}</span>
       <span aria-hidden="true" class="app-footer-btn-icon">
         <PrinterIcon />
       </span>

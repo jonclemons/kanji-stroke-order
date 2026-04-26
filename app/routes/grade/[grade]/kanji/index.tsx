@@ -43,17 +43,12 @@ app.get("/:char", async (c) => {
           <button class="app-footer-btn is-picker" data-kanji-list-toggle type="button">
             かんじ いちらん
           </button>
-          <a
-            aria-label={`${kanji}のれんしゅうシートを いんさつする`}
-            class="app-footer-btn is-accent"
-            data-kanji-detail-only
-            href={printPath(printGrade, kanji)}
-          >
-            <span class="app-footer-btn-text">れんしゅうシート</span>
-            <span aria-hidden="true" class="app-footer-btn-icon">
-              <PrinterIcon />
-            </span>
-          </a>
+          <PrintPdfButton
+            detailOnly
+            filename={`${printTitle}.pdf`}
+            label="れんしゅうシート"
+            title={printTitle}
+          />
         </>
       }
       kanjiList={detail.gradeKanji}
@@ -86,16 +81,19 @@ app.get("/:char", async (c) => {
                 <div class="section">
                   <h3>れんしゅうシート</h3>
                   <div class="practice-options">
-                    <a
+                    <button
                       aria-label={`${kanji}のれんしゅうシートを いんさつする`}
                       class="detail-print-preview-link"
-                      href={printPath(printGrade, kanji)}
+                      data-print-pdf-title={printTitle}
+                      data-print-pdf-trigger
+                      data-print-pdf-filename={`${printTitle}.pdf`}
+                      type="button"
                     >
                       <div aria-hidden="true" class="detail-print-preview">
                         <PrintPreviewSheet svgMarkup={svgMarkup} />
                       </div>
                       <span class="sr-only">{kanji}のれんしゅうシートを いんさつする</span>
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -177,15 +175,5 @@ app.get("/:char/print", async (c) => {
     { title: printTitle },
   );
 });
-
-function PrinterIcon() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M6 9V2h12v7" />
-      <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
-      <path d="M6 14h12v8H6z" />
-    </svg>
-  );
-}
 
 export default app;
