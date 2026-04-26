@@ -46,15 +46,6 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: deploy --env staging
-          environment: staging
-          secrets: |
-            READ_KEY
-            STAGING_BASIC_AUTH
-            UPLOAD_KEY
-        env:
-          READ_KEY: ${{ secrets.READ_KEY }}
-          STAGING_BASIC_AUTH: ${{ secrets.STAGING_BASIC_AUTH }}
-          UPLOAD_KEY: ${{ secrets.UPLOAD_KEY }}
 
       - name: Smoke test deployed Worker
         if: ${{ vars.WORKER_BASE_URL != '' }}
@@ -92,12 +83,6 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: deploy
-          secrets: |
-            READ_KEY
-            UPLOAD_KEY
-        env:
-          READ_KEY: ${{ secrets.READ_KEY }}
-          UPLOAD_KEY: ${{ secrets.UPLOAD_KEY }}
 
       - name: Smoke test deployed Worker
         if: ${{ vars.WORKER_BASE_URL != '' }}
