@@ -58,6 +58,8 @@ jobs:
 
       - name: Smoke test deployed Worker
         if: ${{ vars.WORKER_BASE_URL != '' }}
+        env:
+          SMOKE_BASIC_AUTH: ${{ secrets.STAGING_BASIC_AUTH }}
         run: bun run smoke:worker -- "${{ vars.WORKER_BASE_URL }}"
 
   deploy-production:

@@ -8,10 +8,15 @@ if (!base) {
 }
 
 const baseUrl = new URL(base.endsWith("/") ? base : `${base}/`);
+const requestHeaders = new Headers();
+
+if (process.env.SMOKE_BASIC_AUTH) {
+  requestHeaders.set("Authorization", `Basic ${Buffer.from(process.env.SMOKE_BASIC_AUTH).toString("base64")}`);
+}
 
 async function expectEndpoint(pathname, assertion) {
   const url = new URL(pathname, baseUrl);
-  const response = await fetch(url);
+  const response = await fetch(url, { headers: requestHeaders });
   await assertion(response, url);
 }
 
