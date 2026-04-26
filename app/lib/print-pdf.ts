@@ -3,6 +3,7 @@ const SHEET_WIDTH_MM = 281;
 const SHEET_HEIGHT_MM = 194;
 const MM_PER_INCH = 25.4;
 const CANVAS_DPI = 220;
+const SVG_IMAGE_TIMEOUT_MS = 15_000;
 
 export async function generatePrintSheetPdfBlob(svg: SVGSVGElement, title: string) {
   const [{ jsPDF }, pngDataUrl] = await Promise.all([import("jspdf"), svgToPngDataUrl(svg)]);
@@ -51,9 +52,25 @@ async function svgToPngDataUrl(svg: SVGSVGElement) {
 function loadImage(src: string) {
   return new Promise<HTMLImageElement>((resolve, reject) => {
     const image = new Image();
+    const timeout = window.setTimeout(() => {
+      cleanup();
+      reject(new Error("Timed out while rendering the print sheet SVG."));
+    }, SVG_IMAGE_TIMEOUT_MS);
+    const cleanup = () => {
+      window.clearTimeout(timeout);
+      image.onload = null;
+      image.onerror = null;
+    };
+
     image.decoding = "async";
-    image.onload = () => resolve(image);
-    image.onerror = () => reject(new Error("Could not render the print sheet SVG."));
+    image.onload = () => {
+      cleanup();
+      resolve(image);
+    };
+    image.onerror = () => {
+      cleanup();
+      reject(new Error("Could not render the print sheet SVG."));
+    };
     image.src = src;
   });
 }

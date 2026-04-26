@@ -4,13 +4,14 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 8000",
     "build": "vite build --mode client && vite build",
-    "benchmark:print-pdfs": "node scripts/benchmark-print-pdfs.mjs",
+    "benchmark:print-pdfs": "node tests/printables/run-printable-pdfs.mjs",
     "preview": "wrangler dev",
     "deploy": "wrangler deploy",
     "measure:latency": "node scripts/measure-latency.mjs",
     "mirror:data": "node scripts/mirror-kanji-data.mjs",
     "smoke:worker": "node scripts/smoke-worker.mjs",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:printables": "node tests/printables/run-printable-pdfs.mjs"
   },
   "dependencies": {
     "hono": "^4.12.14",
