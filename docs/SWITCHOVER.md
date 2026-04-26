@@ -95,6 +95,33 @@ If you want a friendlier test URL before production cutover, use a temporary cus
 
 If the `kokugo.app` zone is in Cloudflare, add that custom domain to the Worker first and test there. This is the nicest path if multiple devices need to test the new runtime before launch.
 
+The staging Worker environment is also configured for separate R2 buckets:
+
+- `kanji-recognizer-assets-staging`
+- `kanji-sheets-staging`
+
+Staging secrets are separate from the root Worker environment, so set them once with:
+
+```bash
+bunx wrangler secret put READ_KEY --env staging
+bunx wrangler secret put STAGING_BASIC_AUTH --env staging
+bunx wrangler secret put UPLOAD_KEY --env staging
+```
+
+`STAGING_BASIC_AUTH` should be in `username:password` format. The staging host uses HTTP Basic Auth for all routes except `/robots.txt` and `/api/health`.
+
+Deploy that environment with:
+
+```bash
+bun run deploy:staging
+```
+
+Upload the hidden draw-search recognizer model to staging with:
+
+```bash
+bun run sync:recognizer:r2:staging
+```
+
 ## Production cutover
 
 ### If `kokugo.app` is not yet attached anywhere

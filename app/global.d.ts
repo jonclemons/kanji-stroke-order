@@ -10,4 +10,16 @@ declare module "hono" {
   }
 }
 
+interface Navigator {
+  connection?: {
+    saveData?: boolean;
+  };
+  standalone?: boolean;
+}
+
+interface Window {
+  tf?: any;
+  tflite?: any;
+}
+
 export {};

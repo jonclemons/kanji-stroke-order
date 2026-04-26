@@ -20,8 +20,29 @@
   },
   "r2_buckets": [
     {
+      "binding": "RECOGNIZER_ASSETS",
+      "bucket_name": "kanji-recognizer-assets"
+    },
+    {
       "binding": "SHEETS",
       "bucket_name": "kanji-sheets"
     }
-  ]
+  ],
+  "env": {
+    "staging": {
+      "secrets": {
+        "required": ["READ_KEY", "STAGING_BASIC_AUTH", "UPLOAD_KEY"]
+      },
+      "r2_buckets": [
+        {
+          "binding": "RECOGNIZER_ASSETS",
+          "bucket_name": "kanji-recognizer-assets-staging"
+        },
+        {
+          "binding": "SHEETS",
+          "bucket_name": "kanji-sheets-staging"
+        }
+      ]
+    }
+  }
 }

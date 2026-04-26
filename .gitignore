@@ -7,3 +7,5 @@ worker/.dev.vars
 dist/
 build/
 output/
+public/recognizer-wasm/
+public/recognizer-vendor/
