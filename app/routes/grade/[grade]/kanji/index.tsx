@@ -4,6 +4,7 @@ import { PrintPreviewSheet, ReadingsSection, StepsSection, WordsSection } from "
 import type { AppEnv } from "../../../../env";
 import DeferredPracticeAnimator from "../../../../islands/DeferredPracticeAnimator";
 import KanjiPicker from "../../../../islands/KanjiPicker";
+import PrintPdfButton from "../../../../islands/PrintPdfButton";
 import { loadKanjiDetailData, parseGrade, parseKanjiParam } from "../../../../lib/data";
 import { buildPrintSheetSVG } from "../../../../lib/print";
 import { kanjiPath, printPath } from "../../../../lib/routes";
@@ -46,8 +47,6 @@ app.get("/:char", async (c) => {
             aria-label={`${kanji}のれんしゅうシートを いんさつする`}
             class="app-footer-btn is-accent"
             data-kanji-detail-only
-            data-print-now
-            data-print-title={printTitle}
             href={printPath(printGrade, kanji)}
           >
             <span class="app-footer-btn-text">れんしゅうシート</span>
@@ -90,8 +89,6 @@ app.get("/:char", async (c) => {
                     <a
                       aria-label={`${kanji}のれんしゅうシートを いんさつする`}
                       class="detail-print-preview-link"
-                      data-print-now
-                      data-print-title={printTitle}
                       href={printPath(printGrade, kanji)}
                     >
                       <div aria-hidden="true" class="detail-print-preview">
@@ -139,11 +136,12 @@ app.get("/:char/print", async (c) => {
     strokeNumbers: detail.strokeNumbers,
     strokes: detail.strokes,
   });
+  const printTitle = `${kanji}のれんしゅうシート`;
 
   return c.render(
     <div class="print-page">
       <header class="print-page-header">
-        <h1 class="print-page-title">{`${kanji}のれんしゅうシート`}</h1>
+        <h1 class="print-page-title">{printTitle}</h1>
       </header>
 
       <main class="print-page-main">
@@ -152,12 +150,7 @@ app.get("/:char/print", async (c) => {
             <a class="app-footer-btn is-secondary" href={kanjiPath(detail.canonicalGrade || requestedGrade, kanji)}>
               ←もどる
             </a>
-            <button aria-label={`${kanji}のれんしゅうシートを いんさつする`} class="app-footer-btn is-accent" id="printRouteBtn" type="button">
-              <span class="app-footer-btn-text">いんさつする</span>
-              <span aria-hidden="true" class="app-footer-btn-icon">
-                <PrinterIcon />
-              </span>
-            </button>
+            <PrintPdfButton filename={`${printTitle}.pdf`} title={printTitle} />
           </div>
           <p class="print-view-note">プレビューを みてから したの いんさつを おしてね</p>
           <div class="print-view-sheet-wrap">
@@ -180,22 +173,8 @@ app.get("/:char/print", async (c) => {
         </div>
       </footer>
 
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            (() => {
-              const printButton = document.getElementById('printRouteBtn');
-              if (!(printButton instanceof HTMLButtonElement)) return;
-              printButton.addEventListener('click', () => {
-                window.focus();
-                window.print();
-              });
-            })();
-          `,
-        }}
-      />
     </div>,
-    { title: `${kanji}のれんしゅうシート` },
+    { title: printTitle },
   );
 });
 

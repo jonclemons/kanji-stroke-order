@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 8000",
     "build": "vite build --mode client && vite build",
+    "benchmark:print-pdfs": "node scripts/benchmark-print-pdfs.mjs",
     "preview": "wrangler dev",
     "deploy": "wrangler deploy",
     "measure:latency": "node scripts/measure-latency.mjs",
@@ -13,7 +14,8 @@
   },
   "dependencies": {
     "hono": "^4.12.14",
-    "honox": "^0.1.55"
+    "honox": "^0.1.55",
+    "jspdf": "^4.2.1"
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.14.8",

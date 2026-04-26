@@ -123,7 +123,7 @@ app.get("/api/sheet/*", async (c) => {
     return new Response("Not Found", { status: 404, headers: withCors(origin) });
   }
 
-  if (c.env.READ_KEY && c.req.header("X-Read-Key") !== c.env.READ_KEY) {
+  if (!c.env.READ_KEY || c.req.header("X-Read-Key") !== c.env.READ_KEY) {
     return new Response("Unauthorized", { status: 401, headers: withCors(origin) });
   }
 
@@ -135,7 +135,8 @@ app.get("/api/sheet/*", async (c) => {
   return new Response(object.body, {
     headers: withCors(origin, {
       "Content-Type": "application/pdf",
-      "Cache-Control": "public, max-age=31536000, immutable",
+      "Cache-Control": "private, max-age=3600",
+      "X-Robots-Tag": "noindex",
     }),
   });
 });
@@ -148,7 +149,7 @@ app.put("/api/sheet/*", async (c) => {
     return new Response("Not Found", { status: 404, headers: withCors(origin) });
   }
 
-  if (c.env.UPLOAD_KEY && c.req.header("X-Upload-Key") !== c.env.UPLOAD_KEY) {
+  if (!c.env.UPLOAD_KEY || c.req.header("X-Upload-Key") !== c.env.UPLOAD_KEY) {
     return new Response("Unauthorized", { status: 401, headers: withCors(origin) });
   }
 
